@@ -292,30 +292,25 @@ Os critérios considerados para que tenha terminado este projeto são:
 
 ### Definição de produto
 
-Documente brevemente seu trabalho no arquivo `README.md` de seu repositório,
-contando como foi o processo de desenho e como você acredita que o produto possa
-resolver o problema (ou problemas) de seu usuário.
+O projeto foi construido para fãs de Pokémon, tanto de jogos como do desenho, que quer ter mais informações sobre o personagem, e também para jogadores de Pokémon UNITE que querem saber as resistências, fraquezas dos personagens, para conseguir escolher com mais precisão seu personagem para jogar.
+Para auxiliar na busca, o projeto conta com a barra de pesquisa, o filtro, e a opção de ordenar. 
 
 ### Histórias de usuário
+Pensando nos objetivos do usuário:
+1: Vizualizar todos os pokémons e suas informações ao abrir a aplicação.
+2: Ordernar todos os pokémons por ordem alfabética crescente e decrescente.
+3: Filtrar os pokémons por tipo.
+4: Buscar um pokémon pelo nome.
 
-Uma vez que entenda a necessidade dos usuários, escreva as [Historias de
-Usuario](https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio) que
-representem tudo que o usuário precisa fazer/ver. As **histórias de usuário**
-devem ser o resultado de seu processo de investigação/pesquisa de seus usuários.
+Ao entrar no site, o usuário visualizará todos os Pokemóns, e ao passar o mouse por cima do card com a imagem, terá as informações de: peso, altura, candies, raridade, resistência e fraquezas. Há uma opção para ordenar os Pokemóns por ordem Alfabética, um filtro para que seja possível filtrar o tipo do personagem e um campo para a busca especifica pelo nome.  
 
-Não esqueça de incluir a definição de pronto (_definition of done_) e os
-critérios de aceitação para cada uma.
-
-Na medida do possível, termine uma história de usuário antes de passar para a
-seguinte (cumpra com as definições de pronto + critérios de aceitação).
+O site foi pensando para ser utilizado quando fãs do desenho quiserem ter mais informações do personagem, ou, quando jogadores de Pokémon quiserem saber as características dos personagens para escolher de acordo com seu objetivo no jogo (atacar, defender, dar assistência);
 
 ### Desenho de interface do usuário
 
 #### Protótipo de baixa fidelidade
 
-Durante seu trabalho você deverá fazer e iterar rascunhos de sua solução usando
-lápis e papel. Recomendamos que fotografe todas as iterações que fizer, suba
-para seu repositório e as mencione no `README.md`.
+![Protótipo de baixa fidelidade](Primeiro-prototipo.png)
 
 #### Protótipo de alta fidelidade
 

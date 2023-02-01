@@ -1,0 +1,22 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background-image: url('./img/background.jpg');
+}
+
+:root {
+    --bluecolor: #3F61A6; 
+    --yellow-color: #F2B807; 
+    --red-color: #D94436;
+    --blackcolor: #0D0D0D; 
+}
+
+aside {
+    background-color: var(--yellow-color);
+    
+
+
+
+
+}
