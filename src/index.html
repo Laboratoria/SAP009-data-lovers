@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémom - Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+      <img src="./img/pokemon-logo.png" alt="logo-pokemóm">
+    </header>
+    <main>
+      <section>
+        <input type="text">
+        <button type="button">BUSCAR</button>
+      </section>
+
+      <section>
+
+        <label for="filtro-types"></label>
+        <select name="types" id="filtro-types">
+          <option>FILTRO</option>
+          <option value="planta">Planta</option>
+          <option value="venenoso">Venenoso</option>
+          <option value="fogo">Fogo</option>
+          <option value="eletrico">Elétrico</option>
+          <option value="aço">Aço</option>
+          <option value="dragao">Dragão</option>
+          <option value="fada">Fada</option>
+          <option value="fantasma">Fatasma</option>
+          <option value="gelo">Gelo</option>
+          <option value="inseto">Inseto</option>
+          <option value="lutador">Lutador</option>
+          <option value="normal">Normal</option>
+          <option value="psiquico">Psíquico</option>
+          <option value="sombrio">Sombrio</option>
+          <option value="terra">Terra</option>
+          <option value="voador">Voador</option>
+        </select>
+
+        <label for="order-by"></label>
+        <select name="order" id="order-by">
+          <option value="">ORDENAR POR</option>
+          <option value="a-z">A - Z</option>
+          <option value="z-a">Z - A</option>
+        </select>
+
+      </section>
+
+      <aside>
+        <h2>Legendas</h2>
+        <p>🦾 = Aço</p>
+        <p>💧 = Água</p>
+        <p>🐲 = Dragão</p>
+        <p>⚡ = Elétrico</p>
+        <p>🧚🏻= Fada</p>
+        <p>👻 = Fantasma</p>
+        <p>🔥 = Fogo</p>
+        <p>🧊 = Gelo</p>
+        <p>🐛 = Inseto</p>
+        <p>🥊 = Lutador</p>
+        <p>💭 = Normal</p>
+        <p>⚙️ = Pedra</p>
+        <p>🍀 = Planta</p>
+        <p>💫 = Psíquico</p>
+        <p>🛸 = Sombrio</p>
+        <p>🌏 = Terra</p>
+        <p>🐍 = Venenoso</p>
+        <p>🪂 = Voador</p>
+      </aside>
+
+      <section>
+        <div class="card-front">
+          <img src="./img/pokemon.jpg" alt="charmander">
+          <p>CHARMANDER</p>
+          <P>FOGO</P>
+        </div>
+        <div class="card-back">
+          <p>Peso: <span class="weight">20kg</span></p>
+          <p>Altura: <span class="height">20kg</span></p>
+          <p>Candies: <span class="candies">20kg</span></p>
+          <p>Raridade: <span class="rarity">20kg</span></p>
+          <p>Resistências: <span class="resistances">20kg</span></p>
+          <p>Fraquezas: <span class="weakness">20kg</span></p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Angelina Melo</p>
+      <a href><ion-icon name="logo-linkedin"></ion-icon></a>
+      <a href><ion-icon name="logo-github"></ion-icon></a>
+      <p>Desenvolvido por Paola Oliveira</p>
+      <a href><ion-icon name="logo-linkedin"></ion-icon></a>
+      <a href><ion-icon name="logo-github"></ion-icon></a>
+    </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
