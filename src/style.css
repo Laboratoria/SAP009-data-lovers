@@ -1,0 +1,100 @@
+
+#escolha-seu-campeao{
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+/*.container{
+    background-color: #491879;
+    opacity: 70%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin-top: 5%;
+}*/   
+    
+
+/* .estilo-header{
+    opacity: 90%;
+    background:#1b0a41;
+    border-radius: 1000px;
+    padding: 10px 15px;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 2%;
+}*/
+
+#img-logo-lol{
+    width: 150px; /* largura da img de logo */
+
+}
+
+.navigation-header{
+    display: flex;
+    gap: 3em; /* dando um espaço entre o pesquise e jogue*/
+}
+.navigation-header a{ /*decorando o escrito jogue agora*/
+    text-decoration: none; /*tirando o sublinhado*/
+    color: azure;
+}
+
+.header{
+    display: flex; /*flex box: sem ele o pesquise por nome e jogue agora ñ ficam do lado */
+    flex-direction: row; /*deixa um do lado do outro*/
+    align-items: center; /*centraliza horizontalmente os item do header */
+    background-color: #28184d;
+    opacity: 70%;
+    height: 60px;
+    justify-content: space-between; /*deixa o pesquisar por e jogue agr separados para a extrema esquerda*/
+    padding: 0% 10%; /* definindo espaçamento apenas para direita e esquerda */
+}
+
+#txt-escolha-campeao{
+    color: white;
+}
+
+#txt-pesquisa{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.jogue-agora{
+    width: 60%;
+    padding: 10px;
+    align-self: center;
+    background-color: #150932;
+    border-radius: 100px; 
+    text-align: center;
+}
+.btn-icon-header{
+    display: none; /* acrescentamos os icones X e ||| e tiramos a visu para apenas aparecer em modo celular/tela pequena */
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+} /* @media no final do codigo*/
+html{
+    background-image: url(https://i.pinimg.com/originals/6c/18/cf/6c18cfea1f788b7ffa8b56f6b5cfba97.jpg);
+    background-size: 100%; /*mudar isso depois */
+    background-size: cover;
+    display: table; /* verificar*/
+    width: 100%;
+    height: 100%;
+    background-position: 45% 45%; /*centralizando a imagem*/  
+}
+
+.lista-seletores{
+    opacity: 55%;
+    background:#150932;
+    border-radius: 1000px;
+    padding: 10px 15px;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 2%;
+    }
+
+#footer{
+    color: white;
+}
