@@ -1,8 +1,9 @@
 *{
     font-family: 'Ubuntu', sans-serif;
-}
-header {
-    background-image: url('./img/background.jpg');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
 :root {
@@ -11,12 +12,33 @@ header {
     --red-color: #D94436;
     --blackcolor: #0D0D0D; 
 }
+header {
+    background-image: url('./img/bg.jpg');
+    height: 30vh;
+    justify-content: center;
+}
+
+body {
+    background-color: var(--bluecolor);
+}
+.section-inputs{
+    justify-content: space-between;
+}
+
+.display{
+    display: flex;
+}
+
+.inputs-position{
+    gap: 15px;
+}
 
 aside {
     background-color: var(--yellow-color);
-    
+    flex-direction: column;
+    width: 200px;
+}
 
-
-
-
+footer {
+   background-color: var(--yellow-color); 
 }
