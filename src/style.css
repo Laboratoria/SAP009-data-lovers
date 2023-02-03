@@ -13,7 +13,7 @@
     --blackcolor: #0D0D0D; 
 }
 header {
-    background-image: url('./img/bg.jpg');
+    background-image: url('./img/background.jpg');
     height: 30vh;
     justify-content: center;
 }
@@ -33,16 +33,50 @@ body {
     gap: 15px;
 }
 
+main {
+    padding: 30px;
+}
 .search {
     width: 200px;
     height: 30px;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    margin-bottom: 20px;
+}
+
+.bt-search {
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: var(--yellow-color);
+    border: 5px solid var(--yellow-color);
+    cursor:pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+}
+
+.filter-order {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    height: 30px;
+    padding: 0 5px;
 }
 
 aside {
     background-color: var(--yellow-color);
+    font-size: 16px;
     flex-direction: column;
+    line-height: 30px;
     width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
 }
 
 footer {

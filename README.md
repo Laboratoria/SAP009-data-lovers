@@ -314,17 +314,6 @@ O site foi pensando para ser utilizado quando fãs do desenho quiserem ter mais 
 
 #### Protótipo de alta fidelidade
 
-O passo seguinte é desenhar sua Interface de Usuário (UI - _User Interface_).
-Para isso você deverá aprender a usar alguma ferramenta de _visual design_. Nós
-recomendamos [Figma](https://www.figma.com/) que é uma ferramenta que funciona
-no navegador e no qual é possível criar uma conta gratuita. Mas você é livre
-para usar outros editores gráficos como Illustrator, Photoshop, PowerPoint,
-Keynote, etc. Lembre-se de usar a identidade gráfica correspondente ao arquivo
-de dados que escolher.
-
-O protótipo deve apresentar o que seria _ideal_ em sua solução. Digamos que é o
-que desejaria implementar se tivesse tempo ilimitado para hackear. Não se
-esqueça de incluir em seu protótipo os fundamentos de _visual design_.
 
 #### Testes de usabilidade
 
