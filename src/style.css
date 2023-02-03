@@ -1,0 +1,116 @@
+header {
+    background: rgb(19, 1, 1, 0.8);
+    display: flex;
+    padding: 40px 40px;
+    justify-content: space-between;
+}
+nav {
+  text-align: right;
+  position: absolute;
+  top:auto;
+    right: 10px;
+}
+
+    nav a {
+        display: inline-flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 40px;
+        margin-top: auto;
+        color: rgb(161, 108, 35);
+    }
+    nav a:hover {
+        color: aliceblue;
+    }
+    #jogar {
+        padding: 10px;
+        background-color: rgb(8, 63, 85);
+        border-radius: 8px;
+    }
+    body {
+        background-image: url(https://giffiles.alphacoders.com/276/2766.gif);
+        width:"100%";
+        text-align: center;
+        background-size: 100%;
+    }
+    .info {
+        padding: 20px;
+        text-align: center;
+        width: 1030px;
+        margin: 0 auto;
+    }
+main {
+    margin: 0 auto; 
+    text-align: center;
+    color: aliceblue;
+}
+h1 {
+    text-shadow:  -1px -1px 0px #403001,
+     -1px 1px 0px #403001,
+     1px -1px 0px #403001,
+     1px 0px 0px #403001; 
+    color: #BF8A26;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p {
+    color: aliceblue;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#clique {
+    color: rgb(161, 108, 35);
+}
+#infoCampeao {
+    color:aliceblue;
+    text-align: justify;
+    border: solid;
+    border-color: rgb(161, 108, 35);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+   background-color: rgb(2, 2, 25);
+   border-style: double;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   line-height: 1.5;
+  
+}
+.sublinhado {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1030px;
+    border-style: double;
+    text-transform: uppercase;
+    border-radius: 38px 0 38px 0;
+    background: url(fundoMenu.png);
+    border-color: rgb(161, 108, 35);
+}
+.container li {
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: auto;
+    color:aliceblue;
+}
+.selecione {
+    border-radius: 8px;
+    border-color: rgb(161, 108, 35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(8, 63, 85);
+    border-style: double;
+    color:aliceblue;
+    font-weight: bold;
+}
