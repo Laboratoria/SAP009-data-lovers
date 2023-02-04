@@ -1,0 +1,145 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bluecolor: #3F61A6; 
+    --yellow-color: #F2B807; 
+    --red-color: #D94436;
+    --blackcolor: #0D0D0D; 
+    --writeColor:#ffffff;
+
+    --water:#00BCF2;
+    --dragon: #466816;
+    --eletric:#FCD610;
+    --fairy:#E8C6AD;
+    --ghost:#C3C3C3;
+    --fire:#F7630C;
+    --ice:#8fcfdd;
+    --bug:#B5B830;
+    --fighting:#AF0D1A;
+    --normal:#ac985e;
+    --rock:#ac7e3c;
+    --grass:#13A10E;
+    --psychic:#13A10E;
+    --dark:#4E1792;
+    --ground:#6D4123;
+    --flying:#4F7EA5;
+    --poison:#82189D;
+    --steel:#979696;
+    
+
+
+
+
+
+}
+
+html{
+    font-size: 62.5%;
+}
+header {
+    background-image: url('./img/bg.jpg');
+    height: 30vh;
+    justify-content: center;
+}
+
+body {
+    background-color: var(--bluecolor);
+}
+.section-inputs{
+    justify-content: space-between;
+}
+
+.display{
+    display: flex;
+}
+
+.inputs-position{
+    gap: 15px;
+}
+
+.search {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.aside-cards{
+    padding: 20px;
+    gap: 20px;
+    height: 70vh;
+}
+
+aside {
+    background-color: var(--yellow-color);
+    flex-direction: column;
+    width: 200px;
+}
+.cards{
+    gap: 30px;
+}
+
+.card{
+    margin: 20px;
+
+    background-color:var(--writeColor);
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    padding: 20px;
+    height: 307px;
+    border-radius: 25px;
+    gap: 10px;
+    align-items: center;
+
+
+}
+.card-back{
+    font-size: 1.6rem;
+}
+.card-back p {
+    font-weight:700;
+}
+.card-back span{
+    font-weight: 400;
+}
+
+.card-front img{
+    width: 85%;
+}
+.pokemom-name{
+    font-weight: 800;
+    font-size:2.4rem ;
+    
+}
+.pokemon-type{
+    font-size: 2.0rem;
+    color:var(--writeColor) ;
+    background-color: var(--fire);
+    border: 4px solid var(--fire);
+    box-shadow: 1px 5px 10px #989aa2;
+    border-radius: 4px;
+}
+
+footer {
+   background-color: var(--yellow-color); 
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+   font-size: 1.6rem;
+   gap: 15px;
+
+}
+.dev{
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.icons ion-icon{
+    font-size: 2.8rem;
+    color: var(--red-color);
+
+}
