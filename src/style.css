@@ -1,0 +1,10 @@
+* {
+
+}
+
+#homeBody {
+    background-image: url("./background-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
