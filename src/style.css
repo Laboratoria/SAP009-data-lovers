@@ -1,10 +1,28 @@
 * {
  margin: 0;
  padding: 0;  
+ box-sizing: border-box;
 }
 
 header {
-    background-color: pink;
+    position: relative;
+    background-color: #4C413D;
+    width: auto;
+    height: 150px;
+    margin: auto;
+    color: #F6E3D2;
 
 }
 
+h1 {
+    position: absolute;
+    top: 39px;
+    left: 480px;
+    color: #EBD99C;
+}
+
+h2 {
+    position: absolute;
+    top: 85px;
+    left: 493px;
+}
