@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="generalBody">
+  <header class="bgHeader">
+    <img src="./ghibli-logo.png" alt="logo studio ghibli">
+
+    <nav class="menu" id="moviesMenu">
+      <a href="./index.html">Home</a> 
+      <a href="./movies.html">Movies</a>
+      <a>Locations and Vehicles</a>   
+    </nav>
+
+    <input type="search" id="movies-search" placeholder="Search">
+    <select class="order">
+      <option value="" disabled="" selected="" hidden>Order</option>
+      <option value="a-z">A-Z</option>
+      <option value="z-a">Z-A</option>
+    </select>
+    <select class="movies">
+    <option value="" disabled="" selected="" hidden>Movies</option>
+      <option value="castle-in-the-sky">Castle in the Sky</option>
+      <option value="from-up-on-poppy-hill">From Up on Poppy Hill</option>
+      <option value="grave-of-the-fireflies">Grave of the Fireflies</option>
+      <option value="howl's-moving-castle">Howl's Moving Castle</option>
+      <option value="kiki's-delivery-service">Kiki's Delivery Service</option>
+      <option value="my-neighbor-totoro">My Neighbor Totoro</option>
+      <option value="my-neighbors-the-yamadas">My Neighbors the Yamadas</option>
+      <option value="only-yesterday">Only Yesterday</option>
+      <option value="pom-poko">Pom Poko</option>
+      <option value="ponyo-on-the-cliff-by-the-sea">Ponyo on the Cliff by the Sea</option>
+      <option value="porco-rosso">Porco Rosso</option>
+      <option value="princess-mononoke">Princess Mononoke</option>
+      <option value="spirited-away">Spirited Away</option>
+      <option value="tales-from-earthsea">Tales from Earthsea</option>
+      <option value="the-cat-returns">The Cat Returns</option>
+      <option value="the-secret-world-of-arrietty">The Secret World of Arrietty</option>
+      <option value="the-tale-of-the-princess-kaguya">The Tale of the Princess Kaguya</option>
+      <option value="the-wind-rises">The Wind Rises</option>
+      <option value="when-marnie-was-there">When Marnie Was There</option>
+      <option value="whisper-of-the-heart">Whisper of the Heart</option>
+    </select>
+    <select class="gender">
+      <option value="" disabled="" selected="" hidden>Gender</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="unknown">Unknown</option>
+    </select>
+    <select class="specie">
+        <option value="" disabled="" selected="" hidden>Specie</option>
+        <option value="arch-mage-human">Arch-mage/Human</option>
+        <option value="bird">Bird</option>
+        <option value="borrower">Borrower</option>
+        <option value="cat">Cat</option>
+        <option value="deity">Deity</option>
+        <option value="deity-dragon">Deity, Dragon</option>
+        <option value="demon">Demon</option>
+        <option value="dog">Dog</option>
+        <option value="fish-human">Fish/Human</option>
+        <option value="human">Human</option>
+        <option value="human-scarecrow">Human/Scarecrow</option>
+        <option value="raccoon-dog">Raccoon Dog</option>
+        <option value="red-elk">Red elk</option>
+        <option value="spirit">Spirit</option>
+        <option value="spirit-of-the-white-fox">Spirit of The White Fox</option>
+        <option value="totoro">Totoro</option>
+        <option value="unknown">unknown</option>
+        <option value="witch">Witch</option>
+        <option value="witch-human">Witch/Human</option>
+        <option value="wizard">Wizard</option>
+        <option value="wolf">Wolf</option>
+    </select>
+  </header>
+  <p class="stats">The number of movies in this category is <span class="number"></span></p>
+</body>
+</html>
