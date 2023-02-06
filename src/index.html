@@ -15,19 +15,20 @@
 </head>
 
 <body>
-    <header>
-      <img src="./img/pokemon-logo.png" alt="logo-pokemóm">
-    </header>
-    <main>
-      <section>
-        <input type="text">
-        <button type="button">BUSCAR</button>
+  <header class="display">
+    <img src="./img/logo.png" alt="logo-pokemóm">
+  </header>
+  <main>
+    <section class="display section-inputs">
+      <section class="display inputs-position">
+        <input type="text" class="search">
+        <button type="button" class="bt-search">BUSCAR</button>
       </section>
 
-      <section>
+      <section class="display inputs-position">
 
         <label for="filtro-types"></label>
-        <select name="types" id="filtro-types">
+        <select name="types" id="filter-types" class="filter-order">
           <option>FILTRO</option>
           <option value="planta">Planta</option>
           <option value="venenoso">Venenoso</option>
@@ -48,62 +49,73 @@
         </select>
 
         <label for="order-by"></label>
-        <select name="order" id="order-by">
+        <select name="order" id="order-by" class="filter-order">
           <option value="">ORDENAR POR</option>
           <option value="a-z">A - Z</option>
           <option value="z-a">Z - A</option>
         </select>
 
       </section>
+    </section>
+    
+    <section class="display aside-cards">
+    <aside class="display">
+      <h2>Legendas</h2>
+      <p>🦾 = Aço</p>
+      <p>💧 = Água</p>
+      <p>🐲 = Dragão</p>
+      <p>⚡ = Elétrico</p>
+      <p>🧚🏻= Fada</p>
+      <p>👻 = Fantasma</p>
+      <p>🔥 = Fogo</p>
+      <p>🧊 = Gelo</p>
+      <p>🐛 = Inseto</p>
+      <p>🥊 = Lutador</p>
+      <p>💭 = Normal</p>
+      <p>⚙️ = Pedra</p>
+      <p>🍀 = Planta</p>
+      <p>💫 = Psíquico</p>
+      <p>🛸 = Sombrio</p>
+      <p>🌏 = Terra</p>
+      <p>🐍 = Venenoso</p>
+      <p>🪂 = Voador</p>
+    </aside>
 
-      <aside>
-        <h2>Legendas</h2>
-        <p>🦾 = Aço</p>
-        <p>💧 = Água</p>
-        <p>🐲 = Dragão</p>
-        <p>⚡ = Elétrico</p>
-        <p>🧚🏻= Fada</p>
-        <p>👻 = Fantasma</p>
-        <p>🔥 = Fogo</p>
-        <p>🧊 = Gelo</p>
-        <p>🐛 = Inseto</p>
-        <p>🥊 = Lutador</p>
-        <p>💭 = Normal</p>
-        <p>⚙️ = Pedra</p>
-        <p>🍀 = Planta</p>
-        <p>💫 = Psíquico</p>
-        <p>🛸 = Sombrio</p>
-        <p>🌏 = Terra</p>
-        <p>🐍 = Venenoso</p>
-        <p>🪂 = Voador</p>
-      </aside>
+    <section class="cards display">
+      <div class="display card-front card">
+        <img src="./img/pokemon.jpg" alt="charmander">
+        <p class="pokemom-name">CHARMANDER</p>
+        <P class="pokemon-type">FOGO</P>
+      </div>
+      <div class="display card-back card">
+        <p>Peso: <span class="weight">20kg</span></p>
+        <p>Altura: <span class="height">20kg</span></p>
+        <p>Candies: <span class="candies">20kg</span></p>
+        <p>Raridade: <span class="rarity">20kg</span></p>
+        <p>Resistências: <span class="resistances">20kg</span></p>
+        <p>Fraquezas: <span class="weakness">20kg</span></p>
+      </div>
+    </section>
+    </section>
 
-      <section>
-        <div class="card-front">
-          <img src="./img/pokemon.jpg" alt="charmander">
-          <p>CHARMANDER</p>
-          <P>FOGO</P>
-        </div>
-        <div class="card-back">
-          <p>Peso: <span class="weight">20kg</span></p>
-          <p>Altura: <span class="height">20kg</span></p>
-          <p>Candies: <span class="candies">20kg</span></p>
-          <p>Raridade: <span class="rarity">20kg</span></p>
-          <p>Resistências: <span class="resistances">20kg</span></p>
-          <p>Fraquezas: <span class="weakness">20kg</span></p>
-        </div>
-      </section>
+  </main>
 
-    </main>
-
-    <footer>
-      <p>Desenvolvido por Angelina Melo</p>
-      <a href><ion-icon name="logo-linkedin"></ion-icon></a>
-      <a href><ion-icon name="logo-github"></ion-icon></a>
-      <p>Desenvolvido por Paola Oliveira</p>
-      <a href><ion-icon name="logo-linkedin"></ion-icon></a>
-      <a href><ion-icon name="logo-github"></ion-icon></a>
-    </footer>
+  <footer class="display">
+    <div class="dev display">
+    <p>Desenvolvido por <b>Angelina Melo</b></p>
+    <div class="icons">
+    <a href><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+    </div>
+    <div class="dev display">
+    <p>Desenvolvido por <b>Paola Oliveira</b></p>
+    <div class="icons">
+    <a href><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+    </div>
+  </footer>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
