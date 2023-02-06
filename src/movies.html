@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="generalBody">
+  <header class="bgHeader">
+    <img src="./ghibli-logo.png" alt="logo studio ghibli">
+
+    <nav class="menu" id="moviesMenu">
+      <a href="./index.html">Home</a> 
+      <a>Characters</a>
+      <a>Locations and Vehicles</a>   
+    </nav>
+
+    <input type="search" id="movies-search" placeholder="Search">
+    <select class="order">
+      <option value="" disabled="" selected="" hidden>Order</option>
+      <option value="a-z">A-Z</option>
+      <option value="z-a">Z-A</option>
+    </select>
+    <select class="release-date">
+    <option value="" disabled="" selected="" hidden>Release Date</option>
+      <option value="1970">1970</option>
+      <option value="1980">1980</option>
+      <option value="1990">1990</option>
+    </select>
+    <select class="director">
+      <option value="" disabled="" selected="" hidden>Director</option>
+      <option value="hayao-miyazaki">Hayao Miyazaki</option>
+      <option value="isao-takahata">Isao Takahata</option>
+      <option value="yoshifumi-kondō">Yoshifumi Kondō</option>
+      <option value="hiroyuki-morita">Hiroyuki Morita</option>
+      <option value="gorō-miyazaki">Gorō Miyazaki</option>
+      <option value="hiromasa-yonebayashi">Hiromasa Yonebayashi</option>
+    </select>
+    <select class="producer">
+        <option value="" disabled="" selected="" hidden>Producer</option>
+        <!-- Inserir produtores -->
+    </select>
+  </header>
+  <p class="stats">The number of movies in this category is <span class="number"></span></p>
+</body>
+</html>
