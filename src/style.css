@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none; 
+}
+
+.home{
+  position: absolute;
+  width: 96px;
+  height: 39px;
+  left: 979px;
+  top: 121px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+
+
+color: #000000;
+}
+
+.type-pokemon{
+  position: absolute;
+  width: 1512px;
+  height: 982px;
+  left: 0px;
+  top: 0px;
+
+background: url();
+}
