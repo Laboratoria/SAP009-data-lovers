@@ -21,8 +21,8 @@
   <main>
     <section class="display section-inputs">
       <section class="display inputs-position">
-        <input type="text" class="search">
-        <button type="button" class="bt-search">BUSCAR</button>
+        <input type="text" class="search" id="search">
+        <button type="button" class="bt-search" id="bt-search">BUSCAR</button>
       </section>
 
       <section class="display inputs-position">
@@ -61,27 +61,27 @@
     <section class="display aside-cards">
     <aside class="display">
       <h2>Legendas</h2>
-      <p>🦾 = Aço</p>
-      <p>💧 = Água</p>
-      <p>🐲 = Dragão</p>
-      <p>⚡ = Elétrico</p>
-      <p>🧚🏻= Fada</p>
-      <p>👻 = Fantasma</p>
-      <p>🔥 = Fogo</p>
-      <p>🧊 = Gelo</p>
-      <p>🐛 = Inseto</p>
-      <p>🥊 = Lutador</p>
-      <p>💭 = Normal</p>
-      <p>⚙️ = Pedra</p>
-      <p>🍀 = Planta</p>
-      <p>💫 = Psíquico</p>
-      <p>🛸 = Sombrio</p>
-      <p>🌏 = Terra</p>
-      <p>🐍 = Venenoso</p>
-      <p>🪂 = Voador</p>
+      <p><span class="icons">🦾</span>= Aço</p>
+      <p><span class="icons">💧</span>= Água</p>
+      <p><span class="icons">🐲</span>= Dragão</p>
+      <p><span class="icons">⚡</span>= Elétrico</p>
+      <p><span class="icons">🧚🏻</span>= Fada</p>
+      <p><span class="icons">👻</span>= Fantasma</p>
+      <p><span class="icons">🔥</span>= Fogo</p>
+      <p><span class="icons">🧊</span>= Gelo</p>
+      <p><span class="icons">🐛</span>= Inseto</p>
+      <p><span class="icons">🥊</span>= Lutador</p>
+      <p><span class="icons">💭</span>= Normal</p>
+      <p><span class="icons">⚙️</span>= Pedra</p>
+      <p><span class="icons">🍀</span>= Planta</p>
+      <p><span class="icons">💫</span>= Psíquico</p>
+      <p><span class="icons">🛸</span>= Sombrio</p>
+      <p><span class="icons">🌏</span>= Terra</p>
+      <p><span class="icons">🐍</span>= Venenoso</p>
+      <p><span class="icons">🪂</span>= Voador</p>
     </aside>
 
-    <section class="cards display">
+    <section class="cards display" id="cards">
       <div class="display card-front card">
         <img src="./img/pokemon.jpg" alt="charmander">
         <p class="pokemom-name">CHARMANDER</p>
@@ -119,7 +119,9 @@
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./data/pokemon/pokemon.js"></script>
   <script src="main.js" type="module"></script>
+  
 </body>
 
 </html>

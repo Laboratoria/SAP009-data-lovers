@@ -31,11 +31,6 @@
     --poison:#82189D;
     --steel:#979696;
     
-
-
-
-
-
 }
 
 html{
@@ -75,7 +70,7 @@ main {
 
 .bt-search {
     color: white;
-    font-size: 16px;
+    font-size: 1.6rem;
     border-radius: 10px;
     width: 100px;
     height: 30px;
@@ -92,17 +87,21 @@ main {
     padding: 0 5px;
 }
 .aside-cards{
-    padding: 20px;
+   
     gap: 20px;
-    height: 70vh;
+    height: auto;
 }
 
+.icons {
+    font-size: 2.0rem;
+}
 aside {
     background-color: var(--yellow-color);
-    font-size: 16px;
+    font-size: 1.6rem;
     flex-direction: column;
     line-height: 30px;
     width: 200px;
+    height: 650px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
     padding: 10px;
@@ -110,10 +109,11 @@ aside {
 
 h2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 .cards{
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card{

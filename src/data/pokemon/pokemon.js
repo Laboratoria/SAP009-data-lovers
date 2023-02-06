@@ -1,4 +1,4 @@
-export default {
+const data = {
   "pokemon": [{
     "num": "001",
     "name": "bulbasaur",
@@ -23951,3 +23951,4 @@ export default {
     }
   }]
 };
+export default data
