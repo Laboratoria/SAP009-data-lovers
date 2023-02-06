@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(180deg, #0cf25d, #1F0802);
+}
+h1{
+    color: white;
+}
+nav{
+    justify-content: flex-end;
+    display: flex;
+    color: white;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(86, 84, 84);
+    border-width: 2px;
+    width: fit-content;
+    padding: 25px;
+    align-items: center;
+    background-color: white;
+
+
+}
+.container img{
+    width: 150px;
+}
+
+#botaoMaisInfo{
+    background-color: #034159;
+    border: none;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
