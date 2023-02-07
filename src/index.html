@@ -7,68 +7,66 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
 </head>
+<!– CABEÇALHO –>
+  <header>
+    <img src="logo-site.png" alt="Logo do site" width="250px" />
+    <nav>
+      <a href="https://www.leagueoflegends.com/pt-br/how-to-play/"> Sobre o jogo </a>
+      <a href="#">Comunidade </a>
+      <a href="https://signup.leagueoflegends.com/pt-br/signup/index?_gl=1*xrlanb*_ga*MzkwMzg5OTY1LjE2NzUwOTczMDE.*_ga_FXBJE5DEDD*MTY3NTIxMTM1Ny40LjAuMTY3NTIxMTM1Ny42MC4wLjA.&_ga=2.23009657.357064309.1675097304-390389965.1675097301#/"
+        id="jogar">Jogue agora </a>
+    </nav>
+  </header>
 
-<header>
-  <img src="logo-site.png" alt="Logo do site" width="250px" />
-  <nav>
-    <a href="https://www.leagueoflegends.com/pt-br/how-to-play/"> Sobre o jogo </a>
-    <a href="#">Comunidade </a>
-    <a href="https://signup.leagueoflegends.com/pt-br/signup/index?_gl=1*xrlanb*_ga*MzkwMzg5OTY1LjE2NzUwOTczMDE.*_ga_FXBJE5DEDD*MTY3NTIxMTM1Ny40LjAuMTY3NTIxMTM1Ny42MC4wLjA.&_ga=2.23009657.357064309.1675097304-390389965.1675097301#/" id="jogar">Jogue agora </a>
-  </nav>
-</header>
+  <body>
+    <div class="info">
+      <h1>ESCOLHA SEU CAMPEÃO</h1>
 
-<body>
-  <div class="info">
-  <h1>O QUE É LEAGUE OF LEGENDS?</h1>
-  <p>League of Legends é um jogo gratuito de MOBA distribuído pela Riot Games. Ele é disponibilizado para PC e foi
-    inspirado no modo Defense of the Ancients de Warcraft III. Nele temos duas equipes de 5 campeões cada disputando uma
-    vitória na batalha dentro do mapa do jogo.</p>
-  <p> Na partida, o jogador precisa destruir a base inimigas com os campeões do universo de League of Legends avançando
-    pelos diferentes caminhos do mapa (topo, selva, meio e bot).</p>
-  <p> O LOL é um mundo completamente fantasioso com muita magia e disputas. Os personagens dele são guerreiros variados,
-    entre eles você pode escolher por:</p>
-  <ul id="infoCampeao">
-    <li> <span class="sublinhado">Assassinos:</span>  Especializado em emboscar o inimigo, atacando de surpresa e recuando rapidamente. Sua missão é
-      eliminar o jogador mais importante do time inimigo (geralmente o atirador), mesmo que isso signifique morrer
-      também. </li>
-    <li> <span class="sublinhado"> Lutadores:</span> Especializado em combate corpo a corpo. Combine itens de dano com itens de resistência. Eles também
-      são conhecidos como offtanks.</li>
-    <li><span class="sublinhado"> Magos ou Feiticeiros:</span>  Especializado em habilidades e dano mágico. Popularmente conhecido como AP Carry do
-      inglês ability power carry ou carregador de dano mágico. </li>
-    <li> <span class="sublinhado">Atiradores: </span> Especializado em ataque à distância. Popularmente conhecido como AD Carry do inglês attack damage
-      carry ou carregador. </li>
-    <li> <span class="sublinhado">Suportes: </span> Especializado em apoiar sua equipe e fornecer visão no mapa através de sentinela de visão (wards).
-    </li>
-    <li> <span class="sublinhado">Tanques: </span> Especializado em resistência. Sua missão é absorver o máximo de dano possível e iniciar combates.
-    </li>
-  </ul>
-  <p> É um jogo extremamente estratégico. A sua equipe deve estar sempre atenta, ligada no ritmo acelerado e dando o seu
-    melhor para conseguir vencer.</p>
-  <p> São mais de 140 campeões com histórias diferentes. Seu critério de escolha pode ser ou pensando no seu estilo de
-    jogo ou por se identificar mais com algum personagem.</p>
-  <p> Para obter mais informações sobre o jogo <a href="#" id="clique"> clique aqui.</a></p>
-</div>
-  <main>
-    <div class="container">
-      <ul class="menu" role="menu">
-        <li class="liTodos"> Todos</li>
-        <li class="liAssassin"> Assassinos </li>
-        <li class="liFigther"> Lutadores</li>
-        <li class="liMage"> Magos </li>
-        <li class="liMarksman"> Atiradores </li>
-        <li class="liSupport"> Suportes</li>
-        <li class="liTank"> Tanques </li>
-       <select class="selecione">
-        <option value="">Classificação</option>
-        <option value="1">Maior poder - Menor poder</option>
-        <option value="2"> Maior defesa - Menor defesa </option>
-       </select>
-        </div>
-      </ul>
-
+      <p> Com mais de 140 Campeões, você encontrará a combinação perfeita para seu estilo de jogo. Especialize-se em um
+        estilo ou em todos. Para acessar mais informações sobre os campeões,<a
+          href="https://www.leagueoflegends.com/pt-br/how-to-play/" id="clique"> clique aqui.</a></p>
     </div>
-  </main>
-  <script src="main.js" type="module"></script>
-</body>
+    <!– MENU COM AS OPÇÕES DE CAMPEÕES –>
+      <main>
+        <div class="container">
+          <ul class="menu" role="menu">
+            <li class="li-todos"> Todos</li>
+            <li class="li-assassino"> Assassinos </li>
+            <li class="li-lutador"> Lutadores</li>
+            <li class="li-mago"> Magos </li>
+            <li class="li-atirador"> Atiradores </li>
+            <li class="li-suporte"> Suportes</li>
+            <li class="li-tanque"> Tanques </li>
+          </ul>
+        </div>
+        <!– AQUI COMEÇA O CAMPO DE BUSCA POR NOME E CLASSIFICAÇÃO DOS CAMPEÕES –>
+          <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Buscar campeão" />
+            <button id="btn-busca">Buscar</button>
+            <div>
+              <select class="selecione">
+                <option value="">Classificação</option>
+                <option value="1">Maior poder - Menor poder</option>
+                <option value="2"> Maior defesa - Menor defesa </option>
+              </select>
+            </div>
+          </div>
+          <!– AQUI FICARÃO OS CARDS DOS CAMPEÕES –>
+            <section class="todos-campeoes">
+              <div id="exibirCards">
+              </div>
+            </section>
+      </main>
+      <script src="main.js" type="module"></script>
+      <!– AQUI COMEÇA DO RODAPÉ –>
+        <footer>
+          <ul id="devs"> Projeto desenvolvido por</ul>
+          <li> <a href="https://www.linkedin.com/in/ariane-vieira-534310164/"> Ariane Vieira <img src="iconeLinkedin.png" class="linedin" width="5%" /> </a></li>
+          <li> <a href="https://www.linkedin.com/in/patriciadania/"> Patricia Adania <img src="iconeLinkedin.png"
+                class="linedin" width="5%" /></a></li>
+          <li> <a href="https://www.linkedin.com/in/thainaratabile/"> Thainara Tabile <img src="iconeLinkedin.png"
+                class="linedin" width="5%" /></a> </li>
+        </footer>
+  </body>
 
 </html>

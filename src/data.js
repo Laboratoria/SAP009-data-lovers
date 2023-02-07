@@ -1,9 +1,6 @@
-// estas funciones son de ejemplo
+//import lol from "./data/lol/lol.js"
 
-export const example = () => {
-  return 'example';
-};
+  export const allFilters = () => {
+    return 'allFilters';
+  };
 
-export const anotherExample = () => {
-  return 'OMG';
-};
