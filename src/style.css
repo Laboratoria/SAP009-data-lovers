@@ -1,17 +1,42 @@
 * {
  margin: 0;
  padding: 0;  
+ box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Eyad Al-Samman - Ghibli';
+    src: url(./assets/Eyad\ Al-Samman\ -\ Ghibli.otf) format('truetype');
+  }
 
 header {
-background-color: #4c413d;
+    position: relative;
+    background-color: #4C413D;
+    width: auto;
+    height: 150px;
+    margin: auto;
+    color: #F6E3D2;
 
 }
 
-main {
-background-color: #f1bbb1;
+h1 {
+    position: absolute;
+    top: 39px;
+    left: 480px;
+    color: #EBD99C;
+    font-family: 'Eyad Al-Samman - Ghibli', Arial, Helvetica, sans-serif ;
+}
+
+h2 {
+    position: absolute;
+    top: 85px;
+    left: 493px;
 }
 
 #total-animations {
+    font-size: 1.6rem;
+}
+
+#total-animation-number{
     font-size: 1.6rem;
 }
