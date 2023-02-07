@@ -1,0 +1,25 @@
+img{
+    width: 100%;
+}
+
+body{
+    background-image: url(img/rickandmorty1.png);
+    background-color: #1e2b1f;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    margin: 120px 150px;
+    line-height: 120px;
+}
+
+button{
+    width: 400px;
+    height: 55px;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0CF25D;
+    border: 3px solid #02735E;
+    padding: 2px 20px;
+    color: #025951;
+}
