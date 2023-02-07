@@ -22,7 +22,7 @@ body{
 header{
     display: flex;    
     justify-content: flex-end;
-    padding-top: 90px;             
+    padding-top: 3em;             
 }
 
 nav{
@@ -35,6 +35,7 @@ nav{
 .box{
   display: flex;
   justify-content: space-evenly;
+  gap: 30px; 
   padding: 20px;
 }
 
@@ -46,7 +47,7 @@ nav{
 
 /*Aqui começa a tela2*/
 main{  
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .type-pokemons{
