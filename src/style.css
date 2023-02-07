@@ -1,19 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    text-decoration: none;
 }
-
-/*body{
-  background-color: #d68d04;
-  background-image: url("background.jpg");    
-  background-repeat: no-repeat;
-  background-size: 100%;
- 
-  background-attachment: fixed;    
-}*/
 
 body{
   font-family: 'Inter', sans-serif;
@@ -52,13 +44,73 @@ nav{
   color: #000000;
 }
 
-/*#quadrado {
-    background: lightblue;
+/*Aqui começa a tela2*/
+main{  
+  margin-top: 50px;
+}
+
+.type-pokemons{
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  gap:15px;  
+}
+div{
     border-radius:50%;
     width: 200px;
-    height: 200px;
-    position: center;
+    height: 200px;    
     text-align: center;
+
+}
+.bug {
+    background: lightgray;
+    background-image: url("bug.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;   
+}
+
+.dragon {
+  background: lightblue;
+}
+.electric {
+  background: lightblue;
+}
+.fighting {
+  background: lightblue;
+}
+.fire {
+  background: lightblue;
+}
+.flying {
+  background: lightblue;
+}
+.ghost {
+  background: lightblue;
+}
+.grass {
+  background: lightblue;
+}
+.ground {
+  background: lightblue;
+}
+.ice {
+  background: lightblue;
+}
+.normal {
+  background: lightblue;
+}
+.poison {
+  background: lightblue;
+}
+.psychic {
+  background: lightblue;
+}
+.rock {
+  background: lightblue;
+}
+.water {
+  background: lightblue;
 }
 
 /*.home{
