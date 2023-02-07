@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
@@ -6,16 +6,17 @@
 }
 
 :root {
-    --bluecolor: #3F61A6; 
-    --yellow-color: #F2B807; 
+    --bluecolor: #3F61A6;
+    --yellow-color: #F2B807;
     --red-color: #D94436;
-    --blackcolor: #0D0D0D; 
-    --writeColor:#ffffff; 
+    --blackcolor: #0D0D0D;
+    --writeColor: #ffffff;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
+
 header {
     background-image: url('./img/background.jpg');
     height: 30vh;
@@ -25,21 +26,23 @@ header {
 body {
     background-color: var(--bluecolor);
 }
-.section-inputs{
+
+.section-inputs {
     justify-content: space-between;
 }
 
-.display{
+.display {
     display: flex;
 }
 
-.inputs-position{
+.inputs-position {
     gap: 15px;
 }
 
 main {
     padding: 30px;
 }
+
 .search {
     width: 200px;
     height: 30px;
@@ -56,7 +59,7 @@ main {
     height: 30px;
     background-color: var(--yellow-color);
     border: 5px solid var(--yellow-color);
-    cursor:pointer;
+    cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
@@ -66,7 +69,12 @@ main {
     height: 30px;
     padding: 0 5px;
 }
-.aside-cards{
+
+.card-back li {
+    list-style-type: none;
+  }
+
+.aside-cards {
     gap: 20px;
     height: auto;
 }
@@ -74,6 +82,7 @@ main {
 .icons {
     font-size: 2.0rem;
 }
+
 aside {
     background-color: var(--yellow-color);
     font-size: 1.6rem;
@@ -84,77 +93,114 @@ aside {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
     padding: 10px;
+    position: sticky;
+    top:17vh;
 }
 
 h2 {
     text-align: center;
     font-size: 2.4rem;
 }
-.cards{
-    gap: 30px;
+
+.cards {
+    display: flex;
+    gap: 10px;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
 
-.card{
+.container-card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    position: relative;
+    margin-bottom: 230px;
+}
+
+.flipper-card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+}
+
+.container-card:hover .flipper-card {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card {
     margin: 20px;
-    background-color:var(--writeColor);
+    background-color: var(--writeColor);
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
-    width: 240px;
-    padding: 20px;
-    height: 307px;
+    width: 280px;
+    padding: 5px;
+    height: 410px;
     border-radius: 25px;
     gap: 10px;
     align-items: center;
 }
 
-.card-back{
+.card-back {
     font-size: 1.6rem;
+    transform: rotateY(180deg);
+    background-image: url(./img/pokedex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-back p {
-    font-weight:700;
+    font-weight: 700;
 }
 
-.card-back span{
+.card-back span {
     font-weight: 400;
 }
 
-.card-front img{
-    width: 85%;
-}
-.pokemom-name{
-    font-weight: 800;
-    font-size:2.4rem ;
+.card-front img {
+    width: 75%;
 }
 
-.pokemon-type{
+.pokemom-name {
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+.pokemon-type {
     font-size: 2.0rem;
-    color:var(--writeColor) ;
+    color: var(--writeColor);
     box-shadow: 1px 5px 10px #989aa2;
     border-radius: 4px;
     padding: 0px 10px;
 }
 
 footer {
-   background-color: var(--yellow-color); 
-   flex-direction: column;
-   align-items: center;
-   padding: 10px;
-   font-size: 1.6rem;
-   gap: 15px;
+    background-image: url(./img/bg-pikachu3.jpg);
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    font-size: 1.6rem;
+    gap: 15px;
 }
 
-.dev{
+.dev {
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.icons ion-icon{
+.icons ion-icon {
     font-size: 2.8rem;
     color: var(--red-color);
 }
@@ -162,6 +208,7 @@ footer {
 .water-type {
     background-color: #00BCF2;
 }
+
 .dragon-type {
     background-color: #466816;
 }
@@ -211,11 +258,11 @@ footer {
 }
 
 .dark-type {
-    background-color:#4E1792;
+    background-color: #4E1792;
 }
 
 .ground-type {
-    background-color:#6D4123;
+    background-color: #6D4123;
 }
 
 .flying-type {
@@ -227,5 +274,7 @@ footer {
 }
 
 .steel-type {
-    background-color: #979696;;
+    background-color: #979696;
+    ;
 }
+
