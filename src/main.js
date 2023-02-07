@@ -18,10 +18,10 @@ cards.innerHTML = array.map((pokemon) =>  `
     <div class="display card-front card">
     <img src="${pokemon.img}" alt="charmander">
     <p class="pokemom-name">${pokemon.name}</p>
-    <p class="pokemon-type">${pokemon.type}</P>
-    </div>
-    `
-)
+    ${pokemon.type.map(tipo => `
+        <p class="pokemon-type ${tipo}-type">${tipo}</p>
+    `).join("")}
+</div>`)
 
 
     //data.map((element) => )
