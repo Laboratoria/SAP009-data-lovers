@@ -4,7 +4,14 @@
 }
 
 header {
-    background-color: pink;
+background-color: #4c413d;
 
 }
 
+main {
+background-color: #f1bbb1;
+}
+
+#total-animations {
+    font-size: 1.6rem;
+}
