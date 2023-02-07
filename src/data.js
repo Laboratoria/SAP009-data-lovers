@@ -11,11 +11,19 @@ Estes nomes de funções e parâmetros são somente referência, o que vocês de
 
 // estas funciones son de ejemplo
 
-export const example = () => {
+/*export const example = () => {
   return 'example';
 };
 
 export const anotherExample = () => {
   return 'OMG';
-};
+}*/
+
+export function order(data, value){
+  if (value === "A-Z"){ //Se a pessoa escolher de A ao Z
+    return data.sort((a, z) => a.title > z.title ? 1 : -1) //se a for maior do que z, retorna 1; caso contrário, retorna -1. Ou seja, será do A ao Z (crescente)
+  } else { //Se a pessoa escolher de Z ao A
+    return data.sort((a, z) => a.title < z.title ? -1: 1) //se a for menor do que z, retorna -1; caso contrário, retorna 1. Ou seja, será do Z ao A (decrescente)
+  }
+}
 
