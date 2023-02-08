@@ -8,8 +8,8 @@ body{
     background-size: cover;
     background-position: 0%;
     background-repeat: no-repeat;
-    margin: 120px 150px;
-    line-height: 120px;
+    margin: 20px 150px;
+    line-height: 90px;
 }
 
 button{
@@ -22,4 +22,9 @@ button{
     border: 3px solid #02735E;
     padding: 2px 20px;
     color: #025951;
+}
+
+#logo1{
+    width: 500px;
+    margin-left: 30%;
 }
