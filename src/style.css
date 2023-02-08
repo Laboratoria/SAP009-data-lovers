@@ -1,43 +1,29 @@
+img{
+    width: 100%;
+}
+
 body{
-    background: linear-gradient(180deg, #0cf25d, #1F0802);
-}
-h1{
-    color: white;
-}
-nav{
-    justify-content: flex-end;
-    display: flex;
-    color: white;
-
+    background-image: url(img/rickandmorty1.png);
+    background-color: #1e2b1f;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    margin: 20px 150px;
+    line-height: 90px;
 }
 
-main{
-    display: flex;
-    justify-content: space-around;
-
-
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    border: solid rgb(86, 84, 84);
-    border-width: 2px;
-    width: fit-content;
-    padding: 25px;
-    align-items: center;
-    background-color: white;
-
-
-}
-.container img{
-    width: 150px;
+button{
+    width: 400px;
+    height: 55px;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0CF25D;
+    border: 3px solid #02735E;
+    padding: 2px 20px;
+    color: #025951;
 }
 
-#botaoMaisInfo{
-    background-color: #034159;
-    border: none;
-    color: white;
-    height: 40px;
-    border-radius: 20px;
-    padding: 10px;
-}
+#logo1{
+    width: 500px;
+    margin-left: 30%;
