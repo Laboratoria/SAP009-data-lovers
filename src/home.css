@@ -1,15 +1,4 @@
-body {
-    font-size: 100%;
-    background-color: #d68d04;
-    background-image: url("imagens/planodefundo.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    height: 982px;
-
-}
+/*css pokeball*/
 
 .pokebola {
     margin-top: 100px;
