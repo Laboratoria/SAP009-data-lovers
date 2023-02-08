@@ -1,121 +1,30 @@
+img{
+    width: 100%;
+}
+
 body{
-    background: linear-gradient(180deg, #0cf25d, #1F0802);
+    background-image: url(img/rickandmorty1.png);
+    background-color: #1e2b1f;
+    background-size: cover;
+    background-position: 0%;
     background-repeat: no-repeat;
+    margin: 20px 150px;
+    line-height: 90px;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-}
-
-header img{
-    max-width: 400px;
-    margin: 10px;
-}
-
-.menu ul{
-    display: flex;
-    justify-content: center;
-    align-content: stretch;
-    flex-wrap: wrap;
-}
-
-.pesquisa h1{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-}
-.pesquisa{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#divBusca input{
-    height: 25px;
-    min-width: 350px;
-    border-radius: 15px;
-    box-shadow: 0 0 0 0;
-    outline: 0;
-    border: none;
-    font-style: italic;
-}
-
-.menu li{
-    list-style: none;
-    padding: 0px 75px;
-    color: white;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-.menu a:hover{
-    border: solid;
-    background-color: rgba(255, 255, 255, 0.465);
+button{
+    width: 400px;
+    height: 55px;
+    font-size: 27px;
+    text-align: center;
     border-radius: 10px;
-    padding: 3px 20px;
-    color:#025951;
+    background-color: #0CF25D;
+    border: 3px solid #02735E;
+    padding: 2px 20px;
+    color: #025951;
 }
 
-.filtro{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 30px;
+#logo1{
+    width: 500px;
+    margin-left: 30%;
 }
-
-.conjuntoPesquisaEFiltro{
-    border: solid #B2DF28 2px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #00B5CC;
-    border-radius: 10px;
-}
-
-.container{
-    display: flex;
-    justify-content: space-around;
-    border-width: 2px;
-    padding: 25px;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-.container div{
-    background-color: white;
-    max-width: 490px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    padding: 10px;
-}
-.container img{
-    max-width: 150px;
-}
-
-.container .listaDados{
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
-.listaDados li{
-    list-style: none;
-    height: 20px;
-}
-
-.linhaEscura{
-    border: solid white 1px;
-    width: 100%;
-    background-color: white;
-
-}
-
-.linhaClara{
-    border: solid #D9D9D9 1px;
-    width: 100%;
-    background-color: #D9D9D9;
-}
-
-
