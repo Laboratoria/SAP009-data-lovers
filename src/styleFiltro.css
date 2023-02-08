@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(180deg, #0cf25d, #1F0802);
+    background: linear-gradient(180deg, #B2DF28, #ffff);
     background-repeat: no-repeat;
 }
 
@@ -44,7 +44,7 @@ header img{
 .menu li{
     list-style: none;
     padding: 0px 75px;
-    color: white;
+    color: #38184C;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
