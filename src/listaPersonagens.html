@@ -6,53 +6,119 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <header>
-          <h1>Lista de Personagens</h1>
-          <nav>
-            <i class="fa-regular fa-filter"></i>            
-            <p>Filtros</p>
-            <i class="fa-regular fa-arrow-up-big-small"></i>
-            <p>Classificar</p>
-          </nav>
-      </header>
 
-      <main>
-        <section>
-            <div class="container">
-              <img src="imgTeste.png" alt="Imagem do Personagem">
-              <p>Rick
-              </p>
-              <button id="botaoMaisInfo">Mais Informações</button>
-            </div>
-          </section>
+    <header>
+      <img src="Rick-And-Morty-Logo-2.png">
+    </header>
+      
+    <nav class="menu">
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>Personagens</a></li>
+        <li><a>Sobre a Série</a></li>
+      </ul>
+    </nav>
 
-          <section>
-            <div class="container">
-              <img src="imgTeste.png" alt="Imagem do Personagem">
-              <p>Rick
-              </p>
-              <button id="botaoMaisInfo">Mais Informações</button>
-            </div>
-          </section>
+    <section class="conjuntoPesquisaEFiltro">
 
-          <section>
-            <div class="container">
-              <img src="imgTeste.png" alt="Imagem do Personagem">
-              <p>Rick
-              </p>
-              <button id="botaoMaisInfo">Mais Informações</button>
-            </div>
-          </section>
+      <section class="pesquisa">
+        <h1>Pesquisa</h1>
+        <div id="divBusca">
+          <input type="text" id="txtBusca" placeholder="Buscar personagem"/>
+            <img src="imgSearch.png" id="btnBusca" alt="ícone de busca"/>
+        </div>
+      </section>
+     
+        <section class="filtro">
+          <div>
+            <select name="ordemAlfabetica" id="ordemAlfabetica">
+              <option value="volvo">Ordem Alfabética</option>
+              <option value="saab">A-Z</option>
+              <option value="mercedes">Z-A</option>
+            </select>
+          </div>
 
-          <section>
-            <div class="container">
-              <img src="imgTeste.png" alt="Imagem do Personagem">
-              <p>Rick
-              </p>
-              <button id="botaoMaisInfo">Mais Informações</button>
-            </div>
-          </section>
-      </main>
+          <div>
+            <select name="ordemAlfabetica" id="ordemAlfabetica">
+              <option value="volvo">Ordem Alfabética</option>
+              <option value="saab">A-Z</option>
+              <option value="mercedes">Z-A</option>
+            </select>
+          </div>
+
+          <div>
+            <select name="ordemAlfabetica" id="ordemAlfabetica">
+              <option value="volvo">Ordem Alfabética</option>
+              <option value="saab">A-Z</option>
+              <option value="mercedes">Z-A</option>
+            </select>
+          </div>
+
+          <div>
+            <select name="ordemAlfabetica" id="ordemAlfabetica">
+              <option value="volvo">Ordem Alfabética</option>
+              <option value="saab">A-Z</option>
+              <option value="mercedes">Z-A</option>
+            </select>
+          </div>
+
+          <div>
+            <select name="ordemAlfabetica" id="ordemAlfabetica">
+              <option value="volvo">Ordem Alfabética</option>
+              <option value="saab">A-Z</option>
+              <option value="mercedes">Z-A</option>
+            </select>
+          </div>
+
+          <div>
+            <select name="ordemAlfabetica" id="ordemAlfabetica">
+              <option value="volvo">Ordem Alfabética</option>
+              <option value="saab">A-Z</option>
+              <option value="mercedes">Z-A</option>
+            </select>
+          </div>
+        </section>
+    </section>
+
+    <main>
+      <section class="container">
+        <div>
+          <img src="imgTeste.png" alt="Imagem do Personagem">
+          <ul class="listaDados">
+            <li class="linhaEscura">NOME:</li>
+            <li class="linhaEscura">Rick</li>
+            <li class="linhaClara">ESTADO DE VIDA:</li>
+            <li class="linhaClara">Vivo</li>
+            <li class="linhaEscura">GÊNERO:</li>
+            <li class="linhaEscura">Masculino</li>
+            <li class="linhaClara">LOCAL DE ORIGEM:</li>
+            <li class="linhaClara">Earth (C-137)</li>
+            <li class="linhaEscura">LUGAR ONDE VIVE:</li>
+            <li class="linhaEscura">Earth (Replacement Dimension)</li>
+            <li class="linhaClara">EPISÓDIOS EM QUE APARECE:</li>
+          </ul>
+        </div>
+          
+        <div>
+          <img src="imgTeste.png" alt="Imagem do Personagem">
+          <p>Rick
+          </p>
+        </div>
+
+        <div>
+          <img src="imgTeste.png" alt="Imagem do Personagem">
+          <p>Rick
+          </p>
+        </div>
+
+        <div>
+          <img src="imgTeste.png" alt="Imagem do Personagem">
+          <p>Rick
+          </p>
+        </div>
+      </section>
+    </main>
+
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
