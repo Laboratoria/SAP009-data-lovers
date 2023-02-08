@@ -19,15 +19,3 @@ body {
     display: block;
     cursor: pointer;
 }
-
-
-
-.clique-botao {
-
-    text-indent: -9999px;
-    width: 109px;
-    height: 41px;
-    ;
-    align-items: center;
-    align-self: flex-end;
-}
