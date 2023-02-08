@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;    
+    height: 100vh;
+    width: 100%;
+    background-color: #d68d04;
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 3em;
+}
+
+nav {
+  background-color: #ffb004;
+  width: 40vw;
+  height: 11vh;
+  box-shadow: -90px 19px 1px 12px #d39207;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 20px;
+}
+
+.home,
+.pokemon {
+  font-size: 32px;
+  font-weight: 400;
+  color: #000000;
+  cursor: pointer;
+}
+
+main {
+  padding: 15px;
+}
