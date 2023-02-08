@@ -1,6 +1,14 @@
-import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+import data from "./data/ghibli/ghibli.js";
 
-console.log(example, data);
+document.getElementById("list-container").innerHTML = showAll(data);
+
+function showAll(data) {
+  const allAnimationTitles = [];
+  for (let i = 0; i < data.films.length; i++) {
+    const animationTitle = data.films[i].title;
+    allAnimationTitles.push(animationTitle);
+  }
+  return `<ul>
+            ${allAnimationTitles.map((item) => `<li>${item}</li>`).join("")}
+          </ul>`;
+}

@@ -1,98 +1,99 @@
 * {
- margin: 0;
- padding: 0;  
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
-html, body {
-    height: 100vh;
-    width: 100vw;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 body {
-    font-family: 'Eyad Al-Samman - Ghibli', Arial, Helvetica, sans-serif ;
+  font-family: "Eyad Al-Samman - Ghibli", Arial, Helvetica, sans-serif;
 }
 
 @font-face {
-    font-family: 'Eyad Al-Samman - Ghibli';
-    src: url(./assets/Eyad\ Al-Samman\ -\ Ghibli.otf) format('truetype');
-  }
-  
-.wrapper{
-display: flex;
-flex-direction: column;
+  font-family: "Eyad Al-Samman - Ghibli";
+  src: url(./assets/Eyad\ Al-Samman\ -\ Ghibli.otf) format("truetype");
+}
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    
-    /* display: flex;
-    /* position: relative; */
-    /* background-color: #4C413D; */
-    background-image: linear-gradient(120deg, #EEB7AA 20%, #edd79d 40%, #C8E1E4 100%);
-    /* width: auto; */
-     height: 20vh; 
-     color: #1C6773;
-     text-align: center;
-     padding-top: 4rem;
-    
-
+  height: 20vh;
+  color: #1c6773;
+  text-align: center;
+  padding-top: 4rem;
+  background-image: linear-gradient(
+    120deg,
+    #eeb7aa 20%,
+    #edd79d 40%,
+    #c8e1e4 100%
+  );
 }
 
 h1 {
-    /* position: absolute; */
-    /* margin-top: 4rem; */
-    /* left: 480px; */
-    /* color: #EBD99C; */
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 h2 {
-    /* position: absolute;
-    margin-top: 8rem; */
-    /* left: 493px; */
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 main {
-    /* height: 80rem; */
-    background-color: #FCF8EE;
-    height: 75vh;
+  background-color: #fcf8ee;
+  height: 75vh;
+}
+
+.filter-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
 }
 
 #filter {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20rem;
-    padding-top:3rem;
-    background-color: #1C6773;
-    
+  padding-right: 20rem;
 }
 
-#filter-button{
-    font-size: 2rem;
+#filter-button {
+  font-size: 2rem;
 }
+
 #total-animations {
-    display: flex;
-    font-size: 1.6rem;
-    background-color: #EEB7AA;
-    padding-left: 4rem;
-    padding-top: 2rem;
+  display: flex;
+  font-size: 1.6rem;
+  padding-left: 4rem;
+}
+
+#total-animation-number {
+  font-size: 1.6rem;
 }
 
 #animation-cards {
-    background-color: #edd79d;
+  background-color: #edd79d;
 }
 
-#total-animation-number{
-    font-size: 1.6rem;
+#list-container {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
 }
 
 footer {
-    height: 5vh;
-    background-color: #df7762;
+  height: 5vh;
+  background-color: #df7762;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
 }
