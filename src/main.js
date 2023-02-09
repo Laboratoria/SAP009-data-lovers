@@ -1,6 +1,7 @@
 import data from "./data/ghibli/ghibli.js";
 const allAnimations = data.films;
 
+//const showAnimations = (allAnimations) => {
 function showAnimations(allAnimations) {
   return allAnimations.map((animation) =>
   `
