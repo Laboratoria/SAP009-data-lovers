@@ -2,13 +2,10 @@
 import data from "./data/ghibli/ghibli.js";
 const allAnimations = data.films;
 
-<<<<<<< HEAD
 //const showAnimations = (allAnimations) => {
-=======
 document.querySelector(".animation_cards").innerHTML =
   showAnimations(allAnimations);
 
->>>>>>> 4b372c161b15a1b4ef896712a9952d23499d138b
 function showAnimations(allAnimations) {
   return allAnimations
     .map(

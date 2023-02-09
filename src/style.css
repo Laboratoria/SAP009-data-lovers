@@ -109,7 +109,6 @@
   
   }
 
-<<<<<<< HEAD
 header {
   height: 20vh;
   color: #1c6773;
@@ -197,11 +196,6 @@ main {
 .cards p {
   font-size: 1.5rem;
 }
-/*#list-container {
-  font-size: 1.6rem;
-  padding-top: 2rem;
-  padding-left: 5rem;
-}*/
 
 footer {
   height: 5vh;
@@ -211,7 +205,7 @@ footer {
   color: white;
   padding-top: 1rem;
 }
-=======
+
   #list-container {
     font-size: 1.6rem;
     padding-top: 2rem;
@@ -226,4 +220,3 @@ footer {
     color: white;
     padding-top: 1rem;
   }
->>>>>>> 4b372c161b15a1b4ef896712a9952d23499d138b*/
