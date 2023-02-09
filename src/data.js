@@ -1,14 +1,5 @@
 // estas funciones son de ejemplo
 
-<<<<<<< HEAD
-/*export const example = () => {
-  return 'example';
-};
-
-export const anotherExample = () => {
-  return 'OMG';
-};*/
-=======
 // export const example = () => {
 //   return "example";
 // };
@@ -16,23 +7,16 @@ export const anotherExample = () => {
 // export const anotherExample = () => {
 //   return "OMG";
 // };
->>>>>>> cf42b4045e9104aed646a98506171f25571cb872
+import data from "./data/ghibli/ghibli.js";
+const titles = data.films.titles;
 
 export const films = {
   alphaFilter: function alphaFilter() {
-    const a = ["xaxa", "baba", "gugu"];
-    a.sort();
-    console.log(a);
-<<<<<<< HEAD
-   // return alert("gildovigor");
-  },
-
-  //maskify: function maskify(teste) {},
-};
-=======
+    const films = data.films;
+    const teste = films.map(
+      (animation) => animation.title).join("");
+      console.log(teste);
     // return alert("gildovigor");
   },
-
   //maskify: function maskify(teste) {},
 };
->>>>>>> cf42b4045e9104aed646a98506171f25571cb872
