@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
@@ -6,41 +6,17 @@
 }
 
 :root {
-    --bluecolor: #3F61A6; 
-    --yellow-color: #F2B807; 
+    --bluecolor: #3F61A6;
+    --yellow-color: #F2B807;
     --red-color: #D94436;
-    --blackcolor: #0D0D0D; 
-    --writeColor:#ffffff;
-
-    --water:#00BCF2;
-    --dragon: #466816;
-    --eletric:#FCD610;
-    --fairy:#E8C6AD;
-    --ghost:#C3C3C3;
-    --fire:#F7630C;
-    --ice:#8fcfdd;
-    --bug:#B5B830;
-    --fighting:#AF0D1A;
-    --normal:#ac985e;
-    --rock:#ac7e3c;
-    --grass:#13A10E;
-    --psychic:#13A10E;
-    --dark:#4E1792;
-    --ground:#6D4123;
-    --flying:#4F7EA5;
-    --poison:#82189D;
-    --steel:#979696;
-    
-
-
-
-
-
+    --blackcolor: #0D0D0D;
+    --writeColor: #ffffff;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
+
 header {
     background-image: url('./img/background.jpg');
     height: 30vh;
@@ -50,21 +26,23 @@ header {
 body {
     background-color: var(--bluecolor);
 }
-.section-inputs{
+
+.section-inputs {
     justify-content: space-between;
 }
 
-.display{
+.display {
     display: flex;
 }
 
-.inputs-position{
+.inputs-position {
     gap: 15px;
 }
 
 main {
     padding: 30px;
 }
+
 .search {
     width: 200px;
     height: 30px;
@@ -75,13 +53,13 @@ main {
 
 .bt-search {
     color: white;
-    font-size: 16px;
+    font-size: 1.6rem;
     border-radius: 10px;
     width: 100px;
     height: 30px;
     background-color: var(--yellow-color);
     border: 5px solid var(--yellow-color);
-    cursor:pointer;
+    cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
@@ -91,89 +69,212 @@ main {
     height: 30px;
     padding: 0 5px;
 }
-.aside-cards{
-    padding: 20px;
+
+.card-back li {
+    list-style-type: none;
+  }
+
+.aside-cards {
     gap: 20px;
-    height: 70vh;
+    height: auto;
+}
+
+.icons {
+    font-size: 2.0rem;
 }
 
 aside {
     background-color: var(--yellow-color);
-    font-size: 16px;
+    font-size: 1.6rem;
     flex-direction: column;
     line-height: 30px;
-    width: 200px;
+    width: 230px;
+    height: 650px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
     padding: 10px;
+    position: sticky;
+    top:17vh;
 }
 
 h2 {
     text-align: center;
-    font-size: 24px;
-}
-.cards{
-    gap: 30px;
+    font-size: 2.4rem;
 }
 
-.card{
+.cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    position: relative;
+    margin-bottom: 230px;
+}
+
+.flipper-card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+}
+
+.container-card:hover .flipper-card {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card {
     margin: 20px;
-
-    background-color:var(--writeColor);
+    background-color: var(--writeColor);
     flex-direction: column;
     justify-content: center;
-    width: 240px;
-    padding: 20px;
-    height: 307px;
+    cursor: pointer;
+    width: 280px;
+    padding: 5px;
+    height: 410px;
     border-radius: 25px;
     gap: 10px;
     align-items: center;
-
-
 }
-.card-back{
+
+.card-back {
     font-size: 1.6rem;
+    transform: rotateY(180deg);
+    background-image: url(./img/pokedex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .card-back p {
-    font-weight:700;
+    font-weight: 700;
 }
-.card-back span{
+
+.card-back span {
     font-weight: 400;
 }
 
-.card-front img{
-    width: 85%;
+.card-front img {
+    width: 75%;
 }
-.pokemom-name{
+
+.pokemom-name {
     font-weight: 800;
-    font-size:2.4rem ;
-    
+    font-size: 2.4rem;
 }
-.pokemon-type{
+
+.pokemon-type {
     font-size: 2.0rem;
-    color:var(--writeColor) ;
-    background-color: var(--fire);
-    border: 4px solid var(--fire);
+    color: var(--writeColor);
     box-shadow: 1px 5px 10px #989aa2;
     border-radius: 4px;
+    padding: 0px 10px;
 }
 
 footer {
-   background-color: var(--yellow-color); 
-   flex-direction: column;
-   align-items: center;
-   padding: 10px;
-   font-size: 1.6rem;
-   gap: 15px;
-
+    background-image: url(./img/bg-pikachu3.jpg);
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    font-size: 1.6rem;
+    gap: 15px;
 }
-.dev{
+
+.dev {
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
-.icons ion-icon{
+
+.icons ion-icon {
     font-size: 2.8rem;
     color: var(--red-color);
-
 }
+
+.water-type {
+    background-color: #00BCF2;
+}
+
+.dragon-type {
+    background-color: #466816;
+}
+
+.electric-type {
+    background-color: #FCD610;
+}
+
+.fairy-type {
+    background-color: #E8C6AD;
+}
+
+.ghost-type {
+    background-color: #C3C3C3;
+}
+
+.fire-type {
+    background-color: #F7630C;
+}
+
+.ice-type {
+    background-color: #8fcfdd;
+}
+
+.bug-type {
+    background-color: #B5B830;
+}
+
+.fighting-type {
+    background-color: #AF0D1A;
+}
+
+.normal-type {
+    background-color: #ac985e;
+}
+
+.rock-type {
+    background-color: #ac7e3c;
+}
+
+.grass-type {
+    background-color: #13A10E;
+}
+
+.psychic-type {
+    background-color: #287bac;
+}
+
+.dark-type {
+    background-color: #4E1792;
+}
+
+.ground-type {
+    background-color: #6D4123;
+}
+
+.flying-type {
+    background-color: #4F7EA5;
+}
+
+.poison-type {
+    background-color: #82189D;
+}
+
+.steel-type {
+    background-color: #979696;
+    ;
+}
+
