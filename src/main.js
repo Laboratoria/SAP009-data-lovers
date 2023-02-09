@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 //import { example } from "./data.js";
+=======
+>>>>>>> cf42b4045e9104aed646a98506171f25571cb872
 import { films } from "./data.js";
 import data from "./data/ghibli/ghibli.js";
 const allAnimations = data.films;
@@ -21,7 +24,11 @@ function showAnimations(allAnimations) {
     )
     .join("");
 }
+function teste1(){
+  films.alphaFilter();
+}
 
+teste1();
 //CREATE ELEMENT E APPENDCHILD DE EXEMPLO
 const list = document.getElementById("list-container");
 function createElement(data) {
