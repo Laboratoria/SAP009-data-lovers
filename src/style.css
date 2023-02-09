@@ -167,7 +167,6 @@ main {
   align-items: center;
   justify-content: space-evenly;
   column-gap: 1rem;
-  background-color: #edd79d;
 }
 
 /*@media (max-width:769px) {
@@ -195,15 +194,6 @@ main {
 
 .cards p {
   font-size: 1.5rem;
-}
-
-footer {
-  height: 5vh;
-  background-color: #df7762;
-  font-size: 1.2rem;
-  text-align: center;
-  color: white;
-  padding-top: 1rem;
 }
 
   #list-container {
