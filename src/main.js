@@ -27,9 +27,15 @@ function showInfo(data) {
     const animationRelease = data.films[i].release_date;
     allAnimations.push(animationTitle + " - " + animationRelease);
     allAnimationsPosters.push(animationPoster); 
+   
   }
+  console.log(allAnimationsPosters);
   return `<ul>
             ${allAnimations.map((item) => `<li>${item}</li>`).join("")}
-          </ul>`
+          </ul>
+          <div>
+          ${allAnimationsPosters.map((item) => `<li>${item}</li>`).join("")}
+          </div>
+          `
 }
 
