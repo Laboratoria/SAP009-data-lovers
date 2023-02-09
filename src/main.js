@@ -22,17 +22,16 @@ function showAnimations(allAnimations) {
 
 //CREATE ELEMENT E APPENDCHILD DE EXEMPLO
 const list = document.getElementById("list-container");
-function createElement() {
+function createElement(data) {
   // Cria um novo elemento div
   const newDiv = document.createElement("div");
   // Adiciona conteúdo ao novo elemento div
-  newDiv.innerHTML =
-    "Este é um novo elemento div criado com JavaScript usando createElement e AppendChild";
+  newDiv.innerHTML = "Total number of animations produced by Studio Ghibli: " + data.length;
   // Adiciona o novo elemento div ao documento HTML
   list.appendChild(newDiv);
 }
 
-createElement();
+createElement(allAnimations);
 
 
 //FUNÇÕES ANTIGAS
