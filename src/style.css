@@ -44,29 +44,34 @@ main {
 }
 
 .search {
-    width: 200px;
-    height: 30px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
     margin-bottom: 20px;
+    text-align: center;
 }
-
-.bt-search {
+.height-inputs{
+    height: 50px;
+    font-size: 1.8rem;
+}
+.calculation {
     color: white;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     border-radius: 10px;
-    width: 100px;
-    height: 30px;
+    padding: 25px;
+    width: auto;
     background-color: var(--yellow-color);
     border: 5px solid var(--yellow-color);
-    cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .filter-order {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
-    height: 30px;
     padding: 0 5px;
 }
 
@@ -77,6 +82,7 @@ main {
 .aside-cards {
     gap: 20px;
     height: auto;
+    margin-left: 30px;
 }
 
 .icons {
@@ -100,6 +106,12 @@ aside {
 h2 {
     text-align: center;
     font-size: 2.4rem;
+}
+
+.calc-card{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .cards {
