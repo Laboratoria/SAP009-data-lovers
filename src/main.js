@@ -3,81 +3,45 @@
 import data from './data/ghibli/ghibli.js';
 
 const films = data.films
-const infos = document.getElementById('#infos')
+const characters = document.getElementById('movieCards')
 
 function showingMovieCards(films) {
-  const showFilms = films.map((film) => {
-    const catalogue =
+  const listOfMovies = films.map((film) => {
+    const allMovies = 
     `
-  <div id="divCard" class="film">
+    <div id="container">
+    <div id="card">
 
-  <button class="btn" type=button>
-  <img alt="Film poster" src="${film.poster}" id="filmPoster"/>
-  </button>
-  
-  <div id="divText">
-  <strong class="movieTitle">${film.title}</strong>
-  </div>
+    <div id="frontCard" class="movies">
 
-  </div>
-  `;
-    return catalogue
-  })
-  return showFilms.join("");
-}
 
-function showingMovieInfos (films) {
-  return `
-  <div class="info-content">
-    <h1>${films.title}</h1>
-    <p class="info-director">Dirigido por ${films.director}</p>
-    <div class="info-score">
-      <p>Score: ${films.rt_score}</p> 
+    <img alt="Film poster" src="${film.poster}" id="filmPoster"/>
+    
+    <div id="divText">
+    <strong class="movieTitle">${film.title}</strong>
     </div>
-    <div class="info-description">
-      <p>${films.description}</p><br>
+
+    <ul style="list-style: none;">
+    <li id="director">${film.director}</li>
+    <li id="releaseDate">${film.release_date}</li>
+    </ul>
+
     </div>
-    <button class="close">Sair</button>
-  </div> 
-  `
+
+
+      <div id="backCard" class="movies">
+      <p id="description"><strong>Description:</strong> ${film.description}</p>
+     </div>
+
+     </div>
+     </div>
+    `
+    return allMovies
+  });
+  return listOfMovies.join('');
 }
 
-function printMovieCards (films){
-  const movieCards = document.getElementById('movieCards');
-  movieCards.innerHTML = showingMovieCards(films);
+characters.innerHTML = showingMovieCards(films)
 
-  const btnInfos = document.querySelector('.btn');
 
-  for (let i = 0; i < films.length; i++) {
-    const showInfos = catalogueInfos (films[i])
-    btnInfos[i].addEventListener('click', showInfos);
-  }
-}
-printMovieCards(films) //Mostra os cards na tela
-
-function catalogueInfos (films) {
-  return function (){
-    infos.innerHTML = showingMovieInfos(films);
-    const closeInfos = document.querySelector('.close');
-    closeInfos.addEventListener('click', btnHideInfos);
-    showInfos();
-  }
-}
-
-infos.addEventListener ('click', hideInfos);
-
-function showInfos(){
-  infos.style.display = "block"
-}
-
-function btnHideInfos(){
-  infos.style.display = "none";
-}
-
-function hideInfos(e){
-  if (e.target === infos){
-    infos.style.display = "none";
-  }
-}
-
-console.log(data);
+//console.log(data)
