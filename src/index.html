@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémom - Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body >
+  <header class="display">
+    <img src="./img/logo.png" alt="logo-pokemóm">
+  </header>
+  <main>
+    <section class="display section-inputs">
+      
+        <input type="text" class="search height-inputs" id="search" placeholder="Buscar por nome do personagem">
+        
+      
+
+      <section class="display inputs-position">
+
+        <label for="filtro-types "></label>
+        <select name="types" id="filter-types" class="filter-order height-inputs">
+          <option>FILTRO</option>
+          <option value="grass">Planta</option>
+          <option value="poison">Venenoso</option>
+          <option value="fire">Fogo</option>
+          <option value="electric">Elétrico</option>
+          <option value="steel">Aço</option>
+          <option value="dragon">Dragão</option>
+          <option value="fairy">Fada</option>
+          <option value="ghost">Fatasma</option>
+          <option value="ice">Gelo</option>
+          <option value="bug">Inseto</option>
+          <option value="fighting">Lutador</option>
+          <option value="normal">Normal</option>
+          <option value="psychic">Psíquico</option>
+          <option value="dark">Sombrio</option>
+          <option value="ground">Terra</option>
+          <option value="flying">Voador</option>
+        </select>
+
+        <label for="order-by"></label>
+        <select name="order " id="order-by" class="filter-order height-inputs">
+          <option value="">ORDENAR POR</option>
+          <option value="a-z">A - Z</option>
+          <option value="z-a">Z - A</option>
+        </select>
+
+      </section>
+    </section>
+
+    <section class="display aside-cards">
+      <aside class="display">
+        <h2>Legendas</h2>
+        <p><span class="icons">🦾</span>= Aço</p>
+        <p><span class="icons">💧</span>= Água</p>
+        <p><span class="icons">🐲</span>= Dragão</p>
+        <p><span class="icons">⚡</span>= Elétrico</p>
+        <p><span class="icons">🧚🏻</span>= Fada</p>
+        <p><span class="icons">👻</span>= Fantasma</p>
+        <p><span class="icons">🔥</span>= Fogo</p>
+        <p><span class="icons">🧊</span>= Gelo</p>
+        <p><span class="icons">🐛</span>= Inseto</p>
+        <p><span class="icons">🥊</span>= Lutador</p>
+        <p><span class="icons">💭</span>= Normal</p>
+        <p><span class="icons">⚙️</span>= Pedra</p>
+        <p><span class="icons">🍀</span>= Planta</p>
+        <p><span class="icons">💫</span>= Psíquico</p>
+        <p><span class="icons">🛸</span>= Sombrio</p>
+        <p><span class="icons">🌏</span>= Terra</p>
+        <p><span class="icons">🐍</span>= Venenoso</p>
+        <p><span class="icons">🪂</span>= Voador</p>
+      </aside>
+
+      <section class="display calc-card">
+        <div class="calculation display height-inputs">
+          <p id="calcText">O número de personagens na região Kanto e Johto é 251 . </p>
+        </div>
+      <section class="cards display" id="cards">
+        
+        
+      </section>
+      </section>
+    </section>
+
+  </main>
+
+  <footer class="display">
+    <div class="dev display">
+      <p>Desenvolvido por <b>Angelina Melo</b></p>
+      <div class="icons">
+        <a href><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href><ion-icon name="logo-github"></ion-icon></a>
+      </div>
+    </div>
+    <div class="dev display">
+      <p>Desenvolvido por <b>Paola Oliveira</b></p>
+      <div class="icons">
+        <a href><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href><ion-icon name="logo-github"></ion-icon></a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./data/pokemon/pokemon.js"></script>
+  <script src="main.js" type="module"></script>
+
+</body>
+
 </html>
