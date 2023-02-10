@@ -1,0 +1,142 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: #130202;
+    --color-dark2: #2d2ded;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-yellow:#d29d21;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Harry Potter', sans-serif;
+    background-color: rgb(23, 1, 64);
+    color: var(--color-white);    
+}
+
+#logoMenor{
+    width: 80px;
+    display: flex;
+    padding: 16px;
+}
+
+#header,
+.navigation_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;    
+}
+
+#header{
+    background-color: var(--color-dark1);
+    box-shadow: 1px 1px 4px var(--color-yellow);
+    height: 3.5em;
+    justify-content: space-between;
+    padding: 0 10%;
+
+}
+.navigation_header{
+    gap: 3em;
+    z-index: 2;
+}
+.navigation_header a{
+    text-decoration: none;
+    color: var(--color-yellow);
+    transition: 1s;  
+}
+.active{
+    background-color: var(--color-dark5);
+    padding: 8px;
+    border-radius: 25px;
+}
+
+section{    
+    font-family: 'Harry Potter', sans-serif;
+    color: aliceblue;
+    font-size: 40px; 
+    display: block;
+    margin-right: 20%;
+    margin-left: 30%;
+    margin-top: 2%;
+    text-align: center; 
+    transition: 1s;   
+    height: 100vh;
+}
+.btn_icon_header{
+    background-color: transparent;
+    border: none;
+    color: var(--color-yellow);
+    cursor: pointer;
+    display:none;
+}
+@media screen and (max-width: 768px) {
+    .btn_icon_header{
+        display: block;
+    }
+    .navigation_header{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-dark5);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }    
+}
+@keyframes ShowSidebar{
+    from {margin-left: -100vw;}
+    top {margin-left: -10vw;}
+}
+
+#logoMaior{
+    max-width: 300px;
+    max-height: 300px;  
+    display: block;
+    margin-right: 70%;
+    margin-left: 45%;      
+}
+.main-footer{
+    background-color: #464267;
+    padding: 50px 0;
+    
+
+}
+.main-footer img{
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+
+/*
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-col .medias-sociais{
+    margin-top: 30px;
+}
+.footer.col .medias-sociais a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+*/
