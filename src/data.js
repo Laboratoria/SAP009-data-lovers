@@ -9,8 +9,8 @@ import data from "./data/ghibli/ghibli.js";
 //   return "OMG";
 // };
 
-export const sortAZ = {
-  alphaFilter: function alphaFilter() {
+export const films = {
+  alphabeticOrderFilter: function alphabeticOrderFilter() {
     //Variável para encontrar os films em data
     const films = data.films;
     //Variável que retorna os títulos dos filmes como array

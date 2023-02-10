@@ -1,5 +1,5 @@
 import data from "./data/ghibli/ghibli.js";
-import { sortAZ } from "./data.js";
+import { films } from "./data.js";
 
 const allAnimations = data.films;
 document.querySelector(".animation_cards").innerHTML = showAnimations(allAnimations);
@@ -19,7 +19,7 @@ function showAnimations(allAnimations) {
 }
 
 function teste1(){
-  sortAZ.alphaFilter();
+  films.alphabeticOrderFilter();
 }
 
 teste1();
