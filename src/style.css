@@ -1,125 +1,125 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  :root {
-    font-size: 62.5%;
-  }
-  
-  html,
-  body {
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-  
-  body {
-    font-family: "Eyad Al-Samman - Ghibli", Arial, Helvetica, sans-serif;
-    
-  }
-  
-  @font-face {
-    font-family: "Eyad Al-Samman - Ghibli";
-    src: url(./assets/Eyad\ Al-Samman\ -\ Ghibli.otf) format("truetype");
-  }
-  
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  header {
-    display: flex;
-    height: 20vh;
-    color: #1c6773;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    justify-content: center;
-    align-items: flex-end;
-    background-image: linear-gradient(
-      120deg,
-      #eeb7aa 20%,
-      #edd79d 40%,
-      #c8e1e4 100%
-    );
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  #logo {
-    width: 22rem;
-    padding-right: 2rem;
-  }
-  
-  h1 {
-    font-size: 4rem;
-    padding-top: 2rem;
-  }
-  
-  h2 {
-    font-size: 2.4rem;
-  }
-  
-  main {
-    background-color: #fcf8ee;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-  }
-  
- .animation_cards {
-    display: flex;  
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3rem;   
-  }
+:root {
+  font-size: 62.5%;
+}
 
-  .cards {
-    display: flex;
-    flex-direction: column;
-    background-color: #c8e1e4;
-    border-radius: 1rem;
-    width: 25rem;
-    height: 36rem;
-    margin: 2rem;
-    justify-content: center;
-    justify-content: baseline;
-    align-items: center;
-    padding-top: 1.4rem;
-    padding-bottom: 1rem;
-    font-size: 1.6rem;
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 
-  }
+body {
+  font-family: "Eyad Al-Samman - Ghibli", Arial, Helvetica, sans-serif;
+  
+}
 
-  .cards:hover{
-    background-color: #e85b64;
-    color: #c8e1e4;
-  }
-  
-  .posters {
-    width: 20rem;
-    height: 28rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-  
-  }
+@font-face {
+  font-family: "Eyad Al-Samman - Ghibli";
+  src: url(./assets/Eyad\ Al-Samman\ -\ Ghibli.otf) format("truetype");
+}
 
-  #list-container {
-    font-size: 1.6rem;
-    padding-top: 2rem;
-    padding-left: 5rem;
-  }
-  
-  footer {
-    height: 5vh;
-    background-color: #1c6773;
-    font-size: 1.2rem;
-    text-align: center;
-    color: white;
-    padding-top: 1rem;
-  }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  height: 20vh;
+  color: #1c6773;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: linear-gradient(
+    120deg,
+    #eeb7aa 20%,
+    #edd79d 40%,
+    #c8e1e4 100%
+  );
+}
+
+#logo {
+  width: 22rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+main {
+  background-color: #fcf8ee;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.animation_cards {
+  display: flex;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem;   
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: #c8e1e4;
+  border-radius: 1rem;
+  width: 25rem;
+  height: 36rem;
+  margin: 2rem;
+  justify-content: center;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: 1.4rem;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+
+}
+
+.cards:hover{
+  background-color: #e85b64;
+  color: #c8e1e4;
+}
+
+.posters {
+  width: 20rem;
+  height: 28rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+
+}
+
+#list-container {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+
+footer {
+  height: 5vh;
+  background-color: #1c6773;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+}

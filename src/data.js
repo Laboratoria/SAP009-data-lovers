@@ -9,19 +9,14 @@ import data from "./data/ghibli/ghibli.js";
 //   return "OMG";
 // };
 
-export const films = {
+export const sortAZ = {
   alphaFilter: function alphaFilter() {
+    //Variável para encontrar os films em data
     const films = data.films;
+    //Variável que retorna os títulos dos filmes como array
     const teste = films.map(
       (animation) => animation.title);
-    console.log(teste);
-    teste.sort();
-    console.log(teste);
-    // const a = ["xaxa", "baba", "gugu"];
-    // a.sort();
-    // console.log(a);
-    // return alert("gildovigor");
-  },
-
-  //maskify: function maskify(teste) {},
-};
+    //Variável para colocar em ordem os títulos
+    const sorted = teste.sort();
+    return alert(((sorted).join(" ")));
+  }};
