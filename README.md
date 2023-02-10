@@ -1,5 +1,6 @@
 # Data Lovers
 
+
 ## Índice
 
 * [1. Preâmbulo](#1-preâmbulo)
@@ -16,28 +17,15 @@
 
 ***
 
-## 1. Preâmbulo
+## 1. Resumo do projeto
 
-Segundo a
-[Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read)
-90% dos dados que existem hoje foram gerados durante os últimos dois anos. A
-cada dia geramos 2.5 milhões de terabytes de dados, uma cifra sem precedentes.
+Neste projeto **construímos uma _página web_ para visualizar um _conjunto
+(set) de dados_** sobre o universo Harry Potter.
 
-Apesar disso, os dados por si só são de pouca utilidade. Para que essas grandes
-quantidades de dados se convertam em **informação** compreensível para os
-usuários, precisamos entender e processar estes dados. Uma forma simples de
-fazer isso é criando _interfaces_ e _visualizações_.
-
-Na imagem seguinte, você pode ver como os dados que estão na parte esquerda
-podem ser usados para construir a interface amigável e compreensível que está na
-parte direita.
-
-![json-interface](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
-
-## 2. Resumo do projeto
-
-Neste projeto você **construirá uma _página web_ para visualizar um _conjunto
-(set) de dados_** que se adeque às necessidades de seu usuário.
+Este produto é destinado a fãs do Universo Harry Potter, que desejem ter
+acesso a informações, como personagens, livros, casas, feitiços, etc.
+Tanto para informar/confirmar estatisticas e descobrir ainda mais sobre
+essa saga que faz tanto sucesso.  
 
 Como entregável final terá uma página web que permita **visualizar dados,
 filtrá-los, ordená-los e fazer algum cálculo agregado**. Por cálculo agregado
@@ -50,49 +38,37 @@ você explore e decida com qual delas deseja trabalhar. Escolhemos
 especificamente estes conjuntos de dados porque cremos que se adequem bem a esta
 etapa de sua aprendizagem.
 
-Uma vez que você defina sua área de interesse, busque entender quem é seu
-usuário e o que exatamente ele necessita saber ou ver, para que assim possa
-construir a interface que o ajude a interagir e entender melhor os dados.
+## 2. História de Usuário Um
 
-Este são os dados que propomos:
 
-* [Pokémon](src/data/pokemon/pokemon.json): Neste conjunto você encontrará uma
-  lista com os 151 Pokémon da região de Kanto, com suas respectivas estatísticas
-  utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
-  - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt-BR.md)
+## 2.1 Definição de Pronto
 
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json): Este
-  conjunto mostra a lista de campeões do jogo League of Legends
-  (LoL).
-  - [Pesquisa com jogadores de LoL](src/data/lol/README.pt-BR.md)
+- Revisão de Design 
+Site na web onde todas as informações solicitadas possam ser acessadas pelo usuário de forma prática e intuitiva.
 
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json). Lista de
-  personagens da série Rick & Morty. Você pode revisar a documentação da API
-  neste [link](https://rickandmortyapi.com).
-  - [Pesquisa com seguidores de Rick and Morty](src/data/rickandmorty/README.pt-BR.md)
+- Código Completo
+Todas as partes do site devem ser funcionais.
 
-* [Jogos Olímpicos do Rio de Janeiro](src/data/atletas/atletas.json).
-   Este conjunto nos fornece a lista de atletas que conquistaram medalhas nas
-   Olimpíadas do Rio de Janeiro.
-  - [Pesquisa com stakeholders dos Jogos Olímpicos do Rio de Janeiro](src/data/atletas/README.pt-BR.md)
+- Documentação
+Completa e atualizada no Readme incluindo protótios de baixa e alta fidelidade.
 
-* [Studio Ghibli](src/data/ghibli/ghibli.json).
-  Lista de animações e personagens do [Studio Ghibli](https://ghiblicollection.com/).
-  - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
+- Testes unitários
+Livre de erros.
 
-* [Harry Potter](src/data/harrypotter/harry.json).
- Este conjunto nos fornece uma lista dos personagens, livros e feitiços de toda
- a saga Harry Potter
-  [Harry Potter](https://harrypotter.fandom.com).
-  - [Pesquisa com seguidores de Harry Potter](src/data/harrypotter/README.md)
+- Teste de usabilidade
+Teste com usuários reais.
+Usuários preencherão forms sobre a navegação do site.
 
-O objetivo principal deste projeto é que aprenda a desenhar e construir uma
-interface web onde se possa visualizar e manipular dados, entendendo o que o
-usuário necessita.
+- Responsivo
+Adaptavel a todas telas, é possível acessar em todas as plataformas digitais.
 
-## 3. Objetivos de aprendizagem
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
+
+## 2.2 Protótipo de Baixa Fidelidade
+
+
+
+## 2.3 Protótipo de Alta Fidelidade
 
 ### HTML
 
