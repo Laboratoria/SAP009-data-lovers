@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=PT+Serif:ital@1&family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fredericka+the+Great&family=Lora:ital@0;1&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
+    height: 100%;
+    background-attachment: fixed;
+    
+}
+
+h1 {
+    font-family:  'Berkshire Swash', cursive;
+    font-size: 45px;
+    color: #fd799c;
+    text-align: center;
+    text-shadow: 1px, 1px, 2px #0e000086;
+}
+
+h5 {
+    color: #20976b;
+    font-family: 'Lora', serif;
+}
+
+p {
+    text-align: justify;
+    font-family: 'quicksand', sans-serif;
+    text-indent: 30px;
+}
+
+main{
+    background-color: white;
+    border-radius: 15px;
+    width: 750px;
+    padding: 15px;
+    margin: auto;
+    
+}
+
+footer{
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #c9eefa;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #b1b3f3;
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9da1fd; 
+  }
+
+a:hoover {
+
+}
+
