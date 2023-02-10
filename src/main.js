@@ -1,15 +1,13 @@
-import { films } from "./data.js";
 import data from "./data/ghibli/ghibli.js";
-const allAnimations = data.films;
+import { sortAZ } from "./data.js";
 
-document.querySelector(".animation_cards").innerHTML =
-  showAnimations(allAnimations);
+const allAnimations = data.films;
+document.querySelector(".animation_cards").innerHTML = showAnimations(allAnimations);
 
 function showAnimations(allAnimations) {
   return allAnimations
-    .map(
-      (animation) =>
-        `
+    .map((animation) =>
+      `
   <div class="cards">
   <img class="posters" src="${animation.poster}" alt="Pôster do filme">
   <p class="film-info">${animation.title} </p>
@@ -19,11 +17,13 @@ function showAnimations(allAnimations) {
     )
     .join("");
 }
+
 function teste1(){
-  films.alphaFilter();
+  sortAZ.alphaFilter();
 }
 
 teste1();
+
 //CREATE ELEMENT E APPENDCHILD DE EXEMPLO
 const list = document.getElementById("list-container");
 function createElement(data) {

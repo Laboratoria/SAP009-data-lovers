@@ -8,26 +8,15 @@ import data from "./data/ghibli/ghibli.js";
 // export const anotherExample = () => {
 //   return "OMG";
 // };
-import data from "./data/ghibli/ghibli.js";
-const titles = data.films.titles;
 
-export const films = {
+export const sortAZ = {
   alphaFilter: function alphaFilter() {
+    //Variável para encontrar os films em data
     const films = data.films;
+    //Variável que retorna os títulos dos filmes como array
     const teste = films.map(
-<<<<<<< HEAD
-      (animation) => animation.title).join("");
-      console.log(teste);
-=======
       (animation) => animation.title);
-    console.log(teste);
-    teste.sort();
-    console.log(teste);
-    // const a = ["xaxa", "baba", "gugu"];
-    // a.sort();
-    // console.log(a);
->>>>>>> ea5c16eb63367d5a3302ed69b73b7715951611a5
-    // return alert("gildovigor");
-  },
-  //maskify: function maskify(teste) {},
-};
+    //Variável para colocar em ordem os títulos
+    const sorted = teste.sort();
+    return alert(((sorted).join(" ")));
+  }};
