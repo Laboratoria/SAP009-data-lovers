@@ -1,6 +1,7 @@
 //import { example } from './data.js';
-
+import  {searchData, filterPokemon, order, computerType} from '../src/data.js'; 
 import data from './data/pokemon/pokemon.js';
+
 
 
 
@@ -84,10 +85,10 @@ const translate=(type) => {
     
 
 
-const cards = document.getElementById('cards')
-const array = data.pokemon
-const allCards =() => {
-cards.innerHTML = array.map((pokemon) => `
+
+
+function printCards(list) {
+    document.getElementById('cards').innerHTML = list.map((pokemon,index) => `
     <div class="container-card">
     <div class="flipper-card">
     <div class="display card-front card">
@@ -113,28 +114,35 @@ cards.innerHTML = array.map((pokemon) => `
                 </div>
 `).join("")
 }
-allCards()
-//${pokemon.pokemon-rarity}
-//${pokemon.evolution.next-evolution[0].candy-cost}
-//<p>Candies: <span class="candies">${pokemon.evolution.nextEvolution[0].candyCost}</span></p>
+printCards(data.pokemon)
 
+
+
+const calcText = document.getElementById('calcText')
 
 const searchInput = document.getElementById('search')
-searchInput.addEventListener('keyup', () => {
-    console.log('input funcionando')
+searchInput.addEventListener('keyup', (evento) => {
+    const valueInput = evento.target.value
+    const listFilter= searchData(valueInput, data.pokemon)
+    printCards(listFilter)
+    console.log(listFilter.length)
 })
 
 const filterTypes = document.getElementById('filter-types')
-filterTypes.addEventListener('click', () => {
-    console.log('filtro funcionando')
+filterTypes.addEventListener('change', () => {
+    const filter = filterPokemon (filterTypes.value, data.pokemon)
+    printCards(filter)
+    const porcent = computerType(filter, data.pokemon)
+    calcText.innerHTML = `O número de pokemons desse tipo é ${filter.length}, o que equivale a ${porcent}%`
 })
 
-const btSearch = document.getElementById('bt-search')
-btSearch.addEventListener('click', () => {
-    console.log('botão de pesquisa funcionando')
-})
 
-const order = document.getElementById('order-by')
-order.addEventListener('click', () => {
-    console.log('ordenar funcionando')
+
+const names = data.pokemon.slice()
+const orderList = document.getElementById('order-by')
+orderList.addEventListener('change', () => {
+    const ordered = order(orderList.value, names)
+    console.log(names)
+   // console.log(ordered)
+    printCards(names)
 })

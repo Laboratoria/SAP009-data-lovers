@@ -14,42 +14,42 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body onload="allCards()">
+<body >
   <header class="display">
     <img src="./img/logo.png" alt="logo-pokemóm">
   </header>
   <main>
     <section class="display section-inputs">
-      <section class="display inputs-position">
-        <input type="text" class="search" id="search">
-        <button type="button" class="bt-search" id="bt-search">BUSCAR</button>
-      </section>
+      
+        <input type="text" class="search height-inputs" id="search" placeholder="Buscar por nome do personagem">
+        
+      
 
       <section class="display inputs-position">
 
-        <label for="filtro-types"></label>
-        <select name="types" id="filter-types" class="filter-order">
+        <label for="filtro-types "></label>
+        <select name="types" id="filter-types" class="filter-order height-inputs">
           <option>FILTRO</option>
-          <option value="planta">Planta</option>
-          <option value="venenoso">Venenoso</option>
-          <option value="fogo">Fogo</option>
-          <option value="eletrico">Elétrico</option>
-          <option value="aço">Aço</option>
-          <option value="dragao">Dragão</option>
-          <option value="fada">Fada</option>
-          <option value="fantasma">Fatasma</option>
-          <option value="gelo">Gelo</option>
-          <option value="inseto">Inseto</option>
-          <option value="lutador">Lutador</option>
+          <option value="grass">Planta</option>
+          <option value="poison">Venenoso</option>
+          <option value="fire">Fogo</option>
+          <option value="electric">Elétrico</option>
+          <option value="steel">Aço</option>
+          <option value="dragon">Dragão</option>
+          <option value="fairy">Fada</option>
+          <option value="ghost">Fatasma</option>
+          <option value="ice">Gelo</option>
+          <option value="bug">Inseto</option>
+          <option value="fighting">Lutador</option>
           <option value="normal">Normal</option>
-          <option value="psiquico">Psíquico</option>
-          <option value="sombrio">Sombrio</option>
-          <option value="terra">Terra</option>
-          <option value="voador">Voador</option>
+          <option value="psychic">Psíquico</option>
+          <option value="dark">Sombrio</option>
+          <option value="ground">Terra</option>
+          <option value="flying">Voador</option>
         </select>
 
         <label for="order-by"></label>
-        <select name="order" id="order-by" class="filter-order">
+        <select name="order " id="order-by" class="filter-order height-inputs">
           <option value="">ORDENAR POR</option>
           <option value="a-z">A - Z</option>
           <option value="z-a">Z - A</option>
@@ -81,21 +81,14 @@
         <p><span class="icons">🪂</span>= Voador</p>
       </aside>
 
-      <section class="cards display" id="cards">
-        <div class="container-card">
-          <div class="flipper-card">
-            <div class="display card-front card">
-            </div>
-            <div class="display card-back card">
-              <p>Peso: <span class="weight">20kg</span></p>
-              <p>Altura: <span class="height">20kg</span></p>
-              <p>Candies: <span class="candies">20kg</span></p>
-              <p>Raridade: <span class="rarity">20kg</span></p>
-              <p>Resistências: <span class="resistances">20kg</span></p>
-              <p>Fraquezas: <span class="weakness">20kg</span></p>
-            </div>
-          </div>
+      <section class="display calc-card">
+        <div class="calculation display height-inputs">
+          <p id="calcText">O número de personagens na região Kanto e Johto é 251 . </p>
         </div>
+      <section class="cards display" id="cards">
+        
+        
+      </section>
       </section>
     </section>
 
