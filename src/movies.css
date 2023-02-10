@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 
-#homeBody {
-    background-image: url("./background-home.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-}
-
 .bgHeader {
     background-image: url("./background-general.jpg");
     background-repeat: no-repeat;
@@ -25,6 +18,7 @@
 
 .stats {
     background-color: #46A4C8;
+    height: 50px;
 }
 
 #movieCards {

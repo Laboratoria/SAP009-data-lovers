@@ -226,7 +226,7 @@ export default {
         {
           "id": "d5df3c04-f355-4038-833c-83bd3502b6b9",
           "name": "Mei Kusakabe",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b5/God_Jul_Mei_%C3%B6nskar_fr%C3%A5n_Tomten.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/01/Mei_Kusakabe.jpg",
           "gender": "Female",
           "age": "4",
           "eye_color": "Brown",
@@ -296,7 +296,7 @@ export default {
         {
           "id": "c491755a-407d-4d6e-b58a-240ec78b5061",
           "name": "Chibi Totoro",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c5/Little_Totoro_spirit_moving.gif",
+          "img": "https://www.ghibli.jp/gallery/thumb-totoro019.png",
           "gender": "NA",
           "age": "",
           "eye_color": "Black",
@@ -448,7 +448,7 @@ export default {
         {
           "id": "62346d33-caa0-4c17-8016-0aca56f3066b",
           "name": "Karikiya",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/e/e3/Majo002.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/4/4a/Karikiya.jpg",
           "climate": "Mild",
           "terrain": "City",
           "surface_water": "30",
@@ -510,7 +510,7 @@ export default {
         {
           "id": "227c01a6-4e29-4582-bc4b-35106a704ab0",
           "name": "Mrs. Yokokawa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/39/SeitaMother.png",
+          "img": "https://s4.anilist.co/file/anilistcdn/character/large/b133870-kfO1GVk2plls.png",
           "gender": "Female",
           "age": "Adult",
           "eye_color": "Black",
@@ -520,7 +520,7 @@ export default {
         {
           "id": "023306e3-9fc6-4d1d-b681-d4649dcbfff9",
           "name": "Kiyoshi Yokokawa",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/f/f6/SeitaFather3.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b3/Seita_Father_3.jpg",
           "gender": "Male",
           "age": "40",
           "eye_color": "Black",
@@ -530,7 +530,7 @@ export default {
         {
           "id": "0e18b23d-1f21-4a83-a6de-f01147624875",
           "name": "Seita's Aunt",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/09/SeitaAunt.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a3/Seita's_Aunt_with_characters.jpg",
           "gender": "Female",
           "age": "Elder",
           "eye_color": "Black",
@@ -574,7 +574,7 @@ export default {
         {
           "id": "52ed5cad-2464-481f-9786-8533b8de95ff",
           "name": "Mr. Okajima",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/5/58/Mr._Okajima.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/2/21/Taeko's_Father.png",
           "gender": "Male",
           "age": "Middle age",
           "eye_color": "Black",
@@ -710,7 +710,7 @@ export default {
         {
           "id": "4a2e2cee-08ca-4d44-9564-2b3e5421bafb",
           "name": "Fio Piccolo",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/1/16/Fio_%282%29.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c2/Fio_Piccolo.jpg",
           "gender": "Female",
           "age": "17",
           "eye_color": "Brown",
@@ -775,7 +775,7 @@ export default {
         {
           "id": "d8f893b5-1dd9-41a1-9918-0099c1aa2de8",
           "name": "Red Wing",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/8f/Porco%27s_Plane.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/6/67/Marco's_Plane.png",
           "description": "An experimental aircraft captured by Porco. Named Savoia S.21",
           "vehicle_class": "Airplane",
           "length": "20",
@@ -977,7 +977,7 @@ export default {
         {
           "id": "42f787d8-1fcb-4d3d-82f2-a74409869368",
           "name": "Seiji's House",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a7/Mimi011.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/b/b0/Whisper_of_the_Heart_-_fan_01.jpg",
           "climate": "Continental",
           "terrain": "City",
           "surface_water": "0",
@@ -1021,7 +1021,7 @@ export default {
         {
           "id": "34277bec-7401-43fa-a00a-5aee64b45b08",
           "name": "Eboshi",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/9/9f/Eboshi.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/5/53/Eboshi.jpg",
           "gender": "Female",
           "age": "Adult",
           "eye_color": "Hazel",
@@ -1259,7 +1259,7 @@ export default {
         {
           "id": "cf0a2a1b-8b65-4794-98ae-bd89de49fa62",
           "name": "Lin",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/35/Lin-HBO_Max.png",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/0a/Lin's_food_rots.png",
           "gender": "Female",
           "age": "Adult",
           "eye_color": "Brown",
@@ -1438,7 +1438,7 @@ export default {
         {
           "id": "a8bd9c03-7c80-4a97-b7c0-6a668acaf576",
           "name": "The Cat Kingdom",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/a/a9/Baron022.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/b/be/Cat_Kingdom.jpeg",
           "climate": "Continental",
           "terrain": "Plain",
           "surface_water": "30",
@@ -1497,7 +1497,7 @@ export default {
         {
           "id": "1287b275-6c32-4113-947f-519316d4a6be",
           "name": "Witch of the Waste",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/e/e1/Howls-moving-castle-disneyscreencaps.com-10507.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/3/3f/The_Witch.jpg",
           "gender": "Female",
           "age": "59",
           "eye_color": "Brown",
@@ -1698,7 +1698,7 @@ export default {
         {
           "id": "bcc54f38-8847-45b0-97b1-307c94b2b517",
           "name": "Enland",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/0/0e/Ged007.jpg",
+          "img": "https://www.ghibli.jp/gallery/ged007.jpg",
           "climate": "Wet",
           "terrain": "Earthsea",
           "surface_water": "100",
@@ -1848,7 +1848,7 @@ export default {
         {
           "id": "923d70c9-8f15-4972-ad53-0128b261d628",
           "name": "Sosuke's Boat",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/PonyoS%C5%8DsukeBoat.jpg",
+          "img": "https://www.ghibli.jp/gallery/ponyo044.jpg",
           "description": "A toy boat where Sosuke plays",
           "vehicle_class": "Boat",
           "length": "10",
@@ -1954,7 +1954,7 @@ export default {
         {
           "id": "1e7ed524-4b4f-466b-978c-69dda9777396",
           "name": "Sho's house",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/8/86/Karigurashi002.jpg",
+          "img": "https://www.ghibli.jp/gallery/karigurashi002.jpg",
           "climate": "Warm",
           "terrain": "Forest",
           "surface_water": "10",
@@ -1965,7 +1965,7 @@ export default {
         {
           "id": "f2148ab5-f272-4057-b05a-1321e35227b4",
           "name": "Karigurashi's house",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/cd/Karigurashi019.jpg",
+          "img": "https://www.ghibli.jp/gallery/karigurashi019.jpg",
           "climate": "Warm",
           "terrain": "Under the floorboards",
           "surface_water": "10",
@@ -2177,7 +2177,7 @@ export default {
         {
           "id": "2b380662-626d-42fb-9e3a-14f951201c8b",
           "name": "Nagoya",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/2/20/Kazetachinu009.jpg",
+          "img": "https://www.ghibli.jp/gallery/kazetachinu006.jpg",
           "climate": "Damp",
           "terrain": "Hill",
           "surface_water": "20",
@@ -2190,7 +2190,7 @@ export default {
         {
           "id": "411f66ed0-771c-46d3-8f68-a3b65c6dd91c",
           "name": "Mitsubishi 1MF9 ",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/4/41/Kazetachinu044.jpg",
+          "img": "https://www.ghibli.jp/gallery/kazetachinu044.jpg",
           "description": "The Mitsubishi 1MF9 or Mitsubishi Experimental Taka-type Carrier Fighter was a prototype Japanese fighter aircraft of the 1920s. It was a single-engined, single-seat biplane intended to operate from the Imperial Japanese Navy's aircraft carriers, but only two were built, with the type being rejected by the Navy.",
           "vehicle_class": "War plane",
           "length": "8",
@@ -2296,7 +2296,7 @@ export default {
         {
           "id": "682df5c3-b09e-46af-94d1-ae0d17f9b4b6",
           "name": "Bamboo Forest",
-          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/e/ec/Ghibli-kaguya-bamboo-forest.jpg",
+          "img": "https://static.wikia.nocookie.net/studio-ghibli/images/c/cd/Ghibli_Kaguya_Bamboo_Forest.jpg",
           "climate": "Tropical",
           "terrain": "Forest",
           "surface_water": "10",
