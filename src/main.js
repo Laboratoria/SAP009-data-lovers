@@ -32,7 +32,7 @@ teste1();*/
 const list = document.getElementById("list-container");
 function createElement(data) {
   // Cria um novo elemento div
-  const newDiv = document.createElement("div");
+  const newDiv = document.createElement("div.number");
   // Adiciona conteúdo ao novo elemento div
   newDiv.innerHTML = "Total number of animations produced by Studio Ghibli: " + data.length;
   // Adiciona o novo elemento div ao documento HTML

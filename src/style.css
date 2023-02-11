@@ -110,9 +110,44 @@ main {
 }
 
 #list-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1.6rem;
-  padding-top: 2rem;
-  padding-left: 5rem;
+  padding: 2rem 5rem 0 5rem;
+}
+
+#filter {
+  background-color: #c8e1e4;
+  border-radius: 1rem;
+  border: none;
+  width: 15vw;
+  padding: 0.5rem;
+  outline: none;
+}
+
+#filter:active {
+  color: #c8e1e4;
+}
+
+#az-bt {
+  background-color: #ECD89A;
+  border: none;
+  width: 7vw;
+}
+
+#az-bt:active {
+  background-color: #e85b64;
+  color: #c8e1e4;
+}
+
+.filter-inputs {
+  font-size: 1.5rem;
+  font-family: "Eyad Al-Samman - Ghibli", Arial, Helvetica, sans-serif;
+  border-radius: 1rem;
+  border: none;
+  height: 4vh;
 }
 
 footer {
