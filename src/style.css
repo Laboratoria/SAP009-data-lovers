@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-size: 100%;
+  width: 95%;
+  max-width: 800px;
+  font-family : 'Harry Potter'; 
+  line-height: 1.5;                               
+  margin: auto;
+  background-image: url("img/harry\ 1.jpeg");
+  color: aliceblue;
+}
+
+main {
+  background: #00000054;
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.logo {
+
+
+}
+
+.hp {
+
+}
+
+a {
+  color: yellow;
+}
+
+
+}
+
+.cabeçalho {
+  
+}
+
+image{
+  
+}
+
+H1 {
+  color: yellow;
+
+}
