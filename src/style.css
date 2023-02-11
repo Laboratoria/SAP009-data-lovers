@@ -3,51 +3,98 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-size: 100%;
+}
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-  font-size: 100%;
+body,
+html {
   width: 95%;
-  max-width: 800px;
-  font-family : 'Harry Potter'; 
-  line-height: 1.5;                               
+  height: 95%;
+}
+
+body {
+  font-family: "Harry Potter";
+  font-size: 1.6rem;
+  line-height: 1.5;
   margin: auto;
   background-image: url("img/harry\ 1.jpeg");
-  color: aliceblue;
+  overflow: overlay; /*fazer com que as barras de rolagem apareçam sobre o conteúdo em vez de ocupar espaço.*/
 }
 
-main {
-  background: #00000054;
-  padding: 5px 40px;
-  margin-top: 20px;
-  border-radius: 3px;
+.imgMenu {
+  width: 100vh;
+}
+
+.imgLogo {
+  border-radius: 90%;
+  width: 10%;
+  display: flex;
 }
 
 .logo {
-
-
+  display: flex;
 }
-
-.hp {
-
-}
-
 a {
   color: yellow;
-}
-
-
-}
-
-.cabeçalho {
-  
-}
-
-image{
-  
+  text-decoration: none;
 }
 
 H1 {
   color: yellow;
-
 }
+
+.menu3 {
+  margin-top: -98px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 70px;
+  }
+}
+
+.menu4 {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 300;
+  
+}
+
+
+/*item {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  color: red;
+  text-decoration: none;
+}
+
+.texto {
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}
+
+/*.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 px;
+}*/
+*/

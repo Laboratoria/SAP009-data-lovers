@@ -3,63 +3,101 @@
 
 <head>
   <meta charset="utf-8">
-  <title> </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter lovers </title>
   <link href=" https://fonts.cdnfonts.com/css/harry-potter " rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="corpo">
+<body>
 
-  <header class="cabeçalho">
-    <nav>
-      <div class="logo">
-        <a href="index.html">
-          <img src="img/brasao.jpeg">
+  <header>
+    <nav class="logo">
+      <div class="lista">
+        <img class="imgLogo" src="img/brasao.jpeg">
+        <a class="logo">
           <p>
-            <Laboratória> Data Lovers
+            <Laboratória> projeto: Data Lovers
           </p>
         </a>
+        <div class="guia">
+          <!--
+          <ul>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+          </ul>
+          <button class="button" onclick="closeMenu(), mudarTema()" href="#">tema</button>-->
+
+        </div>
       </div>
     </nav>
   </header>
-
-  <main>
-    <section>
-      <div>
-        <div class="menu">
-          <img src="img/harry2.jpg">
-          <h1>BEM VINDO A HOGWARTS</h1>
-
+  <div>
+    <main class="principal">
+      <section id="home">
+        <div class="inicio">
+          <div class="img">
+            <img class="imgMenu" src="img/harry2.jpg">
+          </div>
+          <h1 class="menu3">BEM VINDO A HOGWARTS</h1>
         </div>
-    </section>
-    <section>
-      <div>
-        <ul>
-          <li>
-            <a onclick="" href="personagens.html"> Personagens </a>
-          </li>
-          <li>
-            <a onclick="" href="livros.html"> Coleção de livros</a>
-          </li>
-          <li>
-            <a onclick="" href="feitiços.html"> Feitiços & Poções </a>
-          </li>
+      </section>
+      <section class="menu4">
+        <nav>
+          <div class="menuitem"><a class="item" onclick="" href="personagens.html"> Personagens </a></div>
+          <div class="menuitem"> <a class="item" onclick="" href="livros.html"> Coleção de livros</a></div>
+          <div class="menuitem"> <a class="item" onclick="" href="feitiços.html"> Feitiços & Poções </a></div>
+          <div class="menuitem"><a class="item" onclick="" href="livros.html"> Coleção de livros</a></div>
+          <div class="menuitem"><a class="item" onclick="" href="clubhp.html"> ClubHP </a></div>
+          <div class="menuitem"><a class="item" onclick="" href="book.html"> HarryPotterBook ou InstaHarryPotter</a></div>
+        </nav>
+        <div>
+          <a href="capa.html"> proximo </a>
+          <hr>
+          <prompt>digite seu nome para entrar</prompt>
+        </div>
+      </section>
+    </main>
+  </div>
 
-          <li>
-            <a onclick="" href="clubhp.html"> ClubHP </a>
-          </li>
+  <section id="novidades">
+    <div class="wrapper">
+      <header>
+        <h2>Novidades</h2>
+        <h3>Receba novidades </h3>
+      </header>
 
-          <li>
-            <a onclick="" href="book.html"> HarryPotterBook ou InstaHarryPotter</a>
-          </li>
-        </ul>
+      <div class="container-novidades">
+
+        <div class="content">
+          <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+          </form>
+
+          <button class="button" id="botaoEnviar">Enviar</button>
+        </div>
       </div>
-      <a href="capa.html"> proximo </a>
-      <hr>
-      <prompt>digite seu nome para entrar</prompt>
-      </div>
-    </section>
-  </main>
+
+    </div>
+  </section>
 
   <script src="main.js" type="module"></script>
 </body>
