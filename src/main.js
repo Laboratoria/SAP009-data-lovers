@@ -4,12 +4,3 @@
 // import data from './data/rickandmorty/rickandmorty.js';
 
 //console.log(example, data);
-function ocultarPokebola {
-    var x;
-
-    var clique = prompt("Clique na Pokebola");
-
-    if (clique != null) {
-        document.getElementById("demo").innerHTML = x;
-    }
-}

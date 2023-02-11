@@ -1,5 +1,27 @@
 /*css pokeball*/
 
+.logo {
+    font-family: 'black hans sans', sans-serif;
+    font-size: 400%;
+    font-weight: 900;
+
+}
+
+.logo1 {
+    font-family: 'black hans sans', sans-serif;
+    font-size: 400%;
+    font-weight: 900;
+
+}
+
+.seta {
+    margin-top: 45px;
+    margin-right: auto;
+    width: 400px;
+    display: block;
+
+}
+
 .pokebola {
     margin-top: 45px;
     margin-left: auto;
@@ -7,10 +29,4 @@
     width: 400px;
     display: block;
     cursor: pointer;
-}
-
-.logo {
-    font-family: 'black hans sans', sans-serif;
-    font-size: 100%;
-
 }
