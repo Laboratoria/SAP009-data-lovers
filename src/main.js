@@ -5,23 +5,43 @@ const allAnimations = data.films;
 const animationCards = document.querySelector(".animation-cards");
 const filterButton = document.getElementById("filter-button");
 const filterType = document.getElementById("filter-type");
-document.querySelector(".animation-cards").innerHTML = showAnimations(allAnimations);
+// document.querySelector(".animation-cards").innerHTML = showAnimations(allAnimations);
 filterButton.addEventListener("click", defineAlphabeticalFilter);
 
-function showAnimations(allAnimations) {
+  const inputArea = document.getElementById("filter");
+  inputArea.addEventListener("keyup", films.searchFilms);
+
+document.querySelector(".animation-cards").innerHTML = showAnimations1(allAnimations);
+
+function showAnimations1(allAnimations) {
   return allAnimations
-    .map(
-      (animation) =>
-        `
+    .map((animation) =>
+      `<div class="all-cards">
   <div class="cards">
   <img class="posters" src="${animation.poster}" alt="Pôster do filme">
-  <p class="film-info">${animation.title} </p>
+  <p id="film-title" class="film-info">${animation.title} </p>
   <p class="film-info"> ${animation.release_date}</p>
+  </div>
   </div>
   `
     )
     .join("");
 }
+
+// function showAnimations(allAnimations) {
+//   return allAnimations
+//     .map(
+//       (animation) =>
+//         `
+//   <div class="cards">
+//   <img class="posters" src="${animation.poster}" alt="Pôster do filme">
+//   <p class="film-info">${animation.title} </p>
+//   <p class="film-info"> ${animation.release_date}</p>
+//   </div>
+//   `
+//     )
+//     .join("");
+// }
 
 function defineAlphabeticalFilter() {
   let alphabeticalFilter = null;
