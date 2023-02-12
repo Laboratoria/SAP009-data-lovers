@@ -1,79 +1,67 @@
 import data from "./data/ghibli/ghibli.js";
-import { searchFilm } from "./data.js";
+import { films } from "./data.js";
 
 const allAnimations = data.films;
-document.querySelector(".animation_cards").innerHTML = showAnimations(allAnimations);
+const animationCards = document.querySelector(".animation-cards");
+const filterButton = document.getElementById("filter-button");
+const filterType = document.getElementById("filter-type");
+document.querySelector(".animation-cards").innerHTML = showAnimations(allAnimations);
+filterButton.addEventListener("click", defineAlphabeticalFilter);
 
 function showAnimations(allAnimations) {
   return allAnimations
-    .map((animation) =>
-      `<div class="all-cards">
+    .map(
+      (animation) =>
+        `
   <div class="cards">
   <img class="posters" src="${animation.poster}" alt="Pôster do filme">
-  <p id="film-title" class="film-info">${animation.title} </p>
+  <p class="film-info">${animation.title} </p>
   <p class="film-info"> ${animation.release_date}</p>
-  </div>
   </div>
   `
     )
     .join("");
 }
 
-const inputArea = document.getElementById("filter");
-inputArea.addEventListener("keyup", searchFilm);
+function defineAlphabeticalFilter() {
+  let alphabeticalFilter = null;
+  if (filterButton.value === "Show films from A - Z") {
+    alphabeticalFilter = films.alphabeticOrderFilter(allAnimations);
+    filterButton.value = "Show films from Z - A";
+   filterType.innerHTML = "A - Z";
 
-/*function teste1(){
-  films.alphabeticOrderFilter();
+  } else if (filterButton.value === "Show films from Z - A") {
+    alphabeticalFilter = films.inverseAlphabeticOrderFilter(allAnimations);
+    filterButton.value = "Show films from A - Z";
+    filterType.innerHTML = "Z - A";
+  }
+  showFilmsAlphabeticalOrder(alphabeticalFilter);
 }
 
-teste1();*/ 
+function showFilmsAlphabeticalOrder (alphabeticalFilter){  
+  animationCards.innerHTML = alphabeticalFilter
+    .map(
+      (animation) =>
+        `
+<div class="cards">
+<img class="posters" src="${animation.poster}" alt="Pôster de ${animation.title}">
+<p class="film-info">${animation.title} </p>
+<p class="film-info"> ${animation.release_date}</p>
+</div>
+`
+    )
+    .join("");  
+}
 
-//CREATE ELEMENT E APPENDCHILD DE EXEMPLO
-const list = document.getElementById("list-container");
 function createElement(data) {
-  // Cria um novo elemento div
-  const newDiv = document.createElement("div.number");
-  // Adiciona conteúdo ao novo elemento div
-  newDiv.innerHTML = "Total number of animations produced by Studio Ghibli: " + data.length;
-  // Adiciona o novo elemento div ao documento HTML
-  list.appendChild(newDiv);
+
+  const parentDiv = document.querySelector(".top-info");
+  const childDiv = document.getElementById("buttons");
+  const newDiv = document.createElement("div");
+  newDiv.classList.add("list-container");  
+  newDiv.innerHTML =
+    "Total number of animations produced by Studio Ghibli: " + data.length;
+  parentDiv.insertBefore(newDiv, childDiv);
 }
 
 createElement(allAnimations);
-
-
-//FUNÇÕES ANTIGAS
-//console.log(example, data);
-
-// //document.getElementById("list-container").innerHTML = showAll(data);
-
-// /*document.querySelector(".animation_cards").innerHTML = showInfo(data);
-
-// function showInfo(data) {
-//   const allAnimations = [];
-//   const allAnimationsPoster = [];
-//   for (let i = 0; i < data.films.length; i++) {
-//     const animationPoster = data.films[i].poster
-//     const animationTitle = data.films[i].title;
-//     const animationRelease = data.films[i].release_date;
-//     allAnimations.push(animationTitle + " - " + animationRelease);
-//   }
-//   return `<ul>
-//             ${allAnimations.map((item) => `<li>${item}</li>`).join("")}
-//           </ul>`;
-// }*/
-
-// function showInfo(data) {
-//   const allAnimations = [];
-//   const allAnimationsPosters = [];
-//   for (let i = 0; i < data.films.length; i++) {
-//     const animationPoster = data.films[i].poster;
-//     const animationTitle = data.films[i].title;
-//     const animationRelease = data.films[i].release_date;
-//     allAnimations.push(animationTitle + " - " + animationRelease);
-//     allAnimationsPosters.push(animationPoster);
-//   }
-//   return `<ul>
-//             ${allAnimations.map((item) => `<li>${item}</li>`).join("")}
-//           </ul>`;
-// }
