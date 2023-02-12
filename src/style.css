@@ -176,3 +176,17 @@ footer {
   border: none;
   height: 4vh;
 }
+
+.filter-button{
+  background-color: #ECD89A;
+  border: none;
+  
+  font-size: 1.5rem;
+  font-family: "Eyad Al-Samman - Ghibli", Arial, Helvetica, sans-serif;
+  border-radius: 1rem;
+  border: none;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
