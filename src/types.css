@@ -1,0 +1,45 @@
+/*css types pokemons*/
+
+.selection{
+  display: grid;
+  place-items: center;
+}
+
+.types-pokemons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.type-pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
+}
+
+.image{
+  width: 150px;
+}
+
+.btn{
+    width: 300px;
+    height: 80px;
+    background-color: #211F30;
+    border-color: #313030;
+    border-radius: 10px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+  margin-top: 100px;
+}

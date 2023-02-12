@@ -7,12 +7,12 @@
     text-decoration: none;
 }
 
-body {
+.initial-home {
     font-family: 'Inter', sans-serif;
     height: 100vh;
     width: 100%;
     background-color: #d68d04;
-    background-image: url("image/background.jpg");
+    background-image: url("image/home-background.svg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -20,32 +20,33 @@ body {
     background-attachment: fixed;
 }
 
-header {
+.types{
+  background-color: #EEEEEE;
+}
+
+.position-header {
     display: flex;
     justify-content: flex-end;
-    padding-top: 3em;
+    padding-top: 4em;
 }
 
-nav {
-    background-color: #ffb004;
-    width: 40vw;
-    height: 11vh;
-    box-shadow: -90px 19px 1px 12px #d39207;
-}
-
-.box {
+.menu {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
     padding: 20px;
+    background-color: #ffb004;
+    width: 40vw;
+    height: 11vh;
+    border-radius: 10px 0 0 10px;    
 }
 
-.home,
-.pokemon {
+.options-menu {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 800;
     color: #000000;
     cursor: pointer;
+    padding: 5px;
 }
 
 main {
