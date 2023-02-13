@@ -43,5 +43,4 @@ function showingMovieCards(films) {
 
 characters.innerHTML = showingMovieCards(films)
 
-
 //console.log(data)

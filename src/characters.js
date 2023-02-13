@@ -62,6 +62,6 @@ function showingCharactersCards(films) {
   return listOfPeople.join('');
 }
 
-characters.innerHTML = showingCharactersCards(films)
+characters.innerHTML = showingCharactersCards(films) 
 
 console.log(data)

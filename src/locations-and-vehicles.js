@@ -103,4 +103,4 @@ function showingVehiclesCards(films) {
   return listOfVehicles.join('')
 }
   
-allCards.innerHTML = locationsAndVehicles;
+allCards.innerHTML = locationsAndVehicles;  
