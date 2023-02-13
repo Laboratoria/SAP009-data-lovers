@@ -23,6 +23,7 @@ sectionMovies(data.films)
 
 
 
+
 /*const sectionCards = document.getElementById("infoMovies")
 
 function cards(cardMovies){
