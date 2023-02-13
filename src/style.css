@@ -1,245 +1,238 @@
 
-header {
-    background: black;
-    display: flex;
-    padding: 40px 40px;
-    justify-content: space-between;
+ body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://giffiles.alphacoders.com/276/2766.gif);
+  width:"100%";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-nav {
-  text-align: right;
+.conteudo-fixo {
   position: fixed;
   top: 0;
-  top:auto;
-    right: 10px;
+  z-index: 9999;
+  
 }
-
-    nav a {
-        display: inline-flex;
-        align-items: center;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-decoration: none;
-        margin-right: 40px;
-        margin-top: auto;
-        color: rgb(161, 108, 35);
-    }
-    nav a:hover {
-        color: aliceblue;
-    }
-    #jogar {
-        padding: 10px;
-        background-color: rgb(8, 63, 85);
-        border-radius: 8px;
-    }
-    body {
-        background-image: url(https://giffiles.alphacoders.com/276/2766.gif);
-        width:"100%";
-        text-align: center;
-        background-size: 100%;
-        justify-content: space-between;
-    }
-    .info {
-        padding: 20px;
-        text-align: center;
-        width: 1030px;
-        margin: 0 auto;
-    }
-main {
-    margin: 0 auto; 
-    text-align: center;
-    color: aliceblue;
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  flex-direction: row;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.logo-site {
+  width: 220px;
+}
+nav a {
+  margin-right: 1.8rem;
+       text-transform: uppercase;
+       font-weight: bold;
+       text-decoration: none;
+       color: rgb(161, 108, 35);
+       cursor: pointer;
+}
+nav a:hover {
+  color: aliceblue;
+}
+#jogar {
+    padding: 10px;
+    background-color: rgb(8, 63, 85);
+    border-radius: 8px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.8rem;
+  margin-left: 1.8rem;
+  text-align: center;
 }
 h1 {
-    text-shadow:  -1px -1px 0px #403001,
-     -1px 1px 0px #403001,
-     1px -1px 0px #403001,
-     1px 0px 0px #403001; 
-    color: #BF8A26;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  margin-top: 7rem;
+  color: #BF8A26;
+  text-shadow:  -1px -1px 0px #403001,
+    -1px 1px 0px #403001,
+    1px -1px 0px #403001,
+    1px 0px 0px #403001;
+    font-size: 0.9,7rem;
 }
 p {
-    color: aliceblue;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  text-align: justify;
 }
 #clique {
-    color: rgb(161, 108, 35);
-    text-decoration: none;
+  color: rgb(161, 108, 35);
+  text-decoration: none;
+}
+/*Estilização da <section class="menu-fixo"> menu do usuario*/
+.menu-fixo {
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+   display: flex;
+   white-space: nowrap;
+   margin: 0 auto;
+}
+.menu{
+  display: inline-flex;
+  gap: 2rem;
+  padding: 0.9rem;
+  
 }
 .container {
-    margin: 0 auto;
-    width: 1030px;
-    border-style: double;
-    text-transform: uppercase;
-    border-radius: 38px 0 38px 0;
-    background: url(fundoMenu.png);
-    border-color: rgb(161, 108, 35);
+  border-style: double;
+ text-transform: uppercase;
+ border-radius: 38px 0 38px 0;
+ background: url(fundoMenu.png);
+ border-color: rgb(161, 108, 35);
+ flex-direction: column;
+ align-items: center;
 }
 .container li {
-    display: inline-flex;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 20px;
-    margin-top: auto;
-    color:aliceblue;
-    cursor:pointer;
+ align-items: center;
+  text-align: center;
+  justify-content: space-between;
+ color: aliceblue;
+ list-style-type: none;
+ flex-direction: column;
 }
 ul li:hover {
-    color: rgb(161, 108, 35);
+  color: rgb(161, 108, 35);
+  cursor: pointer;
+}
+.busca-classifica {
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+#text-busca {
+  align-items: center;
+  border-radius: 8px;
+   border-color: rgb(161, 108, 35);
+   font-weight: bold;
+   border-style: double;
 }
 .selecione {
-    border-radius: 8px;
-    border-color: rgb(161, 108, 35);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(8, 63, 85);
-    border-style: double;
-    color:aliceblue;
-    font-weight: bold;
-    margin-left: 30px;
-    cursor: pointer;
-    
+  border-radius: 8px;
+  border-color: rgb(161, 108, 35);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(8, 63, 85);
+  border-style: double;
+  color:aliceblue;
+  font-weight: bold;
+  cursor: pointer;
 }
-#divBusca {
-    display: inline-flex;
-    align-items: center;
-    margin: 20px;
-    grid: 20px;
+/*Estilização dos cards*/
+#exibirCards {
+  align-items: center;
+  margin-top: 0.5rem;
+  margin: 2rem;
+  justify-content: center;
+  text-align: center;
+  position: sticky;
 }
-#txtBusca {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 8px;
-    border-color: rgb(161, 108, 35);
-    font-weight: bold;
+.cards {
+  width:18rem;
+  height: 18rem;
+  align-items: center;
+  display: inline-block;
+ justify-content: center;
+ background-color: rgb(2, 2, 25);
+ border-style: double;
+ color: rgb(161, 108, 35);
+ margin-bottom: 20px;
 }
-#btn-busca {
-    background-color: rgba(8, 63, 85); 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 8px;
-    color:aliceblue;
-    border-color: rgb(161, 108, 35);
-    font-weight: bold;
-    cursor: pointer;
+.card {
+  align-items: center;
+   background-color: rgb(2, 2, 25);
+   color: rgb(161, 108, 35);
+   flex-direction: column;
+   transition: transform 1s;
+   transform-style: preserve-3d;
+   perspective: 1000px;
+   position: relative;
 }
 .imagem-do-card {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #d2ab5c;
-    border-radius: 8px;
-  }
+  width: 18rem;
+  height: 14rem;
+  position: relative;
+}
+.cards:hover .card {
+  transform: rotateY(180deg);
+}
+ .card-frente {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: center;
+}
+ .card-frente,
+.card-verso {
+  backface-visibility: hidden;
+  position: absolute;
+  flex-wrap: wrap;
+  display: flex;
+}
+.card-verso {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.info-do-card {
+  list-style: none;
+  font-size: 15px;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+}
+.nome-do-verso {
+  grid-row: auto;
+  display: inline-flex;
+  margin-left: 5px;
+}
+/*Estilização do footer*/
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 0;
+  width: 100%;
+  bottom: 0%;
+  position: fixed;
+  justify-content: center;
+  justify-content: space-between;
   
-  .cards {
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .card {
-    margin: 10px;
-    border: 2px solid rgb(161, 108, 35);
-    border-style: double;
-    width: 200px;
-    height: 250px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: rgb(161, 108, 35);
-    transition: transform 1s;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    position: relative;
-    background-color: rgb(2, 2, 25);
-  }
-  
-  .cards:hover .card {
-    transform: rotateY(180deg);
+}
+#devs {
+  text-transform: uppercase;
+}
+.nome-devs {
+  justify-content: center;
+  text-align: justify;
+  display: inline-flex;
+}
+footer a {
+  color:rgb(161, 108, 35);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+a:hover {
+  color:aliceblue;
+}
+#linkedin {
+  text-align: center;
+  width: 5%;
+}
 
-  }
-  
-  .card-frente {
-    padding: 10px;
-  }
-  
-  .card-frente,
-  .card-verso {
-    backface-visibility: hidden;
-    position: absolute;
-    flex-wrap: wrap;
-    display: flex;
-  }
-  
-  .nome-do-card {
-    font-size: 30px;
-    margin-top: 20px;
-  }
-  
-  .titulo-do-card {
-    font-size: 15px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    text-align: center;
-
-  }
-  
-  .info-do-card {
-    list-style: none;
-    font-size: 15px;
-    text-align: center;
-  }
-  
-  .card-verso {
-    transform: rotateY(180deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-  .nome-verso {
-    list-style: none;
-    font-size: 18px;
-    align-items: center;
-    justify-content: center;
-  }
-  footer {
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1vw;
-    background-color: rgb(19, 1, 1, 0.8);
-    display: flex;
-    
-  }
-  #devs {
-    display: flex;
-    color:aliceblue;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-
-  }
-  footer li {
-    display: inline-flex;
-
-  }
-  footer a {
-    text-decoration: none;
-    color: rgb(161, 108, 35);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    align-items: center;
-    margin-top: auto;
-    
-  }
-  a:hover {
-    color:aliceblue;
-  }
-  #linkedin {
-    display: inline-block;
-    text-align: center;
-
-  }

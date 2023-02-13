@@ -7,18 +7,19 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
 </head>
-<!– CABEÇALHO –>
+ <!-- CABEÇALHO -->
+ <body>
   <header>
-    <img src="logo-site.png" alt="Logo do site" width="250px" />
-    <nav>
+    <section class="conteudo-fixo">
+    <nav class="cabecalho">
+    <img src="logo-site.png" alt="Logo do site" class="logo-site" />
       <a href="https://www.leagueoflegends.com/pt-br/how-to-play/"> Sobre o jogo </a>
       <a href="#">Comunidade </a>
       <a href="https://signup.leagueoflegends.com/pt-br/signup/index?_gl=1*xrlanb*_ga*MzkwMzg5OTY1LjE2NzUwOTczMDE.*_ga_FXBJE5DEDD*MTY3NTIxMTM1Ny40LjAuMTY3NTIxMTM1Ny42MC4wLjA.&_ga=2.23009657.357064309.1675097304-390389965.1675097301#/"
         id="jogar">Jogue agora </a>
     </nav>
+    </section>
   </header>
-
-  <body>
     <div class="info">
       <h1>ESCOLHA SEU CAMPEÃO</h1>
 
@@ -26,8 +27,9 @@
         estilo ou em todos. Para acessar mais informações sobre os campeões,<a
           href="https://www.leagueoflegends.com/pt-br/how-to-play/" id="clique"> clique aqui.</a></p>
     </div>
-    <!– MENU COM AS OPÇÕES DE CAMPEÕES –>
+   <!-- MENU COM AS OPÇÕES DE CAMPEÕES -->
       <main>
+        <section class="menu-fixo">
         <div class="container">
           <ul class="menu" role="menu">
             <li class="li-todos"> Todos</li>
@@ -39,34 +41,41 @@
             <li class="li-tanque"> Tanques </li>
           </ul>
         </div>
-        <!– AQUI COMEÇA O CAMPO DE BUSCA POR NOME E CLASSIFICAÇÃO DOS CAMPEÕES –>
-          <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Buscar campeão" />
-            <button id="btn-busca">Buscar</button>
-            <div>
+      </section>
+        <!-- AQUI COMEÇA O CAMPO DE BUSCA POR NOME E CLASSIFICAÇÃO DOS CAMPEÕES  -->
+          <section class="busca-classifica">
+       <input type="text" id="txt-busca" placeholder="Buscar campeão" />
               <select class="selecione">
-                <option value="">Classificação</option>
-                <option value="1">Maior poder - Menor poder</option>
-                <option value="2"> Maior defesa - Menor defesa </option>
+                <option>Classificação</option>
+                <option value="1">Maior poder </option>
+                <option value="2"> Maior defesa </option>
+                <option value="3"> Menor poder</option>
+                <option value="4"> Menor defesa </option>
               </select>
-            </div>
-          </div>
-          <!– AQUI FICARÃO OS CARDS DOS CAMPEÕES –>
+            
+          </section>
+         <!-- AQUI FICARÃO OS CARDS DOS CAMPEÕES -->
             <section class="todos-campeoes">
               <div id="exibirCards">
               </div>
             </section>
       </main>
       <script src="main.js" type="module"></script>
-      <!– AQUI COMEÇA DO RODAPÉ –>
+       <!-- AQUI COMEÇA DO RODAPÉ  -->
+       <br><br>
         <footer>
-          <ul id="devs"> Projeto desenvolvido por</ul>
-          <li> <a href="https://www.linkedin.com/in/ariane-vieira-534310164/"> Ariane Vieira <img src="iconeLinkedin.png" class="linedin" width="5%" /> </a></li>
-          <li> <a href="https://www.linkedin.com/in/patriciadania/"> Patricia Adania <img src="iconeLinkedin.png"
-                class="linedin" width="5%" /></a></li>
-          <li> <a href="https://www.linkedin.com/in/thainaratabile/"> Thainara Tabile <img src="iconeLinkedin.png"
-                class="linedin" width="5%" /></a> </li>
+          <div class="rodape">
+          <section id="devs"> 
+            <p> Projeto desenvolvido por</p>
+          </section>
+          <section class="nome-devs">
+          <a href="https://www.linkedin.com/in/ariane-vieira-534310164/"> Ariane Vieira <img src="iconeLinkedin.png" class="linkedin" width="5%" /> </a>
+         <a href="https://www.linkedin.com/in/patriciadania/"> Patricia Adania <img src="iconeLinkedin.png"class="linkedin" width="5%" /></a>
+        <a href="https://www.linkedin.com/in/thainaratabile/"> Thainara Tabile <img src="iconeLinkedin.png" class="linkedin" width="5%" /></a> 
+            </section>
+          </div>
         </footer>
   </body>
 
 </html>
+
