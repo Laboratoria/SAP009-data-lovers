@@ -8,15 +8,17 @@ const filterType = document.getElementById("filter-type");
 // document.querySelector(".animation-cards").innerHTML = showAnimations(allAnimations);
 filterButton.addEventListener("click", defineAlphabeticalFilter);
 
-  const inputArea = document.getElementById("filter");
-  inputArea.addEventListener("keyup", films.searchFilms);
+const inputArea = document.getElementById("filter");
+inputArea.addEventListener("keyup", films.searchFilms);
 
-document.querySelector(".animation-cards").innerHTML = showAnimations1(allAnimations);
+document.querySelector(".animation-cards").innerHTML =
+  showAnimations1(allAnimations);
 
 function showAnimations1(allAnimations) {
   return allAnimations
-    .map((animation) =>
-      `<div class="all-cards">
+    .map(
+      (animation) =>
+        `<div class="all-cards">
   <div class="cards">
   <img class="posters" src="${animation.poster}" alt="Pôster do filme">
   <p id="film-title" class="film-info">${animation.title} </p>
@@ -48,8 +50,7 @@ function defineAlphabeticalFilter() {
   if (filterButton.value === "Show films from A - Z") {
     alphabeticalFilter = films.alphabeticOrderFilter(allAnimations);
     filterButton.value = "Show films from Z - A";
-   filterType.innerHTML = "A - Z";
-
+    filterType.innerHTML = "A - Z";
   } else if (filterButton.value === "Show films from Z - A") {
     alphabeticalFilter = films.inverseAlphabeticOrderFilter(allAnimations);
     filterButton.value = "Show films from A - Z";
@@ -58,7 +59,7 @@ function defineAlphabeticalFilter() {
   showFilmsAlphabeticalOrder(alphabeticalFilter);
 }
 
-function showFilmsAlphabeticalOrder (alphabeticalFilter){  
+function showFilmsAlphabeticalOrder(alphabeticalFilter) {
   animationCards.innerHTML = alphabeticalFilter
     .map(
       (animation) =>
@@ -70,15 +71,14 @@ function showFilmsAlphabeticalOrder (alphabeticalFilter){
 </div>
 `
     )
-    .join("");  
+    .join("");
 }
 
 function createElement(data) {
-
   const parentDiv = document.querySelector(".top-info");
   const childDiv = document.getElementById("buttons");
   const newDiv = document.createElement("div");
-  newDiv.classList.add("list-container");  
+  newDiv.classList.add("list-container");
   newDiv.innerHTML =
     "Total number of animations produced by Studio Ghibli: " + data.length;
   parentDiv.insertBefore(newDiv, childDiv);
