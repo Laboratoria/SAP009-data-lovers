@@ -1,4 +1,8 @@
-// estas funciones son de ejemplo
+//import { mostrar } from './data.js';
+
+
+
+
 
 export const example = () => {
   return 'example';
@@ -7,3 +11,9 @@ export const example = () => {
 export const anotherExample = () => {
   return 'OMG';
 };
+
+
+
+
+
+export {}

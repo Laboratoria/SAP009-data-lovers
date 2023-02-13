@@ -14,7 +14,7 @@
     <nav class="menu">
       <ul>
         <li><a>Home</a></li>
-        <li><a>Personagens</a></li>
+        <li><a id="btn-personagem">Personagens</a></li>
         <li><a>Sobre a Série</a></li>
       </ul>
     </nav>
@@ -81,79 +81,12 @@
     </section>
 
     <main>
-      <section class="container">
-        <div>
-          <img src="imgTeste.png" alt="Imagem do Personagem">
-          <ul class="listaDados">
-            <li class="linhaEscura">NOME:</li>
-            <li class="linhaEscura">Rick</li>
-            <li class="linhaClara">ESTADO DE VIDA:</li>
-            <li class="linhaClara">Vivo</li>
-            <li class="linhaEscura">GÊNERO:</li>
-            <li class="linhaEscura">Masculino</li>
-            <li class="linhaClara">LOCAL DE ORIGEM:</li>
-            <li class="linhaClara">Earth (C-137)</li>
-            <li class="linhaEscura">LUGAR ONDE VIVE:</li>
-            <li class="linhaEscura">Earth (Replacement Dimension)</li>
-            <li class="linhaClara">EPISÓDIOS EM QUE APARECE:</li>
-          </ul>
-        </div>
-        <div>
-          <img src="imgTeste.png" alt="Imagem do Personagem">
-          <ul class="listaDados">
-            <li class="linhaEscura">NOME:</li>
-            <li class="linhaEscura">Rick</li>
-            <li class="linhaClara">ESTADO DE VIDA:</li>
-            <li class="linhaClara">Vivo</li>
-            <li class="linhaEscura">GÊNERO:</li>
-            <li class="linhaEscura">Masculino</li>
-            <li class="linhaClara">LOCAL DE ORIGEM:</li>
-            <li class="linhaClara">Earth (C-137)</li>
-            <li class="linhaEscura">LUGAR ONDE VIVE:</li>
-            <li class="linhaEscura">Earth (Replacement Dimension)</li>
-            <li class="linhaClara">EPISÓDIOS EM QUE APARECE:</li>
-          </ul>
-        </div>
-        <div>
-          <img src="imgTeste.png" alt="Imagem do Personagem">
-          <ul class="listaDados">
-            <li class="linhaEscura">NOME:</li>
-            <li class="linhaEscura">Rick</li>
-            <li class="linhaClara">ESTADO DE VIDA:</li>
-            <li class="linhaClara">Vivo</li>
-            <li class="linhaEscura">GÊNERO:</li>
-            <li class="linhaEscura">Masculino</li>
-            <li class="linhaClara">LOCAL DE ORIGEM:</li>
-            <li class="linhaClara">Earth (C-137)</li>
-            <li class="linhaEscura">LUGAR ONDE VIVE:</li>
-            <li class="linhaEscura">Earth (Replacement Dimension)</li>
-            <li class="linhaClara">EPISÓDIOS EM QUE APARECE:</li>
-          </ul>
-        </div>
-        <div>
-          <img src="imgTeste.png" alt="Imagem do Personagem">
-          <ul class="listaDados">
-            <li class="linhaEscura">NOME:</li>
-            <li class="linhaEscura">Rick</li>
-            <li class="linhaClara">ESTADO DE VIDA:</li>
-            <li class="linhaClara">Vivo</li>
-            <li class="linhaEscura">GÊNERO:</li>
-            <li class="linhaEscura">Masculino</li>
-            <li class="linhaClara">LOCAL DE ORIGEM:</li>
-            <li class="linhaClara">Earth (C-137)</li>
-            <li class="linhaEscura">LUGAR ONDE VIVE:</li>
-            <li class="linhaEscura">Earth (Replacement Dimension)</li>
-            <li class="linhaClara">EPISÓDIOS EM QUE APARECE:</li>
-          </ul>
-        </div>
-          
-        
-        
+      <section class="container" id="container-personagens">
+        <div id="root-rick"></div>    
       </section>
     </main>
-
-    <div id="root"></div>
     <script src="main.js" type="module"></script>
+    <script>window.onload=function(){mostrar()}</script>
   </body>
   
 </html>
