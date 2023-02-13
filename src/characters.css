@@ -4,14 +4,69 @@
     box-sizing: border-box;
 }
 
-
-
 .bgHeader {
-    background-image: url("./background-general.jpg");
+    background-image: url("./bg-image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    
+    overflow: hidden;
+}
+
+#logo {
+    width: 45%;
+    margin-left: 30%;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1A3E4B;
+    font-size: 200%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.characters-filters {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.filters {
+    background-color: #3793b7;
+    width: 20%;
+    font-size: 100%;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    border: none;
+    margin-left: 2%;
+    padding: 0.5%;
+}
+
+#search {
+    background-color: #3793b7;
+    width: 20%;
+    height: 10%;
+    font-size: 100%;
+    border-radius: 40px;
+    border: none;
+    padding: 0.5%;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
 }
 
 .generalBody {
@@ -20,7 +75,11 @@
 
 .stats {
     background-color: #46A4C8;
+    font-family: 'DM Sans', sans-serif;
     height: 50px;
+    color: white;
+    padding: 1% 0 0 2%;
+    text-align: center;
 }
 
 #charactersCards {
@@ -64,12 +123,11 @@
     backface-visibility: hidden;
     background: #46A4C8;
     color: white;
-    
     text-align: center;
     border-radius: 3%;
     padding: 8% 0 30% 0;
     font-weight: 400;
-
+    border-radius: 30px;
 }
 
 #backCard {
@@ -80,21 +138,128 @@
     background: #46A4C8;
     color: white;
     transform: rotateY(180deg);
-
-    border-radius: 3%;
     padding-top: 20%;
     padding-left: 15%;
     padding-right: 10%;
-
     line-height: 170%;
     font-size: larger;
+    border-radius: 30px;
 }
 
 #characterImg {
     width: 80%;
     height: 100%;
+    border-radius: 25px;
 }
 
 #charactersName {
     padding-bottom: 8%;
+}
+
+
+@media screen and (max-width: 550px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    .menu a {
+        font-size: 150%;
+    }
+
+    .stats {
+        padding: 3%;
+        margin-top: -1%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .bgHeader {
+        background-size: contain;
+    }
+
+    .menu a {
+        font-size: 100%;
+    }
+
+    .characters-filters {
+        padding: 1%;
+        margin: 0 1% 1% 1%;
+    }
+
+    .filters {
+        font-size: 80%;
+    }
+
+    #search {
+        padding: 1%;
+        font-size: 80%;
+    }
+
+    .stats {
+        padding: 3%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    .menu a {
+        font-size: 100%;
+    }
+
+    .characters-filters {
+        padding: 1%;
+        margin: 0 1% 1% 1%;
+    }
+
+    .filters {
+        font-size: 80%;
+    }
+
+    #search {
+        padding: 1%;
+        font-size: 80%;
+    }
+
+    .stats {
+        padding: 3%;
+        font-size: 100%;
+        margin-top: -1.7%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+
+
+    .menu a {
+        font-size: 80%;
+    }
+
+    .characters-filters {
+        padding: 1%;
+        margin: 0 1% 1% 1%;
+    }
+
+    .filters {
+        font-size: 55%;
+    }
+
+    #search {
+        padding: 1%;
+        font-size: 55%;
+    }
+
+    .stats {
+        padding: 3%;
+        font-size: 50%;
+        margin-top: -1.7%;
+    }
 }

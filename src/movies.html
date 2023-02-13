@@ -12,27 +12,28 @@
 </head>
 <body class="generalBody">
   <header class="bgHeader">
-    <img src="./ghibli-logo.png" alt="logo studio ghibli">
+    <img src="./ghibli-logo.png" alt="logo studio ghibli" id="logo">
 
-    <nav class="menu" class="generalMenu">
+    <nav class="menu" class="moviesMenu">
       <a href="./index.html">Home</a> 
       <a href="./characters.html">Characters</a>
       <a href="./locations-and-vehicles.html">Locations and Vehicles</a>   
     </nav>
 
+    <div class="movie-filters">
     <input type="search" id="movies-search" placeholder="Search">
-    <select class="order">
+    <select class="filters">
       <option value="" disabled="" selected="" hidden>Order</option>
       <option value="a-z">A-Z</option>
       <option value="z-a">Z-A</option>
     </select>
-    <select class="release-date">
-    <option value="" disabled="" selected="" hidden>Release Date</option>
+    <select class="filters">
+    <option value="" disabled="" selected="" hidden>Release</option>
       <option value="1970">1970</option>
       <option value="1980">1980</option>
       <option value="1990">1990</option>
     </select>
-    <select class="director">
+    <select class="filters">
       <option value="" disabled="" selected="" hidden>Director</option>
       <option value="hayao-miyazaki">Hayao Miyazaki</option>
       <option value="isao-takahata">Isao Takahata</option>
@@ -41,7 +42,9 @@
       <option value="gorō-miyazaki">Gorō Miyazaki</option>
       <option value="hiromasa-yonebayashi">Hiromasa Yonebayashi</option>
     </select>
+  </div>
   </header>
+
   <p class="stats">The number of movies in this category is <span class="number"></span></p>
   <main>
 

@@ -5,11 +5,53 @@
 }
 
 .bgHeader {
-    background-image: url("./background-general.jpg");
+    background-image: url("./bg-image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    
+    overflow: hidden;
+}
+
+#logo {
+    width: 45%;
+    margin-left: 30%;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 15px;
+} 
+
+.menu a {
+    text-decoration: none;
+    color: #1A3E4B;
+    font-size: 200%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.btn {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.buttons {
+    background-color: #3793b7;
+    width: 20%;
+    font-size: 100%;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    border: none;
+    margin-left: 2%;
+    padding: 0.5%;
 }
 
 .generalBody {
@@ -18,10 +60,14 @@
 
 .stats {
     background-color: #46A4C8;
+    font-family: 'DM Sans', sans-serif;
     height: 50px;
+    color: white;
+    padding: 1% 0 0 2%;
+    text-align: center;
 }
 
-/*#locationsCards, #vehiclesCards {
+/*#locations, #vehicles {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -31,7 +77,7 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-#locationsCard, #vehiclesCard {
+#locations, #vehicles {
     background-color: #46A4C8;
     padding: 1%;
     margin-top: 4%;
@@ -49,6 +95,8 @@
     font-size: 90%;
 }*/
 
+
+
 #allCards {
     display: flex;
     flex-wrap: wrap;
@@ -63,7 +111,7 @@
     background-color: #46A4C8;
     padding: 1%;
     margin-top: 4%;
-    border-radius: 2%;
+    border-radius: 20px;    
     text-align: center;
     filter: drop-shadow(6px 5px 4px rgba(0, 0, 0, 0.25));
 }
@@ -72,4 +120,207 @@
     width: 15vw;
     height: 11vw;
     object-fit: cover;
+    border-radius: 10px;
 }
+
+#locationsName, #vehiclesName {
+    font-size: small;
+}
+
+@media screen and (max-width: 950px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    .menu a {
+        font-size: 250%;
+    }
+
+    #allCards {
+        column-gap: 4%;
+        margin: 3% 8% 3% 8%;
+    }
+
+    #locationsCard, #vehiclesCard {
+        width: 35%;
+        height: 75%;
+        padding-bottom: 7%;
+        padding-top: 5%;
+    }
+
+    #locationsImg, #vehiclesImg {
+        width: 25vw;
+        height: 20vw;
+        object-fit: cover;
+    }
+
+    #locationsName, #vehiclesName {
+        font-size: 140%;
+    }
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    #allCards {
+        column-gap: 4%;
+        margin: 3% 8% 3% 8%;
+    }
+
+    #locationsCard, #vehiclesCard {
+        width: 35%;
+        height: 75%;
+        padding-bottom: 7%;
+        padding-top: 5%;
+    }
+
+    #locationsImg, #vehiclesImg {
+        width: 25vw;
+        height: 20vw;
+        object-fit: cover;
+    }
+
+    #locationsName, #vehiclesName {
+        font-size: 120%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    #locationsCard, #vehiclesCard {
+        width: 40%;
+        height: 75%;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    .menu a {
+        font-size: 100%;
+    }
+
+    .btn {
+        padding: 1%;
+        margin: 0 1% 0 1%;
+    }
+
+    .buttons {
+        font-size: 80%;
+    }
+
+    .stats {
+        padding: 3%;
+    }
+
+    #allCards {
+        column-gap: 4%;
+        margin: 3% 8% 3% 8%;
+    }
+
+    #locationsCard, #vehiclesCard {
+        width: 50%;
+        height: 75%;
+        padding-bottom: 7%;
+        padding-top: 5%;
+    }
+
+    #locationsImg, #vehiclesImg {
+        width: 30vw;
+        height: 30vw;
+        object-fit: cover;
+    }
+
+    #locationsName, #vehiclesName {
+        font-size: 55%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    .menu a {
+        font-size: 100%;
+    }
+
+    #locationsCard, #vehiclesCard {
+        width: 48%;
+        height: 65%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    #locationsImg, #vehiclesImg {
+        width: 30vw;
+        height: 30vw;
+        object-fit: cover;
+    }
+
+    #locationsName, #vehiclesName {
+        font-size: 70%;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .bgHeader {
+        background-size: contain;
+    }
+
+    .menu a {
+        font-size: 100%;
+    }
+
+    .btn {
+        padding: 1%;
+        margin: 0 1% 0 1%;
+    }
+
+    .buttons {
+        font-size: 80%;
+    }
+
+    .stats {
+        padding: 3%;
+    }
+
+    #allCards {
+        column-gap: 4%;
+        margin: 3% 8% 3% 8%;
+    }
+
+    #locationsCard, #vehiclesCard {
+        width: 48%;
+        height: 65%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    #locationsImg, #vehiclesImg {
+        width: 30vw;
+        height: 30vw;
+        object-fit: cover;
+    }
+
+    #locationsName, #vehiclesName {
+        font-size: 70%;
+    }
+
+}
+

@@ -8,25 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="characters.css" />
+    <link rel="stylesheet" href="characters.css"/> 
 </head>
 <body class="generalBody">
   <header class="bgHeader">
     <img src="./ghibli-logo.png" alt="logo studio ghibli" id="logo">
 
-    <nav class="menu" classe="generalMenu">
+    <nav class="menu" classe="charactersMenu">
       <a href="./index.html">Home</a> 
       <a href="./movies.html">Movies</a>
       <a href="./locations-and-vehicles.html">Locations and Vehicles</a>   
     </nav>
 
-    <input type="search" id="movies-search" placeholder="Search">
-    <select class="order">
+    <div class="characters-filters">
+    <input type="search" id="search" placeholder="Search">
+    <select class="filters">
       <option value="" disabled="" selected="" hidden>Order</option>
       <option value="a-z">A-Z</option>
       <option value="z-a">Z-A</option>
     </select>
-    <select class="movies">
+    <select class="filters">
     <option value="" disabled="" selected="" hidden>Movies</option>
       <option value="castle-in-the-sky">Castle in the Sky</option>
       <option value="from-up-on-poppy-hill">From Up on Poppy Hill</option>
@@ -49,13 +50,13 @@
       <option value="when-marnie-was-there">When Marnie Was There</option>
       <option value="whisper-of-the-heart">Whisper of the Heart</option>
     </select>
-    <select class="gender">
+    <select class="filters">
       <option value="" disabled="" selected="" hidden>Gender</option>
       <option value="female">Female</option>
       <option value="male">Male</option>
       <option value="unknown">Unknown</option>
     </select>
-    <select class="specie">
+    <select class="filters">
         <option value="" disabled="" selected="" hidden>Specie</option>
         <option value="arch-mage-human">Arch-mage/Human</option>
         <option value="bird">Bird</option>
@@ -79,6 +80,8 @@
         <option value="wizard">Wizard</option>
         <option value="wolf">Wolf</option>
     </select>
+  </div>
+
   </header>
   <p class="stats">The number of movies in this category is <span class="number"></span></p>
   <main>

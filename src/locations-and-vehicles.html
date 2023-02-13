@@ -12,23 +12,28 @@
 </head>
 <body class="generalBody">
   <header class="bgHeader">
-    <img src="./ghibli-logo.png" alt="logo studio ghibli">
+    <img src="./ghibli-logo.png" alt="logo studio ghibli" id="logo">
 
     <nav class="menu" classe="generalMenu">
       <a href="./index.html">Home</a> 
       <a href="./movies.html">Movies</a>
       <a href="./characters.html">Characters</a> 
+
     </nav>
 
-    <button>Locations</button>
-    <button>Vehicles</button>
-
+    <div class="btn">
+      <button class="buttons">Locations</button>
+      <button class="buttons">Vehicles</button>
+      </div>
+      
   </header>
-  <p class="stats">The number of movies in this category is <span class="number"></span></p>
+  <p class="stats">The number of characters in this category is <span class="number"></span></p>
   <main>
-    <!--<div id="locationsCards"></div>
-    <div id="vehiclesCards"></div>-->
+
+    <div id="container">
     <div id="allCards"></div>
+    </div>
+    
   </main>
   <script src="locations-and-vehicles.js" type="module"></script>
 </body>
