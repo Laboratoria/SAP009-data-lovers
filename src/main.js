@@ -1,6 +1,20 @@
-import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+// import {filterName} from './data.js';
+import data from './data/ghibli/ghibli.js';
 
-console.log(example, data);
+//transformando um objeto em array // const ghibli = Object.key(data.data); 
+// console.log(teste.); // array de string
+
+let infoGhibli = [];
+for (let characters in data.data){
+  infoGhibli.push(data.data[characters]);
+}
+
+const cards = document.ElementById("infoCards"); 
+
+function screenInfo (data){
+  cards.innerHTML = data.map(character) =>
+  
+}
+screenInfo(data);
+
+console.log(data);
