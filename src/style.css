@@ -1,3 +1,7 @@
-img {
+body {
+background-image: url(harry.jpeg);
 background-size: cover;
+}
+h2 {
+    text-align: center;
 }
