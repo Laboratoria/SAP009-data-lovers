@@ -2,93 +2,68 @@
 import  {searchData, filterPokemon, order, computerType} from '../src/data.js'; 
 import data from './data/pokemon/pokemon.js';
 
-
-
-
 const icons = {
-    "steel": "🦾",
-    "water": "💧",
-    "dragon": "🐲",
-    "electric": "⚡",
-    "fairy": "🧚🏻",
-    "ghost": "👻",
-    "fire": "🔥",
-    "ice": "🧊",
-    "bug": "🐛",
-    "fighting": "🥊",
-    "normal": "💭",
-    "rock": "⚙️",
-    "grass": "🍀",
-    "psychic": "💫",
-    "dark": "🛸",
-    "ground": "🌏",
-    "poison": "🐍",
-    "flying": "🪂"
+  "steel": "🦾",
+  "water": "💧",
+  "dragon": "🐲",
+  "electric": "⚡",
+  "fairy": "🧚🏻",
+  "ghost": "👻",
+  "fire": "🔥",
+  "ice": "🧊",
+  "bug": "🐛",
+  "fighting": "🥊",
+  "normal": "💭",
+  "rock": "⚙️",
+  "grass": "🍀",
+  "psychic": "💫",
+  "dark": "🛸",
+  "ground": "🌏",
+  "poison": "🐍",
+  "flying": "🪂"
 };
 
 const translate=(type) => {
-    switch (type) {
-        case "steel":
-            return "Aço"
-            break;
-        case "water" :
-            return "Água"
-            break;
-        case "electric":
-            return "Elétrico"
-            break;
-        case "fairy":
-            return "Fada"
-            break;
-         case "ghost":
-            return "Fantasma"
-            break;
-        case "fire":
-            return "Fogo"
-            break;
-        case "ice":
-            return "Gelo"
-            break;
-        case "bug":
-            return "Inseto"
-            break;
-        case "fighting":
-            return "Lutador"
-            break;
-        case "normal":
-            return "Normal"
-            break;
-        case "rock":
-            return "Pedra"
-            break;
-        case "grass":
-            return "Planta"
-            break;
-        case "psychic":
-            return "Psíquico"
-            break;
-        case "dark":
-            return "Sombrio"
-            break;
-        case "ground":
-            return "Terra"
-            break;
-        case "poison":
-            return "Venenoso"
-            break;
-        case "flying":
-            return "Voador"
-            break;
-    }
+  switch (type) {
+  case "steel":
+    return "Aço"
+  case "water" :
+    return "Água"
+  case "electric":
+    return "Elétrico"
+  case "fairy":
+    return "Fada"
+  case "ghost":
+    return "Fantasma"
+  case "fire":
+    return "Fogo"
+  case "ice":
+    return "Gelo"
+  case "bug":
+    return "Inseto"
+  case "fighting":
+    return "Lutador"
+  case "normal":
+    return "Normal"
+  case "rock":
+    return "Pedra"
+  case "grass":
+    return "Planta"
+  case "psychic":
+    return "Psíquico"
+  case "dark":
+    return "Sombrio"
+  case "ground":
+    return "Terra"
+  case "poison":
+    return "Venenoso"
+  case "flying":
+    return "Voador"
+  }
 }
     
-    
-
-
-
-
 function printCards(list) {
-    document.getElementById('cards').innerHTML = list.map((pokemon,index) => `
+  document.getElementById('cards').innerHTML = list.map((pokemon) => `
     <div class="container-card">
     <div class="flipper-card">
     <div class="display card-front card">
@@ -116,33 +91,27 @@ function printCards(list) {
 }
 printCards(data.pokemon)
 
-
-
 const calcText = document.getElementById('calcText')
 
 const searchInput = document.getElementById('search')
 searchInput.addEventListener('keyup', (evento) => {
-    const valueInput = evento.target.value
-    const listFilter= searchData(valueInput, data.pokemon)
-    printCards(listFilter)
-    console.log(listFilter.length)
+  const valueInput = evento.target.value
+  const listFilter= searchData(valueInput, data.pokemon)
+  printCards(listFilter)
+  calcText.innerHTML = `Nesse site você encontrará 251 tipos de pokemons.`
 })
 
 const filterTypes = document.getElementById('filter-types')
 filterTypes.addEventListener('change', () => {
-    const filter = filterPokemon (filterTypes.value, data.pokemon)
-    printCards(filter)
-    const porcent = computerType(filter, data.pokemon)
-    calcText.innerHTML = `O número de pokemons desse tipo é ${filter.length}, o que equivale a ${porcent}%`
+  const filter = filterPokemon (filterTypes.value, data.pokemon)
+  printCards(filter)
+  const porcent = computerType(filter, data.pokemon)
+  calcText.innerHTML = `O número de pokemons desse tipo é ${filter.length}, o que equivale a ${porcent}%`
 })
 
-
-
-const names = data.pokemon.slice()
 const orderList = document.getElementById('order-by')
 orderList.addEventListener('change', () => {
-    const ordered = order(orderList.value, names)
-    console.log(names)
-   // console.log(ordered)
-    printCards(names)
+  const ordenado = order(orderList.value, data.pokemon)
+  printCards(ordenado)
+  calcText.innerHTML = `Nesse site você encontrará 251 tipos de pokemons.`
 })

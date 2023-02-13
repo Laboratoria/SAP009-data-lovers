@@ -8,34 +8,34 @@ function filterPokemon(value, list) {
   const newFilter = list.filter(pokemon => pokemon.type.includes(value));
   return newFilter;
 }
+
 function order(value, list) {
+  const copia = [...list]
   if (value === "a-z") {
-    list.sort(function(a,b){
+    copia.sort(function(a,b){
       if(a.name < b.name){
         return -1;
       }
       if(a.name > b.name){
         return 1;
       }
-      return 0;
     });
   }
   else if (value === "z-a") {
-    list.sort(function(a,b){
+    copia.sort(function(a,b){
       if(a.name < b.name){
         return 1;
       }
       if(a.name > b.name){
         return -1;
       }
-      return 0;
-    });
+    })
   }
+  return copia
 }
 
 function computerType (newFilter, list) {
   return ((newFilter.length / list.length)*100).toFixed(2)
-
 }
 
 export {
