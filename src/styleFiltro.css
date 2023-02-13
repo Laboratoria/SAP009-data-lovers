@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(180deg, #B2DF28, #ffff);
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    max-width: 400px;
+    margin: 10px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.pesquisa h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#divBusca input{
+    height: 25px;
+    min-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+    font-style: italic;
+}
+
+.menu li{
+    list-style: none;
+    padding: 0px 75px;
+    color: #38184C;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.menu a:hover{
+    border: solid;
+    background-color: rgba(255, 255, 255, 0.465);
+    border-radius: 10px;
+    padding: 3px 20px;
+    color:#025951;
+}
+
+.filtro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.conjuntoPesquisaEFiltro{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #00B5CC;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    border-width: 2px;
+    padding: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.container div{
+    background-color: white;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    flex-grow: 3;
+}
+.container img{
+    max-width: 150px;
+}
+
+.container .listaDados{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.listaDados li{
+    list-style: none;
+    height: 20px;
+}
+
+.linhaEscura{
+    border: solid white 1px;
+    width: 100%;
+    background-color: white;
+
+}
+
+.linhaClara{
+    border: solid #D9D9D9 1px;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+
