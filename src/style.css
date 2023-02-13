@@ -25,6 +25,7 @@
     background-image: url(https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/01/10220507/studio_ghibli.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .cabecalho{
@@ -36,7 +37,7 @@
 
 .descricao{
     text-align: center;
-    width: 700px;
+    max-width: 700px;
     font-family: var(--fonte-titulo);
     margin-top: 50px;
     margin-bottom: 50px;
