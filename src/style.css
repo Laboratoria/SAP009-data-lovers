@@ -7,19 +7,20 @@ body {
     background-image: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
     height: 100%;
     background-attachment: fixed;
-    
+
 }
 
 h1 {
     font-family:  'Berkshire Swash', cursive;
     font-size: 45px;
-    color: #fd799c;
+    color: #f8537f;
     text-align: center;
     text-shadow: 1px, 1px, 2px #0e000086;
+    margin: 30px;
 }
 
 h5 {
-    color: #20976b;
+    color: #fb2246;
     font-family: 'Lora', serif;
 }
 
@@ -27,46 +28,106 @@ p {
     text-align: justify;
     font-family: 'quicksand', sans-serif;
     text-indent: 30px;
+    color: #2b2201;
 }
 
 main{
-    background-color: white;
-    border-radius: 15px;
+    background-color: #f9f6eb;
+    border-radius: 8px;
     width: 750px;
     padding: 15px;
     margin: auto;
-    
+
 }
 
 footer{
     text-align: center;
     font-family: 'Lora', serif;
+    margin: 0px;
 }
 
 #video {
     display: flex;
     justify-content: center;
+    margin: auto;
 }
 
 ::-webkit-scrollbar {
-    width: 13px;
+    width: 10px;
   }
 
   ::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background: #c9eefa;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
   }
 
   ::-webkit-scrollbar-thumb {
     background: #b1b3f3;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
 ::-webkit-scrollbar-thumb:hover {
     background: #9da1fd; 
   }
 
-a:hoover {
+a {
+  display: block;
+  text-decoration: none;
+  text-decoration-style: none;
+  text-decoration-color: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+
+}
+.logo {
+  height: 190px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.itensmenu {
+  font-family: 'quicksand', sans-serif;
+  color: #fa507d;
+  font-weight: 400px;
+  font-size: 16px;
+  background-color: #fcf2ce;
+  border-radius: 8px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-style: none;  
+  border-width: 2px;
+  border-color: #fa507d;
+  border-bottom-style: groove;
 
 }
 
+#linhacima {
+  border-top: 0.4px solid #fb88a6;
+  margin-top: 0.2px;
+  margin-bottom: 50px;
+}
+
+#audio {
+  margin-top: 50px;
+  width: 700px;
+  height: 28px;
+}
