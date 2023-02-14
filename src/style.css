@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fredericka+the+Great&family=Lora:ital@0;1&display=swap');
 
+:root {
+
+}
+
 body {
     background-image: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
     height: 100%;
@@ -13,7 +17,7 @@ body {
 h1 {
     font-family:  'Berkshire Swash', cursive;
     font-size: 45px;
-    color: #f8537f;
+    color: #fa4172;
     text-align: center;
     text-shadow: 1px, 1px, 2px #0e000086;
     margin: 30px;
@@ -32,9 +36,10 @@ p {
 }
 
 main{
-    background-color: #f9f6eb;
+    background-color: #faf9f4;
     border-radius: 8px;
-    width: 750px;
+    max-width: 750px;
+    min-width: 300px;
     padding: 15px;
     margin: auto;
 
@@ -50,6 +55,19 @@ footer{
     display: flex;
     justify-content: center;
     margin: auto;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+
+}
+
+#video > iframe {
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+
 }
 
 ::-webkit-scrollbar {
@@ -104,10 +122,10 @@ a:hover {
 
 .itensmenu {
   font-family: 'quicksand', sans-serif;
-  color: #fa507d;
+  color: #f72e64;
   font-weight: 400px;
   font-size: 16px;
-  background-color: #fcf2ce;
+  background-color: #f9eaad;
   border-radius: 8px;
   padding-bottom: 5px;
   padding-top: 5px;
@@ -128,6 +146,28 @@ a:hover {
 
 #audio {
   margin-top: 50px;
-  width: 700px;
   height: 28px;
+  max-width: 750px;
+  min-width: 300px;
+}
+
+.imgid {
+  display: flex;
+  justify-content: center;
+}
+
+.imgid img {
+  width: 250px;
+  height: 250px;
+  margin-top: 5px;
+}
+
+#divaudio {
+  display: flex;
+  justify-content: center;
+}
+
+#plus {
+  text-align: center;
+  color: #fa507d;
 }
