@@ -1,27 +1,5 @@
 import data from './data/ghibli/ghibli.js';
 
-/*const films = data.films
-const characters = document.getElementById('charactersCards')
-
-function showingCharactersCards(films) {
-  const listOfPeople = films.map((film) => {
-    const people = film.people.map((person) => {
-      const allPeople = 
-    `
-     <div id="divCharacterCard" class="characters">
-     <strong class="charactersTitle">${person.name}</strong>
-     <img alt="Character poster" src="${person.img}"/>
-     </div>
-    `
-      return allPeople
-    });
-    return people.join('');
-  })
-  return listOfPeople.join('');
-}
-
-characters.innerHTML = showingCharactersCards(films)*/
-
 const films = data.films
 const characters = document.getElementById('charactersCards')
 

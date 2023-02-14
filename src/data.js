@@ -9,21 +9,17 @@ computeStats(data): essa função nos permite fazer cálculos estatísticos bás
 
 Estes nomes de funções e parâmetros são somente referência, o que vocês decidir utilizar vai depender da sua implementação. */
 
-// estas funciones son de ejemplo
 
-/*export const example = () => {
-  return 'example';
-};
 
-export const anotherExample = () => {
-  return 'OMG';
-}*/
-
-export function order(data, value){
-  if (value === "A-Z"){ //Se a pessoa escolher de A ao Z
-    return data.sort((a, z) => a.title > z.title ? 1 : -1) //se a for maior do que z, retorna 1; caso contrário, retorna -1. Ou seja, será do A ao Z (crescente)
-  } else { //Se a pessoa escolher de Z ao A
-    return data.sort((a, z) => a.title < z.title ? -1: 1) //se a for menor do que z, retorna -1; caso contrário, retorna 1. Ou seja, será do Z ao A (decrescente)
-  }
+export function filterRelease(films, selected) {
+  const filmsRelease = films.filter((film) => {
+  
+    if (selected === 'oldest') {
+      return film.release_date >= 1986 && film.release_date <= 2014
+    } else if (selected === 'recent') {
+      return film.release_date <= 2014 && film.release_date >= 1986
+    }
+    return film
+  })
+  return filmsRelease
 }
-

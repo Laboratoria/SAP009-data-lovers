@@ -18,6 +18,8 @@
 }
 
 .menu {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     display: flex;
     position: relative;
     margin-top: 2%;
@@ -52,6 +54,7 @@
     border: none;
     margin-left: 2%;
     padding: 0.5%;
+    cursor: pointer;
 }
 
 .generalBody {
@@ -103,7 +106,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 4%;
-    margin: 3% 8% 3% 8%;
+    margin: 1% 8% 3% 8%;
     font-family: 'DM Sans', sans-serif;
 }
 

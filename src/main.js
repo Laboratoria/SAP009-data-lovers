@@ -1,9 +1,10 @@
-//import {order} from './data.js'; 
+import {filterRelease} from './data.js'; 
 
 import data from './data/ghibli/ghibli.js';
 
 const films = data.films
-const characters = document.getElementById('movieCards')
+const movies = document.getElementById('movieCards')
+const release = document.getElementById('release')
 
 function showingMovieCards(films) {
   const listOfMovies = films.map((film) => {
@@ -13,7 +14,6 @@ function showingMovieCards(films) {
     <div id="card">
 
     <div id="frontCard" class="movies">
-
 
     <img alt="Film poster" src="${film.poster}" id="filmPoster"/>
     
@@ -29,18 +29,28 @@ function showingMovieCards(films) {
     </div>
 
 
-      <div id="backCard" class="movies">
-      <p id="description"><strong>Description:</strong> ${film.description}</p>
-     </div>
+    <div id="backCard" class="movies">
+    <p id="description"><strong>Description:</strong> ${film.description}</p>
+    </div>
 
-     </div>
-     </div>
+    </div>
+    </div>
     `
     return allMovies
   });
   return listOfMovies.join('');
 }
 
-characters.innerHTML = showingMovieCards(films)
+movies.innerHTML = showingMovieCards(films)
 
-//console.log(data)
+release.addEventListener ('click', () => {
+  const selected = (release).value;
+  const filterRelease = data.filterRelease(films, selected)
+  showingMovieCards(filterRelease)
+})
+
+
+
+
+
+console.log(data, filterRelease)

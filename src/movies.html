@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="movies.css" />
 </head>
@@ -23,18 +23,17 @@
     <div class="movie-filters">
     <input type="search" id="movies-search" placeholder="Search">
     <select class="filters">
-      <option value="" disabled="" selected="" hidden>Order</option>
+      <option value="" disabled="" selected="" hidden id="order">Order</option>
       <option value="a-z">A-Z</option>
       <option value="z-a">Z-A</option>
     </select>
     <select class="filters">
-    <option value="" disabled="" selected="" hidden>Release</option>
-      <option value="1970">1970</option>
-      <option value="1980">1980</option>
-      <option value="1990">1990</option>
-    </select>
+    <option value="" disabled="" selected="" hidden id="release">Release</option>
+      <option value="Oldest" id="oldest">Oldest</option>
+      <option value="Recent" id="recent">Recent</option>
+    </select> 
     <select class="filters">
-      <option value="" disabled="" selected="" hidden>Director</option>
+      <option value="" disabled="" selected="" hidden id="director">Director</option>
       <option value="hayao-miyazaki">Hayao Miyazaki</option>
       <option value="isao-takahata">Isao Takahata</option>
       <option value="yoshifumi-kondō">Yoshifumi Kondō</option>
