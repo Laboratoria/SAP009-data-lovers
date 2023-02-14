@@ -88,18 +88,11 @@ describe('Ordenar a lista de personagens', () => {
     expect(typeof order).toBe('function');
   });
 
-  it('ordenar de a-z', () => {
+  it('ordenar de a-z e z-a', () => {
     const valueAZ = "a-z"
-    
+    const valueZA = "z-a"
 
     expect(order(valueAZ, pokemonTest)).toEqual([bulbasaur, charmander, charmeleon, ivysaur, weedle]);
-  });
-
-
-  it('ordenar de z-a', () => {
-    const valueZA = "z-a"
-    
-
     expect(order(valueZA, pokemonTest)).toEqual([weedle,ivysaur,charmeleon,charmander,bulbasaur]);
   });
 })

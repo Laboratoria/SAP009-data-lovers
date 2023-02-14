@@ -16,9 +16,7 @@ function order(value, list) {
       if(a.name < b.name){
         return -1;
       }
-      if(a.name > b.name){
         return 1;
-      }
     });
   }
   else if (value === "z-a") {
@@ -26,9 +24,7 @@ function order(value, list) {
       if(a.name < b.name){
         return 1;
       }
-      if(a.name > b.name){
         return -1;
-      }
     })
   }
   return copia
