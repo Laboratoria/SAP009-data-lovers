@@ -1,4 +1,4 @@
-/*//import { example } from './data.js';
+/*//import { example } from './data.js';*/
 
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
