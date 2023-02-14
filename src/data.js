@@ -1,9 +1,9 @@
 // estas funciones son de ejemplo
 
-export const example = () => {
-  return 'example';
+export const films = () => {
+  return 'films';
 };
 
-export const anotherExample = () => {
-  return 'OMG';
+export const data = () => {
+  return 'data';
 };
