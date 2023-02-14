@@ -7,7 +7,6 @@ allInformations.map((characters)) => {
 }
 
 
-/*let personagens = document.querySelector(id do lugar onde vai ser o botao de "todos os personagens")
 
 fetch("harry.json").then(response) => {
   response.json().then(characters) => {
