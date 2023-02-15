@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Characters</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
@@ -22,12 +22,12 @@
 
     <div class="characters-filters">
     <input type="search" id="search" placeholder="Search">
-    <select class="filters">
+    <select class="filters" id="order">
       <option value="" disabled="" selected="" hidden>Order</option>
       <option value="a-z">A-Z</option>
       <option value="z-a">Z-A</option>
     </select>
-    <select class="filters">
+    <select class="filters" id="movies">
     <option value="" disabled="" selected="" hidden>Movies</option>
       <option value="castle-in-the-sky">Castle in the Sky</option>
       <option value="from-up-on-poppy-hill">From Up on Poppy Hill</option>
@@ -50,13 +50,13 @@
       <option value="when-marnie-was-there">When Marnie Was There</option>
       <option value="whisper-of-the-heart">Whisper of the Heart</option>
     </select>
-    <select class="filters">
+    <select class="filters" id="gender">
       <option value="" disabled="" selected="" hidden>Gender</option>
       <option value="female">Female</option>
       <option value="male">Male</option>
       <option value="unknown">Unknown</option>
     </select>
-    <select class="filters">
+    <select class="filters" id="specie">
         <option value="" disabled="" selected="" hidden>Specie</option>
         <option value="arch-mage-human">Arch-mage/Human</option>
         <option value="bird">Bird</option>

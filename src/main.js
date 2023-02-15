@@ -1,4 +1,4 @@
-import {filterRelease} from './data.js'; 
+import {sortByRelease} from './data.js'; 
 
 import data from './data/ghibli/ghibli.js';
 
@@ -43,14 +43,13 @@ function showingMovieCards(films) {
 
 movies.innerHTML = showingMovieCards(films)
 
-release.addEventListener ('click', () => {
+release.addEventListener ('change', () => {
   const selected = (release).value;
-  const filterRelease = data.filterRelease(films, selected)
-  showingMovieCards(filterRelease)
+  const sorted = sortByRelease(films, selected)
+  const card = showingMovieCards(sorted)
+  movies.innerHTML = card
+  console.log(sorted)
 })
 
 
 
-
-
-console.log(data, filterRelease)

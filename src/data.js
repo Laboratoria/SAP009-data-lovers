@@ -11,8 +11,8 @@ Estes nomes de funções e parâmetros são somente referência, o que vocês de
 
 
 
-export function filterRelease(films, selected) {
-  const filmsRelease = films.filter((film) => {
+export function sortByRelease(films, selected) {
+  const filmsRelease = films.filter((film) => {//sort (recebe 2 parâmetros/2 filmes (qual vem antes, qual vem depois))
   
     if (selected === 'oldest') {
       return film.release_date >= 1986 && film.release_date <= 2014
