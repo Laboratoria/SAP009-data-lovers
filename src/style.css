@@ -5,60 +5,54 @@
   text-decoration: none;
   font-size: 100%;
 }
-
 html {
   scroll-behavior: smooth;
 }
 
-body,
-html {
-<<<<<<< HEAD
-  width: 100%;
-  height: 60%;
-=======
-  
- 
->>>>>>> 30ed22c47bbdfdd10a0099961c474e1c7266bc0c
-}
+ body, 
+html { 
+  min-width: 320px;
+  max-width: 800px;
+ } 
 
-body {
+.body{
   font-family: "Harry Potter";
   font-size: 1.6rem;
   line-height: 1.5;
   margin-inline-end: 0; 
   background-image: url("img/harry\ 1.jpeg");
-  overflow: overlay; /*fazer com que as barras de rolagem apareçam sobre o conteúdo em vez de ocupar espaço.*/
+  overflow: overlay; /fazer com que as barras de rolagem apareçam sobre o conteúdo em vez de ocupar espaço./
+  min-width: 320px;
+  max-width: 800px;
 }
-<<<<<<< HEAD
-
-
-.imgMenu {
-  width: 100%;
-  height: 100%;
-=======
 .img{
-  
+ 
+  max-width: 100%;
   
 }
 .imgMenu {
-  width: 219vh;
-  height: 100vh;
+  min-width: 200vh;
+  height: 110vh;
   opacity: 0.6;
->>>>>>> 30ed22c47bbdfdd10a0099961c474e1c7266bc0c
+  left: -10px;
+  max-width: 100%;
 }
 
 .imgLogo {
   border-radius: 90%;
-  width: 40%;
-  display: flex;
+  width: 10%;
+  padding: 30px;
+
 }
 
 .logo {
   display: flex;
 }
 a {
+  
   color: yellow;
   text-decoration: none;
+  text-align: center;
 }
 
 H1 {
@@ -70,25 +64,41 @@ H1 {
  box-shadow: purple;
 }
 
-h1{
+hover: h1{
 text-shadow: purple 10px 10px 10px 10px;
 }
 
-#home{
-  
- 
+#home{ 
   font-weight: 50;
   font-size: 100px;
   }
 
-
-.menu4 {
+.menu4 a{
+  color: red;
+  margin-left: 1200px;
+  padding-top: 50px;
+  
+  
+}
+.menu5 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
   }
   
+  #dev{
+    color: rgb(248, 25, 147);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
   
+  .dev{
+    color: rgb(248, 25, 147);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
 }
 /*
 item {
@@ -122,4 +132,3 @@ item {
   justify-content: space-between;
   padding: 20px 0 px;
 }*/
-*/
