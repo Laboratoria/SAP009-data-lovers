@@ -309,7 +309,7 @@ footer {
     .inputs-position{
         width: 100%;
         gap:5px;
-
+        margin-right: 15px;
     }
     main{
         display: flex;
@@ -319,6 +319,9 @@ footer {
     header img{
         width: 80%;
     }
+    .calc-card {
+        width: calc(100% - 210px);
+}
 }
 
 @media (max-width: 508px) {
@@ -326,6 +329,10 @@ footer {
         font-size: 1.4rem;
         width: 150px;
     }
+    header {
+        width: 101%;
+    }
+
     .card {
         width: 100%;
         height: 249px;
@@ -335,6 +342,9 @@ footer {
         width: 100%;
 }
     header img {
-        width: 100%;
+        width: 110%;
     }
+    .calc-card {
+        width: calc(100% - 80px);
+}
 }
