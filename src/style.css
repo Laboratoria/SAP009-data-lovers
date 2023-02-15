@@ -25,11 +25,7 @@ html {
   min-width: 320px;
   max-width: 800px;
 }
-.img{
- 
-  max-width: 100%;
-  
-}
+
 .imgMenu {
   min-width: 200vh;
   height: 110vh;
@@ -132,3 +128,85 @@ item {
   justify-content: space-between;
   padding: 20px 0 px;
 }*/
+
+/* GERAL ===================================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  
+  :root {
+--nav-height: 7.2rem;
+font-size: 62.5%;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+html,
+body {
+width: 100%;
+height: 100%;
+}
+
+body {
+font-family: 'DM Sans';
+font-size: 1.6rem;
+text-align: center;
+
+overflow: overlay; /*fazer com que as barras de rolagem apareçam sobre o conteúdo em vez de ocupar espaço.*/
+
+
+
+
+
+/* RESPONSIVO =============================================================================================*/
+
+@media (min-width: 1024px) {
+  /* GERAL */
+
+  body {
+    overflow: auto;
+  }
+
+  .wrapper {
+    width: min(112rem, 100%);
+    display: grid;
+  }
+
+  .col-a {
+    grid-area: A;
+  }
+
+  .col-b {
+    grid-area: B;
+  }
+
+  section {
+    padding-block: 16rem;
+  }
+
+  section header h2 {
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+
+
+
+
+  /* rodapé */
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  footer p {
+    padding-top: 0.6rem;
+  }
+} 
