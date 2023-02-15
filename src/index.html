@@ -2,58 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <title>PokédexGO</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root"></div>
-
-    
-    <!--página de abertura -->
-
-
-   <!--menu principal -->
-    <div id="root">
-      <header>
-        <img src="src/img/logo-pokedex-final.png" alt="Logo PokédexGO">
-        <nav class="menu">
-          <ul>
-            <li><a href="#pokemon">POKÉMON</a></li>
-            <li><a href="#oJogo">O JOGO</a></li>
-          </ul>
-        </nav>
-      </header>
-    
-    <!--menu lateral -->
-      <div id="menuLateral">
-        <ul>
-          <li><a href="pokemonTodos">151 Pokémons</a></li>
-          <input>
-          <li><a href="tipo">Tipo</a></li>
-          <input>
-          <li><a href="regioes">Regiões</a></li>
-          <input>
-          <li><a href="evolucoes">Evoluções</a></li>
-          <input>
+    <div>
+        <section id="paginaAbertura">
+            <img id="logo-abertura" src="img/logo-pokedex-final.png" alt="Logo PokédexGO" width="25%">
+            <p>O site <b>PokédexGo</b> possui as informações essenciais para todo(a)
+            treinador(a) de <b>PokémonGO</b>.</p>
+             <br>
+            <p>Aqui, você pode encontrar uma base de dados completa sobre os Pokémons da 
+            região de Kanto para participar de batalhas de raids e lutas em ginásios por equipe; 
+            evoluções com  informações sobre candies e buddy; tipos com suas fraquezas e 
+            resistências; além de saber quais Pokémons mais aparecem durante o jogo.</p>
+            <br>
+            <p id="chamada-participar">Prepare-se para fazer parte da maior aventura da sua jornada para virar
+            um mestre Pokémon!</p>
+         </section>
+         <a href="src/menu.html"><img id="pokebola-abertura" src="img/pokebola.png" alt="Clique aqui para entrar" width="8%"></a>
       </div>
-
-      <section id="pokemon">
-        <p>Aqui, você encontra todos os 151 Pokémons da região de Kanto. 
-          Use o menu da lateral esquerda para filtrar de acordo com as suas necessidades.</p>
-
-      </section>
-
-      <section id="oJogo">
-        <p>PokémonGO é um jogo desenvolvido para Android e iOS, na qual o usuário
-           torna-se um treinador Pokémon e pode andar pelas ruas de sua cidade em uma aventura
-            capturando novos Pokémons e participando de batalhas para ganhar itens e 
-            evoluir seus Pokémons.</p>
-        <p>Aqui, você pode ver quais os 10 Pokémons que mais aparecem no jogo e quantos
-           candies são necessários para evoluir cada Pokémon. </p>
-
-      </section>
-
-    </div>
-    <script src="main.js" type="module"></script>
-  </body>
+      <script src="main.js" type="module"></script>
+   </body>
 </html>
