@@ -9,7 +9,6 @@
   - [3. Definição de produto](#3-definição-de-produto)
     - [Histórias de usuário](#histórias-de-usuário)
     - [Desenho de interface do usuário](#desenho-de-interface-do-usuário)
-      - [Protótipo de baixa fidelidade](#protótipo-de-baixa-fidelidade)
       - [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
   - [4. Checklist dos objetivos de aprendizagem alcançados](#4-checklist-dos-objetivos-de-aprendizagem-alcançados)
 
@@ -59,19 +58,26 @@ O site foi pensando para ser utilizado quando fãs do desenho quiserem ter mais 
 
 ### Desenho de interface do usuário
 
-#### Protótipo de baixa fidelidade
+ Protótipo de baixa fidelidade
+
 
 ![Protótipo de baixa fidelidade](Primeiro-prototipo.png)
 
 #### Protótipo de alta fidelidade
 
-#####Protótipo para Desktop
+Protótipo para Desktop
+
+
 ![Protótipo de alta fidelidade, para Desktop](desktop.png)
 
-#####Protótipo para Mobile 
+Protótipo para Mobile 
+
+
 ![Protótipo de alta fidelidade, para Mobile](mobile.png)
 
-#####Paleta de cores utilizada
+Paleta de cores utilizada
+
+
 ![Paleta de Cores](paleta-de-cores.png)
 
 
@@ -85,7 +91,7 @@ O site foi pensando para ser utilizado quando fãs do desenho quiserem ter mais 
 * [✓] Inclui uma _definição de produto_ clara e informativa no `README.md`.
 * [✓] Inclui histórias de usuário no `README.md`.
 * [✓] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
-* [ ] Inclui uma lista de problemas detectados nos testes de usabilidade no
+* [✓] Inclui uma lista de problemas detectados nos testes de usabilidade no
   `README.md`.
 * [✓] UI: Mostra lista/tabela/etc com dados e/ou indicadores.
 * [✓] UI: Permite ordenar dados por um ou mais campos (asc e desc).

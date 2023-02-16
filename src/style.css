@@ -119,18 +119,17 @@ h2 {
 
 .cards {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
 
 .container-card {
-    width: 300px;
-    height: 200px;
+    width: 280px;
+    height: 410px;
     perspective: 1000px;
     position: relative;
-    margin-bottom: 230px;
 }
 
 .flipper-card {
@@ -167,7 +166,9 @@ h2 {
 }
 
 .card-back {
-    font-size: 1.6rem;
+    font-size: 2.0rem;
+    justify-content: start;
+    padding-top: 80px;
     transform: rotateY(180deg);
     background-image: url(./img/pokedex.png);
     background-size: cover;
@@ -201,10 +202,18 @@ h2 {
 
 footer {
     background-image: url(./img/bg-pikachu3.jpg);
+    justify-content: center;
+    padding: 150px;
+    
+}
+.footer-section{
+    font-size: 1.8rem;
+    gap: 15px;
     flex-direction: column;
     align-items: center;
-    padding: 150px;
-    font-size: 1.6rem;
+    width: 300px;
+}
+.info-devs{
     gap: 15px;
 }
 
@@ -217,6 +226,12 @@ footer {
 .icons ion-icon {
     font-size: 2.8rem;
     color: var(--red-color);
+}
+.line-footer{
+    font-size: 20px;
+}
+.footer-title{
+    background-color:#fcd5104b;
 }
 
 .water-type {
@@ -324,7 +339,7 @@ footer {
 }
 }
 
-@media (max-width: 508px) {
+@media (max-width: 550px) {
     aside {
         font-size: 1.4rem;
         width: 150px;
@@ -334,17 +349,47 @@ footer {
     }
 
     .card {
-        width: 100%;
-        height: 249px;
-        font-size: 1.0rem;
+        width: 205px;
+        height: 305px;
+        font-size: 1.4rem;
     }
     .container-card {
-        width: 100%;
-}
+        width: 205px;
+        height: 305px;
+    }
+    .card-back{
+        padding-top: 60px;
+    }
     header img {
-        width: 110%;
+        width: 100%;
     }
     .calc-card {
         width: calc(100% - 80px);
 }
+    .cards {
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .flipper-card{
+        justify-content: center;
+    }
 }
+@media (max-width: 376px){
+    .card {
+        width: 100%;
+        height: 100%;
+        font-size:1.1rem;
+    }
+    .container-card {
+        width: 165px;
+        height: 253px;
+    }
+    .card-back{
+        padding-top: 45px;
+    }
+}
+

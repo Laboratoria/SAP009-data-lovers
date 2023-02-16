@@ -65,7 +65,7 @@ const translate=(type) => {
 function printCards(list) {
   document.getElementById('cards').innerHTML = list.map((pokemon) => `
     <div class="container-card">
-    <div class="flipper-card">
+    <div class="flipper-card display">
     <div class="display card-front card">
     <img src="${pokemon.img}" alt="charmander">
     <p class="pokemom-name">${pokemon.name}</p>
@@ -78,11 +78,12 @@ function printCards(list) {
                 <li><strong>Peso:</strong> <span class="weight">${pokemon.size.weight}</li>
                 <li><strong>Altura:</strong> ${pokemon.size.height} </li>     
                 <li><strong>Raridade:</strong> ${pokemon.pokemonRarity}</li> 
-                <li><strong>Resistências:</strong> 
-                ${pokemon.resistant.map(resistance => icons[resistance]).join(' ')}
+                <li><strong>Resistências:</strong> <div>
+                ${pokemon.resistant.map(resistance => icons[resistance]).join(' ')}</div>
                  </li>
-                <li><strong>Fraquezas:</strong> <span class="weakness">
+                <li><strong>Fraquezas:</strong> <span class="weakness"><div>
                 ${pokemon.weaknesses.map(weaknesses => icons[weaknesses]).join(' ')}
+                </div
                 </li>
                </ul>
                 </div>
@@ -95,7 +96,7 @@ const calcText = document.getElementById('calcText')
 
 const searchInput = document.getElementById('search')
 searchInput.addEventListener('keyup', (evento) => {
-  const valueInput = evento.target.value
+  const valueInput = evento.target.value.toLowerCase()
   const listFilter= searchData(valueInput, data.pokemon)
   printCards(listFilter)
   calcText.innerHTML = `Nesse site você encontrará 251 tipos de pokemons.`
