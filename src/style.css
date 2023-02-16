@@ -5,6 +5,7 @@
   text-decoration: none;
   font-size: 100%;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,13 +16,18 @@ body {
   font-size: 1.5rem;
 }
 
+.imgLogo {
+  border-radius: 90%;
+  width: 5%;
+}
+
 a {
   color: yellow;
 }
 
 a:hover {
   opacity: 0.9;
-  color: rgb(137, 18, 18); /
+  color: rgb(137, 18, 18);
 }
 
 nav {
@@ -76,7 +82,7 @@ H1 {
 /*main {
   background: url(img/harry2.jpg) no-repeat;
   background-size: cover; /*caso a resolução seja maior que a img*/
- /* height: 92vh;
+/* height: 92vh;
      opacity: 3px;
 }/*100vh = janela inteira*/
 
@@ -91,11 +97,6 @@ H1 {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
-}
-
-.imgLogo {
-  border-radius: 90%;
-  width: 5%;
 }
 
 /*overflow: overlay; fazer com que as barras de rolagem apareçam sobre o conteúdo em vez de ocupar espaço.*/
@@ -132,6 +133,3 @@ align-items: center;
 justify-content: space-between;
 padding: 20px 0 px;
 }*/
-.personagens {
-  background-color: aqua;
-}
