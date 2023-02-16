@@ -9,17 +9,38 @@ computeStats(data): essa função nos permite fazer cálculos estatísticos bás
 
 Estes nomes de funções e parâmetros são somente referência, o que vocês decidir utilizar vai depender da sua implementação. */
 
+//Função para ordenar por A-Z/Z-A
+export const sortByOrder = (films) => films.sort((az, za) => {
+  if (az.title < za.title) {
+    return -1
+  } else if (az.title > za.title) {
+    return 1
+  } else {
+    return 0
+  }
+})
+
+//Função para ordenar por data de lançamento
+export const sortByRelease = (films) => films.sort((oldest, recent) => {
+  if (oldest.release_date > recent.release_date) {
+    return -1
+  } else if (oldest.release_date < recent.release_date) {
+    return 1
+  } else {
+    return 0
+  }
+})
+
+//Função para filtrar por diretor
+
+export const sortByDirector = (films) => films.map((film) => {
+  const director = film.director
+  const copy = [...new Set(director)]
+  return copy
+
+  console.log(copy)
+})
 
 
-export function sortByRelease(films, selected) {
-  const filmsRelease = films.filter((film) => {//sort (recebe 2 parâmetros/2 filmes (qual vem antes, qual vem depois))
-  
-    if (selected === 'oldest') {
-      return film.release_date >= 1986 && film.release_date <= 2014
-    } else if (selected === 'recent') {
-      return film.release_date <= 2014 && film.release_date >= 1986
-    }
-    return film
-  })
-  return filmsRelease
-}
+//-1 para ordem crescente
+//1 para ordem decrescente
