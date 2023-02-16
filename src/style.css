@@ -76,6 +76,9 @@ p {
    display: flex;
    white-space: nowrap;
    margin: 0 auto;
+   position: sticky;
+   top:calc(25%);
+   z-index: 9999;
 }
 .menu{
   display: inline-flex;
@@ -117,6 +120,7 @@ ul li:hover {
    border-color: rgb(161, 108, 35);
    font-weight: bold;
    border-style: double;
+   background-color: rgba(8, 63, 85);
 }
 .selecione {
   border-radius: 8px;
@@ -207,7 +211,7 @@ ul li:hover {
   padding: 0;
   width: 100%;
   bottom: 0%;
-  position: fixed;
+  position: sticky;
   justify-content: center;
   justify-content: space-between;
   

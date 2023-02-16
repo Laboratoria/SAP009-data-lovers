@@ -1,14 +1,29 @@
 
 import lolData from "./data/lol/lol.js"
-import { buscaTag, ordenarNomes, buscaNome, } from "./data.js"
+import { buscaTag, buscaNome, ordenarCampeoes } from "./data.js"
 // pegando os dados do lol.js e salvando na var lolData
-
 const campeoes = Object.values(lolData.data);
 // essa const atribuiu valor dos objetos do lol.js, para acessá-los incluir o nome da var da linha 1.data (pq   estão dentro do atributo com nome data)
+const traduz = (tag) => {
+  switch (tag) {
+  case "Assassin":
+    return "Assassino";
+  case "Fighter":
+    return "Lutador";
+  case "Mage":
+    return "Mago";
+  case "Marksman":
+    return "Atirador";
+  case "Support":
+    return "Suporte";
+  case "Tank":
+    return "Tanque";
+  }
+}
 function mostraCards(campeoes) {
-    document.getElementById('exibirCards').innerHTML = campeoes.map((campeao) =>
-        // aqui começa a interpolação da string
-        ` 
+  document.getElementById('exibirCards').innerHTML = campeoes.map((campeao) =>
+  // aqui começa a interpolação da string
+    ` 
             <div class="cards">
                 <div class="card">
                     <div class="card-frente">
@@ -23,39 +38,45 @@ function mostraCards(campeoes) {
                             <li>MAGIA: ${campeao.info.magic}</li>
                             <li>DIFICULDADE: ${campeao.info.difficulty}</li>
                         </ul>
-                        <li class="info-do-card">TIPO: ${campeao.tags}</li> 
+                        <li class="info-do-card"> TIPO: ${campeao.tags.map(traduz)} </li> 
                     </div>
                 </div>
             </div>
         `
-    ).join('')
+  ).join('')
 }
-
 window.addEventListener('load', () => mostraCards(campeoes));
 
+const botoesTiposCampeoes = document.querySelectorAll(".filtra-campeoes");
+botoesTiposCampeoes.forEach(function (tipoCampeao) {
+  tipoCampeao.addEventListener('click', function () {
+    const tag = tipoCampeao.id;
+    if (tag === "filtra-todos") {
+      mostraCards(campeoes);
 
-const liAssassino = document.querySelector(".li-assassino");
-liAssassino.addEventListener('click', function () {
-    const assassinos = buscaTag(campeoes, "Assassin");
-    mostraCards(assassinos);
+    } else {
+      const campeoesFiltrados = buscaTag(campeoes, tag);
+      mostraCards(campeoesFiltrados);
+    }
+
+  })
 });
-
-// const buscaNome = document.querySelector("#txtBusca").value;
-// const btnBusca = document.querySelector("#btn-busca");
-// btnBusca.addEventListener('click', function(){
-// const resultado = ordenarNomes(buscaNome, parseInt);
-// document.querySelector("#exibirCards").innerHTML = resultado;
-
-// });
-
 const buscaCampeao = document.querySelector("#txt-busca");
 buscaCampeao.addEventListener("input", function () {
-    const nomeInput = buscaCampeao.value;
-    const arrayNome = buscaNome(campeoes, nomeInput);
-    mostraCards(arrayNome);
+  const nomeInput = buscaCampeao.value;
+  const arrayNome = buscaNome(campeoes, nomeInput);
+  mostraCards(arrayNome);
 });
-// testar charCode  ou return toUpperCase ou toLowerCase ou includes()
 
-// para pesquisar no console nome e poder console.log(campeoes[2].name + campeoes[2].info.attack)
+function textoMinusculo(event) {
+  const texto = event.target.value
+  event.target.value = texto.toLowerCase();
+}
+document.querySelector("#txt-busca").addEventListener("input", textoMinusculo);
 
-//- testar esse aqui se funciona na classificação, change ao invés de click
+const poderes = document.querySelector(".selecione");
+poderes.addEventListener("change", function () {
+  const ordemSelecionada = poderes.value;
+  const ordenadosPoderCampeao = ordenarCampeoes(campeoes, ordemSelecionada);
+  mostraCards(ordenadosPoderCampeao);
+});
