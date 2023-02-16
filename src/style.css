@@ -5,107 +5,131 @@
   text-decoration: none;
   font-size: 100%;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
-body,
-html {
-  
- 
-}
-
 body {
+  background-image: url(img/ceunoite.jpeg);
   font-family: "Harry Potter";
-  font-size: 1.6rem;
-  line-height: 1.5;
-  margin-inline-end: 0; 
-  background-image: url("img/harry\ 1.jpeg");
-  overflow: overlay; /*fazer com que as barras de rolagem apareçam sobre o conteúdo em vez de ocupar espaço.*/
-}
-.img{
-  
-  
-}
-.imgMenu {
-  width: 219vh;
-  height: 100vh;
-  opacity: 0.6;
+  font-size: 1.5rem;
 }
 
 .imgLogo {
   border-radius: 90%;
-  width: 40%;
-  display: flex;
+  width: 5%;
 }
 
-.logo {
-  display: flex;
-}
 a {
   color: yellow;
-  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+  color: rgb(137, 18, 18);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 7vh;
+  color: yellow;
+  margin-top: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.itens {
+  list-style: none;
+  display: flex;
+  margin-left: 40px;
+}
+
+.itens li {
+  letter-spacing: 2px;
+  margin-left: 35px;
+}
+
+.menu div {
+  width: 20px;
+  height: 3px;
+  background: yellow;
+  margin: 5px;
+}
+
+.imgMenu {
+  width: 90%; /*200vh*/
+  height: 98vh; /*110vh*/
+  opacity: 0.6;
+  margin-top: -50px;
+  /*-10px*/
 }
 
 H1 {
-   margin-top: -180px; 
-  left: 11px;
-  position: absolute;  
+  font-size: 110px;
+  margin-top: -190px;
   color: yellow;
-  align-items: center;
- box-shadow: purple;
+  text-align: center;
+  /*
+  text-decoration-color: red;text-shadow: 0cm yellow;
+   border-color: rgb(229, 40, 11);*/
 }
 
-h1{
-text-shadow: purple 10px 10px 10px 10px;
+/*main {
+  background: url(img/harry2.jpg) no-repeat;
+  background-size: cover; /*caso a resolução seja maior que a img*/
+/* height: 92vh;
+     opacity: 3px;
+}/*100vh = janela inteira*/
+
+#dev {
+  color: rgb(248, 25, 147);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
-#home{
-  
- 
-  font-weight: 50;
-  font-size: 100px;
-  }
-
-
-.menu4 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  }
-  
-  
+.dev {
+  color: rgb(248, 25, 147);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
 }
-/*
+
+/*overflow: overlay; fazer com que as barras de rolagem apareçam sobre o conteúdo em vez de ocupar espaço.*/
+/*margin-inline-end: 0;
+
 item {
-  background-color: aliceblue;
-  display: flex;
-  flex-direction: row;
-  color: red;
-  text-decoration: none;
+background-color: aliceblue;
+display: flex;
+flex-direction: row;
+color: red;
+text-decoration: none;
 }
 
 .texto {
-  font-family: sans-serif;
-  color: aliceblue;
-  font-size: 18px;
-  font-weight: 300;
+font-family: sans-serif;
+color: aliceblue;
+font-size: 18px;
+font-weight: 300;
 }
 
 .principal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 10px;
-  width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+padding: 10px;
+width: 100%;
 }
 
 /*.cabeçalho {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0 px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 20px 0 px;
 }*/
-*/
