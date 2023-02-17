@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="nav.footer.css">
+  <link rel="stylesheet" href="./game.css"> 
+  <script defer src="./mobile-navbar.js"></script>
+  <script defer src="./game.js"></script>
+  <title>Memory Game</title>
+</head>
+<body>
+	<header>
+		<nav>
+		    <a class="logo" href="/">Rick and Morty</a>
+		  <div class="mobile-menu">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		  </div>
+		  <ul class="nav-list" id="listNav">
+			<li class="itemNav"><a href="./index.html">Home</a></li>
+			<li class="itemNav"><a href="./characters.html">Personagens</a></li>
+			<li class="itemNav"><a href="./temporadas.html">Temporadas</a></li>
+			<li class="itemNav jogos">Jogos
+				<a class="invisible" href="quiz.html">Quiz: quão fã você é?</a>
+        		<a class="invisible" href="game.html">Jogo da Memória</a>
+			
+			</li>
+			<li class="itemNav"><a href="./sobre.html">Sobre nós</a></li>
+		  </ul>
+		</nav>
+	  </header>
+		<section class="time">
+			<h2>Jogo da memória</h2>
+			<span class="player"></span>
+			<span>Tempo: <span class="timer">00</span></span>
+		</section>
+	<main> 
+    	
+    		<div class="grid" id="grid"></div>	
+    	
+  	</main>
+	  <footer>
+		<h4>Desenvolvido por <a href="https://github.com/daianedosanjos?tab=repositories" target="_blank">Daiane dos
+				Anjos</a> e <a href="https://github.com/Geice-Sousa?tab=repositories" target="_blank">Geice Sousa
+				Pinho</a>, 2023 &copy;</h4>
+	</footer>
+</body>
+</html>

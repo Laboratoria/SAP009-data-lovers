@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+} 
+
+img{
+	margin: auto;
+	margin-top: 5rem;
+}
+
+.card{
+	width: 90%;
+	background-color: aquamarine;
+	margin-top: 5rem;
+}
+
+body{
+	background-image: url(./images/ceu12.avif);	
+	background-size: cover;
+	height: 100vh;
+}
+
+.textApresentation{
+	color: rgb(0, 0, 0);
+	line-height: 30px;
+	vertical-align: baseline;
+	margin-top: 15px;
+	padding: 30px;
+	text-align: justify;
+	font-family: 'IBM Plex Mono', monospace;
+}
+.cards{
+	background-color: #3ADFAD;
+	opacity: 80%;
+	border-radius: 15px;
+}
+
+.mainSobre{
+	display: flex;
+	align-items:center;
+	margin: 3rem;
+	gap: 1rem;
+	
+
+}
