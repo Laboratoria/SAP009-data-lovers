@@ -1,3 +1,6 @@
+<i class="fa-duotone fa-code-branch"></i>
+
+
 # Rick e Morty
 
 Rick and Morty é uma série de televisão de animação americana para adultos. A

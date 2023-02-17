@@ -1,0 +1,103 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	border: none;
+
+  }
+
+  body{
+
+		background-image: url(./images/ceu12.avif);	
+		background-size: cover;
+		height: 100vh;
+	
+	
+
+}
+
+  
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	
+  }
+
+ .time{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: aliceblue;
+	margin-top: 1rem;
+	
+ }
+  
+  .grid {
+	display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+	
+	
+	
+  }
+  
+  .card {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 9/10;
+	width: 100%;
+	border-radius: 5px;
+	position: relative;
+	transition: all 700ms ease;
+	transform-style: preserve-3d;
+	
+	
+  }
+  
+  .face {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	border: 2px solid #B3D929;
+	border-radius: 15px;
+	transition: all 700ms ease;
+  }
+  
+  .front {
+	transform: rotateY(180deg);
+  }
+  
+  .back {
+	background-image: url('../images/back.png');
+	backface-visibility: hidden;
+  }
+  
+  .reveal-card {
+	transform: rotateY(180deg);
+  }
+  
+  .disabled-card {
+	filter: saturate(0);
+	opacity: 0.5;
+  }
+
+  @media screen and (max-width:920px) {
+	.grid {
+	  grid-template-columns: repeat(5, 1fr);
+  
+	}
+  }
