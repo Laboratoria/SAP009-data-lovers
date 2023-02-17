@@ -63,7 +63,7 @@ body{
 .active{
     background-color: var(--color-dark5);
     padding: 8px;
-    border-radius: 25px;
+    border-radius: 25px;    
 }
 
 section{   
