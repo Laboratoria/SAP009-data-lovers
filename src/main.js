@@ -1,5 +1,5 @@
 //import { example } from './data.js';
-import  {searchData, filterPokemon, order, computerType} from '../src/data.js'; 
+import  {searchData, filterPokemon, order, computerType} from './data.js'; 
 import data from './data/pokemon/pokemon.js';
 
 const icons = {
