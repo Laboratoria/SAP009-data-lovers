@@ -1,5 +1,5 @@
 
-import { buscaNome, buscaTag } from "../src/data.js"
+import { buscaNome, buscaTag, ordenarCampeoes } from "../src/data.js"
 
 
 describe('buscaNome', () => {
@@ -33,30 +33,54 @@ describe('buscaNome', () => {
   });
 });
 
-it('retornar campeão digitado', () => {
-  expect(buscaNome('Aatrox', 'Morgana', 'Annie')).toBe('aa', 'mor', 'ann');
+
+describe('buscaTag', () => {
+  it('função de filtrar campeão pelo tipo selecionado', () => {
+    const campeoes = [
+      { tags: ["Assassin", "Fighter"] },
+      { tags: ["Tank"] },
+      { tags: ["Mage"] },
+    ]
+    const tag = "Assassin"
+  
+    const resultadoEsperado = [
+      { tags: ["Assassin", "Fighter"] },
+    ]
+    expect(buscaTag(campeoes, tag)).toEqual(resultadoEsperado);
+  });
 });
 
-// describe('buscaTag', () => {
-//   it('função de filtrar campeão pelo tipo', () => {
-//     const campeao = [
-//       { name: "Shaco" },
-//     ]
-//     const tag = [
-//       { tags: "Assassin" },
-//     ]
-//     const resultadoEsperado = [
-//       {
-//         campeao
-//       }
-//     ]
-//     expect(buscaTag(campeao, tag)).toBe(resultadoEsperado);
-//   });
-// });
-it('retornar tipo do campeao', () => {
-  expect(buscaTag('Shaco')).toBe('Assassin');
+
+describe('ordenarCampeoes', () => {
+  it('função de ordenar ataque do campeao do maior para o menor', () => {
+    const campeoes = [
+      { info: {
+        attack: 5,
+      }},
+      {info: {
+        attack: 2,
+      }},
+    ]
+    const ataque = "maior-ataque"
+  
+    const resultadoEsperado = [
+      {info: {
+        attack: 5,
+      }},
+    ]
+    expect(ordenarCampeoes(campeoes, ataque)).toEqual(resultadoEsperado);
+  });
 });
-//});
+
+
+
+
+
+
+// it('retornar tipo do campeao', () => {
+//   expect(buscaTag('Assassin')).toBe('Assassino');
+// });
+
 
 
 // describe('anotherExample', () => {

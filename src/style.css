@@ -132,6 +132,11 @@ ul li:hover {
   font-weight: bold;
   cursor: pointer;
 }
+#calculo-agregado {
+  text-align: center;
+  background-color: #BF8A26;
+
+}
 /*Estilização dos cards*/
 #exibirCards {
   align-items: center;

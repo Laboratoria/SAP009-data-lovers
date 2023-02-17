@@ -4,6 +4,9 @@ import { buscaTag, buscaNome, ordenarCampeoes } from "./data.js"
 // pegando os dados do lol.js e salvando na var lolData
 const campeoes = Object.values(lolData.data);
 // essa const atribuiu valor dos objetos do lol.js, para acessá-los incluir o nome da var da linha 1.data (pq   estão dentro do atributo com nome data)
+
+let campeoesNaTela = [];
+
 const traduz = (tag) => {
   switch (tag) {
   case "Assassin":
@@ -20,7 +23,9 @@ const traduz = (tag) => {
     return "Tanque";
   }
 }
+
 function mostraCards(campeoes) {
+  campeoesNaTela = campeoes;
   document.getElementById('exibirCards').innerHTML = campeoes.map((campeao) =>
   // aqui começa a interpolação da string
     ` 
@@ -57,6 +62,10 @@ botoesTiposCampeoes.forEach(function (tipoCampeao) {
     } else {
       const campeoesFiltrados = buscaTag(campeoes, tag);
       mostraCards(campeoesFiltrados);
+      const calculoAgregadoTela = document.getElementById('calculo-agregado');
+      const numeroCampeoesFiltrados = campeoesFiltrados.length; 
+      const totalDeCampeoes = campeoes.length; 
+      calculoAgregadoTela.innerHTML = (((numeroCampeoesFiltrados / totalDeCampeoes) *100).toFixed(2) +  "% dos campeões possuem esse tipo.");
     }
 
   })
@@ -77,6 +86,6 @@ document.querySelector("#txt-busca").addEventListener("input", textoMinusculo);
 const poderes = document.querySelector(".selecione");
 poderes.addEventListener("change", function () {
   const ordemSelecionada = poderes.value;
-  const ordenadosPoderCampeao = ordenarCampeoes(campeoes, ordemSelecionada);
+  const ordenadosPoderCampeao = ordenarCampeoes(campeoesNaTela, ordemSelecionada);
   mostraCards(ordenadosPoderCampeao);
 });
