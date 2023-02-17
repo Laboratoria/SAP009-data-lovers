@@ -144,3 +144,34 @@ h5{
     text-align: center;  
     font-family: 'HarryPotter7', sans-serif; 
 }
+
+#todos{
+    font-size: 40px; 
+    text-align: center;
+    margin-top: 20px;
+}
+#allCards{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardsDiv{
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+#cardImg{
+    width: 350px;
+    height: 350px;
+}
+.cardsDiv h2{
+    position: absolute;
+    
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: 13px; 
+    color: #d29d21;
+    bottom: 10em;
+    text-align: center;
+    width: 100%;
+    colocar margem!!!!
+}

@@ -1,3 +1,11 @@
+export const example = () => {
+  return 'example';
+};
+
+export const anotherExample = () => {
+  return 'OMG';
+};
+
 /*const allInformations = JSON.parse("harry.json")
 
 console.log(allInformations);
