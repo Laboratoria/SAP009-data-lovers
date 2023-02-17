@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+<html lang="pt-br">
+
+<head>
+	<script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="nav.footer.css">
+	<link rel="stylesheet" href="./index.css">	
+	<script defer src="./mobile-navbar.js"></script>
+	<title>Home</title>
+</head>
+<body>
+	<header>
+		<nav>
+		    <a class="logo" href="/">Rick and Morty</a>
+		  <div class="mobile-menu">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		  </div>
+		  <ul class="nav-list" id="listNav">
+			<li class="itemNav"><a href="./index.html">Home</a></li>
+			<li class="itemNav"><a href="./characters.html">Personagens</a></li>
+			<li class="itemNav"><a href="./temporadas.html">Temporadas</a></li>
+			<li class="itemNav jogos">Jogos
+				<a class="invisible" href="quiz.html">Quiz: quão fã você é?</a>
+        		<a class="invisible" href="game.html">Jogo da Memória</a>
+			
+			</li>
+			<li class="itemNav"><a href="./sobre.html">Sobre nós</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	  <main class="mainSobre">
+		<div class="conteinerImagem">
+			<img src="images/img-sobre.png" alt="" class="imagemLateral">
+		</div>
+
+		<div class="cards">
+			<p class="textApresentation">Rick and Morty (em português Rick e Morty) é uma série de animação adulta norte-americana de comédia e ficção científica criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network.
+
+			A série estreou em 2 de dezembro de 2013 e acompanha as perigosas aventuras do cientista alcoólatra Rick e
+			seu neto Morty, que divide seu tempo entre a vida familiar e viagens interdimensionais. Em 2016, suas duas
+			primeiras temporadas foram lançadas na Netflix com a dublagem brasileira realizada pelo estúdio Dubbing
+			Company, de Campinas, com tradução de Carlos Freires, e também foi transmitida nos canais pagos TBS, I.Sat e
+			TNT Séries, atualmente é exibida no Brasil pelo canal Warner Channel desde 4 de maio de 2020 com a estreia
+			do bloco do Adult Swim no canal. Em agosto de 2015, o Adult Swim renovou a série para uma terceira temporada
+			de 10 episódios, que estreou no dia 1º de abril de 2017 com o resto da temporada programada para ir ao ar
+			durante o verão do mesmo ano.
+
+			A série se originou de uma paródia animada em curta-metragem do filme De Volta Para o Futuro criada por
+			Roiland para o festival de cinema Channel 101. A Adult Swim abordou Harmon a respeito de ideias para um
+			programa de televisão, então ele e Roiland desenvolveram o programa com base no curta, substituindo os
+			personagens de Doc com Rick e Marty com Morty.</p>
+			</div>
+	</main>
+
+	<footer>
+		<h4>Desenvolvido por <a href="https://github.com/daianedosanjos?tab=repositories" target="_blank">Daiane dos
+				Anjos</a> e <a href="https://github.com/Geice-Sousa?tab=repositories" target="_blank">Geice Sousa
+				Pinho</a>, 2023 &copy;</h4>
+	</footer>
+</body>
+
 </html>

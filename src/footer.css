@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+} 
+
+footer{
+	font-family: 'IBM Plex Mono', monospace; 
+	background: linear-gradient(90deg, #07c972, #359d9e);
+	text-align: center;
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: 5rem;
+
+}
+footer a{
+	color: #3ADFAD;
+	text-decoration: none;
+	font-weight: 600;
+	
+}

@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-size: 1rem;
+} 
+
+img{
+	margin: auto;
+	margin-top: 5rem;
+}
+
+main{
+	height: 100vh;
+	background-image: url(./images/ceu12.avif);
+	background-size: cover;
+	height: 100vh;
+}
+
+.cards{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	height: 100vh;
+}
+
+.card{
+	background-color: #3ADFAD;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 350px;	
+	margin: auto 8px;
+	margin-top: 2%;
+	width: 250px;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+.card-img{
+	border-radius: 50%;
+	margin-top: 2px;
+
+}
+

@@ -1,0 +1,160 @@
+
+  a {
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+  }
+  
+  a:hover {
+	opacity: 0.7;
+  }
+  
+  .logo {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+  }
+  
+  nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: linear-gradient(90deg, #07c972, #359d9e);
+	height: 10vh;
+  }
+  
+ 
+  .nav-list {
+	list-style: none;
+	display: flex;
+  }
+  
+  .nav-list .itemNav {
+	letter-spacing: 3px;
+	margin-left: 32px;
+  }
+  
+  .mobile-menu {
+	display: none;
+	cursor: pointer;
+  }
+  
+  .mobile-menu div {
+	width: 32px;
+	height: 2px;
+	background: #fff;
+	margin: 8px;
+	transition: 0.3s;
+  }
+
+  
+
+#listNav, .itemNav a{
+	display: flex;
+	  justify-content: space-around;
+	  list-style-type: none;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  font-size: small;
+	  font-weight: 600;
+	  font-family: 'IBM Plex Mono', monospace; 
+	  align-items: center;
+	  opacity: 100%;
+  
+  }
+  
+  #listNav{
+	  /* nova inserção */
+	margin: 1rem 2rem;
+	  padding: 0rem;
+  
+  }
+  #listNav a:hover, footer a:hover, .jogos:hover{
+	  /* color:aqua; */
+	  font-size: larger;
+	   cursor: pointer; 
+  }
+  
+  .jogos a.invisible{
+	  display: none;
+  
+  }
+  .jogos:hover a.invisible, a.invisible{
+	  display: block;
+	  font-size: x-small;
+  
+  }
+
+
+  footer{
+	font-family: 'IBM Plex Mono', monospace; 
+	background: linear-gradient(90deg, #07c972, #359d9e);
+	text-align: center;
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin-top: 5rem;
+
+}
+footer a{
+	color: #3ADFAD;
+	text-decoration: none;
+	font-weight: 600;
+	
+}
+  
+  @media (max-width: 999px) {
+	body {
+	  overflow-x: hidden;
+	}
+	.nav-list {
+	  position: absolute;
+	  top: 8vh;
+	  right: -30px;
+	  width: 50vw;
+	  height: 92vh;
+	  background: linear-gradient(90deg, #07c972, #359d9e);
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: space-around;
+	  transform: translateX(100%);
+	  transition: transform 0.3s ease-in;
+	  z-index: 9;
+	}
+	.nav-list .itemNav {
+	  margin-left: 0;
+	  opacity: 0;
+	}
+	.mobile-menu {
+	  display: block;
+	}
+  }
+  
+  .nav-list.active {
+	transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+	from {
+	  opacity: 0;
+	  transform: translateX(50px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateX(0);
+	}
+  }
+  
+  .mobile-menu.active .line1 {
+	transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+	opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+	transform: rotate(45deg) translate(-5px, -7px);
+  }
