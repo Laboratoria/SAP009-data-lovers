@@ -1,0 +1,35 @@
+.mainQuiz, .btn{
+	color: #3ADFAD;
+	font-family: 'IBM Plex Mono', monospace;
+	margin: 1rem;
+  padding: 1rem;
+}
+
+.btn{
+	opacity: 70%;
+	background-color:rgba(0, 0, 0, 0.219);
+}
+
+.btn:hover{
+	cursor: pointer;
+	font-size: large;
+  color: aqua;
+  font-weight: bold;
+  
+}
+
+.quiz{
+	/* margin: auto; */
+}
+
+.quizQuestion{
+	display: inline-block;
+	text-align: justify;
+  border: 2px solid #3ADFAD;
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.quizRespostas{
+ margin-left: 2rem;
+}
