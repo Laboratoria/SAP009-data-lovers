@@ -5,15 +5,14 @@ import data from './data/ghibli/ghibli.js';
 // console.log(example,data)
 
 const arrayGhibli = data;
-const filmes = arrayGhibli["filmes"]
+const filmes = arrayGhibli.films
+console.log(filmes);
 
-const cartaz = filmes.map(function(item){
-  return item.poster;
+const posters =  filmes.map(function(item){
+  return item.poster
 })
-
-console.log(cartaz);
 
 const root = document.getElementById("root");
 
-root.innerHTML = `${cartaz}`
+root.innerHTML = `<img src="${posters}">`
 
