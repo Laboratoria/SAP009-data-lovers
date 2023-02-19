@@ -9,34 +9,72 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Características dos Personagens</h1>
-    <main>
+    <header>
+        <div class="cabecalho" id="cabecalho">
+          <div>
+            <img class="logo" src="logoheart.png" alt="logo Corean Heart">
+          </div>
+  
+          <div class="navegacao">
+             <a href="index.html" class="itensmenu">Início</a>
+             <a href="indexp.html" class="itensmenu">Personagens</a>
+             <a href="indexs.html" class="itensmenu">Sobre nós</a>
+          </div>
+        </div> 
+      </header>
+    <h1>Inventário de Personagens</h1>
+    <main id="caracteristicas">
         <section>
-        <form action="">
-           <!--<input id="genero" name="genero" type="list"> --> 
-            <label for="genero">Gênero</label>
-            <input id="idade" name="idade" type="list">
-            <label for="idade">Idade</label>
-            <input id="especie" name="especie" type="list">
-            <label for="especie">Espécie</label>
-            <input id="olhos" name="olhos" type="list">
-            <label for="olhos">Cor dos olhos</label>
-            <input type="text">
-            <label for="">Cor dos cabelos</label>
-        </form>
+        <form>
+            <div class="posicao">
+                <label for="nome"><strong>Personagem:</strong></label>
+                <input id= "nome" type="text" required placeholder="Digite o nome">
+                <button id= "ok" type="submit">OK</button>
+            </div>
+         
+        
+            <div class="posicao">
+               <label for="genero"><strong>Gênero:</strong></strong></label>
+               <select name="genero" id="genero">
+                 <option selected disabled value="">Selecione</option>
+                 <option value="fem">Feminino</option>
+                 <option value="masc">Masculino</option>
+               </select>
+            </div> 
 
-        <div>
-            aparecer lista de personagens
+            <div class="posicao">
+               <label for="especie"><strong>Espécie:</strong></label>
+               <select name="especie" >
+                   <option selected disabled value="">Selecione</option>
+                   <option value="human">Human</option>
+                   <option value="Totoro">Totoro</option>
+                   <option value="cat">Cat</option>
+                   <option value="dog">Dog</option>
+                   <option value="bird">Bird</option>
+                   <option value="wolf">Wolf</option>
+                   <option value="raccon">Raccon Dog</option>
+                   <option value="witch">Witch</option>
+                   <option value="witch/human">Witch/Human</option>
+                   <option value="human/scarecrow">Human Scarecrow</option>
+                   <option value="arch-mage/human">Arch-mage/Human</option>
+                   <option value="fish/human">Fish/Human</option>
+                   <option value="red elk">Red Elk</option>
+                   <option value="spirit">Spirit</option>
+                   <option value="spirit of the White fox">Spirit of the White Fox</option>
+                   <option value="deity">Deity</option>
+                   <option value="deity,dragon">Deity, Dragon</option>
+                   <option value="borrower">Borrower</option>
+                   <option value="unknown">Unknown</option>
+                   <option value="wizard">Wizard</option>
+                   <option value="demon">Demon</option>
+           </select>
         </div>
+           
+        </form>
 
         </section>
 
     </main>
-
-    <div id="divaudio">
-             <audio id="audio" preload="auto" controls> 
-            <source src="hope.mp3" type="audio/mpeg">
-    </div>
 
     <footer>
        <h5>
