@@ -1,7 +1,4 @@
-//import lolData from "./data/lol/lol.js"
-
 function buscaTag(campeoes, tag) {
-  //filterData(data, condition)
   const campeoesTag = campeoes.filter((campeao) => {
     if (campeao.tags.includes(tag)) {
       return true;
@@ -13,48 +10,40 @@ function buscaTag(campeoes, tag) {
 }
 
 function buscaNome(campeoes, nome) {
-  console.log(campeoes);
-  console.log(nome);
   const filtraCampeoes = (campeao) => {
-    console.log(campeao)
     if (campeao.name.toLowerCase().includes(nome)) {
       return true;
     }
     return false;
-  }
+  };
   const campeoesFiltrados = campeoes.filter(filtraCampeoes);
-  console.log(campeoesFiltrados);
-  return campeoesFiltrados
-}
-function textoMinusculo(event) {
-  const texto = event.target.value
-  event.target.value = texto.toLowerCase();
-}
-document.querySelector("#txt-busca").addEventListener("input", textoMinusculo);
-
-function ordenarNomes(dados, ordem, valor) {
-  if (ordem === "Nome") {
-    dados.sort((primeiroCampeao, segundoCampeao) => {
-      if (primeiroCampeao.name > segundoCampeao.name) {
-        return 1;
-      } else {
-        return -1;
-      }
-    });
-  } else {
-    dados.sort(
-      (primeiroCampeao, segundoCampeao) =>
-        primeiroCampeao.name - segundoCampeao.name
-    );
-  }
-  if (valor === "ordem-decrecente") {
-    dados.reverse();
-  }
-  return dados;
+  return campeoesFiltrados;
 }
 
-export {
-  buscaTag,
-  ordenarNomes,
-  buscaNome,
+function ordenarCampeoes(campeoes, ordem) {
+  const campeoesOrdenados = campeoes.sort((campeaoA, campeaoB) => {
+    if (ordem === "maior-defesa") {
+      return campeaoB.info.defense - campeaoA.info.defense;
+    } else if (ordem === "menor-defesa") {
+      return campeaoA.info.defense - campeaoB.info.defense;
+    }
+    if (ordem === "maior-ataque") {
+      return campeaoB.info.attack - campeaoA.info.attack;
+    } else if (ordem === "menor-ataque") {
+      return campeaoA.info.attack - campeaoB.info.attack;
+    }
+    if (ordem === "maior-magia") {
+      return campeaoB.info.magic - campeaoA.info.magic;
+    } else if (ordem === "menor-magia") {
+      return campeaoA.info.magic - campeaoB.info.magic;
+    }
+    if (ordem === "maior-dificuldade") {
+      return campeaoB.info.difficulty - campeaoA.info.difficulty;
+    } else if (ordem === "menor-dificuldade") {
+      return campeaoA.info.difficulty - campeaoB.info.difficulty;
+    }
+  });
+  return campeoesOrdenados;
 }
+
+export { buscaTag, buscaNome, ordenarCampeoes };
