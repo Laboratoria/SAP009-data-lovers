@@ -3,6 +3,9 @@
 import { buscaNome, buscaTag, ordenarCampeoes } from "../src/data.js";
 
 describe("buscaNome", () => {
+  it('isto é uma função', ()=> {
+    expect(typeof buscaNome).toBe('function');
+  });
   it("função de filtrar campeão por nome existente", () => {
     const campeoes = [
       { name: "Aatrox" },
@@ -31,6 +34,9 @@ describe("buscaNome", () => {
 });
 
 describe("buscaTag", () => {
+  it('isto é uma função', ()=> {
+    expect(typeof buscaTag).toBe('function');
+  });
   it("função de filtrar campeão pelo tipo selecionado", () => {
     const campeoes = [
       { tags: ["Assassin", "Fighter"] },
@@ -45,42 +51,130 @@ describe("buscaTag", () => {
 });
 
 describe("ordenarCampeoes", () => {
-  it("função de ordenar ataque do campeao do maior para o menor", () => {
+  it('isto é uma função', ()=> {
+    expect(typeof ordenarCampeoes).toBe('function');
+  });
+  it("função de ordenar campeao de maior defesa", () => {
     const campeoes = [
-      {
-        info: {
-          attack: 5,
-        },
-      },
-      {
-        info: {
-          attack: 2,
-        },
-      },
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
     ];
-    const ataque = "maior-ataque";
+    const ordem = 'maior-defesa';
 
-    const resultadoEsperado = [
-      {
-        info: {
-          attack: 5,
-        },
-      },
+    const resultadoEsperado=[
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
+  });
+  it("função de ordenar campeao de menor defesa", () => {
+    const campeoes = [
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
     ];
-    expect(ordenarCampeoes(campeoes, ataque)).toEqual(resultadoEsperado);
+    const ordem = 'menor-defesa';
+
+    const resultadoEsperado=[
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
+  });
+  it("função de ordenar campeao de maior ataque", () => {
+    const campeoes = [
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ];
+    const ordem = 'maior-ataque';
+
+    const resultadoEsperado=[
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
+  });
+  it("função de ordenar campeao de menor ataque", () => {
+    const campeoes = [
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ];
+    const ordem = 'menor-ataque';
+
+    const resultadoEsperado=[
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
+  });
+  it("função de ordenar campeao de maior magia", () => {
+    const campeoes = [
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ];
+    const ordem = 'maior-magia';
+
+    const resultadoEsperado=[
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
+  });
+  it("função de ordenar campeao de menor magia", () => {
+    const campeoes = [
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ];
+    const ordem = 'menor-magia';
+
+    const resultadoEsperado=[
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
+  });
+  it("função de ordenar campeao de maior dificuldade", () => {
+    const campeoes = [
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ];
+    const ordem = 'maior-dificuldade';
+
+    const resultadoEsperado=[
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
+  });
+  it("função de ordenar campeao de menor dificuldade", () => {
+    const campeoes = [
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ];
+    const ordem = 'menor-dificuldade';
+
+    const resultadoEsperado=[
+      { nome: "Amumu", info: { attack: 2, defense: 8, magic: 8, difficulty: 3 }},
+      { nome: "Ashe", info: { attack: 7, defense: 3, magic: 2, difficulty: 4 } },
+      { nome: "Lee Sin", info: { attack: 8, defense: 5, magic: 3, difficulty: 6 } },
+    ]
+    expect(ordenarCampeoes(campeoes, ordem)).toStrictEqual(resultadoEsperado);
   });
 });
 
-// it('retornar tipo do campeao', () => {
-//   expect(buscaTag('Assassin')).toBe('Assassino');
-// });
 
-// describe('anotherExample', () => {
-//   it('is a function', () => {
-//     expect(typeof anotherExample).toBe('function');
-//   });
-
-//   it('returns `anotherExample`', () => {
-//     expect(anotherExample()).toBe('OMG');
-//   });
-// });
