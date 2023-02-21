@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom, #ff9800 , #ffc340 , #fefc89);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Luckiest Guy';
+}
+
+.centralStructure {
+  display: grid;
+  margin: 0 auto;
+	background: #F5F5F5;
+  border-radius: 30px;
+  width: 1800px; 
+  height: 800px;
+}
+
+#video {
+  border: 50px solid #F5F5F5;
+  width: 950px;
+  height: 420px;
+  border-radius: 30px;
+  grid-column: 1;
+}
+
+ #imageMascots {
+  border: 50px solid #F5F5F5;
+  width: 550px;
+  height: 450px;
+  border-radius: 30px;
+  grid-column: 2
+}
+
+#yellowBackground1 {  
+  background-color: #FEFC89;
+  width: 1800px;
+  height: 350px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.buttons {
+  background: #48C26E;
+  width: 300px;
+  height: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: "Luckiest Guy";
+  color: #F5F5F5;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dataButtons {
+  background: #48C26E;
+  width: 260px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#selectCountry , #selectOrder {
+font-family: 'Luckiest Guy';
+color: #F5F5F5;
+font-size: 20px;
+text-align: center;
+
+}
