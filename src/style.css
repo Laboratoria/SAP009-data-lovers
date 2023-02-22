@@ -3,40 +3,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fredericka+the+Great&family=Lora:ital@0;1&display=swap');
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
 :root {
-
+	font-size: 16px;
+	--azul-claro: #dceffd;
+	--azul-meioroxo:  #989cf7;
+	--yellow: #f6e3a3;
+	--rosa-claro: #f8b3c6;
+	--verde: #c9feeb;
 }
-
+  
 body {
-    background-image: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
+    background-image: linear-gradient(to bottom, #e1f0fb, #d2d3fd, #f9f1d6, #f9ccd8, #d4fdee);
     height: 100%;
     background-attachment: fixed;
-
-}
-
-h1 {
-    font-family:  'Berkshire Swash', cursive;
-    font-size: 45px;
-    color: #fa4172;
-    text-align: center;
-    text-shadow: 1px, 1px, 2px #0e000086;
-    margin: 30px;
-}
-
-h5 {
-    color: #fb2246;
-    font-family: 'Lora', serif;
-}
-
-p {
-    text-align: justify;
-    font-family: 'quicksand', sans-serif;
-    text-indent: 30px;
-    color: #2b2201;
+	font-family: 'quicksand', sans-serif;
 }
 
 main{
-    background-color: #faf9f4;
+    background-color: #f9f6e7;
     border-radius: 8px;
     max-width: 750px;
     min-width: 300px;
@@ -45,32 +35,208 @@ main{
 
 }
 
-footer{
+h1 {
+    font-family:  'Berkshire Swash', cursive;
+    font-size: 45px;
+    color: #f8265e;
     text-align: center;
-    font-family: 'Lora', serif;
-    margin: 0px;
+    text-shadow: 0.5px 0.5px 1px #00000086;
+    margin: 30px;
 }
 
-#video {
+h5 {
+    color: #fb2246;
+    font-family: 'Lora', serif;
+    padding: 15px;
     display: flex;
     justify-content: center;
-    margin: auto;
-    padding: 20px;
-    padding-bottom: 58%;
-    position: relative;
+	text-shadow: 0.5 0.5 10 black;
+	text-align: center;
+    
+}
+
+p {
+    text-align: justify;
+    font-family: 'quicksand', sans-serif;
+    text-indent: 30px;
+    color: #070600;
+    line-height: 1.5em;
+    padding: 3px;
+    font-weight: 450;
+	text-shadow: 0.1 0.1 0.2 black;
+}
+
+#end {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
 
 }
 
-#video > iframe {
-  position: absolute;
-  top: 1%;
-  left: 5%;
-  width: 90%;
-  height: 90%;
+#carcteristicas {
+	display: flex;
 
 }
 
-::-webkit-scrollbar {
+input, select {
+	border-radius: 5px;
+	padding: 2px;
+  }
+
+ /* destaque em negrito */
+#plus {
+	text-align: center;
+	color: #f6295f;
+  }
+
+#imagem-principal {
+	display: flex;
+	justify-content: center;
+}
+
+ /* imgs com os links do github */
+
+.imgid {
+	display: flex;
+	justify-content: center;
+}
+  
+.imgid img {
+	width: 250px;
+	height: 250px;
+	margin-top: 5px;
+  }
+
+
+  a {
+	display: block;
+	text-decoration: none;
+	text-decoration-style: none;
+	text-decoration-color: none;
+	transition: 0.5s;
+  }
+  
+  a:hover {
+	text-decoration: none;
+	background-color: #f9de72;
+	border-color: #f9de72;
+	border-radius: 90px;
+  }
+
+
+  #logo {
+	height: 135px;
+  }
+
+ /* navbar responsiva */
+  
+  a {
+	color: var(--yellow);
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  .header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--azul-meioroxo);
+	height: 4.6875rem;
+	padding: 1rem;
+  }
+  
+  
+  .menu {
+	list-style: none;
+	display: flex;
+	gap: 0.5rem;
+  }
+  
+  .menu a {
+	display: block;
+	padding: 0.7rem;
+	border-radius: 0.8rem;
+  }
+  
+  .menu a:hover {
+	background: var(--rosa-claro);
+	color: var(--azul-meioroxo);
+  }
+  
+  .btn-menu {
+	display: none;
+  }
+  
+  @media (max-width: 600px) {
+	.menu {
+	  display: block;
+	  position: absolute;
+	  top: 4.6875rem;
+	  left: 0;
+	  background: var(--azul-meioroxo);
+	  text-align: center;
+	  width: 100%;
+	  height: 0;
+	  z-index: 1;
+	  visibility: hidden;
+	  overflow-y: hidden;
+	  transition: 0.5s;
+	}
+	.menu a {
+	  padding: 1rem 0;
+	  margin-inline: 1rem;
+	  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.16);
+	  border-radius: 0;
+	}
+	.btn-menu {
+	  background: none;
+	  border: none;
+	  font: inherit;
+	  display: flex;
+	  align-items: center;
+	  gap: 0.5rem;
+	  color: var(--yellow);
+	  padding: 1rem 0;
+	  cursor: pointer;
+	}
+	.hamburger {
+	  border-top: 0.125rem solid;
+	  width: 1.25rem;
+	}
+	.hamburger::after,
+	.hamburger::before {
+	  content: " ";
+	  display: block;
+	  width: 1.25rem;
+	  height: 0.125rem;
+	  background: currentColor;
+	  margin-top: 0.3125rem;
+	  position: relative;
+	  transition: 0.3s;
+	}
+	.nav.active .menu {
+	  height: calc(100vh - 4.6875rem);
+	  visibility: visible;
+	  overflow-y: auto;
+	}
+	.nav.active .hamburger {
+	  border-top-color: transparent;
+	}
+	.nav.active .hamburger::before {
+	  transform: rotate(135deg);
+	}
+	.nav.active .hamburger::after {
+	  transform: rotate(-135deg);
+	  top: -0.4375rem;
+	}
+  }
+
+  /* scrol personalizado */ 
+
+  ::-webkit-scrollbar {
     width: 10px;
   }
 
@@ -80,94 +246,13 @@ footer{
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #b1b3f3;
+    background: #acaff9;
     border-radius: 5px;
   }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #9da1fd; 
+    background: #f68da9; 
   }
 
-a {
-  display: block;
-  text-decoration: none;
-  text-decoration-style: none;
-  text-decoration-color: none;
-}
 
-a:link {
-  text-decoration: none;
-}
 
-a:hover {
-  text-decoration: none;
-}
-
-.cabecalho {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  height: 150px;
-
-}
-.logo {
-  height: 190px;
-}
-
-.menu {
-  display: flex;
-  gap: 40px;
-}
-
-.itensmenu {
-  font-family: 'quicksand', sans-serif;
-  color: #f72e64;
-  font-weight: 400px;
-  font-size: 16px;
-  background-color: #f9eaad;
-  border-radius: 8px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-style: none;  
-  border-width: 2px;
-  border-color: #fa507d;
-  border-bottom-style: groove;
-
-}
-
-#linhacima {
-  border-top: 0.4px solid #fb88a6;
-  margin-top: 0.2px;
-  margin-bottom: 50px;
-}
-
-#audio {
-  margin-top: 50px;
-  height: 28px;
-  max-width: 750px;
-  min-width: 300px;
-}
-
-.imgid {
-  display: flex;
-  justify-content: center;
-}
-
-.imgid img {
-  width: 250px;
-  height: 250px;
-  margin-top: 5px;
-}
-
-#divaudio {
-  display: flex;
-  justify-content: center;
-}
-
-#plus {
-  text-align: center;
-  color: #fa507d;
-}

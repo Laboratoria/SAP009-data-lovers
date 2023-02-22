@@ -4,41 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personagenst</title>
+    <title>Ghiblers</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
+    <script defer src="responsive.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Características dos Personagens</h1>
-    <main>
+  <header class="header">
+    <a href="/" class="logo"> <img id="logo" src="logoheart.png" alt=""></a>
+    <nav class="nav">
+      <button
+        class="btn-menu"
+        aria-label="Abrir Menu"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      >
+        Menu<span class="hamburger"></span>
+      </button>
+      <ul class="menu" id="menu" role="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="indexp.html">Personagens</a></li>
+        <li><a href="indexs.html">Sobre nós</a></li>
+      </ul>
+    </nav>
+  </header>
+    <h1>Inventário de Personagens</h1>
+    <main id="caracteristicas">
         <section>
-        <form action="">
-           <!--<input id="genero" name="genero" type="list"> --> 
-            <label for="genero">Gênero</label>
-            <input id="idade" name="idade" type="list">
-            <label for="idade">Idade</label>
-            <input id="especie" name="especie" type="list">
-            <label for="especie">Espécie</label>
-            <input id="olhos" name="olhos" type="list">
-            <label for="olhos">Cor dos olhos</label>
-            <input type="text">
-            <label for="">Cor dos cabelos</label>
-        </form>
+        <form>
+            <div class="posicao">
+                <label for="nome"><strong>Personagem:</strong></label>
+                <input id= "nome" type="text" required placeholder="Digite o nome">
+                <button id= "ok" type="submit">OK</button>
+            </div>
+         
+        
+            <div class="posicao">
+               <label for="genero"><strong>Gênero:</strong></strong></label>
+               <select name="genero" id="genero">
+                 <option selected disabled value="">Selecione</option>
+                 <option value="fem">Feminino</option>
+                 <option value="masc">Masculino</option>
+               </select>
+            </div> 
 
-        <div>
-            aparecer lista de personagens
+            <div class="posicao">
+               <label for="especie"><strong>Espécie:</strong></label>
+               <select name="especie" >
+                   <option selected disabled value="">Selecione</option>
+                   <option value="human">Human</option>
+                   <option value="Totoro">Totoro</option>
+                   <option value="cat">Cat</option>
+                   <option value="dog">Dog</option>
+                   <option value="bird">Bird</option>
+                   <option value="wolf">Wolf</option>
+                   <option value="raccon">Raccon Dog</option>
+                   <option value="witch">Witch</option>
+                   <option value="witch/human">Witch/Human</option>
+                   <option value="human/scarecrow">Human Scarecrow</option>
+                   <option value="arch-mage/human">Arch-mage/Human</option>
+                   <option value="fish/human">Fish/Human</option>
+                   <option value="red elk">Red Elk</option>
+                   <option value="spirit">Spirit</option>
+                   <option value="spirit of the White fox">Spirit of the White Fox</option>
+                   <option value="deity">Deity</option>
+                   <option value="deity,dragon">Deity, Dragon</option>
+                   <option value="borrower">Borrower</option>
+                   <option value="unknown">Unknown</option>
+                   <option value="wizard">Wizard</option>
+                   <option value="demon">Demon</option>
+           </select>
         </div>
+           
+        </form>
 
         </section>
 
     </main>
 
-    <div id="divaudio">
-             <audio id="audio" preload="auto" controls> 
-            <source src="hope.mp3" type="audio/mpeg">
-    </div>
-
-    <footer>
+    <footer id="end">
        <h5>
         Desenvolvido por Flora e Edimara, 2023
        </h5>
