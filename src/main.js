@@ -1,5 +1,5 @@
 //import { example } from './data.js';
-import  {searchData, filterPokemon, order, computerType} from './data.js'; 
+import  {searchData, filterPokemon,  order, computerType, filterRarityPokemon} from './data.js'; 
 import data from './data/pokemon/pokemon.js';
 
 const icons = {
@@ -31,6 +31,8 @@ const translate=(type) => {
     return "Água"
   case "electric":
     return "Elétrico"
+  case "dragon":
+    return "Dragão"
   case "fairy":
     return "Fada"
   case "ghost":
@@ -59,6 +61,17 @@ const translate=(type) => {
     return "Venenoso"
   case "flying":
     return "Voador"
+  }
+}
+
+const translateRarity=(pokemonRarity) => {
+  switch (rarity) {
+  case "normal":
+    return "Normal"
+  case "legendary" :
+    return "Lendário"
+  case "mythic":
+    return "Mítico"
   }
 }
     
@@ -105,6 +118,14 @@ searchInput.addEventListener('keyup', (evento) => {
 const filterTypes = document.getElementById('filter-types')
 filterTypes.addEventListener('change', () => {
   const filter = filterPokemon (filterTypes.value, data.pokemon)
+  printCards(filter)
+  const porcent = computerType(filter, data.pokemon)
+  calcText.innerHTML = `O número de pokemons desse tipo é ${filter.length}, o que equivale a ${porcent}%`
+})
+
+const filterRarity = document.getElementById('filter-rarity')
+filterRarity.addEventListener('change', () => {
+  const filter = filterRarityPokemon (filterRarity.value, data.pokemon)
   printCards(filter)
   const porcent = computerType(filter, data.pokemon)
   calcText.innerHTML = `O número de pokemons desse tipo é ${filter.length}, o que equivale a ${porcent}%`

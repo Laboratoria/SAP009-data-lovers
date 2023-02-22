@@ -9,6 +9,11 @@ function filterPokemon(value, list) {
   return newFilter;
 }
 
+function filterRarityPokemon(value, list) {
+  const newFilterRarity = list.filter(pokemon => pokemon.pokemonRarity.includes(value));
+  return newFilterRarity;
+}
+
 function order(value, list) {
   const copia = [...list]
   if (value === "a-z") {
@@ -37,6 +42,7 @@ function computerType (newFilter, list) {
 export {
   searchData,
   filterPokemon,
+  filterRarityPokemon, 
   order, 
   computerType
 };
