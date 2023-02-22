@@ -1,16 +1,14 @@
-
- body {
+body {
   margin: 0;
   padding: 0;
   background-image: url(https://giffiles.alphacoders.com/276/2766.gif);
-  width:"100%";
+  width: "100%";
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .conteudo-fixo {
   position: fixed;
   top: 0;
   z-index: 9999;
-  
 }
 .cabecalho {
   display: flex;
@@ -28,21 +26,21 @@
 }
 nav a {
   margin-right: 1.8rem;
-       text-transform: uppercase;
-       font-weight: bold;
-       text-decoration: none;
-       color: rgb(161, 108, 35);
-       cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(161, 108, 35);
+  cursor: pointer;
 }
 nav a:hover {
   color: aliceblue;
 }
 #jogar {
-    padding: 10px;
-    background-color: rgb(8, 63, 85);
-    border-radius: 8px;
+  padding: 10px;
+  background-color: rgb(8, 63, 85);
+  border-radius: 8px;
 }
-.info{
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,12 +51,10 @@ nav a:hover {
 }
 h1 {
   margin-top: 7rem;
-  color: #BF8A26;
-  text-shadow:  -1px -1px 0px #403001,
-    -1px 1px 0px #403001,
-    1px -1px 0px #403001,
+  color: #bf8a26;
+  text-shadow: -1px -1px 0px #403001, -1px 1px 0px #403001, 1px -1px 0px #403001,
     1px 0px 0px #403001;
-    font-size: 0.9,7rem;
+  font-size: 0.9, 7rem;
 }
 p {
   color: aliceblue;
@@ -68,37 +64,39 @@ p {
   color: rgb(161, 108, 35);
   text-decoration: none;
 }
-/*Estilização da <section class="menu-fixo"> menu do usuario*/
+/* Estilização da <section class="menu-fixo" > menu do usuario */
 .menu-fixo {
   justify-content: center;
   text-align: justify;
   align-items: center;
-   display: flex;
-   white-space: nowrap;
-   margin: 0 auto;
+  display: flex;
+  white-space: nowrap;
+  margin: 0 auto;
+  position: sticky;
+  top: calc(25%);
+  z-index: 9999;
 }
-.menu{
+.menu {
   display: inline-flex;
   gap: 2rem;
   padding: 0.9rem;
-  
 }
 .container {
   border-style: double;
- text-transform: uppercase;
- border-radius: 38px 0 38px 0;
- background: url(fundoMenu.png);
- border-color: rgb(161, 108, 35);
- flex-direction: column;
- align-items: center;
+  text-transform: uppercase;
+  border-radius: 38px 0 38px 0;
+  background: url(fundoMenu.png);
+  border-color: rgb(161, 108, 35);
+  flex-direction: column;
+  align-items: center;
 }
 .container li {
- align-items: center;
+  align-items: center;
   text-align: center;
   justify-content: space-between;
- color: aliceblue;
- list-style-type: none;
- flex-direction: column;
+  color: aliceblue;
+  list-style-type: none;
+  flex-direction: column;
 }
 ul li:hover {
   color: rgb(161, 108, 35);
@@ -114,9 +112,10 @@ ul li:hover {
 #text-busca {
   align-items: center;
   border-radius: 8px;
-   border-color: rgb(161, 108, 35);
-   font-weight: bold;
-   border-style: double;
+  border-color: rgb(161, 108, 35);
+  font-weight: bold;
+  border-style: double;
+  background-color: rgba(8, 63, 85);
 }
 .selecione {
   border-radius: 8px;
@@ -124,11 +123,15 @@ ul li:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(8, 63, 85);
   border-style: double;
-  color:aliceblue;
+  color: aliceblue;
   font-weight: bold;
   cursor: pointer;
 }
-/*Estilização dos cards*/
+#calculo-agregado {
+  text-align: center;
+  background-color: #bf8a26;
+}
+/* /Estilização dos cards/  */
 #exibirCards {
   align-items: center;
   margin-top: 0.5rem;
@@ -138,25 +141,25 @@ ul li:hover {
   position: sticky;
 }
 .cards {
-  width:18rem;
+  width: 18rem;
   height: 18rem;
   align-items: center;
   display: inline-block;
- justify-content: center;
- background-color: rgb(2, 2, 25);
- border-style: double;
- color: rgb(161, 108, 35);
- margin-bottom: 20px;
+  justify-content: center;
+  background-color: rgb(2, 2, 25);
+  border-style: double;
+  color: rgb(161, 108, 35);
+  margin-bottom: 20px;
 }
 .card {
   align-items: center;
-   background-color: rgb(2, 2, 25);
-   color: rgb(161, 108, 35);
-   flex-direction: column;
-   transition: transform 1s;
-   transform-style: preserve-3d;
-   perspective: 1000px;
-   position: relative;
+  background-color: rgb(2, 2, 25);
+  color: rgb(161, 108, 35);
+  flex-direction: column;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  position: relative;
 }
 .imagem-do-card {
   width: 18rem;
@@ -166,13 +169,13 @@ ul li:hover {
 .cards:hover .card {
   transform: rotateY(180deg);
 }
- .card-frente {
+.card-frente {
   align-items: center;
   justify-content: center;
   display: flex;
   padding: center;
 }
- .card-frente,
+.card-frente,
 .card-verso {
   backface-visibility: hidden;
   position: absolute;
@@ -198,7 +201,7 @@ ul li:hover {
   display: inline-flex;
   margin-left: 5px;
 }
-/*Estilização do footer*/
+/* /Estilização do footer/  */
 .rodape {
   display: flex;
   flex-direction: column;
@@ -207,10 +210,9 @@ ul li:hover {
   padding: 0;
   width: 100%;
   bottom: 0%;
-  position: fixed;
+  position: sticky;
   justify-content: center;
   justify-content: space-between;
-  
 }
 #devs {
   text-transform: uppercase;
@@ -221,7 +223,7 @@ ul li:hover {
   display: inline-flex;
 }
 footer a {
-  color:rgb(161, 108, 35);
+  color: rgb(161, 108, 35);
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -229,10 +231,9 @@ footer a {
   margin-top: 0.5rem;
 }
 a:hover {
-  color:aliceblue;
+  color: aliceblue;
 }
 #linkedin {
   text-align: center;
   width: 5%;
 }
-
