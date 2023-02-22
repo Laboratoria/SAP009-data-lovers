@@ -38,6 +38,15 @@ window.addEventListener('resize', function() {
 });
 
 
+const allCharacters = harryData.characters.forEach(function(character) {//forEach para percorrer todo array de character
+  cardDrawing(character)
+} 
+);
+
+//elementos da carta
+const cardImg = document.getElementsByClassName("cardImg")
+const charactersName = document.getElementsByClassName("charactersName")
+
 
 
  
@@ -49,3 +58,24 @@ import data from './data/pokemon/pokemon.js';
 
 console.log(example, data);
 */
+function cardDrawing(character){
+
+  const cardSection = document.querySelector(".cardSection")
+
+  cardSection.innerHTML += `<div class= "cardsDiv">
+  <img src="logo-frog-4.png" alt="cardImg" id="cardImg" class="cardImg"> 
+  <h2>${character.name}</h2>
+   </div>`
+
+
+
+}
+
+
+
+
+ 
+
+
+
+//console.log(example, data);
