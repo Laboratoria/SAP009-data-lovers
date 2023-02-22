@@ -54,21 +54,55 @@ describe('buscaTag', () => {
 describe('ordenarCampeoes', () => {
   it('função de ordenar ataque do campeao do maior para o menor', () => {
     const campeoes = [
-      { info: {
-        attack: 5,
-      }},
-      {info: {
-        attack: 2,
-      }},
+      { name: "Fiora",
+        tags: [
+          "Fighter", "Assassin"
+        ],
+        info: {[
+          attack: 10,
+          defense: 4,
+          magic: 2,
+          difficulty: 3
+        ]}
+      },
+      { name: "Fizz",
+        tags: [
+          "Assassin", "Fighter"
+        ],
+        info: {[
+          attack: 6,
+          defense: 4,
+          magic: 7,
+          difficulty: 6
+        ]}
+      },
+      { name: "Galio",
+        tags: [
+          "Tank", "Mage"
+        ],
+        info: {[
+          attack: 3,
+          defense: 7,
+          magic: 6,
+          difficulty: 3
+        ]}
+      }
     ]
-    const ataque = "maior-ataque"
   
     const resultadoEsperado = [
-      {info: {
-        attack: 5,
-      }},
+      { name: "Fiora",
+        tags: [
+          "Fighter", "Assassin"
+        ],
+        info: {[
+          attack: 10,
+          defense: 4,
+          magic: 2,
+          difficulty: 3
+        ]}
+      },
     ]
-    expect(ordenarCampeoes(campeoes, ataque)).toEqual(resultadoEsperado);
+    expect(ordenarCampeoes(campeoes, maior-ataque)).toStrictEqual(resultadoEsperado);
   });
 });
 
