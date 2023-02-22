@@ -1,0 +1,241 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=PT+Serif:ital@1&family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fredericka+the+Great&family=Lora:ital@0;1&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: #acaff9;  
+  box-shadow: 1px, 1px, 4px black;
+  border-style:unset;
+
+}
+
+
+.logo {
+  height: 130px;
+}
+
+.navegacao  {
+  display: flex;
+  gap: 40px;
+}
+
+.itensmenu {
+  font-family: 'quicksand', sans-serif;
+  color: #f74172;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #f9eaad;
+  border-radius: 6px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-style: none;  
+  border-width: 2px;
+  border-color: #fa507d;
+  border-bottom-style: groove;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    font-family:  'Berkshire Swash', cursive;
+    font-size: 45px;
+    color: #f8265e;
+    text-align: center;
+    text-shadow: 1px, 1px, 2px #0e000086;
+    margin: 30px;
+}
+
+h5 {
+    color: #fb2246;
+    font-family: 'Lora', serif;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+p {
+    text-align: justify;
+    font-family: 'quicksand', sans-serif;
+    text-indent: 30px;
+    color: #070600;
+    line-height: 1.5em;
+    padding: 3px;
+    font-weight: 450;
+}
+
+main{
+    background-color: #f8f3da;
+    border-radius: 8px;
+    max-width: 750px;
+    min-width: 300px;
+    padding: 15px;
+    margin: auto;
+
+}
+
+footer{
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin: 0px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+
+}
+
+#video > iframe {
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #acaff9;
+    border-radius: 5px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f68da9; 
+  }
+
+a {
+  display: block;
+  text-decoration: none;
+  text-decoration-style: none;
+  text-decoration-color: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #f97fa0;
+  color: #f8e282;
+  border-color: #f9de72;
+  border-radius: 10px;
+}
+
+
+#linhacima {
+  border-top: 0.4px solid #fb88a6;
+  margin-top: 0.2px;
+  margin-bottom: 50px;
+}
+
+#audio {
+  margin-top: 50px;
+  height: 28px;
+  max-width: 750px;
+  min-width: 300px;
+}
+
+.imgid {
+  display: flex;
+  justify-content: center;
+}
+
+.imgid img {
+  width: 250px;
+  height: 250px;
+  margin-top: 5px;
+}
+
+#divaudio {
+  display: flex;
+  justify-content: center;
+}
+
+#plus {
+  text-align: center;
+  color: #f6295f;
+}
+
+.posicao {
+display: inline;
+}
+
+input, select {
+  border-radius: 5px;
+  padding: 2px;
+}
+
+#ok {
+  font-family: 'quicksand', sans-serif;
+  color: #f8dc6f;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #f9648c;
+  border-radius: 9px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: none;  
+  border-width: 2px;
+  border-color: #ffffff;
+  border-bottom-style: groove;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#caracteristicas {
+  font-family: 'quicksand', sans-serif;
+  color: #f74172;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #f9f4e1;
+  border-radius: 8px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-right: 1px;
+  border-style: none;  
+  border-width: 1px;
+  border-color: #efead1;
+  border-bottom-style: groove;
+}
+
+
+
+
