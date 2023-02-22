@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personagenst</title>
+    <title>Ghiblers</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
+    <script defer src="responsive.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <div class="cabecalho" id="cabecalho">
-          <div>
-            <img class="logo" src="logoheart.png" alt="logo Corean Heart">
-          </div>
-  
-          <div class="navegacao">
-             <a href="index.html" class="itensmenu">Início</a>
-             <a href="indexp.html" class="itensmenu">Personagens</a>
-             <a href="indexs.html" class="itensmenu">Sobre nós</a>
-          </div>
-        </div> 
-      </header>
+  <header class="header">
+    <a href="/" class="logo"> <img id="logo" src="logoheart.png" alt=""></a>
+    <nav class="nav">
+      <button
+        class="btn-menu"
+        aria-label="Abrir Menu"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      >
+        Menu<span class="hamburger"></span>
+      </button>
+      <ul class="menu" id="menu" role="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="indexp.html">Personagens</a></li>
+        <li><a href="indexs.html">Sobre nós</a></li>
+      </ul>
+    </nav>
+  </header>
     <h1>Inventário de Personagens</h1>
     <main id="caracteristicas">
         <section>
@@ -76,7 +84,7 @@
 
     </main>
 
-    <footer>
+    <footer id="end">
        <h5>
         Desenvolvido por Flora e Edimara, 2023
        </h5>
