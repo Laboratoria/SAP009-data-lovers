@@ -46,10 +46,6 @@ window.addEventListener('resize', function() {
   
 });
 
-/*function listCharacters(allCharacters, chooseCharacter){
-  return (chooseCharacter.innerHTML = "personagens aqui" )
-}
-charactersBtn.addEventListener('click', listCharacters);*/
 
 const allCharacters = harryData.characters.forEach(function(character) {//forEach para percorrer todo array de character
   cardDrawing(character)
@@ -65,23 +61,6 @@ const charactersName = document.getElementsByClassName("charactersName")
 
 
 function cardDrawing(character){
-  /*//card
-  let card = document.createElement("article")
-  card.setAttribute("class", "card")
-  cardSection.appendChild(card)
-
-  //imagem do card(ou imagem dentro do card?)
-  const img = document.createElement("img")
-  card.appendChild(img)
-  img.setAttribute("class", "cardImg")
-  img.setAttribute("src", "logo-frog-4.png")
-
-  //nome do personagem
-  let charactersName = document.createElement("h2")
-  charactersName.setAttribute("class", "charactersName")
-  card.appendChild(charactersName)
-  charactersName.textContent = character.name //é isso que faz aparecer a palavra "nome" no card
-  */
 
   const cardSection = document.querySelector(".cardSection")
 
