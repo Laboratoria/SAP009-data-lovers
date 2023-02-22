@@ -1,6 +1,11 @@
-import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
+// import { example } from './data.js';
+// // import data from './data/lol/lol.js';
+import data from './data/lol/lol.js';
 // import data from './data/rickandmorty/rickandmorty.js';
 
-console.log(example, data);
+const allChampions = data.data;
+console.log (allChampions);
+
+const inputChampions= document.querySelector(".search");
+inputChampions.addEventListener( "click", localizarChamp);
+console.log(inputChampions);
