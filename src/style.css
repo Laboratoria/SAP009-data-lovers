@@ -1,6 +1,6 @@
 body{
     background-image: url(harry.jpeg);
-    background-size: cover;
+    background-size: cover;    
 }
 h1{
     text-align: center;
@@ -23,7 +23,7 @@ h2{
     text-align: center;
     font-family: "Harry";
     font-size: 50px;
-    color: gold;
+    color: rgb(238, 185, 52);
     font-weight: normal;
     margin-top: 10px;  
     text-shadow: 
@@ -72,9 +72,9 @@ h3{
        1px -1px 0px rgb(36, 19, 77),                  
        1px 0px 0px rgb(39, 16, 75);
 }
-#personagens{
+/*#personagens{
     list-style: none;
-}
+}*/
 #personagens button{
     background-color: blue;
     background: linear-gradient(90deg,
@@ -82,8 +82,8 @@ h3{
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-    margin-left: 65px;
-    position: absolute;
+    /*margin-left: 65px;*/
+    /*position: absolute;
     bottom: 100px;
     width: 155pt;
     height: 50px;
@@ -95,16 +95,16 @@ h3{
       -1px -1px 0px rgb(25, 12, 48), 
       -1px 1px 0px rgb(47, 21, 77),                    
        1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);
+       1px 0px 0px rgb(39, 16, 75);*/
 }
-#personagens li a{
+/*#personagens li a{
     color: white;
     padding: 20px;
     text-decoration: none;    
 }  
 #feiticos{
     list-style: none;
-} 
+}*/
 #feiticos button{
     background-color: red;
     background: linear-gradient(90deg,
@@ -112,8 +112,8 @@ h3{
     rgb(233, 23, 16) 35%,
     rgb(201, 117, 117) 100%
   );
-    margin-left: 295px;
-    position: absolute;
+    /*margin-left: 295px;*/
+    /*position: absolute;
     bottom: 100px;
     width: 155pt;
     height: 50px;
@@ -125,24 +125,24 @@ h3{
       -1px -1px 0px rgb(25, 12, 48), 
       -1px 1px 0px rgb(47, 21, 77),                    
        1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);
+       1px 0px 0px rgb(39, 16, 75);*/
 }
-#feiticos li a{
+/*#feiticos li a{
     color: white;
     padding: 20px;
     text-decoration: none;    
-} 
+}
 #casas{
     list-style: none;
-}  
+}*/ 
 #casas button{
     background-color: goldenrod;
     background: linear-gradient(90deg,
     rgb(138, 125, 13) 0%,
     rgb(175, 153, 28) 35%,
     rgb(231, 224, 121) 100%
-  );
-    position: absolute;
+    );
+    /*position: absolute;
     right: 585px;
     bottom: 100px;
     width: 155pt;
@@ -155,24 +155,24 @@ h3{
       -1px -1px 0px rgb(25, 12, 48), 
       -1px 1px 0px rgb(47, 21, 77),                    
        1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);
+       1px 0px 0px rgb(39, 16, 75);*/
 }
-#casas li a{
+/*#casas li a{
     color: white;
     padding: 20px;
     text-decoration: none;    
 }
 #pocoes{
     list-style: none;
-}  
+}*/  
 #pocoes button{
     background-color: green;
     background: linear-gradient(90deg,
     rgb(21, 61, 5) 0%,
     rgb(28, 109, 21) 35%,
     rgb(108, 247, 108) 100%
-  );
-    position: absolute;
+    );
+    /*position: absolute;
     right: 350px;
     bottom: 100px;
     width: 155pt;
@@ -185,16 +185,16 @@ h3{
       -1px -1px 0px rgb(25, 12, 48), 
       -1px 1px 0px rgb(47, 21, 77),                    
        1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);
+       1px 0px 0px rgb(39, 16, 75);*/
 }
-#pocoes li a{
+/*pocoes li a{
     color: white;
     padding: 20px;
     text-decoration: none;    
-} 
-#livros{
+}*/
+/*#livros{
     list-style: none;
-}
+}*/
 #livros button{
     background-color: brown;
     background: linear-gradient(90deg,
@@ -202,7 +202,7 @@ h3{
     rgb(99, 49, 8) 35%,
     rgb(167, 118, 72) 100%
   );
-    position: absolute;
+    /*position: absolute;
     right: 112px;
     bottom: 100px;
     width: 155pt;
@@ -215,13 +215,52 @@ h3{
       -1px -1px 0px rgb(25, 12, 48), 
       -1px 1px 0px rgb(47, 21, 77),                    
        1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);
+       1px 0px 0px rgb(39, 16, 75);*/
 }
-#livros li a{
+/*#livros li a{
     color: white;
     padding: 20px;
     text-decoration: none;    
-}   
+}*/
+nav ul{
+    list-style: none;
+    
+    
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;      
+}
+button{
+    /*position: absolute;
+    bottom: 100px;
+    width: 155pt;
+    height: 50px;
+    display: block;*/
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    text-shadow: 
+      -1px -1px 0px rgb(25, 12, 48), 
+      -1px 1px 0px rgb(47, 21, 77),                    
+       1px -1px 0px rgb(36, 19, 77),                  
+       1px 0px 0px rgb(39, 16, 75);
+}
+
+
+/*@media screen and (max-width: 600px) {
+    nav li {
+        width: 50px;
+        height: 50px;
+
+    }
+    
+}*/
+
+
 
 
 
