@@ -172,8 +172,7 @@ h5{
     height: 350px;
 }
 .cardsDiv h2{
-    position: absolute;
-    
+    position: absolute;    
     font-family: 'HarryPotter7', sans-serif;
     font-size: 13px; 
     color: #d29d21;
@@ -186,3 +185,12 @@ h5{
     color:var(--color-yellow);
     text-shadow: 2px -2px 10px var(--color-dark1), 2px -2px 10px var(--color-dark1); 
 }
+
+form{
+    
+    border-radius: 14px; 
+    padding: 16px;
+    font-size:12px;
+    font-family: 'HarryPotter7', sans-serif;
+ }
+

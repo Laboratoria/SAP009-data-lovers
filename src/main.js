@@ -1,4 +1,5 @@
 //import { example } from './data.js';
+import harryData from './data/harrypotter/harry.js';
 
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
@@ -38,10 +39,12 @@ window.addEventListener('resize', function() {
 });
 
 
+
 const allCharacters = harryData.characters.forEach(function(character) {//forEach para percorrer todo array de character
   cardDrawing(character)
 } 
 );
+
 
 //elementos da carta
 const cardImg = document.getElementsByClassName("cardImg")
@@ -49,15 +52,19 @@ const charactersName = document.getElementsByClassName("charactersName")
 
 
 
+
+
  
 
 /*
 //import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
 // import data from './data/rickandmorty/rickandmorty.js';
 
 console.log(example, data);
 */
+
+
+
 function cardDrawing(character){
 
   const cardSection = document.querySelector(".cardSection")
@@ -66,11 +73,19 @@ function cardDrawing(character){
   <img src="logo-frog-4.png" alt="cardImg" id="cardImg" class="cardImg"> 
   <h2>${character.name}</h2>
    </div>`
-
-
-
 }
 
+/*
+function nameCharacter (query) => {
+  return cardSection.filter(el => el.toLowerCase().indexOf(query.toLowerCase()) >-1);
+
+};
+console.log (nameCharacter('ha')); */
+
+
+//import harryData from './data/harrypotter/harry.js';
+
+//const allCharacters = harryData.characters.forEach(function(character) {//forEach para percorrer todo array de character
 
 
 
