@@ -9,13 +9,13 @@ h1{
     margin-top: 50px;
     font-weight: bold;
     color: white;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
        1px 0px 0px rgb(39, 16, 75)
 }
-@font-face{
+@font-face {
     font-family: "Harry";
     src: url("HARRYP__.TTF") format("truetype");
 }
@@ -25,12 +25,12 @@ h2{
     font-size: 50px;
     color: rgb(238, 185, 52);
     font-weight: normal;
-    margin-top: 10px;  
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75); 
+    margin-top: 10px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
 }
 img{
     width: 48px;
@@ -38,7 +38,7 @@ img{
     margin-left: 865px;
     position: absolute;
     top: 50px;
-    transform: rotate(25deg);  
+    transform: rotate(25deg);
 }
 p{
     text-align: justify;
@@ -46,12 +46,12 @@ p{
     font-weight: bold;
     font-size: 20px;
     line-height: 28px;
-    margin-top: 10px; 
+    margin-top: 10px;
     color: white;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
        1px 0px 0px rgb(39, 16, 75)
 }
 .paragrafo{
@@ -64,12 +64,12 @@ h3{
     font-weight: bold;
     font-size: 20px;
     line-height: 28px;
-    margin-top: 10px; 
+    margin-top: 10px;
     color: white;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
        1px 0px 0px rgb(39, 16, 75);
 }
 /*#personagens{
@@ -82,8 +82,8 @@ h3{
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-    /*margin-left: 65px;*/
-    /*position: absolute;
+    margin-left: 65px;
+    position: absolute;
     bottom: 100px;
     width: 155pt;
     height: 50px;
@@ -91,20 +91,20 @@ h3{
     font-size: 20px;
     border: none;
     border-radius: 15px;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);*/
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
 }
-/*#personagens li a{
+#personagens li a{
     color: white;
     padding: 20px;
     text-decoration: none;    
 }  
 #feiticos{
     list-style: none;
-}*/
+} 
 #feiticos button{
     background-color: red;
     background: linear-gradient(90deg,
@@ -112,8 +112,8 @@ h3{
     rgb(233, 23, 16) 35%,
     rgb(201, 117, 117) 100%
   );
-    /*margin-left: 295px;*/
-    /*position: absolute;
+    margin-left: 295px;
+    position: absolute;
     bottom: 100px;
     width: 155pt;
     height: 50px;
@@ -121,28 +121,28 @@ h3{
     font-size: 20px;
     border: none;
     border-radius: 15px;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);*/
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
 }
-/*#feiticos li a{
+#casas li a{
     color: white;
     padding: 20px;
-    text-decoration: none;    
+    text-decoration: none;
 }
-#casas{
+#feiticos{
     list-style: none;
-}*/ 
+}  
 #casas button{
     background-color: goldenrod;
     background: linear-gradient(90deg,
     rgb(138, 125, 13) 0%,
     rgb(175, 153, 28) 35%,
     rgb(231, 224, 121) 100%
-    );
-    /*position: absolute;
+  );
+    position: absolute;
     right: 585px;
     bottom: 100px;
     width: 155pt;
@@ -151,20 +151,20 @@ h3{
     font-size: 20px;
     border: none;
     border-radius: 15px;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);*/
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
 }
-/*#casas li a{
+#feiticos li a{
     color: white;
     padding: 20px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 #pocoes{
     list-style: none;
-}*/  
+}*/
 #pocoes button{
     background-color: green;
     background: linear-gradient(90deg,
@@ -172,6 +172,7 @@ h3{
     rgb(28, 109, 21) 35%,
     rgb(108, 247, 108) 100%
     );
+}
     /*position: absolute;
     right: 350px;
     bottom: 100px;
@@ -181,18 +182,18 @@ h3{
     font-size: 20px;
     border: none;
     border-radius: 15px;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);*/
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
 }
 /*pocoes li a{
     color: white;
     padding: 20px;
-    text-decoration: none;    
-}*/
-/*#livros{
+    text-decoration: none;
+}
+#livros{
     list-style: none;
 }*/
 #livros button{
@@ -202,7 +203,7 @@ h3{
     rgb(99, 49, 8) 35%,
     rgb(167, 118, 72) 100%
   );
-    /*position: absolute;
+    position: absolute;
     right: 112px;
     bottom: 100px;
     width: 155pt;
@@ -211,56 +212,17 @@ h3{
     font-size: 20px;
     border: none;
     border-radius: 15px;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);*/
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
 }
 /*#livros li a{
     color: white;
     padding: 20px;
     text-decoration: none;    
-}*/
-nav ul{
-    list-style: none;
-    
-    
-    
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;      
-}
-button{
-    /*position: absolute;
-    bottom: 100px;
-    width: 155pt;
-    height: 50px;
-    display: block;*/
-    padding: 10px; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border: none;
-    border-radius: 15px;
-    text-shadow: 
-      -1px -1px 0px rgb(25, 12, 48), 
-      -1px 1px 0px rgb(47, 21, 77),                    
-       1px -1px 0px rgb(36, 19, 77),                  
-       1px 0px 0px rgb(39, 16, 75);
-}
-
-
-/*@media screen and (max-width: 600px) {
-    nav li {
-        width: 50px;
-        height: 50px;
-
-    }
-    
-}*/
-
-
+}   
 
 
 
