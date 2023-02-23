@@ -1,6 +1,251 @@
-
-body {
-  background-image: url(Hogwarts-Legacy.jpg);
-  background-size: cover;
+body{
+    background-image: url(harry.jpeg);
+    background-size: cover;
 }
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75)
+}
+@font-face {
+    font-family: "Harry";
+    src: url("HARRYP__.TTF") format("truetype");
+}
+h2{
+    text-align: center;
+    font-family: "Harry";
+    font-size: 50px;
+    color: gold;
+    font-weight: normal;
+    margin-top: 10px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+img{
+    width: 48px;
+    height: 48px;
+    margin-left: 865px;
+    position: absolute;
+    top: 50px;
+    transform: rotate(25deg);
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: white;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75)
+}
+.paragrafo{
+    width: 400px;
+    margin-left: 475px;
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: white;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+#personagens{
+    list-style: none;
+}
+#personagens button{
+    background-color: blue;
+    background: linear-gradient(90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+    margin-left: 65px;
+    position: absolute;
+    bottom: 100px;
+    width: 155pt;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+#personagens li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+#casas{
+    list-style: none;
+}
+#casas button{
+    background-color: red;
+    background: linear-gradient(90deg,
+    rgb(112, 14, 14) 0%,
+    rgb(233, 23, 16) 35%,
+    rgb(201, 117, 117) 100%
+  );
+    margin-left: 295px;
+    position: absolute;
+    bottom: 100px;
+    width: 155pt;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+#casas li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+#feiticos{
+    list-style: none;
+}
+#feiticos button{
+    background-color: goldenrod;
+    background: linear-gradient(90deg,
+    rgb(138, 125, 13) 0%,
+    rgb(175, 153, 28) 35%,
+    rgb(231, 224, 121) 100%
+  );
+    position: absolute;
+    right: 585px;
+    bottom: 100px;
+    width: 155pt;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+#feiticos li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+#pocoes{
+    list-style: none;
+}
+#pocoes button{
+    background-color: green;
+    background: linear-gradient(90deg,
+    rgb(21, 61, 5) 0%,
+    rgb(28, 109, 21) 35%,
+    rgb(108, 247, 108) 100%
+  );
+    position: absolute;
+    right: 350px;
+    bottom: 100px;
+    width: 155pt;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+#pocoes li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+#livros{
+    list-style: none;
+}
+#livros button{
+    background-color: brown;
+    background: linear-gradient(90deg,
+    rgb(53, 30, 5) 0%,
+    rgb(99, 49, 8) 35%,
+    rgb(167, 118, 72) 100%
+  );
+    position: absolute;
+    right: 112px;
+    bottom: 100px;
+    width: 155pt;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+#livros li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
