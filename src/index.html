@@ -20,20 +20,25 @@
           Com exceção de seis produções, todos os filmes do estúdio foram dirigidos por Hayao Miyazaki e Isao Takahata.
           Toshio Suzuki, por sua vez, é o produtor da maioria deles. Em 2001, o Museu Ghibli,
           um museu dedicado as obras do estúdio, foi inaugurado.</p>
-    </div>
+      </div>
+
         <h2 class="catalogo">CATÁLOGO DE FILMES</h2>
-        <form action="">
+
+        <form class="ordem">
           <label for="ordem">Ordenar</label>
           <select name="option" id="option">Ordem
           <option value="deAZ">A a Z</option>
           <option value="deZA">Z a A</option>
           <option id="crescente" value="deAZ">Ano Crescente</option>
           <option id="descrescente" value="deZA">Ano Decresente</option>
+          <option id="rt_score" value="score">RT Score</option>
           </select>
         </form>
         
     <div class="filmes" id="root">
-
+      <div class="poster">
+        <!--posters dos filmes-->
+      </div>
     </div>
     <script src="main.js" type="module"></script>
   </body>
