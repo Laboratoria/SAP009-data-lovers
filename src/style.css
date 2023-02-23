@@ -44,7 +44,7 @@
 }
 
 .ordem{
-    margin-left: 85px;
+    margin-left: 40px;
     margin-top: 100px;
     font-family: var(--fonte-titulo);
 }
@@ -64,7 +64,7 @@
     gap: 30px;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .poster{
