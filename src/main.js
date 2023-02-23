@@ -1,7 +1,8 @@
 import { example } from './data.js';
-// import data from './data/lol/lol.js';
+
 import data from './data/ghibli/ghibli.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+
+// console.log(example,data)
 
 const arrayGhibli = data;
 const filmes = arrayGhibli["films"]
@@ -9,7 +10,7 @@ const root = document.getElementById("root");
 let posteres = ''
 
 filmes.map(function(item) {
-  posteres += `<div class="poster"><img src="${item.poster}"></div>`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
+  posteres += `<img src="${item.poster}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
 })
 root.innerHTML = posteres  // avisa o JS que isso vai pro HTML
 
@@ -42,3 +43,7 @@ seletorDeOrdem.addEventListener('change', function(event){
 
   root.innerHTML = posteresOrdenados
 })
+
+const score = data.films.sort((a,b) => Number(a.rt_score) - (Number(b.rt_score)));
+
+console.log(score)
