@@ -16,23 +16,20 @@
 <body>
   <header>
     <nav class="logo1">
+      <div>
       <img class="imgLogo" src="img/brasão.png.png">
-
-      <ul class="itens">
-        <li><a class="item" onclick="" href="personagens.html"> Personagens </a></li>
-        <li><a class="item" onclick="" href="livros.html"> Coleção de livros</a></li>
-        <li><a class="item" onclick="" href="filmes.html"> Coleção de filmes</a></li>
-        <li><a class="item" onclick="" href="feitiços.html"> Feitiços & Poções </a></li>
-        <li><a class="item" onclick="" href="clubhp.html"> ClubHP </a></li>
-        <li><a class="item" onclick="" href="book.html"> HarryPotterBook</a></li>
-      </ul>
-
-      <div class="menu">
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
+      <ul class="itens">
+        <li><a class="item1" id="listaPerso"> Personagens </a></li>
+        <li><a class="item2" onclick="" href="livros.html"> Coleção de livros</a></li>
+        <li><a class="item3" onclick="" href="filmes.html"> Coleção de filmes</a></li>
+        <li><a class="item4" onclick="" href="feitiços.html"> Feitiços & Poções </a></li>
+        <li><a class="item5" onclick="" href="clubhp.html"> ClubHP </a></li>
+        <li><a class="item6" onclick="" href="book.html"> HarryPotterBook</a></li>
+      </ul>      
     </nav>
+
+    <div id="mae"><div id="filho"></div></div>
 
     <div class="inicio">
 
@@ -44,12 +41,24 @@
     </div>
   </header>
 
+  <button class="btn-modal" onclick="abrirModal('vis-modal')">Tela Modal</button> 
+
+  <div id="modal" class="modal">
+    <div class="contudo=modal">
+      <div class = "cabeçalho-modal">
+          <h1>visualizar</h1>
+  
+      </div>
+    </div>
+  </div>
 
   <main class="principal">
-    <input>
-    <input>
-    <input>
-
+    <div class="menu">
+      <input type="text" nome="" id="exibir1">
+      <input id="filtro2" type="search">
+      <input id="filtro3">
+      </div>
+      <div class="animation-cards"></div>
   </main>
   </div>
 
