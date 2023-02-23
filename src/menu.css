@@ -46,27 +46,17 @@ li {
 .cards{
     display: flex;
     overflow: hidden;
-    height: 100%;  
+    height: 100%;
+
 }
 
-
-.cards-pokemons {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-left: 0%;
-    padding-left: 10%;
-    padding-top: 5%;  
-}
 
 .cards-texto-central{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0%;
-    margin-right: 10%;
-    height: 83px;
-    width: px;
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    left: 450px;
+    top: 80px;
     background-color:#3D5CC7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -76,7 +66,8 @@ li {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    color: #FFFFFF;    
+    color: #FFFFFF; 
+    padding-top: 8px;   
 }
 
 
@@ -85,19 +76,77 @@ li {
  height: 0;
 }
 
+.cards-pokemons, .cards-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 8%;
+}
 
-.cards-container{
-    width: 240px;
-    margin-left: -5%;
-    margin-right: 10%;
-    margin-top: 15%;
-    height: 250px;
+
+.flip-cards{  
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.cards-box:hover .flip-cards{
+    transform: rotateY(180deg);
+}
+
+.cards-container-frente, .cards-container-posterior{
+    backface-visibility: hidden;
+    width: 280px;
+    height: 300px;
     background: linear-gradient(180deg, #58B7FF 31.25%, rgba(93, 185, 255, 0) 100%);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;      
-  }
+    justify-content:space-between;
+    flex-wrap: wrap;    
+}
+
+.cards-container-posterior{
+    position: absolute;
+    top: 0px;
+    transform: rotateY(180deg);
+}
+
+.extra-info1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20%;
+   
+}
+.extra-info2{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#051759;
+    text-align:justify;
+    font-size: 17px;
+}
+
+.letras{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    
+
+}
+.letras >span{
+    color:#FBD743;
+    background-color: #3D5CC7;
+    font-weight: bolder;
+    width: 110px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
 
 
 
@@ -107,20 +156,14 @@ li {
     text-transform: uppercase;
     font-size: 20px;
     display: flex;
-    padding-top: 10%;
-    padding-left: 45%;
     color:#051759;
 }
 
 .img-estilo {
-    height: 130px;
-    padding-top: 10%;
-    padding-left: 35%;
+   width: 140px;
 }
 
 .tipos-pokemons{
-    padding-left: 70%;
-    padding-top: 20%;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -197,24 +240,4 @@ li {
     font-size: 20px;
     margin-bottom: -20%;
 }
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #FBD743; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
 
