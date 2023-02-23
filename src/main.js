@@ -65,7 +65,7 @@ const translate=(type) => {
 }
 
 const translateRarity=(pokemonRarity) => {
-  switch (rarity) {
+  switch (pokemonRarity) {
   case "normal":
     return "Normal"
   case "legendary" :
@@ -90,7 +90,7 @@ function printCards(list) {
         <ul class="display card-back card">
                 <li><strong>Peso:</strong> <span class="weight">${pokemon.size.weight}</li>
                 <li><strong>Altura:</strong> ${pokemon.size.height} </li>     
-                <li><strong>Raridade:</strong> ${pokemon.pokemonRarity}</li> 
+                <li><strong>Raridade:</strong> ${translateRarity(pokemon.pokemonRarity)}</li> 
                 <li><strong>Resistências:</strong> <div>
                 ${pokemon.resistant.map(resistance => icons[resistance]).join(' ')}</div>
                  </li>

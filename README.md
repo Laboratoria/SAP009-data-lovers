@@ -54,7 +54,7 @@ Pensando nos objetivos do usuário:
 3: Filtrar os pokémons por tipo.
 4: Buscar um pokémon pelo nome.
 
-Ao entrar no site, o usuário visualizará todos os Pokemóns, e ao passar o mouse por cima do card com a imagem, terá as informações de: peso, altura, candies, raridade, resistência e fraquezas. Há uma opção para ordenar os Pokemóns por ordem Alfabética, um filtro para que seja possível filtrar o tipo do personagem e um campo para a busca especifica pelo nome.  
+Ao entrar no site, o usuário visualizará todos os Pokemóns, e ao passar o mouse por cima do card com a imagem, terá as informações de: peso, altura, raridade, resistência e fraquezas. Há uma opção para ordenar os Pokemóns por ordem Alfabética, um campo para a busca especifica pelo nome, um filtro para que seja possível filtrar o tipo do personagem e outro para filtrar por raridade.  
 
 O site foi pensando para ser utilizado quando fãs do desenho quiserem ter mais informações do personagem, ou, quando jogadores de Pokémon quiserem saber as características dos personagens para escolher de acordo com seu objetivo no jogo (atacar, defender, dar assistência);
 
