@@ -56,13 +56,14 @@ const botoesTiposCampeoes = document.querySelectorAll(".filtra-campeoes");
 botoesTiposCampeoes.forEach(function (tipoCampeao) {
   tipoCampeao.addEventListener('click', function () {
     const tag = tipoCampeao.id;
-    if (tag === "filtra-todos") {
+     const calculoAgregadoTela = document.getElementById('calculo-agregado');
+     if (tag === "filtra-todos") {
       mostraCards(campeoes);
+      calculoAgregadoTela.innerHTML = "";
 
     } else {
       const campeoesFiltrados = buscaTag(campeoes, tag);
       mostraCards(campeoesFiltrados);
-      const calculoAgregadoTela = document.getElementById('calculo-agregado');
       const numeroCampeoesFiltrados = campeoesFiltrados.length; 
       const totalDeCampeoes = campeoes.length; 
       calculoAgregadoTela.innerHTML = (((numeroCampeoesFiltrados / totalDeCampeoes) *100).toFixed(2) +  "% dos campeões possuem esse tipo.");

@@ -110,6 +110,7 @@ ul li:hover {
 .busca-classifica {
   display: flex;
   margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
   align-items: center;
   gap: 2rem;
   justify-content: center;
@@ -127,6 +128,16 @@ ul li:hover {
   border-color: rgb(161, 108, 35);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(8, 63, 85);
+  border-style: double;
+  color:aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.botao-limpar{
+  border-radius: 8px;
+  border-color: rgb(161, 108, 35);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1CA6A6;
   border-style: double;
   color:aliceblue;
   font-weight: bold;
@@ -244,4 +255,3 @@ a:hover {
   text-align: center;
   width: 5%;
 }
-
