@@ -55,10 +55,15 @@ function ordenarCampeoes(campeoes, ordem) {
   return campeoesOrdenados;
 }
 
-
+function calculoAgragado(campeoes, campeoesFiltrados) {
+  const numeroCampeoesFiltrados = campeoesFiltrados.length;
+  const totalDeCampeoes = campeoes.length;
+  return `O tipo selecionado corresponde à ${((numeroCampeoesFiltrados / totalDeCampeoes) * 100).toFixed(2)}% do total de campeões.`;
+}
 
 export {
   buscaTag,
   buscaNome,
   ordenarCampeoes,
+  calculoAgragado
 }
