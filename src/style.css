@@ -63,11 +63,16 @@ body{
     text-decoration: none;
     color: var(--color-yellow);
     transition: 1s;
-    margin-right: 150px;  
+    margin-right: 150px;
+    padding: 15px;  
+}
+.headerSpace{
+    display: flex;
+    align-items: center;
 }
 .active{
     background-color: var(--color-dark5);
-    padding: 8px;
+    
     border-radius: 25px;
 }
 
@@ -102,11 +107,17 @@ section{
         top: 0;
         background-color: var(--color-dark5);
         height: 100vh;
-        width: 35vw;
+        min-width: 35vw;
         padding: 1em;
         animation-duration: 1s;
         margin-left: -100vw;
-    }    
+    }  
+    .navigation_header a{
+        margin-right: 0;
+    }  
+    .headerSpace{
+        flex-direction: column;
+    }
 }
 @keyframes ShowSidebar{
     from {margin-left: -100vw;}
@@ -151,38 +162,54 @@ h5{
     text-align: center;  
     font-family: 'HarryPotter7', sans-serif; 
 }
+.cardSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+}
 
-#todos{
-    font-size: 40px; 
-    text-align: center;
-    margin-top: 20px;
+#card{/*id da div q contém os cards*/
+    display: inline-flex; /*ou flex??*/
+    justify-content: center;/*alinha os cards no centro da página*/
+    transform-style: preserve-3d;
+    transition: all .5s;
 }
-#allCards{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.cardsDiv{/*as faces do card*/
+    display: flex;
+    position: absolute; /*deixa os cards um em cima do outro*/
+    align-items: center; /*alinha o card e as palavras*/
 }
-.cardsDiv{
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-}
-#cardImg{
+#cardImg, #cardBackImg{/*imagens do card front e back*/
     width: 350px;
     height: 350px;
 }
-.cardsDiv h2{
-    position: absolute;
-    
+.cardsDiv h2{/*palavras dentro dos cards*/
     font-family: 'HarryPotter7', sans-serif;
     font-size: 13px; 
     color: #d29d21;
-    bottom: 10em;
-    text-align: center;
-    width: 100%;
+    width: 100%; /*tamanho da linha, ajuda a centralizar*/
     
 }
-.cardSection p{
+#front h2{
+    position: absolute;
+    bottom: 10em;
+}
+#back h2{
+    justify-content: center;/*centraliza também*/
+    position: absolute;   /*centraliza e posiciona as letras sobre o card*/ 
+}
+.cardCharacters p{ /*palavra "personagens"*/
     color:var(--color-yellow);
     text-shadow: 2px -2px 10px var(--color-dark1), 2px -2px 10px var(--color-dark1); 
 }
+
+
+#back {/*faz o card de trás ficar invertido*/
+    transform: rotateY(180deg);
+}
+
+
+.flipCard{/*faz o card virar*/
+    transform: rotateY(180deg);
+}
+
