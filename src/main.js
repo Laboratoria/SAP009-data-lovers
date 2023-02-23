@@ -6,39 +6,33 @@ import data from './data/pokemon/pokemon.js';
 
 const pokemons = data.pokemon;
 
+const mostrarPokemonTela = document.getElementById("inserirCards");
+
 function mostrarPokemon(data) {
-  const mostrarPokemonTela = document.getElementById("inserirCards");
   mostrarPokemonTela.innerHTML = data.map((item) =>
-    `
-    <div class = "cards-container">
-   <div class= "cards-container-frente">
-      <h2 class = "nome-pokemons">${item.name}</h2>
-      <img class ="img-estilo" src=${item.img}>
-      <p class = "tipos-pokemons"> ${item.type.join(" ")}</p>                   
-    </div>
- </div>
+    `  <div class = "cards-box">
+        <div class = "flip-cards">
+              <div class= "cards-container-frente">
+                <div class = "extra-info1"> 
+                  <h2 class = "nome-pokemons">${item.name}</h2> 
+                  <img class ="img-estilo" src=${item.img}>
+                  <p class = "tipos-pokemons"> ${item.type.join(" / ")} </p>                   
+            </div>
+            </div>
+            <div class = "cards-container-posterior">
+                <div class = "extra-info2"> <p class="letras"> <span>Altura </span>${item.size.height}</p></div>
+                <div class = "extra-info2"> <p class="letras"> <span>Peso </span>${item.size.weight}</p></div>
+                <div class = "extra-info2"> <p class="letras"> <span>Evolução </span>${item.candycost}</p></div>
+                <div class = "extra-info2"> <p class="letras"> <span>Resistências </span>${item.resistant.join(", ")}</p></div>
+                <div class = "extra-info2"> <p class="letras"> <span>Fraquezas </span>${item.weaknesses.join(", ")}</p></div>
+             </div> 
+        </div>  
+     </div>  
+  
  `
   ).join("")
 
 }
-mostrarPokemon(pokemons)
+mostrarPokemon (pokemons)
 
-// Get the button:
-const mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
