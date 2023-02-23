@@ -9,17 +9,15 @@ function sectionMovies(items){
   <p class="name">${studio.title}</p>
   `).join("") 
 }
-//sectionMovies(data.films)
+sectionMovies(data.films)
 
-function sectionCharacters(items){
+/*function sectionCharacters(items){
   document.getElementById('infoMovies').innerHTML = items.people.map((studio) => `
   <div class="cardFront">"${studio.name}"</div>
   
     `).join("") 
 }
-sectionCharacters(data.films[0])
-
-
+sectionCharacters(data.films[0])*/
 
 
 
