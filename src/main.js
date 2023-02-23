@@ -14,14 +14,36 @@ filmes.map(function(item) {
 })
 root.innerHTML = posteres  // avisa o JS que isso vai pro HTML
 
-const alfabeto = data.films.sort((a,b) => a.title.localeCompare(b.title));
+const seletorDeOrdem = document.getElementById("ordem")
+seletorDeOrdem.addEventListener('change', function(event){
+  let posteresOrdenados = ''
+
+  if(event.target.value === 'deAZ') {
+    const deAZ = data.films.sort((a,b) => a.title.localeCompare(b.title))
+    deAZ.map(function(item) {
+      posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
+    })
+  }
+
+  if(event.target.value === 'deZA') {
+    console.log('deZA')
+  }
+
+  if(event.target.value === 'crescente') {
+    console.log('crescente')
+  }
+
+  if(event.target.value === 'decrescente') {
+    const decrescente = data.films.sort((a,b) => b.release_date.localeCompare(a.release_date));
+
+    decrescente.map(function(item) {
+      posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
+    })
+  }
+
+  root.innerHTML = posteresOrdenados
+})
 
 const score = data.films.sort((a,b) => Number(a.rt_score) - (Number(b.rt_score)));
 
-//const anoDecrescente = document.getElementById("decrescente")
-
-//const ordemD = data.films.sort((a,b) => b.release_date.localeCompare(a.release_date));
-
-console.log(alfabeto)
-//console.log(ordemD)
 console.log(score)
