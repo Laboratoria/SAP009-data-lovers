@@ -14,42 +14,55 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body >
+<body>
   <header class="display">
     <img src="./img/logo.png" alt="logo-pokemóm">
   </header>
   <main>
     <section class="display section-inputs">
-      
-        <input type="text" class="search height-inputs" id="search" placeholder="Buscar por nome do personagem">
-        
-      
+
+      <input type="text" class="search height-inputs" id="search" placeholder="Buscar por nome do personagem">
+
+
 
       <section class="display inputs-position">
 
-        <label for="filtro-types "></label>
-        <select name="types" id="filter-types" class="filter-order height-inputs">
-          <option>FILTRO</option>
-          <option value="grass">Planta</option>
-          <option value="poison">Venenoso</option>
-          <option value="fire">Fogo</option>
-          <option value="electric">Elétrico</option>
-          <option value="steel">Aço</option>
-          <option value="dragon">Dragão</option>
-          <option value="fairy">Fada</option>
-          <option value="ghost">Fatasma</option>
-          <option value="ice">Gelo</option>
-          <option value="bug">Inseto</option>
-          <option value="fighting">Lutador</option>
-          <option value="normal">Normal</option>
-          <option value="psychic">Psíquico</option>
-          <option value="dark">Sombrio</option>
-          <option value="ground">Terra</option>
-          <option value="flying">Voador</option>
-        </select>
+        <div class="select">
+          <label for="filter-types ">Filtrar por:</label>
+          <select name="types" id="filter-types" class="filter-order filter height-inputs">
+            <option>TIPO</option>
+            <option value="grass">Planta</option>
+            <option value="poison">Venenoso</option>
+            <option value="fire">Fogo</option>
+            <option value="electric">Elétrico</option>
+            <option value="steel">Aço</option>
+            <option value="dragon">Dragão</option>
+            <option value="fairy">Fada</option>
+            <option value="ghost">Fatasma</option>
+            <option value="ice">Gelo</option>
+            <option value="bug">Inseto</option>
+            <option value="fighting">Lutador</option>
+            <option value="normal">Normal</option>
+            <option value="psychic">Psíquico</option>
+            <option value="dark">Sombrio</option>
+            <option value="ground">Terra</option>
+            <option value="flying">Voador</option>
+          </select>
+        </div>
+
+        <div class="select">
+          <label for="filtro-rarity ">Filtrar por:</label>
+          <select name="rarity" id="filter-rarity" class="filter-order filter height-inputs">
+            <option>RARIDADE</option>
+            <option value="normal">Normal</option>
+            <option value="legendary">Lendário</option>
+            <option value="mythic">Mitico</option>
+
+          </select>
+        </div>
 
         <label for="order-by"></label>
-        <select name="order " id="order-by" class="filter-order height-inputs">
+        <select name="order " id="order-by" class="filter-order height-inputs order-select">
           <option value="">ORDENAR POR</option>
           <option value="a-z">A - Z</option>
           <option value="z-a">Z - A</option>
@@ -85,10 +98,10 @@
         <div class="calculation display height-inputs">
           <p id="calcText">Nesse site você encontrará 251 tipos de pokemons.</p>
         </div>
-      <section class="cards display" id="cards">
-        
-        
-      </section>
+        <section class="cards display" id="cards">
+
+
+        </section>
       </section>
     </section>
 
@@ -96,26 +109,27 @@
 
   <footer class="display">
     <section class=" display footer-section">
-    <div class="footer-title">
-      <p>Desenvolvido por:</p>
-    </div>
-    <section class="info-devs display">
-    <div class="dev display">
-      <p class="footer-title"><b>Angelina Melo</b>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/angelinamelo/"><ion-icon name="logo-linkedin"></ion-icon></a>
-        <a href="https://github.com/ajuliamm"><ion-icon name="logo-github"></ion-icon></a>
+      <div class="footer-title">
+        <p>Desenvolvido por:</p>
       </div>
-    </div>
-    <span class="line-footer">|</span>
-    <div class="dev display">
-      <p class="footer-title"><b>Paola Oliveira</b>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/paola-natalia-oliveira-440969150/"><ion-icon name="logo-linkedin"></ion-icon></a>
-        <a href="https://github.com/paola-oliveira"><ion-icon name="logo-github"></ion-icon></a>
-      </div>
-    </div>
-    </section>
+      <section class="info-devs display">
+        <div class="dev display">
+          <p class="footer-title"><b>Angelina Melo</b>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/angelinamelo/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/ajuliamm"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+        <span class="line-footer">|</span>
+        <div class="dev display">
+          <p class="footer-title"><b>Paola Oliveira</b>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/paola-natalia-oliveira-440969150/"><ion-icon
+                name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/paola-oliveira"><ion-icon name="logo-github"></ion-icon></a>
+          </div>
+        </div>
+      </section>
     </section>
   </footer>
 

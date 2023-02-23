@@ -11,7 +11,8 @@
     - [Desenho de interface do usuário](#desenho-de-interface-do-usuário)
       - [Protótipo de baixa fidelidade](#protótipo-de-baixa-fidelidade)
       - [Protótipo de alta fidelidade](#protótipo-de-alta-fidelidade)
-  - [4. Checklist dos objetivos de aprendizagem alcançados](#4-checklist-dos-objetivos-de-aprendizagem-alcançados)
+  - [4. Teste de Usabilidade](#4-teste-de-usabilidade)
+  - [5. Checklist dos objetivos de aprendizagem alcançados](#5-checklist-dos-objetivos-de-aprendizagem-alcançados)
 
 ***
 
@@ -76,8 +77,16 @@ Paleta de cores utilizada
 
 ![Paleta de Cores](paleta-de-cores.png)
 
+## 4. Teste de Usabilidade
+O teste de usabilidade foi aplicado com diferentes usuários, e com base nos Feedbacks, notou-se que:
+- Os Pokémons do tipo dragão estavam resultando em "undefined"; 
+- Em alguns celulares a informação do verso dos cards estava saindo da linha delimitada; 
+Sendo assim, ajustamos o que foi apontado. 
 
-## 4. Checklist dos objetivos de aprendizagem alcançados
+Também, um dos usuários, comentou que gostaria de filtrar os Pokémons por raridade, em razão disso, criamos uma nova história de usuário, e fizemos uma opção de filtrar os Pokémons pela raridade. 
+
+
+## 5. Checklist dos objetivos de aprendizagem alcançados
 
 * [✓] Usar VanillaJS.
 * [✓] Passa pelo linter (`npm run pretest`)
@@ -87,8 +96,8 @@ Paleta de cores utilizada
 * [✓] Inclui uma _definição de produto_ clara e informativa no `README.md`.
 * [✓] Inclui histórias de usuário no `README.md`.
 * [✓] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
-* [ ] Inclui uma lista de problemas detectados nos testes de usabilidade no
-  `README.md`.
+* [✓] Inclui uma lista de problemas detectados nos testes de usabilidade no
+  `README.md
 * [✓] UI: Mostra lista/tabela/etc com dados e/ou indicadores.
 * [✓] UI: Permite ordenar dados por um ou mais campos (asc e desc).
 * [✓] UI: Permite filtrar dados com base em uma condição.
