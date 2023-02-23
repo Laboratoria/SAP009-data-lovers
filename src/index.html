@@ -22,7 +22,16 @@
           um museu dedicado as obras do estúdio, foi inaugurado.</p>
     </div>
         <h2 class="catalogo">CATÁLOGO DE FILMES</h2>
-        <span class="ordem">Ordenar</span>
+        <form action="">
+          <label class="ordem" for="ordem">Ordenar</label>
+          <select name="ordem" id="ordem">Ordem
+            <option value=""></option>
+            <option value="deAZ">A a Z</option>
+            <option value="deZA">Z a A</option>
+            <option id="crescente" value="crescente">Ano Crescente</option>
+            <option id="decrescente" value="decrescente">Ano Decresente</option>
+          </select>
+        </form>
         
     <div class="filmes" id="root">
 
