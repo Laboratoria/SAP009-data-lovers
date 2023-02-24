@@ -9,19 +9,19 @@ const filmes = arrayGhibli["films"]
 const root = document.getElementById("root");
 let posteres = ''
 
-filmes.map(function(item) {
+filmes.map(function (item) {
   posteres += `<img src="${item.poster}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
 })
 root.innerHTML = posteres  // avisa o JS que isso vai pro HTML
 
 const seletorDeOrdem = document.getElementById("ordem")
-seletorDeOrdem.addEventListener('change', function(event){
+seletorDeOrdem.addEventListener('change', function (event) {
   let posteresOrdenados = ''
 
-  if(event.target.value === 'deAZ') {
-    const deAZ = data.films.sort((a,b) => a.title.localeCompare(b.title))
-    deAZ.map(function(item) {
-      posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
+  if (event.target.value === 'deAZ') {
+    const deAZ = data.films.sort((a, b) => a.title.localeCompare(b.title))
+    deAZ.map(function (item) {
+      posteresOrdenados += `<img class="filme" src="${item.poster}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
     })
   }
 
@@ -52,6 +52,12 @@ seletorDeOrdem.addEventListener('change', function(event){
       posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;
     })
   }
-
   root.innerHTML = posteresOrdenados
+
+  let filmes = document.querySelectorAll(".filme")
+  console.log(filmes)
+  filmes.forEach((filme)=> filme.addEventListener("click",(event)=>{
+  console.log(filme)
+  }
+  ))
 })
