@@ -70,25 +70,14 @@ body{
     display: flex;
     align-items: center;
 }
-.active{
-    background-color: var(--color-dark5);
-    
-    border-radius: 25px;
-}
 
 section{   
-   /* position: relative;
-    top: 80px;*/
     font-family: 'Harry Potter', sans-serif;
     color: aliceblue;
     font-size: 40px; 
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 2%;
     text-align: center; 
     transition: 1s;
-    height: 100vh;
 }
 .btn_icon_header{
     background-color: transparent;
@@ -162,24 +151,29 @@ h5{
     text-align: center;  
     font-family: 'HarryPotter7', sans-serif; 
 }
+
 .cardSection{
     display: flex;
-    justify-content: space-between;
-    padding: 200px;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    /*justify-content: space-between;
+    padding: 200px;*/
 }
 
-#card{/*id da div q contém os cards*/
-    display: inline-flex; /*ou flex??*/
+.card{/*id da div q contém os cards*/
+   /* display: inline-flex; ou flex??*/
     justify-content: center;/*alinha os cards no centro da página*/
     transform-style: preserve-3d;
     transition: all .5s;
+    width: 350px;
+    height: 350px;
 }
 .cardsDiv{/*as faces do card*/
     display: flex;
     position: absolute; /*deixa os cards um em cima do outro*/
     align-items: center; /*alinha o card e as palavras*/
 }
-#cardImg, #cardBackImg{/*imagens do card front e back*/
+.cardImg, .cardBackImg{/*imagens do card front e back*/
     width: 350px;
     height: 350px;
 }
@@ -187,16 +181,18 @@ h5{
     font-family: 'HarryPotter7', sans-serif;
     font-size: 13px; 
     color: #d29d21;
-    width: 100%; /*tamanho da linha, ajuda a centralizar*/
+    width: 44%; /*tamanho da linha, ajuda a centralizar*/
+    
     
 }
-#front h2{
+.front h2{
     position: absolute;
-    bottom: 10em;
+    text-align: center;
 }
-#back h2{
-    justify-content: center;/*centraliza também*/
+.back h2{
     position: absolute;   /*centraliza e posiciona as letras sobre o card*/ 
+    bottom: 9em;
+    text-align: center;
 }
 .cardCharacters p{ /*palavra "personagens"*/
     color:var(--color-yellow);
@@ -204,8 +200,13 @@ h5{
 }
 
 
-#back {/*faz o card de trás ficar invertido*/
+.back {/*faz o card de trás ficar invertido*/
     transform: rotateY(180deg);
+}
+
+.front, .back{
+    backface-visibility: hidden;
+    justify-content: space-around;
 }
 
 

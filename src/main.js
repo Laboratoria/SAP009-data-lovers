@@ -1,9 +1,15 @@
 import harryData from "./data/harrypotter/harry.js"
 const characters = [
-  harryData.characters[0],
-  harryData.characters[1],
-  harryData.characters[2],
-  harryData.characters[3]
+  harryData.characters[208],
+  harryData.characters[138],
+  harryData.characters[97],
+  harryData.characters[300],
+  harryData.characters[146],
+  harryData.characters[154],
+  harryData.characters[159],
+  harryData.characters[364],
+  harryData.characters[374],
+  harryData.characters[658]
 ];
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
@@ -54,19 +60,21 @@ window.addEventListener('resize', function() {
 
 const allCharacters = characters.forEach(function(character) {//forEach para percorrer todo array de character
   cardDrawing(character)
+ 
 } 
 );
 
 function cardDrawing(character){
 
   const cardSection = document.querySelector(".cardSection")
-  cardSection.innerHTML += `<div id="card" class="flipCard">
-  <div class= "cardsDiv" id="front">
+  cardSection.innerHTML += `
+  <div class="card flipCard">
+  <div class="cardsDiv back">
   <img src="logo-frog-4.png" alt="cardImg" id="cardImg" class="cardImg" loading="lazy"> 
   <h2>${character.name}</h2>
    </div>
    
-   <div class= "cardsDiv" id="back">
+   <div class="cardsDiv front">
   <img src="logo-frog-2.png" alt="cardBackImg" id="cardBackImg" class="cardBackImg" loading="lazy">
   <h2>${character.ancestry}<br>
   ${character.house}<br>
@@ -76,11 +84,12 @@ function cardDrawing(character){
   ${character.species}</h2>
   </div>
 
-   </div>`
+   </div>
+   `
   
 }
 
-const cardFlip = document.querySelector(".flipCard")
-cardFlip.addEventListener("click",()=>{
-  cardFlip.classList.toggle("flipCard")
-})
+const cardFlip = document.querySelectorAll(".flipCard")
+cardFlip.forEach((card)=> card.addEventListener("click",()=>{
+  card.classList.toggle("flipCard")
+}))
