@@ -15,18 +15,17 @@
 	--azul-meioroxo:  #989cf7;
 	--yellow: #f6e3a3;
 	--rosa-claro: #f8b3c6;
-	--verde: #c9feeb;
 }
   
 body {
-    background-image: linear-gradient(to bottom, #e1f0fb, #d2d3fd, #f9f1d6, #f9ccd8, #d4fdee);
+    background-image: linear-gradient(to bottom, #d2d3fd, #f7f1e0, #f9dae2);
     height: 100%;
     background-attachment: fixed;
 	font-family: 'quicksand', sans-serif;
 }
 
 main{
-    background-color: #f9f6e7;
+    background-color: #faf9f2;
     border-radius: 8px;
     max-width: 750px;
     min-width: 300px;
@@ -38,10 +37,11 @@ main{
 h1 {
     font-family:  'Berkshire Swash', cursive;
     font-size: 45px;
-    color: #f8265e;
+    color: #fb4575;
     text-align: center;
-    text-shadow: 0.5px 0.5px 1px #00000086;
-    margin: 30px;
+    text-shadow: 0.4px 0.4px 0.9px #00000086;
+    margin: 50px;
+	
 }
 
 h5 {
@@ -76,14 +76,18 @@ p {
 
 }
 
-#carcteristicas {
-	display: flex;
-
+#imagem-principal {
+	border-radius: 20px;
+	width: 390px;
 }
+
+
 
 input, select {
 	border-radius: 5px;
 	padding: 2px;
+	display: flex;
+	gap: 0.5rem;
   }
 
  /* destaque em negrito */
@@ -92,10 +96,6 @@ input, select {
 	color: #f6295f;
   }
 
-#imagem-principal {
-	display: flex;
-	justify-content: center;
-}
 
  /* imgs com os links do github */
 
@@ -162,7 +162,7 @@ input, select {
   }
   
   .menu a:hover {
-	background: var(--rosa-claro);
+	background: var(--yellow);
 	color: var(--azul-meioroxo);
   }
   
