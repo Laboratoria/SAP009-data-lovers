@@ -13,6 +13,9 @@ const navigationHeader = document.getElementById('navigation_header');
 const content = document.getElementById('content');
 let showSidebar = false;
 
+const inputSearch = document.querySelector("#search")
+const navMenu = document.querySelector("[data-type='nav-menu']")
+
 function toggleSidebar (){
   showSidebar = !showSidebar;
   if(showSidebar) {
@@ -76,3 +79,16 @@ const cardFlip = document.querySelector(".flipCard")
 cardFlip.addEventListener("click",()=>{
   cardFlip.classList.toggle("flipCard")
 })
+
+const halfBloodBtn = document.getElementById('.halfBlood');
+
+
+function filterbloodHalf (characters){
+  
+  characters.filter(characters.ancestry)
+}
+console.log (characters.ancestry);
+
+filterbloodHalf()
+
+halfBloodBtn.addEventListener('click', filterbloodHalf);

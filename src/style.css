@@ -207,4 +207,31 @@ h5{
 .flipCard{/*faz o card virar*/
     transform: rotateY(180deg);
 }
+.nav{
+    background:var(--color-dark1);
 
+}
+.dropdown li{
+    display: flex;
+    position: relative;
+    top:50px;
+    left: 10px;
+    padding: 10px 5px;
+    background:var(--color-dark1);
+    min-width: 20%;
+    border: var(--color-dark5);
+    border-radius: 0px 10px 10px 10px;
+  
+}
+.dropdown li a{
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: 13px; 
+    color: #d29d21;
+    width: 20px;
+    padding: 10px 5px;
+    background:var(--color-dark1);
+    min-width: 20%;
+    border: var(--color-dark5);
+    border-radius: 0px 10px 10px 10px;
+  
+}
