@@ -1,4 +1,4 @@
-import {} from "./data.js";
+import {dataFunctions} from "./data.js";
 
 import data from "./data/harrypotter/harry.js";
 
@@ -31,7 +31,8 @@ function testeBook() {
   const animationCardsHTML = allBooks
     .map((element, index) => {
       return `      
-        <div class="cards">     
+        <div class="cards">  
+          <input class="busca" type="text" placeholder="Burcar..."> 
           <p id="film-title" class="film-info">${element.title}</p>
           <p class="film-info">${element.description}</p>
           <button class="more" id="${index}">More</button>
