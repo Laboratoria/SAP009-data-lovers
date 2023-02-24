@@ -54,10 +54,25 @@ seletorDeOrdem.addEventListener('change', function (event) {
   }
   root.innerHTML = posteresOrdenados
 
-  let filmes = document.querySelectorAll(".filme")
-  console.log(filmes)
-  filmes.forEach((filme)=> filme.addEventListener("click",(event)=>{
-  console.log(filme)
+  const todosOsFilmes = document.querySelectorAll(".filme")
+  console.log(todosOsFilmes)
+  todosOsFilmes.forEach((filme)=> filme.addEventListener("click",(event)=>{
+    console.log(filme)
   }
   ))
 })
+
+
+//teste modal-dialog:
+const abrir = document.querySelector(".abrir");
+const fechar = document.querySelector(".fechar")
+const bloco = document.getElementById("bloco")
+
+abrir.addEventListener("click",function(){
+  bloco.showModal();
+})
+
+fechar.addEventListener("click",function(){
+  bloco.close();
+})
+
