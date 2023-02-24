@@ -78,3 +78,24 @@ img{
     width: 200px;
     height: 280px;
 }
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog{
+    border-radius: 15px;
+    background-color: var(--cor-titulo);
+    border: 2px solid white;
+}
+
+.texto{
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    font-family: var(--fonte-titulo);
+    color: white;
+}
