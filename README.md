@@ -101,12 +101,12 @@ Ter instalado:
 node
 npm
 
-Para instalar as dependências no diretório do seu projeto execute:
-npm install
-Para iniciar o aplicativo execute:
-npm start
+Para instalar as dependências no diretório do seu projeto execute:<br>
+npm install<br><br>
+Para iniciar o aplicativo execute:<br>
+npm start<br><br>
 
-Para executar os testes, execute:
+Para executar os testes, execute:<br>
 npm run test
 
 
