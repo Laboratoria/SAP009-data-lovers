@@ -25,39 +25,32 @@ seletorDeOrdem.addEventListener('change', function (event) {
     })
   }
 
-  if (event.target.value === 'deZA') {
-    const deZA = data.films.sort((a, b) => b.title.localeCompare(a.title))
-    deZA.map(function (item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}">`;
+  if(event.target.value === 'deZA') {
+    const deZA = data.films.sort((a,b) => b.title.localeCompare(a.title))
+    deZA.map(function(item) {
+      posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;
     })
   }
 
-  if (event.target.value === 'crescente') {
-    const crescente = data.films.sort((a, b) => a.release_date.localeCompare(b.release_date.localeCompare))
-    crescente.map(function (item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}">`;
+  if(event.target.value === 'crescente') {
+    const crescente = data.films.sort((a,b) => a.release_date.localeCompare(b.release_date));
+    crescente.map(function(item) {
+      posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;
     })
   }
 
-  if (event.target.value === 'decrescente') {
-    const decrescente = data.films.sort((a, b) => b.release_date.localeCompare(a.release_date.localeCompare));
-    decrescente.map(function (item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
+  if(event.target.value === 'decrescente') {
+    const decrescente = data.films.sort((a,b) => b.release_date.localeCompare(a.release_date));
+    decrescente.map(function(item) {
+      posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
     })
   }
 
-  if (event.target.value === 'score') {
-    const score = data.films.sort(function (a, b) {
-      if (Number(a.rt_score) < Number(b.rt_score)) {
-        return 1;
-      }
-      if (Number(b.rt_score) < Number(a.rt_score)) {
-        return -1;
-      }
-    }) 
-    score.map(function(item){
-      posteresOrdenados += `<img class="filme" src="${item.poster}">`;
-    })  
+  if(event.target.value === 'score') {
+    const score = data.films.sort((a,b) => Number(a.rt_score) - Number(b.rt_score));
+    score.map(function(item) {
+      posteresOrdenados += `<div class="poster"><img src="${item.poster}"></div>`;
+    })
   }
   root.innerHTML = posteresOrdenados
 
@@ -68,6 +61,7 @@ seletorDeOrdem.addEventListener('change', function (event) {
   }
   ))
 })
+
 
 //teste modal-dialog:
 const abrir = document.querySelector(".abrir");
