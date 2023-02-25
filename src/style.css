@@ -97,6 +97,7 @@ p {
   color: aliceblue;
   list-style-type: none;
   flex-direction: column;
+  font-size: 0.9rem, 9rem;
 }
 ul li:hover {
   color: rgb(161, 108, 35);
@@ -211,7 +212,8 @@ ul li:hover {
 .nome-do-verso {
   grid-row: auto;
   display: inline-flex;
-  margin-left: 5px;
+  margin-left: 2px;
+  flex-direction: column;
 }
 /* /Estilização do footer/  */
 .rodape {
@@ -251,13 +253,48 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 800px) {
+  #calculo-agregado{
+    margin-top: 3rem;
+  }
   #exibirCards {
     align-items: center;
     margin-top: 5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
   }
   .todos-campeoes{
     display: block;
   }
+  .cards {
+    width: 14rem;
+    height: 14rem;
+    display: inline-block;
+  }
+  .card {
+    transition: transform 6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+  }
+  .imagem-do-card {
+    width: 14rem;
+    height: 10rem;
+    position: relative;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+h3 {
+  display: inline-flex;
+  font-size: 15px;
+}
+.card-verso {
+  transform: rotateY(180deg);
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+}
   .info-do-card{
 display: block;
 margin-block-start: 1em;
@@ -266,9 +303,12 @@ margin-block-start: 1em;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
     list-style: none;
-    font-size: 15px;
+    font-size: 10px;
     text-align: justify;
-    padding: 12px;
+    font-size: 10px;
+    align-items: center;
+  text-align: justify;
+  flex-direction: column;
   }
   .rodape {
       display: none;
