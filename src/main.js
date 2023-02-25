@@ -21,19 +21,20 @@ seletorDeOrdem.addEventListener('change', function(event){
   const todosOsFilmes = document.querySelectorAll(".filme")
   console.log(todosOsFilmes)
   todosOsFilmes.forEach((filme)=> filme.addEventListener("click",(event)=>{
+    bloco.showModal();
     console.log(filme)
   }
   ))
 })
 
 //teste modal-dialog:
-const abrir = document.querySelector(".abrir");
+//const abrir = document.querySelector(".abrir");
 const fechar = document.querySelector(".fechar")
 const bloco = document.getElementById("bloco")
 
-abrir.addEventListener("click",function(){
-  bloco.showModal();
-})
+// abrir.addEventListener("click",function(){
+  
+// })
 
 fechar.addEventListener("click",function(){
   bloco.close();

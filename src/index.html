@@ -23,20 +23,20 @@
           um museu dedicado as obras do estúdio, foi inaugurado.</p>
       </div>
 
-        <h2 class="catalogo">CATÁLOGO DE FILMES</h2>
+        <h2 class="catalogo">MOVIES</h2>
 
-        <div class="teste">
-          <button class="abrir">abrir</button>
-          <dialog class="dialog" open id="bloco">
+        <div class="modal">
+          <dialog class="dialog" id="bloco">
+            
             <div class="texto">
-              <p>My Neighbors the Yamadas</p>
+              <div class="fechar"> x </div>
+              <h1>My Neighbors the Yamadas</h1>
               <p>The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humourous to the heartbreaking, we see this family cope with life's little conflicts, problems and joys in their own way.</p>
-              <p>Diretor: Isao Takahata</p>
-              <p>Produtor: Toshio Suzuki</p>
-              <p>Ano de lançamento: 1999</p>
+              <p>Director: Isao Takahata</p>
+              <p>Producer: Toshio Suzuki</p>
+              <p>Release Year: 1999</p>
               <p>RT Score: 75</p>
             </div>
-            <button class="fechar">fechar</button>
           </dialog>
         </div>
 
@@ -45,10 +45,10 @@
           <label class="ordem" for="ordem">Ordenar</label>
           <select name="ordem" id="ordem">Ordem
             <option value=""></option>
-            <option value="deAZ">A a Z</option>
-            <option value="deZA">Z a A</option>
-            <option id="crescente" value="crescente">Mais antigo</option>
-            <option id="decrescente" value="decrescente">Mais recente</option>
+            <option value="deAZ">A - Z</option>
+            <option value="deZA">Z - A</option>
+            <option id="crescente" value="crescente">Older</option>
+            <option id="decrescente" value="decrescente">Recent</option>
             <option id="rt_score" value="score">Score</option>
           </select>
         </form>
