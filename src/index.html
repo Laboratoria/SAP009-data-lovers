@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewpoint" content=""widht=device-width, initial-scale="1.0">
     <title>Projeto Data Lovers- LOL</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -20,19 +21,22 @@
     </nav>
       <main>
         <section>
-         <div class="conteiner">
-          <input type="text" id="search"   name= "search" placeholder="Encontre seu campeão de A a Z">
+         <div class="search-conteiner">
+          <input type="text" id="search" name="search" onkeyup="filterNames()"  placeholder="Encontre seu campeão de A a Z" list="champions-list" >
+          <datalist id="champions-list"></datalist>
           </div>
         
           <div>
             <input type="text"   id = "text" name = "funçoes" placeholder=" Buscar por funções" >
+            <div id="filtered-list"></div>
 
         </section>
        <article class="card">
-        <div class="animation-cards"></div>
+        <div class="champions-cards"></div>
+       
         
       </section>
      <main>
     <script src="main.js" type="module"></script>
   </body>
-</html
+</html>
