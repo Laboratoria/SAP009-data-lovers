@@ -1,10 +1,28 @@
-# Data Lovers
+# <h1 align="center"> Data Lovers - League Of Legends <img src="https://icon-library.com/images/league-of-legends-logo-icon/league-of-legends-logo-icon-22.jpg" width=35px> </h1>
+--------------------------------------------------------------------------------------
+<p align="justify">Data Lovers - League Of Legends foi o segundo projeto desenvolvido no bootcamp da Laboratória, tem como objetivo ajudar jogadores e novos jogadores a conhecerem melhor os campeões presentes em Summoner's Rift apresentando informações como tipo e nível de ataque, defesa, magia e dificuldade de cada campeão, bem como, disponibiliza um filtro de pesquisa através do nome do campeão.</p>
+
+### <h3 align="center"> 💻 A página web está disponível na seguinte url: </h3>
+<div align="center">
+
+**Desenvolvido por**
+
+<p> Thainara Tabile <br>
+<a href="https://www.linkedin.com/in/thainaratabile/">Lindedin </a> | <a href="https://github.com/ThainaraTabile"> Github </a> </p>
+
+<p> Ariane Vieira  <br>
+<a href="https://www.linkedin.com/in/ariane-vieira-534310164/"> Lindedin </a> | <a href="https://github.com/VieiraAriane"> Github </a>
+</p>
+
+<p> Patricia Adania <br>
+<a href="https://www.linkedin.com/in/patriciadania/"> Lindedin </a> | <a href="https://github.com/patriciadania"> Github </a>
+</p>
+</div>
 
 ## Índice
 
-* [1. Preâmbulo](#1-preâmbulo)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
+* [1. Resumo do projeto](#1-resumo-do-projeto)
+* [2. Etapas iniciais para o desenvolvimento da interface](#2-etapas-iniciais-para-o-desenvolvimento-da-interface)
 * [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios mínimos de aceitação do
   projeto](#5-critérios-mínimos-de-aceitação-do-projeto)
@@ -14,277 +32,45 @@
   complementares](#8-pistas-dicas-e-leituras-complementares)
 * [9. Checklist](#9-checklist)
 
-***
 
-## 1. Preâmbulo
+## 1. Resumo do projeto
+<div align="justify">
+Neste projeto, contruimos uma página web para visualizar um conjunto (set) de dados que se adeque às necessidades de seu usuário.
 
-Segundo a
-[Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read)
-90% dos dados que existem hoje foram gerados durante os últimos dois anos. A
-cada dia geramos 2.5 milhões de terabytes de dados, uma cifra sem precedentes.
+Temos uma página web que permite visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado. Por cálculo agregado nos referimos aos diversos cálculos que podem ser feitos com os dados para mostrar a informação mais relevante para os usuários (médias, valores máximos e mínimos, etc).
 
-Apesar disso, os dados por si só são de pouca utilidade. Para que essas grandes
-quantidades de dados se convertam em **informação** compreensível para os
-usuários, precisamos entender e processar estes dados. Uma forma simples de
-fazer isso é criando _interfaces_ e _visualizações_.
+Tudo isso utilizando HTML semântico, CSS responsivo e JavaScript puro.
+</div>
 
-Na imagem seguinte, você pode ver como os dados que estão na parte esquerda
-podem ser usados para construir a interface amigável e compreensível que está na
-parte direita.
+## 2. Etapas iniciais para o desenvolvimento da interface
+<div align="justify">
+### Pesquisa com usuários
+Foram realizadas pesquisas com jogadores de LOL, utilizando as mesmas perguntas expostas no readme da Laboratória. Que foram:
 
-![json-interface](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
+**Quem são os usuários principais do produto?**
+Usuários que pretendem começar a jogar e não possuem informações sobre as regas e personagens, também usuários jogadores do LOL e que desejam informações sobre os campeões, para que possam escolher melhor com qual deles jogar. ‌
 
-## 2. Resumo do projeto
+**Quais são os objetivos dos usuários com relação ao produto?**
+Apresentar informações sobre as características dos campeões, que podem ser filtrados por tipo (lutador,assassino, mago, atirador e suporte), fornecer a classificação de acordo com o nível de ataque/defesa/magia/dificuldade, por grupo ou todos (de acordo com o interesse do usuário). ‌
 
-Neste projeto você **construirá uma _página web_ para visualizar um _conjunto
-(set) de dados_** que se adeque às necessidades de seu usuário.
+**Quais são os dados mais relevantes que querem ver na interface e por quê?** 
+Filtragem por tipo de campeão e classificação do poder. Para que o usuário conheça os personagens e possa escolher de acordo com sua preferência.
 
-Como entregável final terá uma página web que permita **visualizar dados,
-filtrá-los, ordená-los e fazer algum cálculo agregado**. Por cálculo agregado
-nos referimos aos diversos cálculos que podem ser feitos com os dados para
-mostrar a informação mais relevante para os usuários (médias, valores máximos e
-mínimos, etc).
+**Quando utilizam ou utilizariam o produto?**
+Antes de iniciar sua partida no jogo.
 
-Para este projeto trazemos uma série de dados de _temáticas diferentes_ para que
-você explore e decida com qual delas deseja trabalhar. Escolhemos
-especificamente estes conjuntos de dados porque cremos que se adequem bem a esta
-etapa de sua aprendizagem.
+### Protóripo
+Desenvolvemos o protótipo de baixa fidelidade para telas de computadores e tablets utilizando as ferramentas do <a href="https://www.canva.com/"> Canva. </a>
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/122550758/221359717-97f22602-4700-44ac-85db-74e5c989914d.png">
 
-Uma vez que você defina sua área de interesse, busque entender quem é seu
-usuário e o que exatamente ele necessita saber ou ver, para que assim possa
-construir a interface que o ajude a interagir e entender melhor os dados.
+Para o protótipo para telas de celulares, utilizamos as ferramentas do <a href="https://www.figma.com/"> Figma </a>
 
-Este são os dados que propomos:
+A estilização da página buscou semalhança com a interface do jogo, com objetivo de proporcionar ao usuário a sensação de já estar imerso ao mundo LOL. Sendo assim, a paleta de cores utilizada foi extraída do ícone do jogo.
 
-* [Pokémon](src/data/pokemon/pokemon.json): Neste conjunto você encontrará uma
-  lista com os 151 Pokémon da região de Kanto, com suas respectivas estatísticas
-  utilizadas no jogo [Pokémon GO](http://pokemongolive.com).
-  - [Pesquisa com jogadores de Pokémon Go](src/data/pokemon/README.pt-BR.md)
+<img width="350" alt="image" src="https://user-images.githubusercontent.com/122550758/221360181-19d5f568-4780-4b15-827a-9fb543a09a91.png">
 
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json): Este
-  conjunto mostra a lista de campeões do jogo League of Legends
-  (LoL).
-  - [Pesquisa com jogadores de LoL](src/data/lol/README.pt-BR.md)
 
-* [Rick and Morty](src/data/rickandmorty/rickandmorty.json). Lista de
-  personagens da série Rick & Morty. Você pode revisar a documentação da API
-  neste [link](https://rickandmortyapi.com).
-  - [Pesquisa com seguidores de Rick and Morty](src/data/rickandmorty/README.pt-BR.md)
-
-* [Jogos Olímpicos do Rio de Janeiro](src/data/atletas/atletas.json).
-   Este conjunto nos fornece a lista de atletas que conquistaram medalhas nas
-   Olimpíadas do Rio de Janeiro.
-  - [Pesquisa com stakeholders dos Jogos Olímpicos do Rio de Janeiro](src/data/atletas/README.pt-BR.md)
-
-* [Studio Ghibli](src/data/ghibli/ghibli.json).
-  Lista de animações e personagens do [Studio Ghibli](https://ghiblicollection.com/).
-  - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
-
-* [Harry Potter](src/data/harrypotter/harry.json).
- Este conjunto nos fornece uma lista dos personagens, livros e feitiços de toda
- a saga Harry Potter
-  [Harry Potter](https://harrypotter.fandom.com).
-  - [Pesquisa com seguidores de Harry Potter](src/data/harrypotter/README.md)
-
-O objetivo principal deste projeto é que aprenda a desenhar e construir uma
-interface web onde se possa visualizar e manipular dados, entendendo o que o
-usuário necessita.
-
-## 3. Objetivos de aprendizagem
-
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
-
-### HTML
-
-- [ ] **Uso de HTML semântico**
-
-  <details><summary>Links</summary><p>
-
-  * [HTML semântico](https://curriculum.laboratoria.la/pt/topics/html/02-html5/02-semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
-
-### CSS
-
-- [ ] **Uso de seletores de CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
-- [ ] **Modelo de caixa (box model): borda, margem, preenchimento**
-
-  <details><summary>Links</summary><p>
-
-  * [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
-
-- [ ] **Uso de flexbox em CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
-
-### Web APIs
-
-- [ ] **Uso de seletores de DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/02-dom/03-1-dom-methods-selection)
-  * [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-  * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
-
-- [ ] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
-  * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
-</p></details>
-
-- [ ] **Manipulação dinâmica de DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
-</p></details>
-
-### JavaScript
-
-- [ ] **Diferenciar entre tipos de dados primitivos e não primitivos**
-
-- [ ] **Arrays (arranjos)**
-
-  <details><summary>Links</summary><p>
-
-  * [Arranjos](https://curriculum.laboratoria.la/pt/topics/javascript/04-arrays)
-  * [Array - MDN](https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/)
-  * [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  * [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  * [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-</p></details>
-
-- [ ] **Objetos (key, value)**
-
-  <details><summary>Links</summary><p>
-
-  * [Objetos em JavaScript](https://curriculum.laboratoria.la/pt/topics/javascript/05-objects/01-objects)
-</p></details>
-
-- [ ] **Variáveis (declaração, atribuição, escopo)**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/01-values-variables-and-types)
-  * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/01-basics/02-variables)
-</p></details>
-
-- [ ] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
-- [ ] **Uso de laços (while, for, for..of)**
-
-  <details><summary>Links</summary><p>
-
-  * [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/02-loops)
-  * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
-- [ ] **Funções (params, args, return)**
-
-  <details><summary>Links</summary><p>
-
-  * [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/02-flow-control/03-functions)
-  * [Funções clássicas](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/01-classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/03-functions/02-arrow)
-  * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
-
-- [ ] **Testes unitários (unit tests)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-</p></details>
-
-- [ ] **Módulos de ECMAScript (ES modules)**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
-
-- [ ] **Uso de linter (ESLINT)**
-
-- [ ] **Uso de identificadores descritivos (Nomenclatura e Semântica)**
-
-- [ ] **Diferença entre expressões (expressions) e declarações (statements)**
-
-### Controle de Versões (Git e GitHub)
-
-- [ ] **Git: Instalação e configuração**
-
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- [ ] **GitHub: Implantação com GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
-</p></details>
-
-- [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
-
-### Centrado no usuário
-
-- [ ] **Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro**
-
-### Design de produto
-
-- [ ] **Criar protótipos para obter feedback e iterar**
-
-- [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
-
-### Pesquisa
-
-- [ ] **Planejar e executar testes de usabilidade**
-
-## 4. Considerações gerais
-
-* Este projeto será executado em duplas.
-* Este projeto será entregue através do GitHub e a interface deve ser publicada
-  no [GitHub Pages](https://pages.github.com/).
-* Tempo para completá-lo: Tome como referencia 4 semanas.
+</div>
 
 ## 5. Critérios mínimos de aceitação do projeto
 
