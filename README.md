@@ -56,6 +56,7 @@ Antes de iniciar sua partida no jogo.
 
 ### Protótipo
 Desenvolvemos o protótipo de baixa fidelidade para telas de computadores e tablets utilizando as ferramentas do <a href="https://www.canva.com/"> Canva. </a>
+
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/122550758/221359717-97f22602-4700-44ac-85db-74e5c989914d.png">
 
 Para o protótipo para telas de celulares, utilizamos as ferramentas do <a href="https://www.figma.com/"> Figma. </a>
