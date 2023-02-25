@@ -249,3 +249,28 @@ a:hover {
   text-align: center;
   width: 5%;
 }
+
+@media only screen and (max-device-width: 800px) {
+  #exibirCards {
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .todos-campeoes{
+    display: block;
+  }
+  .info-do-card{
+display: block;
+margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+    font-size: 15px;
+    text-align: justify;
+    padding: 12px;
+  }
+  .rodape {
+      display: none;
+  }
+  }
