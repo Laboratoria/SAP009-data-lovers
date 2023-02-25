@@ -54,7 +54,7 @@ Filtragem por tipo de campeão e classificação do poder. Para que o usuário c
 **Quando utilizam ou utilizariam o produto?**
 Antes de iniciar sua partida no jogo.
 
-### Protóripo
+### Protótipo
 Desenvolvemos o protótipo de baixa fidelidade para telas de computadores e tablets utilizando as ferramentas do <a href="https://www.canva.com/"> Canva. </a>
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/122550758/221359717-97f22602-4700-44ac-85db-74e5c989914d.png">
 
