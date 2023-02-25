@@ -40,9 +40,9 @@ function mostraCards(campeoes) {
                             <li>ATAQUE: ${campeao.info.attack}</li>
                             <li>DEFESA: ${campeao.info.defense}</li>
                             <li>MAGIA: ${campeao.info.magic}</li>
-                            <li>DIFICULDADE: ${campeao.info.difficulty}</li>
+                            <li>DIFICULDADE:${campeao.info.difficulty}</li>
+                        <li>TIPO:${campeao.tags.map(traduz)}</li> 
                         </ul>
-                        <li class="info-do-card"> TIPO: ${campeao.tags.map(traduz)} </li> 
                     </div>
                 </div>
             </div>

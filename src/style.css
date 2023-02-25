@@ -253,6 +253,10 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 800px) {
+  
+  .info{
+    margin-bottom: 2px;
+  }
   #calculo-agregado{
     margin-top: 3rem;
   }
@@ -269,12 +273,18 @@ a:hover {
     width: 14rem;
     height: 14rem;
     display: inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   .card {
-    transition: transform 6s;
+    transition: transform 3s;
     transform-style: preserve-3d;
     perspective: 1000px;
     position: relative;
+    display: inline-block;
+  }
+  #nome-do-card{
+    font-size: 0.9rem;
   }
   .imagem-do-card {
     width: 14rem;
@@ -285,30 +295,30 @@ img {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
-h3 {
-  display: inline-flex;
-  font-size: 15px;
+.cards:hover .cardd-frente {
+  transform: rotateY(180deg);
 }
 .card-verso {
-  transform: rotateY(180deg);
+  display: flex;
   align-items: center;
   justify-content: center;
   font-size: 8px;
+  padding-top: 0;
+}
+.nome-verso{
+  display: inline-flex;
+  font-size: 0.9rem;
+  margin-top: 0;
+  grid-row: auto;
+}
+.card-frente, .card-verso {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+    position: absolute;
 }
   .info-do-card{
 display: block;
-margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    list-style: none;
-    font-size: 10px;
-    text-align: justify;
-    font-size: 10px;
-    align-items: center;
-  text-align: justify;
-  flex-direction: column;
   }
   .rodape {
       display: none;
