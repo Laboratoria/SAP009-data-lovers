@@ -172,3 +172,8 @@ H1 {
 .busca{
   background-color: aqua;
 }
+.sessaoInput {
+  display: flex;
+  gap: 10px;
+  padding: 37px;
+}
