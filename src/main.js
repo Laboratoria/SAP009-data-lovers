@@ -15,7 +15,7 @@ root.innerHTML = posteres  // avisa o JS que isso vai pro HTML
 const seletorDeOrdem = document.getElementById("ordem")
 seletorDeOrdem.addEventListener('change', function(event){
   const posteresOrdenados = ordenar(event.target.value)
-
+  
   root.innerHTML = posteresOrdenados
 
   const todosOsFilmes = document.querySelectorAll(".filme")
@@ -28,13 +28,11 @@ seletorDeOrdem.addEventListener('change', function(event){
 })
 
 //teste modal-dialog:
-//const abrir = document.querySelector(".abrir");
+
 const fechar = document.querySelector(".fechar")
 const bloco = document.getElementById("bloco")
 
-// abrir.addEventListener("click",function(){
-  
-// })
+
 
 fechar.addEventListener("click",function(){
   bloco.close();
