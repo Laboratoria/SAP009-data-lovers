@@ -10,12 +10,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<!--criar menu navegação superior responsivo
-1º quais informações vão aparecer no menu, cabeçalho header (tag semantica html recebe o cabeçalho do site)-->
-
 <body>
   <header>
     <nav class="logo1">
+
+
       <div>
       <img class="imgLogo" src="img/brasão.png.png">
       </div>
@@ -26,19 +25,16 @@
         <li><a class="item3" id="listaCuriosidades" >Curiiosidades</a></li>
         
       </ul>      
+
     </nav>
 
     <div id="mae"><div id="filho"></div></div>
 
     <div class="inicio">
-
-      <img class="imgMenu" src="img/castelo.png.png">
-    </div>
-    <div>
       <h1>BEM-VINDO A HOGWARTS</h1>
     </div>
-    </div>
   </header>
+
 
     <main class="principal">
     
@@ -65,11 +61,34 @@
           </form> -->
 
   <!-- <button class="button" id="botaoEnviar">Enviar</button>
-        </div>
-      </div> -->
 
-  </div>
-  </section>
+        </div>
+      </div>
+    </div>
+    <section class="sessaoInput">
+      <input type="text" nome="" id="exibir1">
+      <select name="personagensPorCasa" id="personagensCasa">
+        <option value="null">Personagens</option>
+        <option value="Gryffindor">Gryffindor</option>
+        <option value="Ravenclaw">Ravenclaw</option>
+        <option value="Slytherin">Slytherin</option>
+        <option value="Hufflepuff">Hufflepuff</option>
+      </select>
+      <select disabled name="livros" id="livros">
+        <option value="livros">livros</option>
+      </select>
+      <select name="pocoes" id="poções">
+        <option>poções</option>
+      </select>
+      <select name="curiosidade" id="curiosidade">
+        <option>curiosidade</option>
+      </select>
+    </section>
+    </div>
+
+    <div class="animation-cards"></div>
+
+  </main>
   <footer>
     <div id="social">
       <a href="https://www.linkedin.com/" target="_blank">
@@ -78,11 +97,9 @@
       </a>
     </div>
     <p id="dev">Desenvolvido por: Erika Santos & Thalita Nascimento</p>
-
     <p class="dev">
       <Laboratória> Projeto Data Lovers
     </p>
-
   </footer>
   <script src="main.js" type="module"></script>
 </body>
