@@ -314,6 +314,7 @@ img {
   justify-content: center;
   font-size: 8px;
   padding-top: 0;
+ -webkit-transform: rotateY(-180deg);
 }
 .nome-verso{
   display: inline-flex;
