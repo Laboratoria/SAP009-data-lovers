@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-size: 100%;
+  
 }
 
 body {
@@ -22,23 +23,62 @@ a:hover {
 }
 nav {
   display: flex;
+
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 20px
+  flex-direction:initial;
+  align-items: center;
+  height: 7vh;
+  color: yellow;
+  margin-top: 30px;
+}
+
+li {
+  list-style: none;
+
 }
 
 .itens {
   list-style: none;
   display: flex;
   margin-left: 40px;
+
   gap: 30px;
 }
 
 .inicio {
   padding-top: 400px;
+
+
+}
+
+.itens li {
+  letter-spacing: 2px;
+ margin-left: 100px;
+}
+
+.menu div {
+  width: 20px;
+  height: 3px;
+  background: yellow;
+  margin: 5px;
+}
+
+.imgMenu {
+  width: 90%; /*200vh*/
+  height: 98vh; /*110vh*/
+  opacity: 0.6;
+  margin-top: -50px;
+  /*-10px*/
+}
+
+H1 {
+
   font-size: 110px;
   color: yellow;
   text-align: center;
 }
+
 
 .cards {
   background: white;
@@ -58,3 +98,64 @@ nav {
   gap: 10px;
   padding: 37px;
 }
+
+.dev {
+  color: rgb(248, 25, 147);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.animation-cards{
+  background-color: rgb(122, 7, 7);
+}
+
+#listaPerso{
+ color: yellow;
+  
+}
+#listaPerso:hover {
+  opacity: 0.9;
+  color: rgb(137, 18, 18);
+
+}
+.animation-cards{  
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+
+}
+.cards{
+  margin: 20px;
+  background-image: url(img/CartaHogwartas.jpg) ;  
+  background-repeat: no-repeat;
+  width: 14rem;
+  height: 18rem;
+  position: relative;  
+}
+
+.text{
+
+}
+
+#film-title{ 
+  padding-top: 110px;
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 30;
+  color: rgb(137, 18, 18);
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+}
+ .film-info{    
+  
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-left: -30px;
+ }
+
