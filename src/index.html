@@ -10,73 +10,54 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<!--criar menu navegação superior responsivo
-1º quais informações vão aparecer no menu, cabeçalho header (tag semantica html recebe o cabeçalho do site)-->
-
 <body>
   <header>
     <nav class="logo1">
-      <img class="imgLogo" src="img/brasão.png.png">
-
       <ul class="itens">
-        <li><a class="item" onclick="" href="personagens.html"> Personagens </a></li>
-        <li><a class="item" onclick="" href="livros.html"> Coleção de livros</a></li>
-        <li><a class="item" onclick="" href="filmes.html"> Coleção de filmes</a></li>
-        <li><a class="item" onclick="" href="feitiços.html"> Feitiços & Poções </a></li>
-        <li><a class="item" onclick="" href="clubhp.html"> ClubHP </a></li>
-        <li><a class="item" onclick="" href="book.html"> HarryPotterBook</a></li>
+        <li><a class="item1" id="listaPerso"> Personagens </a></li>
+        <li><a class="item2" onclick=""> Coleção de livros</a></li>
+        <li><a class="item3" onclick=""> Coleção de filmes</a></li>
+        <li><a class="item4" onclick=""> Feitiços & Poções </a></li>
+        <li><a class="item5" onclick=""> curiosidades</a></li>
       </ul>
-
-      <div class="menu">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
     </nav>
 
     <div class="inicio">
-
-      <img class="imgMenu" src="img/castelo.png.png">
-    </div>
-    <div>
       <h1>BEM-VINDO A HOGWARTS</h1>
-    </div>
     </div>
   </header>
 
-
   <main class="principal">
-    <input>
-    <input>
-    <input>
+    <div id="modal" class="modal">
+      <div class="contudo=modal">
+        <div class="cabeçalho-modal">
+        </div>
+      </div>
+    </div>
+    <section class="sessaoInput">
+      <input type="text" nome="" id="exibir1">
+      <select name="personagensPorCasa" id="personagensCasa">
+        <option value="null">Personagens</option>
+        <option value="Gryffindor">Gryffindor</option>
+        <option value="Ravenclaw">Ravenclaw</option>
+        <option value="Slytherin">Slytherin</option>
+        <option value="Hufflepuff">Hufflepuff</option>
+      </select>
+      <select disabled name="livros" id="livros">
+        <option value="livros">livros</option>
+      </select>
+      <select name="pocoes" id="poções">
+        <option>poções</option>
+      </select>
+      <select name="curiosidade" id="curiosidade">
+        <option>curiosidade</option>
+      </select>
+    </section>
+    </div>
+
+    <div class="animation-cards"></div>
 
   </main>
-  </div>
-
-  <!-- <section id="novidades">
-    <div class="wrapper">
-      <header>
-        <h2>Novidades</h2>
-        <h3>Receba novidades </h3>
-      </header> -->
-
-  <!-- <div class="container-novidades"> -->
-
-  <!-- <div class="content">
-          <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome">
-
-            <label for="email">Email:</label>
-            <input type="text" id="email">
-          </form> -->
-
-  <!-- <button class="button" id="botaoEnviar">Enviar</button>
-        </div>
-      </div> -->
-
-  </div>
-  </section>
   <footer>
     <div id="social">
       <a href="https://www.linkedin.com/" target="_blank">
@@ -85,11 +66,9 @@
       </a>
     </div>
     <p id="dev">Desenvolvido por: Erika Santos & Thalita Nascimento</p>
-
     <p class="dev">
       <Laboratória> Projeto Data Lovers
     </p>
-
   </footer>
   <script src="main.js" type="module"></script>
 </body>
