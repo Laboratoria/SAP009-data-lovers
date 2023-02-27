@@ -1,4 +1,4 @@
-//import {films} from './data.js';
+import {films} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 
@@ -10,54 +10,3 @@ function sectionMovies(items){
   `).join("") 
 }
 sectionMovies(data.films)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*const sectionCards = document.getElementById("infoMovies")
-
-function cards(cardMovies){
-  cardMovies.map((allCards) =>{
-    let info = document.createElement('div')
-    info.innerHTML = `
-    <img class = "posters" scr = "${allCards.posters}" alt = "Poster do filme">
-    <p class = "movieInfo">${allCards.title}</p>  
-    `
-    sectionCards.appendChild(info)
-  }
-  )
-
-
-  //console.log(infoMovies);
-}
-
-
-
-
-
-
-//data.map(movies)
-
-
-//console.log(films, data)
-
-//const infoMovies = document.getElementById("infoMovies");
-
-   
-
-/*const yearsOption = document.getElementById("yearsOption");
-const assessmentOption = document.getElementById("assessmentOption");
-const orderBy = document.getElementById("orderBy");*/
-
-
->>>>>>> main
