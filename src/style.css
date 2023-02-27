@@ -45,7 +45,7 @@ footer{
 
 .conteinerMovies{
  /* background: gray; */
-  background: linear-gradient(to right, #965365, #fff, #965365); */
+background: linear-gradient(to right, #965365, #fff, #965365);
 }
 
 #yearsOption{
@@ -103,12 +103,12 @@ main{
   align-items: center;
   /* border: 5px solid #222; */
   /* border-radius: 20px; */
-  position: relative; */
+  position: relative;
 }
 
 #infoMovies img{
   width: 100%;
-  border-radius: 20px; */
+  border-radius: 20px;
 
 }
 .name{
@@ -120,7 +120,7 @@ main{
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px; 
 
- position: absolute; */
+ position: absolute;
 }
 
 .conteinerCharacters{
