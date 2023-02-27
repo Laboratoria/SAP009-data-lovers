@@ -24,6 +24,7 @@
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Etapas iniciais para o desenvolvimento da interface](#2-etapas-iniciais-para-o-desenvolvimento-da-interface)
 * [3. Considerações técnicas](#3-considerações-técnicas)
+* [4. Responsividade](#4-responsividade)
 
 
 ## 1. Resumo do projeto
@@ -141,5 +142,35 @@ Os  teste unitários das funções implementadas no arquivo `/test/data.spec.js`
 Para a organização do projeto utilizamos o Trello para a construção de um roadmap, fracionando cada etapa, definindo  metas e prioridades.
 
 No planejamento de sprint foram definidas as metas a serem atingidas para a próxima sprint, enquanto na daily eram definidas as prioridades das tarefas para o dia.
+
+## 4. Responsividade
+
+A interface foi produzida de modo responsivo, durante todo o processo de criação foi constantemente testada para diversos tamanhos de telas através do console do Google Chrome, nestes testes, a página pode ser visualizada sem problemas.
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/122550758/221578155-e7454817-6507-43ab-9705-64dade87d57f.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/122550758/221578455-5ad67001-ead5-4204-b787-f2ab33dd4a2a.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/122550758/221578738-41eed557-49c9-4c02-84f5-d46e1eab9015.png">
+
+ <img width="330" alt="image" src="https://user-images.githubusercontent.com/122550758/221578993-9607d443-61e2-49c2-8398-642ec94cbded.png"> <img width="400" alt="image" src="https://user-images.githubusercontent.com/122550758/221579235-51246e2a-e441-4205-8560-329112a55d98.png">
+
+#### Teste de Usabilidade
+
+O teste de usabilidade foi aplicado com diferentes usuários, e com base nos Feedbacks, notou-se que:
+* a página web opera perfeitamente em notebooks/desktop;
+* a utlização por android também não apresentou nenhuma intercorrência, os testes foram feitos em diferentes modelos de aparelhos celulares.
+
+https://user-images.githubusercontent.com/122550758/221581194-cc7e1caa-ab5f-4a31-b50c-971854d431e5.mp4
+
+<img width="200" alt="Captura de Tela 2023-02-27 às 10 56 26" src="https://user-images.githubusercontent.com/122550758/221582414-0692f535-3111-4606-a876-9a7a36d1d9c7.png"> <img width="200" alt="Captura de Tela 2023-02-27 às 10 57 18" src="https://user-images.githubusercontent.com/122550758/221582621-9b238bc5-6859-4319-9f22-f013dc855c68.png"> <img width="200" alt="Captura de Tela 2023-02-27 às 10 56 56" src="https://user-images.githubusercontent.com/122550758/221582536-4fb37414-a24c-43c4-b4cf-e46b19b5de28.png">
+
+* a utilização por iOS funciona em partes, não apresenta erros na utilização dos filtros, classificação, busca por nome, calculo agregado e exibição da parte da frente dos cards. 
+<img width="337" alt="image" src="https://user-images.githubusercontent.com/122550758/221585840-fdbc68d8-d6ba-41db-89cb-3c52a4e0147f.png">
+
+A falha é localizada no conteúdo posterior dos cards, onde é exibida apenas uma parte das informações, que logo desaparece.
+
+https://user-images.githubusercontent.com/122550758/221586080-5dc764b5-a21d-40ce-b377-13bdcdf3ec5f.mp4
+
+
+<img width="337" alt="image" src="https://user-images.githubusercontent.com/122550758/221586216-11b1ae14-19d6-4da2-8e98-b598603a3beb.png">
+
+Na tentativa de solucionar a falha, incluímos o motor de renderização webkit no css. Nos testes realizados console e no emulatos em telas de iOS a aplicação funciona perfeitamente, entretanto, nos testes realizados pelos usuários, persiste a falha no conteúdo posterior dos cards.
 
 
