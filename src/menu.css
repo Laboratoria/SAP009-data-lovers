@@ -209,7 +209,7 @@ li {
     border-radius: 15px;
 }
 
-#placeholder-texto::placeholder{
+#buscarPokemon::placeholder{
     color:#051759;
     font-weight: bold;
     padding-left: 10%; 
