@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Characters</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="conteinerCharacters">
   <header>
     <nav>
-      <div>
+      <div class="indexIcons">
         <a href="index.html"><img src="img/home-icon.png" alt="Home" /></a>
         <a href="movies.html"><img src="img/movie-icon.png" alt="Filmes"/></a> 
         <a href="characters.html"><img src="img/masks-icon.png" alt="Personagens"/></a> 
       </div>
     </nav>
-    <hr />
   </header>
-  <section>
-    <div class="filter">
+  <section class="filters">
+    <div>
       <select class="" id="speciesOption">
         <option disabled selected hidden>espécie</option>
         <option>Human</option>
@@ -52,7 +54,7 @@
       </select>
     </div>
     <div>
-      <select class="" id="movie">
+      <select class="" id="movies">
         <option disabled selected hidden>filmes</option>
         <option>Túmulo dos Vagalumes</option>
         <option>Meu Amigo Totoro</option>
@@ -87,7 +89,11 @@
   </main>
   <footer>
     <p>Desenvolvido por</p>
+    <p>Erika Oliveira &copy;</p>
+    <img src="" alt=""> <!--inserir logo do github e linkedin--> 
     <img src="" alt="">
+    <p>Izadora Nascimento &copy; 2023</p>
+    <img src="" alt=""> <!--inserir logo do github e linkedin-->
     <img src="" alt="">
   </footer>
   <script src="characters.js" type="module"></script>
