@@ -98,16 +98,16 @@ img{
     left: 50%;
     transform: translate(-50%,-50%);
     transition: 5ms;
-}
-
-.texto{
-    font-size: 18px;
-    padding: 20px;
-    font-family: var(--fonte-titulo);
     color: white;
 }
 
-.texto p{
+.informacoes{
+    font-size: 18px;
+    padding: 20px;
+    font-family: var(--fonte-titulo);
+}
+
+.informacoes p{
     padding: 3px;
 }
 
