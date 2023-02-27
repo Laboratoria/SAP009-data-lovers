@@ -37,7 +37,7 @@ main{
 h1 {
     font-family:  'Berkshire Swash', cursive;
     font-size: 45px;
-    color: #fb4575;
+    color: #fb4f7d;
     text-align: center;
     text-shadow: 0.4px 0.4px 0.9px #00000086;
     margin: 50px;
@@ -77,7 +77,7 @@ p {
 }
 
 #imagem-principal {
-	border-radius: 20px;
+	border-radius: 190px;
 	width: 390px;
 }
 
