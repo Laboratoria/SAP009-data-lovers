@@ -1,3 +1,4 @@
+
 import data from "./data/lol/lol.js";
  import {example} from './data.js';
 
@@ -42,3 +43,4 @@ inputChampions.addEventListener("keyup", showCards);
 
 const functionChampionArray = Object.values(allChampions);
 const tagsArray = functionChampionArray.map(champion => champion.tags);
+
