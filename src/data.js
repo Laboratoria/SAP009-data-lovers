@@ -7,3 +7,11 @@ export const filtrarPersonagens = (valor) => {
     return false
   } )
 };
+export const filtrarPocoes = (valorPocoes) => {
+  return data.potions.filter((pocao) => {
+    if (pocao.name.toLocaleLowerCase().startsWith(valorPocoes.toLocaleLowerCase())) {
+      return true
+    }
+    return false
+  } )
+}

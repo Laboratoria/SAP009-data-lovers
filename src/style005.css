@@ -3,65 +3,57 @@
     font-family: "Harry";
     src: url("HARRYP__.TTF") format("truetype");
 }
-h1 {
-  text-align: center;
-  font-family: "Harry";
-  font-size: 50px;
-  color: rgb(238, 185, 52);
-  font-weight: normal;
-  margin-top: 10px;
-  text-shadow:
-    -1px -1px 0px rgb(25, 12, 48),
-    -1px 1px 0px rgb(47, 21, 77),
-     1px -1px 0px rgb(36, 19, 77),
-     1px 0px 0px rgb(39, 16, 75);
-}
 
 body {
-    background-image: url(harry.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+  background-image: url(harry.jpeg);
+  background-size: cover;
 }
 
-#input {
-    display: block;
+h1 {
     text-align: center;
+    font-family: "Harry";
+    font-size: 50px;
+    color: gold;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75)
+}
+
+#input-pocoes {
     height: 30px;
     font-size: 16px;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-    border: none;
+    position:relative;
     width: 300px;
     margin: auto;
 }
 
-#botao {
-  background-color: rgb(238, 185, 52);
+#botao-pocoes {
+  background-color: gold;
   color: black;
   font-size: 16px;
-  margin: 0 auto;
-  display: block;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-
 }
 
-#nomePersonagem {
-  color: white;
-}
-
-.card-container {
+.card-container2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.card {
+.card2 {
   width: 350px;
   height: 350px;
   perspective: 1000px; /* Define a perspectiva para a animação 3D */
@@ -75,25 +67,20 @@ body {
 
 }
 
-.card-info {
+.card-info2 {
   padding: 20px;
   transform: rotateY(0deg);
 }
 
-.card-info h2 {
+.card-info2 h2 {
   font-size: 35px;
   margin-bottom: 10px;
   font-family: "Harry";
-  color: rgb(238, 185, 52);
-  text-shadow:
-    -1px -1px 0px rgb(25, 12, 48),
-    -1px 1px 0px rgb(47, 21, 77),
-     1px -1px 0px rgb(36, 19, 77),
-     1px 0px 0px rgb(39, 16, 75);
+  color: gold;
   letter-spacing: 2px;
 }
 
-.card-info p {
+.card-info2 p {
   font-size: 16px;
   margin-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -106,7 +93,7 @@ body {
        1px 0px 0px rgb(39, 16, 75)
 }
 
-.card-info a {
+.card-info2 a {
   display: inline-block;
   padding: 10px 20px;
   background-color: #009688;
@@ -116,26 +103,26 @@ body {
   transition: background-color 0.3s;
 }
 
-.card-info, .back {
+.card-info2, .back2 {
   width: 100%;
   height: 100%;
   position: absolute;
   backface-visibility: hidden; /* Esconde o verso do cartão durante a animação */
 }
 
-.back {
+.back2 {
   transform: rotateY(180deg);
 }
 
-.card:hover .card-info {
+.card2:hover .card-info2 {
   transform: rotateY(-180deg);
 }
 
-.card:hover .back {
+.card2:hover .back2 {
   transform: rotateY(0deg);
 }
 
 /* Define a duração e o tipo de transição para a animação */
-.card div {
+.card2 div {
   transition: transform 0.6s ease-in-out;
 }
