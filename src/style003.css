@@ -13,8 +13,23 @@ h1 {
   font-family: "Harry";
   text-align: center;
   font-size: 50px;
-  color: gold;
+  color: rgb(238, 185, 52);
   letter-spacing: 2px;
+}
+
+p {
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Harry";
+  font-size: 25px;
+  line-height: 28px;
+  margin-top: 10px;
+  color: rgb(238, 185, 52);
+}
+
+.paragrafo {
+  width: 500px;
+  margin: auto;
 }
 
 .card {
@@ -24,6 +39,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   width: 250px;
+  border-radius: 5px;
 }
 
 .card img {
@@ -35,7 +51,7 @@ h1 {
   font-size: 35px;
   margin-bottom: 10px;
   font-family: "Harry";
-  color: gold;
+  color: rgb(238, 185, 52);
   letter-spacing: 2px;
   text-align: center;
 }
@@ -56,7 +72,6 @@ h1 {
 
 .card-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-wrap: wrap;
+  justify-content: center;
 }
