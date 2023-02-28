@@ -1,4 +1,5 @@
 import {filtrarPersonagens} from "./data.js"
+
 document.querySelector('#botao').onclick = () => {
   const valor = document.querySelector('#input').value
   const elementosDaLista = []
