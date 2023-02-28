@@ -1,0 +1,22 @@
+body{
+    background-image: url(harry.jpeg);
+    background-size: cover;
+}
+@font-face {
+    font-family: "Harry";
+    src: url("HARRYP__.TTF") format("truetype");
+}
+h1{
+    text-align: center;
+    font-family: "Harry";
+    font-size: 50px;
+    color: rgb(238, 185, 52);
+    font-weight: normal;
+    margin-top: 10px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+
+}
