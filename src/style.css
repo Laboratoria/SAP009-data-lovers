@@ -1,0 +1,32 @@
+body { background-color: #F6861E;
+       }
+
+h1 { color: #D9DD1B;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4789C7;
+     position: relative;
+     font-size: 110px;
+     margin-top: 0px;
+     padding: 0px;
+     line-height:1.6;
+     }
+
+.pikachu{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}     
+
+.pokebola{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    right: 330px;
+}
