@@ -57,17 +57,24 @@ export const preencherModal = (posterClicado) => {
 
   return `<h1>${informacoesDoFilmeCLicado.title}</h1>
   <p>${informacoesDoFilmeCLicado.description}</p>
-  <p>Director: ${informacoesDoFilmeCLicado.director}</p>
-  <p>Producer: ${informacoesDoFilmeCLicado.producer}</p>
-  <p>Release Year: ${informacoesDoFilmeCLicado.release_date}</p>
-  <p>RT Score: ${informacoesDoFilmeCLicado.rt_score}</p>
-  <p>Personagens: ${personagens}</p>`
+  <p><strong>Director:</strong> ${informacoesDoFilmeCLicado.director}</p>
+  <p><strong>Producer:</strong> ${informacoesDoFilmeCLicado.producer}</p>
+  <p><strong>Release Year:</strong> ${informacoesDoFilmeCLicado.release_date}</p>
+  <p><strong>RT Score:</strong> ${informacoesDoFilmeCLicado.rt_score}</p>
+  <p><strong>Personagens:</strong> ${personagens}</p>`
 }
 
-export const Exemplo = {
-  ordenado : function (todosFilmes,ordem) {
-    todosFilmes.sort((a,b) => b.parametro.localeCompare(a.parametro))
-    ordem.map(function(item){
-      return item.poster;
-    })}
-};
+// export const exemplo = () => {
+//  return 'algo'
+// }
+
+export function resultadoDoFiltro (nome) { //'Hayao Miyazaki'
+  const filmesFiltradosPorProdutor = data.films.filter((item) => filtrarPorProdutor(item, nome))
+  return filmesFiltradosPorProdutor
+}
+
+function filtrarPorProdutor(item, nome) {
+  return item.producer === nome
+}
+
+resultadoDoFiltro('Hayao Miyazaki')
