@@ -48,12 +48,43 @@ main{
   background: linear-gradient(to right, #f08366, #fff, #f08366);
 }
 
-.cardFront {
+.charactersCards{
+  border: 1px solid red; 
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 0 auto; 
   display:flex;
+  gap: 1rem;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-  column-gap: 60px;
+  justify-content: center;
+  -webkit-user-drag: none;
+}
+
+#infoCharacters{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  /*border: 5px solid #222; */
+  /*border-radius: 20px; */
+  position: relative;
+}
+
+#infoCharacters img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.name{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: #f4e8eb99;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
 }
 
 #speciesOption{
@@ -113,8 +144,7 @@ main{
   padding: 40px;
   border: 10px solid #f08366;
   position: relative;
-
-
+  border-radius: 20px;
 }
 
 @keyframes modal {
