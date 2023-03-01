@@ -50,32 +50,28 @@
       <section class="cardCharacters" id="cardCharacters">
         <p>Personagens</p>
 
-        <nav class="menu">
-          <ul class="nav">
- 
-            <ul class="dropdown">
-              <li>Ancestralidade</li>
-              <ul>
-              <li><a href="#" class="ancestralidade">Mestico</a></li>
-              <li><a href="#">Nascido Trouxa</a></li>
-              <li><a href="#">Trouxa</a></li>
-              <li><a href="#" class="halfBlood">Sangue Puro</a></li>
-              </ul>
-            </li>
-
-              
-          </ul>
-        </nav>
-        
-        <!--
         <div id="filters">
-          
-          <input type="search" id="search" name="search">
-          <ol data-type="nav-menu">
-      
-          </ol>
 
-        </div> -->        
+        <nav class="filter-menu">
+
+          <select id="ancestralidadeFilter">
+            <option selected="true" disabled="disabled">Ancestralidade </option>
+            <option value="Half-blood">Mestico</option> 
+            <option value="Nascido-Trouxa">Nascido Trouxa</option>
+            <option value="Muggle">Trouxa</option>
+            <option value="Pure-blood">Puro Sangue</option>
+          </select>
+          
+          <select id="casasFilter">
+            <option selected="true" disabled="disabled">Casas</option>
+            <option value="Hufflepuff">Lufa-Lufa</option> 
+            <option value="Ravenclaw">Corvinal</option>
+            <option value="Gryffindor">Grifinória</option>
+            <option value="Slytherin">Sonserina</option>
+          </select>
+
+        </nav>
+      </div>
 
         <div class="cardSection" id="cardSection"></div>
 

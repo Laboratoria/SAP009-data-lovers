@@ -1,4 +1,7 @@
 //import { example } from './data.js';
+import {filterAncestry} from './data.js';
+import {filterHouse} from './data.js';
+
 import harryData from './data/harrypotter/harry.js';
 const characters = [
   harryData.characters[208],
@@ -10,17 +13,18 @@ const characters = [
   harryData.characters[159],
   harryData.characters[364],
   harryData.characters[374],
+  harryData.characters[23],
+  harryData.characters[2],
+  harryData.characters[42],
   harryData.characters[658]
 ];
+const ancestralidadeFilter = document.getElementById("ancestralidadeFilter");
+const casasFilter = document.getElementById("ancestralidadeFilter");
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
-const header = document.getElementById('header');
 const navigationHeader = document.getElementById('navigation_header');
 const content = document.getElementById('content');
 let showSidebar = false;
-
-const inputSearch = document.querySelector("#search")
-const navMenu = document.querySelector("[data-type='nav-menu']")
 
 function toggleSidebar (){
   showSidebar = !showSidebar;
@@ -48,19 +52,14 @@ content.addEventListener('click', closeSidebar);
 window.addEventListener('resize', function() {
   if(window.innerWidth > 768 && showSidebar){
     toggleSidebar();
-  }
-  
+  }  
 });
 
-
-const allCharacters = characters.forEach(function(character) {//forEach para percorrer todo array de character
+characters.forEach(function(character) {//forEach para percorrer todo array de character
   cardDrawing(character)
- 
-} 
-);
+});
 
 function cardDrawing(character){
-
   const cardSection = document.querySelector(".cardSection")
   cardSection.innerHTML += `
   <div class="card flipCard">
@@ -79,25 +78,42 @@ function cardDrawing(character){
   ${character.species}</h2>
   </div>
 
-   </div>
-   `
-  
+   </div>` 
 }
-
-const cardFlip = document.querySelectorAll(".flipCard")
+const cardFlip = document.querySelectorAll(".flipCard") // faz o card girar para apresentar as informações dos personagens
 cardFlip.forEach((card)=> card.addEventListener("click",()=>{
   card.classList.toggle("flipCard")
 }))
 
-const halfBloodBtn = document.getElementById('.halfBlood');
+const cardChaters = document.querySelector(".cardSection")
+ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
+  const value = e.target.value;	 
+  const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
+  //console.log(filterAncestry);
+  cardChaters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
+  ancestryCharacters.forEach(function(character) {//forEach para percorrer todo array de character
+    cardDrawing(character)   
+  });
+  const cardFlip = document.querySelectorAll(".flipCard")
+  cardFlip.forEach((card)=> card.addEventListener("click",()=>{
+    card.classList.toggle("flipCard")
+  })) 
+});
 
 
-function filterbloodHalf (characters){
-  
-  characters.filter(characters.ancestry)
-}
-console.log (characters.ancestry);
+// cardChaters = document.querySelector(".cardSection")
+// casasFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
+//   const value = e.target.value;	 
+//   const casaCharacters = filterHouse(characters, value);	
+//   cardChaters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
+//   casaCharacters.forEach(function(character) {//forEach para percorrer todo array de character
+//     cardDrawing(character)   
+//   });
+//   const cardFlip = document.querySelectorAll(".flipCard")
+//   cardFlip.forEach((card)=> card.addEventListener("click",()=>{
+//     card.classList.toggle("flipCard")
+//   })) 
+// });
 
-filterbloodHalf()
 
-halfBloodBtn.addEventListener('click', filterbloodHalf);
+
