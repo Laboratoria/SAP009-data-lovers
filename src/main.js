@@ -8,7 +8,7 @@ const root = document.getElementById("root");
 let posteres = ''
 
 filmes.map(function (item) {
-  posteres += `<img src="${item.poster}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
+  posteres += `<img class="filme" src="${item.poster}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
 })
 root.innerHTML = posteres  // avisa o JS que isso vai pro HTML
 
