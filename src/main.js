@@ -1,5 +1,7 @@
 import {filtrarNome} from './data.js';
-// import data from './data/lol/lol.js';
+import {filtrarTipo} from './data.js';
+import {filtrarRegiao} from './data.js';
+
 import data from './data/pokemon/pokemon.js';
 // import data from './data/rickandmorty/rickandmorty.js';
 
@@ -7,12 +9,9 @@ import data from './data/pokemon/pokemon.js';
 const pokemons = data.pokemon;
 const mostrarPokemonTela = document.getElementById("inserirCards");
 const filtrarNomesPokemons = document.getElementById("buscarPokemon");
+const selecionarTipo = document.getElementById("selecionarTipo");
+const selecionarRegiao = document.getElementById("regiaoPokemon");
 
-filtrarNomesPokemons.addEventListener("keyup", () => {
-  const text = filtrarNomesPokemons.value;
-  const procurarPokemon = filtrarNome (pokemons, text);
-  mostrarPokemon.innerHTML = mostrarPokemon (procurarPokemon);
-});
 
 
 function mostrarPokemon(data) {
@@ -33,6 +32,7 @@ function mostrarPokemon(data) {
           <div class = "cards-container-posterior">
             <div class = "extra-info2"> <p class="letras"> <span>Altura </span>${item.size.height}</p></div>
             <div class = "extra-info2"> <p class="letras"> <span>Peso </span>${item.size.weight}</p></div>
+            <div class = "extra-info2"> <p class="letras"> <span>Região </span>${item.generation.name}</p></div>
             <div class = "extra-info2"> <p class="letras">${evolution}</div>
             <div class = "extra-info2"> <p class="letras"> <span>Resistências </span>${item.resistant.join(", ")}</p></div>
             <div class = "extra-info2"> <p class="letras"> <span>Fraquezas </span>${item.weaknesses.join(", ")}</p></div>
@@ -40,11 +40,51 @@ function mostrarPokemon(data) {
         </div>  
       </div>  
  `
-}).join("")
+  }).join("")
 
 }
 mostrarPokemon (pokemons)
 
+filtrarNomesPokemons.addEventListener("keyup", () => {
+  const nome = filtrarNomesPokemons.value;
+  const procurarPokemon = filtrarNome (pokemons, nome);
+  mostrarPokemon.innerHTML = mostrarPokemon (procurarPokemon);
+});
 
+selecionarTipo.addEventListener("change", () => {
+  const tipo = selecionarTipo.value;
+  const tipoPokemon = filtrarTipo (pokemons, tipo);
+  mostrarPokemon.innerHTML = mostrarPokemon(tipoPokemon);
+});
+
+
+selecionarRegiao.addEventListener("change", () => {
+  const regiao = selecionarRegiao.value;
+  const regiaoPokemon = filtrarRegiao (pokemons, regiao);
+  mostrarPokemon.innerHTML = mostrarPokemon(regiaoPokemon);
+});
+
+
+// Pegar o botão
+const meuBotao = document.getElementById("myBtn")
+meuBotao.addEventListener('click', topFuncao);
+
+// Quando usuário desce 20px do topo do documento, mostraro botão
+window.onscroll = function() {scrollFuncao()};
+
+function scrollFuncao() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    meuBotao.style.display = "block";
+  } else {
+    meuBotao.style.display = "none";
+  }
+}
+
+// Quando o usuário clica no botao, rola para o topo do documento
+
+function topFuncao() {
+  document.body.scrollTop = 0; // Safari
+  document.documentElement.scrollTop = 0; // Chrome, Firefox, IE e Opera
+} 
 
 
