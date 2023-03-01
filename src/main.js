@@ -13,14 +13,15 @@ const characters = [
 ];
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
-const header = document.getElementById('header');
+//const header = document.getElementById('header');
 const navigationHeader = document.getElementById('navigation_header');
 const content = document.getElementById('content');
 let showSidebar = false;
 const homeBtn = document.getElementById('homeBtn')
-const charactersBtn = document.getElementById('charactersBtn')
-const housesBtn = document.getElementById('housesBtn')
-const chooseCharacter = document.getElementById('message')
+const charactersBtn = document.getElementById('charactersBtn');
+const housesBtn = document.getElementById('housesBtn');
+//const chooseCharacter = document.getElementById('message');
+const inputSearch = document.querySelector("input[type='search']");
 
 
 
@@ -58,8 +59,9 @@ window.addEventListener('resize', function() {
 });
 
 
-const allCharacters = characters.forEach(function(character) {//forEach para percorrer todo array de character
+characters.forEach(function(character) {//forEach para percorrer todo array de character
   cardDrawing(character)
+ 
  
 } 
 );
@@ -93,3 +95,4 @@ const cardFlip = document.querySelectorAll(".flipCard")
 cardFlip.forEach((card)=> card.addEventListener("click",()=>{
   card.classList.toggle("flipCard")
 }))
+
