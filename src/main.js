@@ -1,4 +1,4 @@
-import { ordenar, preencherModal } from './data.js';
+import { ordenar, preencherModal, resultadoDoFiltro } from './data.js';
 
 import data from './data/ghibli/ghibli.js';
 
@@ -20,6 +20,16 @@ todosPosteresDoHtml.forEach((umPosterDoHtml) => umPosterDoHtml.addEventListener(
   
   bloco.showModal();
 }))
+
+const seletorDeFiltro = document.getElementById("filtroProdutor")
+seletorDeFiltro.addEventListener('change', function(event){
+  let posteresFiltradosPorProdutor = ''
+  const filmesFiltrados = resultadoDoFiltro(event.target.value)
+  filmesFiltrados.map(function(item) {
+    posteresFiltradosPorProdutor += `<img class="filme" src="${item.poster}" data-id"${item.id}">`
+  })
+  root.innerHTML = posteresFiltradosPorProdutor
+})
 
 const seletorDeOrdem = document.getElementById("ordem")
 seletorDeOrdem.addEventListener('change', function(event){
@@ -47,4 +57,3 @@ const informacoes = document.querySelector(".informacoes")
 fechar.addEventListener("click",function(){
   bloco.close();
 })
-
