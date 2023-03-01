@@ -14,7 +14,8 @@ sectionCharacters(data.films)
 
 
 // Função para janela modal
-function modalID(modalID){
+function modalPersona(modalID, data){
+  console.log(modalID)
   const modal = document.getElementById(modalID);
   modal.classList.add('showModal')
   modal.addEventListener('click', (evento) => {
@@ -22,27 +23,30 @@ function modalID(modalID){
       modal.classList.remove('showModal');
     }
   })
+
+  const teste = document.getElementById('teste')
+  teste.innerHTML = `teste`
 }
 
 const image = document.querySelector('.cardFront');
 image.addEventListener('click', function() {
-  modalID('modalChar');
+  modalPersona('modalChar');
 })
 
 /*const modalData = document.querySelector(".modal")
 
 data.films.filter(itemAtual => {
     return itemAtual.people.filter((personagemAtual) => {
-      return personagemAtual.id == modalID.id
+      return personagemAtual.id == modalPersona.id
     })
   })
 
   modalData.innerHTML = `
-    <h1>${modalID.name}</h1>
-      <img class="poster" src="${modalID.img}">
-          <h3>Age:${modalID.age}</h3>
-          <h3>Gender: ${modalID.gender}</h3>
-          <h3> Specie: ${modalID.specie}</h3>
-          <h3>Hair Color: ${modalID.hair_color}</h3>
-          <h3>Eye Color: ${modalID.eye_color}</h3>
+    <h1>${modalPersona.name}</h1>
+      <img class="poster" src="${modalPersona.img}">
+          <h3>Age:${modalPersona.age}</h3>
+          <h3>Gender: ${modalPersona.gender}</h3>
+          <h3> Specie: ${modalPersona.specie}</h3>
+          <h3>Hair Color: ${modalPersona.hair_color}</h3>
+          <h3>Eye Color: ${modalPersona.eye_color}</h3>
   `;*/
