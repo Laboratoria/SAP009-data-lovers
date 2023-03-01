@@ -1,6 +1,6 @@
 //import { example } from './data.js';
-import {filterAncestry} from './data.js';
-import {filterHouse} from './data.js';
+import {filterAncestry/*, filterHouse*/, searchBar} from './data.js';
+
 
 import harryData from './data/harrypotter/harry.js';
 const characters = [
@@ -16,20 +16,21 @@ const characters = [
   harryData.characters[23],
   harryData.characters[2],
   harryData.characters[42],
-  harryData.characters[658]
+  harryData.characters[658],
+  harryData.characters[323]
 ];
 const ancestralidadeFilter = document.getElementById("ancestralidadeFilter");
-const casasFilter = document.getElementById("ancestralidadeFilter");
+//const casasFilter = document.getElementById("ancestralidadeFilter");
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
 const navigationHeader = document.getElementById('navigation_header');
 const content = document.getElementById('content');
 let showSidebar = false;
-const homeBtn = document.getElementById('homeBtn')
-const charactersBtn = document.getElementById('charactersBtn');
-const housesBtn = document.getElementById('housesBtn');
+//const homeBtn = document.getElementById('homeBtn')
+//const charactersBtn = document.getElementById('charactersBtn');
+//const housesBtn = document.getElementById('housesBtn');
 //const chooseCharacter = document.getElementById('message');
-const inputSearch = document.querySelector("input[type='search']");
+//const inputSearch = document.querySelector("input[type='search']");
 
 
 
@@ -87,17 +88,44 @@ function cardDrawing(character){
 
    </div>` 
 }
+
+console.log(searchBar(characters, 'harry'))
 const cardFlip = document.querySelectorAll(".flipCard") // faz o card girar para apresentar as informações dos personagens
 cardFlip.forEach((card)=> card.addEventListener("click",()=>{
   card.classList.toggle("flipCard")
 }))
 
-const cardChaters = document.querySelector(".cardSection")
+const inputSearch = document.getElementById("searchBar")
+inputSearch.addEventListener('keypress', () => {
+  console.log('teste')
+  const returnCharacters = searchBar(characters, inputSearch.value)
+  returnCharacters.forEach(function(character){
+    cardDrawing(character)
+  })
+})
+
+// inputSearch.addEventListener("keydown", () => {
+//   const searchCharacters = searchBar(characters, inputSearch);
+//   console.log(searchCharacters)
+//   cardDrawing(searchCharacters)
+  // cardSearch.innerHTML = '';
+  // searchCharacters.forEach(function(character) {//forEach para percorrer todo array de character
+  //   cardDrawing(character)
+  // });
+  // const cardFlip = document.querySelectorAll(".flipCard")
+  // cardFlip.forEach((card)=> card.addEventListener("click",()=>{
+  //   card.classList.toggle("flipCard")
+  // })) 
+//});
+
+
+//filtro ancestralidade 
+const cardCharacters = document.querySelector(".cardSection")
 ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
   const value = e.target.value;	 
   const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
   //console.log(filterAncestry);
-  cardChaters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
+  cardCharacters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
   ancestryCharacters.forEach(function(character) {//forEach para percorrer todo array de character
     cardDrawing(character)   
   });
@@ -107,12 +135,12 @@ ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, q
   })) 
 });
 
-
-// cardChaters = document.querySelector(".cardSection")
+//filtro Casas
+// cardCharacters = document.querySelector(".cardSection")
 // casasFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
 //   const value = e.target.value;	 
 //   const casaCharacters = filterHouse(characters, value);	
-//   cardChaters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
+//   cardCharacters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
 //   casaCharacters.forEach(function(character) {//forEach para percorrer todo array de character
 //     cardDrawing(character)   
 //   });

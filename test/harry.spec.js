@@ -1,23 +1,17 @@
-import { example, anotherExample } from '../src/data.js';
+import { data } from '../src/data.js';
 
 
-describe('cardDrawing', () => {
+describe('data', () => {
+  it('deveria ser um objeto', () => {
+    expect(typeof data).toBe('object');
+  });
+});
+
+
+describe('filterAncestry', () => {
   it('deveria ser uma função', () => {
-    expect(typeof cardDrawing).toBe('function');
-  });
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+    expect(typeof data.filterAncestry).toBe('function');
   });
 });
 
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
+describe()
