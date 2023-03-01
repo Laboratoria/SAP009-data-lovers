@@ -7,6 +7,12 @@ export const filtrarNome = (pokemon, name) => {
 
 
 
-export const anotherExample = () => {
-  return 'OMG';
-}
+export const ordenarPorAZ = pokemons.sort(function(a, b){
+  if(a.name < b.name){
+    return -1;
+  } else{
+    return 1;
+  }
+  return ordenarPorAZ;
+});
+

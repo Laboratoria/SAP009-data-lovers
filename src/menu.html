@@ -19,12 +19,19 @@
           </ul>
         </nav>
       </header>
-    </div>
     <main class="cards">
       <!--menu lateral -->
       <section class = "cards-menu-lateral">
         <img class = "cards-menu-lateral-logo" src="img/logo-pokedex-final.png" alt="Logo Pokédex Go"> 
         <div class = "cards-menu-lateral-filtro">
+          <li>Ordernar por</li>
+          <select name = "Ordernar">
+            <option value disable selected>Selecione</option>
+            <option class = "ordenarNome" value = "A-Z">A-Z</option>
+            <option class = "ordenarNome" value = "Z-A">Z-A</option>
+            <option class = "ordenarNum" value = "NumericaCrescente">Núm. 1-251</option>
+            <option class = "ordenarNum" value = "NumericaDecrescente">Núm. 251-1</option>
+          </select>
           <li>151 pokémons</li>
           <input id = "buscarPokemon" type="search" class = "buscar-pokemon" placeholder="Pesquise seu pokémon">
           <li>Tipo</li>
@@ -54,10 +61,6 @@
             <option value = "bug">Johto</option>
           </select>
 
-          <li>Evolução</li>
-          <select name = "Região">
-            <option value disable selected>Selecione</option>
-          </select>
         </div>
       </section>
       <section class = "secao-texto-central">
@@ -72,6 +75,7 @@
     
       <footer></footer>
     </main>
+    </div>
     <script src="main.js" type="module"></script>
   </body>
 </html>

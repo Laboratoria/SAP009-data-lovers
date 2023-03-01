@@ -1,20 +1,29 @@
 import {filtrarNome} from './data.js';
 // import data from './data/lol/lol.js';
+import {ordenarPorNomeAZ} from './data.js';
+// import data from './data/lol/lol.js';
+
 import data from './data/pokemon/pokemon.js';
 // import data from './data/rickandmorty/rickandmorty.js';
 
-
+//declarar as const que poderão ser utilizadas mais de uma vez
 const pokemons = data.pokemon;
 const mostrarPokemonTela = document.getElementById("inserirCards");
 const filtrarNomesPokemons = document.getElementById("buscarPokemon");
+const ordenarPokemons = document.getElementsByClassName("ordenar");
 
+// código para mostrar na tela os pokemons filtrados por nome
 filtrarNomesPokemons.addEventListener("keyup", () => {
   const text = filtrarNomesPokemons.value;
   const procurarPokemon = filtrarNome (pokemons, text);
   mostrarPokemon.innerHTML = mostrarPokemon (procurarPokemon);
 });
 
+//código para mostrar na tela os pokemons ordenados de forma alfabética
 
+
+
+// código para mostrar pokemons nos cards com flip
 function mostrarPokemon(data) {
   mostrarPokemonTela.innerHTML = data.map((item) =>{
     let evolution = "";
@@ -40,13 +49,14 @@ function mostrarPokemon(data) {
         </div>  
       </div>  
  `
-}).join("")
+  }).join("")
 
 }
 mostrarPokemon (pokemons)
 
-// Pegar o botão
-const meuBotao = document.getElementById("myBtn");
+// Pegar o botão para scroll to top
+const meuBotao = document.getElementById("myBtn")
+meuBotao.addEventListener("click",topFuncao);
 
 // Quando usuário desce 20px do topo do documento, mostraro botão
 window.onscroll = function() {scrollFuncao()};
