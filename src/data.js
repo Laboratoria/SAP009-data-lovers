@@ -13,11 +13,34 @@ export const filterAncestry = (characters, ancestry) => {
 //filtro Casas
 export const filterHouse = (characters, house) => {
   const dataFilter = characters.filter(function(character){
-    if (character.house === null){ //condição para o que for null não apareça no filtro
+    if (character.house === null){ 
       return false
     }
-    const houseFilter = character.house.includes(house) //determina se a condição pode ser encontrado dentro da string
+    const houseFilter = character.house.includes(house) 
     return houseFilter
+  })
+  return dataFilter
+}
+//filtro Espécie
+export const filterSpecie = (characters, species) => {
+  const dataFilter = characters.filter(function(character){
+    if (character.species === null){ 
+      return false
+    }
+    const filterSpecie = character.species.includes(species) 
+    return filterSpecie
+  })
+  return dataFilter
+}
+
+//filtro Gênero
+export const filterGenero = (characters, gender) => {
+  const dataFilter = characters.filter(function(character){
+    if (character.gender === null){ 
+      return false
+    }
+    const filterGenero = character.gender.includes(gender) 
+    return filterGenero
   })
   return dataFilter
 }
