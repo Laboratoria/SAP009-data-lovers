@@ -19,25 +19,25 @@
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
           </svg>
         </button>
-        
-        <div class="logo-frog">
-          <img src="logo-chocolate-frog.png" alt="Logo Chocolate Frog" id="logoMenor">
-        </div>
-        
-        <div class="navigation_header" id="navigation_header">
-          <button class="btn_icon_header" id="closeSidebar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+
+      <div class="logo-frog">
+        <img src="logo-chocolate-frog.png" alt="Logo Chocolate Frog" id="logoMenor">
+      </div>
+      
+      <div class="navigation_header" id="navigation_header">
+        <button class="btn_icon_header" id="closeSidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
             <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
           </svg>
         </button>
+
         <div class="headerSpace" id="headerSpace">
         <a href="#content" id="homeBtn">Home</a>
         <a href="#cardSection" id="charactersBtn">Personagens</a>
         <a href="#" id="housesBtn">Casas</a>
-      </div>
-      </div>
-    </div>
+        </div>
+      </div></div>
     
       <div tabindex="0" class="content" id="content">
         <section >
@@ -58,7 +58,7 @@
           
         <div class="filter-menu">
 
-          <select id="ancestralidadeFilter">
+          <select id="ancestralidade-filter">
             <option selected="true" disabled="disabled">Ancestralidade </option>
             <option value="Half-blood">Mestico</option> 
             <option value="Nascido-Trouxa">Nascido Trouxa</option>
@@ -66,37 +66,46 @@
             <option value="Pure-blood">Puro Sangue</option>
           </select>
           
-          <select id="casasFilter">
+          <select id="casas-filter">
             <option selected="true" disabled="disabled">Casas</option>
-            <option value="Hufflepuff">Lufa-Lufa</option> 
+            <option value="Hufflepuff">Lufa-Lufa</option> <!--value tem que estar escrito igual ao harry.js-->
             <option value="Ravenclaw">Corvinal</option>
             <option value="Gryffindor">Grifinória</option>
             <option value="Slytherin">Sonserina</option>
           </select>
 
-        </div>
-      </div>
+          <select id="especie-filter">
+            <option selected="true" disabled="disabled">Espécies</option>
+            <option value="Human">Humano</option> <!--value tem que estar escrito igual ao harry.js-->
+            <option value="Goblin">Duende</option>
+            <option value="Centaur">Centauro</option>
+            <option value="House-elf">Elfo Doméstico</option>                         
+          </select>
 
-        <div class="cardSection" id="cardSection"></div>
+          <select id="genero-filter">
+            <option selected="true" disabled="disabled">Gênero</option>
+            <option value="Female">Feminino</option> <!--value tem que estar escrito igual ao harry.js-->
+            <option value="Male">Maculino</option>                        
+          </select>
+        </div>
+
+      <div class="cardSection" id="cardSection"></div>
 
         </div>
         </section>
       </div>
   
-  <footer>
-    
-    <div class="imagem">
-    
+  <footer>    
+    <div class="imagem">    
     <a href="https://github.com/talitamsx" target="_blank">
       <img src="githubAmarelo.png"> </a>
       <a href="https://github.com/silvertapecoder" target="_blank">
       <img src="githubAmarelo.png" alt="github"></a>
-      <br>
-      
-        </div>      
-        <h5> Direitos autorais Chocolate Frog</h5>
-      </footer>
-
-    <script src="main.js" type="module"></script>  
-    </body> 
+      <br>      
+    </div> 
+    <h5> Direitos autorais Chocolate Frog</h5>
+  </footer>
+  
+  <script src="main.js" type="module"></script>  
+</body> 
 </html>
