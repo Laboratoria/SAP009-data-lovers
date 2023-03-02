@@ -66,6 +66,10 @@ body{
     margin-right: 150px;
     padding: 15px;  
 }
+.navigation_header a:hover{
+    background-color: #414141;
+    border-radius: 25px;
+}
 .headerSpace{
     display: flex;
     align-items: center;
@@ -211,6 +215,13 @@ h5{
 .flipCard{/*faz o card virar*/
     transform: rotateY(180deg);
 }
+#searchBar{
+    width: 25%;
+    height: 30px;
+    font-family: 'HarryPotter7', sans-serif;
+}
+
+/*CONFIGURAR A POSIÇÃO DE TODOS OS FILTROS COM A DIV FILTERS*/
 
 #filters {
     padding: 0;

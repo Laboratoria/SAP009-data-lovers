@@ -10,10 +10,12 @@
     
   </head>
   <body>
-    <div id="root">
-      <div class="header" id="header">
-        <button id="toggleSidebar" id="toggleSidebar" class="btn_icon_header">          
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+    
+      <div id="root">
+
+        <div class="header" id="header">
+          <button id="toggleSidebar" class="btn_icon_header">          
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
           </svg>
         </button>
@@ -51,7 +53,11 @@
         <p>Personagens</p>
 
         <div id="filters">
+        <div class="divSearch">
+          <input type="search" id="searchBar" placeholder="Digite o nome">
           
+        <nav class="filter-menu">
+
           <select id="ancestralidadeFilter">
             <option selected="true" disabled="disabled">Ancestralidade </option>
             <option value="Half-blood">Mestico</option> 
@@ -85,10 +91,9 @@
 
       <div class="cardSection" id="cardSection"></div>
 
-     
-    </section>
-      <div class="cardSection" id="cardSection"></div>
-  </div>
+        </div>
+        </section>
+      </div>
   
   <footer>    
     <div class="imagem">    

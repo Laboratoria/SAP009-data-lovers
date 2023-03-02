@@ -1,5 +1,5 @@
 //import { example } from './data.js';
-import {filterAncestry, filterHouse, filterSpecie, filterGenero} from './data.js';
+import {searchBar, filterAncestry, filterHouse, filterSpecie, filterGenero} from './data.js';
 //import {filterHouse} from './data.js';
 
 import harryData from './data/harrypotter/harry.js';
@@ -21,7 +21,8 @@ const characters = [
   harryData.characters[23],
   harryData.characters[2],
   harryData.characters[42],
-  harryData.characters[658]
+  harryData.characters[658],
+  harryData.characters[323]
 ];
 const ancestralidadeFilter = document.getElementById("ancestralidadeFilter"); //id do html
 const casasFilter = document.getElementById("casasFilter");
@@ -33,6 +34,13 @@ const btnFechar = document.getElementById('closeSidebar');
 const navigationHeader = document.getElementById('navigation_header');
 const content = document.getElementById('content');
 let showSidebar = false;
+//const homeBtn = document.getElementById('homeBtn')
+//const charactersBtn = document.getElementById('charactersBtn');
+//const housesBtn = document.getElementById('housesBtn');
+//const chooseCharacter = document.getElementById('message');
+//const inputSearch = document.querySelector("input[type='search']");
+
+
 
 function toggleSidebar (){
   showSidebar = !showSidebar;
@@ -92,26 +100,48 @@ function cardDrawing(character){
 
    </div>` 
 }
+
+console.log(searchBar(characters, 'harry'))
 const cardFlip = document.querySelectorAll(".flipCard") // faz o card girar para apresentar as informações dos personagens
 cardFlip.forEach((card)=> card.addEventListener("click",()=>{
   card.classList.toggle("flipCard")
 }));
 
-// Ancestralidade
-let cardCharacters = document.querySelector(".cardSection")
-ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
-  const value = e.target.value;	 
-  const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
-  //console.log(filterAncestry);
+function cardPrinting(array){
+  const cardCharacters = document.querySelector(".cardSection")
   cardCharacters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
-  ancestryCharacters.forEach(function(character) {//forEach para percorrer todo array de character
+  array.forEach(function(character) {//forEach para percorrer todo array de character
     cardDrawing(character)   
   });
   const cardFlip = document.querySelectorAll(".flipCard")
   cardFlip.forEach((card)=> card.addEventListener("click",()=>{
     card.classList.toggle("flipCard")
   })) 
+}
+//Barra de Pesquisa
+const inputSearch = document.getElementById("searchBar")
+inputSearch.addEventListener('keyup', () => {
+  console.log('teste')
+  const returnCharacters = searchBar(characters, inputSearch.value)
+  console.log(returnCharacters)
+  cardPrinting(returnCharacters)
+})
+
+//filtro ancestralidade 
+ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
+  const value = e.target.value;	 
+  const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
+  //console.log(filterAncestry);
+  cardPrinting(ancestryCharacters)
 });
+// // Ancestralidade
+// let cardCharacters = document.querySelector(".cardSection")
+// ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
+//   const value = e.target.value;	 
+//   const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
+//   //console.log(filterAncestry);
+//   cardCharacters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
+//   ancestryCharacters.forEach(function(character) {//forEach para percorrer todo array de character
 
 // Casas
 cardCharacters = document.querySelector(".cardSection")

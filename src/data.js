@@ -1,3 +1,11 @@
+//Barra de pesquisa
+export const searchBar = (characters, name) => { //function
+  const searchData = characters.filter(function(character){
+    return character.name.toLowerCase().includes(name.toLowerCase())
+   
+  })
+  return searchData
+}
 
 //filtro ancestralidade 
 export const filterAncestry = (characters, ancestry) => {
