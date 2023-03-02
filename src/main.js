@@ -1,8 +1,6 @@
-//import { example } from './data.js';
 import {searchBar, filterAncestry, filterHouse, filterSpecie, filterGenero} from './data.js';
-//import {filterHouse} from './data.js';
-
 import harryData from './data/harrypotter/harry.js';
+
 const characters = [
   harryData.characters[323],
   harryData.characters[122],
@@ -24,23 +22,16 @@ const characters = [
   harryData.characters[658],
   harryData.characters[323]
 ];
-const ancestralidadeFilter = document.getElementById("ancestralidadeFilter"); //id do html
-const casasFilter = document.getElementById("casasFilter");
-const especieFilter = document.getElementById("especieFilter");
-const generoFilter = document.getElementById("generoFilter");
+const ancestralidadeFilter = document.getElementById("ancestralidade-filter"); //id do html
+const casasFilter = document.getElementById("casas-filter");
+const especieFilter = document.getElementById("especie-filter");
+const generoFilter = document.getElementById("genero-filter");
 
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
 const navigationHeader = document.getElementById('navigation_header');
 const content = document.getElementById('content');
 let showSidebar = false;
-//const homeBtn = document.getElementById('homeBtn')
-//const charactersBtn = document.getElementById('charactersBtn');
-//const housesBtn = document.getElementById('housesBtn');
-//const chooseCharacter = document.getElementById('message');
-//const inputSearch = document.querySelector("input[type='search']");
-
-
 
 function toggleSidebar (){
   showSidebar = !showSidebar;
@@ -100,13 +91,13 @@ function cardDrawing(character){
 
    </div>` 
 }
-
-console.log(searchBar(characters, 'harry'))
+//console.log(searchBar(characters, 'harry'))
 const cardFlip = document.querySelectorAll(".flipCard") // faz o card girar para apresentar as informações dos personagens
 cardFlip.forEach((card)=> card.addEventListener("click",()=>{
   card.classList.toggle("flipCard")
 }));
 
+//Função para printar Cards
 function cardPrinting(array){
   const cardCharacters = document.querySelector(".cardSection")
   cardCharacters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
@@ -127,63 +118,33 @@ inputSearch.addEventListener('keyup', () => {
   cardPrinting(returnCharacters)
 })
 
-//filtro ancestralidade 
+//Filtro Ancestralidade
 ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
   const value = e.target.value;	 
   const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
   //console.log(filterAncestry);
   cardPrinting(ancestryCharacters)
 });
-// // Ancestralidade
-// let cardCharacters = document.querySelector(".cardSection")
-// ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
-//   const value = e.target.value;	 
-//   const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
-//   //console.log(filterAncestry);
-//   cardCharacters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
-//   ancestryCharacters.forEach(function(character) {//forEach para percorrer todo array de character
 
-// Casas
-cardCharacters = document.querySelector(".cardSection")
+// Fitro Casa
 casasFilter.addEventListener("change", (e) => {
   const value = e.target.value;	 
-  const casaCharacters = filterHouse(characters, value);	
-  cardCharacters.innerHTML = ''; 
-  casaCharacters.forEach(function(character) {
-    cardDrawing(character)   
-  });
-  const cardFlip = document.querySelectorAll(".flipCard")
-  cardFlip.forEach((card)=> card.addEventListener("click",()=>{
-    card.classList.toggle("flipCard")
-  })) 
+  const casaCharacters = filterHouse(characters, value);
+  cardPrinting(casaCharacters)
 });
-// Espécie
-cardCharacters = document.querySelector(".cardSection")
+
+// Fitro Espécie
 especieFilter.addEventListener("change", (e) => { 
   const value = e.target.value;	 
-  const specieCharacters = filterSpecie(characters, value);	
-  cardCharacters.innerHTML = ''; 
-  specieCharacters.forEach(function(character) {
-    cardDrawing(character)   
-  });
-  const cardFlip = document.querySelectorAll(".flipCard")
-  cardFlip.forEach((card)=> card.addEventListener("click",()=>{
-    card.classList.toggle("flipCard")
-  })) 
+  const specieCharacters = filterSpecie(characters, value);
+  cardPrinting(specieCharacters)
 });
-// Gênero
-cardCharacters = document.querySelector(".cardSection")
+
+// Filtro Gênero
 generoFilter.addEventListener("change", (e) => { 
   const value = e.target.value;	 
-  const genderCharacters = filterGenero(characters, value);	
-  cardCharacters.innerHTML = ''; 
-  genderCharacters.forEach(function(character) {
-    cardDrawing(character)   
-  });
-  const cardFlip = document.querySelectorAll(".flipCard")
-  cardFlip.forEach((card)=> card.addEventListener("click",()=>{
-    card.classList.toggle("flipCard")
-  })) 
+  const genderCharacters = filterGenero(characters, value);
+  cardPrinting(genderCharacters)
 });
 
 
