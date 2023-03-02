@@ -1,5 +1,5 @@
 //Barra de pesquisa
-export const searchBar = (characters, name) => {
+export const searchBar = (characters, name) => { //function
   const searchData = characters.filter(function(character){
     return character.name.toLowerCase().includes(name.toLowerCase())
    

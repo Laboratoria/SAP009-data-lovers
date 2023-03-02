@@ -1,4 +1,4 @@
-import { data } from '../src/data.js';
+import { filterAncestry, searchBar } from '../src/data.js';
 
 
 describe('data', () => {
@@ -10,7 +10,7 @@ describe('data', () => {
 
 describe('filterAncestry', () => {
   it('deveria ser uma função', () => {
-    expect(typeof data.filterAncestry).toBe('function');
+    expect(typeof filterAncestry).toBe('function');
   });
 });
 

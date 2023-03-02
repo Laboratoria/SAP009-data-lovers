@@ -96,43 +96,32 @@ cardFlip.forEach((card)=> card.addEventListener("click",()=>{
 }))
 
 const inputSearch = document.getElementById("searchBar")
-inputSearch.addEventListener('keypress', () => {
+inputSearch.addEventListener('keyup', () => {
   console.log('teste')
   const returnCharacters = searchBar(characters, inputSearch.value)
-  returnCharacters.forEach(function(character){
-    cardDrawing(character)
-  })
+  console.log(returnCharacters)
+  cardPrinting(returnCharacters)
 })
 
-// inputSearch.addEventListener("keydown", () => {
-//   const searchCharacters = searchBar(characters, inputSearch);
-//   console.log(searchCharacters)
-//   cardDrawing(searchCharacters)
-  // cardSearch.innerHTML = '';
-  // searchCharacters.forEach(function(character) {//forEach para percorrer todo array de character
-  //   cardDrawing(character)
-  // });
-  // const cardFlip = document.querySelectorAll(".flipCard")
-  // cardFlip.forEach((card)=> card.addEventListener("click",()=>{
-  //   card.classList.toggle("flipCard")
-  // })) 
-//});
-
-
-//filtro ancestralidade 
-const cardCharacters = document.querySelector(".cardSection")
-ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
-  const value = e.target.value;	 
-  const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
-  //console.log(filterAncestry);
+function cardPrinting(array){
+  const cardCharacters = document.querySelector(".cardSection")
   cardCharacters.innerHTML = ''; // "limpa" todos os cards que estão na tela, assim o filtro irá apresentar os cards de acordo com a seleção
-  ancestryCharacters.forEach(function(character) {//forEach para percorrer todo array de character
+  array.forEach(function(character) {//forEach para percorrer todo array de character
     cardDrawing(character)   
   });
   const cardFlip = document.querySelectorAll(".flipCard")
   cardFlip.forEach((card)=> card.addEventListener("click",()=>{
     card.classList.toggle("flipCard")
   })) 
+}
+
+//filtro ancestralidade 
+
+ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
+  const value = e.target.value;	 
+  const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
+  //console.log(filterAncestry);
+  cardPrinting(ancestryCharacters)
 });
 
 //filtro Casas
