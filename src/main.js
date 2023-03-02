@@ -1,4 +1,4 @@
-import {searchBar, filterAncestry, filterHouse, filterSpecie, filterGenero} from './data.js';
+import {searchBar, orderFilterA, orderFilterZ, filterAncestry, filterHouse, filterSpecie, filterGenero, } from './data.js';
 import harryData from './data/harrypotter/harry.js';
 
 const characters = [
@@ -20,12 +20,15 @@ const characters = [
   harryData.characters[2],
   harryData.characters[42],
   harryData.characters[658],
-  harryData.characters[323]
 ];
+
+
 const ancestralidadeFilter = document.getElementById("ancestralidade-filter"); //id do html
 const casasFilter = document.getElementById("casas-filter");
 const especieFilter = document.getElementById("especie-filter");
 const generoFilter = document.getElementById("genero-filter");
+const ordenacaoFilter = document.getElementById("ordenacao");
+const oacanedro = document.getElementById("oacanedro");
 
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
@@ -146,4 +149,32 @@ generoFilter.addEventListener("change", (e) => {
   cardPrinting(genderCharacters)
 });
 
+console.log(generoFilter)
+
+ordenacaoFilter.addEventListener("click", () => {
+ 
+  const orderCharacters = orderFilterA(characters);
+  cardPrinting(orderCharacters)
+});
+
+oacanedro.addEventListener("click", () => {
+ 
+  const orderCharacters = orderFilterZ(characters);
+  cardPrinting(orderCharacters)
+});
+
+
+// characters.sort (function (a,b){
+//   if (a.name > b.name) {
+//     return 1;
+//   }
+//   if (a.name < b.name) {
+//     return -1;
+//   }
+//   return 0;
+  
+// });
+
+// cardPrinting(characters);
+// console.log(characters)
 
