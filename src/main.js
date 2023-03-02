@@ -26,13 +26,6 @@ const btnFechar = document.getElementById('closeSidebar');
 const navigationHeader = document.getElementById('navigation_header');
 const content = document.getElementById('content');
 let showSidebar = false;
-//const homeBtn = document.getElementById('homeBtn')
-//const charactersBtn = document.getElementById('charactersBtn');
-//const housesBtn = document.getElementById('housesBtn');
-//const chooseCharacter = document.getElementById('message');
-//const inputSearch = document.querySelector("input[type='search']");
-
-
 
 function toggleSidebar (){
   showSidebar = !showSidebar;
@@ -89,19 +82,10 @@ function cardDrawing(character){
    </div>` 
 }
 
-console.log(searchBar(characters, 'harry'))
 const cardFlip = document.querySelectorAll(".flipCard") // faz o card girar para apresentar as informações dos personagens
 cardFlip.forEach((card)=> card.addEventListener("click",()=>{
   card.classList.toggle("flipCard")
 }))
-
-const inputSearch = document.getElementById("searchBar")
-inputSearch.addEventListener('keyup', () => {
-  console.log('teste')
-  const returnCharacters = searchBar(characters, inputSearch.value)
-  console.log(returnCharacters)
-  cardPrinting(returnCharacters)
-})
 
 function cardPrinting(array){
   const cardCharacters = document.querySelector(".cardSection")
@@ -114,6 +98,13 @@ function cardPrinting(array){
     card.classList.toggle("flipCard")
   })) 
 }
+
+//barra de pesquisa
+const inputSearch = document.getElementById("searchBar")
+inputSearch.addEventListener('keyup', () => {
+  const returnCharacters = searchBar(characters, inputSearch.value)
+  cardPrinting(returnCharacters)
+})
 
 //filtro ancestralidade 
 

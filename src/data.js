@@ -31,7 +31,5 @@ export const filterHouse = (characters, house) => {
 }
 
 
-// export const anotherExample = () => {
-//   return 'OMG';
-// };
+
 

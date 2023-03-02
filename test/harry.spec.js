@@ -1,12 +1,17 @@
-import { filterAncestry, searchBar } from '../src/data.js';
+import { searchBar, filterAncestry, filterHouse} from '../src/data.js';
 
 
-describe('data', () => {
-  it('deveria ser um objeto', () => {
-    expect(typeof data).toBe('object');
+describe('searchBar', () => {
+  it('deveria ser uma função', () => {
+    expect(typeof searchBar).toBe('function');
   });
 });
 
+describe('', () => {
+  it('', () => {
+    expect().toBe('');
+  });
+});
 
 describe('filterAncestry', () => {
   it('deveria ser uma função', () => {
@@ -14,4 +19,8 @@ describe('filterAncestry', () => {
   });
 });
 
-describe()
+describe('filterHouse', () => {
+  it('deveria ser uma função', () => {
+    expect(typeof filterHouse).toBe('function');
+  });
+});
