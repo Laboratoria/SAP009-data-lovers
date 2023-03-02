@@ -1,4 +1,4 @@
-import { ordenar, preencherModal, resultadoDoFiltro } from './data.js';
+import { ordenar, preencherModal, filtroProdutor, filtroDiretor} from './data.js';
 
 import data from './data/ghibli/ghibli.js';
 
@@ -14,27 +14,19 @@ function renderizaPoster (posteres){
 }
 renderizaPoster(filmes)
 
+function coletarScore (filmes, score) {
+  const rtScore = filmes.filter((item) => listaScore(item, score))
+  return rtScore
+}
+function listaScore(item) {
+  return item.rt_score
+}
+coletarScore(filmes, filmes.score)
+console.log(coletarScore(filmes, filmes.score))
+
+
 const todosPosteresDoHtml = document.querySelectorAll(".filme")  // selecionando todos os posteres e colocando dentro da variável
-todosPosteresDoHtml.forEach((umPosterDoHtml) => umPosterDoHtml.addEventListener("click",(event)=>{  // fazendo um loop nessa seleção de todos os posteres e adicionando o evento de clique para cada poster do html
-  informacoes.innerHTML = preencherModal(event.target)
-  // event.target -> identifica em que poster aconteceu o clique 
-  // preencherModal -> chamando a função preencherModal e enviando o parametro event.target 
-  
-  bloco.showModal();
-}))
-
-const seletorDeFiltro = document.getElementById("filtroProdutor")
-seletorDeFiltro.addEventListener('change', function(event){
-  const filmesFiltrados = resultadoDoFiltro(filmes, event.target.value)
-  renderizaPoster(filmesFiltrados)
-})
-
-const seletorDeOrdem = document.getElementById("ordem")
-seletorDeOrdem.addEventListener('change', function(event){
-  const posteresOrdenados = ordenar(filmes, event.target.value)
-  renderizaPoster(posteresOrdenados)
-
-  const todosPosteresDoHtml = document.querySelectorAll(".filme")
+function renderizaModal (todosPosteresDoHtml){
   todosPosteresDoHtml.forEach((umPosterDoHtml)=> umPosterDoHtml.addEventListener("click",(event)=>{
     informacoes.innerHTML = preencherModal(filmes, event.target)
     // event.target -> identifica em que poster aconteceu o clique 
@@ -43,9 +35,45 @@ seletorDeOrdem.addEventListener('change', function(event){
     bloco.showModal();
   }
   ))
+}
+renderizaModal(todosPosteresDoHtml)
+
+todosPosteresDoHtml.forEach((umPosterDoHtml) => umPosterDoHtml.addEventListener("click",(event)=>{  // fazendo um loop nessa seleção de todos os posteres e adicionando o evento de clique para cada poster do html
+  informacoes.innerHTML = preencherModal(event.target)
+  // event.target -> identifica em que poster aconteceu o clique 
+  // preencherModal -> chamando a função preencherModal e enviando o parametro event.target 
+  
+  bloco.showModal();
+}))
+
+const seletorDeOrdem = document.getElementById("ordem")
+seletorDeOrdem.addEventListener('change', function(event){
+  const posteresOrdenados = ordenar(filmes, event.target.value)
+  renderizaPoster(posteresOrdenados)
+
+  const todosPosteresDoHtml = document.querySelectorAll(".filme")
+  renderizaModal(todosPosteresDoHtml)
 })
 
-//teste modal-dialog:
+const seletorDeFiltroP = document.getElementById("filtroProdutor")
+seletorDeFiltroP.addEventListener('change', function(event){
+  const filmesFiltrados = filtroProdutor(filmes, event.target.value)
+  renderizaPoster(filmesFiltrados)
+
+  const todosPosteresDoHtml = document.querySelectorAll(".filme")
+  renderizaModal(todosPosteresDoHtml)
+})
+
+const seletorDeFiltroD = document.getElementById("filtroDiretor")
+seletorDeFiltroD.addEventListener('change', function(event){
+  const filmesFiltrados = filtroDiretor(filmes, event.target.value)
+  renderizaPoster(filmesFiltrados)
+
+  const todosPosteresDoHtml = document.querySelectorAll(".filme")
+  renderizaModal(todosPosteresDoHtml)
+})
+
+//modal-dialog:
 
 const fechar = document.querySelector(".fechar")
 const bloco = document.getElementById("bloco")

@@ -49,11 +49,20 @@ export const preencherModal = (filmes, posterClicado) => {
   <p><strong>Personagens:</strong> ${personagens}</p>`
 }
 
-export function resultadoDoFiltro (filmes, nome) {
+export function filtroProdutor (filmes, nome) {
   const filmesFiltradosPorProdutor = filmes.filter((item) => filtrarPorProdutor(item, nome))
   return filmesFiltradosPorProdutor
 }
 
 function filtrarPorProdutor(item, nome) {
   return item.producer === nome
+}
+
+export function filtroDiretor (filmes, nome) {
+  const filmesFiltradosPorDiretor = filmes.filter((item) => filtrarPorDiretor(item, nome))
+  return filmesFiltradosPorDiretor
+}
+
+function filtrarPorDiretor(item, nome) {
+  return item.director === nome
 }
