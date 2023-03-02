@@ -18,7 +18,7 @@
 }
   
 body {
-    background-image: linear-gradient(to bottom, #d2d3fd, #f7f1e0, #f9dae2);
+    background-image: linear-gradient(to bottom, #c0c1fe, #f7edd1, #fac9d5);
     height: 100%;
     background-attachment: fixed;
 	font-family: 'quicksand', sans-serif;
@@ -82,13 +82,12 @@ p {
 }
 
 
-
 input, select {
 	border-radius: 5px;
 	padding: 2px;
 	display: flex;
 	gap: 0.5rem;
-  }
+  } 
 
  /* destaque em negrito */
 #plus {
