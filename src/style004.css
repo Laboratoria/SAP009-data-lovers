@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Harry";
+    src: url("HARRYP__.TTF") format("truetype");
+}
+body {
+    background-image: url(harry.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+h1 {
+    text-align: center;
+    font-family: "Harry";
+    font-size: 50px;
+    color: rgb(238, 185, 52);
+    font-weight: normal;
+    margin-top: 10px;
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+}
+#letraInicial {
+    display: block;
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin: auto;
+}
+#botaoFeiticos {
+    background-color: rgb(238, 185, 52);
+    color: black;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-container-feiticos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-feiticos {
+    width: 450px;
+    min-height: 200px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #ccc;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+  
+.card-info-feiticos {
+    padding: 20px;
+    transform: rotateY(0deg);
+    
+    
+}
+.card-info-feiticos h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: "Harry";
+    color: rgb(238, 185, 52);
+    text-shadow:
+      -1px -1px 0px rgb(25, 12, 48),
+      -1px 1px 0px rgb(47, 21, 77),
+       1px -1px 0px rgb(36, 19, 77),
+       1px 0px 0px rgb(39, 16, 75);
+    letter-spacing: 2px;
+}
+.card-info-feiticos p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -1px -1px 0px rgb(25, 12, 48),
+        -1px 1px 0px rgb(47, 21, 77),
+         1px -1px 0px rgb(36, 19, 77),
+         1px 0px 0px rgb(39, 16, 75)
+}
+.card-info-feiticos a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009688;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
