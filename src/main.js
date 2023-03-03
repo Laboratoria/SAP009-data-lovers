@@ -1,6 +1,7 @@
 import {filtrarNome} from './data.js';
 import {filtrarTipo} from './data.js';
 import {filtrarRegiao} from './data.js';
+import {calcPorcentagem} from './data.js';
 
 import data from './data/pokemon/pokemon.js';
 // import data from './data/rickandmorty/rickandmorty.js';
@@ -11,6 +12,7 @@ const mostrarPokemonTela = document.getElementById("inserirCards");
 const filtrarNomesPokemons = document.getElementById("buscarPokemon");
 const selecionarTipo = document.getElementById("selecionarTipo");
 const selecionarRegiao = document.getElementById("regiaoPokemon");
+const porcentagemTipo = document.getElementById("porcentagem-tipo");
 
 
 
@@ -45,6 +47,7 @@ function mostrarPokemon(data) {
 }
 mostrarPokemon (pokemons)
 
+
 filtrarNomesPokemons.addEventListener("keyup", () => {
   const nome = filtrarNomesPokemons.value;
   const procurarPokemon = filtrarNome (pokemons, nome);
@@ -55,6 +58,14 @@ selecionarTipo.addEventListener("change", () => {
   const tipo = selecionarTipo.value;
   const tipoPokemon = filtrarTipo (pokemons, tipo);
   mostrarPokemon.innerHTML = mostrarPokemon(tipoPokemon);
+  const tipoPorcentagem = calcPorcentagem(
+    pokemons.length,
+    tipoPokemon.length
+  );
+  
+  porcentagemTipo.innerHTML = 
+    Math.round(tipoPorcentagem) + "% dos Pokémons são desse tipo"
+    //  Math.round é uma função que retorna o valor de um número arredondado para o inteiro mais proximo
 });
 
 

@@ -28,7 +28,7 @@
           <li>151 pokémons</li>
           <input id = "buscarPokemon" type="search" class = "buscar-pokemon" placeholder="Pesquise seu pokémon">
           <li>Tipo</li>
-          <select name = "tipo" id = selecionarTipo> Selecione >
+          <select name = "tipo"  class = "selecionar-tipo" id = "selecionarTipo"> Selecione 
               <option value disable selected>Selecione</option>
               <option value = "water">Água</option>
               <option value = "bug">Inseto</option>
@@ -48,7 +48,7 @@
           </select> 
 
           <li>Região</li>
-          <select name = "Região" id = regiaoPokemon>
+          <select name = "Região" id = "regiaoPokemon">
             <option value disable selected>Selecione</option>
             <option value = "Kanto">Kanto</option>
             <option value = "Johto">Johto</option>
@@ -65,10 +65,13 @@
           <p id="texto-menu"> Aqui, você encontra todos os 151 Pokémons da região de Kanto. <br>
             Use o menu da lateral esquerda para filtrar de acordo com as suas necessidades.</p>
         </div> 
-      </section>
-      <section class = "cards-pokemons" id ="inserirCards">
-      </section>
+        <div class = "texto-porcentagem">
+          <p id = "porcentagem-tipo"></p>
+        </div>
+       <div class = "cards-pokemons" id ="inserirCards">
+       </div>
       <button id="myBtn" title="Subir para o topo">Topo</button>
+     </section>
      
       <footer></footer>
     </main>

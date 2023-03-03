@@ -11,6 +11,9 @@ export const filtrarTipo = (pokemons, type) => {
   return tipoFiltrado;
 };
 
+export const calcPorcentagem = (pokemonsLength, typeLength) =>
+  (typeLength / pokemonsLength) * 100 
+
 export const filtrarRegiao = (pokemons, regiao) => {
   const regiaoFiltrado = pokemons.filter(item =>
     item.generation.name === regiao);
