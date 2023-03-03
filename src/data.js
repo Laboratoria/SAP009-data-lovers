@@ -1,50 +1,35 @@
-import data from './data/ghibli/ghibli.js';
-
-export const ordenar = (ordem) => {
-  let posteresOrdenados = ''
+export const ordenar = (films, ordem) => {
 
   if(ordem === 'deAZ') {
-    const deAZ = data.films.sort((a,b) => a.title.localeCompare(b.title))
-    deAZ.map(function(item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}" data-id="${item.id}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
-    })
+    return films.sort((a,b) => a.title.localeCompare(b.title))
+
   }
 
   if(ordem === 'deZA') {
-    const deZA = data.films.sort((a,b) => b.title.localeCompare(a.title))
-    deZA.map(function(item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}" data-id="${item.id}">`;
-    })
+    return films.sort((a,b) => b.title.localeCompare(a.title))
+   
   }
 
   if(ordem === 'crescente') {
-    const crescente = data.films.sort((a,b) => a.release_date.localeCompare(b.release_date));
-    crescente.map(function(item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}" data-id="${item.id}">`;
-    })
+    return films.sort((a,b) => a.release_date.localeCompare(b.release_date));
+    
   }
 
   if(ordem === 'decrescente') {
-    const decrescente = data.films.sort((a,b) => b.release_date.localeCompare(a.release_date));
-    decrescente.map(function(item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}" data-id="${item.id}">`;  // mapeando o array filmes e devolve na let posteres todos os itens com nome poster dentro do arquivo ghibli.js
-    })
+    return films.sort((a,b) => b.release_date.localeCompare(a.release_date));
+  
   }
 
   if(ordem === 'score') {
-    const score = data.films.sort((a,b) => Number(b.rt_score) - Number(a.rt_score));
-    score.map(function(item) {
-      posteresOrdenados += `<img class="filme" src="${item.poster}" data-id="${item.id}">`;
-    })
+    return films.sort((a,b) => Number(b.rt_score) - Number(a.rt_score));
+   
   }
-  
-  return posteresOrdenados
 };
 
-export const preencherModal = (posterClicado) => {
+export const preencherModal = (filmes, posterClicado) => {
   const idDoFilmeClicado = posterClicado.getAttribute('data-id')  // pegando o id do poster (que está num data-attribute) para identificar exatamente qual é o filme
 
-  const [informacoesDoFilmeCLicado] = data.films.filter((filme) => filme.id === idDoFilmeClicado)
+  const [informacoesDoFilmeCLicado] = filmes.filter((filme) => filme.id === idDoFilmeClicado)
 
   let personagens = ''
   informacoesDoFilmeCLicado.people.forEach((personagem, index) => {
@@ -57,28 +42,27 @@ export const preencherModal = (posterClicado) => {
 
   return `<h1>${informacoesDoFilmeCLicado.title}</h1>
   <p>${informacoesDoFilmeCLicado.description}</p>
-  <p>Director: ${informacoesDoFilmeCLicado.director}</p>
-  <p>Producer: ${informacoesDoFilmeCLicado.producer}</p>
-  <p>Release Year: ${informacoesDoFilmeCLicado.release_date}</p>
-  <p>RT Score: ${informacoesDoFilmeCLicado.rt_score}</p>
-  <p>Personagens: ${personagens}</p>`
+  <p><strong>Director:</strong> ${informacoesDoFilmeCLicado.director}</p>
+  <p><strong>Producer:</strong> ${informacoesDoFilmeCLicado.producer}</p>
+  <p><strong>Release Year:</strong> ${informacoesDoFilmeCLicado.release_date}</p>
+  <p><strong>RT Score:</strong> ${informacoesDoFilmeCLicado.rt_score}</p>
+  <p><strong>Personagens:</strong> ${personagens}</p>`
 }
 
-// export const Exemplo = {
-//   ordenado : function (todosFilmes,oque,ordem) {
-//     todosFilmes.sort((a,b) => a.oque - b.oque)
-//     ordem.map(function(item){
-//       console.log(item.poster)
-//       return item.poster;
-//     })}
-// };
+export function filtroProdutor (filmes, nome) {
+  const filmesFiltradosPorProdutor = filmes.filter((item) => filtrarPorProdutor(item, nome))
+  return filmesFiltradosPorProdutor
+}
 
-// export const Filtro ={
-//   filtrar : function (arrayPrincipal,nomeDesejado){
-//   const result = arrayPrincipal.filter(filtrarPeloNome)
-//   },
-//   function : filtrarPeloNome(nome){
-//     return nome;
-//   }
-//   console.log(result)
-// }
+function filtrarPorProdutor(item, nome) {
+  return item.producer === nome
+}
+
+export function filtroDiretor (filmes, nome) {
+  const filmesFiltradosPorDiretor = filmes.filter((item) => filtrarPorDiretor(item, nome))
+  return filmesFiltradosPorDiretor
+}
+
+function filtrarPorDiretor(item, nome) {
+  return item.director === nome
+}
