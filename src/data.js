@@ -2,27 +2,22 @@ export const ordenar = (films, ordem) => {
 
   if(ordem === 'deAZ') {
     return films.sort((a,b) => a.title.localeCompare(b.title))
-
   }
 
   if(ordem === 'deZA') {
-    return films.sort((a,b) => b.title.localeCompare(a.title))
-   
+    return films.sort((a,b) => b.title.localeCompare(a.title)) 
   }
 
   if(ordem === 'crescente') {
-    return films.sort((a,b) => a.release_date.localeCompare(b.release_date));
-    
+    return films.sort((a,b) => a.release_date.localeCompare(b.release_date));  
   }
 
   if(ordem === 'decrescente') {
     return films.sort((a,b) => b.release_date.localeCompare(a.release_date));
-  
   }
 
   if(ordem === 'score') {
     return films.sort((a,b) => Number(b.rt_score) - Number(a.rt_score));
-   
   }
 };
 
@@ -30,7 +25,6 @@ export const preencherModal = (filmes, posterClicado) => {
   const idDoFilmeClicado = posterClicado.getAttribute('data-id')  // pegando o id do poster (que está num data-attribute) para identificar exatamente qual é o filme
 
   const [informacoesDoFilmeCLicado] = filmes.filter((filme) => filme.id === idDoFilmeClicado)
-
   let personagens = ''
   informacoesDoFilmeCLicado.people.forEach((personagem, index) => {
     if (index === informacoesDoFilmeCLicado.people.length - 1) {
@@ -39,7 +33,6 @@ export const preencherModal = (filmes, posterClicado) => {
       personagens += `${personagem.name}, `
     }
   })
-
   return `<h1>${informacoesDoFilmeCLicado.title}</h1>
   <p>${informacoesDoFilmeCLicado.description}</p>
   <p><strong>Director:</strong> ${informacoesDoFilmeCLicado.director}</p>
