@@ -1,3 +1,5 @@
+/* CONFIGURAÇÃO GERAL */
+
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 *{
@@ -11,20 +13,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo {
-  width: 120px;
-  height: 120px;
-  
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
 }
 
-header {
-height: 10vh;
-display: flex;
-justify-content: space-evenly;
+.logo {
+  display: flex;
+  width: 120px;
+  height: 120px;
 }
 
 h1 {
 padding: 1.0%;  
+margin-left: 50px;
 font-family: 'Luckiest Guy';
 font-style: normal;
 font-weight: 400;
@@ -35,78 +38,54 @@ color: #009846;
 -webkit-text-stroke-color: #070F59;
 }
 
-/*Barra de busca*/
-.divSearch {
-  height: 8vh;
-  padding: 1.5%;
-  gap: 5px;
-}
-
-input {
-  height: 3.8vh;
-  width: 250px;
-  padding: 1.5px;
-  border: none;
+#return {
+  background: #FF9800;
+  border: 2px solid #F5F5F5;
+  margin-top: 25px;
+  width: 120px;
+  height: 40px;
   border-radius: 20px;
   text-align: center;
-  font-size: 15pt;
-  outline: 0;
-  list-style: none;
-  cursor: pointer;
+}
+
+h3 {
+  color: #F5F5F5;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+footer {
+  padding: 0.5%;
+  text-align: center;
+}
+
+.copyright {
+  color: #070F59;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  place-items: center;
 }
 
 .centralStructure {
   display: grid;
   margin: 0 auto;
-	background: #F5F5F5;
-  border-radius: 30px;
-  width: 1700px; 
+  grid-template-rows: repeat(auto-fill, minmax(min(10rem, 100%), 3, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 3, 1fr));
+  justify-content: space-evenly;
+  column-gap: 100px;
+  row-gap: 20px;
   height: 800px;
-}
-
-#video {
-  border: 50px solid #F5F5F5;
-  width: 950px;
-  height: 420px;
-  border-radius: 30px;
-  grid-column: 1;
-}
-
- #imageMascots {
-  border: 50px solid #F5F5F5;
-  width: 550px;
-  height: 450px;
-  border-radius: 30px;
-  grid-column: 2;
-}
-
-#imageMascots2 {
-  padding-top: 10%;
-  width: 800px;
-  height: 660px;
-  grid-column: 2;
-}
-
-#yellowBackground1 { 
-  display: grid; 
-  margin: 0 auto;
-  background-color: #FEFC89;
   width: 1700px;
-  height: 350px;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 30px;
+  background-color: #F5F5F5;
 }
-
-#yellowBackground3 { 
-  display: grid;
-  margin: 5%; 
-  grid-gap: 5px;
-  background-color: #FEFC89;
-  width: 1000px;
-  height: 180px;
-  border-radius: 20px;
-}
-
-.paragraphs1 {
+.paragraphs {
   padding: 3.5%;
   font-size: 30px;
   line-height: 36px;
@@ -114,22 +93,118 @@ input {
   grid-gap: 3.5px;
 }
 
-#yellowBackground4 { 
-  display: grid;
-  position: absolute;
-  bottom: 15%;
-  left: 22%;
-  grid-gap: 5px;
-  background-color: #FEFC89;
-  width: 500px;
-  height: 130px;
-  border-radius: 20px;
+#selectCountry , #selectOrder, #selectAge, #selectGender , #selectMedal , #selectSport , #okButton , #okButton2 , #okButton3  {
+  font-family: 'Luckiest Guy';
+  color: #F5F5F5;
+  font-size: 20px;
+  text-align: center;
 }
 
-.buttons {
+table {
+    position: absolute;
+    top: 92px; 
+    left: 0;
+    z-index: 9999; 
+    width: 100%;
+    height: 800px;
+    width: 1720px;
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  tr {
+  color:#070F59
+  }
+  
+  td, th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid;
+  }
+  
+  th {
+    font-family: 'Luckiest Guy';
+    background-color: #48C26E;
+    font-size: 25px;
+  }
+
+/* CONFIGURAÇÃO PÁGINA HOME */
+
+#initial{
+  justify-content: start;
+  margin-right: 750px;
+}
+
+.video {
+  grid-row: 1 / span 2;
+	grid-column: 1 / span 2;
+  width: 950px;
+  height: 430px;
+  border-radius: 30px;
+  margin-left: 80px;
+  margin-top: 60px;
+  background-image: url('abertura.gif');
+  background-size: cover;
+}
+
+.imageMascots {
+  grid-row: 1 / span 1;
+	grid-column: 3 / span 1;
+  width: 550px;
+  height: 450px;
+  border-radius: 30px;
+  margin-right: 50px;
+  margin-top: 50px;
+  background-image: url('mascotes1.jpg');
+  background-size: cover;
+}
+
+.button1 {
+  grid-row: 2;
+  grid-column: 1;
+  justify-self: end;
+}
+
+.button2 {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self: end;
+}
+
+.button3 {
+  grid-row: 2;
+  grid-column: 3;
+  justify-self: center;
+}
+
+.button4 {
+  grid-row: 3;
+  grid-column: 1;
+  justify-self: end;
+}
+
+.button5 {
+  grid-row: 3;
+  grid-column: 2;
+  justify-self: end;
+}
+
+.button6 {
+  grid-row: 3;
+  grid-column: 3;
+  justify-self: center;
+}
+
+.button1 , .button2 , .button3 , .button4 , .button5 , .button6 {
+ 
   background: #48C26E;
-  width: 300px;
-  height: 95px;
+  width: 380px;
+  height: 90px;
   border-radius: 30px;
   cursor: pointer;
 }
@@ -139,17 +214,66 @@ h2 {
   color: #F5F5F5;
   text-align: center;
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 a {
   text-decoration: none;
 }
 
-.dataButtons {
+/*.yellowBackground1{
+  grid-row: 1;
+  grid-column: 3;
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 10px;
+  background-color: #FEFC89;
+  width: 1700px;
+  height: 350px;
+  border-radius: 0px 0px 20px 20px;
+}*/
+
+/* CONFIGURAÇÃO PÁGINA OLÍMPIADAS */
+
+#yellowBackground2 { 
+  display: grid;
+  position: absolute;
+  margin: 3%; 
+  left: 8%;
+  grid-gap: 5px;
+  background-color: #FEFC89;
+  width: 1500px;
+  height: 230px;
+  border-radius: 20px;
+}
+
+#imageOlympics {
+  padding-top: 35%;
+  width: 500;
+  height: 450px;
+  grid-row: 15;
+  grid-column: 4;
+}
+
+#yellowBackground3 { 
+  display: grid;
+  position: absolute;
+  bottom: 8%;
+  left: 12%;
+  grid-gap: 5px;
+  background-color: #FEFC89;
+  width: 700px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.dataButtons1 {
+  position: absolute;
+  bottom: 45%;
+  left: 20%;
   background: #48C26E;
-  width: 260px;
-  height: 50px;
+  width: 360px;
+  height: 60px;
   border-radius: 20px;
   text-align: center;
   font-size: 14px;
@@ -157,14 +281,81 @@ a {
 
 .dataButtons2 {
   position: absolute;
-  bottom: 52%;
-  left: 16%;
+  bottom: 37%;
+  left: 20%;
   background: #48C26E;
   width: 360px;
   height: 60px;
   border-radius: 20px;
   text-align: center;
   font-size: 14px;
+}
+#okButton {
+  position: absolute;
+  bottom: 30%;
+  left: 27%;
+  background: #48C26E;
+  width: 90px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+ #aggregateCalculation{
+ display: grid;
+ position: absolute;
+ font-family: 'Luckiest Guy';
+ color: #070F59;
+ font-size: 35px;
+ bottom: 40%;
+ margin-left: 52%;
+ text-align: center;
+}
+
+#selectTheOptions1 {
+  display: grid;
+  position: absolute;
+  font-family: 'Luckiest Guy';
+  color: #000000;
+  margin-left: 2%;
+  font-size: 30px;
+  bottom: 53%;
+}
+
+/* CONFIGURAÇÃO PÁGINA PARTICIPANTES */
+
+#yellowBackground4 { 
+  display: grid;
+  position: absolute;
+  margin-top: 3%; 
+  left: 10%;
+  grid-gap: 5px;
+  background-color: #FEFC89;
+  width: 1000px;
+  height: 180px;
+  border-radius: 20px;
+}
+
+#imageMascots2 {
+  padding-top: 10%;
+  width: 800px;
+  height: 660px;
+  grid-column: 12;
+} 
+
+#yellowBackground5 { 
+  display: grid;
+  position: absolute;
+  margin-top: 30%; 
+  left: 22%;
+  grid-gap: 5px;
+  background-color: #FEFC89;
+  width: 500px;
+  height: 130px;
+  border-radius: 20px;
 }
 
 .dataButtons3 {
@@ -202,50 +393,118 @@ a {
   text-align: center;
   font-size: 14px;
 }
-
-.paragraphs {
-  background-color: #FEFC89;
-  border-radius: 30px;
-  font-size: 30px;
-  line-height: 36px;
+#okButton2 {
+  position: absolute;
+  bottom: 25%;
+  left: 30%;
+  background: #48C26E;
+  width: 90px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
   text-align: center;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-#return {
-  background: #FF9800;
-  border: 2px solid #F5F5F5;
-  margin-top: 25px;
-  width: 120px;
-  height: 40px;
+/*#selectTheOptions2 {
+  display: grid;
+  position: absolute;
+  font-family: 'Luckiest Guy';
+  color: #000000;
+  margin-left: 2%;
+  font-size: 30px;
+  bottom: 53%;
+}/*
+
+/* CONFIGURAÇÃO PÁGINA MODALIDADES */
+
+#yellowBackground6 { 
+  display: grid;
+  position: absolute;
+  margin: 3%; 
+  left: 13%;
+  grid-gap: 5px;
+  background-color: #FEFC89;
+  width: 1300px;
+  height: 180px;
+  border-radius: 20px;
+}
+#imageMascots3 {
+  padding-top: 35%;
+  width: 900px;
+  height: 480px;
+  grid-row: 1;
+  grid-column: 8;
+}
+
+#yellowBackground7 { 
+  display: grid;
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
+  grid-gap: 5px;
+  background-color: #FEFC89;
+  width: 700px;
+  height: 160px;
+  border-radius: 20px;
+}
+.dataButtons6 {
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  background: #48C26E;
+  width: 360px;
+  height: 60px;
   border-radius: 20px;
   text-align: center;
+  font-size: 14px;
 }
-
-h3 {
-  color: #F5F5F5;
+.dataButtons7 {
+  position: absolute;
+  bottom: 42%;
+  left: 20%;
+  background: #48C26E;
+  width: 360px;
+  height: 60px;
+  border-radius: 20px;
   text-align: center;
-  font-size: 20px;
-  margin-top: 8px;
+  font-size: 14px;
 }
-
-.icons {
-  color: white;
-}
-
-footer {
-  padding: 4%;
+.dataButtons8 {
+  position: absolute;
+  bottom: 34%;
+  left: 20%;
+  background: #48C26E;
+  width: 360px;
+  height: 60px;
+  border-radius: 20px;
   text-align: center;
+  font-size: 14px;
 }
 
-.copyright {
-  color: #070F59;
-  font-size: 18pt;
-  font-weight: bold;
+#okButton3 {
+  position: absolute;
+  bottom: 27%;
+  left: 27%;
+  background: #48C26E;
+  width: 90px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+} 
+#selectTheOptions3 {
+  display: grid;
+  position: absolute;
+  font-family: 'Luckiest Guy';
+  color: #000000;
+  margin-left: 2%;
+  font-size: 30px;
+  bottom: 58%;
 }
-
-#selectCountry , #selectOrder, #selectLetter, #selectAge, #selectGender {
-font-family: 'Luckiest Guy';
-color: #F5F5F5;
-font-size: 20px;
-text-align: center;
-}
+/* CONFIGURAÇÃO PÁGINA CURIOSIDADES */
+/* CONFIGURAÇÃO PÁGINA PARALÍMPIADAS */
+/* CONFIGURAÇÃO PÁGINA TORNE-SE UM ATLETA */

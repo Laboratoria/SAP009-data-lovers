@@ -14,9 +14,58 @@
 
   <body>
 
-<h1> MODALIDADES </h1>
+    <header>
+      <img class="logo" src="logorio.jpg" alt="Logo Rio 2016"> <h1> MODALIDADES </h1>
+  
+      <button id="return" type="button"> <a href="index.html"> <h3> Voltar </h3> </a> </button>
+    </header>
+  
+  <div class="centralStructure"> 
 
-<div id="root"></div>
-    <script src="main.js" type="module"></script>
+    <div id="yellowBackground6">
+      <p class="paragraphs"> As Olimpíadas Rio 2016 contou com 39 esportes! Foram 306 provas diferentes, <br> sendo 136 modalidades femininas e 161 masculinas. <br>  Veja abaixo todas as modalidades e as medalhas conquistadas: </p></div>
+
+        <img id="imageMascots3" src="vinicius2.png" alt="Mascotes Vinicius Rio 2016">
+
+        <div id="yellowBackground7">
+          <p class="paragraphs"> O Time Brasil fechou sua participação com o recorde de 19 medalhas, sendo 7 de ouro, <br> 6 de prata e 6 de bronze! </p></div>
+
+          <div id="selectTheOptions3"></div>
+
+          <select class="dataButtons6" id="selectMedal">
+            <option disabled selected value=""> Selecione a medalha </option>
+
+            <option value="Gold"> Ouro </option>
+            <option value="Silver"> Prata </option>
+            <option value="Bronze"> Bronze </option>
+
+          </select>
+
+            <select class="dataButtons7" id="selectSport">
+              <option disabled selected value=""> Selecione a modalidade </option>
+            </select>
+    
+            <select class="dataButtons8" id="selectOrder">
+    
+              <option disabled selected value=""> Selecione a ordem </option>
+              <option value="a-z">A - Z</option>
+              <option value="z-a">Z - A</option>
+            </select>
+          </div>
+  </div>
+
+  <section>
+    <br>
+  <button id="okButton3" type="button"> OK </button>
+  </section>
+   
+  <div id="tableFilter"></div>
+
+    <script src="modalidades.js" type="module"></script>
+
+    <footer>
+      <p class="copyright">&copy; Desenvolvido por Danila Ramos e Vanessa Menezes - 2023</p>
+  </footer>
+  
   </body>
 </html>
