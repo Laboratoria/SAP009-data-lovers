@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Studio Ghibli</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="titulo">STUDIO GHIBLI</h1>
+    <div class="imagem_cabecalho"> <!--imagem cabeçalho--> </div>
+  </header>
+  <div class="cabecalho">
+    <p class="descricao">Studio Ghibli was founded in 1985 in Tokyo by the three men, Isao Takahata,
+      Toshio Suzuki and the well-known film producer Hayao Miyazaki. The name Studio Ghibli was based on the
+      Arabic name for "hot sahara wind" because the founders wanted Studio Ghibli to blow new wind through
+      the anime industry. At the same time Ghibli was also the name of an Italian war plane and therefore it
+      also represented Hayao Miyazaki's love for planes and for Italy.Before Miyazaki worked for Ghibli he had
+      already directed a few films like Lupin the Third: The Castle of Cagliostro and Future Boy Conan.
+      The first original movie directed by Miyazaki was Nausicaa of the Valley of the Wind in 1984.
+      Some people argue that it's not a real Ghibli production because the movie was released a year earlier
+      than the official formation of Studio Ghibli. The official first Ghibli movie was Laputa:
+      Castle in the Sky.</p>
+  </div>
+
+  <h2 class="catalogo">MOVIES</h2>
+
+  <div class="modal">
+    <dialog class="dialog" id="bloco">
+      <div class="fechar"> x </div>
+      <div class="informacoes"></div>
+    </dialog>
+  </div>
+
+  <form action="">
+    <label class="ordem" for="ordem">Order</label>
+    <select name="ordem" id="ordem">Ordem
+      <option value=""></option>
+      <option value="deAZ">A - Z</option>
+      <option value="deZA">Z - A</option>
+      <option id="crescente" value="crescente">Older</option>
+      <option id="decrescente" value="decrescente">Recent</option>
+      <option id="rt_score" value="score">Score</option>
+    </select>
+    <label class="filtro" for="filtroDiretor">Director</label>
+    <select name="filtro" id="filtroDiretor">Ordem
+      <option value=""></option>
+      <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option value="Isao Takahata">Isao Takahata</option>
+      <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+      <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+      <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+      <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+    </select>
+    <label class="filtro" for="filtroProdutor">Producer</label>
+    <select name="filtro" id="filtroProdutor">Ordem
+      <option value=""></option>
+      <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+      <option value="Isao Takahata">Isao Takahata</option>
+      <option value="Toru Hara">Toru Hara</option>
+      <option value="Toshio Suzuki">Toshio Suzuki</option>
+      <option value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+    </select>
+  </form>
+
+  <div class="filmes" id="root">
+    <div class="poster">
+      <!--posters dos filmes-->
+    </div>
+  </div>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
