@@ -55,6 +55,7 @@ export function filterSport(dataArray, key, value) {
 }
 export const brazilMedals = (dataArray, key, value) => { // ******VER O .REDUCE*****
 
+
   const brazilMedals = dataArray.filter(medal => medal[key] === value && medal.country === 'BRA'); // Filtra o array para manter apenas as medalhas do Brasil com a chave e o valor fornecidos.
   const totalMedals = dataArray.filter(medal => medal[key] === value).length; // Calcula o total de medalhas do Brasil. O length é usado para obter o tamanho do novo array, que representa o total de medalhas do Brasil. Essa quantidade é armazenada na variável totalMedals.
   const percentage = brazilMedals.length / totalMedals * 100;  // Calcula a porcentagem de medalhas do Brasil em relação ao total.
