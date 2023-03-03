@@ -27,19 +27,20 @@
       Castle in the Sky.</p>
   </div>
 
-  <h2 class="catalogo">MOVIES</h2>
+  <h2 class="catalogo">MOVIES CATALOG</h2>
 
-  <div class="descricao" id="media"></div>
+  <div class="media" id="media"></div>
 
   <div class="modal">
     <dialog class="dialog" id="bloco">
-      <div class="fechar"> x </div>
+      <div class="fechar">X</div>
       <div class="informacoes"></div>
     </dialog>
   </div>
 
-  <form action="">
-    <label class="ordem" for="ordem">Order</label>
+  <form class="seletores" action="">
+    <div>
+    <label for="ordem">Order</label>
     <select name="ordem" id="ordem">Ordem
       <option value=""></option>
       <option value="deAZ">A - Z</option>
@@ -48,7 +49,9 @@
       <option id="decrescente" value="decrescente">Recent</option>
       <option id="rt_score" value="score">Score</option>
     </select>
-    <label class="filtro" for="filtroDiretor">Director</label>
+  </div>
+  <div>
+    <label for="filtroDiretor">Director</label>
     <select name="filtro" id="filtroDiretor">Ordem
       <option value=""></option>
       <option value="Hayao Miyazaki">Hayao Miyazaki</option>
@@ -58,7 +61,9 @@
       <option value="Gorō Miyazaki">Gorō Miyazaki</option>
       <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
     </select>
-    <label class="filtro" for="filtroProdutor">Producer</label>
+  </div>
+  <div>
+    <label for="filtroProdutor">Producer</label>
     <select name="filtro" id="filtroProdutor">Ordem
       <option value=""></option>
       <option value="Hayao Miyazaki">Hayao Miyazaki</option>
@@ -67,6 +72,7 @@
       <option value="Toshio Suzuki">Toshio Suzuki</option>
       <option value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
     </select>
+  </div>
   </form>
 
   <div class="filmes" id="root">
