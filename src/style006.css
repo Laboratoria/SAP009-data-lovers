@@ -25,7 +25,7 @@ h1 {
      1px 0px 0px rgb(39, 16, 75);
 }
 
-#input-feiticos {
+#input-livros {
     display: block;
     text-align: center;
     height: 30px;
@@ -35,55 +35,50 @@ h1 {
     text-align: center;
     border-radius: 5px;
     border: none;
-    width: 100px;
+    width: 300px;
     margin: auto;
 }
 
-#botao-feiticos {
+#botao-livros {
   background-color: rgb(238, 185, 52);
   color: black;
-  font-size: 15px;
+  font-size: 16px;
   margin: 0 auto;
   display: block;
-  padding: 7px 17px;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 
 }
 
-.card-container-feiticos {
+.card-container-livros {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .card {
-  width: 450px;
-  min-height: 200px;
-  /* text-align: justify; */
-  display: inline-block;
-  /* align-items: center;
-  justify-content: center; */
-  /* perspective: 1000px; Define a perspectiva para a animação 3D */
-  /* position: relative; */
+  width: 300px;
+  height: 450px;
+  perspective: 1000px; /* Define a perspectiva para a animação 3D */
+  position: relative;
   border: 1px solid #ddd;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 0 5px #ccc;
   margin: 20px;
   background-color: rgba(255, 255, 255, 0.1)
+
 }
 
 .card-info {
-  padding: 20px;
-  /* display: inline-block; */
-  transform: rotateY(0deg);
-
-
-}
-.card-info h2 {
   text-align: center;
-  font-size: 36px;
+  transform: rotateY(0deg);
+}
+
+.card-info h2 {
+  font-size: 30px;
   margin-bottom: 10px;
   font-family: "Harry";
   color: rgb(238, 185, 52);
@@ -94,9 +89,12 @@ h1 {
      1px 0px 0px rgb(39, 16, 75);
   letter-spacing: 2px;
 }
+
 .card-info p {
+  box-sizing: border-box;
   text-align: center;
-  font-size: 14px;
+  word-wrap: break-word;
+  font-size: 15px;
   margin-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -107,6 +105,7 @@ h1 {
        1px -1px 0px rgb(36, 19, 77),
        1px 0px 0px rgb(39, 16, 75)
 }
+
 .card-info a {
   display: inline-block;
   padding: 10px 20px;
