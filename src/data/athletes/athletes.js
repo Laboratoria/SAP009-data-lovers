@@ -5,6 +5,18 @@ export default {
   "city": "Rio de Janeiro",
   "athletes": [
     {
+      "name": "William Peixoto Arjona",
+      "gender": "M",
+      "height": "186",
+      "weight": "78",
+      "sport": "Volleyball",
+      "team": "Brazil",
+      "noc": "BRA",
+      "age": 37,
+      "event": "Volleyball Men's Volleyball",
+      "medal": "Gold"
+    },
+    {
       "name": "Giovanni Abagnale",
       "gender": "M",
       "height": "198",
@@ -771,18 +783,6 @@ export default {
       "age": 19,
       "event": "Boxing Men's Light-Flyweight",
       "medal": "Bronze"
-    },
-    {
-      "name": "William Peixoto Arjona",
-      "gender": "M",
-      "height": "186",
-      "weight": "78",
-      "sport": "Volleyball",
-      "team": "Brazil",
-      "noc": "BRA",
-      "age": 37,
-      "event": "Volleyball Men's Volleyball",
-      "medal": "Gold"
     },
     {
       "name": "Kristin Ann Armstrong (-Savola)",
