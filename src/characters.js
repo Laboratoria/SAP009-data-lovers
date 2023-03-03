@@ -1,4 +1,4 @@
-import {films} from './data.js';
+/* import {films} from './data.js'; */
 import data from './data/ghibli/ghibli.js';
 
 // Função para imprimir os cards na tela
