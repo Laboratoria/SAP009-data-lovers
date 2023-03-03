@@ -35,26 +35,6 @@ color: #009846;
 -webkit-text-stroke-color: #070F59;
 }
 
-/*Barra de busca*/
-.divSearch {
-  height: 8vh;
-  padding: 1.5%;
-  gap: 5px;
-}
-
-input {
-  height: 3.8vh;
-  width: 250px;
-  padding: 1.5px;
-  border: none;
-  border-radius: 20px;
-  text-align: center;
-  font-size: 15pt;
-  outline: 0;
-  list-style: none;
-  cursor: pointer;
-}
-
 .centralStructure {
   display: grid;
   margin: 0 auto;
@@ -81,10 +61,13 @@ input {
 }
 
 #imageMascots2 {
+  position: absolute;
+  bottom: 16%;
+  right: 0%;
   padding-top: 10%;
   width: 800px;
   height: 660px;
-  grid-column: 2;
+  
 }
 
 #yellowBackground1 { 
@@ -115,11 +98,9 @@ input {
 }
 
 #yellowBackground4 { 
-  display: grid;
   position: absolute;
   bottom: 15%;
-  left: 22%;
-  grid-gap: 5px;
+  left: 24%;
   background-color: #FEFC89;
   width: 500px;
   height: 130px;
@@ -155,22 +136,10 @@ a {
   font-size: 14px;
 }
 
-.dataButtons2 {
-  position: absolute;
-  bottom: 52%;
-  left: 16%;
-  background: #48C26E;
-  width: 360px;
-  height: 60px;
-  border-radius: 20px;
-  text-align: center;
-  font-size: 14px;
-}
-
 .dataButtons3 {
   position: absolute;
-  bottom: 52%;
-  left: 36%;
+  bottom: 55%;
+  left: 26%;
   background: #48C26E;
   width: 360px;
   height: 60px;
@@ -181,8 +150,8 @@ a {
 
 .dataButtons4 {
   position: absolute;
-  bottom: 37%;
-  left: 16%;
+  bottom: 48%;
+  left: 26%;
   background: #48C26E;
   width: 360px;
   height: 60px;
@@ -193,8 +162,8 @@ a {
 
 .dataButtons5 {
   position: absolute;
-  bottom: 37%;
-  left: 36%;
+  bottom: 41%;
+  left: 26%;
   background: #48C26E;
   width: 360px;
   height: 60px;
@@ -228,10 +197,6 @@ h3 {
   margin-top: 8px;
 }
 
-.icons {
-  color: white;
-}
-
 footer {
   padding: 4%;
   text-align: center;
@@ -248,4 +213,130 @@ font-family: 'Luckiest Guy';
 color: #F5F5F5;
 font-size: 20px;
 text-align: center;
+}
+
+table {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 800px;
+  width: 1720px;
+  margin-left: 5%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  background-color: #F5F5F5;
+  font-family: 'Luckiest Guy';
+  font-size: 20;
+}
+
+tr {
+ color:#070F59
+}
+
+td, th {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid;
+}
+
+th {
+  background-color: #48C26E;
+  font-size: 25px;
+}
+
+/*Implementação do responsivo*/
+
+@media (max-width: 480px) {
+  .logo {
+    margin-top: 8px;
+    width: 60px;
+    height: 60px;
+   }
+
+   header {
+    display: flex;
+    justify-content: start;
+   }
+
+   h1 {
+    margin-top: 17px;
+    font-weight: 200px;
+    font-size: 30px;
+    line-height: 24px;
+   }
+
+   #return {
+   display: none;
+  }
+
+  .centralStructure {
+    width: auto; 
+    height: 1000px;
+  }
+
+  #yellowBackground3 { 
+    width: auto;
+    height: 190px;
+  }
+
+  .paragraphs1 {
+    padding: 3.5%;
+    font-size: 15px;
+  }
+
+  #yellowBackground4 { 
+    top: 100%;
+    left: 10%;
+    width: 80%;
+    height: 100px;
+  }
+
+  #imageMascots2 {
+    top: 115%;
+    left: 15%;
+    width: 300px;
+    height: auto;
+   }
+
+  .dataButtons3 {   
+    bottom: 48%;
+    left: 15%;
+    width: 250px;
+    height: 60px;
+  }
+  
+  .dataButtons4 {
+    bottom: 38%;
+    left: 15%;
+    width: 250px;
+    height: 60px;
+  }
+  
+  .dataButtons5 {
+    bottom: 28%;
+    left: 15%;
+    width: 250px;
+    height: 60px;
+  }
+  
+table {
+width: auto;
+height: auto;
+font-size: 10px;
+}
+
+td, th {
+  padding: 5px;
+}
+
+th {
+  font-size: 25px;
+}
+
+th {
+  font-size: 15px;
+}
+ 
 }
