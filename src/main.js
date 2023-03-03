@@ -15,6 +15,9 @@ media.innerHTML = `The average rt-score of studio Ghibli films is <strong>${medi
 
 //fazer posteres aparecerem no html:
 
+const totalScore = filmes.reduce((a, b) => a + Number(b.rt_score), 0)
+const mediaScore = totalScore / filmes.length
+
 function renderizaPoster (posteres){
   const cards = posteres.map(function (item) {
     return `<img class="filme" src="${item.poster}" data-id="${item.id}">`;  // mapeando o array filmes e retornando todos os itens com nome poster e id
