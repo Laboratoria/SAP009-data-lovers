@@ -20,7 +20,7 @@
 }
 
 .imagem_cabecalho{
-    width: 100vw;
+    width: 100%;
     height: 500px;
     background-image: url(https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/01/10220507/studio_ghibli.jpg);
     background-size: cover;
@@ -44,7 +44,7 @@
     margin-bottom: 50px;
 }
 
-.texto-media{
+.texto-media, .texto-footer{
     text-align: center;
     font-family: var(--fonte-titulo);
     margin: 20px;
@@ -145,6 +145,17 @@ img{
 
 .fechar:hover{
     cursor: pointer;
+}
+
+.footer{
+    background-color: #878787;
+    height: 55px;
+    padding: 10px;
+}
+
+.texto-footer{
+    color: white;
+    margin-top:20px;
 }
 
 @media screen and (max-width:600px) {
