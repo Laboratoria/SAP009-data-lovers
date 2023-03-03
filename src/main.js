@@ -8,15 +8,12 @@ const filmes = arrayGhibli.films
 const root = document.getElementById("root");
 const media = document.getElementById("media");
 
-// //somar valores de scores
+//somar valores de scores
 const somaScore = filmes.reduce((a,b) => a + Number(b.rt_score),0)
 const mediaScore = somaScore / filmes.length
 media.innerHTML = `The average rt-score of studio Ghibli films is <strong>${mediaScore}</strong>`
 
 //fazer posteres aparecerem no html:
-
-const totalScore = filmes.reduce((a, b) => a + Number(b.rt_score), 0)
-const mediaScore = totalScore / filmes.length
 
 function renderizaPoster (posteres){
   const cards = posteres.map(function (item) {
