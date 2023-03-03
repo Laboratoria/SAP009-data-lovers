@@ -16,7 +16,6 @@ document.querySelector('#botao').onclick = () => {
     Human: 'Humano'
   }
   filtrarPersonagens(valor).forEach((personagem) => {
-    //push é a função que joga itens pro nosso array vazio (elemtos da lista)
     elementosDaLista.push(`
     <div class="card">
         <div class="card-info">
