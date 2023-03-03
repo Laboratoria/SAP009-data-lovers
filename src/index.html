@@ -29,7 +29,7 @@
 
   <h2 class="catalogo">MOVIES</h2>
 
-  <div class="descricao" id="media"></div>
+  <div class="texto-media" id="media"></div>
 
   <div class="modal">
     <dialog class="dialog" id="bloco">
@@ -38,35 +38,43 @@
     </dialog>
   </div>
 
-  <form action="">
-    <label class="ordem" for="ordem">Order</label>
-    <select name="ordem" id="ordem">Ordem
-      <option value=""></option>
-      <option value="deAZ">A - Z</option>
-      <option value="deZA">Z - A</option>
-      <option id="crescente" value="crescente">Older</option>
-      <option id="decrescente" value="decrescente">Recent</option>
-      <option id="rt_score" value="score">Score</option>
-    </select>
-    <label class="filtro" for="filtroDiretor">Director</label>
-    <select name="filtro" id="filtroDiretor">Ordem
-      <option value=""></option>
-      <option value="Hayao Miyazaki">Hayao Miyazaki</option>
-      <option value="Isao Takahata">Isao Takahata</option>
-      <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
-      <option value="Hiroyuki Morita">Hiroyuki Morita</option>
-      <option value="Gorō Miyazaki">Gorō Miyazaki</option>
-      <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
-    </select>
-    <label class="filtro" for="filtroProdutor">Producer</label>
-    <select name="filtro" id="filtroProdutor">Ordem
-      <option value=""></option>
-      <option value="Hayao Miyazaki">Hayao Miyazaki</option>
-      <option value="Isao Takahata">Isao Takahata</option>
-      <option value="Toru Hara">Toru Hara</option>
-      <option value="Toshio Suzuki">Toshio Suzuki</option>
-      <option value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
-    </select>
+  <form class="formularios" action="">
+    <div class="options">
+      <div>
+        <label class="ordem" for="ordem">Order</label>
+        <select class="selecionar" name="ordem" id="ordem">Ordem
+          <option value=""></option>
+          <option value="deAZ">A - Z</option>
+          <option value="deZA">Z - A</option>
+          <option id="crescente" value="crescente">Older</option>
+          <option id="decrescente" value="decrescente">Recent</option>
+          <option id="rt_score" value="score">Score</option>
+        </select>
+      </div>
+      <div>
+        <label class="filtro" for="filtroDiretor">Director</label>
+        <select name="filtro" id="filtroDiretor">Ordem
+          <option value=""></option>
+          <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+          <option value="Isao Takahata">Isao Takahata</option>
+          <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+          <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+          <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+          <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
+        </select>
+      </div>
+      <div>
+        <label class="filtro" for="filtroProdutor">Producer</label>
+        <select name="filtro" id="filtroProdutor">Ordem
+          <option value=""></option>
+          <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+          <option value="Isao Takahata">Isao Takahata</option>
+          <option value="Toru Hara">Toru Hara</option>
+          <option value="Toshio Suzuki">Toshio Suzuki</option>
+          <option value="Yoshiaki Nishimura">Yoshiaki Nishimura</option>
+        </select>
+      </div>
+    </div>
   </form>
 
   <div class="filmes" id="root">
