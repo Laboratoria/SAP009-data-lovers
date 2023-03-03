@@ -63,7 +63,7 @@ main{
 
 #infoCharacters{
   width: 200px;
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   /*border: 5px solid #222; */
   /*border-radius: 20px; */
@@ -136,7 +136,7 @@ main{
   display: flex;
 }
 
-.modal {
+.modal-content {
   background: #f08366;
   width: 60%;
   height: 90%;
