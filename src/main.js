@@ -6,6 +6,9 @@ const arrayGhibli = data;
 const filmes = arrayGhibli.films
 const root = document.getElementById("root");
 
+const totalScore = filmes.reduce((a, b) => a + Number(b.rt_score), 0)
+const mediaScore = totalScore / filmes.length
+
 function renderizaPoster (posteres){
   const cards = posteres.map(function (item) {
     return `<img class="filme" src="${item.poster}" data-id="${item.id}">`;  // mapeando o array filmes e retornando todos os itens com nome poster e id
@@ -13,17 +16,6 @@ function renderizaPoster (posteres){
   root.innerHTML = cards.join('') // avisa o JS que os posteres vao pro HTML - .join junta todos os itens do array pra que nao printe na tela com virgula, e a string vazia serve pra que nao fiquem colados um no outro
 }
 renderizaPoster(filmes)
-
-function coletarScore (filmes, score) {
-  const rtScore = filmes.filter((item) => listaScore(item, score))
-  return rtScore
-}
-function listaScore(item) {
-  return item.rt_score
-}
-coletarScore(filmes, filmes.score)
-console.log(coletarScore(filmes, filmes.score))
-
 
 const todosPosteresDoHtml = document.querySelectorAll(".filme")  // selecionando todos os posteres e colocando dentro da variável
 function renderizaModal (todosPosteresDoHtml){
