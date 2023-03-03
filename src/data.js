@@ -33,7 +33,7 @@ export const preencherModal = (filmes, posterClicado) => {
       personagens += `${personagem.name}, `
     }
   })
-  return `<h1>${informacoesDoFilmeCLicado.title}</h1>
+  return `<br><h1>${informacoesDoFilmeCLicado.title}</h1><br>
   <p>${informacoesDoFilmeCLicado.description}</p>
   <p><strong>Director:</strong> ${informacoesDoFilmeCLicado.director}</p>
   <p><strong>Producer:</strong> ${informacoesDoFilmeCLicado.producer}</p>

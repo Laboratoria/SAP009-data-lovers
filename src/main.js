@@ -11,7 +11,7 @@ const media = document.getElementById("media");
 //somar valores de scores
 const somaScore = filmes.reduce((a,b) => a + Number(b.rt_score),0)
 const mediaScore = somaScore / filmes.length
-media.innerHTML = `The average rt-score of studio Ghibli films is <strong>${mediaScore}</strong>`
+media.innerHTML = `The average rt-score of Studio Ghibli films is <strong>${mediaScore}</strong>`
 
 //fazer posteres aparecerem no html:
 
@@ -29,6 +29,9 @@ const seletorDeOrdem = document.getElementById("ordem")
 seletorDeOrdem.addEventListener('change', function(event){
   const posteresOrdenados = ordenar(filmes, event.target.value)
   renderizaPoster(posteresOrdenados)
+
+  seletorDeFiltroD.value = ''
+  seletorDeFiltroP.value = ''
 
   const todosPosteresDoHtml = document.querySelectorAll(".filme")
   renderizaModal(todosPosteresDoHtml)
@@ -65,6 +68,9 @@ seletorDeFiltroP.addEventListener('change', function(event){
 
   const todosPosteresDoHtml = document.querySelectorAll(".filme")
   renderizaModal(todosPosteresDoHtml)
+
+  seletorDeOrdem.value = ''
+  seletorDeFiltroD.value = ''
 })
 
 //fazer aparecer na tela apenas filmes de determinado diretor:
@@ -76,6 +82,9 @@ seletorDeFiltroD.addEventListener('change', function(event){
 
   const todosPosteresDoHtml = document.querySelectorAll(".filme")
   renderizaModal(todosPosteresDoHtml)
+
+  seletorDeOrdem.value = ''
+  seletorDeFiltroP.value = ''
 })
 
 //modal-dialog:
