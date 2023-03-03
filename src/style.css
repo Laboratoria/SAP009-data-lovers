@@ -44,16 +44,18 @@
     margin-bottom: 50px;
 }
 
-.ordem{
-    margin-left: 120px;
-    margin-top: 100px;
+.media{
+    text-align: center;
     font-family: var(--fonte-titulo);
 }
 
-.filtro{
-    margin-left: 120px;
-    margin-top: 100px;
+.seletores{
+    margin-top: 30px;
     font-family: var(--fonte-titulo);
+    justify-content: center;
+    display: flex;
+    grid-gap: 30px;
+    
 }
 
 .catalogo{
@@ -62,7 +64,7 @@
   font-weight: 400;
   text-align: center;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .filmes{
@@ -98,13 +100,14 @@ img{
     border-radius: 15px;
     background-color: var(--cor-titulo);
     border: 2px solid white;
-    width: 500px;
-    height: 500px;
+    width: 580px;
+    height: 550px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     transition: 5ms;
     color: white;
+    overflow: auto;
 }
 
 .informacoes{
@@ -124,14 +127,10 @@ img{
     background-color:#3d3d3d ;
     border-radius: 50%;
     margin: 10px;
-    margin-left: 450px;
     right: 0px;
     text-align: center;
-    position: relative;
+    position: absolute;
     font-family: var(--fonte-titulo);
-}
-
-.fechar:hover{
     cursor: pointer;
 }
 
