@@ -1,5 +1,4 @@
 import {filtrarPersonagens} from "./data.js"
-
 document.querySelector('#botao').onclick = () => {
   const valor = document.querySelector('#input').value
   const elementosDaLista = []
@@ -19,21 +18,17 @@ document.querySelector('#botao').onclick = () => {
   filtrarPersonagens(valor).forEach((personagem) => {
     //push é a função que joga itens pro nosso array vazio (elemtos da lista)
     elementosDaLista.push(`
-      <div class="card">
+    <div class="card">
         <div class="card-info">
           <h2>${personagem.name}</h2>
           <p>Gênero: ${traducoesDosGeneros[personagem.gender]}</p>
-          <p>Data de nascimento: ${personagem.birth}</p>
+          <p>Data de nascimento (inglês): ${personagem.birth}</p>
           <p>Espécie: ${traducaoEspecie[personagem.species]}</p>
           <p>Livros apresentados: ${personagem.books_featured_in}</p>
           <p>Casa de estudo: ${personagem.house ? traducoesDasCasa[personagem.house] : 'Sem casa'}</p>
-        <div class="back"></div>
         </div>
-      </div>
+    </div>
     `)
   })
   document.querySelector('.card-container').innerHTML = elementosDaLista.join('')
 }
-
-
-
