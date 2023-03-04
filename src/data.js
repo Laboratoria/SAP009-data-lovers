@@ -1,3 +1,11 @@
+
+export function filtrarCasa(listArray, valueSelect) {
+  const casasPersonagem = listArray.filter((itemListaArray) =>
+    itemListaArray.house.includes(valueSelect)
+  );
+  //filtro precisa filtrar apenas o item indicado
+  //includes retornar verdadeiro ou falso caso encontre o que está procurando
+
 export function harryFunçoes(name, listCharacterHouseFilter) {
   return listCharacterHouseFilter.filter((user) => user.name.includes(name));
 }
@@ -21,6 +29,7 @@ export const orderName = (a, b) => {
     return -1;
   }
 };
+
 
 export const selectNameAz = (characters) => {
   return characters.sort(orderName);
