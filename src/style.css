@@ -54,8 +54,7 @@
     font-family: var(--fonte-titulo);
     justify-content: center;
     display: flex;
-    grid-gap: 30px;
-    
+    grid-gap: 30px;    
 }
 
 .catalogo{
@@ -147,6 +146,15 @@ img{
     margin-top:20px;
 }
 
+.texto-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.texto-footer a:hover{
+    text-decoration: underline;
+}
+
 @media screen and (max-width:600px) {
     .imagem_cabecalho{
         height: 300px;
@@ -160,5 +168,30 @@ img{
     }
     .options{
         flex-direction: column;
+    }
+    .catalogo{
+        font-size: 50px;
+    }
+    .descricao{
+        font-size: 20px;
+    }
+    .media{
+        font-size: 18px;
+    }
+    img{
+        width: 250px;
+        height: 330px;
+    }
+    .seletores{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .descricao{
+        font-size: 22px;
     }
 }
