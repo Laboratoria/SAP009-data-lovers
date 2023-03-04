@@ -1,3 +1,4 @@
+
 import data from "./data/harrypotter/harry.js";
 import {
   harryFunçoes,
@@ -5,6 +6,54 @@ import {
   selectNameAz,
   selectNameZa,
 } from "./data.js";
+
+
+
+import { filtrarCasa } from "./data.js";
+import harryData from "./data/harrypotter/harry.js";
+
+const selecionarPersonagemPorCasa = document.getElementById("personagensCasa");
+const animationCards = document.querySelector(".animation-cards");
+const linkPersonagens = document.getElementById("listaPerso");
+const allPersonagens = harryData.characters;
+linkPersonagens.addEventListener("click", printarCards);
+
+function printarCards() {
+  const animationCardsHTML = allPersonagens
+    .map(
+      (element, index) =>
+        `      
+        <div class="cards">     
+          <p id="film-title" class="film-info">${element.name}</p>
+          <p class="film-info">${element.books_featured_in}</p>
+          </div>
+      `
+    )
+    .join("");
+
+  animationCards.innerHTML = animationCardsHTML;
+}
+// showAnimations(personagens);
+
+selecionarPersonagemPorCasa.addEventListener("change", filtrarPersonagens); //sempre que mudar o select vai haver um evento para teste
+function filtrarPersonagens() {
+  console.log(selecionarPersonagemPorCasa.value);
+  //meus argumentos são conforme as informações que eu quero atribuir
+  const filtrarPersonagensCasa = filtrarCasa(
+    allPersonagens,
+    selecionarPersonagemPorCasa.value
+  );
+  console.log(filtrarPersonagensCasa);
+}
+//, posicaoIndex, arrayComple
+
+import {} from "./data.js";
+
+
+
+import data from "./data/harrypotter/harry.js";
+import { harryFunçoes, filterHouse, selectNameAz,  selectNameZa } from "./data.js";
+
 
 const animationCards = document.querySelector(".animation-cards");
 
@@ -60,7 +109,11 @@ const allSpells = data.spells;
 
 function Feitiços() {
   const poçoesCardsHTML = allSpells
+
     .map((element) => {
+
+    .map((element, index) => {
+
       return `      
         <ul class="listaFeitiços">     
           <li id="feitiços" class="infoFeitiços">${element.name}</li>
@@ -69,7 +122,11 @@ function Feitiços() {
       `;
     })
     .join("");
+
   animationCards.innerHTML = poçoesCardsHTML;
+
+  animationCards.innerHTML = poçoesCardsHTML
+
 }
 
 const linkCuriosidades = document.getElementById("listaCuriosidades");
@@ -111,12 +168,22 @@ function coleçaoLivros() {
     .join("");
   animationCards.innerHTML = animationCardsHTML;
 }
+
 //FILTRO A - Z
 const buttonAz = document.getElementById("az");
 buttonAz.addEventListener("click", () => {
   const ordenado = selectNameAz(data.characters);
   const animationCardsHTML = ordenado
     .map((element) => {
+
+// showAnimations(personagens);
+
+//FILTRO A - Z
+const buttonAz = document.getElementById("az");
+buttonAz.addEventListener("click", () => {
+  const ordenado = selectNameAz(data.characters)
+  const animationCardsHTML = ordenado
+    .map((element, index) => {
       return `      
       <div class="cards"> 
         <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
@@ -129,14 +196,22 @@ buttonAz.addEventListener("click", () => {
     })
     .join("");
   animationCards.innerHTML = animationCardsHTML;
+
 });
+})
 
 //FILTRO Z - A
 const buttonZa = document.getElementById("za");
 buttonZa.addEventListener("click", () => {
+
   const ordenado = selectNameZa(data.characters);
   const animationCardsHTML = ordenado
     .map((element) => {
+
+  const ordenado = selectNameZa(data.characters)
+  const animationCardsHTML = ordenado
+    .map((element, index) => {
+
       return `      
       <div class="cards"> 
         <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
@@ -149,7 +224,11 @@ buttonZa.addEventListener("click", () => {
     })
     .join("");
   animationCards.innerHTML = animationCardsHTML;
+
 });
+
+})
+
 
 //VER TODAS AS CASAS
 // const selectCharacters = document.getElementById("selectFiltros");
