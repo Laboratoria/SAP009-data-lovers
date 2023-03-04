@@ -3,7 +3,12 @@ document.querySelector('#botao-feiticos').onclick = () => {
   const valorFeiticos = document.querySelector('#input-feiticos').value
   const elementosDaListaFeiticos = []
   filtrarFeiticos(valorFeiticos).forEach((feitico) => {
-    //push é a função que joga itens pro nosso array vazio (elemtos da lista)
+    //O método forEach é usado para percorrer arrays é indicado para quando todos os 
+    //elementos de um array precisam passar pela ação definida na função callback.
+    //Isso porque uma vez que o loop é iniciado, ele só será encerrado após o processamento 
+    //do último elemento.
+    //O método push() adiciona um ou mais elementos ao final de um array e
+    //retorna o novo comprimento desse array.
     elementosDaListaFeiticos.push(`
     <div class="card">
         <div class="card-info">

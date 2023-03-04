@@ -31,4 +31,8 @@ export const filtrarLivros = (valorLivros) => {
     return false
   } )
 }
+//toLocalLowerCase() é usada para converter os caracteres em uma string em minúsculas, 
+//respeitando o local atual.
+//O método startsWith() determina se uma string começa com os caracteres especificados, 
+//retornando true ou false .
 
