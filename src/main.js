@@ -1,7 +1,8 @@
 import {filtrarNome} from './data.js';
-// import data from './data/lol/lol.js';
-import {ordenarPorNomeAZ} from './data.js';
-// import data from './data/lol/lol.js';
+
+import {ordemCompletaNome} from './data.js';
+
+import {ordemCompletaNumero} from './data.js';
 
 import data from './data/pokemon/pokemon.js';
 // import data from './data/rickandmorty/rickandmorty.js';
@@ -10,7 +11,7 @@ import data from './data/pokemon/pokemon.js';
 const pokemons = data.pokemon;
 const mostrarPokemonTela = document.getElementById("inserirCards");
 const filtrarNomesPokemons = document.getElementById("buscarPokemon");
-const ordenarPokemons = document.getElementsByClassName("ordenar");
+
 
 // código para mostrar na tela os pokemons filtrados por nome
 filtrarNomesPokemons.addEventListener("keyup", () => {
@@ -19,9 +20,28 @@ filtrarNomesPokemons.addEventListener("keyup", () => {
   mostrarPokemon.innerHTML = mostrarPokemon (procurarPokemon);
 });
 
-//código para mostrar na tela os pokemons ordenados de forma alfabética
+//código para mostrar na tela os pokemons ordenados de forma alfabética ou numérica
+const pegarOrdemPokemon = document.getElementById("ordenacao");
+pegarOrdemPokemon.addEventListener("change", () => {
+  const ordem = pegarOrdemPokemon.value;
 
-
+  if (ordem === "az") {
+    const ordenarPokemon = ordemCompletaNome(pokemons, ordem);
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+  else if (ordem === "za") {
+    const ordenarPokemon = ordemCompletaNome(pokemons, ordem).reverse();
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+  else if (ordem === "001") {
+    const ordenarPokemon = ordemCompletaNumero(pokemons, ordem);
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+  else if (ordem === "251") {
+    const ordenarPokemon = ordemCompletaNumero(pokemons, ordem).reverse();
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+});
 
 // código para mostrar pokemons nos cards com flip
 function mostrarPokemon(data) {
