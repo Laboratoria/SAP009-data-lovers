@@ -3,20 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-size: 100%;
-  
+  font-size: 100%;  
 }
-
 
 body {
   background-image: url(img/ceunoite.jpeg);
   font-family: "Harry Potter";
   font-size: 1.5rem;
   list-style: none;
-
-html {
- 
-}
 
 body{
   background-image: url(img/ceunoite.jpeg);
@@ -41,8 +35,6 @@ main{
   margin-top: 100px;
   margin-left: 350px; 
   width: 50%;
- 
-
 }
 
 a {
@@ -97,11 +89,11 @@ li {
 }
 
 .imgMenu {
-  width: 90%; /*200vh*/
-  height: 98vh; /*110vh*/
+  width: 90%; /200vh/
+  height: 98vh; /110vh/
   opacity: 0.6;
   margin-top: -50px;
-  /*-10px*/
+  /-10px/
 }
 .sessaoInput {
   display: flex;
@@ -111,13 +103,18 @@ li {
   
   
 }
+.sessaoInput {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  margin-left: 340px;  
+}
 
 H1 {
 
   font-size: 110px;
   color: yellow;
   text-align: center;
-
 }
 
 
@@ -149,22 +146,21 @@ H1 {
 
 .animation-cards{
   background-color: rgb(122, 7, 7);
-
-
 }
 
 #listaPerso{
  color: yellow;
-  
 }
+
 #listaPerso:hover {
   opacity: 0.9;
   color: rgb(137, 18, 18);
 }
+
 #exibir1{
   text-align: center;
-
 }
+
 .animation-cards{
   background:rgb(137, 18, 18);
   margin-top: -50px;
@@ -203,8 +199,6 @@ H1 {
   font-size: 15px;
  }
 
-
-
 .busca{
   background-color: aqua;
 }
@@ -228,11 +222,9 @@ H1 {
   align-items: center;
   list-style-type:lower-alpha;
   font-family: 'Courier New', Courier, monospace;
-
 }
 
 .feitiços{
   background-color: beige;
   word-wrap: break-word;
 }
-

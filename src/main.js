@@ -1,4 +1,13 @@
 
+import data from "./data/harrypotter/harry.js";
+import {
+  harryFunçoes,
+  filtroCasa,
+  selectNameAz,
+  selectNameZa,
+} from "./data.js";
+
+
 
 import { filtrarCasa } from "./data.js";
 import harryData from "./data/harrypotter/harry.js";
@@ -45,6 +54,7 @@ import {} from "./data.js";
 import data from "./data/harrypotter/harry.js";
 import { harryFunçoes, filterHouse, selectNameAz,  selectNameZa } from "./data.js";
 
+
 const animationCards = document.querySelector(".animation-cards");
 
 const linkPersonagens = document.getElementById("listaPerso");
@@ -56,7 +66,7 @@ const campoBusca = document.getElementById("exibir1");
 
 function todosPersonagens() {
   const animationCardsHTML = allPersonagens
-    .map((element, index) => {
+    .map((element) => {
       return `      
         <div class="cards"> 
           <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
@@ -99,7 +109,11 @@ const allSpells = data.spells;
 
 function Feitiços() {
   const poçoesCardsHTML = allSpells
+
+    .map((element) => {
+
     .map((element, index) => {
+
       return `      
         <ul class="listaFeitiços">     
           <li id="feitiços" class="infoFeitiços">${element.name}</li>
@@ -108,7 +122,11 @@ function Feitiços() {
       `;
     })
     .join("");
+
+  animationCards.innerHTML = poçoesCardsHTML;
+
   animationCards.innerHTML = poçoesCardsHTML
+
 }
 
 const linkCuriosidades = document.getElementById("listaCuriosidades");
@@ -151,6 +169,13 @@ function coleçaoLivros() {
   animationCards.innerHTML = animationCardsHTML;
 }
 
+//FILTRO A - Z
+const buttonAz = document.getElementById("az");
+buttonAz.addEventListener("click", () => {
+  const ordenado = selectNameAz(data.characters);
+  const animationCardsHTML = ordenado
+    .map((element) => {
+
 // showAnimations(personagens);
 
 //FILTRO A - Z
@@ -171,14 +196,22 @@ buttonAz.addEventListener("click", () => {
     })
     .join("");
   animationCards.innerHTML = animationCardsHTML;
+
+});
 })
 
 //FILTRO Z - A
 const buttonZa = document.getElementById("za");
 buttonZa.addEventListener("click", () => {
+
+  const ordenado = selectNameZa(data.characters);
+  const animationCardsHTML = ordenado
+    .map((element) => {
+
   const ordenado = selectNameZa(data.characters)
   const animationCardsHTML = ordenado
     .map((element, index) => {
+
       return `      
       <div class="cards"> 
         <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
@@ -191,7 +224,11 @@ buttonZa.addEventListener("click", () => {
     })
     .join("");
   animationCards.innerHTML = animationCardsHTML;
+
+});
+
 })
+
 
 //VER TODAS AS CASAS
 // const selectCharacters = document.getElementById("selectFiltros");
@@ -202,13 +239,19 @@ buttonZa.addEventListener("click", () => {
 //     todosPersonagens();
 //   } else {
 //     listName = filterHouse(event.target.value, allPersonagens);
-    
+
 //     console.log("house");
 //   }
 //   listCharacterHouseFilter.innerHTML = listName.map().join("");
 // });
 
+function filtrarCasa() {
+  const valorSelecionaCasa = document.getElementById("selectFiltros");
+  valorSelecionaCasa.addEventListener("change", filtrarCasa);
+  console.log(valorSelecionaCasa);
+  const casaSelecinoda = valorSelecionaCasa.value;
+  const selecioneCasa = filtrarCasa(allPersonagens, valorSelecionaCasa);
 
-
-
-
+  animationCards(selecioneCasa);
+}
+valorSelecionaCasa.valorSelecionaCasa("change", filtrarCasa);
