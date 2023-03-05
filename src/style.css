@@ -31,7 +31,7 @@ main{
     min-width: 300px;
     padding: 15px;
     margin: auto;
-
+	margin-top: 50px;
 }
 
 h1 {
@@ -52,7 +52,6 @@ h5 {
     justify-content: center;
 	text-shadow: 0.5 0.5 10 black;
 	text-align: center;
-    
 }
 
 p {
@@ -66,8 +65,15 @@ p {
 	text-shadow: 0.1 0.1 0.2 black;
 }
 
+#form {
+	display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
 #end {
-	position: absolute;
     bottom: 0;
     width: 100%;
     height: 100px;    
@@ -78,7 +84,10 @@ p {
 
 #imagem-principal {
 	border-radius: 190px;
-	width: 390px;
+	width: 400px;
+	display: block;
+	margin: auto;
+	
 }
 
 
@@ -236,17 +245,17 @@ input, select {
   /* scrol personalizado */ 
 
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 12px;
   }
 
   ::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
+    
+    background: linear-gradient(to bottom, #8c8ffa, #d8ebf9, #fcf0ca, #fbbccd);
   }
 
   ::-webkit-scrollbar-thumb {
     background: #acaff9;
-    border-radius: 5px;
+    border-radius: 7px;
   }
 
 ::-webkit-scrollbar-thumb:hover {

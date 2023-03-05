@@ -7,7 +7,6 @@
     <title>Ghiblers</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
-    <script defer src="responsive.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -33,7 +32,7 @@
     <main>
         <section id="pesquisa">
           <h1>Inventário de Personagens</h1>
-        <form>
+        <form id="form">
             <section class="esquerda">
                 <label  for="nome"><strong>Personagem:</strong></label>
                 <input  id= "nome" type="text" required placeholder="Digite o nome">
@@ -45,14 +44,14 @@
                <label for="genero"><strong>Gênero:</strong></strong></label>
                <select name="genero" id="genero">
                  <option selected disabled value="">Selecione</option>
-                 <option value="fem">Feminino</option>
-                 <option value="masc">Masculino</option>
+                 <option id="fem" value="fem">Feminino</option>
+                 <option id="masc" value="masc">Masculino</option>
                </select>
             </section> 
 
             <section class="direita">
                <label for="especie"><strong>Espécie:</strong></label>
-               <select name="especie" >
+               <select id="especie" >
                    <option selected disabled value="">Selecione</option>
                    <option value="human">Human</option>
                    <option value="Totoro">Totoro</option>
@@ -77,18 +76,22 @@
                    <option value="demon">Demon</option>
            </select>
         </section>
-           
         </form>
-
         </section>
+    </main>
 
-    <!--</main>-->
+    <section class="cards">
+
+    </section>
 
     <footer id="end">
        <h5>
         Desenvolvido por Flora e Edimara, 2023
        </h5>
     </footer>
+
+    <script defer src="responsive.js"></script>
+    <script type="module" src="main.js"></script>
   
     
 </body>
