@@ -180,10 +180,6 @@ img{
     .media{
         font-size: 18px;
     }
-    img{
-        width: 250px;
-        height: 330px;
-    }
     .seletores{
         flex-direction: column;
         gap: 10px;
@@ -194,7 +190,6 @@ img{
 
 @media screen and (min-width:1200px) {
     .descricao{
-        font-size: 20px;
         max-width: 800px;
     }
 }
