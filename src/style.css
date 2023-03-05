@@ -186,6 +186,10 @@ img{
         align-items: center;
         font-size: 20px;
     }
+    .dialog{
+        width: 80vw;
+        height: 70vh;
+    }
 }
 
 @media screen and (min-width:1200px) {
