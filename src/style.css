@@ -357,9 +357,6 @@ a {
   height: 130px;
   border-radius: 20px;
   background-color: #FEFC89;
-  width: 500px;
-  height: 130px;
-  border-radius: 20px;
 }
 
 .dataButtons3 {
@@ -425,26 +422,25 @@ a {
 /* CONFIGURAÇÃO PÁGINA MODALIDADES */
 
 #yellowBackground6 { 
-  display: grid;
   position: absolute;
   margin: 3%; 
-  left: 13%;
+  left: 10%;
   grid-gap: 5px;
   background-color: #FEFC89;
   width: 1300px;
   height: 180px;
   border-radius: 20px;
 }
+
 #imageMascots3 {
-  padding-top: 35%;
-  width: 900px;
-  height: 480px;
-  grid-row: 1;
-  grid-column: 8;
+  position: absolute;
+  bottom: 16%;
+  right: 8%;
+  width: 700px;
+  height: 450px;
 }
 
 #yellowBackground7 {
-  display: grid;
   position: absolute;
   bottom: 8%;
   left: 15%;
@@ -511,98 +507,215 @@ a {
   bottom: 58%;
 }
 
-/*Implementação do responsivo*/
+/*------------------------Implementação do responsivo*--------------*/
+@media (max-width: 1024px) {
+  .logo { /*CONFIGURAÇÃO GERAL*/
+  width: 70px;
+  height: 70px;
+ }
 
-@media (max-width: 480px) {
-  .logo {
+ #yellowBackground4, #yellowBackground6 { /*Configuração - Participantes e Modalidades*/
+  width: 85%;
+  height: 130px;
+}
+
+.paragraphs { /*CONFIGURAÇÃO GERAL*/
+  padding: 3.5%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#yellowBackground5, #yellowBackground7 { /*Configuração - Participantes e Modalidades*/
+  top: 85%;
+  left: 10%;
+  width: 60%;
+  height: 105px;
+}
+
+#imageMascots2 { /*Congiguração - Participantes*/
+  top: 25%;
+  right: 5%;
+  width: 450px;
+  height: auto;
+ }
+
+ #imageMascots3 { /*Configuração - MODALIDADES*/
+  top:  37%;
+  right: 5%;
+  width: 450px;
+  height: auto;
+ }
+
+.dataButtons3, .dataButtons6 {   /*Configuração - Participantes e Modalidades*/
+  bottom: 53%;
+  left: 15%;
+  width: 250px;
+  height: 60px;
+}
+
+.dataButtons4, .dataButtons7 { /*Configuração - Participantes e Modalidades*/
+  bottom: 43%;
+  left: 15%;
+  width: 250px;
+  height: 60px;
+}
+
+.dataButtons5, .dataButtons8 { /*Configuração - Participantes e Modalidades*/
+  left: 15%;
+  width: 250px;
+  height: 60px;
+}
+
+#okButton2, #okButton3 { /*Configuração - Participantes e Modalidades*/
+  bottom: 24%;
+  left: 22%;
+}
+
+#selectTheOptions3 { /*Configuração - Modalidades*/
+  margin-left: 2%;
+  font-size: 15px;
+  bottom: 62%;
+}
+}
+
+/*------------------------xxxxxxxxxxxxxxxxxxxx--------------*/
+
+@media (max-width: 688px) { 
+  .logo { /*CONFIGURAÇÃO GERAL*/
     margin-top: 8px;
-    width: 60px;
-    height: 60px;
-   }
+  }
 
-   header {
+   header { /*CONFIGURAÇÃO GERAL*/
     display: flex;
     justify-content: start;
    }
 
-   h1 {
-    margin-top: 17px;
-    font-weight: 200px;
-    font-size: 30px;
-    line-height: 24px;
-   }
-
-   #return {
+   #return { /*CONFIGURAÇÃO GERAL*/
    display: none;
   }
 
-  .centralStructure {
-    width: auto; 
-    height: 1000px;
-  }
+   h1 { /*CONFIGURAÇÃO GERAL*/
+    margin-top: 17px;
+    font-weight: 200px;
+    font-size: 50px;
+    line-height: 24px;
+   }
 
-  .copyright {
-    
-    font-size: 7pt;
-  
-  }
-
-  #yellowBackground4 { 
-    width: 80%;
-    height: 190px;
-  }
-
-  .paragraphs {
-    padding: 3.5%;
-    font-size: 15px;
-  }
-
-  #yellowBackground5 { 
-    top: 100%;
-    left: 10%;
-    width: 80%;
-    height: 100px;
-  }
-
-  #imageMascots2 {
-    top: 115%;
-    left: 15%;
-    width: 300px;
+   #imageMascots2, #imageMascots3 { /*Configuração - Participantes e Modalidades*/
+    top: 35%;
+    right: 1%;
+    width: 350px;
     height: auto;
    }
 
-  .dataButtons3 {   
-    bottom: 53%;
-    left: 15%;
-    width: 250px;
-    height: 60px;
-  }
-  
-  .dataButtons4 {
-    bottom: 43%;
-    left: 15%;
-    width: 250px;
-    height: 60px;
-  }
-  
-  .dataButtons5 {
-    bottom: 33%;
-    left: 15%;
-    width: 250px;
-    height: 60px;
+   #yellowBackground5,  #yellowBackground7 { /*Configuração - Participantes e Modalidades*/
+    height: 118px;
   }
 
-  #okButton2 {
-    bottom: 24%;
-    left: 35%;
+   .dataButtons3, .dataButtons6 {   /*Configuração - Participantes e Modalidades*/
+    bottom: 63%;
+    left: 15%;
   }
   
+  .dataButtons4, .dataButtons7 { /*Configuração - Participantes e Modalidades*/
+    bottom: 53%;
+    left: 15%;
+    
+  }
   
-table {
-width: auto;
-height: auto;
-font-size: 10px;
+  .dataButtons5, .dataButtons8 { /*Configuração - Participantes e Modalidades*/
+    bottom: 43%;
+    left: 15%;
+    
+  }
+  
+  #okButton2, #okButton3 { /*Configuração - Participantes e Modalidades*/
+    bottom: 34%;
+    left: 24%;
+  }
+
+  #selectTheOptions3 { /*Configuração -  Modalidades*/
+    bottom: 71%;
+  }
+  
+  .copyright { /*CONFIGURAÇÃO GERAL*/
+    font-size: 8pt;
+  }
+
 }
+/*------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx--------------*/
+@media (max-width: 480px) {
+   
+  h1 { /*CONFIGURAÇÃO GERAL*/
+    font-size: 30px;
+  }
+  
+  .centralStructure { /*CONFIGURAÇÃO GERAL*/
+    width: auto; 
+    height: 955px;
+  }
+
+  #yellowBackground4, #yellowBackground6 { /*Configuração - Participantes e Modalidades*/
+    width: 83%;
+    height: 190px;
+  }
+
+  .paragraphs { /*CONFIGURAÇÃO GERAL*/
+    padding: 3.5%;
+    font-size: 18px;
+  }
+
+  #yellowBackground5, #yellowBackground7 { /*Configuração - Participantes e Modalidades*/
+    top: 80%;
+    width: 80%;
+    height: 120px;
+  }
+
+  #imageMascots2 { /*Configuração - Participantes*/
+    top: 92.5%;
+    left: 18%;
+    width: 250px;
+    }
+
+   #imageMascots3 { /*Configuração - Participantes*/
+      top: 100%;
+      left: 15%;
+      width: 300px;
+      }
+
+    .dataButtons3, .dataButtons6 {   /*Configuração - Participantes e Modalidades*/
+      bottom: 53%;
+      left: 15%;
+      }
+    
+    .dataButtons4, .dataButtons7 { /*Configuração - Participantes e Modalidades*/
+      bottom: 43%;
+      left: 15%;
+   
+    }
+    
+    .dataButtons5, .dataButtons8 { /*Configuração - Participantes e Modalidades*/
+      bottom: 33%;
+      left: 15%;
+    
+    }
+    
+    #okButton2, #okButton3 { /*Configuração - Participantes e Modalidades*/
+      bottom: 24%;
+      left: 35%;
+    }
+
+    #selectTheOptions3 { /*Configuração - Modalidades*/
+      font-size: 12px;
+      bottom: 62%;
+    }
+    
+ /*------------Responsivo tabela - configuração geral-------------------------*/
+  table {
+    width: auto;
+    height: auto;
+    font-size: 10px;
+} 
 
 td, th {
   padding: 5px;
@@ -614,5 +727,7 @@ th {
 
 th {
   font-size: 15px;
-  }
 }
+
+}
+
