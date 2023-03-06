@@ -8,7 +8,7 @@ document.querySelector('#botao-pocoes').onclick = () => {
       <div class="card">
         <div class="card-info">
           <h2>${pocao.name}</h2>
-          <p>Descrição (inglês): ${pocao.description}</p>
+          <p>Descrição: ${pocao.description}</p>
         </div>
       </div>
     `)

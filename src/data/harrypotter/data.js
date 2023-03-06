@@ -12064,7 +12064,7 @@ export default {
       "name": "Aberto",
       "other_name": null,
       "pronunciation": "Ah-bare-toh",
-      "spell_type": "Charm",
+      "spell_type": "Encanto",
       "description": null,
       "mention": null,
       "etymology": null,
@@ -12074,11 +12074,11 @@ export default {
       "id": 2,
       "name": "Accio",
       "other_name": "Summoning Charm",
-      "pronunciation": "Various, including: AK-ee-oh or AK-see-oh , AK-see-oh , AS-see-oh (US), and AT-chee-oh (Anglo-Catholic pronunciation)",
-      "spell_type": "Charm",
-      "description": "Summons an object towards the caster. It is able to summon objects in direct line of sight of the caster, as well as things out of view, by calling the object aloud after the incantation (unless the spell is casted nonverbally). This spell needs thought behind it, and the object must be clear in the casters mind before trying to summon it. The caster doesn't necessarily need to know the location of the target if they say the name of the object to be summoned, such as when Hermione Granger summoned some books from Dumbledore's office simply by saying \"Accio Horcrux books!\" while in Gryffindor Tower.",
-      "mention": "Harry Potter summoned his broom to complete the first task of the Triwizard Tournament in 1994, and to summon the Portkey to escape Voldemort and the Death Eaters in the Little Hangleton Graveyard in 1995. Also, in the Battle of the Seven Potters Harry summoned Hagrid when he fell. Molly Weasley used it to get the twins' candy. The twins used it to summon their brooms from Dolores Umbridge's office",
-      "etymology": "The Latin word accio means \"I call\" or \"I summon\".",
+      "pronunciation": "Várias, incluindo: AK-ee-oh or AK-see-oh , AK-see-oh , AS-see-oh (US), and AT-chee-oh (Anglo-Catholic pronunciation)",
+      "spell_type": "Encanto",
+      "description": "Invoca um objeto em direção ao lançador. É capaz de invocar objetos na linha de visão direta do lançador, bem como coisas fora de vista, chamando o objeto em voz alta após o encantamento (a menos que o feitiço seja lançado não verbalmente). Este feitiço precisa pensar por trás disso, e o objeto deve estar claro na mente do conjurador antes de tentar invocá-lo. O conjurador não precisa necessariamente saber a localização do alvo se disser o nome do objeto a ser convocado, como quando Hermione Granger convocou alguns livros do escritório de Dumbledore simplesmente dizendo \"Accio Horcrux books!\" enquanto estava na Torre da Grifinória.",
+      "mention": "Harry Potter convocou sua vassoura para completar a primeira tarefa do Torneio Tribruxo em 1994, e para invocar a Chave de Portal para escapar de Voldemort e dos Comensais da Morte no Cemitério de Little Hangleton em 1995. Além disso, na Batalha dos Sete Potters Harry convocou Hagrid quando ele caiu. Molly Weasley usou para pegar o doce dos gêmeos. Os gêmeos usaram para chamar suas vassouras do escritório de Dolores Umbridge.",
+      "etimologia": "A palavra latina accio significa \"eu chamo\" ou \"eu convoco\".",
       "note": null
     },
     {
@@ -12086,8 +12086,8 @@ export default {
       "name": "Age Line",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Prevents people above or below a certain age from access to a target.",
+      "spell_type": "Encanto",
+      "description": "Evita que pessoas acima ou abaixo de uma certa idade tenham acesso a um alvo.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12097,9 +12097,9 @@ export default {
       "name": "Aguamenti",
       "other_name": "Water-Making Spell",
       "pronunciation": "AH-gwah-MEN-tee",
-      "spell_type": "Charm, Conjuration",
-      "description": "Produces a clean, drinkable jet of water from the wand tip.",
-      "mention": "Used by Fleur Delacour in 1994 to extinguish her skirt, which had caught flame during a fight against a dragon. Harry used this spell twice in 1997, both on the same night; once to attempt to provide a drink for Dumbledore, then again to help douse Hagrid's hut after it was set aflame by Thorfinn Rowle, who used the Fire-Making Spell.",
+      "spell_type": "Charme, Conjuração",
+      "description": "Produz um jato de água limpa e potável da ponta da varinha.",
+      "mention": "Usado por Fleur Delacour em 1994 para extinguir sua saia, que pegou fogo durante uma luta contra um dragão. Harry usou este feitiço duas vezes em 1997, ambas na mesma noite; uma vez para tentar fornecer uma bebida para Dumbledore , então novamente para ajudar a apagar a cabana de Hagrid depois que ela foi incendiada por Thorfinn Rowle, que usou o Feitiço de Fazer Fogo.",
       "etymology": null,
       "note": null
     },
@@ -12108,9 +12108,9 @@ export default {
       "name": "Alarte Ascendare",
       "other_name": null,
       "pronunciation": "a-LAR-tay a-SEN-der-ay",
-      "spell_type": "Charm",
-      "description": "Shoots the target high into the air.",
-      "mention": "Used by Gilderoy Lockhart in 1992 to send a snake high into the air during the first and last meeting of the Duelling Club.",
+      "spell_type": "Charme",
+      "description": "Atira o alvo para o alto.",
+      "mention": "Usado por Gilderoy Lockhart em 1992 para enviar uma cobra para o alto durante a primeira e última reunião do Clube de Duelos.",
       "etymology": null,
       "note": null
     },
@@ -12119,8 +12119,8 @@ export default {
       "name": "Albus Dumbledore's forceful spell",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "This spell was, supposedly, quite powerful as when it was cast, the opponent was forced to conjure a silver shield to deflect it.",
+      "spell_type":"Soletrar",
+      "description": "Este feitiço era, supostamente, bastante poderoso, pois quando foi lançado, o oponente foi forçado a conjurar um escudo de prata para desviá-lo.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12130,9 +12130,9 @@ export default {
       "name": "Alohomora",
       "other_name": "Unlocking Charm",
       "pronunciation": "ah-LOH-ho-MOR-ah",
-      "spell_type": "Charm",
-      "description": "Unlocks doors and other objects. It can also unlock doors that have been sealed with a Locking Spell, although it is possible to bewitch doors to become unaffected by this spell.",
-      "mention": "Used by Hermione Granger in 1991 to allow her and her friends to access the Third-floor corridor at her school, which was at the time forbidden; she used it again two years later to free Sirius's cell in her teacher's prison room.",
+      "spell_type": "Charme",
+      "description": "Destranca portas e outros objetos. Também pode destrancar portas que foram seladas com um Feitiço de Trancamento, embora seja possível enfeitiçar portas para não serem afetadas por este feitiço.",
+      "mention": "Usado por Hermione Granger em 1991 para permitir que ela e seus amigos acessassem o corredor do terceiro andar de sua escola, que na época era proibido; ela o usou novamente dois anos depois para libertar a cela de Sirius na prisão de seu professor sala.",
       "etymology": null,
       "note": null
     },
@@ -12141,8 +12141,8 @@ export default {
       "name": "Amato Animo Animato Animagus",
       "other_name": "Animagus Spell",
       "pronunciation": "ah-MAH-toh ah-NEE-moh ah-nee-MAH-toh an-a-MAY-jus",
-      "spell_type": "Transfiguration",
-      "description": "Spell used as part of the process of becoming an Animagus. The incantation has to be recited at sunrise and sundown, every day before the consumption of the Animagus Potion. The incantation is also recited just prior to the consumption of the potion, which has to take place just after a lightning storm starts. The incantation is recited while placing the wand's tip over one's heart.",
+      "spell_type": "Transfiguração",
+      "description": "Feitiço usado como parte do processo de se tornar um Animago. O encantamento deve ser recitado ao nascer e ao pôr do sol, todos os dias antes do consumo da Poção Animago. O encantamento também é recitado imediatamente antes do consumo do poção, que deve ocorrer logo após o início de uma tempestade com raios. O encantamento é recitado enquanto se coloca a ponta da varinha sobre o coração.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12152,9 +12152,9 @@ export default {
       "name": "Anapneo",
       "other_name": null,
       "pronunciation": "ah-NAP-nee-oh",
-      "spell_type": "Healing Spell, Vanishment",
-      "description": "Clears the target's airway if they are choking on something.",
-      "mention": "Used by Horace Slughorn, cast upon Marcus Belby when the latter choked on a pheasant in 1996.",
+      "spell_type": "Feitiço de Cura, Desaparecimento",
+      "description": "Limpa as vias aéreas do alvo se ele estiver engasgado com alguma coisa.",
+      "mention": "Usado por Horace Slughorn, lançado sobre Marcus Belby quando este se engasgou com um faisão em 1996.",
       "etymology": null,
       "note": null
     },
@@ -12163,8 +12163,8 @@ export default {
       "name": "Anteoculatia",
       "other_name": null,
       "pronunciation": "an-tee-oh-kyoo-LAY-chee-ah",
-      "spell_type": "Hex",
-      "description": "Causes the target to grow antlers.",
+      "spell_type": "Hexadecimal",
+      "description": "Faz com que o alvo cresça chifres.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12174,8 +12174,8 @@ export default {
       "name": "Anti-Cheating Spell",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Used to prevent cheating.",
+      "spell_type": "Charme",
+      "description": "Usado para evitar trapaças.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12185,8 +12185,8 @@ export default {
       "name": "Anti-Disapparition Jinx",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "Prevents Disapparation in an area. It is used to entrap an enemy in an area.",
+      "spell_type": "Azar",
+      "description": "Evita a desaparatação em uma área. É usado para prender um inimigo em uma área.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12196,8 +12196,8 @@ export default {
       "name": "Anti-intruder jinx",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "Prevents intruders from entering an area.",
+      "spell_type": "Azar",
+      "description": "Evita que intrusos entrem em uma área.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12207,8 +12207,8 @@ export default {
       "name": "Antonin Dolohov's curse",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "An unknown curse that causes injuries that are capable of killing with enough power.",
+      "spell_type": "Xingamento",
+      "description": "Uma maldição desconhecida que causa ferimentos capazes de matar com poder suficiente.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12218,9 +12218,9 @@ export default {
       "name": "Aparecium",
       "other_name": "Revealing Charm",
       "pronunciation": "AH-par-EE-see-um",
-      "spell_type": "Charm",
-      "description": "Reveals secret messages written in invisible ink, or any other hidden markings. Also works against Concealing charms",
-      "mention": "Used (to no avail) in 1993 by Hermione Granger to attempt to reveal any hidden writing in a diary.",
+      "spell_type": "Charme",
+      "description": "Revela mensagens secretas escritas em tinta invisível ou qualquer outra marca oculta. Também funciona contra feitiços de ocultação",
+      "mention": "Usado (sem sucesso) em 1993 por Hermione Granger para tentar revelar qualquer escrito oculto em um diário.",
       "etymology": null,
       "note": null
     },
@@ -12229,8 +12229,8 @@ export default {
       "name": "Appare Vestigium",
       "other_name": "Tracking Spell",
       "pronunciation": "ah-PAR-ay ves-TEE-jee-um",
-      "spell_type": "Charm",
-      "description": "Reveals traces of magic, including footprints and track marks.",
+      "spell_type": "Charme",
+      "description": "Revela vestígios de magia, incluindo pegadas e rastros.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12240,8 +12240,8 @@ export default {
       "name": "Apparition",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Transportation",
-      "description": "Magically transports the caster to another location instantaneously. The destination is one that the primary user has been to or seen in some fashion previously. Can be used to apparate multiple people at once if holding each other. No incantation required.",
+      "spell_type": "Transporte",
+      "descrição": "Transporta magicamente o lançador para outro local instantaneamente. O destino é aquele em que o usuário principal esteve ou viu de alguma forma anteriormente. Pode ser usado para aparatar várias pessoas ao mesmo tempo se estiverem segurando umas às outras. Não é necessário encantamento. ",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12251,9 +12251,9 @@ export default {
       "name": "Aqua Eructo",
       "other_name": "Aqua Eructo Charm",
       "pronunciation": "A-kwa ee-RUCK-toh",
-      "spell_type": "Charm",
-      "description": "This spell is used to create, and control, a jet of clear water from the tip of the wand; it is probably related to Aguamenti.",
-      "mention": "Used multiple times to extinguish fires in 1994.",
+      "spell_type": "Charme",
+      "description": "Este feitiço é usado para criar e controlar um jato de água limpa da ponta da varinha; provavelmente está relacionado a Aguamenti.",
+      "mention": "Usado várias vezes para extinguir incêndios em 1994.",
       "etymology": null,
       "note": null
     },
@@ -12262,9 +12262,9 @@ export default {
       "name": "Arania Exumai",
       "other_name": "Spider repelling spell",
       "pronunciation": "ah-RAHN-ee-a EKS-su-may",
-      "spell_type": "Charm",
-      "description": "Drives away spiders, including Acromantulas.",
-      "mention": "Jacob's sibling used this spell to repel an Acromantula that guarded the Forest Vault in the Forbidden Forest.",
+      "spell_type": "Charme",
+      "description": "Afasta aranhas, incluindo Acromântulas.",
+      "mention": "O irmão de Jacob usou este feitiço para repelir uma Acromântula que guardava o Cofre da Floresta na Floresta Proibida.",
       "etymology": null,
       "note": null
     },
@@ -12273,9 +12273,9 @@ export default {
       "name": "Arresto Momentum",
       "other_name": "Slowing Charm",
       "pronunciation": "ah-REST-oh mo-MEN-tum",
-      "spell_type": "Charm",
-      "description": "Decreases the velocity of a moving target. Can be used on multiple targets, as well as on the caster themselves. It was invented by Daisy Pennifold in 1711 for use on the Quaffle in Quidditch.",
-      "mention": "Used by Dumbledore to save one of his students from a fall in 1993; Hermione Granger used it, to little effect, in 1998 to cushion an otherwise deadly fall.",
+      "spell_type": "Charme",
+      "description": "Diminui a velocidade de um alvo em movimento. Pode ser usado em vários alvos, bem como no próprio lançador. Foi inventado por Daisy Pennifold em 1711 para uso na goles no quadribol.",
+      "mention": "Usado por Dumbledore para salvar um de seus alunos de uma queda em 1993; Hermione Granger o usou, com pouco efeito, em 1998 para amortecer uma queda mortal.",
       "etymology": null,
       "note": null
     },
@@ -12284,8 +12284,8 @@ export default {
       "name": "Arrow-shooting spell",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Conjuration",
-      "description": "Fires arrows from the caster's wand.",
+      "spell_type": "Conjuração",
+      "description": "Dispara flechas da varinha do lançador.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12295,8 +12295,8 @@ export default {
       "name": "Ascendio",
       "other_name": null,
       "pronunciation": "ah-SEN-dee-oh",
-      "spell_type": "Charm",
-      "description": "Lifts the caster high into the air. The charm also works underwater, propelling the caster above the surface.",
+      "spell_type": "Charme",
+      "description": "Eleva o lançador no ar. O feitiço também funciona debaixo d'água, impulsionando o lançador acima da superfície.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12306,9 +12306,9 @@ export default {
       "name": "Avada Kedavra",
       "other_name": "Killing Curse",
       "pronunciation": "ah-VAH-dah keh-DAV-rah",
-      "spell_type": "Curse",
-      "description": "",
-      "mention": "Used by Tom Riddle to murder many of his victims without remorse.",
+      "spell_type": "Xingamento",
+      "descrição": "",
+      "mention": "Usado por Tom Riddle para matar muitas de suas vítimas sem remorso.",
       "etymology": null,
       "note": null
     },
@@ -12317,9 +12317,9 @@ export default {
       "name": "Avifors",
       "other_name": "Avifors Spell",
       "pronunciation": "AH-vi-fors",
-      "spell_type": "Transfiguration",
-      "description": "Transforms the target into a bird.",
-      "mention": "Taught in Transfiguration class.",
+      "spell_type": "Transfiguração",
+      "description": "Transforma o alvo em um pássaro.",
+      "mention": "Dado na aula de Transfiguração.",
       "etymology": null,
       "note": null
     },
@@ -12328,9 +12328,9 @@ export default {
       "name": "Avenseguim",
       "other_name": null,
       "pronunciation": "ah-ven-SEH-gwim",
-      "spell_type": "Charm",
-      "description": "Turns an object into a tracking device.",
-      "mention": "In 1927, Newton Scamander used this spell to track the origins of a feather - a clue found during his search for Porpentina Goldstein - back to Yusuf Kama, whose hat the feather came from.",
+      "spell_type": "Charme",
+      "description": "Transforma um objeto em um dispositivo de rastreamento.",
+      "mention": "Em 1927, Newton Scamander usou este feitiço para rastrear as origens de uma pena - uma pista encontrada durante sua busca por Porpentina Goldstein - de volta a Yusuf Kama, de cujo chapéu veio a pena.",
       "etymology": null,
       "note": null
     },
@@ -12339,9 +12339,9 @@ export default {
       "name": "Avis",
       "other_name": "Bird-Conjuring Charm",
       "pronunciation": "AH-viss",
-      "spell_type": "Conjuration, Charm",
-      "description": "Conjures a flock of birds from the tip of the wand. When used in conjunction with Oppugno, it can be used offensively.",
-      "mention": "Used in 1994 by Mr Ollivander to test Viktor Krum's wand. Also employed offensively by Hermione Granger against Ron Weasley.",
+      "spell_type": "Conjuração, Charme",
+      "description": "Conjura um bando de pássaros com a ponta da varinha. Quando usado em conjunto com Oppugno, pode ser usado ofensivamente.",
+      "mention": "Usada em 1994 pelo Sr. Ollivander para testar a varinha de Vítor Krum. Também empregada ofensivamente por Hermione Granger contra Ron Weasley.",
       "etymology": null,
       "note": null
     },
@@ -12350,9 +12350,9 @@ export default {
       "name": "Babbling Curse",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Causes uncontrollable babbling.",
-      "mention": "Although he was rather untrustworthy, it may not have occurred at all, but Gilderoy Lockhart says he cured a Transylvanian farmer of this affliction.",
+      "spell_type": "Xingamento",
+      "description": "Provoca balbucio incontrolável.",
+      "mention": "Embora ele não fosse confiável, pode não ter ocorrido, mas Gilderoy Lockhart diz que curou um fazendeiro da Transilvânia dessa doença.",
       "etymology": null,
       "note": null
     },
@@ -12361,8 +12361,8 @@ export default {
       "name": "Badgering",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Turns things into badgers",
+      "spell_type": "Transfiguração",
+      "description": "Transforma coisas em texugos",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12373,8 +12373,8 @@ export default {
       "other_name": null,
       "pronunciation": null,
       "spell_type": "Hex",
-      "description": "Transforms the target's bogeys into large bats that fly out of the victim's nose. It was invented by Miranda Goshawk.",
-      "mention": "Ginny Weasley was a noted practitioner of this spell, having used it at least thrice by her sixth year.",
+      "description": "Transforma os bogeys do alvo em grandes morcegos que voam para fora do nariz da vítima. Foi inventado por Miranda Goshawk.",
+      "mention": "Gina Weasley era uma notável praticante deste feitiço, tendo-o usado pelo menos três vezes em seu sexto ano.",
       "etymology": null,
       "note": null
     },
@@ -12383,8 +12383,8 @@ export default {
       "name": "Baubillious",
       "other_name": null,
       "pronunciation": "baw-BILL-ee-us",
-      "spell_type": "Charm",
-      "description": "The exact effects of the spell are unknown, though it presumably is of damaging nature and it produces a bolt of white light from the tip of the wand.",
+      "spell_type": "Charme",
+      "description": "Os efeitos exatos do feitiço são desconhecidos, embora presumivelmente seja de natureza prejudicial e produza um raio de luz branca da ponta da varinha.",
       "mention": null,
       "etymology": "Currently unclear, probably from English bauble.",
       "note": "This is likely the incantation for White sparks."
@@ -12395,8 +12395,8 @@ export default {
       "other_name": null,
       "pronunciation": null,
       "spell_type": "Hex",
-      "description": "Allows the caster to disguise things.",
-      "mention": "When Xenophilius Lovegood explains the concept of how the Cloak of Invisibility is the only thing that can make a person truly invisible, he mentions that most cloaks of that kind are made with this spell.",
+      "description": "Permite ao lançador disfarçar coisas.",
+      "mention": "Quando Xenophilius Lovegood explica o conceito de como a Capa da Invisibilidade é a única coisa que pode tornar uma pessoa verdadeiramente invisível, ele menciona que a maioria das capas desse tipo são feitas com esse feitiço.",
       "etymology": null,
       "note": null
     },
@@ -12405,9 +12405,9 @@ export default {
       "name": "Bewitched Snowballs",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes snowballs to pelt themselves at the target.",
-      "mention": "Twice used by Fred and George Weasley; firstly on Professor Quirrell's head, unwittingly striking Lord Voldemort in the face, and then again four years later to attack the windows of Gryffindor Tower.",
+      "spell_type": "Charme",
+      "description": "Faz com que bolas de neve atinjam o alvo.",
+      "mention": "Usado duas vezes por Fred e George Weasley; primeiro na cabeça do Professor Quirrell, acertando involuntariamente Lord Voldemort no rosto, e novamente quatro anos depois para atacar as janelas da Torre da Grifinória.",
       "etymology": null,
       "note": null
     },
@@ -12416,9 +12416,9 @@ export default {
       "name": "Bluebell Flames",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Produces magical blue flames that can be held in a jar. Not as dangerous as real fire, these magical flames can be touched, penetrated and held without it burning the holder, though it is known to singe materials such as clothing and plants.",
-      "mention": "This spell was a speciality of Hermione Granger's. She used it to save Harry and Ron in 1991.",
+      "spell_type":"Charme",
+      "descrição": "Produz chamas azuis mágicas que podem ser mantidas em uma jarra. Não tão perigosas quanto o fogo real, essas chamas mágicas podem ser tocadas, penetradas e mantidas sem queimar o recipiente, embora seja conhecido por chamuscar materiais como roupas e plantas.",
+      "mention": "Este feitiço era uma especialidade de Hermione Granger. Ela o usou para salvar Harry e Ron em 1991.",
       "etymology": null,
       "note": null
     },
@@ -12427,9 +12427,9 @@ export default {
       "name": "Blue sparks",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Jet of blue sparks. It can be used offensively as a minor duelling spell.",
-      "mention": "Following the American National Quidditch team's win at the semi-finals of the 2014 Quidditch World Cup against Liechtenstein, red, white and blue sparks filled the air so thickly it was difficult to see or breathe.",
+      "spell_type": "Charme",
+      "description": "Jato de faíscas azuis. Pode ser usado ofensivamente como um feitiço de duelo menor.",
+      "mention": "Após a vitória do time nacional americano de quadribol nas semifinais da Copa Mundial de Quadribol de 2014 contra Liechtenstein, faíscas vermelhas, brancas e azuis encheram o ar tão densamente que era difícil ver ou respirar.",
       "etymology": null,
       "note": null
     },
@@ -12438,9 +12438,9 @@ export default {
       "name": "Bombarda",
       "other_name": "Exploding Charm",
       "pronunciation": "bom-BAR-dah",
-      "spell_type": "Charm",
-      "description": "Provokes a small explosion.",
-      "mention": "Taught in fourth year Charms class.",
+      "spell_type": "Charme",
+      "description": "Provoca uma pequena explosão.",
+      "mention": "Dado na aula de Feitiços do quarto ano.",
       "etymology": "From the word bombard, meaning \"to attack a place or person continually with bombs or other missiles\".",
       "note": null
     },
@@ -12449,8 +12449,8 @@ export default {
       "name": "Bombarda Maxima",
       "other_name": null,
       "pronunciation": "BOM-bar-dah MAX-ih-mah",
-      "spell_type": "Charm",
-      "description": "Creates a large explosion capable of removing entire walls. A more advanced and more powerful form of the Exploding Charm.",
+      "spell_type": "Charme",
+      "description": "Cria uma grande explosão capaz de remover paredes inteiras. Uma forma mais avançada e poderosa do Feitiço Explosivo.",
       "mention": null,
       "etymology": null,
       "note": null
@@ -12460,9 +12460,9 @@ export default {
       "name": "Brackium Emendo",
       "other_name": null,
       "pronunciation": "BRA-key-um ee-MEN-doh",
-      "spell_type": "Charm, Healing Spell",
-      "description": "If used correctly, it is claimed that this spell will heal broken bones; this theory is supported by the etymology.",
-      "mention": "Used unsuccessfully by Gilderoy Lockhart on Harry Potter in 1992 after the latter's arm was broken by a Bludger; it vanished all the bones, making it resemble rubber.",
+      "spell_type": "Feitiço, Feitiço de Cura",
+      "description": "Se usado corretamente, afirma-se que este feitiço curará ossos quebrados; esta teoria é apoiada pela etimologia.",
+      "mention": "Usado sem sucesso por Gilderoy Lockhart em Harry Potter em 1992, depois que o braço deste último foi quebrado por um balaço; todos os ossos desapareceram, fazendo com que parecesse borracha.",
       "etymology": null,
       "note": null
     },
@@ -12471,9 +12471,9 @@ export default {
       "name": "Bravery Charm",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Increases the bravery of a teammate, increasing their performance against certain foes.",
-      "mention": "Taught by Head of the Auror Office, Harry Potter, to members of the Statute of Secrecy Task Force, to help them address the results of the Calamity in the 2010s.",
+      "spell_type": "Charme",
+      "description": "Aumenta a bravura de um companheiro de equipe, aumentando seu desempenho contra certos inimigos.",
+      "mention": "Ensinado pelo Chefe do Gabinete dos Aurores, Harry Potter, aos membros da Força-Tarefa do Estatuto de Sigilo, para ajudá-los a lidar com os resultados da Calamidade na década de 2010.",
       "etymology": null,
       "note": null
     },
@@ -12482,9 +12482,9 @@ export default {
       "name": "Bridge-conjuring spell",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Conjure a bridge from thin air.",
-      "mention": "This spell was used by Ignotus, Antioch and Cadmus Peverell in The Tale of the Three Brothers to create a bridge over a treacherous river, a bridge upon which they met Death.",
+      "spell_type": "Charme",
+      "description": "Conjure uma ponte do nada.",
+      "mention": "Este feitiço foi usado por Ignotus, Antioch e Cadmus Peverell em O Conto dos Três Irmãos para criar uma ponte sobre um rio traiçoeiro, uma ponte sobre a qual eles encontraram a Morte.",
       "etymology": null,
       "note": null
     },
@@ -12493,9 +12493,9 @@ export default {
       "name": "Broom jinx",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "Used to make broomsticks try to throw their riders off through a variety of means such as sudden lurches and violent swishing movements. Constant eye contact is needed for the jinx to keep working.",
-      "mention": "It was used by Quirinus Quirrell against Harry Potter in 1991.",
+      "spell_type": "Azar",
+      "description": "Usado para fazer com que vassouras tentem lançar seus cavaleiros de várias maneiras, como guinadas repentinas e movimentos violentos de assobio. É necessário contato visual constante para que o feitiço continue funcionando.",
+      "mention": "Foi usado por Quirinus Quirrell contra Harry Potter em 1991.",
       "etymology": null,
       "note": "This may be related to the Hurling Hex."
     },
@@ -12504,9 +12504,9 @@ export default {
       "name": "Bubble-Head Charm",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Produces a large bubble of air around the head of the user; it is commonly used as the supernatural equivalent of a breathing set.",
-      "mention": "Used by Cedric Diggory and Fleur Delacour in 1995; it was used the next year by many students walking through the halls, because of horrid odours made by various pranks played on Dolores Umbridge.",
+      "spell_type": "Charme",
+      "description": "Produz uma grande bolha de ar ao redor da cabeça do usuário; é comumente usado como o equivalente sobrenatural de um conjunto de respiração.",
+      "mention": "Usado por Cedric Diggory e Fleur Delacour em 1995; foi usado no ano seguinte por muitos alunos andando pelos corredores, por causa dos odores horríveis produzidos por várias partidas pregadas em Dolores Umbridge.",
       "etymology": null,
       "note": null
     },
@@ -12515,9 +12515,9 @@ export default {
       "name": "Bubble-producing spell",
       "other_name": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Produces a stream of non-bursting bubbles; there are two similar spells.",
-      "mention": "Used by Professor Flitwick to decorate some trees; the bubbles in this instance were golden. Used the following year by Ron Weasley when he broke his wand; these bubbles were purple.",
+      "spell_type": "Charme",
+      "description": "Produz um fluxo de bolhas que não estouram; existem dois feitiços semelhantes.",
+      "mention": "Usado pelo Professor Flitwick para decorar algumas árvores; as bolhas neste caso eram douradas. Usado no ano seguinte por Ron Weasley quando ele quebrou sua varinha; essas bolhas eram roxas.",
       "etymology": null,
       "note": null
     },
@@ -12526,9 +12526,9 @@ export default {
       "name": "Calvorio",
       "other_name": "Hair-Loss Curse",
       "pronunciation": "cal-VOR-ee-oh",
-      "spell_type": "Curse",
-      "description": "Removes the victim's hair.",
-      "mention": "The book Curses and Counter-Curses by Vindictus Viridian mentions this curse.",
+      "spell_type": "Xingamento",
+      "description": "Remove o cabelo da vítima.",
+      "mention": "O livro Curses and Counter-Curses de Vindictus Viridian menciona esta maldição.",
       "etymology": "From Latin calvus = \"bald\".",
       "note": null
     },
@@ -12538,8 +12538,8 @@ export default {
       "other_name": null,
       "pronunciation": "CAN-tiss",
       "spell_type": "Jinx",
-      "description": "Causes the victim to burst uncontrollably into song.",
-      "mention": "Used by the Hogwarts professors to enchant suits of armour.",
+      "description": "Faz com que a vítima comece a cantar incontrolavelmente.",
+      "mention": "Usado pelos professores de Hogwarts para encantar armaduras.",
       "etymology": "Cantare is Latin for \"sing\".",
       "note": null
     },
@@ -12548,121 +12548,121 @@ export default {
       "name": "Capacious extremis",
       "other_name": "Extension Charm",
       "pronunciation": "ca-PAY-shus ex-TREEM-us",
-      "spell_type": "Charm",
-      "description": "Expands the internal dimensions of an object without affecting the external dimensions, enhancing its capacity, and rendering its contents lighter.",
-      "mention": "This spell was used by Arthur Weasley to allow eight people, six large trunks, two owls, and a rat to fit comfortably inside his modified Ford Anglia in 1992. Also on the tent in which the Weasleys, Harry and Hermione stay during the Quidditch World Cup in 1994; the tent is also used by Harry, Ron and Hermione as shelter in 1997. Also, Hermione cast this spell upon her handbag in the same year.",
+      "spell_type": "charme",
+      "description": "Expande as dimensões internas de um objeto sem afetar as dimensões externas, aumentando sua capacidade e tornando seu conteúdo mais leve.",
+      "mention": "Este feitiço foi usado por Arthur Weasley para permitir que oito pessoas, seis baús grandes, duas corujas e um rato coubessem confortavelmente dentro de seu Ford Anglia modificado em 1992. Também na tenda em que os Weasleys, Harry e Hermione ficar durante a Copa Mundial de Quadribol em 1994; a tenda também é usada por Harry, Ron e Hermione como abrigo em 1997. Além disso, Hermione lançou esse feitiço em sua bolsa no mesmo ano.",
       "etymology": null,
       "note": null
     },
     {
       "id": 46,
       "name": "Carpe Retractum",
-      "other_name": "Seize and Pull Charm",
+      "other_name": "Agarre e puxe o feitiço",
       "pronunciation": "CAR-pay ruh-TRACK-tum",
-      "spell_type": "Charm",
-      "description": "Produces a rope of light used to pull objects towards the caster, or, if the target is fixed in place, to pull the caster towards the target.",
-      "mention": "Taught in third year Charms class.",
-      "etymology": "From the Latin carpe, meaning \"to seize\" and retracto, meaning \"I draw back\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Produz uma corda de luz usada para puxar objetos em direção ao lançador, ou, se o alvo estiver fixo no lugar, para puxar o lançador em direção ao alvo.",
+      "mention": "Dado na aula de Feitiços do terceiro ano.",
+      "etimologia": "Do latim carpe, que significa \"agarrar\" e retracto, que significa \"recuo\".",
+      "nota": null
     },
     {
       "id": 47,
       "name": "Cascading Jinx",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Jinx",
-      "description": "Attacks multiple opponents in close proximity to each other.",
+      "description": "Ataca vários oponentes próximos uns dos outros.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 48,
-      "name": "Caterwauling Charm",
-      "other_name": null,
+      "name": "Feitiço de Caterwauling",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Anyone entering the perimeter of this spell sets off a high-pitched shriek. This spell may be related to the Intruder Charm.",
-      "mention": "This spell was cast by the Death Eaters over Hogsmeade Wizarding Village to protect against intruders in 1998.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Qualquer pessoa que entrar no perímetro deste feitiço emite um grito agudo. Este feitiço pode estar relacionado ao Feitiço do Intruso.",
+      "mention": "Este feitiço foi lançado pelos Comensais da Morte sobre a Vila Mágica de Hogsmeade para proteger contra intrusos em 1998.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 49,
-      "name": "Cauldron to Sieve",
-      "other_name": null,
+      "name": "Caldeirão para Peneirar",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Transforms cauldrons into sieves.",
+      "spell_type": "Transfiguração",
+      "description": "Transforma caldeirões em peneiras.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 50,
-      "name": "Cauldron to badger",
-      "other_name": null,
+      "name": "Caldeirão para texugo",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Transforms cauldrons into badgers.",
+      "spell_type": "Transfiguração",
+      "description": "Transforma caldeirões em texugos.",
       "mention": null,
-      "etymology": null,
-      "note": "This spell may be Badgering."
+      "etimologia": null,
+      "note": "Este feitiço pode ser Texugo."
     },
     {
       "id": 51,
       "name": "Cave inimicum",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "CAH-vay uh-NIM-i-kuhm",
-      "spell_type": "Charm",
-      "description": "Produces a boundary that keeps the caster hidden from others.",
-      "mention": "Used multiple times by Hermione Granger in 1997 and 1998 to protect the tent she shared with Ron Weasley and Harry Potter.",
-      "etymology": "The incantation is a Latin phrase which translates to \"beware of the enemy\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Produz um limite que mantém o lançador escondido dos outros.",
+      "mention": "Usado várias vezes por Hermione Granger em 1997 e 1998 para proteger a tenda que ela dividia com Ron Weasley e Harry Potter.",
+      "etimologia": "O encantamento é uma frase latina que se traduz em \"cuidado com o inimigo\".",
+      "nota": null
     },
     {
       "id": 52,
-      "name": "Cheering Charm",
-      "other_name": null,
+      "name": "Encanto Animador",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Makes the target feel happy. Overuse of the spell may cause the target to break into an uncontrollable laughing fit. This spell was invented by Felix Summerbee.",
-      "mention": "Taught to third-year charms classes, part of the written O.W.L.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz o alvo feliz. O uso excessivo do feitiço pode fazer com que o alvo tenha um ataque de riso incontrolável. Este feitiço foi inventado por Felix Summerbee.",
+      "mention": "Ministrado nas aulas de feitiços do terceiro ano, parte do O.W.L escrito.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 53,
       "name": "Circumrota",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "SIR-cum-roh-tuh",
-      "spell_type": "Charm",
-      "description": "Rotates objects.",
-      "mention": "This spell was used by Leta Lestrange to rotate a record tower in the Records Room at the French Ministry of Magic Headquarters, revealing Newton Scamander and Porpentina Goldstein to be hiding behind the tower.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Gira objetos.",
+      "mention": "Este feitiço foi usado por Leta Lestrange para girar uma torre de registro na Sala de Registros na Sede do Ministério da Magia da França, revelando que Newton Scamander e Porpentina Goldstein estavam escondidos atrás da torre.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 54,
-      "name": "Cistem Aperio",
-      "other_name": null,
+      "name": "Cistema Aperio",
+      "outro_nome": null,
       "pronunciation": "SIS-tem uh-PE-ree-o",
-      "spell_type": "Charm",
-      "description": "Opens chests and boxes.",
-      "mention": "This spell was used by Tom Riddle to open the chest in which Aragog was hidden.",
-      "etymology": "Aperio is Latin for \"uncover\" or \"open\"; Cista is Latin for \"trunk\" or \"chest\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Abre baús e caixas.",
+      "mention": "Este feitiço foi usado por Tom Riddle para abrir o baú onde Aragogue estava escondido.",
+      "etimologia": "Aperio é latim para \"descobrir\" ou \"abrir\"; Cista é latim para \"tronco\" ou \"peito\".",
+      "nota": null
     },
     {
       "id": 55,
-      "name": "Colloportus",
-      "other_name": "Locking Spell",
+      "name": "Coloporto",
+      "other_name": "Feitiço de Bloqueio",
       "pronunciation": "cul-loh-POR-tus",
-      "spell_type": "Charm",
-      "description": "Locks doors and all things that can be locked. It is the counter-charm to the Unlocking Spell.",
-      "mention": "Used by Hermione Granger in 1996 in an attempt to prevent the Death Eaters that were following her from catching up.",
-      "etymology": "Perhaps a portmanteau of the Latin words colligere, which means \"gather\" and porta, which means \"gate\".",
-      "note": "This spell can easily be countered with Alohomora."
+      "spell_type": "Charme",
+      "description": "Tranca portas e todas as coisas que podem ser trancadas. É o contra-feitiço para o Feitiço de Desbloqueio.",
+      "mention": "Usado por Hermione Granger em 1996 em uma tentativa de impedir que os Comensais da Morte que a seguiam a alcançassem.",
+      "etimologia": "Talvez uma junção das palavras latinas colligere, que significa \"reunir\" e porta, que significa \"portão\".",
+      "note": "Este feitiço pode ser facilmente anulado com Alohomora."
     },
     {
       "id": 56,
@@ -12670,307 +12670,307 @@ export default {
       "other_name": "Stickfast Hex",
       "pronunciation": "CAWL-low-shoo",
       "spell_type": "Hex",
-      "description": "Sticks the target's shoes to the ground.",
-      "mention": "This spell is mentioned twice, once as having been used on Severus Snape during a potions class, the other when one reads Curses and Counter-Curses by Vindictus Viridian.",
-      "etymology": "The suffix \"shoo\" is a phonetic spelling of English \"shoe\"; the prefix collo may come from Greek \"κολάω,κολώ\" (pronounced \"colas\",\"cols\"), which means \"to glue\".",
+      "description": "Fica os sapatos do alvo no chão.",
+      "mention": "Este feitiço é mencionado duas vezes, uma vez como tendo sido usado em Severus Snape durante uma aula de poções, a outra quando se lê Maldições e Contra-Maldições de Vindictus Viridian.",
+      "etimologia": "O sufixo \"shoo\" é uma grafia fonética do inglês \"sapato\"; o prefixo collo pode vir do grego \"κολάω,κολώ\" (pronuncia-se \"colas\",\"cols\") que significa \"colar\".",
       "note": null
     },
     {
       "id": 57,
       "name": "Colovaria",
-      "other_name": "Colour Change Charm",
+      "other_name": "Charme de Mudança de Cor",
       "pronunciation": "co-loh-VA-riah",
-      "spell_type": "Charm",
-      "description": "Changes the target's colour.",
-      "mention": "The spell can be bought in Wiseacre's Wizarding Equipment in Diagon Alley. Used by fifth-years in their OWLs.",
-      "etymology": "Almost certainly a combination of English \"colour\" and \"vary\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Muda a cor do alvo.",
+      "mention": "O feitiço pode ser comprado no Wiseacre's Wizarding Equipment no Diagon Alley. Usado pelos alunos do quinto ano em seus NOMs.",
+      "etimologia": "Quase certamente uma combinação do inglês \"color\" e \"varia\".",
+      "nota": null
     },
     {
       "id": 58,
       "name": "Confringo",
-      "other_name": "Blasting Curse",
+      "other_name": "Maldição Explosiva",
       "pronunciation": "kon-FRING-goh",
-      "spell_type": "Curse",
-      "description": "Produces a fiery explosion.",
-      "mention": "Used by Harry Potter to destroy the side-car of a motorbike in which he was riding during a battle against some Death Eaters in 1997; it was later used by Hermione Granger in an attempt to kill Nagini and facilitate an escape from Godric's Hollow.",
-      "etymology": "The incantation is direct Latin for \"destroy\".",
-      "note": "This spell seems to use heat for its explosion, while Expulso uses pressure instead."
+      "spell_type": "Maldição",
+      "description": "Produz uma explosão de fogo.",
+      "mention": "Usado por Harry Potter para destruir o carro lateral de uma motocicleta em que ele estava andando durante uma batalha contra alguns Comensais da Morte em 1997; mais tarde foi usado por Hermione Granger em uma tentativa de matar Nagini e facilitar uma fuga de Godric's Hollow.",
+      "etimologia": "O encantamento é latim direto para \"destruir\".",
+      "note": "Este feitiço parece usar calor para sua explosão, enquanto Expulso usa pressão."
     },
     {
       "id": 59,
       "name": "Confundo",
-      "other_name": "Confundus Charm",
+      "other_name": "Feitiço Confundus",
       "pronunciation": "con-FUN-doh",
-      "spell_type": "Charm",
-      "description": "Causes the victim to become confused and befuddled.",
-      "mention": "In 1994, Severus Snape asserted that Harry, Ron and Hermione had this charm cast on them so that they would believe Sirius Black's claim of innocence; used two years later by Hermione to allow Ron to join the Gryffindor Quidditch team. It was used multiple times in 1997 and 1998.",
-      "etymology": "The incantation, when non-capitalised, means \"I confuse\"; the title may derive from the Latin confundere, meaning \"to confuse\" or \"to perplex.\"",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz com que a vítima fique confusa e confusa.",
+      "mention": "Em 1994, Severus Snape afirmou que Harry, Ron e Hermione lançaram esse feitiço sobre eles para que acreditassem na alegação de inocência de Sirius Black; usado dois anos depois por Hermione para permitir que Ron se juntasse ao time de quadribol da Grifinória. Foi usado várias vezes em 1997 e 1998.",
+      "etimologia": "O encantamento, quando não maiúsculo, significa \"eu confundo\"; o título pode derivar do latim confundere, significando \"confundir\" ou \"perplexar\"",
+      "nota": null
     },
     {
       "id": 60,
-      "name": "Conjunctivitis Curse",
-      "other_name": null,
+      "name": "Maldição da Conjuntivite",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Causes irritation in the eyes, forcing them to swell shut. The Oculus Potion is able to counteract this curse. Dragons are particularly susceptible to this curse, as their hide makes them resistant to most spells, while their eyes remain vulnerable.",
-      "mention": "It was suggested by Sirius Black in his letter to Harry for him to use this spell on a dragon. Olympe Maxime used this spell on some giants in 1995.",
-      "etymology": "\"Conjunctivitis\" is the technical term for \"pink eye,\" demonstrating its effects of irritating the eye and causing it to shut.",
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Causa irritação nos olhos, forçando-os a inchar e fechar. A Poção Oculus é capaz de neutralizar essa maldição. Os dragões são particularmente suscetíveis a essa maldição, pois sua pele os torna resistentes à maioria dos feitiços, enquanto seus olhos permanecem vulneráveis .",
+      "mention": "Foi sugerido por Sirius Black em sua carta a Harry que ele usasse esse feitiço em um dragão. Olympe Maxime usou esse feitiço em alguns gigantes em 1995.",
+      "etimologia": "\"Conjuntivite\" é o termo técnico para \"olho rosa\", demonstrando seus efeitos de irritar o olho e fazê-lo fechar.",
+      "nota": null
     },
     {
       "id": 61,
-      "name": "Cornflake skin spell",
-      "other_name": null,
+      "name": "Feitiço de pele de floco de milho",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": null,
-      "description": "This spell causes the victim's skin to appear as though it was coated in cornflakes.",
-      "mention": "In 1996, an unnamed student went to the hospital for treatment after he was hit with it, which was done in retaliation for the Inquisitorial Squad's recent behaviour.",
-      "etymology": null,
-      "note": null
+      "description": "Este feitiço faz com que a pele da vítima pareça coberta por flocos de milho.",
+      "mention": "Em 1996, um estudante não identificado foi ao hospital para tratamento depois de ter sido atingido, o que foi feito em retaliação ao comportamento recente do Esquadrão Inquisitorial.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 62,
-      "name": "Cracker Jinx",
-      "other_name": null,
+      "name": "Biscoito Jinx",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Jinx",
-      "description": "This spell is used to conjure exploding wizard crackers; it can be used in duelling to harm the opponent, but the force of the explosion may also affect the caster.",
+      "description": "Este feitiço é usado para conjurar bolachas mágicas explosivas; pode ser usado em duelos para ferir o oponente, mas a força da explosão também pode afetar o lançador.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 63,
-      "name": "Cribbing Spell",
-      "other_name": null,
+      "name": "Feitiço de Cribbing",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "This spell, which may possibly be a charm, is used to assist the caster in cheating on written papers, tests, and exams. It is possible that these spells can negate anti-cheating spells.",
-      "mention": "In 1991, an unnamed Slytherin student asked his fellow students whether any of them knew any good cribbing spells.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Feitiço",
+      "description": "Este feitiço, que possivelmente pode ser um feitiço, é usado para ajudar o lançador a trapacear em trabalhos escritos, testes e exames. É possível que esses feitiços possam anular feitiços anti-trapaça.",
+      "mention": "Em 1991, um aluno não identificado da Sonserina perguntou a seus colegas se algum deles conhecia algum bom feitiço de cribbing.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 64,
       "name": "Crinus Muto",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Used to transfigure the colour and style of one's hair.",
-      "mention": "This maybe be the spell that caused Harry to turn his eyebrow yellow in 1996.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "Usado para transfigurar a cor e estilo do cabelo.",
+      "mention": "Este talvez seja o feitiço que fez Harry deixar sua sobrancelha amarela em 1996.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 65,
       "name": "Crucio",
-      "other_name": "Cruciatus Curse",
+      "other_name": "Maldição Cruciatus",
       "pronunciation": "KROO-see-oh",
-      "spell_type": "Curse",
-      "description": "Inflicts intense pain on the recipient of the curse. This curse does not physically harm the victim, but may in extreme cases drive them insane. The pain is described as having hot knives being driven into the victim. It cannot be cast successfully by a person who is doing so out of pure spite or anger; one must feel a true desire to cause the victim pain. If one casts this spell, he or she will receive a life sentence in Azkaban prison for it, as with the other two Unforgivable Curses.",
-      "mention": "Infamously used by Death Eaters Bellatrix Lestrange, Rabastan Lestrange, Rodolphus Lestrange and Bartemius Crouch Junior to torture the Aurors Frank and Alice Longbottom into insanity.",
-      "etymology": "Latin crucio means \"I torture\".",
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Inflige dor intensa no destinatário da maldição. Esta maldição não prejudica fisicamente a vítima, mas pode, em casos extremos, deixá-la louca. A dor é descrita como facas quentes sendo cravadas na vítima. Não pode ser lançado com sucesso por uma pessoa que está fazendo isso por puro despeito ou raiva; deve-se sentir um desejo verdadeiro de causar dor à vítima. Se alguém lançar este feitiço, ele ou ela receberá uma sentença de prisão perpétua na prisão de Azkaban por isso, como com as outras duas Maldições Imperdoáveis.",
+      "mention": "Infamemente usado pelos Comensais da Morte Bellatrix Lestrange, Rabastan Lestrange, Rodolphus Lestrange e Bartemius Crouch Junior para torturar os Aurores Frank e Alice Longbottom até a loucura.",
+      "etimologia": "Crucio latino significa \"Eu torturo\".",
+      "nota": null
     },
     {
       "id": 66,
       "name": "Defodio",
-      "other_name": "Gouging Spell",
+      "other_name": "Feitiço de Goivagem",
       "pronunciation": "deh-FOH-dee-oh",
-      "spell_type": "Charm",
-      "description": "Allows the caster to dig and carve through the target.",
-      "mention": "Used by The Trio to escape from a bank in 1998 while riding a dragon. It was later used by Harry to write the epitaph for Dobby, who had been killed.",
-      "etymology": "The incantation is Latin for \"I dig\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Permite ao lançador cavar e esculpir o alvo.",
+      "mention": "Usado pelo Trio para escapar de um banco em 1998 enquanto montava um dragão. Mais tarde, foi usado por Harry para escrever o epitáfio para Dobby, que havia sido morto.",
+      "etimologia": "O encantamento é latim para \"eu escavo\".",
+      "nota": null
     },
     {
       "id": 67,
-      "name": "Deletrius",
-      "other_name": "Eradication Spell",
+      "name": "Delétrius",
+      "other_name": "Feitiço de Erradicação",
       "pronunciation": "deh-LEE-tree-us",
-      "spell_type": "Charm",
-      "description": "Counter-charm to the Reverse Spell, vanishing the image of the last spell cast. It may also disintegrate other certain images.",
-      "mention": "This spell was only ever seen in 1994 when Amos Diggory used Prior Incantato to detect that Winky had cast Morsmordre using Harry Potter's wand.",
-      "etymology": "Latin delere, meaning \"to destroy\", and English \"detritus\", meaning rubble.",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Contra-encanto para o feitiço reverso, desaparecendo a imagem do último feitiço lançado. Também pode desintegrar outras imagens.",
+      "mention": "Este feitiço só foi visto em 1994, quando Amos Diggory usou Prior Incantato para detectar que Winky havia lançado Morsmordre usando a varinha de Harry Potter.",
+      "etimologia": "Latim delere, significando \"destruir\", e inglês \"detritus\", significando escombros.",
+      "nota": null
     },
     {
       "id": 68,
       "name": "Densaugeo",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "den-SAW-jee-oh",
       "spell_type": "Hex",
-      "description": "This hex causes the victim's teeth to grow rapidly, but can also be used to restore lost teeth, as proven when Ted Tonks did so in 1997 for Harry Potter.",
-      "mention": "Introduced in 1994, when Draco Malfoy's spell rebounded upon Hermione Granger; her teeth were past her collar before she was forced to run to the hospital to get them shrunk. Later used in 1997 to mend Harry Potter's broken teeth.",
-      "etymology": "From Latin dens, meaning \"tooth\", and augeo, meaning \"I enlarge\"; essentially, it means \"I enlarge the tooth\".",
-      "note": null
+      "description": "Este feitiço faz com que os dentes da vítima cresçam rapidamente, mas também pode ser usado para restaurar dentes perdidos, como comprovado quando Ted Tonks fez isso em 1997 para Harry Potter.",
+      "mention": "Introduzido em 1994, quando o feitiço de Draco Malfoy ricocheteou em Hermione Granger; seus dentes estavam além do colarinho antes que ela fosse forçada a correr para o hospital para encolhê-los. Mais tarde, usado em 1997 para consertar os dentes quebrados de Harry Potter." ,
+      "etimologia": "Do latim dens, que significa \"dente\", e augeo, que significa \"aumento\"; essencialmente, significa \"aumento o dente\".",
+      "nota": null
     },
     {
       "id": 69,
-      "name": "Deprimo",
-      "other_name": null,
+      "name": "Primeiro",
+      "outro_nome": null,
       "pronunciation": "deh-PREEM-oh",
-      "spell_type": "Charm",
-      "description": "Charm used to blast holes in the ground.",
-      "mention": "Hermione Granger blasted a hole through the living room floor of Xenophilius Lovegood's house in 1998 using this spell.",
-      "etymology": "The incantation, when non-capitalised, means \"to depress\" or \"depress\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Encanto usado para abrir buracos no chão.",
+      "mention": "Hermione Granger abriu um buraco no chão da sala de estar da casa de Xenophilius Lovegood em 1998 usando este feitiço.",
+      "etimologia": "O encantamento, quando não maiúsculo, significa \"deprimir\" ou \"deprimir\".",
+      "nota": null
     },
     {
       "id": 70,
       "name": "Depulso",
-      "other_name": "Banishing Charm",
+      "other_name": "Feitiço de Banimento",
       "pronunciation": "deh-PUL-soh",
-      "spell_type": "Charm",
-      "description": "Sends the target away from the caster. It is the counter-charm to the Summoning Charm.",
-      "mention": "Although it is learned in the fourth-year charms class at Hogwarts, it is used multiple times in 1993, as well as in 1995.",
-      "etymology": "From the Latin depulsio, meaning \"drive away\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Manda o alvo para longe do lançador. É o contra-feitiço para o Feitiço Convocatório.",
+      "mention": "Embora seja aprendido na aula de feitiços do quarto ano em Hogwarts, é usado várias vezes em 1993, bem como em 1995.",
+      "etimologia": "Do latim depulsio, que significa \"afastar\".",
+      "nota": null
     },
     {
       "id": 71,
       "name": "Descendo",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "deh-SEN-doh",
-      "spell_type": "Charm",
-      "description": "Causes object to fall or move downwards.",
-      "mention": "In 1997, it was used by Ron to magically cause the stairs in his bedroom, which lead to his family's attic, to descend; later that year, Crabbe used it in an attempt to cause a wall of rubbish behind which Ron was hiding to fall on him.",
-      "etymology": "Descendo is Latin for \"I descend\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz com que o objeto caia ou se mova para baixo.",
+      "mention": "Em 1997, foi usado por Ron para magicamente fazer com que as escadas em seu quarto, que levavam ao sótão de sua família, descessem; mais tarde naquele ano, Crabbe o usou em uma tentativa de fazer uma parede de lixo atrás da qual Ron estava se escondendo para cair em cima dele.",
+      "etimologia": "Descendo é latim para \"eu desço\".",
+      "nota": null
     },
     {
       "id": 72,
       "name": "Desk Into Pig",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Turns desks into pigs.",
-      "mention": "Professor McGonagall used this spell as a demonstration for her class of first years in 1991, then changed the pig back into a desk.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "Transforma mesas em porcos.",
+      "mention": "Professora McGonagall usou este feitiço como uma demonstração para sua turma do primeiro ano em 1991, então transformou o porco de volta em uma carteira.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 73,
-      "name": "Deterioration Hex",
-      "other_name": null,
+      "name": "Deterioração Hex",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Hex",
-      "description": "Impairs foes and reduces their stamina.",
-      "mention": "Minerva McGonagall taught members of the Statute of Secrecy Task Force this hex to help them address the results of the Calamity in the 2010s.",
-      "etymology": null,
-      "note": null
+      "description": "Prejudica inimigos e reduz sua resistência.",
+      "mention": "Minerva McGonagall ensinou aos membros da Força-Tarefa do Estatuto de Sigilo este feitiço para ajudá-los a lidar com os resultados da Calamidade na década de 2010.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 74,
-      "name": "Diffindo",
-      "other_name": "Severing Charm",
+      "name": "Difindo",
+      "other_name": "Encantamento Cortante",
       "pronunciation": "dih-FIN-doh",
-      "spell_type": "Charm",
-      "description": "Used to precisely cut or tear objects.",
-      "mention": "Used twice in 1994, the first time being by Harry Potter to cut Cedric Diggory's bag in order to talk to the latter, and the second time being by Ron Weasley to cut the lace from the cuffs of his dress robes in an attempt to make them seem less feminine. The spell was used a third time by Harry to swap the covers of his second-hand and brand-new copies of Advanced Potion-Making.",
-      "etymology": "Latin diffindere, meaning \"to divide\" or \"to split\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Usado para cortar ou rasgar objetos com precisão.",
+      "mention": "Usado duas vezes em 1994, a primeira vez sendo por Harry Potter para cortar a bolsa de Cedrico Diggory para falar com o último, e a segunda vez por Ron Weasley para cortar a renda dos punhos de suas vestes em uma tentativa para fazê-los parecer menos femininos. O feitiço foi usado pela terceira vez por Harry para trocar as capas de suas cópias de segunda mão e novas de Advanced Potion-Making.",
+      "etimologia": "Latin diffindere, significando \"dividir\" ou \"dividir\".",
+      "nota": null
     },
     {
       "id": 75,
-      "name": "Diminuendo",
-      "other_name": null,
+      "name": "Diminuindo",
+      "outro_nome": null,
       "pronunciation": "dim-in-YEW-en-DOUGH",
-      "spell_type": "Charm",
-      "description": "Forces the target to shrink.",
-      "mention": "Performed by Nigel Wolpert in 1995, during a Dumbledore's Army meeting.",
-      "etymology": "The incantation derives from the musical term diminuendo, meaning \"a gradual decrease of the volume of sound\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Força o alvo a encolher.",
+      "mention": "Executada por Nigel Wolpert em 1995, durante uma reunião da Armada de Dumbledore.",
+      "etimologia": "O encantamento deriva do termo musical diminuendo, que significa \"uma diminuição gradual do volume do som\".",
+      "nota": null
     },
     {
       "id": 76,
-      "name": "Dissendium",
-      "other_name": null,
+      "name": "Dissêndio",
+      "outro_nome": null,
       "pronunciation": "dih-SEN-dee-um",
-      "spell_type": "Charm",
-      "description": "Used to open passages.",
-      "mention": "Used multiple times in 1993 to open the statue of Gunhilda of Gorsemoor, then again four years later in a failed attempt to open Salazar Slytherin's Locket.",
-      "etymology": "There are numerous suggestions.",
-      "note": "This may not be a spell at all in the strict sense but a password; however, when used for the statue of the hump-backed witch, one must tap the statue with their wand, indicating that it is in fact a spell."
+      "spell_type": "Charme",
+      "description": "Usado para abrir passagens.",
+      "mention": "Usado várias vezes em 1993 para abrir a estátua de Gunhilda de Gorsemoor, e novamente quatro anos depois em uma tentativa fracassada de abrir o medalhão de Salazar Slytherin.",
+      "etimologia": "Existem inúmeras sugestões.",
+      "nota": "Isso pode não ser um feitiço no sentido estrito, mas uma senha; no entanto, quando usado para a estátua da bruxa corcunda, deve-se bater na estátua com sua varinha, indicando que é de fato um feitiço."
     },
     {
       "id": 77,
-      "name": "Disillusionment Charm",
-      "other_name": null,
+      "name": "Feitiço de Desilusão",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes the target to blend seamlessly in with its surroundings, like a chameleon.",
-      "mention": "Used by Alastor Moody to disguise Harry Potter in 1995.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz com que o alvo se misture perfeitamente com o ambiente, como um camaleão.",
+      "mention": "Usado por Alastor Moody para disfarçar Harry Potter em 1995.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 78,
       "name": "Draconifors",
-      "other_name": "Draconifors Spell",
+      "other_name": "Feitiço Draconifors",
       "pronunciation": "drah-KOH-nih-fors",
-      "spell_type": "Transfiguration",
-      "description": "Transforms the target into a dragon.",
-      "mention": "Taught in third year Transfiguration class.",
-      "etymology": "From the Latin word draco, meaning \"dragon\", and forma meaning \"shape\".",
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "Transforma o alvo em um dragão.",
+      "mention": "Dado na aula de Transfiguração do terceiro ano.",
+      "etimologia": "Da palavra latina draco, que significa \"dragão\", e forma que significa \"forma\".",
+      "nota": null
     },
     {
       "id": 79,
-      "name": "Drought Charm",
-      "other_name": null,
+      "name": "Encanto da Seca",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes puddles and ponds to dry up. Though not powerful enough to drain a body of water like a lake",
-      "mention": "Mentioned by Ronald Weasley in 1994 when Harry was getting ready for the Second Task of The Triwizard Tournament.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz com que poças e lagoas sequem. Embora não seja poderoso o suficiente para drenar um corpo de água como um lago",
+      "mention": "Mencionado por Ronald Weasley em 1994 quando Harry estava se preparando para a Segunda Tarefa do Torneio Tribruxo.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 80,
       "name": "Ducklifors",
       "other_name": "Ducklifors Jinx",
-      "pronunciation": "DUCK-lih-fors",
-      "spell_type": "Transfiguration, Jinx",
-      "description": "Transforms the target into a duck.",
+      "pronunciation": "PATO-lih-fors",
+      "spell_type": "Transfiguração, Jinx",
+      "description": "Transforma o alvo em um pato.",
       "mention": null,
-      "etymology": "From the English duck, and the Latin forma meaning \"shape\".",
-      "note": null
+      "etimologia": "Do inglês duck, e do latim forma significando \"forma\".",
+      "nota": null
     },
     {
       "id": 81,
       "name": "Duro",
-      "other_name": "Hardening Charm",
+      "other_name": "Feitiço Endurecedor",
       "pronunciation": "DYOO-roh",
-      "spell_type": "Charm",
-      "description": "Turns an object to stone.",
-      "mention": "Used by Hermione Granger in 1998 while escaping from Death Eaters in the Battle of Hogwarts.",
-      "etymology": "Latin duro means \"harden\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Transforma um objeto em pedra.",
+      "mention": "Usado por Hermione Granger em 1998 enquanto escapava dos Comensais da Morte na Batalha de Hogwarts.",
+      "etimologia": "Duro do latim significa \"endurecer\".",
+      "nota": null
     },
     {
       "id": 82,
-      "name": "Ears to kumquats",
-      "other_name": null,
+      "name": "Orelhas para kumquats",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "This spell transforms the victim's ears into kumquats.",
-      "mention": "In 1995, Luna Lovegood read The Quibbler upside down in order to reveal the secret charm, written in Ancient Runes.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "Este feitiço transforma as orelhas da vítima em kumquats.",
+      "mention": "Em 1995, Luna Lovegood leu O Pasquim de cabeça para baixo para revelar o feitiço secreto, escrito em Runas Antigas.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 83,
-      "name": "Ear-shrivelling Curse",
-      "other_name": null,
+      "name": "Maldição de enrugar as orelhas",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Causes the target's ears to shrivel up.",
-      "mention": "Sometime between 1989 and 1994, Bill Weasley's pen-friend sent him a hat with this curse on it.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Faz com que as orelhas do alvo murchem.",
+      "mention": "Em algum momento entre 1989 e 1994, o amigo por correspondência de Bill Weasley enviou a ele um chapéu com esta maldição.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 84,
@@ -12978,340 +12978,340 @@ export default {
       "other_name": "Ebublio Jinx",
       "pronunciation": "ee-BUB-lee-oh",
       "spell_type": "Jinx",
-      "description": "Causes the victim to inflate and explode into hundreds of bubbles; it can only be cast if an ally is using Aqua Eructo on the victim simultaneously.",
-      "mention": "Used often by members of the Statute of Secrecy Task Force.",
-      "etymology": null,
-      "note": null
+      "description": "Faz com que a vítima infle e exploda em centenas de bolhas; só pode ser lançado se um aliado estiver usando Aqua Eructo na vítima simultaneamente.",
+      "mention": "Usado frequentemente por membros da Força-Tarefa de Estatuto de Sigilo.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 85,
       "name": "Engorgio",
-      "other_name": "Engorgement Charm",
+      "other_name": "Feitiço de Ingurgitamento",
       "pronunciation": "en-GOR-jee-oh",
-      "spell_type": "Charm",
-      "description": "Causes the target to swell in physical size. Its counter-charm is the Shrinking Charm.",
-      "mention": "Rubeus Hagrid used this spell on his pumpkins in 1992; two years later, Barty Crouch Jr cast this spell on a spider to make it easier for students to see when he cast a curse on it. Used on another spider three years later to test a new wand.",
-      "etymology": "The English word engorge means \"swell\".",
-      "note": "There is much speculation that this spell is the same as the Growth Charm, though this cannot be proven. Note that there is a difference between enlarging and engorging something, similar though they may seem."
+      "spell_type": "Charme",
+      "description": "Faz o alvo aumentar de tamanho físico. Seu contra-feitiço é o Feitiço de Encolhimento.",
+      "mention": "Rubeus Hagrid usou esse feitiço em suas abóboras em 1992; dois anos depois, Barty Crouch Jr lance este feitiço em uma aranha para tornar mais fácil para os alunos verem quando ele lançou uma maldição sobre ela. Usado em outra aranha três anos depois para testar uma nova varinha.",
+      "etimologia": "A palavra inglesa engorge significa \"inchar\".",
+      "nota": "Existe muita especulação de que este feitiço é o mesmo que o Feitiço de Crescimento, embora isso não possa ser provado. Observe que há uma diferença entre aumentar e aumentar algo, por mais semelhantes que possam parecer."
     },
     {
       "id": 86,
       "name": "Engorgio Skullus",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "in-GORE-jee-oh SKUH-las",
       "spell_type": "Hex",
-      "description": "Causes the victim's skull to swell disproportionately. This spell may be a variation of the Engorgement Charm, as they share the first word of the incantation. Its countercurse is Redactum Skullus.",
-      "mention": "This spell can be bought at Wiseacre's Wizarding Equipment in Diagon Alley.",
-      "etymology": "See etymology for above entry; \"skullus\" is Latin for \"skull\".",
-      "note": null
+      "description": "Faz o crânio da vítima inchar desproporcionalmente. Este feitiço pode ser uma variação do Feitiço Engorgement, já que eles compartilham a primeira palavra do encantamento. Seu contra-maldição é Redactum Skullus.",
+      "mention": "Este feitiço pode ser comprado no Wiseacre's Wizarding Equipment no Diagon Alley.",
+      "etimologia": "Consulte a etimologia para a entrada acima; \"skullus\" é latim para \"caveira\".",
+      "nota": null
     },
     {
       "id": 87,
-      "name": "Entomorphis",
-      "other_name": "Insect Jinx",
+      "name": "Entomorfos",
+      "other_name": "Inseto Jinx",
       "pronunciation": "en-TOE-morph-is",
-      "spell_type": "Jinx, Transfiguration",
-      "description": "This hex is used to transform the target into an insectoid for a short time.",
-      "mention": "Harry Potter contemplated using this hex against Dudley Dursley in 1995, though he decided against it.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Jinx, Transfiguração",
+      "description": "Este feitiço é usado para transformar o alvo em um insetoide por um curto período de tempo.",
+      "mention": "Harry Potter pensou em usar este feitiço contra Dudley Dursley em 1995, embora tenha decidido contra isso.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 88,
-      "name": "Entrail-Expelling Curse",
-      "other_name": null,
+      "name": "Maldição de Expulsão de Entranhas",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Expels victim's entrails. Precise effects unknown. Invented by Urquhart Rackharrow.",
-      "mention": "When Harry Potter visited St Mungo's Hospital for Magical Maladies and Injuries in December 1995, he saw the portrait of Urquhart Rackharrow, which mentioned his invention of this curse.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Expulsa as entranhas da vítima. Efeitos precisos desconhecidos. Inventado por Urquhart Rackharrow.",
+      "mention": "Quando Harry Potter visitou o Hospital St Mungo para Doenças e Lesões Mágicas em dezembro de 1995, ele viu o retrato de Urquhart Rackharrow, que mencionava sua invenção dessa maldição.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 89,
       "name": "Episkey",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "ee-PIS-key",
-      "spell_type": "Healing Spell",
-      "description": "Used to heal relatively minor injuries, such as broken bones and cartilage.",
-      "mention": "In 1996, Nymphadora Tonks used this spell to fix Harry's broken nose after Draco Malfoy broke it on the Hogwarts Express,",
-      "etymology": "The word comes from Greek \"episkeui\" (\"επισκευή\"), which means \"repair\".",
-      "note": "This is part of a family of healing spells."
+      "spell_type": "Feitiço de Cura",
+      "description": "Usado para curar ferimentos relativamente pequenos, como ossos quebrados e cartilagem.",
+      "mention": "Em 1996, Ninfadora Tonks usou este feitiço para consertar o nariz quebrado de Harry depois que Draco Malfoy o quebrou no Expresso de Hogwarts,",
+      "etimologia": "A palavra vem do grego \"episkeui\" (\"επισκευή\"), que significa \"reparação\".",
+      "nota": "Isto faz parte de uma família de feitiços de cura."
     },
     {
       "id": 90,
       "name": "Epoximise",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "ee-POX-i-mise",
-      "spell_type": "Transfiguration",
-      "description": "Adheres one object to another, as if they had been glued together.",
-      "mention": "This spell is often used by students to adhere each other's belongings to their desks (or, unfortunately, their hands).",
-      "etymology": "Epoximise comes from the English word epoxy, which is a type of adhesive.",
-      "note": "This spell may be the Permanent Sticking Charm or a variation."
+      "spell_type": "Transfiguração",
+      "description": "Adere um objeto ao outro, como se tivessem sido colados.",
+      "mention": "Este feitiço é frequentemente usado pelos alunos para colar os pertences uns dos outros em suas carteiras (ou, infelizmente, em suas mãos).",
+      "etimologia": "Epoximise vem da palavra inglesa epoxy, que é um tipo de adesivo.",
+      "note": "Este feitiço pode ser o Feitiço de Aderência Permanente ou uma variação."
     },
     {
       "id": 91,
-      "name": "Erecto",
-      "other_name": null,
+      "name": "Ereto",
+      "outro_nome": null,
       "pronunciation": "eh-RECK-toh",
-      "spell_type": "Charm",
-      "description": "Used to erect a tent or other upright structure.",
-      "mention": "Used by Hermione Granger to construct a shelter for her, Harry Potter, and Ronald Weasley in 1997.",
-      "etymology": "Erectum is past principle of erigere, which is Latin for \"to erect\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Usado para erguer uma tenda ou outra estrutura vertical.",
+      "mention": "Usado por Hermione Granger para construir um abrigo para ela, Harry Potter e Ronald Weasley em 1997.",
+      "etimologia": "Erectum é o princípio passado de erigere, que é latim para \"erigir\".",
+      "nota": null
     },
     {
       "id": 92,
       "name": "Evanesce",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "ev-an-ES-key",
-      "spell_type": "Transfiguration",
-      "description": "Vanishes the target",
+      "spell_type": "Transfiguração",
+      "description": "Desaparece o alvo",
       "mention": null,
-      "etymology": null,
-      "note": "This and the Vanishing Spell are almost certainly the same spell."
+      "etimologia": null,
+      "note": "Este e o Feitiço de Desaparecimento são quase certamente o mesmo feitiço."
     },
     {
       "id": 93,
       "name": "Evanesco",
-      "other_name": "Vanishing Spell",
+      "other_name": "Feitiço de desaparecimento",
       "pronunciation": "ev-an-ES-koh",
-      "spell_type": "Transfiguration",
-      "description": "Vanishes the target. Vanished things go \"into non-being, which is to say, everything.\"",
-      "mention": "Used by William Weasley to vanish a bundle of old scrolls whilst cleaning 12 Grimmauld Place in 1995.",
-      "etymology": "From \"evanescene\", meaning \"something that is fleeting or disappears.",
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "Desaparece o alvo. Coisas desaparecidas vão \"para o não-ser, ou seja, tudo.",
+      "mention": "Usado por William Weasley para fazer desaparecer um monte de pergaminhos antigos enquanto limpava Grimmauld Place, 12, em 1995.",
+      "etimologia": "De \"evanescene\", significando \"algo que é passageiro ou desaparece.",
+      "nota": null
     },
     {
       "id": 94,
       "name": "Everte Statum",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "ee-VER-tay STAH-tum",
-      "spell_type": "Spell",
-      "description": "Throws the victim backward, similarly to being thrown.",
-      "mention": "Draco Malfoy used this spell on Harry Potter in 1992 during the Duelling Club.",
-      "etymology": "The Latin words everte, which means \"to throw out\" and statua, from the same language, meaning \"image\".",
-      "note": null
+      "spell_type": "Feitiço",
+      "description": "Arremessa a vítima para trás, semelhante a ser arremessado.",
+      "mention": "Draco Malfoy usou este feitiço em Harry Potter em 1992 durante o Clube de Duelos.",
+      "etimologia": "As palavras latinas everte, que significa \"jogar fora\" e statua, da mesma língua, significam \"imagem\".",
+      "nota": null
     },
     {
       "id": 95,
       "name": "Expecto Patronum",
-      "other_name": "Patronus Charm",
+      "outro nome": "Feitiço do Patrono",
       "pronunciation": "ecks-PECK-toh pah-TROH-numb",
-      "spell_type": "Charm",
-      "description": "This charm is a highly powerful and advanced protective spell which will conjure a spirit guardian of their positive emotions to defend against dark creatures; it can also send messages to other witches or wizards. The Patronus takes the form of an animal, unique to each person who casts it. The form of a Patronus can change when one has undergone a period of heightened emotion.",
-      "mention": "Taught to Harry Potter by Remus Lupin during his Anti-Dementor lessons; This is the only known spell effective against Dementors or Lethifolds.",
-      "etymology": "Patronus means \"protector\" in Latin; in archaic Latin, it means \"father\"; considering the form Harry's takes, this is interesting. The Latin word expecto means \"I await\"",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Este feitiço é um feitiço de proteção altamente poderoso e avançado que evocará um espírito guardião de suas emoções positivas para se defender contra criaturas das trevas; ele também pode enviar mensagens para outras bruxas ou bruxos. O Patrono assume a forma de um animal , único para cada pessoa que o conjura. A forma de um Patrono pode mudar quando alguém passa por um período de intensa emoção.",
+      "mention": "Ensinado a Harry Potter por Remus Lupin durante suas aulas Anti-Dementadores; Este é o único feitiço conhecido eficaz contra Dementadores ou Lethifolds.",
+      "etimologia": "Patrono significa \"protetor\" em latim; em latim arcaico, significa \"pai\"; considerando a forma que Harry assume, isso é interessante. A palavra latina expecto significa \"espero\"",
+      "nota": null
     },
     {
       "id": 96,
       "name": "Expelliarmus",
-      "other_name": "Disarming Charm",
+      "other_name": "Feitiço de Desarmamento",
       "pronunciation": "ex-PELL-ee-ARE-muss",
-      "spell_type": "Charm",
-      "description": "Forces whatever an opponent is holding to fly out of their hand. It was considered to be Harry Potter's signature spell.",
-      "mention": "Used by Severus Snape on Gilderoy Lockhart during a live duelling demonstration during the first and last meeting of the Duelling Club in 1992.",
-      "etymology": "Probably a combination of Latin expello, meaning \"expel\", and arma, meaning \"weapon\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Força o que o oponente está segurando a voar para fora de sua mão. Foi considerado o feitiço de assinatura de Harry Potter.",
+      "mention": "Usado por Severus Snape em Gilderoy Lockhart durante uma demonstração de duelo ao vivo durante a primeira e última reunião do Clube de Duelos em 1992.",
+      "etimologia": "Provavelmente uma combinação do latim expello, que significa \"expulsar\", e arma, que significa \"arma\".",
+      "nota": null
     },
     {
       "id": 97,
-      "name": "Expulso",
-      "other_name": "Expulso Curse",
+      "name": "Expulsão",
+      "other_name": "Maldição de Expulsão",
       "pronunciation": "ecks-PUHL-soh",
-      "spell_type": "Curse",
-      "description": "Provokes an explosion, unique in that it uses pressure to do so as opposed to heat.",
-      "mention": "Used by Antonin Dolohov during a fight in a cafe in 1997.",
-      "etymology": "From expulsum, which is past principle of expellere, which means \"expel\".",
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Provoca uma explosão, única porque usa pressão para fazer isso em vez de calor.",
+      "mention": "Usado por Antonin Dolohov durante uma briga em um café em 1997.",
+      "etimologia": "De expulsum, que é princípio passado de expellere, que significa \"expulsar\".",
+      "nota": null
     },
     {
       "id": 98,
-      "name": "Extinguishing Spell",
-      "other_name": null,
+      "name": "Feitiço de Extinção",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Puts out fires.",
-      "mention": "Charlie Weasley and his friends would use this spell should something go wrong in the tournament.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Apaga incêndios.",
+      "mention": "Charlie Weasley e seus amigos usariam este feitiço caso algo desse errado no torneio.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 99,
-      "name": "False memory charm",
-      "other_name": null,
+      "name": "Feitiço de memória falsa",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Implants a false memory in the victim without them realising it was not originally theirs.",
-      "mention": "Voldemort used this spell twice; firstly in 1943 upon his uncle Morfin Gaunt, then sometime later on the house-elf Hokey. Both instances were to hide his crimes and make the victims believe they were responsible. It is likely that Kingsley Shacklebolt used this spell on Marietta Edgecombe in 1996 in order to prevent her from revealing Dumbledore's Army to Cornelius Fudge. This is reinforced by Dumbledore stating that Shacklebolt was \"remarkably quick on the uptake\" in modifying her memory. It is possible that Professor Horace Slughorn used this in the next school year to hide his memory of Voldemort asking him about Horcruxes, although as he retained awareness of the true memory his spell may be a different one. It is also possible that he simply repressed it to such a degree that it could not be extracted from him against his will, as the memory he gave Dumbledore simple went blank at the right times and was replaced by a disembodied shouting, rather than images; this was noted to be crudely done. Hermione Granger used this in 1997 to make her parents believe they were named Wendell and Monica Wilkins respectively, that they have no daughter, and to make them move to Australia in order to protect them from Voldemort and his Death Eaters.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Implanta uma memória falsa na vítima sem que ela perceba que não era originalmente dela.",
+      "mention": "Voldemort usou este feitiço duas vezes; primeiro em 1943 em seu tio Morfin Gaunt, e algum tempo depois no elfo doméstico Hokey. Ambas as instâncias foram para esconder seus crimes e fazer as vítimas acreditarem que eram os responsáveis. É provável que Kingsley Shacklebolt usou este feitiço em Marietta Edgecombe em 1996 para impedi-la de revelar a Armada de Dumbledore para Cornelius Fudge. Isso é reforçado por Dumbledore afirmando que Shacklebolt foi notavelmente rápido na compreensão em modificar sua memória. É possível que O professor Horace Slughorn usou isso no próximo ano letivo para esconder sua memória de Voldemort perguntando a ele sobre Horcruxes, embora como ele reteve a consciência da verdadeira memória, seu feitiço pode ser diferente. Também é possível que ele simplesmente o tenha reprimido a tal ponto. grau que não poderia ser extraído dele contra sua vontade, pois a memória que ele deu a Dumbledore simples ficou em branco nos momentos certos e foi substituída por um grito desencarnado, ao invés de imagens; este wa s notado para ser feito grosseiramente. Hermione Granger usou isso em 1997 para fazer seus pais acreditarem que eles se chamavam Wendell e Monica Wilkins respectivamente, que eles não tinham filha, e para fazê-los se mudarem para a Austrália a fim de protegê-los de Voldemort e seus Comensais da Morte.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 100,
-      "name": "Feather-light charm",
-      "other_name": null,
+      "name": "Charme leve",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Makes an object light as a feather.",
-      "mention": "Harry Potter contemplated using this in 1993 to lighten his trunk so that he could carry it by broom to Gringotts, though he decided against it.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Torna um objeto leve como uma pena.",
+      "mention": "Harry Potter pensou em usar isso em 1993 para aliviar seu malão para que ele pudesse carregá-lo de vassoura para Gringotts, embora tenha decidido contra isso.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 101,
-      "name": "Ferret to human",
-      "other_name": null,
+      "name": "Furão para humano",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Transforms a ferret into a human.",
-      "mention": "It was used by Minerva McGonagall on Draco Malfoy in 1994.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "Transforma um furão em humano.",
+      "mention": "Foi usado por Minerva McGonagall em Draco Malfoy em 1994.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 102,
-      "name": "Ferula",
-      "other_name": "Bandaging Charm",
+      "name": "Férula",
+      "other_name": "Feitiço de Bandagem",
       "pronunciation": "fer-ROOL-lah",
-      "spell_type": "Conjuration, Healing spell",
-      "description": "Conjures up bandages and wraps them around a wound, splinting any broken bones.",
-      "mention": "Used by Remus Lupin in 1994 to bind Ronald Weasley's broken leg.",
-      "etymology": "Latin ferula means \"walking-stick\" or \"splint\".",
-      "note": null
+      "spell_type": "Conjuração, Feitiço de Cura",
+      "description": "Conjura bandagens e as envolve em uma ferida, imobilizando todos os ossos quebrados.",
+      "mention": "Usado por Remus Lupin em 1994 para encontrar a perna quebrada de Ronald Weasley.",
+      "etimologia": "do latim ferula significa \"bengala\" ou \"tala\".",
+      "nota": null
     },
     {
       "id": 103,
       "name": "Fianto Duri",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "fee-AN-toh DOO-ree",
-      "spell_type": "Charm",
-      "description": "A defensive charm which, based on the etymology, strengthens shield spells, and perhaps objects in general, in a similar way to Duro.",
-      "mention": "Used to protect Hogwarts School of Witchcraft and Wizardry in 1998.",
-      "etymology": "Latin fiant means \"become\" and duri means \"hard\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Um feitiço defensivo que, com base na etimologia, fortalece feitiços de escudo e talvez objetos em geral, de maneira semelhante a Duro.",
+      "mention": "Usado para proteger a Escola de Magia e Bruxaria de Hogwarts em 1998.",
+      "etimologia": "Latin fiant significa \"tornar-se\" e duri significa \"duro\".",
+      "nota": null
     },
     {
       "id": 104,
-      "name": "Fidelius Charm",
-      "other_name": null,
+      "name": "Feitiço Fidelius",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "An immensely complex charm used to hide secret information within the soul of the charm's recipient, who is called a Secret-Keeper. The information is irretrievable unless the Secret-Keeper willingly chooses to reveal it, and only the aforementioned person can do so.",
-      "mention": "In 1993, it was explained that when Harry was merely an infant, he and his parents were hidden from Voldemort with this charm; from 1995 onward it was used to protect Grimmauld Place, and in 1998 it was used to protect Shell Cottage.",
-      "etymology": "Latin fidelis, which means \"faithful\".",
-      "note": "Although when a Secret-Keeper dies the secret they held can never be revealed to anyone else, in 1997 it is apparent that upon the Keeper's death all those who had been told the secret become keepers in turn."
+      "spell_type": "Charme",
+      "description": "Um feitiço imensamente complexo usado para esconder informações secretas dentro da alma do destinatário do feitiço, que é chamado de Guardião do Segredo. A informação é irrecuperável, a menos que o Guardião do Segredo escolha voluntariamente revelá-la, e apenas a pessoa mencionada acima pode fazer isso.",
+      "mention": "Em 1993, foi explicado que quando Harry era apenas uma criança, ele e seus pais foram escondidos de Voldemort com este feitiço; de 1995 em diante, foi usado para proteger Grimmauld Place, e em 1998 foi usado para proteger Casa de Conchas.",
+      "etimologia": "Latim fidelis, que significa \"fiel\".",
+      "nota": "Embora quando um Guardião do Segredo morre, o segredo que ele mantinha nunca pode ser revelado a mais ninguém, em 1997 é aparente que após a morte do Guardião, todos aqueles a quem foi dito o segredo se tornam guardiões por sua vez."
     },
     {
       "id": 105,
       "name": "Fiendfyre",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Unleashes cursed fire that takes the shape of animals that actively seek out living targets and burn anything in its path, including nearly indestructable substances such as horcruxes. In addition, this fire is made even more dangerous due to the fact that it is extremely difficult to control, and cannot be extinguished with normal or enchanted water.",
-      "mention": "Though there are numerous instances when it may have been used, it was only proven to have been used in 1998 by Vincent Crabbe, who was killed by it.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Libera fogo amaldiçoado que assume a forma de animais que procuram ativamente alvos vivos e queimam qualquer coisa em seu caminho, incluindo substâncias quase indestrutíveis, como horcruxes. Além disso, esse fogo se torna ainda mais perigoso devido ao fato de que é extremamente difícil de controlar e não pode ser extinto com água normal ou encantada.",
+      "mention": "Embora existam inúmeras instâncias em que pode ter sido usado, só foi provado que foi usado em 1998 por Vincent Crabbe, que foi morto por ele.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 106,
       "name": "Finestra",
-      "other_name": "Finestra spell",
+      "other_name": "Feitiço Finestra",
       "pronunciation": "fi-NESS-tra",
-      "spell_type": "Charm",
-      "description": "Shatters glass.",
-      "mention": "On 6 December 1926, Newt Scamander shattered the front window of the Voclain & Co. jewellery store in New York using this spell to try and recapture his escaped niffler when he saw it loose inside the store stealing things.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Quebra o vidro.",
+      "mention": "Em 6 de dezembro de 1926, Newt Scamander quebrou a vitrine da joalheria Voclain & Co. em Nova York usando este feitiço para tentar recapturar seu pelúcio fugitivo quando o viu solto dentro da loja roubando coisas.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 107,
       "name": "Finite Incantatem",
-      "other_name": "General Counter-Spell",
+      "other_name": "Contra-feitiço geral",
       "pronunciation": "fi-NEE-tay in-can-TAH-tem",
-      "spell_type": "Counter-Spell",
-      "description": "Terminates all spell effects in the vicinity of the caster.",
-      "mention": "Severus Snape used this to restore order to the Duelling Club in 1992, after the event had descended into utter chaos.",
-      "etymology": "Latin finire, meaning \"to finish\", and incantatem.",
-      "note": null
+      "spell_type": "Contador de Feitiço",
+      "description": "Encerra todos os efeitos de feitiço nas proximidades do lançador.",
+      "mention": "Severus Snape usou isso para restaurar a ordem no Clube de Duelos em 1992, depois que o evento caiu no caos absoluto.",
+      "etimologia": "Latim finire, que significa \"terminar\", e incantatem.",
+      "nota": null
     },
     {
       "id": 108,
-      "name": "Finger-removing jinx",
-      "other_name": null,
+      "name": "Azar de remover os dedos",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Jinx",
-      "description": "Removes a person's fingers.",
-      "mention": "Gunhilda Kneen jinxed her husband with this spell.",
-      "etymology": null,
-      "note": null
+      "description": "Remove os dedos de uma pessoa.",
+      "mention": "Gunhilda Kneen azarou o marido com este feitiço.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 109,
-      "name": "Firestorm",
-      "other_name": null,
+      "name": "Tempestade de Fogo",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Produces a ring of fire from the wand.",
-      "mention": "Albus Dumbledore used this spell to rescue Harry from Inferi in 1997.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Produz um anel de fogo da varinha.",
+      "mention": "Alvo Dumbledore usou este feitiço para resgatar Harry dos Inferi em 1997.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 110,
-      "name": "Flagrante Curse",
-      "other_name": null,
+      "name": "Maldição do Flagrante",
+      "outro_nome": null,
       "pronunciation": "flah-GRAHN-tay",
-      "spell_type": "Curse",
-      "description": "Causes objects to burn on contact.",
-      "mention": "The Lestrange Vault had this curse on it.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Faze com que os objetos queimem ao entrar em contato.",
+      "mention": "O Cofre Lestrange tinha essa maldição.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 111,
-      "name": "Flagrate",
-      "other_name": null,
+      "name": "Flagrar",
+      "outro_nome": null,
       "pronunciation": "flah-GRAH-tay",
-      "spell_type": "Charm",
-      "description": "Writes in midair with firey marks.",
-      "mention": "Tom Riddle used this spell to write his name; Hermione Granger used it three years later to mark some doors.",
-      "etymology": "From the Latin flagrate, meaning \"a burn\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Escreve no ar com marcas de fogo.",
+      "mention": "Tom Riddle usou esse feitiço para escrever seu nome; Hermione Granger o usou três anos depois para marcar algumas portas.",
+      "etimologia": "Do latim flagrate, que significa \"uma queimadura\".",
+      "nota": null
     },
     {
       "id": 112,
-      "name": "Flame-Freezing Charm",
-      "other_name": null,
+      "name": "Feitiço Congelante de Chamas",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes fire to tickle those caught in it instead of burning them.",
-      "mention": "Third year students wrote an essay on the use of this charm in medieval witch-burnings; Wendelin the Weird was burned forty-seven times.",
-      "etymology": null,
-      "note": "This may be the spell used in Floo Network, as well as when Albus Dumbledore set Tom Riddle's wardrobe aflame in 1938."
+      "spell_type": "Charme",
+      "description": "Faz com que o fogo faça cócegas naqueles que são pegos nele em vez de queimá-los.",
+      "mention": "Alunos do terceiro ano escreveram um ensaio sobre o uso desse feitiço nas queimaduras de bruxas medievais; Vendelino, o Estranho, foi queimado quarenta e sete vezes.",
+      "etimologia": null,
+      "nota": "Este pode ser o feitiço usado na Rede de Flu, bem como quando Albus Dumbledore incendiou o guarda-roupa de Tom Riddle em 1938."
     },
     {
       "id": 113,
-      "name": "Flask-conjuring spell",
-      "other_name": null,
+      "name": "Feitiço de conjuração de frascos",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Conjuration",
-      "description": "Conjures a glass flask",
-      "mention": "On 1 May, 1998, Hermione Granger used this spell to collect the memories of a dying Severus Snape.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Conjuração",
+      "description": "Conjura um frasco de vidro",
+      "mention": "Em 1º de maio de 1998, Hermione Granger usou este feitiço para coletar as memórias de Severus Snape moribundo.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 114,
       "name": "Flintifors",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "FLINT-i-fors",
-      "spell_type": "Transfiguration",
-      "description": "Transforms objects into matchboxes.",
-      "mention": "In the 1980s, this spell was covered in third year transfiguration classes.",
-      "etymology": null,
-      "note": "This may be related to, or the incantation for Match to needle."
+      "spell_type": "Transfiguração",
+      "description": "Transforma objetos em caixas de fósforos.",
+      "mention": "Na década de 1980, esse feitiço era abordado nas aulas de transfiguração do terceiro ano.",
+      "etimologia": null,
+      "nota": "Isto pode estar relacionado a, ou o encantamento para combinar com a agulha."
     },
     {
       "id": 115,
@@ -13319,10 +13319,10 @@ export default {
       "other_name": "Knockback Jinx",
       "pronunciation": "fli-PEN-doh",
       "spell_type": "Jinx",
-      "description": "Knocks objects and creatures backwards.",
-      "mention": "Taught in first year Defence Against the Dark Arts and Charms class.",
-      "etymology": null,
-      "note": null
+      "description": "Joga objetos e criaturas para trás.",
+      "mention": "Dou aula na aula de Defesa Contra as Artes e Feitiços das Trevas do primeiro ano.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 116,
@@ -13330,714 +13330,714 @@ export default {
       "other_name": "Knockback Jinx Duo",
       "pronunciation": "flih-PEN-doh DOO-oh",
       "spell_type": "Jinx",
-      "description": "A more powerful version of Flipendo.",
+      "description": "Uma versão mais poderosa do Flipendo.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 117,
       "name": "Flipendo Tria",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "flih-PEN-doh TREE-ah",
       "spell_type": "Jinx",
-      "description": "A more powerful version of Flipendo Duo; it is said to resemble a miniature tornado.",
+      "description": "Uma versão mais poderosa do Flipendo Duo; diz-se que se assemelha a um tornado em miniatura.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 118,
-      "name": "Flying Charm",
-      "other_name": null,
+      "name": "Feitiço Voador",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "This spell is cast on broomsticks and flying carpets to allow them to fly.",
-      "mention": "Draco Malfoy mentioned this spell when insulting Ron Weasley's broomstick, wondering why anyone would charm it.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Este feitiço é lançado em vassouras e tapetes voadores para permitir que eles voem.",
+      "mention": "Draco Malfoy mencionou este feitiço ao insultar a vassoura de Ron Weasley, imaginando por que alguém iria enfeitiçá-la.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 119,
-      "name": "Fumos",
-      "other_name": "Smokescreen Spell",
-      "pronunciation": "FYOO-moss",
-      "spell_type": "Charm",
-      "description": "Defensive smokescreen that hinders visibility.",
-      "mention": "This spell is covered in The Dark Forces: A Guide to Self-Protection.",
-      "etymology": null,
-      "note": null
+      "name": "Fomos",
+      "other_name": "Feitiço Cortina de Fumaça",
+      "pronunciation": "FYOO-musgo",
+      "spell_type": "Charme",
+      "description": "Cortina de fumaça defensiva que dificulta a visibilidade.",
+      "mention": "Este feitiço é abordado em The Dark Forces: A Guide to Self-Protection.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 120,
       "name": "Fumos Duo",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "A more powerful version of Fumos.",
+      "spell_type": "Charme",
+      "description": "Uma versão mais poderosa do Fumos.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 121,
-      "name": "Furnunculus",
+      "name": "Furnúnculo",
       "other_name": "Pimple Jinx",
       "pronunciation": "fer-NUN-kyoo-luss",
       "spell_type": "Jinx",
-      "description": "Covers the target in boils (or pimples).",
-      "mention": "Used by Harry Potter on Gregory Goyle.",
-      "etymology": "Latin furnunculus, meaning \"petty thief\", or English furuncle, a synonym for \"boil\".",
-      "note": null
+      "description": "Cobre o alvo em furúnculos (ou espinhas).",
+      "mention": "Usado por Harry Potter em Gregory Goyle.",
+      "etimologia": "Latim furnunculus, que significa \"pequeno ladrão\", ou inglês furúnculo, sinônimo de \"ferver\".",
+      "nota": null
     },
     {
       "id": 122,
-      "name": "Fur spell",
-      "other_name": null,
+      "name": "Feitiço de pele",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes fur to grow on the victim.",
-      "mention": "Fred and George Weasley used this spell on each other.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz com que pêlos cresçam na vítima.",
+      "mention": "Fred e George Weasley usaram este feitiço um no outro.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 123,
-      "name": "Geminio",
-      "other_name": "Doubling Charm",
+      "name": "Gêmeos",
+      "other_name": "Encanto Duplicador",
       "pronunciation": "jeh-MIH-nee-oh",
-      "spell_type": "Charm",
-      "description": "Duplicates the target. When used to duplicate objects indefinitely on purpose, is known as the Gemino Curse.",
-      "mention": "Used by Hermione Granger on Salazar Slytherin's Locket to disguise her presence from Dolores Umbridge.",
-      "etymology": "The Latin word gemini means \"twins\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Duplica o alvo. Quando usado para duplicar objetos indefinidamente de propósito, é conhecido como a Maldição do Gêmeo.",
+      "mention": "Usado por Hermione Granger no medalhão de Salazar Slytherin para disfarçar sua presença de Dolores Umbridge.",
+      "etimologia": "A palavra latina gemini significa \"gêmeos\".",
+      "nota": null
     },
     {
       "id": 124,
-      "name": "Glacius",
-      "other_name": "Freezing Spell",
+      "name": "Glácio",
+      "other_name": "Feitiço Congelante",
       "pronunciation": "GLAY-see-us",
-      "spell_type": "Charm",
-      "description": "Freezes the target with icy-cold air.",
+      "spell_type": "Charme",
+      "description": "Congela o alvo com ar gelado.",
       "mention": null,
-      "etymology": "From Latin glacies, which means \"ice\".",
-      "note": "Not to be confused with the Freezing Charm, which merely immobilises things."
+      "etimologia": "Do latim glacies, que significa \"gelo\".",
+      "nota": "Não deve ser confundido com o Feitiço Congelante, que apenas imobiliza as coisas."
     },
     {
       "id": 125,
       "name": "Glacius Duo",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "GLAY-see-us DOO-oh",
-      "spell_type": "Charm",
-      "description": "A more powerful version of Glacius.",
+      "spell_type": "Charme",
+      "description": "Uma versão mais poderosa do Glaceu.",
       "mention": null,
-      "etymology": "From Latin glacies, which means \"ice\".",
-      "note": null
+      "etimologia": "Do latim glacies, que significa \"gelo\".",
+      "nota": null
     },
     {
       "id": 126,
       "name": "Glacius Tria",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "GLAY-see-us TREE-ah",
-      "spell_type": "Charm",
-      "description": "A more powerful version of Glacius Duo.",
+      "spell_type": "Charme",
+      "description": "Uma versão mais poderosa do Glacius Duo.",
       "mention": null,
-      "etymology": "From Latin glacies, which means \"ice\".",
-      "note": null
+      "etimologia": "Do latim glacies, que significa \"gelo\".",
+      "nota": null
     },
     {
       "id": 127,
       "name": "Glisseo",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "GLISS-ee-oh",
-      "spell_type": "Charm",
-      "description": "Causes the steps on a stairway to flatten into a slide.",
-      "mention": "Used by Hermione Granger to escape from Death Eaters.",
-      "etymology": "Probably derived from French glisser, meaning \"to slide\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz com que os degraus de uma escada se achatem em um escorregador.",
+      "mention": "Usado por Hermione Granger para escapar dos Comensais da Morte.",
+      "etimologia": "Provavelmente derivado do francês glisser, que significa \"deslizar\".",
+      "nota": null
     },
     {
       "id": 128,
-      "name": "Green Sparks",
-      "other_name": null,
+      "name": "Faíscas Verdes",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": null,
-      "description": "Jet of green sparks that can be used to signal an emergency or as a minor duelling spell.",
-      "mention": "Taught in Defence Against the Dark Arts; When Hagrid, Harry and Hermione try to find an injured unicorn, Hagrid says that if it is found, they must send up green sparks.",
-      "etymology": null,
-      "note": "The incantation is almost certainly Verdimillious."
+      "description": "Jato de faíscas verdes que pode ser usado para sinalizar uma emergência ou como um pequeno feitiço de duelo.",
+      "mention": "Ensinado em Defesa Contra as Artes das Trevas; Quando Hagrid, Harry e Hermione tentam encontrar um unicórnio ferido, Hagrid diz que se for encontrado, eles devem enviar faíscas verdes.",
+      "etimologia": null,
+      "nota": "O encantamento é quase certamente Verdimillious."
     },
     {
       "id": 129,
-      "name": "Gripping Charm",
-      "other_name": null,
+      "name": "Encanto Arrebatador",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Helps someone grip something more effectively.",
-      "mention": "Used on Quaffles to help Chasers carry them.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Ajuda alguém a segurar algo de forma mais eficaz.",
+      "mention": "Usado em goles para ajudar os artilheiros a carregá-los.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 130,
-      "name": "Gytrash-conjuring spell",
-      "other_name": null,
+      "name": "Feitiço de conjuração de Gytrash",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Conjuration, Dark Arts",
-      "description": "Conjures luminous green Gytrashes from the wand, which can be commanded by the caster to attack an opponent.",
+      "spell_type": "Conjuração, Artes das Trevas",
+      "description": "Conjura Gytrashes verdes luminosos da varinha, que podem ser comandados pelo lançador para atacar um oponente.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 131,
-      "name": "Hair-thickening Charm",
-      "other_name": null,
+      "name": "Encanto para engrossar o cabelo",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Thickens the victim's hair.",
-      "mention": "Severus Snape claimed Alicia Spinnet used this spell on her eyebrows, where as in reality she was jinxed by Miles Bletchley.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Engrossa o cabelo da vítima.",
+      "mention": "Severus Snape afirmou que Alicia Spinnet usou esse feitiço em suas sobrancelhas, onde na realidade ela foi enfeitiçada por Miles Bletchley.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 132,
       "name": "Harmonia Nectere Passus",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "har-MOH-nee-a NECK-teh-ray PASS-us",
-      "spell_type": "Charm",
-      "description": "Repairs a Vanishing Cabinet.",
-      "mention": "Used by Draco Malfoy to mend a cabinet in 1996.",
-      "etymology": "Latin harmonia, which means \"harmony\", nectere, which means \"to bind\", and passus, which means \"step\".",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Conserta um armário que desaparece.",
+      "mention": "Usado por Draco Malfoy para consertar um armário em 1996.",
+      "etimologia": "do latim harmonia, que significa \"harmonia\", nectere, que significa \"ligar\", e passus, que significa \"passo\".",
+      "nota": null
     },
     {
       "id": 133,
       "name": "Herbifors",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "This spell causes flowers to sprout from the victim.",
+      "spell_type": "Transfiguração",
+      "description": "Este feitiço faz com que flores brotem da vítima.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 134,
-      "name": "Herbivicus",
-      "other_name": "Herbivicus Charm",
+      "name": "Herbívico",
+      "other_name": "Encanto de Herbívico",
       "pronunciation": "her-BIV-i-cuss",
-      "spell_type": "Charm",
-      "description": "Rapidly grows plants.",
-      "mention": "Taught by Professor Pomona Sprout in Herbology classes.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "As plantas crescem rapidamente.",
+      "mention": "Ministrado pela Professora Pomona Sprout nas aulas de Herbologia.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 135,
-      "name": "Hermione Granger's jinx",
-      "other_name": null,
+      "name": "Azaração de Hermione Granger",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Jinx",
-      "description": "Causes a traitor to break out in boils spelling \"SNEAK\" on his or her forehead.",
-      "mention": "Hermione Granger designed and placed this jinx on the parchment signed by all members of Dumbledore's Army. When Marietta Edgecombe betrayed the D.A. to Dolores Umbridge, the jinx was triggered.",
-      "etymology": null,
-      "note": "This jinx was invented by Hermione, and may have been inspired by Furnunculus."
+      "description": "Faz com que um traidor comece a ter furúnculos formando \"SNEAK\" na testa.",
+      "mention": "Hermione Granger projetou e colocou este feitiço no pergaminho assinado por todos os membros da Armada de Dumbledore. Quando Marietta Edgecombe traiu o promotor público para Dolores Umbridge, o feitiço foi acionado.",
+      "etimologia": null,
+      "nota": "Este feitiço foi inventado por Hermione e pode ter sido inspirado por Furnúnculo."
     },
     {
       "id": 136,
-      "name": "Homing spell",
-      "other_name": null,
+      "name": "Feitiço de orientação",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": null,
-      "description": "Offensive spells that follow their target with a constant speed after being cast.",
+      "description": "Feitiços ofensivos que seguem seu alvo com uma velocidade constante após serem lançados.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 137,
       "name": "Homenum Revelio",
-      "other_name": "Human-Presence-Revealing Spell",
+      "other_name": "Feitiço Revelador de Presença Humana",
       "pronunciation": "HOM-eh-num reh-VEH-lee-oh",
-      "spell_type": "Charm",
-      "description": "Reveals human presence in the vicinity of the caster.",
-      "mention": "Used multiple times by various people in 1997.",
-      "etymology": "Most likely from Latin homo, meaning human, and \"reveal\", though the classical Latin form would be hominem instead of homenum, which shows Portuguese influence (\"man\" is homem in Portuguese).",
-      "note": "It can be used non-verbally; Dumbledore does so to detect Harry underneath his Invisibility Cloak."
+      "spell_type": "Charme",
+      "description": "Revela a presença humana nas proximidades do lançador.",
+      "mention": "Usado várias vezes por várias pessoas em 1997.",
+      "etimologia": "Provavelmente do latim homo, que significa humano, e \"revelar\", embora a forma latina clássica seja hominem em vez de homenum, o que mostra influência portuguesa (\"man\" é homem em português).",
+      "nota": "Pode ser usado não verbalmente; Dumbledore o faz para detectar Harry debaixo de sua Capa de Invisibilidade."
     },
     {
       "id": 138,
-      "name": "Homonculous Charm",
-      "other_name": null,
+      "name": "Encanto Homonculo",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Tracks the movements of human beings. The charm has a powerful effect in that it is not fooled by various methods of concealment and disguise, such as invisibility cloaks, the Polyjuice Potion or transformed Animagi.",
-      "mention": "This charm was used on Marauder's Map by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew after charting the grounds and halls of Hogwarts Castle in order to track the movements of everyone within the castle grounds.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Rastreia os movimentos dos seres humanos. O feitiço tem um efeito poderoso porque não é enganado por vários métodos de ocultação e disfarce, como capas de invisibilidade, a Poção Polissuco ou Animagos transformados.",
+      "mention": "Este feitiço foi usado no Mapa do Maroto por James Potter, Sirius Black, Remus Lupin e Peter Pettigrew depois de mapear os terrenos e salões do Castelo de Hogwarts para rastrear os movimentos de todos dentro do terreno do castelo.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 139,
-      "name": "Homorphus Charm",
-      "other_name": null,
+      "name": "Feitiço Homorphus",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes an Animagus or transfigured object to assume its normal shape.",
-      "mention": "According to Lockhart, he used it to force the Wagga Wagga Werewolf to take its human form.",
-      "etymology": "Latin homo meaning \"person\" and Greek morphosis meaning \"shaping\"",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz com que um animago ou objeto transfigurado assuma sua forma normal.",
+      "mention": "De acordo com Lockhart, ele o usou para forçar o Lobisomem Wagga Wagga a assumir sua forma humana.",
+      "etimologia": "homo latino que significa \"pessoa\" e morfose grega que significa \"formar\"",
+      "nota": null
     },
     {
       "id": 140,
-      "name": "Horn tongue hex",
-      "other_name": null,
+      "name": "Hex de língua de chifre",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Hex",
-      "description": "Transforms the target's tongue into a horn.",
-      "mention": "Harry Potter came across it while perusing the index of Basic Hexes for the Busy and Vexed in search of a way to overcome the dragon he knew he would have to face in the First Task of the Triwizard Tournament. He quickly ruled it out, however, realising it would only give the dragon yet another way to attack him.",
-      "etymology": null,
-      "note": null
+      "description": "Transforma a língua do alvo em um chifre.",
+      "mention": "Harry Potter o encontrou enquanto examinava o índice de Maldições Básicas para os Ocupados e Vexados em busca de uma maneira de vencer o dragão que ele sabia que teria que enfrentar na Primeira Tarefa do Torneio Tribruxo. Ele rapidamente governou para fora, no entanto, percebendo que isso só daria ao dragão mais uma maneira de atacá-lo.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 141,
-      "name": "Horton-Keitch Braking Charm",
-      "other_name": null,
+      "name": "Feitiço de Frenagem Horton-Keitch",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Charm patented by Basil Horton and Randolph Keitch that allows for broom-riders to stop more precisely. This spell was first used on the Comet 140 to prevent players from overshooting the goal posts and from flying off-sides.",
-      "mention": "Enchanted on all Comet 140 broomsticks.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Charme patenteado por Basil Horton e Randolph Keitch que permite que os vassouras parem com mais precisão. Este feitiço foi usado pela primeira vez no Comet 140 para impedir que os jogadores ultrapassem os postes do gol e voem para fora dos lados.",
+      "mention": "Encantado em todas as vassouras Comet 140.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 142,
-      "name": "Horcrux-making spell",
-      "other_name": null,
+      "name": "Feitiço para fazer Horcrux",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Dark Arts",
-      "description": "This spell allows a part of a wizard's soul to pass into an object, thereby making the object a Horcrux. One has to commit murder and take advantage of the soul's \"splitting apart\" by this supreme act of evil in order to be able to perform this spell, and it is probably very complex. In 1943, Horace Slughorn described the spell to a young Tom Riddle as encasing a portion of the torn soul and placing it within an object. The spell itself is described in detail in a banned book known as \"Secret of the Darkest Art\", which Hermione Granger summoned from Albus Dumbledore's office near the end of their sixth year. According to the text, use of this spell to separate the soul will make the remaining portion of the soul very fragile, and can only be reversed by \"remorse\" of the wrongs the creator had made; however, the pain caused by attempting to reverse the creation of a Horcrux can destroy the individual.",
-      "mention": "Used by Lord Voldemort while creating his Horcruxes.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Artes das Trevas",
+      "description": "Este feitiço permite que uma parte da alma de um mago passe para um objeto, tornando o objeto uma Horcrux. É preciso cometer assassinato e tirar proveito da \"separação\" da alma por este ato supremo do mal para ser capaz de executar este feitiço, e provavelmente é muito complexo. Em 1943, Horace Slughorn descreveu o feitiço para um jovem Tom Riddle como encerrando uma parte da alma dilacerada e colocando-a dentro de um objeto. O feitiço em si é descrito detalhadamente em um livro proibido conhecido como Segredo da Arte Mais Sombria, que Hermione Granger convocou do escritório de Alvo Dumbledore perto do final do sexto ano. De acordo com o texto, o uso desse feitiço para separar a alma fará com que o porção restante da alma muito frágil, e só pode ser revertida pelo \"remorso\" dos erros que o criador cometeu; no entanto, a dor causada pela tentativa de reverter a criação de uma Horcrux pode destruir o indivíduo.",
+      "mention": "Usado por Lord Voldemort ao criar seus Horcruxes.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 143,
-      "name": "Hot-Air Charm",
-      "other_name": null,
+      "name": "Feitiço de Ar Quente",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Conjures a stream of hot air",
-      "mention": "Used by Hermione Granger in 1995 to dry off her robes. Also used shortly after to melt snow. Also was used by Albus Dumbledore in 1997 to dry Harry's and his own robes.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Conjura uma corrente de ar quente",
+      "mention": "Usado por Hermione Granger em 1995 para secar suas vestes. Também usado logo depois para derreter a neve. Também foi usado por Alvo Dumbledore em 1997 para secar as vestes de Harry e suas próprias.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 144,
-      "name": "Hour-Reversal Charm",
-      "other_name": null,
+      "name": "Feitiço de Reversão de Horas",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Reverses small amounts of time (up to five hours).",
-      "mention": "Used to create Time-Turners, as mentioned by Professor Saul Croaker; this charm is highly unstable.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Inverte pequenas quantidades de tempo (até cinco horas).",
+      "mention": "Usado para criar Vira-Tempos, conforme mencionado pelo Professor Saul Croaker; este feitiço é altamente instável.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 145,
-      "name": "Hover Charm",
-      "other_name": null,
+      "name": "Charme de pairar",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Used to make the target hover. It is one of the many lesser variations of the Levitation Charm.",
-      "mention": "Used by Dobby to demolish a pudding.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Usado para fazer o alvo pairar. É uma das muitas variações menores do Feitiço de Levitação.",
+      "mention": "Usado por Dobby para demolir um pudim.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 146,
-      "name": "Hurling Hex",
-      "other_name": null,
+      "name": "Arremesso Hex",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Hex",
-      "description": "Causes brooms to vibrate violently in the air and try to buck their rider off.",
-      "mention": "Professor Flitwick suggested that Harry's confiscated Firebolt may be jinxed with this spell.",
-      "etymology": null,
-      "note": "May be related to the broom jinx."
+      "description": "Faz com que as vassouras vibrem violentamente no ar e tentar repelir seu cavaleiro.",
+      "mention": "Professor Flitwick sugeriu que a Firebolt confiscada de Harry pode ser enfeitiçada com este feitiço.",
+      "etimologia": null,
+      "nota": "Pode estar relacionado ao feitiço da vassoura."
     },
     {
       "id": 147,
-      "name": "Illegibilus",
-      "other_name": null,
-      "pronunciation": "i-LEDJ-i-bull-is",
-      "spell_type": "Charm",
-      "description": "Makes writing impossible to read.",
+      "name": "Ilegibilus",
+      "outro_nome": null,
+      "pronunciation": "i-LEDJ-i-touro-é",
+      "spell_type": "Charme",
+      "description": "Torna a escrita impossível de ler.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 148,
       "name": "Immobulus",
-      "other_name": "Freezing Charm",
+      "other_name": "Feitiço Congelante",
       "pronunciation": "ih-MOH-byoo-luhs",
-      "spell_type": "Charm",
-      "description": "Immobilises and stops the actions of the target. It works both on living and inanimate things.",
-      "mention": "Hermione used it 1992 to freeze two Cornish Pixies. Horace Slughorn used Freezing Charms todisable a Muggle Burglar Alarm.",
-      "etymology": "From the Latin “immobilis”, meaning immovable.",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Imobiliza e interrompe as ações do alvo. Funciona tanto em coisas vivas quanto inanimadas.",
+      "mention": "Hermione usou em 1992 para congelar dois Pixies da Cornualha. Horácio Slughorn usou Feitiços Congelantes para desativar um Alarme de Ladrão Trouxa.",
+      "etimologia": "Do latim immobilis, que significa imóvel.",
+      "nota": null
     },
     {
       "id": 149,
-      "name": "Impedimenta",
-      "other_name": "Impediment Jinx",
+      "name": "Impedimentos",
+      "other_name": "Azaração do Impedimento",
       "pronunciation": "im-ped-ih-MEN-tah",
       "spell_type": "Jinx",
-      "description": "Slows down or stops the target.",
-      "mention": "Used in 1995 when Harry was practising for the Third Task of the Triwizard Tournament. In 1996, Harry saw in a memory that James Potter used it on Severus Snape. Also used in 1997 by Harry against the Inferi and Snape. Stronger uses of this spell seem capable of blowing targets away.",
-      "etymology": "Latin impedimentum (plural impedimenta), \"a hindrance\" or \"an impediment\".",
-      "note": null
+      "description": "Retarda ou para o alvo.",
+      "mention": "Usado em 1995 quando Harry estava praticando para a Terceira Tarefa do Torneio Tribruxo. Em 1996, Harry viu em uma memória que James Potter o usou em Severus Snape. Também usado em 1997 por Harry contra os Inferi e Snape. Usos mais fortes desse feitiço parecem capazes de explodir os alvos.",
+      "etimologia": "Latim impedimentum (plural impedimenta), \"um obstáculo\" ou \"um impedimento\".",
+      "nota": null
     },
     {
       "id": 150,
       "name": "Imperio",
-      "other_name": "Imperius Curse",
+      "other_name": "Maldição Imperius",
       "pronunciation": "im-PEER-ee-oh",
-      "spell_type": "Curse",
-      "description": "Places the victim completely under the caster's control. The victim is put into a trance-like state, and becomes very suggestible to the commands of the caster. However, those who are strong willed may learn to resist it. One of the three \"Unforgivable Curses,\" the use of this curse on another human results in capital punishment or life sentence in Azkaban.",
-      "mention": "Used on many occasions. First seen in 1994 when Barty Crouch Jr, impersonating ex-Auror Alastor Moody, used it on a spider and later on students during a \"class demonstration\" in a Defence Against the Dark Arts class. While breaking into Gringotts in 1998, Harry used it on a goblin and a Death Eater when they became suspicious.",
-      "etymology": "Latin impero, I command, and English \"imperious\".",
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Coloca a vítima completamente sob o controle do lançador. A vítima é colocada em um estado de transe e torna-se muito sugestionável aos comandos do lançador. No entanto, aqueles que são obstinados podem aprender a resistir. Um das três \"Maldições Imperdoáveis\", o uso dessa maldição em outro humano resulta em pena de morte ou prisão perpétua em Azkaban.",
+      "mention": "Usado em muitas ocasiões. Visto pela primeira vez em 1994, quando Bartô Crouch Jr, personificando o ex-Auror Alastor Moody, o usou em uma aranha e mais tarde em alunos durante uma \"demonstração de classe\" em uma aula de Defesa Contra as Artes das Trevas classe. Ao invadir Gringotts em 1998, Harry usou em um goblin e um Comensal da Morte quando eles suspeitaram.",
+      "etimologia": "latim impero, eu comando, e inglês \"imperious\".",
+      "nota": null
     },
     {
       "id": 151,
-      "name": "Imperturbable Charm",
-      "other_name": null,
+      "name": "Encanto Imperturbável",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Creates an invisible magical barrier on an object, such as a door. This barrier bounces objects off of it, and muffles sounds.",
-      "mention": "The spell was used in 1995 by Hermione to trap Rita Skeeter within a bottle while she was in beetle form. It was also used by Molly Weasley in the same year on the door of the room in which an Order of the Phoenix meeting was being held, in order to prevent her sons, Fred and George, from eavesdropping.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Cria uma barreira mágica invisível em um objeto, como uma porta. Essa barreira faz com que os objetos rebatam e abafe os sons.",
+      "mention": "O feitiço foi usado em 1995 por Hermione para prender Rita Skeeter dentro de uma garrafa enquanto ela estava na forma de besouro. Também foi usado por Molly Weasley no mesmo ano na porta da sala em que uma Ordem do A reunião de Phoenix estava sendo realizada, a fim de evitar que seus filhos, Fred e George, espionassem.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 152,
       "name": "Impervius",
-      "other_name": "Impervius Charm",
+      "other_name": "Feitiço Impervius",
       "pronunciation": "im-PUR-vee-us",
-      "spell_type": "Charm",
-      "description": "Makes an object repel water and mist.",
-      "mention": "Used by Hermione Granger in 1993 on Harry's glasses while in a Quidditch match and also by the Gryffindor Quidditch team. Also used in 1997, first by Ron to protect objects in Yaxley's office from rain, and then by Hermione to protect Harry, Ron and Griphook from the burning treasure in the Lestranges' vault.",
-      "etymology": "It is said that the Latin impervius means (and is the source of) \"impervious\"; although it is the source of the word, it is better translated as impassable, as in a mountain peak.",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Faz um objeto repelir água e névoa.",
+      "mention": "Usado por Hermione Granger em 1993 nos óculos de Harry durante uma partida de Quadribol e também pelo time de Quadribol da Grifinória. Também usado em 1997, primeiro por Ron para proteger objetos no escritório de Yaxley da chuva e depois por Hermione para proteger Harry, Ron e Griphook do tesouro em chamas no cofre dos Lestranges.",
+      "etimologia": "Diz-se que o latim impervius significa (e é a fonte de) \"impermeável\"; embora seja a fonte da palavra, é melhor traduzi-la como intransponível, como no pico de uma montanha.",
+      "nota": null
     },
     {
       "id": 153,
       "name": "Inanimatus Conjurus",
-      "other_name": "Inanimatus Conjurus Spell",
+      "other_name": "Feitiço Inanimatus Conjurus",
       "pronunciation": "in-an-ih-MAH-tus CON-jur-us",
-      "spell_type": "Transfiguration",
-      "description": "It is a spell of unknown effect, most likely used to conjure an inanimate object.",
-      "mention": "Mentioned briefly in 1995.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "É um feitiço de efeito desconhecido, provavelmente usado para conjurar um objeto inanimado.",
+      "mention": "Mencionado brevemente em 1995.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 154,
-      "name": "Incarcerous",
-      "other_name": "Incarcerous Spell",
+      "name": "Incarceroso",
+      "other_name": "Feitiço Encarceroso",
       "pronunciation": "in-KAR-ser-us",
-      "spell_type": "Conjuration",
-      "description": "Ties up the target with ropes conjured from thin air.",
-      "mention": "First heard in 1996, when Dolores Umbridge tries to hold off Centaurs. Also used by Harry on the Inferi in Voldemort's Crystal Cave in 1997 and also attempted to use it on Severus Snape in the same year.",
-      "etymology": "Probably English incarcerate, \"to imprison\". Possibly linked to the Latin in carcerem, \"in(to) prison\".",
-      "note": "A non-verbal version of this spell may have been used to tie up Remus Lupin by Severus Snape during the encounter in the Shrieking Shack, and then later Peter Pettigrew in 1994. It may also have been used by Quirrell in 1992, although he is said to have merely \"snapped his fingers\". Also, it may have been the spell Antonin Dolohov used non-verbally to bind Ron Weasley with \"shining black ropes\" in a skirmish on Tottenham Court Road."
+      "spell_type": "Conjuração",
+      "description": "Amarra o alvo com cordas conjuradas do nada.",
+      "mention": "Ouvido pela primeira vez em 1996, quando Dolores Umbridge tenta conter os Centauros. Também usado por Harry no Inferi na Caverna de Cristal de Voldemort em 1997 e também tentou usá-lo em Severus Snape no meu ano.",
+      "etimologia": "Provavelmente inglês incarcerate, \"aprisionar\". Possivelmente ligado ao latim in carcerem, \"na(para) prisão\".",
+      "nota": "Uma versão não-verbal deste feitiço pode ter sido usada para amarrar Remus Lupin por Severus Snape durante o encontro na Casa dos Gritos, e depois por Peter Pettigrew em 1994. Também pode ter sido usado por Quirrell em 1992, embora se diga que ele apenas estalou os dedos. Além disso, pode ter sido o feitiço que Antonin Dolohov usou não verbalmente para amarrar Ron Weasley com cordas pretas brilhantes em uma escaramuça na Tottenham Court Road.",
     },
     {
       "id": 155,
       "name": "Incendio",
-      "other_name": "Fire-Making Spell",
+      "other_name": "Feitiço para Fazer Fogo",
       "pronunciation": "in-SEN-dee-oh",
-      "spell_type": "Charm, Conjuration",
-      "description": "Produces fire.",
-      "mention": "It was used in 1994 by Arthur Weasley to create a fire in the Dursleys' hearth so that he could use Floo powder there.",
-      "etymology": "Latin incendere, \"to set fire (to)\". Note that the first principal part of this verb (meaning \"I set fire\") is incendo, not incendio; the incantation does not match exactly any correct conjugation of the verb. Incêndio, in Portuguese (same pronunciation as in English) means 'huge fire'. \"Encender\" in Spanish means \"to ignite\" and \"Incendie\" in French means flame. (A plausible but less likely source might be that it is a back-formation from the English word \"incendiary,\" i.e., \"causing fire.\")",
-      "note": null
+      "spell_type": "Charme, Conjuração",
+      "description": "Produz fogo.",
+      "mention": "Foi usado em 1994 por Arthur Weasley para criar um fogo na lareira dos Dursleys para que ele pudesse usar o pó de Flu lá.",
+      "etimologia": "Latim incendere, \"pôr fogo (para)\". Note que a primeira parte principal deste verbo (que significa \"Eu coloquei fogo\") é incendo, não incendio; o encantamento não corresponde exatamente qualquer conjugação correta do verbo. Incêndio, em português (mesma pronúncia do inglês) significa 'fogo enorme'. \"Encender\" em espanhol significa \"incendiar\" e \"Incendie\" em francês significa chama. ( Uma fonte plausível, mas menos provável, pode ser uma formação inversa da palavra inglesa \"incendiário\", ou seja, \"causando fogo\")",
+      "nota": null
     },
     {
       "id": 156,
       "name": "Incendio Duo",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "in-SEN-dee-oh DOO-oh",
-      "spell_type": "Charm",
-      "description": "A stronger version of Incendio.",
+      "spell_type": "Charme",
+      "description": "Uma versão mais forte do Incendio.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 157,
       "name": "Incendio Tria",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "in-SEN-dee-oh TREE-ah",
-      "spell_type": "Charm",
-      "description": "An improvement over both Incendio and Incendio Duo.",
+      "spell_type": "Charme",
+      "description": "Uma melhoria em relação ao Incendio e ao Incendio Duo.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 158,
       "name": "Inflatus",
-      "other_name": "Inflating Charm",
+      "other_name": "Encanto Inflável",
       "pronunciation": "in-FLAY-tus",
-      "spell_type": "Charm",
-      "description": "Inflates the target, filling it with air.",
+      "spell_type": "Charme",
+      "description": "Infla o alvo, enchendo-o de ar.",
       "mention": null,
-      "etymology": "The prefix 'Inflate' derives from the English verb \"to expand with oxygen\".",
-      "note": null
+      "etimologia": "O prefixo 'Inflar' deriva do verbo inglês \"expandir com oxigênio\".",
+      "nota": null
     },
     {
       "id": 159,
-      "name": "Informous",
-      "other_name": "Informous Spell",
+      "name": "Informado",
+      "other_name": "Feitiço Informativo",
       "pronunciation": "in-FOR-m-es",
-      "spell_type": "Charm",
-      "description": "Informous is a spell that is used to complete one's Folio Bruti. A page with a brief description (including weaknesses and strengths) of the charmed creature is added to the caster's Folio Bruti.",
+      "spell_type": "Charme",
+      "description": "Informous é um feitiço usado para completar o Folio Bruti de uma pessoa. Uma página com uma breve descrição (incluindo pontos fracos e fortes) da criatura enfeitiçada é adicionada ao Folio Bruti do lançador.",
       "mention": null,
-      "etymology": "The prefix Info derives from the English verb \"to inform\".",
-      "note": null
+      "etimologia": "O prefixo Info deriva do verbo inglês \"informar\".",
+      "nota": null
     },
     {
       "id": 160,
-      "name": "Instant Scalping Hex",
-      "other_name": null,
+      "name": "Hex Scalping Instantâneo",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Hex",
-      "description": "Instantly scalps all the hair off of a target.",
-      "mention": "Harry Potter came across it while browsing the index of Basic Hexes for the Busy and Vexed, trying to find a way to fight the dragon he knew he would have to face for the First Task of the Triwizard Tournament. He quickly decided it would be ineffective, because dragons do not have hair.",
-      "etymology": null,
-      "note": "This spell has similar effects to the Hair-Loss Curse."
+      "description": "Escalpa instantaneamente todo o cabelo de um alvo.",
+      "mention": "Harry Potter o encontrou enquanto navegava no índice de Maldições Básicas para os Ocupados e Vexados, tentando encontrar uma maneira de lutar contra o dragão que ele sabia que teria que enfrentar para a Primeira Tarefa do Torneio Tribruxo. Ele rapidamente decidiu que seria ineficaz, porque os dragões não têm cabelo.",
+      "etimologia": null,
+      "note": "Este feitiço tem efeitos semelhantes à Maldição da Perda de Cabelo."
     },
     {
       "id": 161,
-      "name": "Intruder Charm",
-      "other_name": null,
+      "name": "Feitiço Intruso",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Detects intruders and sounds an alarm.",
-      "mention": "Horace Slughorn used it on a Muggle-owned house he stayed in temporarily in 1996, but did not hear it go off when Albus Dumbledore and Harry Potter arrived, as he was in the bath.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Charme",
+      "description": "Detecta intrusos e soa um alarme.",
+      "mention": "Horace Slughorn o usou em uma casa de propriedade trouxa onde ele ficou temporariamente em 1996, mas não ouviu quando Alvo Dumbledore e Harry Potter chegaram, pois ele estava no banho.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 162,
       "name": "Locomotor Wibbly",
-      "other_name": "Jelly-Legs Curse",
+      "other_name": "Maldição das Pernas de Geléia",
       "pronunciation": "loh-koh-MOH-tor WIB-lee",
-      "spell_type": "Curse, Jinx",
-      "description": "Causes the victim's legs to collapse as if they were turned to jelly.",
-      "mention": "One of the spells mentioned in Curses and Counter-Curses by Vindictus Viridian, used on Harry, practising for the Third Task of the Triwizard Tournament, by Hermione. Also, Draco Malfoy was hit with this jinx (along with another one) at the end of the term.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Maldição, Jinx",
+      "description": "Faz com que as pernas da vítima colapsem como se fossem gelatina.",
+      "mention": "Um dos feitiços mencionados em Maldições e Contra-Maldições de Vindictus Viridian, usado em Harry, praticando para a Terceira Tarefa do Torneio Tribruxo, por Hermione. Além disso, Draco Malfoy foi atingido por esse feitiço (junto com outro um) no final do prazo.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 163,
       "name": "Jelly-Brain Jinx",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Jinx",
-      "description": "Reduces the target's mental processes.",
-      "mention": "During the September 1999 riot that took place during the Puddlemere United/Holyhead Harpies Quidditch game, a lot of Harpy supporters were using this jinx.",
-      "etymology": null,
-      "note": "This spell may have been the spell that the Death Eaters hit Ron with in Harry Potter and the Order of the Phoenix in the Battle of the Department of Mysteries."
+      "description": "Reduz os processos mentais do alvo.",
+      "mention": "Durante o tumulto de setembro de 1999 durante o jogo de Quadribol Puddlemere United/Holyhead Harpies, muitos apoiadores da Harpia estavam usando esse feitiço.",
+      "etimologia": null,
+      "nota": "Este feitiço pode ter sido o feitiço que os Comensais da Morte usaram para atingir Ron em Harry Potter e a Ordem da Fênix na Batalha do Departamento de Mistérios."
     },
     {
       "id": 164,
-      "name": "Jelly-Fingers Curse",
-      "other_name": null,
+      "name": "Maldição dos Dedos de Gelatina",
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Causes target's fingers to become wobbly, making it uneasy for the victim to grasp objects.",
-      "mention": "After a June 1999 Pride of Portree/Appleby Arrows Quidditch game, the losing Seeker accused his opposite number of putting this curse on him as they both closed in on the Snitch.",
-      "etymology": null,
-      "note": null
+      "spell_type": "Maldição",
+      "description": "Faz com que os dedos do alvo fiquem trêmulos, tornando difícil para a vítima agarrar objetos.",
+      "mention": "Depois de um jogo de quadribol Pride of Portree/Appleby Arrows em junho de 1999, o apanhador perdedor acusou seu número oposto de colocar essa maldição sobre ele quando os dois se aproximaram do pomo.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 165,
-      "name": "Knee-reversal hex",
-      "other_name": null,
+      "name": "Hexagonal de reversão do joelho",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Hex",
-      "description": "Puts knees on backward.",
+      "description": "Coloca os joelhos para trás.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 166,
       "name": "Lacarnum Inflamari",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "la-KAR-num in-flah-MAR-ee",
-      "spell_type": "Charm",
-      "description": "Ignites cloaks.",
-      "mention": "Used by Hermione in 1991 to stop Snape from cursing Harry. The incantation is only used in the film adaptation of Harry Potter and the Philosopher's Stone.",
-      "etymology": "Latin inflammo, or the verb inflammatio meaning \"to set on fire\". Lacarnum, from the Latin “lacerna”, meaning “cloak”.",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Acende mantos.",
+      "mention": "Usado por Hermione em 1991 para impedir Snape de amaldiçoar Harry. O encantamento é usado apenas na adaptação cinematográfica de Harry Potter e a Pedra Filosofal.",
+      "etimologia": "Latim inflammo, ou o verbo inflammatio que significa \"incendiar\". Lacarnum, do latim “lacerna”, que significa capa",
+      "nota": null
     },
     {
       "id": 167,
       "name": "Langlock",
-      "other_name": null,
-      "pronunciation": "LANG-lock",
+      "outro_nome": null,
+      "pronunciation": "Bloqueio LANG",
       "spell_type": "Jinx",
-      "description": "Sticks a victim's tongue to the roof of their mouth. Created by Severus Snape.",
-      "mention": "Used by Harry on Peeves and twice on Argus Filch, to general applause.",
-      "etymology": "Probably from the French langue (\"tongue\") and the English \"lock\".",
-      "note": null
+      "description": "Coloca a língua da vítima no céu da boca. Criado por Severus Snape.",
+      "mention": "Usado por Harry em Pirraça e duas vezes em Argus Filch, para aplausos gerais.",
+      "etimologia": "Provavelmente do francês langue (\"língua\") e do inglês \"lock\".",
+      "nota": null
     },
     {
       "id": 168,
       "name": "Lapifors",
-      "other_name": "Lapifors Spell",
+      "other_name": "Feitiço Lapifors",
       "pronunciation": "LAP-ih-forz",
-      "spell_type": "Transfiguration",
-      "description": "Transforms the target into a rabbit.",
-      "mention": "Taught in third year Transfiguration class.",
-      "etymology": "From Latin lepus meaning hare, and forma meaning \"shape\".",
-      "note": null
+      "spell_type": "Transfiguração",
+      "description": "Transforma o alvo em um coelho.",
+      "mention": "Dado na aula de Transfiguração do terceiro ano.",
+      "etimologia": "Do latim lepus que significa lebre e forma que significa \"forma\".",
+      "nota": null
     },
     {
       "id": 169,
       "name": "Leek Jinx",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": "Jinx",
-      "description": "Makes leeks sprout out of the target's ears.",
-      "mention": "Used by a fighting Gryffindor fourth year and sixth year Slytherin before a Quidditch match in 1992.",
-      "etymology": null,
-      "note": null
+      "description": "Faz alho-poró brotar das orelhas do alvo.",
+      "mention": "Usado por um lutador do quarto ano da Grifinória e do sexto ano da Sonserina antes de uma partida de Quadribol em 1992.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 170,
       "name": "Legilimens",
-      "other_name": "Legilimency Spell",
+      "other_name": "Feitiço de Legilimência",
       "pronunciation": null,
-      "spell_type": "Charm",
+      "spell_type": "Charme",
       "description": null,
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 171,
-      "name": "Type: Charm\n",
-      "other_name": null,
+      "name": "Tipo: Amuleto\n",
+      "outro_nome": null,
       "pronunciation": null,
       "spell_type": null,
-      "description": "Allows the caster to delve into the mind of the victim, allowing the caster to see the memories, thoughts, and emotions of the victim.",
-      "mention": "Used by Severus Snape on Harry after he had a dream about Arthur Weasley being attacked by Nagini in 1995. Also during Occlumency lessons in 1996. Also used non-verbally by Snape on Harry in 1997 to allow him to see where Harry had learned the Sectumsempra spell.",
-      "etymology": "Latin legere (\"to read\") and mens (\"mind\").",
-      "note": null
+      "description": "Permite ao lançador mergulhar na mente da vítima, permitindo que o lançador veja as memórias, pensamentos e emoções da vítima.",
+      "mention": "Usado por Severus Snape em Harry depois que ele teve um sonho sobre Arthur Weasley sendo atacado por Nagini em 1995. Também durante as aulas de Oclumência em 1996. Também usado não verbalmente por Snape em Harry em 1997 para permitir que ele visse onde Harry havia aprendido o feitiço Sectumsempra.",
+      "etimologia": "Latim legere (\"ler\") e mens (\"mente\").",
+      "nota": null
     },
     {
       "id": 172,
       "name": "Levicorpus",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "leh-vee-COR-pus",
       "spell_type": "Jinx",
-      "description": "Hoists people up into the air by their ankle. Created by Severus Snape.",
-      "mention": "Apparently invented by the Half-Blood Prince; it is a non-verbal-only spell (although it is whispered by Hermione in 1997). Harry Potter learnt it by reading the notes written by the Half-Blood Prince. He used it on Ron. The previous year, Harry had seen (through the Pensieve used by Severus Snape) his father, James Potter, use the spell against Professor Snape.",
-      "etymology": "Latin levare, \"raise\" and corpus, \"body\" or \"corpse\".",
-      "note": null
+      "description": "Eleva as pessoas no ar pelo tornozelo. Criado por Severus Snape.",
+      "mention": "Aparentemente inventado pelo Príncipe Mestiço; é um feitiço não-verbal apenas (embora seja sussurrado por Hermione em 1997). Harry Potter aprendeu lendo as notas escritas pelo Príncipe Mestiço. Ele o usou em Ron. No ano anterior, Harry tinha visto (através da Penseira usada por Severus Snape) seu pai, James Potter, usar o feitiço contra o Professor Snape.",
+      "etimologia": "do latim levare, \"levantar\" e corpus, \"corpo\" ou \"cadáver\".",
+      "nota": null
     },
     {
       "id": 173,
       "name": "Liberacorpus",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "LIB-er-ah-cor-pus",
       "spell_type": "Counter-Jinx",
-      "description": "The counter-jinx to Levicorpus.",
-      "mention": "Harry used the spell in 1996 to counteract Levicorpus he had inadvertently cast on Ron.",
-      "etymology": "Latin liberare, \"to free\", and corpus, \"body\" or \"corpse\".",
-      "note": "It is not clear why Levicorpus has a specific counter-spell, and is not neutralised by simply using Finite Incantatem, although this could be due to the fact that Snape invented the spell and therefore made it irreversible except by its specific counter-curse."
+      "description": "O contra-azar do Levicorpus.",
+      "mention": "Harry usou o feitiço em 1996 para neutralizar o Levicorpus que ele lançou inadvertidamente em Ron.",
+      "etimologia": "do latim liberare, \"libertar\", e corpus, \"corpo\" ou \"cadáver\".",
+      "nota": "Não está claro por que Levicorpus tem um contra-feitiço específico e não é neutralizado simplesmente usando Finite Incantatem, embora isso possa ser devido ao fato de que Snape inventou o feitiço e, portanto, o tornou irreversível, exceto por sua contra-maldição específica."
     },
     {
       "id": 174,
       "name": "Locomotor",
-      "other_name": "Locomotion Charm",
+      "other_name": "Feitiço de locomoção",
       "pronunciation": "loh-kuh-MOH-tor",
-      "spell_type": "Charm",
-      "description": "Allows a witch or wizard to levitate a target a few inches off of the ground and then move said object in any given direction. Similarly to the Summoning Charm, a specific object can be moved by calling the object aloud after saying the incantation.",
-      "mention": "Used by Nymphadora Tonks in Harry Potter to move Harry's trunk from his room. Filius Flitwick similarly used it to move Sybill Trelawney's trunk after Dolores Umbridge sacked her. Parvati Patil and Lavender Brown used this spell to race their pencil cases around the edges of the table. A variation seen in 1998 is Piertotum Locomotor, which caused the statues of Hogwarts to be animated.",
-      "etymology": "Latin locus (place) and moto, \"set in motion\" (passive motor), or English locomotion.",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Permite que uma bruxa ou bruxo levite um alvo a alguns centímetros do chão e, em seguida, mova o referido objeto em qualquer direção. Da mesma forma que o Feitiço de Convocação, um objeto específico pode ser movido chamando o objeto em voz alta depois de dizer o encantamento.",
+      "mention": "Usado por Ninfadora Tonks em Harry Potter para mover o baú de Harry de seu quarto. Filius Flitwick também o usou para mover o baú de Sybill Trelawney depois que Dolores Umbridge a demitiu. Parvati Patil e Lavender Brown usaram esse feitiço para correr com seus estojos de lápis as bordas da mesa. Uma variação vista em 1998 é o Piertotum Locomotor, que fez com que as estátuas de Hogwarts fossem animadas.",
+      "etimologia": "Latim locus (lugar) e moto, \"pôr em movimento\" (motor passivo), ou locomoção em inglês.",
+      "nota": null
     },
     {
       "id": 175,
       "name": "Locomotor Mortis",
-      "other_name": "Leg-Locker Curse",
+      "other_name": "Maldição do Bloqueador de Pernas",
       "pronunciation": "LOH-koh-moh-tor MOR-tis",
-      "spell_type": "Curse",
-      "description": "Sticks legs together.",
-      "mention": "Used by Draco Malfoy on Neville Longbottom in 1991. Used by Harry Potter on Draco Malfoy, who deflected it, in 1996.",
-      "etymology": "English locomotion, \"movement\" + Latin mortis, \"of death\".",
-      "note": "It is unclear whether or how this spell is related to the Locomotor spell. It could, however, be that the curse \"locks\" any part of the body in accordance to where it is pointed, or moves the body into a position of the caster's choosing whilst placing them into an immobile state. It is possible that Draco had pointed his wand at Neville and the curse \"locked\" his legs together."
+      "spell_type": "Maldição",
+      "description": "Junta as pernas.",
+      "mention": "Usado por Draco Malfoy em Neville Longbottom em 1991. Usado por Harry Potter em Draco Malfoy, que o desviou, em 1996.",
+      "etimologia": "Inglês locomoção, \"movimento\" + Latim mortis, \"da morte\".",
+      "nota": "Não está claro se ou como este feitiço está relacionado ao feitiço Locomotor. Pode, no entanto, ser que a maldição \"bloqueie\" qualquer parte do corpo de acordo com o local para onde é apontada, ou mova o coloque o corpo em uma posição de escolha do lançador enquanto os coloca em um estado imóvel. É possível que Draco tenha apontado sua varinha para Neville e a maldição travou suas pernas juntas.",
     },
     {
       "id": 176,
       "name": "Lumos",
-      "other_name": "Wand-Lighting Charm",
+      "other_name": "Feitiço de Iluminação de Varinha",
       "pronunciation": "LOO-mos",
-      "spell_type": "Charm",
-      "description": "Illuminates the tip of the caster's wand, allowing the caster to see in the dark.",
-      "mention": "Used by Albus Dumbledore to illuminate the dark cave in 1997.",
-      "etymology": "Latin lumen, \"light\".",
-      "note": "opposite incantation, Nox, puts the light out."
+      "spell_type": "Charme",
+      "description": "Ilumina a ponta da varinha do lançador, permitindo que o lançador veja no escuro.",
+      "mention": "Usado por Alvo Dumbledore para iluminar a caverna escura em 1997.",
+      "etimologia": "latim lumen, \"luz\".",
+      "nota": "encantamento oposto, Nox, apaga a luz."
     },
     {
       "id": 177,
       "name": "Lumos Duo",
-      "other_name": "Wand-Lighting Charm Duo",
+      "other_name": "Duplo de Feitiço de Iluminação de Varinha",
       "pronunciation": "LOO-mos DOO-oh",
-      "spell_type": "Charm",
-      "description": "Creates a focused beam of light from the end of the wand. It is a variant of the Wand-Lighting Charm.",
+      "spell_type": "Charme",
+      "description": "Cria um feixe de luz focado a partir da ponta da varinha. É uma variante do Feitiço de Iluminação da Varinha.",
       "mention": null,
-      "etymology": "Lumos plus Latin duo, \"two\".",
-      "note": null
+      "etimologia": "Lumos mais dupla latina, \"dois\".",
+      "nota": null
     },
     {
       "id": 178,
-      "name": "Lumos Maxima",
-      "other_name": null,
+      "name": "Lumos Máximos",
+      "outro_nome": null,
       "pronunciation": "LOO-mos Ma-cks-ima",
-      "spell_type": "Charm",
-      "description": "Produces a blinding flash of bright white light from the tip of the wand. It is a variant of the Wand-Lighting Charm.",
-      "mention": "First practised by Harry in the home of the Dursleys, then used by Dumbledore to light up the cave of the Horcrux.",
-      "etymology": "Lumos + maxima, Latin \"greatest.\"",
-      "note": null
+      "spell_type": "Charme",
+      "description": "Produz um flash ofuscante de luz branca brilhante da ponta da varinha. É uma variante do Feitiço de Iluminação da Varinha.",
+      "mention": "Primeiro praticado por Harry na casa dos Dursleys, depois usado por Dumbledore para iluminar a caverna da Horcrux.",
+      "etimologia": "Lumos + maxima, latim \"maior.\"",
+      "nota": null
     },
     {
       "id": 179,
       "name": "Lumos Solem",
-      "other_name": "Lumos Solem Spell",
+      "other_name": "Feitiço Lumos Solem",
       "pronunciation": "LOO-mos SO-lem",
-      "spell_type": "Charm",
-      "description": "Produce a blinding flash of sunlight. It is a variant of the Wand-Lighting Charm.",
-      "mention": "Used by Hermione to free Ron from the Devil's Snare. The incantation was only used in the film adaptation of Harry Potter and the Philosopher's Stone.",
-      "etymology": "Derived from two words; the Latin lumen, meaning \"light\", and the Latin word for \"sun\", which in its accusative case is \"solem\".",
-      "note": "It is possible that the quality of the light is on the warmer solar end of the spectrum; Considering the known uses that the spell has been put to, it isn't that much of a stretch to presume that the spell is used to conjure Sunlight."
+      "spell_type": "Charme",
+      "description": "Produz um flash ofuscante de luz solar. É uma variante do Feitiço de Iluminação de Varinha.",
+      "mention": "Usado por Hermione para libertar Ron da Visgo do Diabo. O encantamento só foi usado na adaptação cinematográfica de Harry Potter e a Pedra Filosofal.",
+      "etimologia": "Derivou de duas palavras; o latim lumen, que significa \"luz\", e a palavra latina para \"sol\", que em seu caso acusativo é \"solem\".",
+      "nota": "É possível que a qualidade da luz esteja na extremidade solar mais quente do espectro; Considerando os usos conhecidos que o feitiço foi feito, não é muito difícil presumir que o feitiço é usado para conjurar a luz solar."
     },
     {
       "id": 180,
       "name": "Magicus Extremos",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Partnership-based charm that temporarily increases the casters' spell power.",
+      "spell_type": "Charme",
+      "description": "Encanto baseado em parceria que aumenta temporariamente o poder mágico dos lançadores.",
       "mention": null,
-      "etymology": null,
-      "note": null
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 181,
@@ -14045,2184 +14045,2186 @@ export default {
       "other_name": "Melofors Jinx",
       "pronunciation": null,
       "spell_type": "Jinx",
-      "description": "Encases the victim's head in a pumpkin.",
-      "mention": "Cornelius Fudge was rumoured to have been a victim of this jinx after having been overpowered by Albus Dumbledore in a duel in 1996.",
-      "etymology": null,
-      "note": null
+      "description": "Envolve a cabeça da vítima em uma abóbora.",
+      "mention": "Há rumores de que Cornélio Fudge foi vítima desse feitiço depois de ter sido dominado por Albus Dumbledore em um duelo em 1996.",
+      "etimologia": null,
+      "nota": null
     },
     {
       "id": 182,
       "name": "Meteolojinx Recanto",
-      "other_name": null,
+      "outro_nome": null,
       "pronunciation": "mee-tee-OH-loh-jinks reh-CAN-toh.",
-      "spell_type": "Counter-Charm",
-      "description": "Causes weather effects caused by jinxes to cease.",
-      "mention": "Suggested in 1997 by Arthur Weasley to Ron (disguised as Reginald Cattermole by use of Polyjuice Potion) as the best way to clear up the rain jinx on a Ministry office. Also used by Bartemius Crouch Jr (Disguised as Alastor Moody) In 1994 to cease the weather effect of the Great Hall's Ceiling insisting it is broken as he told Dumbledore to \"Fix his ceiling\".",
-      "etymology": "Meteorology, the study of weather, the word jinx and recant, \"to withdraw or retract\". Interestingly in modern English recant means to say that you no longer hold a belief.",
-      "note": null
-    },
-    {
-      "id": 183,
-      "name": "Mimblewimble",
-      "other_name": "Tongue-Tying Curse",
-      "pronunciation": "MIM-bull-wim-bull",
-      "spell_type": "Curse",
-      "description": "Ties the target's tongue in a knot, preventing them from making coherent speech, or saying incantations correctly, making it useful in duels.",
-      "mention": "Seen in 1997 as a deterrent to Severus Snape, or any other unwanted visitor of 12 Grimmauld Place, from betraying their location to anyone else.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 184,
-      "name": "Ministry of Magic Fog",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Patented charm used by the Ministry for Magic to conceal certain areas from Muggle view.",
-      "mention": "Seen in 1997 as a deterrent to Severus Snape, or any other unwanted visitor of 12 Grimmauld Place, from betraying their location to anyone else.",
-      "etymology": null,
-      "note": "In 1999, after the Invisibility Charm debacle at the Exmoor Quidditch Stadium, the Ministry considered trying this fog to hide the stadium from view."
-    },
-    {
-      "id": 185,
-      "name": "Mobiliarbus",
-      "other_name": null,
-      "pronunciation": "mo-bil-lee-AR-bus",
-      "spell_type": "Charm",
-      "description": "Levitates wooden objects a few inches off of the ground and moves them in any given direction.",
-      "mention": "In 1993, Hermione Granger used the spell to move a Christmas Tree in The Three Broomsticks beside her table to hide Harry Potter, who was in Hogsmeade illegally.",
-      "etymology": "Latin mobilis, \"movable\" or \"flexible\", and arbor (alternatively arbos), \"tree\".",
-      "note": "It is possible that Mobilicorpus and Mobiliarbus are variations of the same basic spell, since they share the \"Mobili-\" stem."
-    },
-    {
-      "id": 186,
-      "name": "Mobilicorpus",
-      "other_name": null,
-      "pronunciation": "moh-bil-lee-COR-pus",
-      "spell_type": "Charm",
-      "description": "Levitates and moves bodies.",
-      "mention": "Sirius Black used it on Severus Snape in 1994. It was probably used on Peter Pettigrew by Lord Voldemort in the graveyard to make him come forward.",
-      "etymology": "Latin mobilis, \"movable\", and corpus, \"body\".",
-      "note": "It is possible that Mobiliarbus and Mobilicorpus are variations of the same basic spell, since they share the \"Mobili-\" stem."
-    },
-    {
-      "id": 187,
-      "name": "Molliare",
-      "other_name": "Cushioning Charm",
-      "pronunciation": "mull-ee-AR-ay",
-      "spell_type": "Charm",
-      "description": "Produces an invisible cushion over the target, is used primarily in the manufacturing of broomsticks.",
-      "mention": "Used by Hermione Granger to cushion her, Harry, and Ron's fall in Gringotts Wizard Bank in 1998.",
-      "etymology": null,
-      "note": "This spell may be related to Arresto Momentum and Spongify."
-    },
-    {
-      "id": 188,
-      "name": "Molly Weasley's curse",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Like the Avada Kedavra curse, it kills (or freezes) the victim. It turns the body grey/blue (or paler) while it turns to stone and then another twin jinx can blast the body into pieces.",
-      "mention": null,
-      "etymology": null,
-      "note": "This may be Hardening Charm or Freezing Charm, although the latter is shown to be blue in 1992."
-    },
-    {
-      "id": 189,
-      "name": "Morsmordre",
-      "other_name": null,
-      "pronunciation": "morz-MOR-druh",
-      "spell_type": null,
-      "description": "Conjures the Dark Mark, which is the sign of the Death Eaters.",
-      "mention": "Used by Barty Crouch Jr in 1994. Also seen in 1997 over the castle to lure Albus Dumbledore to his death. It was apparently invented by Lord Voldemort.",
-      "etymology": "Latin mors, \"death\", and mordere, meaning \"to bite\" (or its French derivative mordre); this would appear to be associated with the name of Lord Voldemort's followers, the Death Eaters. The English murder might also contribute.",
-      "note": "A possible translation might be \"take a bite out of death\", a fitting phrase for Death Eaters."
-    },
-    {
-      "id": 190,
-      "name": "Mucus ad Nauseam",
-      "other_name": "Curse of the Bogies",
-      "pronunciation": "MYOO-kus ahd NAW-zee-um",
-      "spell_type": "Curse",
-      "description": "Gives the victim a nasty cold and an extremely runny nose that can cause the victim to collapse if it is not treated. The cold is accompanied with constant sneezing.",
-      "mention": "Mentioned by Professor Quirrell to his first-year class.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 191,
-      "name": "Muffliato",
-      "other_name": "Muffliato Charm",
-      "pronunciation": "muf-lee-AH-to",
-      "spell_type": "Charm",
-      "description": "Prevents others from hearing nearby conversations by filling peoples' ears with an unidentifiable buzzing.",
-      "mention": "It was used in 1996 by Harry Potter and Ron Weasley on various teachers and people such as Madam Pomfrey. It was created by Severus Snape. As pointed out by Hermione, it is probably not Ministry of Magic approved. It was also used in 1997 by Hermione Granger in protection of the camp-site where Harry and she stayed in hiding.",
-      "etymology": "English muffle, \"to quiet\", with a pseudo-Latin or pseudo-Italian ending.",
-      "note": null
-    },
-    {
-      "id": 192,
-      "name": "Multicorfors",
-      "other_name": "Multicorfors Spell",
-      "pronunciation": "mull-tee-COR-fors",
-      "spell_type": "Transfiguration",
-      "description": "Multicorfors is a charm used to change the colour and style of one's clothing.",
-      "mention": "It may also be the same charm as when Harry accidentally changed the colour of his eyebrow, before he asked Luna to Slughorn's Christmas party. (Unlikely, as that was performed as a Transfiguration exercise, which is rather unrelated to Charms.) Could have possibly been used when Harry accidentally changed the colour of his teachers hair, at St. Grogory's Primary School.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 193,
-      "name": "Mutatio Skullus",
-      "other_name": null,
-      "pronunciation": "myoo-TAY-toh SKULL-us",
-      "spell_type": "Hex",
-      "description": "Mutates the victim's head, causing them to grows extra heads.",
-      "mention": "Used by Ancient Egyptian wizards, as noted by Ron Weasley in 1993.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 194,
-      "name": "Nox",
-      "other_name": "Wand-Extinguishing Charm",
-      "pronunciation": "NOCKSS",
-      "spell_type": "Charm",
-      "description": "Extinguishes wandlight. It the counter-charm for the Wand-Lighting Charm, Lumos.",
-      "mention": "In  1994, Harry Potter and Hermione Granger used this spell to turn off their wand-lights in the Shrieking Shack.  Used in 1998 when Harry was in the passage beneath the Whomping Willow which leads to the Shrieking Shack. Lumos's power can be arranged so that a powerful wizard can make the charm illuminate intensely or to the wizards liking by loudness of incantation. For example \"LUMOS!!!\" would be powerful and \"lumos\" would be weaker. Also used by Harry Potter in 1998 to turn off the light so he could hide the Marauder's Map from Severus Snape.",
-      "etymology": "Latin nox,  meaning \"night\".",
-      "note": null
-    },
-    {
-      "id": 195,
-      "name": "Nebulus",
-      "other_name": null,
-      "pronunciation": "NEH-bu-lus",
-      "spell_type": "Charm",
-      "description": "Creates fog from the tip of the wand.",
-      "mention": "In 1927, Albus Dumbledore used this spell to conjure a fog in London to provide concealment for his meeting with Newton Scamander.",
-      "etymology": null,
-      "note": "This may be the incantation for the Ministry of Magic Fog."
-    },
-    {
-      "id": 196,
-      "name": "Oculus Reparo",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Mends eyeglasses.",
-      "mention": "Used by Hermione in 1991 and 1992 to fix Harry's glasses.",
-      "etymology": null,
-      "note": "This spell is a variation of Reparo."
-    },
-    {
-      "id": 197,
-      "name": "Obliteration Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Removes footprints.",
-      "mention": "Used by Hermione in 1995 to remove the footprints that she, Harry, and Ron left in the snow while walking to Hagrid's hut. Also used in 1997 by Hermione to remove the footprints she and Harry left behind them in the snow as they journeyed through Godric's Hollow.",
-      "etymology": null,
-      "note": "The Obliteration Charm is only known to remove footprints. There is no explanation as to what effect it can have on other things. It could possibly destroy things, according to its name."
-    },
-    {
-      "id": 198,
-      "name": "Obliviate",
-      "other_name": "Memory Charm",
-      "pronunciation": "oh-BLI-vee-ate",
-      "spell_type": "Charm",
-      "description": "Erases specific memories.",
-      "mention": "First seen in 1993 when used by Gilderoy Lockhart on Harry and Ron; the spell backfired due to a faulty wand, costing Lockhart most of his own memory. Also, Hermione Granger used this spell to wipe her parents memories in 1997. Again, it was used in 1997 when Hermione Granger used the spell on 2 Death Eaters who had followed Harry, Ron, and Hermione after their escape from Bill Weasley's and Fleur Delacour's wedding.",
-      "etymology": "Latin oblivisci, \"forget\". The spell is most often used against Muggles who have seen something of the Wizarding world.",
-      "note": "Invented by Mnemone Radford, who became the Ministry's first Obliviator. The Ministry of Magic employees assigned to modifying the memories of Muggles are called Obliviators. The charm can be broken by powerful magic, or extreme duress, as Lord Voldemort was able to torture Bertha Jorkins into remembering details that Barty Crouch Snr had forced her to forget using the charm. In this case, it was also shown that if the charm is too powerful, it can cause the target to develop a bad memory. This spell differs from the False Memory Charm."
-    },
-    {
-      "id": 199,
-      "name": "Obscuro",
-      "other_name": null,
-      "pronunciation": "ob-SKYUR-oh",
-      "spell_type": "Conjuration",
-      "description": "Blindfolds the target.",
-      "mention": "Used by Hermione Granger in 1997 to obstruct the portrait of Phineas Nigellus's view of their location.",
-      "etymology": "English word obscure, meaning \"unclear\" or \"unnoticeable\".",
-      "note": "This spell might only affect characters in paintings; there are no other references to this spell."
-    },
-    {
-      "id": 200,
-      "name": "Oppugno",
-      "other_name": "Oppugno Jinx",
-      "pronunciation": "oh-PUG-noh",
-      "spell_type": "Jinx",
-      "description": "Causes targeted objects to attack a victim. It is particularly effective in conjunction with the Bird-Conjuring Charm.",
-      "mention": "Used by Hermione Granger in 1996 to attack Ron Weasley with a summoned flock of canaries during an argument.",
-      "etymology": "Latin oppugno, \"I attack\".",
-      "note": null
-    },
-    {
-      "id": 201,
-      "name": "Orbis",
-      "other_name": "Orbix Jinx",
-      "pronunciation": "OR-biss",
-      "spell_type": "Jinx",
-      "description": "Sucks the target into the ground.",
-      "mention": null,
-      "etymology": "Orbis is Latin for 'circle', which reflects the spell's physical appearance.",
-      "note": null
-    },
-    {
-      "id": 202,
-      "name": "Orchideous",
-      "other_name": null,
-      "pronunciation": "or-KID-ee-us",
-      "spell_type": "Conjuration",
-      "description": "Conjures a bouquet of flowers.",
-      "mention": "Used in 1994 by Mr Ollivander to test Fleur Delacour's wand. Probably used non-verbally by Tom Riddle to present flowers to Mrs Smith.",
-      "etymology": "English orchid and Latin suffix -eous, \"of or bearing (the root word)\".",
-      "note": "A variation of this spell may have been used when Hermione Granger conjured a Christmas wreath to place on James and Lily Potter's graves in 1997."
-    },
-    {
-      "id": 203,
-      "name": "Oscausi",
-      "other_name": null,
-      "pronunciation": "os-SCOW-zee",
-      "spell_type": "Dark charm",
-      "description": "Seal someone's mouth shut, making it appear it was never there.",
-      "mention": "Used by Leta Lestrange on a girl from Gryffindor when they were both in their third year at Hogwarts. The Gryffindor girl was speaking ill of Lestrange behind her back until Lestrange emerged from hiding nearby, and muted the Gryffindor girl with this spell.",
-      "etymology": "Possibly derived as a portmanteau of os, Latin for \"mouth\", and clausi (a conjugated form of claudo), Latin for \"I shut\". It may additionally be a pun or wordplay on scusi, the Italian interjection for \"excuse me\".",
-      "note": null
-    },
-    {
-      "id": 204,
-      "name": "Pack",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Packs luggage.",
-      "mention": "Used in 1994 by Remus Lupin in his office, and in 1995 by Nymphadora Tonks, once verbally and again non-verbally.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 205,
-      "name": "Papyrus Reparo",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Mends torn pieces of paper.",
-      "mention": "This spell was used by Newton Scamander in 1927 to restore a torn postcard from Porpentina Goldstein addressed to Queenie Goldstein.",
-      "etymology": null,
-      "note": "This spell is a variation of Reparo."
-    },
-    {
-      "id": 206,
-      "name": "Patented Daydream Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Gives the spell caster a highly-realistic 30-minute daydream. Side effects include mild drooling and a vacant expression.",
-      "mention": "These were invented by Fred and George Weasley and sold in 1996 at their joke shop, presumably in the form of some kind of physical object, similar to Skiving Snackboxes.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 207,
-      "name": "Partis Temporus",
-      "other_name": null,
-      "pronunciation": "PAR-tis temp-OAR-us",
-      "spell_type": "Charm",
-      "description": "Creates a temporary gap in the target.",
-      "mention": "Used by Albus Dumbledore in the Crystal Cave in 1997. He uses it so that he and Harry can pass through the ring of fire used to ward off the Inferi.",
-      "etymology": "Partis is a plural form of the French verb partir, which means \"to separate,\" \"to go away,\" \"to leave,\" or \"to depart.\" Temporis is Latin for \"time.\"",
-      "note": null
-    },
-    {
-      "id": 208,
-      "name": "Pepper breath hex",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Hex",
-      "description": "Gives the victim fiery hot breath.",
-      "mention": "Harry Potter learned of this hex from Basic Hexes for the Busy and Vexed while researching spells to use during the Triwizard Tournament and decided not to use it against the dragon he would face in the First Task.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 209,
-      "name": "Periculum",
-      "other_name": null,
-      "pronunciation": "pur-ICK-you-lum",
-      "spell_type": "Charm",
-      "description": "Produces a burst of red sparks.",
-      "mention": "Used during the third task of the Tri-wizard Tournament by Harry.",
-      "etymology": "Periculum is Latin for \"danger\".",
-      "note": null
-    },
-    {
-      "id": 210,
-      "name": "Permanent Sticking Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Sticks objects permanently in place.",
-      "mention": "First mentioned in 1995, when Sirius Black suspected that his mother's painting was fixed to the wall with such a Charm. It is implied that the portrait in the Muggle Prime Minister's office also has such a charm on it.",
-      "etymology": null,
-      "note": "It is never said whether the charm prevents the object from being removed by cutting away the section of wall. The incantation could be gluten sempra, meaning glue forever, or adher sempra, which means stick forever."
-    },
-    {
-      "id": 211,
-      "name": "Peskipiksi Pesternomi",
-      "other_name": null,
-      "pronunciation": "PES-key PIX-ee PES-ter NO-mee",
-      "spell_type": "Charm",
-      "description": "The one time it was used, it had absolutely no effect.",
-      "mention": "Used by Lockhart to attempt to remove Cornish Pixies.",
-      "etymology": "English pesky meaning \"annoying\", English pixie meaning \"a supernatural being\", English pester meaning \"to annoy\", English no for negative and English me for the first person pronoun.",
-      "note": "It is not known if the spell works or not. It also suspiciously sounds like \"Pesky pixie pester no me.\""
-    },
-    {
-      "id": 212,
-      "name": "Petrificus Totalus",
-      "other_name": "Full Body-Bind Curse",
-      "pronunciation": "pe-TRI-fi-cus to-TAH-lus",
-      "spell_type": "Curse",
-      "description": "Used to temporarily bind the victim's body in a position much like that of a soldier at attention; the victim will usually fall to the ground.",
-      "mention": "Used in 1991 by Hermione, who was trying to prevent Neville from stopping her, Ron, and Harry from leaving the common room to hunt for the Philosopher's Stone,  in the Hall of Prophecy during the Battle of the Department of Mysteries to petrify one of the Death Eaters pursuing the group, and used on Harry by Draco Malfoy in the Hogwarts Express in 1996.",
-      "etymology": "Latin petra, meaning \"stone\", and fieri (past participle factus), meaning \"to become\"; totalus comes from Latin \"totus\", meaning \"complete\".",
-      "note": null
-    },
-    {
-      "id": 213,
-      "name": "Piertotum Locomotor",
-      "other_name": null,
-      "pronunciation": "peer-TOH-tuhm loh-kuh-MOH-tor",
-      "spell_type": "Charm",
-      "description": "Brings animates inanimate targets.",
-      "mention": "In the Battle of Hogwarts, Professor McGonagall used this spell to animate the suits of armour and statues within Hogwarts, to defend the castle. Possibly used by Albus Dumbledore to enchant the statues on the fountain in the entrance to the Ministry of Magic Department.",
-      "etymology": "Pier means \"friend\" or \"colleague\", totum refers to \"the whole\" or \"total\", and locomotor means \"the movement of\".",
-      "note": null
-    },
-    {
-      "id": 214,
-      "name": "Piscifors",
-      "other_name": null,
-      "pronunciation": "PIS-ee-fors",
-      "spell_type": "Transfiguration",
-      "description": "Transforms things into fish.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 215,
-      "name": "Placement Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Maigcally places an object in or on a specific location. Placement Charms can be used to place a bridle on a Kelpie to render it harmless and docile.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 216,
-      "name": "Point Me",
-      "other_name": "Four-Point Spell",
-      "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "Makes the caster's wand point due north.",
-      "mention": "Hermione Granger taught it to Harry Potter, who used it during the Triwizard Tournament, particularly to navigate the hedge maze during the Third Task.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 217,
-      "name": "Portus",
-      "other_name": null,
-      "pronunciation": "POR-tus",
-      "spell_type": "Charm",
-      "description": "Turns an object into a portkey.",
-      "mention": "Used by Albus Dumbledore in 1996.",
-      "etymology": "Latin porta, meaning \"gate\", or portare, meaning \"to carry\" (as in to carry the caster or target to another location). There is a Latin word portus, meaning \"harbour\", but it is inappropriate in this context.",
-      "note": "Portkeys were first seen in 1994 as a means for Harry, Hermione, and the Weasleys to go to the Quidditch World Cup. However, the spell used in its creation was not seen until 1995."
-    },
-    {
-      "id": 218,
-      "name": "Prior Incantato",
-      "other_name": "Reverse Spell",
-      "pronunciation": "pri-OR in-can-TAH-toh",
-      "spell_type": "Charm",
-      "description": "Forces a wand to show an \"echo\" of the last spell it performed.",
-      "mention": "Used by Amos Diggory in 1994 to discover the last spell cast by Harry's wand after it was found in the hands of Winky, a house-elf.",
-      "etymology": "Latin prior, \"previous\", and incantare, \"to speak a spell\" (past participle incantatum).",
-      "note": "Can manifest in the form of the Reverse Spell effect, or Priori Incantatem, when wands with the same core attempt to do battle."
-    },
-    {
-      "id": 219,
-      "name": "Protean Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes copies of an object to be remotely affected by changes made to the original.",
-      "mention": "First used in 1995. Hermione Granger put the charm on a number of fake Galleons. Instead of the serial number around the edge of the coin, the time and date of the next meeting of Dumbledore's Army appeared. It is possible that this charm is used on the Death Eaters' Dark Marks.",
-      "etymology": "The English word Protean derives from Proteus, a god in Greek Mythology. Proteus was a shape-shifter, able to take many forms. As a result, the word Protean has come to refer to versatility, flexibility, or an ability to assume many forms. \"Protean\" is also similar to \"protein\", derived from the same root, meaning a variable, flexible substance which forms strong bonds between its constituent parts.",
-      "note": "On Hermione's fake galleons, when the date changes, the coin becomes hot, alerting the owner to look at the coin. This may not be a feature of the original charm. It may be a Flagrante Curse, when the Protean Charm changes the coin the curse may activate. It would seem from this that you can decide what the effects on the charmed objects are. Possibly by saying something along the lines of \"Protean flagrante.\" although this is just speculation."
-    },
-    {
-      "id": 220,
-      "name": "Protego",
-      "other_name": "Shield Charm",
-      "pronunciation": "pro-TAY-goh",
-      "spell_type": "Charm",
-      "description": "Invisible shield that reflects spells and blocks physical entities.",
-      "mention": "First seen in 1995, in which Harry is taught this spell by Hermione in preparation for the third task in the Triwizard Tournament. Albus Dumbledore uses a similar spell which reverses the construction of glass back into sand when Voldemort sent shards of glass to try to stab Dumbledore. Fred and George Weasley enchanted hats they dubbed \"shield hats\" with this spell in 1997.",
-      "etymology": "Latin protego, \"I cover\" or \"I protect\".",
-      "note": "The original description of this spell states that it rebounds minor jinxes to the caster. However, it is shown that it can also be used to reflect or lessen the effects of more powerful spells, depending on the skill of the caster. In 1998, it is also shown to be able to create a sort of force-field across an area, and is used frequently to prevent two participants in an argument from reaching each other."
-    },
-    {
-      "id": 221,
-      "name": "Protego Diabolica",
-      "other_name": null,
-      "pronunciation": "pro-TAY-goh dia-BOHL-i-cub",
-      "spell_type": "Dark Arts",
-      "description": "Conjures a protective ring of black fire around the caster that only affects their enemies.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 222,
-      "name": "Protego Horribilis",
-      "other_name": null,
-      "pronunciation": "pro-TAY-goh horr-uh-BIHL-ihs",
-      "spell_type": "Charm",
-      "description": "A powerful shield charm against dark magic.",
-      "mention": "Cast by Professor Flitwick in an attempt to strengthen the castle's defences in the Battle of Hogwarts.",
-      "etymology": "Latin Protego, \"I protect\", and Horribilis, \"horrible , frightful, dreadful\".",
-      "note": null
-    },
-    {
-      "id": 223,
-      "name": "Protego Maxima",
-      "other_name": null,
-      "pronunciation": "pro-TAY-goh MAX-ee-Ma  \t<img src=\"https://vignette.wikia.nocookie.net/harrypotter/images/6/6b/TwoProtego.JPG/revision/latest/scale-to-width-down/210?cb=20110627134927\" \t alt=\"TwoProtego\"  \tclass=\"thumbimage \" \t \tdata-image-key=\"TwoProtego.JPG\" \tdata-image-name=\"TwoProtego.JPG\" \t \t width=\"210\"  \t height=\"89\"  \t \t \t \t>",
-      "spell_type": "Charm",
-      "description": "A powerful shield charm against dark magic. A stronger and bigger version of Protego, especially when combined with other wizards casting it at the same time. Was so powerful that it could also disintegrate people that came too close and tried to enter it.",
-      "mention": "Cast by Professor Flitwick, Professor McGonagall, Professor Slughorn and Mrs Weasley in an attempt to strengthen the castle's defences in the Battle of Hogwarts.",
-      "etymology": "Latin Protego, \"I protect\"",
-      "note": null
-    },
-    {
-      "id": 224,
-      "name": "Protego totalum",
-      "other_name": null,
-      "pronunciation": "pro-TAY-goh toh-TAH-lum",
-      "spell_type": "Charm",
-      "description": "Protects an area for an extended period of time.",
-      "mention": "In 1997, this was one of the spells used by Hermione Granger and Harry Potter to protect their camp site from unwanted visitors.",
-      "etymology": "Latin protego meaning \"to protect\" and Latin totus meaning \"as a whole\".",
-      "note": null
-    },
-    {
-      "id": 225,
-      "name": "Purple Firecrackers",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Causes purple firecrackers to shoot out from the tip of one's wand.",
-      "mention": "On 31 October 1991, Albus Dumbledore used this spell to get the attention of panicking diners in the Great Hall when a troll was loose in the castle.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 226,
-      "name": "Pus-squirting hex",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Hex",
-      "description": "Causes yellowish goo to squirt from one's nose.",
-      "mention": "Morfin Gaunt used this hex on Bob Ogden.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 227,
-      "name": "Quietus",
-      "other_name": "Quietening Charm",
-      "pronunciation": "KWIY-uh-tus",
-      "spell_type": "Charm",
-      "description": "Makes a target sound quieter. It is the counter-charm to the Amplifying Charm.",
-      "mention": "Used in 1994 by Ludo Bagman.",
-      "etymology": "Latin quietus, \"calm\" or \"quiet\".",
-      "note": null
-    },
-    {
-      "id": 228,
-      "name": "Redactum Skullus",
-      "other_name": "Head Shrink Spell",
-      "pronunciation": "reh-DAK-tum SKULL-us",
-      "spell_type": "Hex",
-      "description": "Shrinks the head of the target. It is the counter-spell to Engorgio Skullus.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 229,
-      "name": "Reducio",
-      "other_name": "Shrinking Charm",
-      "pronunciation": "re-DOO-see-oh",
-      "spell_type": "Charm",
-      "description": "Makes an object shrink in size. Its counter-charm is the Engorgement Charm.",
-      "mention": "In 1997, Harry Potter, after checking his Blackthorn wand on the Bluebell flames with Engorgio, casts this spell to shorten the formerly enlarged flames.",
-      "etymology": "English reduce, \"to shrink\". (Latin has a verb reducere, present tense reduco. This is the source of the English \"reduce\", but has a different meaning.) Also in Italian Riduco first person present tense of Ridurre, same root of Latin Reducere.",
-      "note": "Whether Reducio could also be used by itself rather than countering Engorgio is unknown. If it could, it would shrink normal sized items into miniature versions of themselves. References in 1992 by Arthur Weasley to \"shrinking door keys\" make this seem likely."
-    },
-    {
-      "id": 230,
-      "name": "Reducto",
-      "other_name": "Reductor Curse",
-      "pronunciation": "re-DUK-toh",
-      "spell_type": "Curse",
-      "description": "Breaks objects. In stronger usages, disintegrates them.",
-      "mention": "In 1995, Harry used it on one of the hedges of the Triwizard maze and ends up burning a small hole in it; in 1995, Gryffindors in Harry Potter's year referenced Parvati Patil as being able to reduce a table full of Dark Detectors to ashes, and Harry and his friends later used the spell in the Department of Mysteries against the Death Eaters, shattering many Prophecy Orbs in the process; in 1997, a member of the Order of the Phoenix attempted to use this spell to break down a door which Death Eaters had blocked when the Death Eaters had cornered Dumbledore in the Lightning Struck Tower.",
-      "etymology": "English reduce, \"to bring down;destroy\".",
-      "note": null
-    },
-    {
-      "id": 231,
-      "name": "Refilling Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Refills whatever the caster points at with the drink originally in the container.",
-      "mention": "Used in 1996, when Harry noticed that Hagrid and Slughorn were running out of wine.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 232,
-      "name": "Reparifors",
-      "other_name": null,
-      "pronunciation": "re-PAR-i-fors",
-      "spell_type": "Healing Spell",
-      "description": "Reverts minor magically-induced ailments, such as paralysis and poisoning.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 233,
-      "name": "Reverte",
-      "other_name": null,
-      "pronunciation": "ree-VUHR-tay",
-      "spell_type": "Charm",
-      "description": "Returns objects to their original positions or states.",
-      "mention": "In 1927, Leta Lestrange used this spell on the record towers in the French Ministry of Magic Records Room at the French Ministry of Magic Headquarters, in an attempt to flee from pursuing Matagots. This sent all the record towers - previously summoned by Lestrange - flying backwards and spinning back into their original positions in the ground.",
-      "etymology": "Reverte is derived from Latin for \"you shall return\", being a second-person imperative form (singular, present, active) of the verb reverto (\"I return, or turn back\").",
-      "note": null
-    },
-    {
-      "id": 234,
-      "name": "Relashio",
-      "other_name": "Revulsion Jinx",
-      "pronunciation": "ruh-LASH-ee-oh",
-      "spell_type": "Jinx",
-      "description": "Forces the target to release its grip on whatever it is holding.",
-      "mention": "Used by Harry Potter against Grindylows in the second task of the Triwizard Tournament. Also used in 1997 and 1998, when Hermione used this spell to free Mrs Cattermole from the chained chair and to free the Ukrainian Ironbelly on which they were to get out from Gringotts.",
-      "etymology": "Probably from the French verb relâcher =\"to release, to set free\", or Italian rilascio (pronounced the same way as the spell)= \"I release\".",
-      "note": null
-    },
-    {
-      "id": 235,
-      "name": "Rennervate",
-      "other_name": "Reviving Spell",
-      "pronunciation": "RENN-a-vate",
-      "spell_type": "Charm",
-      "description": "Awakens an unconscious victim. It is consequently the counter-charm to the Stunning Spell.",
-      "mention": "In 1994, Amos Diggory used it to wake up Winky and Albus Dumbledore used it to wake up Viktor Krum. Harry Potter later used it to try and reawaken a cursed Dumbledore in the seaside cave.",
-      "etymology": "Rennervate means \"to energise.",
-      "note": null
-    },
-    {
-      "id": 236,
-      "name": "Reparifarge",
-      "other_name": null,
-      "pronunciation": "reh-PAR-i-farj",
-      "spell_type": "Untransfiguration",
-      "description": "Used to reverse incomplete transformations.",
-      "mention": "Found in A Beginner's Guide to Transfiguration.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 237,
-      "name": "Reparo",
-      "other_name": "Mending Charm",
-      "pronunciation": "reh-PAH-roh",
-      "spell_type": "Charm",
-      "description": "Seamlessly repairs broken objects.",
-      "mention": "Used by Albus Dumbledore and Horace Slughorn to repair damage the latter had done to a Muggle home in Budleigh Babberton where he had been hiding.",
-      "etymology": "Latin reparo meaning \"to renew\" or \"repair\".",
-      "note": "Reparo has been seen to repair non-magical items, however it seems to have an inability at repairing magical items or items that have magic placed upon them. An example is Harry's Nimbus 2000 shown in 1993 which he is told is irreparable after it is destroyed by the Whomping Willow. Wands are also irreparable, as shown in 1992 when Ron's wand snapped after he and Harry crashed onto the Hogwarts grounds. Despite his use of Spellotape, Ron's wand malfunctioned throughout the year. Another example is in 1997 when Hermione tried to fix Harry's broken wand, which was snapped by her errant Blasting Curse. However, Harry repaired his wand with the Elder Wand. Since the Elder Wand is the most powerful wand in creation, it makes sense that it would produce the most powerful Mending Charm."
-    },
-    {
-      "id": 238,
-      "name": "Repello Muggletum",
-      "other_name": "Muggle-Repelling Charm",
-      "pronunciation": "ruh-PEL-oh MUH-guhl-tuhm",
-      "spell_type": "Charm",
-      "description": "Keeps Muggles away from wizarding places by causing them to remember important meetings they missed and to cause the Muggles in question to forget what they were doing.",
-      "mention": "It was used to keep Muggles away from the Quidditch World Cup. Hogwarts was also said to be guarded by the Muggle-Repelling Charm. It was also used by Harry and Hermione on numerous occasions, among many other spells, to protect and hide their camp site in 1997.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 239,
-      "name": "Repello Inimicum",
-      "other_name": null,
-      "pronunciation": "re-PEH-lloh ee-nee-MEE-cum",
-      "spell_type": "Charm",
-      "description": "Disintegrates the persons entering this charm.",
-      "mention": "This spell was used by professors Filius Flitwick and Horace Slughorn along with Order of the Phoenix member Molly Weasley to protect Hogwarts Castle in 1998.",
-      "etymology": "Latin \"Repello\", meaning \"Push Back\" and \"inimicum\", the accusative singular form of \"inimīcus\" meaning \"foe\" or \"enemy\".",
-      "note": null
-    },
-    {
-      "id": 240,
-      "name": "Revelio",
-      "other_name": "Revelio Charm",
-      "pronunciation": "reh-VEL-ee-oh",
-      "spell_type": "Charm",
-      "description": "Reveals secrets about a person or object.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 241,
-      "name": "Rictusempra",
-      "other_name": "Tickling Charm",
-      "pronunciation": "ric-tuhs-SEM-pra",
-      "spell_type": "Charm",
-      "description": "Tickles the target until they become weak with laughter.",
-      "mention": "By Harry Potter on Draco Malfoy in 1992, when they fought in the Duelling Club.",
-      "etymology": "Possibly the sum of two words; The Latin rictus, meaning \"The expanse of an open mouth\", and semper, meaning \"Always\". Rictus is generally used as an expression of terror, however, \"always an open mouth\" would, in most cases, correspond to the act of laughing uncontrollably.",
-      "note": null
-    },
-    {
-      "id": 242,
-      "name": "Riddikulus",
-      "other_name": "Boggart Banishing Spell",
-      "pronunciation": "rih-dih-KUL-lus",
-      "spell_type": "Charm",
-      "description": "A spell used when fighting a Boggart, \"Riddikulus\" forces the Boggart to take the appearance of an object the caster is focusing on. Best results can be achieved if the caster is focusing on something humorous, with the desire that laughter will weaken the Boggart.",
-      "mention": "Taught by Remus Lupin during third year Defence Against the Dark Arts, where his students had the opportunity to practise the spell on an actual Boggart.",
-      "etymology": "Latin word ridiculus, \"laughable\" (but perhaps \"absurd\" or \"silly\" in this context).",
-      "note": "The effect of the spell seems to rely primarily on the state of mind of the caster. It doesn't actually change the shape of a boggart into something humorous, but rather whatever the caster is concentrating on at the moment of the casting, as when Neville was thinking of his grandmother's dress. Presumably, Mrs Weasley couldn't take her mind off of her fears for her family, so the Boggart was changed into other members of the family rather than something humorous."
-    },
-    {
-      "id": 243,
-      "name": "Rose Growth",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Causes rosebushes grow at an unusually fast pace.",
-      "mention": null,
-      "etymology": null,
-      "note": "This spell may be related to Herbivicus."
-    },
-    {
-      "id": 244,
-      "name": "Rowboat spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Makes boats row themselves.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 245,
-      "name": "Salvio Hexia",
-      "other_name": null,
-      "pronunciation": "SAL-vee-oh HECKS-ee-ah",
-      "spell_type": "Charm",
-      "description": "Protects against hexes.",
-      "mention": "Harry and Hermione cast this spell to strengthen their camp-site's defences against intruders in 1997.",
-      "etymology": "Possibly derived from the Latin \"salveo,\" meaning \"to be in good health,\" and used as a form of greeting and farewell, and a pseudo-Latin derivative of the English word \"hex\"—hence, \"Farewell, hexes!\"",
-      "note": "Possibly the Hex Deflection spells the fake Moody mentioned in 1994."
-    },
-    {
-      "id": 246,
-      "name": "Sardine hex",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Hex",
-      "description": "Makes the victim sneeze out sardines.",
-      "mention": "Rubeus Hagrid once had this hex used on him.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 247,
-      "name": "Sauce-making spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Conjuration",
-      "description": "Conjures a creamy sauce from the tip of the wand.",
-      "mention": "Molly Weasley used this spell in August of 1994 to pour some sauce in a pot to make dinner for her family, Harry Potter and Hermione Granger.",
-      "etymology": null,
-      "note": "According to Gamp's Law of Elemental Transfiguration, food can't be conjured. This implies that sauce is not considered \"good food,\" as things suitable for consumption may created with the spell, such as birds."
-    },
-    {
-      "id": 248,
-      "name": "Scorching Spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Produces dancing flames which presumably scorch the opponent.",
-      "mention": "Professor McGonagall used this spell on Professor Snape in 1998.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 249,
-      "name": "Scourgify",
-      "other_name": "Scouring Charm",
-      "pronunciation": "SKUR-ji-fy",
-      "spell_type": "Charm",
-      "description": "Cleans objects",
-      "mention": "First used by Nymphadora Tonks to clean Hedwig's cage in 1995. Later, Ginny Weasley performed the spell to clean up the Stinksap on the Hogwarts Express, also used by James Potter on Severus Snape after he shouted various curses and obscenities at him.",
-      "etymology": "Perhaps related to English scour, \"clean\". -ify is a common English suffix meaning \"to make ...\". Therefore scourgify could mean \"to make clean\".",
-      "note": null
-    },
-    {
-      "id": 250,
-      "name": "Sealant Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Magically seals envelopes.",
-      "mention": "All applicants for wand permits in the United States were required by the Magical Congress of the United States of America to close the envelope in which they sent their applications back to the Wand Permit Office with this spell.",
-      "etymology": null,
-      "note": "This may be the parchment-sealing spell that Dolores Umbridge used in 1995."
-    },
-    {
-      "id": 251,
-      "name": "Sea urchin jinx",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "This spell begins to transform the victim into a sea urchin.",
-      "mention": "This spell was used on 2 May, 1998, during the Battle of Hogwarts, by Percy Weasley on an Imperiused Pius Thicknesse.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 252,
-      "name": "Sectumsempra",
-      "other_name": null,
-      "pronunciation": "sec-tum-SEMP-rah",
-      "spell_type": "Curse",
-      "description": "Lacerates the target, as if they have been \"slashed by a sword.\" Subsequently, the target can easily bleed to death from the wounds. This curse was invented by Severus Snape, to be used against his personal enemies.",
-      "mention": "Used by Harry in 1997 against Draco Malfoy, and then later against both the Inferi in Lord Voldemort's Horcrux chamber, and Snape used it against George Weasley (was unintentional; aimed for a Death Eater that tried to curse Lupin) in the Order's flight from Privet Drive. Harry learned it in Snape's old Potions textbook. In 1998, the spell is said to be Severus Snape's \"signature\" spell.",
-      "etymology": "Latin sectum, \"cut\", and semper, \"always\".",
-      "note": "The spell can apparently be used against any object, but was not effective when used against Inferi because they could not feel pain or bleed. The movement of the wand seems to affect how someone is cut, suggested by the erratic patterns of slashes left on Draco Malfoy's face and chest, produced by Harry Potter's wild wand-swings while using the spell against Draco. Wounds caused by this spell can be healed as proved by Severus Snape who after Harry hit Draco Malfoy with this spell he healed Draco's wounds and told him to go and get treated with dittany at once so that he would even avoid any sign of any wound. However it seems that it depends on the caster's magical abilities because Molly Weasley could not heal and restore George Weasley's ear that was cursed off by this spell."
-    },
-    {
-      "id": 253,
-      "name": "Shield penetration spell",
-      "other_name": null,
-      "pronunciation": "unknown",
-      "spell_type": "Spell",
-      "description": "Annihilates magical enchantments and shields.",
-      "mention": "Used by Voldemort to break the enchantments placed around Hogwarts School of Witchcraft and Wizardry in 1998 by Filius Flitwick, Minerva McGonagall, and Molly Weasley.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 254,
-      "name": "Shooting Spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "Used to shoot objects",
-      "mention": "This spell was used by Harry Potter and Ronald Weasley in 1997 on their Horcrux hunt in an attempt to catch a rabbit for food.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 255,
-      "name": "Smashing spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "Produces explosions",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 256,
-      "name": "Serpensortia",
-      "other_name": "Snake Summons Spell",
-      "pronunciation": "ser-pen-SOR-shah, SER-pehn-SOR-tee-ah",
-      "spell_type": "Conjuration",
-      "description": "Conjures a serpent from the caster's wand.",
-      "mention": "Used by Draco Malfoy while duelling Harry Potter in 1992.",
-      "etymology": "Latin serpens meaning \"a snake\" and Latin ortis meaning \"source\".",
-      "note": null
-    },
-    {
-      "id": 257,
-      "name": "Silencio",
-      "other_name": "Silencing Charm",
-      "pronunciation": "sih-LEN-see-oh",
-      "spell_type": "Charm",
-      "description": "Makes something silent.",
-      "mention": "First used by Hermione in 1996 to silence a frog and a raven in Charms class, then later used to silence a Death Eater that was trying to tell his comrades where they were.",
-      "etymology": "Probably Latin silentium, \"silence\". Also, silencio and silêncio (which is closer to the English pronunciation) mean \"silence\" in Spanish and Portuguese, respectively.",
-      "note": null
-    },
-    {
-      "id": 258,
-      "name": "Skurge",
-      "other_name": "Skurge Charm",
-      "pronunciation": "SKURJ",
-      "spell_type": "Charm",
-      "description": "Cleans up ectoplasm and frightens ghosts and other spirits.",
-      "mention": "Taught in second year Charms class.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 259,
-      "name": "Slippery Jinx",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "Makes an object slippery and difficult to hold.",
-      "mention": "Mentioned in Harry Potter: Hogwarts Mystery",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 260,
-      "name": "Slugulus Eructo",
-      "other_name": "Slug-vomiting Charm",
-      "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Forces the victim to burp up slimy slugs.",
-      "mention": "In 1992, Ronald Weasley attempted to curse Draco Malfoy with this spell after the latter insulted Hermione Granger, but was unsuccessful as his wand at the time was broken, and thus his curse backfired on himself.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 261,
-      "name": "Sonorous Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "This charm emits a magnified roar from the tip of the wand. This noise disrupts all in its path, and can even be used to harm opponents.",
-      "mention": null,
-      "etymology": null,
-      "note": "Not to be confused with the Amplifying Charm, Sonorus."
-    },
-    {
-      "id": 262,
-      "name": "Sonorus",
-      "other_name": "Amplifying Charm",
-      "pronunciation": "soh-NOHR-uhs",
-      "spell_type": "Charm",
-      "description": "Makes the target sound louder. The counter-charm is the Quietening Charm, Quietus.",
-      "mention": "By Ludo Bagman in 1994 at the beginning of the Quidditch World Cup and by Albus Dumbledore several times in the Triwizard Championship. Used by Lord Voldemort several times during the Battle of Hogwarts in 1998.",
-      "etymology": "Latin sonorus, \"loud; noisy\".",
-      "note": null
-    },
-    {
-      "id": 263,
-      "name": "Specialis Revelio",
-      "other_name": null,
-      "pronunciation": "spe-see-AL-is reh-VEL-ee-oh",
-      "spell_type": "Charm",
-      "description": "Reveals spells cast on objects or potions.",
-      "mention": "Used by Hermione Granger to find out more of Harry's Advanced Potion-Making book in 1996. Used by Ernie Macmillan to find out ingredients of a potion.",
-      "etymology": "Latin specialis, \"particular;individual\" and revelare (present tense revelo), \"unveil\".",
-      "note": "In 1994, Severus Snape cast a similar spell, but with different words (\"Reveal your secrets!\"), on the Marauder's Map, though he may have just been saying those words as he cast the spell non-verbally."
-    },
-    {
-      "id": 264,
-      "name": "Sponge-Knees Curse",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Makes the target's legs spongy, making it difficult for them to walk.",
-      "mention": "Used during the September 1999 riot that took place at a Puddlemere vs. Holyhead Harpies match. The Puddlemere supporters used this curse against the Holyhead Harpies supporters in retaliation to the Jelly-Brain Jinx.",
-      "etymology": null,
-      "note": "This spell is similar in effect to the Jelly-Legs Curse."
-    },
-    {
-      "id": 265,
-      "name": "Spongify",
-      "other_name": "Softening Charm",
-      "pronunciation": "SPUN-ji-fye",
-      "spell_type": "Charm",
-      "description": "Softens objects, making them rubbery and bouncy.",
-      "mention": "This charm is found in The Standard Book of Spells, Grade 1.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 266,
-      "name": "Squiggle Quill",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Transforms writing quills into worms.",
-      "mention": null,
-      "etymology": null,
-      "note": "This spell may be Vermiculus."
-    },
-    {
-      "id": 267,
-      "name": "Stealth Sensoring Spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Detects those under magical disguise.",
-      "mention": "In 1996, Professor Umbridge cast this around her office.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 268,
-      "name": "Steleus",
-      "other_name": null,
-      "pronunciation": "STEH-lee-us, or perhaps STEH-nee-us",
-      "spell_type": "Hex",
-      "description": "A hex that causes the victim to sneeze for a short period of time. This spell is used in duelling to distract the opponent.",
-      "mention": null,
-      "etymology": "Steleus derives from the Latin sternuo, meaning I sneeze.",
-      "note": null
-    },
-    {
-      "id": 269,
-      "name": "Stinging Jinx",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "Stings the flesh of a target. This spell is also known as",
-      "mention": "Harry Potter inadvertently used one on Severus Snape during Occlumency lessons in 1996. It was non-debilitating in that instance, but it is stronger when intentionally cast, as shown by the results of Hermione Granger's Stinging Hex used on Harry Potter in 1998 to purposefully distort Harry's appearance.",
-      "etymology": null,
-      "note": "Also known as the Stinging Hex."
-    },
-    {
-      "id": 270,
-      "name": "Stretching Jinx",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "Stretches the target.",
-      "mention": "Molly Weasley remarked in 1996 that recent growth spurts had made her son Ron and his friend, Harry Potter, look as if this jinx had been cast upon them both.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 271,
-      "name": "Stupefy",
-      "other_name": "Stunning Spell",
-      "pronunciation": "STOO-puh-fye",
-      "spell_type": "Charm",
-      "description": "Stuns the target, rendering them unconscious.",
-      "mention": "Often; particularly by a number of wizards and witches (including Dolores Umbridge) against Minerva McGonagall in 1996. It's also taught by Harry in his D.A. meetings.",
-      "etymology": "English stupefy, which means 'to put into a stupor', a temporary vegetative state.",
-      "note": "The physical manifestation of the spell is a beam of red light emanating from the caster's wand. The spell wears off after a short time, and can be countered by Rennervate. Nearly useless on magic-resistant creatures such as dragons, trolls and giants unless more than one Stupefy spell is used at the same time. The force of the spell is additive or perhaps even exponential, and it can cause severe injury if many spells are used on a target that is not normally resistant to its effects. Hagrid, as a half-giant, was impervious to this spell - or at least, a lone one."
-    },
-    {
-      "id": 272,
-      "name": "Supersensory Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Grants the caster to have enhanced senses, or to be able to sense things they would not normally sense.",
-      "mention": "Mentioned by Ron outside of the Hogwarts Express in 2017 as a potential substitute for using mirrors while driving a Muggle auto mobile.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 273,
-      "name": "Surgito",
-      "other_name": null,
-      "pronunciation": "SUR-jee-toh",
-      "spell_type": "Counter-charm",
-      "description": "Counter-charm that can be used to remove enchantments.",
-      "mention": "In 1927, Newton Scamander used Surgito to lift an enchantment that was placed on Jacob Kowalski. As a result of the spell, Kowalski awoke from the dreamlike enchanted state, and regained an awareness of reality in the present.",
-      "etymology": "Surgito is a Latin word in the imperative form meaning \"you/he/she shall arise, or get up\", and is a conjugation of the verb surgo (\"I arise\"). The etymology is appropriate, considering that the effects of the spell on Jacob Kowalski can be likened to waking up from a confused, dreamlike state.",
-      "note": null
-    },
-    {
-      "id": 274,
-      "name": "Switching Spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Switches two targets simultaneously.",
-      "mention": "Harry contemplated using this spell against his dragon in the first task of the Triwizard Tournament. ((He considered swapping its fangs for wine gums)). Neville Longbottom misuses the spell, transplanting his ears onto a cactus.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 275,
-      "name": "Taboo",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "A jinx which may be placed upon a word or a name, so that whenever that word is spoken, a magical disturbance is created which alerts the caster of the Taboo to the location of the speaker. Any protective enchantments in effect around the speaker are broken when the Tabooed word is spoken aloud.",
-      "mention": "This curse was placed on the word \"Voldemort\"; Harry, Ron and Hermione are tracked this way to Tottenham Court Road. Ron tells the other two to stop using the word as he began to fear the name might be a curse, later discovering it to be a Taboo. Later, Harry accidentally says Voldemort's name again, resulting in the trio being caught by Death Eaters and taken to Malfoy Manor.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 276,
-      "name": "Tail-growing hex",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Hex",
-      "description": "Causes the victim to grow a tail.",
-      "mention": "When Miranda Goshawk had her Book of Spells printed, she gave copies to her sisters that had various misprints in them; one such misprint somehow gave her sister Romilda a tail. Timothy Blenkinsop was hit with this hex when he was caught in the crossfire of a Puddlemere United vs. Holyhead Harpies riot.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 277,
-      "name": "Tarantallegra",
-      "other_name": "Dancing Feet Spell",
-      "pronunciation": "ta-RON-ta-LEG-gra",
-      "spell_type": "Jinx",
-      "description": "Makes a target's legs spasm wildly out of control, making it appear as though they are dancing.",
-      "mention": "First used by Draco Malfoy on Harry Potter in the Duelling Club in 1992.",
-      "etymology": "Italian tarantella, a kind of fast country dance once popular in parts of Italy, supposedly from the frantic motion caused by the bite of a tarantula; and allegro, a musical term meaning \"quick\".",
-      "note": null
-    },
-    {
-      "id": 278,
-      "name": "Teacup to tortoise",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Transforms a teacup into a tortoise.",
-      "mention": "Seen on the Scholastic Harry Potter Official Site.",
-      "etymology": null,
-      "note": "May be related to the Teapot to tortoise spell covered in the third year at Hogwarts School of Witchcraft and Wizardry."
-    },
-    {
-      "id": 279,
-      "name": "Teapot to tortoise",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Transfiguration",
-      "description": "Transforms a teapot into a tortoise.",
-      "mention": "Third years at Hogwarts School of Witchcraft and Wizardry were required to cast the spell during their final exams.",
-      "etymology": null,
-      "note": "May be related to the teapot to Teacup to tortoise spell."
-    },
-    {
-      "id": 280,
-      "name": "Teeth-straightening spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Straightens crooked teeth.",
-      "mention": "Sir Nicholas de Mimsy-Porpington attempted to use this spell on Lady Grieve at her request, but failed and gave her a tusk instead. He was executed the following morning. After he returned as a ghost, Nearly-Headless Nick recounted the incident in a ballad.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 281,
-      "name": "Teleportation Spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "Vanishes objects which then appear elsewhere.",
-      "mention": "In 1996, Albus Dumbledore  used this to transport Harry Potter's school supplies, clothes, and owl to the Burrow.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 282,
-      "name": "Tentaclifors",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Transfiguration, Jinx",
-      "description": "Transfigures the target's head into a tentacle.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 283,
-      "name": "Tergeo",
-      "other_name": null,
-      "pronunciation": "TUR-jee-oh",
-      "spell_type": "Charm",
-      "description": "Siphons liquid and cleans objects.",
-      "mention": "Hermione Granger used the spell in 1996 to remove blood from Harry's face. It is later used to remove spilled ink from parchment. It was also used in 1997 to clean off a handkerchief by Ron and to dust off a picture of Gellert Grindelwald in Bathilda Bagshot's house by Harry Potter.",
-      "etymology": "Latin tergere, \"wipe off; cleanse\".",
-      "note": null
-    },
-    {
-      "id": 284,
-      "name": "Titillando",
-      "other_name": "Tickling Hex",
-      "pronunciation": "ti-tee-LAN-do",
-      "spell_type": "Hex",
-      "description": "Tickles and weakens the victim.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 285,
-      "name": "Toenail-growing hex",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Hex",
-      "description": "Causes the toenails to grow at an extreme and uncontrollable rate.",
-      "mention": "In 1996, Harry used this to much applause from classmates, on Vincent Crabbe.",
-      "etymology": null,
-      "note": "This is a hex that is probably not approved by the Ministry of Magic, as it was invented by Severus Snape."
-    },
-    {
-      "id": 286,
-      "name": "Transmogrifian Torture",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Curse",
-      "description": "Tortures the victim to death.",
-      "mention": "Gilderoy Lockhart suggested that it was this curse that \"killed\" Mrs Norris after she was really found petrified on a torch bracket.",
-      "etymology": "English \"transmogrify\", meaning \"to change or alter greatly, often to grotesque effect\", possibly implying that the curse changes the shape of the victim to cause pain.",
-      "note": "The incantation to this curse is possibly Transmogrify."
-    },
-    {
-      "id": 287,
-      "name": "Trip Jinx",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "Forces the target to trip and fall over.",
-      "mention": "Seen in 1996. It was cast successfully on Harry Potter by Draco Malfoy, when he and other members of the Inquisitorial Squad attempted to round up members of Dumbledore's Army.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 288,
-      "name": "Twitchy-Ears Hex",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Hex",
-      "description": "Causes the victim's ears to twitch.",
-      "mention": "Miranda Goshawk recommended this hex to be cast on somebody practising the Shield Charm.",
-      "etymology": null,
-      "note": ". During the fourth year Hex-deflection test for Defence Against the Dark Arts, Harry Potter was hexed with this spell by Bartemius Crouch Junior (then disguised as Alastor Moody)."
-    },
-    {
-      "id": 289,
-      "name": "Unbreakable Charm",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Makes objects unbreakable.",
-      "mention": "Hermione Granger used the charm on a jar, in which she put Rita Skeeter in her Animagus beetle form to prevent her from transforming back into a human.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 290,
-      "name": "Unbreakable Vow",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "Causes a vow taken by a witch or wizard to be inviolable; if they should break it, the consequence is death.",
-      "mention": "Snape made an Unbreakable Vow with Narcissa Malfoy at the beginning of Half-Blood Prince, vowing to help Narcissa's son Draco with a task given to him by Voldemort, and to finish the task should Draco prove incapable. Fred and George attempted to force an Unbreakable Vow upon Ron as children. According to Ron, it causes death when the vow is broken.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 291,
-      "name": "Unsupported flight",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Spell",
-      "description": "Allows a witch or wizard to fly through the air unaided. Technique invented by Lord Voldemort",
-      "mention": "Demonstrated by Tom Riddle during the Battle of the Seven Potters, and by Severus Snape before his ousting.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 292,
-      "name": "Vacuum cleaner spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Cleans objects by using the wand to suck up dust like a vacuum cleaner.",
-      "mention": "Used by Madam Malkin in 1996.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 293,
-      "name": "Ventus",
-      "other_name": "Ventus Jinx",
-      "pronunciation": "VEN-tuss",
-      "spell_type": "Jinx",
-      "description": "Shoots a jet of strong spiralling wind from the tip of the wand.",
-      "mention": "Used by Newton Scamander to send away Stebbins on a London street, much to the bemusement of passing Muggles.",
-      "etymology": "Ventus is a Latin word, meaning \"wind\".",
-      "note": null
-    },
-    {
-      "id": 294,
-      "name": "Ventus Duo",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Jinx",
-      "description": "A stronger version of the Ventus Jinx",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 295,
-      "name": "Vera Verto",
-      "other_name": null,
-      "pronunciation": "vair-uh-VAIR-toh",
-      "spell_type": "Transfiguration",
-      "description": "Turn animals to water goblets.",
-      "mention": "Taught by Minerva McGonagall in her Transfiguration class. Also used by Ronald Weasley unsuccessfully in one of her second year classes thanks to his damaged wand.",
-      "etymology": "From Latin vera meaning \"right\" or \"proper\", and verto, meaning “I turn”.",
-      "note": null
-    },
-    {
-      "id": 296,
-      "name": "Verdillious",
-      "other_name": null,
-      "pronunciation": "ver-DILL-ee-us",
-      "spell_type": "Charm",
-      "description": "A spell used to shoot green sparks from the end of the wand.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 297,
-      "name": "Verdimillious",
-      "other_name": "Verdimillious Charm",
-      "pronunciation": "vur-duh-MILL-ee-us",
-      "spell_type": "Charm",
-      "description": "Produces a jet of green sparks that can be used in duelling, or to reveal things hidden by dark magic.",
-      "mention": "Taught in first year Defence Against the Dark Arts teacher's office class.",
-      "etymology": null,
-      "note": "This spell is almost certainly the incantation for Green Sparks."
-    },
-    {
-      "id": 298,
-      "name": "Verdimillious Duo",
-      "other_name": null,
-      "pronunciation": "VERD-dee-MILL-lee-us",
-      "spell_type": "Charm",
-      "description": "A more powerful version of Verdimillious.",
-      "mention": "Learned in first year Defence Against the Dark Arts.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 299,
-      "name": "Vermiculus",
-      "other_name": "Vermiculus Jinx",
-      "pronunciation": "vur-MICK-yoo-luhs",
-      "spell_type": "Transfiguration",
-      "description": "Transforms things into worms.",
-      "mention": "Appeared in Harry Potter and the Goblet of Fire (video game).",
-      "etymology": null,
-      "note": "This spell may have some connection with Squiggle Quill."
-    },
-    {
-      "id": 300,
-      "name": "Vermillious",
-      "other_name": "Red Sparks",
-      "pronunciation": "vur-MILL-ee-us",
-      "spell_type": "Charm",
-      "description": "Jet of red sparks that can be used to signal an emergency or as a minor duelling spell.",
-      "mention": null,
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 301,
-      "name": "Vipera Evanesca",
-      "other_name": "Snake-Vanishing Spell",
-      "pronunciation": "vee-PAIR-uh eh-vuh-NES-kuh",
-      "spell_type": "Vanishment",
-      "description": "Vanishes snakes. Subsequently, it is the counter-spell for the Snake Summons Spell.",
-      "mention": "Severus Snape cast this spell in 1992 at the Duelling Club to vanish a snake that Draco Malfoy had conjured while duelling Harry Potter.",
-      "etymology": "Vipera is a genus of venomous vipers, a type of snake. Evanesca likely shares its origin with Evanesco, which means \"disappear\" in Latin.",
-      "note": null
-    },
-    {
-      "id": 302,
-      "name": "Vulnera Sanentur",
-      "other_name": null,
-      "pronunciation": "VUL-ner-ah sah-NEN-tour",
-      "spell_type": "Healing Spell",
-      "description": "Healing spell that slows blood flow, clears residue, and knits wounds. It is the counter-curse to Sectumsempra.",
-      "mention": "Used by Severus Snape to heal the wounds of Draco Malfoy caused by the Sectumsempra curse cast by Harry Potter in 1997.",
-      "etymology": "Vulnera Sanentur derives from the Latin vulnus, \"wound,\"",
-      "note": null
-    },
-    {
-      "id": 303,
-      "name": "Waddiwasi",
-      "other_name": null,
-      "pronunciation": "wah-deh-WAH-see",
-      "spell_type": "Charm",
-      "description": "Used to shoot small, soft masses of whatever the caster so desires at the target",
-      "mention": "Cast by Remus Lupin in 1993, on Peeves the Poltergeist, sending a wad of chewing gum up his nose.",
-      "etymology": "\"Waddiwasi\" comes from two words. \"Vadd\" and \"vas-y\". \"Vadd\" is a Swedish word that can mean \"wadding\" and \"vas-y\" is French term that means \"go ahead\" or \"Come on!\" Together, they can roughly mean \"The wad goes ahead.\"",
-      "note": "This spell may be related to the Oppugno Jinx."
-    },
-    {
-      "id": 304,
-      "name": "Washing up spell",
-      "other_name": null,
-      "pronunciation": null,
-      "spell_type": "Charm",
-      "description": "Enchanted dirty dishes to wash themselves.",
-      "mention": "It was used non-verbally by Molly Weasley after preparing breakfast for Harry Potter upon his arrival to The Burrow on 4 August, 1992.",
-      "etymology": null,
-      "note": null
-    },
-    {
-      "id": 305,
-      "name": "Wingardium Leviosa",
-      "other_name": "Levitation Charm",
-      "pronunciation": "win-GAR-dee-um lev-ee-OH-sa",
-      "spell_type": "Charm",
-      "description": "Makes objects fly, or levitate.",
-      "mention": "This spell is taught in early first-year charms classes; this came into good use later in that year, when Ron Weasley performed the spell to knock out a mountain troll; six years later, Harry uses the charm to levitate the side-car of his godfather's flying motorbike; Ron used it again this year to make a twig poke a tree.",
-      "etymology": "\"Wingardium\" almost certainly contains English wing, meaning \"fly\". \"Leviosa\" probably originates from Latin levis, meaning \"light\".",
-      "note": null
-    }
-  ],
+      "spell_type": "Contra-Encanto",
+      "description": "Faz com que os efeitos climáticos causados por azarações cessem.",
+      "mention": "Sugerido em 1997 por Arthur Weasley a Ron (disfarçado de Reginald Cattermole pelo uso da Poção Polissuco) como a melhor maneira de limpar o feitiço da chuva em um escritório do Ministério. Também usado por Bartemius Crouch Jr (disfarçado de Alastor Moody ) Em 1994, para cessar o efeito climático do teto do Salão Principal, insistindo que estava quebrado, ele disse a Dumbledore para \"Consertar o teto\".",
+      "etimologia": "Meteorologia, o estudo do clima, a palavra azarar e retratar, \"retirar ou retrair\". Curiosamente, no inglês moderno, retratar significa dizer que você não tem mais uma crença.",
+      "nota": null
+     },
+     {
+       "id": 183,
+       "name": "Mimblewimble",
+       "other_name": "Maldição da Língua Presa",
+       "pronunciation": "MIM-touro-wim-touro",
+       "spell_type": "Maldição",
+       "description": "Ata a língua do alvo em um nó, impedindo-o de fazer um discurso coerente ou dizer encantamentos corretamente, tornando-o útil em duelos.",
+       "mention": "Visto em 1997 como um impedimento para Severus Snape, ou qualquer outro visitante indesejado do 12 Grimmauld Place, de trair sua localização para qualquer outra pessoa.",
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 184,
+       "name": "Ministério da Névoa Mágica",
+       "outro_nome": null,
+       "pronunciation": null,
+       "spell_type": "Charme",
+       "description": "Amuleto patenteado usado pelo Ministério da Magia para ocultar certas áreas da visão trouxa.",
+       "mention": "Visto em 1997 como um impedimento para Severus Snape, ou qualquer outro visitante indesejado do 12 Grimmauld Place, de trair sua localização para qualquer outra pessoa.",
+       "etimologia": null,
+       "nota": "Em 1999, após o desastre do Feitiço da Invisibilidade no Estádio de Quadribol de Exmoor, o Ministério considerou tentar usar essa névoa para ocultar o estádio."
+     },
+     {
+       "id": 185,
+       "name": "Mobiliarbus",
+       "outro_nome": null,
+       "pronunciation": "mo-bil-lee-AR-bus",
+       "spell_type": "Charme",
+       "description": "Levita objetos de madeira a alguns centímetros do chão e os move em qualquer direção.",
+       "mention": "Em 1993, Hermione Granger usou o feitiço para mover uma Árvore de Natal no Três Vassouras ao lado de sua mesa para esconder Harry Potter, que estava em Hogsmeade ilegalmente.",
+       "etimologia": "Latim mobilis, \"móvel\" ou \"flexível\", e arbor (alternativamente arbos), \"árvore\".",
+       "nota": "É possível que Mobilicorpus e Mobiliarbus sejam variações do mesmo feitiço básico, já que compartilham o radical \"Mobili-\"."
+     },
+     {
+       "id": 186,
+       "name": "Mobilicorpus",
+       "outro_nome": null,
+       "pronunciation": "moh-bil-lee-COR-pus",
+       "spell_type": "Charme",
+       "description": "Levita e move corpos.",
+       "mention": "Sirius Black usou em Severus Snape em 1994. Provavelmente foi usado em Peter Pettigrew por Lord Voldemort no cemitério para fazê-lo se apresentar.",
+       "etimologia": "Latim mobilis, \"móvel\", e corpus, \"corpo\".",
+       "nota": "É possível que Mobiliarbus e Mobilicorpus sejam variações do mesmo feitiço básico, já que compartilham o radical \"Mobili-\"."
+     },
+     {
+       "id": 187,
+       "name": "Molliare",
+       "other_name": "Charme de Amortecimento",
+       "pronunciation": "mull-ee-AR-ay",
+       "spell_type": "Charme",
+       "description": "Produz uma almofada invisível sobre o alvo, é utilizada principalmente na fabricação de cabos de vassoura.",
+       "mention": "Usado por Hermione Granger para amortecer a queda dela, de Harry e de Ron no Gringotts Wizard Bank em 1998.",
+       "etimologia": null,
+       "note": "Este feitiço pode estar relacionado a Arresto Momentum e Spongify."
+     },
+     {
+       "id": 188,
+       "name": "A maldição de Molly Weasley",
+       "outro_nome": null,
+       "pronunciation": null,
+       "spell_type": "Maldição",
+       "description": "Como a maldição Avada Kedavra, mata (ou congela) a vítima. Torna o corpo cinza/azul (ou mais claro) enquanto se transforma em pedra e então outro feitiço gêmeo pode explodir o corpo em pedaços.",
+       "mention": null,
+       "etimologia": null,
+       "nota": "Este pode ser um Feitiço de Endurecimento ou um Feitiço de Congelamento, embora o último seja azul em 1992."
+     },
+     {
+       "id": 189,
+       "name": "Mormordre",
+       "outro_nome": null,
+       "pronunciation": "morz-MOR-druh",
+       "spell_type": null,
+       "description": "Conjura a Marca Negra, que é o sinal dos Comensais da Morte.",
+       "mention": "Usado por Barty Crouch Jr em 1994. Também visto em 1997 sobre o castelo para atrair Alvo Dumbledore para a morte. Aparentemente foi inventado por Lord Voldemort.",
+       "etimologia": "Latim mors, \"morte\", e mordere, que significa \"morder\" (ou seu derivado francês mordre); isso parece estar associado ao nome dos seguidores de Lord Voldemort, os Comensais da Morte. O assassinato inglês também pode contribuir.",
+       "nota": "Um possível translation pode ser \"dê uma mordida na morte\", uma frase apropriada para os Comensais da Morte.",
+      },
+      {
+        "id": 190,
+        "name": "Mucus ad Nauseam",
+        "other_name": "Maldição dos Bogies",
+        "pronunciation": "MYOO-kus ahd NAW-zee-um",
+        "spell_type": "Maldição",
+        "description": "Dá à vítima um resfriado desagradável e um nariz extremamente escorrendo que pode causar o colapso da vítima se não for tratado. O resfriado é acompanhado de espirros constantes.",
+        "mention": "Mencionado pelo professor Quirrell para sua turma do primeiro ano.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 191,
+        "name": "Muffliato",
+        "other_name": "Charme Muffliato",
+        "pronunciation": "muf-lee-AH-to",
+        "spell_type": "Charme",
+        "description": "Evita que outras pessoas ouçam conversas próximas ao encher os ouvidos das pessoas com um zumbido não identificável.",
+        "mention": "Foi usado em 1996 por Harry Potter e Ron Weasley em vários professores e pessoas como Madame Pomfrey. Foi criado por Severus Snape. Como apontado por Hermione, provavelmente não é aprovado pelo Ministério da Magia. Foi também usado em 1997 por Hermione Granger na proteção do acampamento onde Harry e ela ficaram escondidos.",
+        "etimologia": "em inglês abafar, \"acalmar\", com final pseudo-latino ou pseudo-italiano.",
+        "nota": null
+      },
+      {
+        "id": 192,
+        "name": "Multicorfors",
+        "other_name": "Feitiço Multicorfors",
+        "pronunciation": "mull-tee-COR-fors",
+        "spell_type": "Transfiguração",
+        "description": "Multicorfors é um amuleto usado para mudar a cor e o estilo das roupas.",
+        "mention": "Também pode ser o mesmo feitiço de quando Harry acidentalmente mudou a cor de sua sobrancelha, antes de convidar Luna para a festa de Natal de Slughorn. (Improvável, já que foi realizado como um exercício de Transfiguração, que não tem relação com Feitiços .) Poderia ter sido usado quando Harry acidentalmente mudou a cor do cabelo de seu professor, na Escola Primária de St. Grogory.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 193,
+        "name": "Mutatio Skullus",
+        "outro_nome": null,
+        "pronunciation": "myoo-TAY-toh SKULL-us",
+        "spell_type": "Hex",
+        "description": "Muta a cabeça da vítima, fazendo com que cresçam cabeças extras.",
+        "mention": "Usado por magos egípcios antigos, conforme observado por Ron Weasley em 1993.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 194,
+        "name": "Nox",
+        "other_name": "Feitiço de Extinção de Varinha",
+        "pronunciation": "NOCKSS",
+        "spell_type": "Charme",
+        "description": "Extingue a luz da varinha. É o contra-feitiço para o Feitiço de Iluminação da Varinha, Lumos.",
+        "mention": "Em 1994, Harry Potter e Hermione Granger usaram este feitiço para desligar as luzes de suas varinhas na Casa dos Gritos. Usado em 1998, quando Harry estava na passagem sob o Salgueiro Lutador que leva à Casa dos Gritos. O poder de Lumos pode ser organizado de forma que um mago poderoso possa fazer o feitiço iluminar intensamente ou ao gosto do mago pelo volume do encantamento. Por exemplo, \"LUMOS!!!\" seria poderoso e \"lumos\" seria mais fraco. Também usado por Harry Potter em 1998 para desligar a luz para que ele pudesse esconder o Mapa do Maroto de Severus Snape.",
+        "etimologia": "Nox latino, que significa \"noite\".",
+        "nota": null
+      },
+      {
+        "id": 195,
+        "name": "Nebuloso",
+        "outro_nome": null,
+        "pronunciation": "NEH-bu-lus",
+        "spell_type": "Charme",
+        "description": "Cria névoa da ponta da varinha.",
+        "mention": "Em 1927, Albus Dumbledore usou este feitiço para conjurar uma névoa em Londres para fornecer ocultação para seu encontro com Newton Scamander.",
+        "etimologia": null,
+        "nota": "Este pode ser o encantamento para o Ministério da Névoa Mágica."
+      },
+      {
+        "id": 196,
+        "name": "Oculus Reparo",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Conserta óculos.",
+        "mention": "Usado por Hermione em 1991 e 1992 para consertar os óculos de Harry.",
+        "etimologia": null,
+        "note": "Este feitiço é uma variação de Reparo."
+      },
+      {
+        "id": 197,
+        "name": "Feitiço de Obliteração",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Remove pegadas.",
+        "mention": "Usado por Hermione em 1995 para remover as pegadas que ela, Harry e Ron deixaram na neve enquanto caminhavam para a cabana de Hagrid. Também usado em 1997 por Hermione para remover as pegadas que ela e Harry deixaram na neve enquanto viajavam por Godric's Hollow.",
+        "etimologia": null,
+        "nota": "O Feitiço de Obliteração só é conhecido por remover pegadas. Não há explicação sobre o efeito que pode ter em outras coisas. Ele poderia destruir coisas, de acordo com seu nome."
+      },
+      {
+        "id": 198,
+        "name": "Obliviar",
+        "other_name": "Feitiço de Memória",
+        "pronunciation": "oh-BLI-vee-comeu",
+        "spell_type": "Charme",
+        "description": "Apaga memórias específicas.",
+        "mention": "Visto pela primeira vez em 1993 quando usado por Gilderoy Lockhart em Harry e Ron; o tiro saiu pela culatra devido a uma varinha defeituosa, custando a Lockhart a maior parte de sua própria memória. Além disso, Hermione Granger usou esse feitiço para limpar as memórias de seus pais em 1997 . Novamente, foi usado em 1997, quando Hermione Granger usou o feitiço em 2 Comensais da Morte que haviam seguido Harry, Ron e Hermione após sua fuga do casamento de Gui Weasley e Fleur Delacour.",
+        "etimologia": "Latim oblivisci, \"esqueça\". O feitiço é usado com mais frequência contra trouxas que viram algo do mundo mágico.",
+        "nota": "Inventado por Mnemone Radford, que se tornou o primeiro Obliviador do Ministério. Os funcionários do Ministério da Magia designados para modificar as memórias dos trouxas são chamados de Obliviadores. O feitiço pode ser quebrado por magia poderosa ou coação extrema, como Lord Voldemort foi capaz de torturar Bertha Jorkins para se lembrar de detalhes que Bartô Crouch Snr a forçou a esquecer usando o feitiço. Neste caso, também foi mostrado que se o feitiço for muito poderoso, pode fazer com que o alvo desenvolva uma memória ruim. Este feitiço difere do Feitiço de Memória Falsa."
+      },
+      {
+        "id": 199,
+        "name": "Obscuro",
+        "outro_nome": null,
+        "pronunciation": "ob-SKYUR-oh",
+        "spell_type": "Conjuração",
+        "description": "Venda o alvo.",
+        "mention": "Usado por Hermione Granger em 1997 para obstruir o retrato da visão de Phineas Nigellus de sua localização.",
+        "etimologia": "Palavra em inglês obscuro, que significa \"pouco claro\" ou \"imperceptível\".",
+        "nota": "Este feitiço pode afetar apenas personagens em pinturas; não há outras referências a este feitiço."
+      },
+      {
+        "id": 200,
+        "name": "Opugno",
+        "other_name": "Oppugno Jinx",
+        "pronunciation": "oh-PUG-noh",
+        "spell_type": "Jinx",
+        "description": "Faz com que objetos direcionados ataquem uma vítima. É particularmente eficaz em conjunto com o Feitiço de Conjuração de Pássaros.",
+        "mention": "Usado por Hermione Granger em 1996 para atacar Ron Weasley com um bando de canários invocados durante uma discussão.",
+        "etimologia": "Latim oppugno, \"eu ataco\".",
+        "nota": null
+      },
+      {
+        "id": 201,
+        "name": "Orbis",
+        "other_name": "Orbix Jinx",
+        "pronunciation": "OR-biss",
+        "spell_type": "Jinx",
+        "description": "Suga o alvo para o chão.",
+        "mention": null,
+        "etimologia": "Orbis é latim para 'círculo', que reflete a aparência física do feitiço.",
+        "nota": null
+      },
+      {
+        "id": 202,
+        "name": "Orquídea",
+        "outro_nome": null,
+        "pronunciation": "or-KID-ee-us",
+        "spell_type": "Conjuração",
+        "description": "Conjura um buquê de flores.",
+        "mention": "Usada em 1994 pelo Sr. Ollivander para testar a varinha de Fleur Delacour. Provavelmente usada não verbalmente por Tom Riddle para presentear a Sra. Smith com flores.",
+        "etimologia": "Orquídea inglesa e sufixo latino -eous, \"de ou tendo (a palavra raiz)\".",
+        "nota": "Uma variação deste feitiço pode ter sido usada quando Hermione Granger conjurou uma guirlanda de Natal para colocar nos túmulos de Tiago e Lílian Potter em 1997."
+      },
+      {
+        "id": 203,
+        "name": "Oscausi",
+        "outro_nome": null,
+        "pronunciation": "os-SCOW-zee",
+        "spell_type": "Charme negro",
+        "description": "Selar a boca de alguém, fazendo parecer que nunca esteve lá.",
+        "mention": "Usado por Leta Lestrange em uma garota da Grifinória quando ambas estavam no terceiro ano em Hogwarts. A garota da Grifinória estava falando mal de Lestrange pelas costas até que Lestrange emergiu de seu esconderijo próximo e calou a garota da Grifinória com isso soletrar.",
+        "etimologia": "Possivelmente derivado de os, latim para \"boca\" e clausi (uma forma conjugada de claudo), latim para \"eu fecho\". Além disso, pode ser um trocadilho ou jogo de palavras com scusi , a interjeição italiana para \"excuse me\".",
+        "nota": null
+      },
+      {
+        "id": 204,
+        "name": "Pacote",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Embala a bagagem.",
+        "mention": "Usado em 1994 por Remus Lupin em seu escritório, e em 1995 por Nymphadora Tonks, uma vez verbalmente e novamente não verbalmente.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 205,
+        "name": "Papiro Reparo",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Conserta pedaços de papel rasgados.",
+        "mention": "Este feitiço foi usado por Newton Scamander em 1927 para restaurar um cartão postal rasgado de Porpentina Goldstein endereçado a Queenie Goldstein.",
+        "etimologia": null,
+        "note": "Este feitiço é uma variação de Reparo."
+      },
+      {
+        "id": 206,
+        "name": "Amuleto de Devaneio Patenteado",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Dá ao lançador de feitiços um -sonho realista de 30 minutos. Os efeitos colaterais incluem baba leve e uma expressão vazia.",
+        "mention": "Estes foram inventados por Fred e George Weasley e vendidos em 1996 em sua loja de piadas, presumivelmente na forma de algum tipo de objeto físico, semelhante a Skiving Snackboxes.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 207,
+        "name": "Partis Temporus",
+        "outro_nome": null,
+        "pronunciation": "PAR-tis temp-OAR-us",
+        "spell_type": "Charme",
+        "description": "Cria um intervalo temporário no alvo.",
+        "mention": "Usado por Alvo Dumbledore na Caverna de Cristal em 1997. Ele o usa para que ele e Harry possam passar pelo anel de fogo usado para afastar os Inferi.",
+        "etimologia": "Partis é uma forma plural do verbo francês partir, que significa \"separar\", \"ir embora\", \"sair\" ou \"partir\". Temporis é Latim para \"tempo.\"",
+        "nota": null
+      },
+      {
+        "id": 208,
+        "name": "Hex de hálito de pimenta",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Hex",
+        "description": "Dá à vítima hálito quente.",
+        "mention": "Harry Potter soube deste feitiço em Basic Hexes for the Busy and Vexed enquanto pesquisava feitiços para usar durante o Torneio Tribruxo e decidiu não usá-lo contra o dragão que enfrentaria na Primeira Tarefa.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 209,
+        "name": "Periculum",
+        "outro_nome": null,
+        "pronunciation": "pur-ICK-you-lum",
+        "spell_type": "Charme",
+        "description": "Produz uma explosão de faíscas vermelhas.",
+        "mention": "Usado durante a terceira tarefa do Torneio Tribruxo por Harry.",
+        "etimologia": "Periculum é latim para \"perigo\".",
+        "nota": null
+      },
+      {
+        "id": 210,
+        "name": "Feitiço de Adesividade Permanente",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Fixa objetos permanentemente no lugar.",
+        "mention": "Mencionado pela primeira vez em 1995, quando Sirius Black suspeitou que a pintura de sua mãe foi fixada na parede com tal feitiço. Está implícito que o retrato no escritório do primeiro-ministro trouxa também possui tal encanto.",
+        "etimologia": null,
+        "nota": "Nunca é dito se o feitiço impede que o objeto seja removido cortando a seção da parede. O encantamento pode ser gluten sempra, significando cola para sempre, ou adher sempra, que significa grudar para sempre."
+      },
+      {
+        "id": 211,
+        "name": "Peskipiksi Pesternomi",
+        "outro_nome": null,
+        "pronunciation": "PES-key PIX-ee PES-ter NO-mee",
+        "spell_type": "Charme",
+        "description": "A única vez que foi usado, não teve absolutamente nenhum efeito.",
+        "mention": "Usado por Lockhart para tentar remover Cornish Pixies.",
+        "etimologia": "Inglês pesky significa \"irritante\", inglês pixie significa \"um ser sobrenatural\", inglês pester significa \"irritar\", inglês no para negativo e inglês me para o pronome da primeira pessoa.",
+        "nota": "Não se sabe se o feitiço funciona ou não. Também soa suspeitosamente como \"Pesky duende me importuna.\""
+      },
+      {
+        "id": 212,
+        "name": "Petrificus Totalus",
+        "other_name": "Maldição de corpo inteiro preso",
+        "pronunciation": "pe-TRI-fi-cus to-TAH-lus",
+        "spell_type": "Maldição",
+        "description": "Usado para amarrar temporariamente o corpo da vítima em uma posição muito parecida com a de um soldado em posição de sentido; a vítima geralmente cai no chão.",
+        "mention": "Usado em 1991 por Hermione, que estava tentando evitar que Neville impedisse que ela, Ron e Harry deixassem a sala comunal para caçar a Pedra Filosofal, no Salão da Profecia durante a Batalha do Departamento de Mistérios para petrificar um dos Comensais da Morte perseguindo o grupo, e usado em Harry por Draco Malfoy no Expresso de Hogwarts em 1996.",
+        "etimologia": "Latim petra, que significa \"pedra\", e fieri (particípio passado factus), que significa \"tornar-se\"; totalus vem do latim \"totus\", que significa \"completo\".",
+        "nota": null
+      },
+      {
+        "id": 213,
+        "name": "Piertotum Locomotor",
+        "outro_nome": null,
+        "pronunciation": "peer-TOH-tuhm loh-kuh-MOH-tor",
+        "spell_type": "Charme",
+        "description": "Traz animação de alvos inanimados.",
+        "mention": "Na Batalha de Hogwarts, a professora McGonagall usou este feitiço para animar as armaduras e estátuas dentro de Hogwarts, para defender o castelo. Possivelmente usado por Albus Dumbledore para encantar as estátuas na fonte na entrada do Ministério do Departamento de Magia.",
+        "etimologia": "Pier significa \"amigo\" ou \"colega\", totum refere-se a \"o todo\" ou \"total\", e locomotor significa \"o movimento de\".",
+        "nota": null
+      },
+      {
+        "id": 214,
+        "name": "Piscíforo",
+        "outro_nome": null,
+        "pronunciation": "PIS-ee-fors",
+        "spell_type": "Transfiguração",
+        "description": "Transforma coisas em peixes.",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+     },
+     {
+       "id": 215,
+       "name": "Feitiço de Colocação",
+       "outro_nome": null,
+       "pronunciation": null,
+       "spell_type": "Charme",
+       "description": "Maigcally coloca um objeto em ou sobre um local específico. Os feitiços de posicionamento podem ser usados para colocar um freio em um Kelpie para torná-lo inofensivo e dócil.",
+       "mention": null,
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 216,
+       "name": "Aponte-me",
+       "other_name": "Feitiço de Quatro Pontos",
+       "pronunciation": null,
+       "spell_type": "Feitiço",
+       "description": "Faz a varinha do lançador apontar para o norte.",
+       "mention": "Hermione Granger o ensinou a Harry Potter, que o usou durante o Torneio Tribruxo, principalmente para navegar pelo labirinto durante a Terceira Tarefa.",
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 217,
+       "name": "Portugal",
+       "outro_nome": null,
+       "pronunciation": "POR-tus",
+       "spell_type": "Charme",
+       "description": "Transforma um objeto em uma chave de portal.",
+       "mention": "Usado por Alvo Dumbledore em 1996.",
+       "etimologia": "Porta latina, que significa \"portão\", ou portare, que significa \"carregar\" (como em transportar o lançador ou alvo para outro local). Existe uma palavra latina portus, que significa \"porto \", mas é inapropriado neste contexto.",
+       "nota": "As chaves de portal foram vistas pela primeira vez em 1994 como um meio de Harry, Hermione e os Weasleys irem para a Copa Mundial de Quadribol. No entanto, o feitiço usado em sua criação não foi visto até 1995."
+     },
+     {
+       "id": 218,
+       "name": "Prior Incantato",
+       "other_name": "Feitiço Reverso",
+       "pronunciation": "pri-OR in-can-TAH-toh",
+       "spell_type": "Charme",
+       "description": "Força uma varinha a mostrar um \"eco\" do último feitiço que executou.",
+       "mention": "Usado por Amos Diggory em 1994 para descobrir o último feitiço lançado pela varinha de Harry depois que ela foi encontrada nas mãos de Winky, um elfo doméstico.",
+       "etimologia": "Latim prior, \"anterior\", e incantare, \"falar um feitiço\" (particípio passado incantatum).",
+       "nota": "Pode se manifestar na forma do efeito Feitiço Reverso, ou Priori Incantatem, quando varinhas com o mesmo núcleo tentam lutar."
+     },
+     {
+       "id": 219,
+       "name": "Encanto multiforme",
+       "outro_nome": null,
+       "pronunciation": null,
+       "spell_type": "Charme",
+       "description": "Faz com que cópias de um objeto sejam remotamente afetadas por alterações feitas no original.",
+       "mention": "Usado pela primeira vez em 1995. Hermione Granger colocou o amuleto em vários galeões falsos. Em vez do número de série na borda da moeda, a hora e a data da próxima reunião da Armada de Dumbledore apareceram. É possível que este feitiço é usado nas Marcas Negras dos Comensais da Morte.",
+       "etimologia": "A palavra inglesa Protean deriva de Proteus, um deus da mitologia grega. Proteus era um metamorfo, capaz de assumir muitas formas. Como resultado, a palavra Metamorfose passou a se referir à versatilidade, flexibilidade ou capacidade de assumir muitas formas. \"Protean\" também é semelhante a \"protein\", derivado da mesma raiz, significando uma substância variável e flexível que forma fortes ligações entre suas partes constituintes.",
+       "nota": "Nos galeões falsos de Hermione, quando a data muda, a moeda fica quente, alertando o proprietário para olhar para a moeda. Isso pode não ser uma característica do amuleto original. Pode ser uma Maldição Flagrante, quando o Metamorfose O feitiço muda a moeda que a maldição pode ativar. Parece que a partir disso você pode decidir quais são os efeitos nos objetos enfeitiçados. Possivelmente dizendo algo como \"Protean flagrante\", embora isso seja apenas especulação."
+     },
+     {
+       "id": 220,
+       "name": "Protego",
+       "other_name": "Feitiço Escudo",
+       "pronunciation": "pró-TAY-goh",
+       "spell_type": "Charme",
+       "description": "Escudo invisível que reflete feitiços e bloqueia entidades físicas.",
+       "mention": "Visto pela primeira vez em 1995, quando Harry aprende este feitiço com Hermione em preparação para a terceira tarefa no Torneio Tribruxo. Alvo Dumbledore usa um feitiço semelhante que reverte a construção do vidro de volta na areia quando Voldemort enviou cacos de vidro para tentar esfaquear Dumbledore. Fred e George Weasley encantaram chapéus que eles apelidaram de \"chapéus de escudo\" com este feitiço em 1997.",
+       "etimologia": "do latim protego, \"eu cubro\" ou \"eu protejo\".",
+       "nota": "A descrição original deste feitiço afirma que ele rebate feitiços menores para o lançador. No entanto, é mostrado que também pode ser usado para refletir ou diminuir os efeitos de feitiços mais poderosos, dependendo da habilidade do lançador . Em 1998, também demonstrou ser capaz de criar uma espécie de campo de força em uma área e é usado com frequência para impedir que dois participantes de uma discussão se alcancem.",
+     },
+     {
+       "id": 221,
+       "name": "Protego Diabólico",
+       "outro_nome": null,
+       "pronunciation": "pro-TAY-goh dia-BOHL-i-cub",
+       "spell_type": "Artes das Trevas",
+       "description": "Conjura um anel protetor de fogo negro ao redor do lançador que afeta apenas seus inimigos.",
+       "mention": null,
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 222,
+       "name": "Protego Horribilis",
+       "outro_nome": null,
+       "pronunciation": "pro-TAY-goh horr-uh-BIHL-ihs",
+       "spell_type": "Charme",
+       "description": "Um poderoso feitiço de escudo contra magia negra.",
+       "mention": "Elenco do Professor Flitwick em uma tentativa de fortalecer as defesas do castelo na Batalha de Hogwarts.",
+       "etimologia": "Latim Protego, \"eu protejo\", e Horribilis, \"horrível , assustador, pavoroso\".",
+       "nota": null
+     },
+     {
+       "id": 223,
+       "name": "Protego Maxima",
+       "outro_nome": null,
+       "pronunciation": "pro-TAY-goh MAX-ee-Ma \t<img src=\"https://vignette.wikia.nocookie.net/harrypotter/images/6/6b/TwoProtego.JPG/revision/latest /scale-to-width-down/210?cb=20110627134927\" \t alt=\"TwoProtego\" \tclass=\"thumbimage \" \t \tdata-image-key=\"TwoProtego.JPG\" \ tdata-image-name=\"TwoProtego.JPG\" \t \t width=\"210\" \t height=\"89\" \t \t \t \t>",
+       "spell_type": "Charme",
+       "description": "Um poderoso feitiço de escudo contra magia negra. Uma versão maior e mais forte do Protego, especialmente quando combinado com outros magos lançando-o ao mesmo tempo. Era tão poderoso que também poderia desintegrar pessoas que se aproximassem demais e tentassem entre nele.",
+       "mention": "Elenco do Professor Flitwick, Professora McGonagall, Professor Slughorn e Sra. Weasley em uma tentativa de fortalecer as defesas do castelo na Batalha de Hogwarts.",
+       "etimologia": "Latin Protego, \"eu protejo\"",
+       "nota": null
+     },
+     {
+       "id": 224,
+       "name": "Protego totalum",
+       "outro_nome": null,
+       "pronunciation": "pro-TAY-goh toh-TAH-lum",
+       "spell_type": "Charme",
+       "description": "Protege uma área por um longo período de tempo.",
+       "mention": "Em 1997, este foi um dos feitiços usados por Hermione Granger e Harry Potter para proteger seu acampamento de visitantes indesejados.",
+       "etimologia": "Latim protego que significa \"proteger\" e Latim totus que significa \"como um todo\".",
+       "nota": null
+     },
+     {
+       "id": 225,
+       "name": "Fogos de artifício roxos",
+       "outro_nome": null,
+       "pronunciation": null,
+       "spell_type": "Charme",
+       "description": "Faz com que fogos de artifício roxos saiam da ponta da varinha.",
+       "mention": "Em 31 de outubro de 1991, Albus Dumbledore usou este feitiço para chamar a atenção dos clientes em pânico no Salão Principal quando um troll estava solto no castelo.",
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 226,
+       "name": "Feitiçaria que esguicha pus",
+       "outro_nome": null,
+       "pronunciation": null,
+       "spell_type": "Hex",
+       "description": "Faz com que uma gosma amarelada esguiche do nariz.",
+       "mention": "Morfin Gaunt usou este feitiço em Bob Ogden.",
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 227,
+       "name": "Quieto",
+       "other_name": "Feitiço Silencioso",
+       "pronunciation": "KWIY-uh-tus",
+       "spell_type": "Charme",
+       "description": "Faz um alvo soar mais baixo. É o contra-feitiço para o Feitiço Amplificador.",
+       "mention": "Usado em 1994 por Ludo Bagman.",
+       "etimologia": "latim quietus, \"calmo\" ou \"quieto\".",
+       "nota": null
+     },
+     {
+       "id": 228,
+       "name": "Redactum Skullus",
+       "other_name": "Feitiço de encolher cabeça",
+       "pronunciation": "reh-DAK-tum SKULL-us",
+       "spell_type": "Hex",
+       "description": "Encolhe a cabeça do alvo. É o contra-feitiço para Engorgio Skullus.",
+       "mention": null,
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 229,
+       "name": "Redução",
+       "other_name": "Feitiço Encolhedor",
+       "pronunciation": "re-DOO-see-oh",
+       "spell_type": "Charme",
+       "description": "Faz um objeto diminuir de tamanho. Seu contra-feitiço é o Feitiço de Ingurgitamento.",
+       "mention": "Em 1997, Harry Potter, depois de verificar sua varinha Blackthorn nas chamas Bluebell com Engorgio, lançou este feitiço para encurtar as chamas anteriormente aumentadas.",
+       "etimologia": "Reduzir em inglês, \"encolher\". (O latim tem um verbo reducere, presente reduco. Esta é a origem do inglês \"reduce\", mas tem um significado diferente.) Também em italiano Riduco primeira pessoa do presente do indicativo de Ridurre, mesma raiz do latim Reducere.",
+       "nota": "Se Reducio também poderia ser usado por si só em vez de combater Engorgio é desconhecido. Se pudesse, reduziria itens de tamanho normal em versões em miniatura de si mesmos. Referências em 1992 por Arthur Weasley para \"encolhendo as chaves da porta\" fazer isso parecer provável."
+     },
+     {
+       "id": 230,
+       "name": "Reduto",
+       "other_name": "Maldição do Redutor",
+       "pronunciation": "re-DUK-toh",
+       "spell_type": "Maldição",
+       "description": "Quebra objetos. Em usos mais fortes, desintegra-os.",
+       "mention": "Em 1995, Harry o usou em uma das sebes do labirinto tribruxo e acabou abrindo um pequeno buraco nele; em 1995, os Grifinórios no ano de Harry Potter referenciaram Parvati Patil como sendo capaz de reduzir uma mesa cheia de Detectores das Trevas a cinzas, e Harry e seus amigos mais tarde usaram o feitiço no Departamento de Mistérios contra os Comensais da Morte, quebrando muitas Orbes de Profecia no processo; em 1997, um membro da Ordem da Fênix tentou usar esse feitiço para arrombar uma porta que os Comensais da Morte bloquearam quando os Comensais da Morte encurralaram Dumbledore na Torre atingida por um raio.",
+       "etimologia": "Reduzir em inglês, \"derrubar;destruir\".",
+       "nota": null
+     },
+     {
+       "id": 231,
+       "name": "Encanto de recarga",
+       "outro_nome": null,
+       "pronunciation": null,
+       "spell_type": "Charme",
+       "description": "Reabastece o que o conjurador aponta com a bebida originalmente no recipiente.",
+       "mention": "Usado em 1996, quando Harry notou que Hagrid e Slughorn estavam ficando sem vinho.",
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 232,
+       "name": "Reparadores",
+       "outro_nome": null,
+       "pronunciation": "re-PAR-i-fors",
+       "spell_type": "Feitiço de Cura",
+       "description": "Reverte doenças secundárias induzidas por magia, como paralisia e envenenamento.",
+       "mention": null,
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 233,
+       "name": "Reverter",
+       "outro_nome": null,
+       "pronunciation": "ree-VUHR-tay",
+       "spell_type": "Charme",
+       "description": "Retorna os objetos às suas posições ou estados originais.",
+       "mention": "Em 1927, Leta Lestrange usou este feitiço nas torres de registro na Sala de Registros do Ministério da Magia da França na Sede do Ministério da Magia da França, em uma tentativa de fugir da perseguição dos Matagots. Isso enviou todas as torres de registro - anteriormente convocados por Lestrange - voando para trás e girando de volta para suas posições originais no chão.",
+       "etimologia": "Reverte é derivado do latim para \"você deve voltar\", sendo uma forma imperativa de segunda pessoa (singular, presente, ativo) do verbo reverto (\"Eu volto ou volto\"). ",
+       "nota": null
+     },
+     {
+       "id": 234,
+       "name": "Relatório",
+       "other_name": "Revulsion Jinx",
+       "pronunciation": "ruh-LASH-ee-oh",
+       "spell_type": "Jinx",
+       "description": "Força o alvo a soltar o que quer que esteja segurando.",
+       "mention": "Usado por Harry Potter contra Grindylows na segunda tarefa do Torneio Tribruxo. Também usado em 1997 e 1998, quando Hermione usou este feitiço para libertar a Sra. para sair de Gringotts.",
+       "etimologia": "Provavelmente do verbo francês relâcher =\"libertar, libertar\", ou do italiano rilascio (pronunciado da mesma forma que o feitiço)= \"Eu libero\".",
+       "nota": null
+     },
+     {
+       "id": 235,
+       "name": "Renervar",
+       "other_name": "Feitiço de Revivificação",
+       "pronunciation": "RENN-a-vate",
+       "spell_type": "Charme",
+       "description": "Desperta uma vítima inconsciente. É, conseqüentemente, o contra-feitiço para o Feitiço Atordoante.",
+       "mention": "Em 1994, Amos Diggory o usou para acordar Winky e Albus Dumbledore o usou para acordar Viktor Krum. Harry Potter mais tarde o usou para tentar despertar um Dumbledore amaldiçoado na caverna à beira-mar.",
+       "etimologia": "Renervate significa \"energizar.",
+       "nota": null
+     },
+     {
+       "id": 236,
+       "name": "Reparifarge",
+       "outro_nome": null,
+       "pronunciation": "reh-PAR-i-farj",
+       "spell_type": "Destransfiguração",
+       "description": "Usado para reverter transformações incompletas.",
+       "mention": "Encontrado no Guia de Transfiguração para Iniciantes.",
+       "etimologia": null,
+       "nota": null
+     },
+     {
+       "id": 237,
+       "name": "Reparo",
+       "other_name": "Feitiço de Recomposição",
+       "pronunciation": "reh-PAH-roh",
+       "spell_type": "Charme",
+       "description": "Repara perfeitamente objetos quebrados.",
+       "mention": "Usado por Albus Dumbledore e Horace Slughorn para consertar os danos que este último causou a uma casa trouxa em Budleigh Babberton, onde ele estava escondido.",
+       "etimologia": "Reparo do latim significa \"renovar\" ou \"consertar\".",
+       "nota": "Reparo foi visto para consertar itens não mágicos, no entanto, parece ter uma incapacidade de consertar itens mágicos ou itens que têm magia colocada sobre eles. Um exemplo é o Nimbus 2000 de Harry mostrado em 1993, que ele disse ser irreparável depois de ser destruída pelo Salgueiro Lutador. Varinhas também são irreparáveis, como mostrado em 1992, quando a varinha de Ron quebrou depois que ele e Harry caíram no terreno de Hogwarts. Apesar de seu uso de Spellotape, a varinha de Ron funcionou mal ao longo do ano. Outro exemplo está em 1997, quando Hermione tentou consertar a varinha quebrada de Harry, que foi quebrada por sua Maldição Explosiva errante. No entanto, Harry consertou sua varinha com a Varinha das Varinhas. Já que a Varinha das Varinhas é o momento varinha mais poderosa da criação, faz sentido que ela produza o Feitiço de Recomposição mais poderoso."
+      },
+      {
+        "id": 238,
+        "name": "Repello Muggletum",
+        "other_name": "Feitiço repelente de trouxas",
+        "pronunciation": "ruh-PEL-oh MUH-guhl-tuhm",
+        "spell_type": "Charme",
+        "description": "Mantém os trouxas longe dos lugares mágicos, fazendo com que eles se lembrem de reuniões importantes que perderam e fazendo com que os trouxas em questão se esqueçam do que estavam fazendo.",
+        "mention": "Foi usado para manter os trouxas longe da Copa Mundial de Quadribol. Dizia-se também que Hogwarts era protegida pelo Feitiço Repelente de Trouxas. Também foi usado por Harry e Hermione em várias ocasiões, entre muitos outros feitiços, para proteger e esconder seu acampamento em 1997.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 239,
+        "name": "Repello Inimicum",
+        "outro_nome": null,
+        "pronunciation": "re-PEH-lloh ee-nee-MEE-cum",
+        "spell_type": "Charme",
+        "description": "Desintegra as pessoas que entram neste feitiço.",
+        "mention": "Este feitiço foi usado pelos professores Filius Flitwick e Horace Slughorn junto com Molly Weasley, membro da Ordem da Fênix, para proteger o Castelo de Hogwarts em 1998.",
+        "etimologia": "Latim \"Repello\", que significa \"Push Back\" e \"inimicum\", a forma acusativa singular de \"inimīcus\" que significa \"inimigo\" ou \"inimigo\"." ,
+        "nota": null
+      },
+      {
+        "id": 240,
+        "name": "Revelio",
+        "other_name": "Charme Revelio",
+        "pronunciation": "reh-VEL-ee-oh",
+        "spell_type": "Charme",
+        "description": "Revela segredos sobre uma pessoa ou objeto.",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 241,
+        "name": "Rictusempra",
+        "other_name": "Feitiço de Cócegas",
+        "pronunciation": "ric-tuhs-SEM-pra",
+        "spell_type": "Charme",
+        "description": "Faze cócegas no alvo até ele ficar fraco de tanto rir.",
+        "mention": "Por Harry Potter sobre Draco Malfoy em 1992, quando eles lutaram no Clube de Duelos.",
+        "etimologia": "Possivelmente a soma de duas palavras; O latim rictus, que significa \"A extensão de uma boca aberta\", e sempre, que significa \"Sempre\". Rictus é geralmente usado como uma expressão de terror, no entanto, \"sempre de boca aberta\" corresponderia, na maioria das vezes, ao ato de rir descontroladamente.",
+        "nota": null
+      },
+      {
+        "id": 242,
+        "name": "Riddikulus",
+        "other_name": "Feitiço de Banimento do Boggart",
+        "pronunciation": "rih-dih-KUL-lus",
+        "spell_type": "Charme",
+        "description": "Um feitiço usado ao lutar contra um Boggart, \"Riddikulus\" força o Boggart a assumir a aparência de um objeto no qual o lançador está focando. Melhores resultados podem ser alcançados se o lançador estiver focando em algo engraçado, com o desejo que o riso enfraqueça o bicho-papão.",
+        "mention": "Ensinado por Remus Lupin durante o terceiro ano de Defesa Contra as Artes das Trevas, onde seus alunos tiveram a oportunidade de praticar o feitiço em um bicho-papão real.",
+        "etimologia": "Palavra latina ridiculus, \"risível\" (mas talvez \"absurdo\" ou \"bobo\" neste contexto).",
+        "nota": "O efeito do feitiço parece depender principalmente do estado de espírito do lançador. Na verdade, não muda a forma de um bicho-papão para algo engraçado, mas sim o que quer que o lançador esteja se concentrando no momento de o elenco, como quando Neville estava pensando no vestido de sua avó. Presumivelmente, a Sra. Weasley não conseguia parar de pensar em seus medos por sua família, então o bicho-papão foi transformado em outros membros da família, em vez de algo engraçado.",
+      },
+      {
+        "id": 243,
+        "name": "Crescimento da Rosa",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Transfiguração",
+        "description": "Faz com que as roseiras cresçam em um ritmo extraordinariamente rápido.",
+        "mention": null,
+        "etimologia": null,
+        "note": "Este feitiço pode estar relacionado com Herbivicus."
+      },
+      {
+        "id": 244,
+        "name": "Feitiço de barco a remo",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Faz os barcos remarem sozinhos.",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 245,
+        "name": "Sálvio Hexia",
+        "outro_nome": null,
+        "pronunciation": "SAL-vee-oh HECKS-ee-ah",
+        "spell_type": "Charme",
+        "description": "Protege contra feitiços.",
+        "mention": "Harry e Hermione lançaram este feitiço para fortalecer as defesas de seu acampamento contra intrusos em 1997.",
+        "etimologia": "Possivelmente derivado do latim \"salveo\", que significa \"estar com boa saúde\" e usado como uma forma de saudação e despedida, e um derivado pseudo-latino da palavra inglesa \"hex \—daí, \"Adeus, feitiços!\"",
+        "nota": "Possivelmente a Deflexão Hex soletra o falso Moody mencionado em 1994."
+      },
+      {
+        "id": 246,
+        "name": "Sardinha hex",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Ele x",
+        "description": "Faz a vítima espirrar sardinhas.",
+        "mention": "Rubeus Hagrid uma vez teve este feitiço usado nele.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 247,
+        "name": "Feitiço para fazer molho",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Conjuração",
+        "description": "Conjura um molho cremoso da ponta da varinha.",
+        "mention": "Molly Weasley usou este feitiço em agosto de 1994 para colocar um pouco de molho em uma panela para fazer o jantar para sua família, Harry Potter e Hermione Granger.",
+        "etimologia": null,
+        "nota": "De acordo com a Lei de Transfiguração Elementar de Gamp, comida não pode ser conjurada. Isso implica que o molho não é considerado \"boa comida\", pois coisas adequadas para consumo podem ser criadas com o feitiço, como pássaros."
+      },
+      {
+        "id": 248,
+        "name": "Feitiço Abrasador",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Produz chamas dançantes que presumivelmente queimam o oponente.",
+        "mention": "A Professora McGonagall usou este feitiço no Professor Snape em 1998.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 249,
+        "name": "Scourgify",
+        "other_name": "Feitiço de Limpeza",
+        "pronunciation": "SKUR-ji-fy",
+        "spell_type": "Charme",
+        "description": "Limpa objetos",
+        "mention": "Usado pela primeira vez por Ninfadora Tonks para limpar a jaula de Edwiges em 1995. Mais tarde, Ginny Weasley realizou o feitiço para limpar o Stinksap no Expresso de Hogwarts, também usado por James Potter em Severus Snape depois que ele gritou várias maldições e obscenidades contra ele.",
+        "etimologia": "Talvez relacionado ao inglês scour, \"limpar\". -ify é um sufixo inglês comum que significa \"tornar ...\". Portanto, scourgify pode significar \"tornar limpo\".",
+        "nota": null
+      },
+      {
+        "id": 250,
+        "name": "Feitiço Selante",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Fecha envelopes magicamente.",
+        "mention": "Todos os requerentes de permissão de varinha nos Estados Unidos foram obrigados pelo Congresso Mágico dos Estados Unidos da América a fechar o envelope no qual enviaram seus pedidos de volta ao Escritório de Permissão de Varinha com este feitiço.",
+        "etimologia": null,
+        "nota": "Este pode ser o feitiço de selamento de pergaminho que Dolores Umbridge usou em 1995."
+      },
+      {
+        "id": 251,
+        "name": "Azar do ouriço-do-mar",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Jinx",
+        "description": "Este feitiço começa a transformar a vítima em um ouriço-do-mar.",
+        "mention": "Este feitiço foi usado em 2 de maio de 1998, durante a Batalha de Hogwarts, por Percy Weasley em um Imperiused Pius Thicknesse.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 252,
+        "name": "Sectumsempra",
+        "outro_nome": null,
+        "pronunciation": "sec-tum-SEMP-rah",
+        "spell_type": "Maldição",
+        "description": "Dilacera o alvo, como se ele tivesse sido \"cortado por uma espada\". Posteriormente, o alvo pode facilmente sangrar até a morte pelos ferimentos. Essa maldição foi inventada por Severus Snape, para ser usada contra seu próprio inimigos.",
+        "mention": "Usado por Harry em 1997 contra Draco Malfoy, e mais tarde contra ambos os Inferi na câmara Horcrux de Lord Voldemort, e Snape usou contra George Weasley (não foi intencional; apontado para um Comensal da Morte que tentou amaldiçoar Lupin) em a fuga da Ordem de Privet Drive. Harry aprendeu no antigo livro de Poções de Snape. Em 1998, o feitiço é considerado o feitiço de \"assinatura\" de Severus Snape.",
+        "etimologia": "Latim sectum, \"cortar\", e sempre, \"sempre\".",
+        "nota": "Aparentemente, o feitiço pode ser usado contra qualquer objeto, mas não foi eficaz quando usado contra Inferi porque eles não podiam sentir dor ou sangrar. O movimento da varinha parece afetar como alguém é cortado, sugerido pelos padrões erráticos de cortes deixados no rosto e no peito de Draco Malfoy, produzidos pelos golpes de varinha de Harry Potter enquanto usava o feitiço contra Draco. As feridas causadas por este feitiço podem ser curadas como comprovado por Severus Snape que depois de Harry atingir Draco Malfoy com este feitiço ele curou a pele de Draco feridas e disse-lhe para ir e ser tratado com dittany de uma vez para que ele evitasse qualquer sinal de qualquer ferida. No entanto, parece que depende das habilidades mágicas do lançador porque Molly Weasley não poderia curar e restaurar a orelha de George Weasley que foi amaldiçoada desligado por este feitiço."
+      },
+      {
+        "id": 253,
+        "name": "Feitiço de penetração de escudo",
+        "outro_nome": null,
+        "pronunciation": "desconhecido",
+        "spell_type": "Feitiço",
+        "description": "Aniquila encantamentos mágicos e escudos.",
+        "mention": "Usado por Voldemort para quebrar os encantamentos colocados na Escola de Magia e Bruxaria de Hogwarts em 1998 por Filius Flitwick, Minerva McGonagall e Molly Weasley.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 254,
+        "name": "Feitiço de Tiro",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Feitiço",
+        "description": "Usado para atirar em objetos",
+        "mention": "Este feitiço foi usado por Harry Potter e Ronald Weasley em 1997 em sua caça às Horcrux em uma tentativa de pegar um coelho para comer.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 255,
+        "name": "Feitiço esmagador",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Feitiço",
+        "description": "Produz explosões",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 256,
+        "name": "Serviços",
+        "other_name": "Feitiço de Invocação de Cobra",
+        "pronunciation": "ser-pen-SOR-shah, SER-pehn-SOR-tee-ah",
+        "spell_type": "Conjuração",
+        "description": "Conjura uma serpente da varinha do lançador.",
+        "mention": "Usado por Draco Malfoy enquanto duelava com Harry Potter em 1992.",
+        "etimologia": "Latin serpens significando \"uma cobra\" e Latin ortis significando \"fonte\".",
+        "nota": null
+      },
+      {
+        "id": 257,
+        "name": "Silêncio",
+        "other_name": "Feitiço Silenciador",
+        "pronunciation": "sih-LEN-ver-oh",
+        "spell_type": "Charme",
+        "description": "Torna algo silencioso.",
+        "mention": "Usado pela primeira vez por Hermione em 1996 para silenciar um sapo e um corvo na aula de Feitiços, depois usado para silenciar um Comensal da Morte que estava tentando dizer a seus companheiros onde eles estavam.",
+        "etimologia": "Provavelmente latim silentium, \"silêncio\". Além disso, silencio e silêncio (que está mais próximo da pronúncia do inglês) significam \"silêncio\" em espanhol e português, respectivamente.",
+        "nota": null
+      },
+      {
+        "id": 258,
+        "name": "Skurge",
+        "other_name": "Feitiço Skurge",
+        "pronunciation": "SKURJ",
+        "spell_type": "Charme",
+        "description": "Limpa ectoplasma e assusta fantasmas e outros espíritos.",
+        "mention": "Dado na aula de Feitiços do segundo ano.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 259,
+        "name": "Slippery Jinx",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Jinx",
+        "description": "Torna um objeto escorregadio e difícil de segurar.",
+        "mention": "Mencionado em Harry Potter: Mistério de Hogwarts",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 260,
+        "name": "Slugulus Eructo",
+        "other_name": "Feitiço para vomitar lesmas",
+        "pronunciation": null,
+        "spell_type": "Maldição",
+        "description": "Força a vítima a arrotar lesmas viscosas.",
+        "mention": "Em 1992, Ronald Weasley tentou amaldiçoar Draco Malfoy com este feitiço depois que este último insultou Hermione Granger, mas não teve sucesso porque sua varinha na época estava quebrada e, portanto, sua maldição saiu pela culatra.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 261,
+        "name": "Charme Sonoro",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Este feitiço emite um rugido ampliado da ponta da varinha. Este ruído atrapalha tudo em seu caminho e pode até ser usado para ferir os oponentes.",
+        "mention": null,
+        "etimologia": null,
+        "note": "Não deve ser confundido com o Feitiço Amplificador, Sonorus."
+      },
+      {
+        "id": 262,
+        "name": "Sonoro",
+        "other_name": "Encanto Amplificador",
+        "pronunciation": "soh-NOHR-uhs",
+        "spell_type": "Charme",
+        "description": "Faz o alvo soar mais alto. O contra-feitiço é o Quietening Charm, Quietus.",
+        "mention": "Por Ludo Bagman em 1994 no início da Copa Mundial de Quadribol e por Alvo Dumbledore várias vezes no Campeonato Tribruxo. Usado por Lord Voldemort várias vezes durante a Batalha de Hogwarts em 1998.",
+        "etimologia": "Latin sonorus, \"alto; barulhento\".",
+        "nota": null
+      },
+      {
+        "id": 263,
+        "name": "Specialis Revelio",
+        "outro_nome": null,
+        "pronunciation": "spe-see-AL-is reh-VEL-ee-oh",
+        "spell_type": "Charme",
+        "description": "Revela feitiços lançados em objetos ou poções.",
+        "mention": "Usado por Hermione Granger para descobrir mais sobre o livro Avançado de Poções de Harry em 1996. Usado por Ernie Macmillan para descobrir os ingredientes de uma poção.",
+        "etimologia": "Latin specialis, \"particular;individual\" e revelare (presente revelo), \"desvelar\".",
+        "nota": "Em 1994, Severus Snape lançou um feitiço semelhante, mas com palavras diferentes (\"Revele seus segredos!\"), no Mapa do Maroto, embora ele possa estar apenas dizendo essas palavras quando lançou o feitiço não -verbalmente."
+      },
+      {
+        "id": 264,
+        "name": "Maldição dos Joelhos Esponjosos",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Maldição",
+        "description": "Torna as pernas do alvo esponjosas, dificultando a caminhada.",
+        "mention": "Usado durante o motim de setembro de 1999 que ocorreu em uma partida entre Puddlemere e Holyhead Harpies. Os torcedores de Puddlemere usaram é uma maldição contra os apoiadores do Holyhead Harpies em retaliação ao Jelly-Brain Jinx.",
+        "etimologia": null,
+        "note": "Este feitiço é semelhante em efeito à Maldição das Pernas de Geléia."
+      },
+      {
+        "id": 265,
+        "name": "Espongificar",
+        "other_name": "Encanto Suavizante",
+        "pronunciation": "SPUN-ji-fye",
+        "spell_type": "Charme",
+        "description": "Suaviza os objetos, tornando-os emborrachados e saltitantes.",
+        "mention": "Este feitiço é encontrado no Livro Padrão de Feitiços, Grau 1.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 266,
+        "name": "Pena Rabisco",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Transfiguração",
+        "description": "Transforma penas de escrever em vermes.",
+        "mention": null,
+        "etimologia": null,
+        "nota": "Este feitiço pode ser Vermiculus."
+      },
+      {
+        "id": 267,
+        "name": "Feitiço de Sensoriamento Furtivo",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Detecta aqueles sob disfarce mágico.",
+        "mention": "Em 1996, a professora Umbridge lançou isso em seu escritório.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 268,
+        "name": "Steleus",
+        "outro_nome": null,
+        "pronunciation": "STEH-lee-us, ou talvez STEH-nee-us",
+        "spell_type": "Hex",
+        "description": "Um feitiço que faz a vítima espirrar por um curto período de tempo. Este feitiço é usado em duelos para distrair o oponente.",
+        "mention": null,
+        "etimologia": "Steleus deriva do latim sternuo, que significa espirro.",
+        "nota": null
+      },
+      {
+        "id": 269,
+        "name": "Stinging Jinx",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Jinx",
+        "description": "Ferra a carne de um alvo. Este feitiço também é conhecido como",
+        "mention": "Harry Potter inadvertidamente usou um em Severus Snape durante as aulas de Oclumência em 1996. Não foi debilitante nesse caso, mas é mais forte quando lançado intencionalmente, como mostrado pelos resultados do Stinging Hex de Hermione Granger usado em Harry Potter em 1998 para propositalmente distorcer a aparência de Harry.",
+        "etimologia": null,
+        "note": "Também conhecido como Stinging Hex."
+      },
+      {
+        "id": 270,
+        "name": "Alongando Jinx",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Jinx",
+        "description": "Alonga o alvo.",
+        "mention": "Molly Weasley comentou em 1996 que os recentes surtos de crescimento fizeram seu filho Ron e seu amigo, Harry Potter, parecerem como se esse feitiço tivesse sido lançado sobre os dois.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 271,
+        "name": "Estupefaça",
+        "other_name": "Feitiço Impressionante",
+        "pronunciation": "STOO-puh-fye",
+        "spell_type": "Charme",
+        "description": "Atordoa o alvo, deixando-o inconsciente.",
+        "mention": "Muitas vezes; particularmente por vários bruxos e bruxas (incluindo Dolores Umbridge) contra Minerva McGonagall em 1996. Também é ensinado por Harry em suas reuniões de AD.",
+        "etimologia": "em inglês stupefy, que significa 'colocar em estupor', um estado vegetativo temporário.",
+        "nota": "A manifestação física do feitiço é um feixe de luz vermelha que emana da varinha do lançador. O feitiço desaparece após um curto período de tempo e pode ser anulado por Rennervate. Quase inútil em criaturas resistentes à magia, como dragões, trolls e gigantes, a menos que mais de um feitiço Stupefy seja usado ao mesmo tempo. A força do feitiço é aditiva ou talvez até exponencial, e pode causar ferimentos graves se muitos feitiços forem usados em um alvo que normalmente não é resistente a seus efeitos . Hagrid, como um meio-gigante, era imune a este feitiço - ou pelo menos, um solitário."
+      },
+      {
+        "id": 272,
+        "name": "Encanto Supersensorial",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Concede ao lançador ter sentidos aprimorados ou ser capaz de sentir coisas que normalmente não sentiria.",
+        "mention": "Mencionado por Ron fora do Expresso de Hogwarts em 2017 como um substituto em potencial para o uso de espelhos ao dirigir um automóvel trouxa.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 273,
+        "name": "Surgito",
+        "outro_nome": null,
+        "pronunciation": "SUR-jee-toh",
+        "spell_type": "Contra-charme",
+        "description": "Contra-charme que pode ser usado para remover encantamentos.",
+        "mention": "Em 1927, Newton Scamander usou Surgito para levantar um encantamento que foi colocado em Jacob Kowalski. Como resultado do feitiço, Kowalski despertou do estado encantado de sonho e recuperou a consciência da realidade no presente.",
+        "etimologia": "Surgito é uma palavra latina na forma imperativa que significa \"você/ele/ela surgirá, ou se levantará\", e é uma conjugação do verbo surgo (\"eu me levanto\"). A etimologia é apropriado, considerando que os efeitos do feitiço em Jacob Kowalski pode ser comparado a acordar de um estado confuso e onírico.",
+        "nota": null
+      },
+      {
+        "id": 274,
+        "name": "Feitiço de Troca",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Transfiguração",
+        "description": "Troca dois alvos simultaneamente.",
+        "mention": "Harry pensou em usar este feitiço contra seu dragão na primeira tarefa do Torneio Tribruxo. ((Ele considerou trocar suas presas por gomas de vinho)). Neville Longbottom faz mau uso do feitiço, transplantando suas orelhas para um cacto.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 275,
+        "name": "Tabu",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Maldição",
+        "description": "Um feitiço que pode ser colocado sobre uma palavra ou um nome, de modo que sempre que essa palavra é falada, uma perturbação mágica é criada que alerta o lançador do Tabu para a localização do falante. Quaisquer encantamentos de proteção em vigor ao redor do alto-falante são quebrados quando a palavra tabu é falada em voz alta.",
+        "mention": "Esta maldição foi colocada na palavra \"Voldemort\"; Harry, Ron e Hermione são rastreados até Tottenham Court Road. Ron diz aos outros dois para pararem de usar a palavra, pois ele começou a temer que o nome pudesse ser uma maldição, descobrindo mais tarde que era um tabu. Mais tarde, Harry acidentalmente diz o nome de Voldemort novamente, resultando no trio sendo capturado por Comensais da Morte e levado para a Mansão Malfoy.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 276,
+        "name": "Método de crescimento de cauda",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Hex",
+        "description": "Faz com que a vítima cresça uma cauda.",
+        "mention": "Quando Miranda Goshawk teve seu Livro de Feitiços impresso, ela deu cópias para suas irmãs que continham vários erros de impressão; um desses erros de impressão de alguma forma deu a sua irmã Romilda um rabo. Timothy Blenkinsop foi atingido por este feitiço quando foi pego no fogo cruzado de um motim entre Puddlemere United e Holyhead Harpies.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 277,
+        "name": "Tarantallegra",
+        "other_name": "Feitiço de Pés Dançantes",
+        "pronunciation": "ta-RON-ta-LEG-gra",
+        "spell_type": "Jinx",
+        "description": "Faz com que as pernas do alvo tenham espasmos fora de controle, fazendo parecer que estão dançando.",
+        "mention": "Usado pela primeira vez por Draco Malfoy em Harry Potter no Clube de Duelos em 1992.",
+        "etimologia": "Tarantella italiana, uma espécie de dança country rápida que já foi popular em partes da Itália, supostamente devido ao movimento frenético causado pela mordida de uma tarântula; e allegro, um termo musical que significa \"rápido\".",
+        "nota": null
+      },
+      {
+        "id": 278,
+        "name": "Xícara de chá para tartaruga",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Transfiguração",
+        "description": "Transforma uma xícara de chá em uma tartaruga.",
+        "mention": "Vista no site oficial da Scholastic Harry Potter.",
+        "etimologia": null,
+        "nota": "Pode estar relacionado ao bule de chá para feitiço de tartaruga abordado no terceiro ano na Escola de Magia e Bruxaria de Hogwarts."
+      },
+      {
+        "id": 279,
+        "name": "Bule para tartaruga",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Transfiguração",
+        "description": "Transforma um bule em uma tartaruga.",
+        "mention": "Os alunos do terceiro ano da Escola de Magia e Bruxaria de Hogwarts eram obrigados a lançar o feitiço durante os exames finais.",
+        "etimologia": null,
+        "nota": "Pode estar relacionado ao bule de chá para xícara de chá para feitiço de tartaruga."
+      },
+      {
+        "id": 280,
+        "name": "Feitiço para endireitar os dentes",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Endireita dentes tortos.",
+        "mention": "Sir Nicholas de Mimsy-Porpington tentou usar este feitiço em Lady Grieve a pedido dela, mas falhou e deu a ela uma presa. Ele foi executado na manhã seguinte. Depois de retornar como um fantasma, Nick Quase Sem Cabeça contou o incidente em uma balada.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 281,
+        "name": "Feitiço de teletransporte",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Feitiço",
+        "description": "Desaparece objetos que então aparecem em outro lugar.",
+        "mention": "Em 1996, Albus Dumbledore usou isso para transportar o material escolar, roupas e coruja de Harry Potter para a Toca.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 282,
+        "name": "Tentaclifors",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Transfiguração, Jinx",
+        "description": "Transfigura a cabeça do alvo em um tentáculo.",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 283,
+        "name": "Tergeo",
+        "outro_nome": null,
+        "pronunciation": "TUR-jee-oh",
+        "spell_type": "Charme",
+        "description": "Sifão líquido e limpeza de objetos.",
+        "mention": "Hermione Granger usou o feitiço em 1996 para remover sangue do rosto de Harry. Mais tarde, é usado para remover tinta derramada de pergaminho. Também foi usado em 1997 para limpar um lenço de Ron e tirar o pó de uma foto de Gellert Grindelwald na casa de Bathilda Bagshot por Harry Potter.",
+        "etimologia": "Latim tergere, \"apagar; limpar\".",
+        "nota": null
+      },
+      {
+        "id": 284,
+        "name": "Titillando",
+        "other_name": "Feitiço de Cócegas",
+        "pronunciation": "ti-tee-LAN-do",
+        "spell_type": "Hex",
+        "description": "Faze cócegas e enfraquece a vítima.",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 285,
+        "name": "Feitiçaria para crescer unha",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Hex",
+        "description": "Faz com que as unhas dos pés cresçam a uma taxa extrema e incontrolável.",
+        "mention": "Em 1996, Harry usou isso para muitos aplausos dos colegas, em Vincent Crabbe.",
+        "etimologia": null,
+        "nota": "Este é um feitiço que provavelmente não é aprovado pelo Ministério da Magia, pois foi inventado por Severus Snape."
+      },
+      {
+        "id": 286,
+        "name": "Tortura Transmogrífica",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Maldição",
+        "description": "Tortura a vítima até a morte.",
+        "mention": "Gilderoy Lockhart sugeriu que foi essa maldição que \"matou\" a Sra. Norris depois que ela foi realmente encontrada petrificada em um suporte de tocha.",
+        "etimologia": "Português \"transmogrificar\", que significa \"mudar ou alterar muito, muitas vezes com efeito grotesco\", possivelmente implicando que a maldição muda a forma da vítima para causar dor.",
+        "note": "O encantamento para esta maldição é possivelmente Transmogrificar."
+      },
+      {
+        "id": 287,
+        "name": "Viagem Jinx",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Jinx",
+        "description": "Força o alvo a tropeçar e cair.",
+        "mention": "Visto em 1996. Foi lançado com sucesso em Harry Potter por Draco Malfoy, quando ele e outros membros do Esquadrão Inquisitorial tentaram prender membros da Armada de Dumbledore.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 288,
+        "name": "Feitiçaria de orelhas trêmulas",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Hex",
+        "description": "Faz com que as orelhas da vítima estremeçam.",
+        "mention": "Miranda Goshawk recomendou que este feitiço fosse lançado em alguém praticando o Feitiço do Escudo.",
+        "etimologia": null,
+        "nota": ". Durante o teste de deflexão de Hex do quarto ano para Defesa Contra as Artes das Trevas, Harry Potter foi enfeitiçado com este feitiço por Bartemius Crouch Junior (então disfarçado de Alastor Moody)."
+      },
+      {
+        "id": 289,
+        "name": "Charme Inquebrável",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Torna os objetos inquebráveis.",
+        "mention": "Hermione Granger usou o feitiço em uma jarra, na qual ela colocou Rita Skeeter em sua forma de besouro animago para evitar que ela se transformasse novamente em humana.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 290,
+        "name": "Voto Perpétuo",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Feitiço",
+        "description": "Torna inviolável um voto feito por um bruxo ou bruxa; se eles o quebrarem, a consequência é a morte.",
+        "mention": "Snape fez um Juramento Perpétuo com Narcissa Malfoy no início de Enigma do Príncipe, prometendo ajudar o filho de Narcissa, Draco, com uma tarefa dada a ele por Voldemort, e terminar a tarefa caso Draco se mostrasse incapaz. Fred e George tentou forçar um Voto Perpétuo sobre Ron quando crianças. De acordo com Ron, causa a morte quando o voto é quebrado.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 291,
+        "name": "Voo não suportado",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Feitiço",
+        "description": "Permite que uma bruxa ou bruxo voe pelo ar sem ajuda. Técnica inventada por Lord Voldemort",
+        "mention": "Demonstrado por Tom Riddle durante a Batalha dos Sete Potters, e por Severus Snape antes de sua expulsão.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 292,
+        "name": "Feitiço de aspirador de pó",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Limpa objetos usando a varinha para sugar a poeira como um aspirador de pó.",
+        "mention": "Usado por Madame Malkin em 1996.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 293,
+        "name": "Ventus",
+        "other_name": "Ventus Jinx",
+        "pronunciation": "VEN-tuss",
+        "spell_type": "Jinx",
+        "description": "Dispara um jato de forte vento em espiral da ponta da varinha.",
+        "mention": "Usado por Newton Scamander para se encontrar Stebbins em uma rua de Londres, para espanto dos trouxas que passavam.",
+        "etimologia": "Ventus é uma palavra latina que significa \"vento\".",
+        "nota": null
+      },
+      {
+        "id": 294,
+        "name": "Ventus Duo",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Jinx",
+        "description": "Uma versão mais forte do Ventus Jinx",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 295,
+        "name": "Vera Verto",
+        "outro_nome": null,
+        "pronunciation": "vair-uh-VAIR-toh",
+        "spell_type": "Transfiguração",
+        "description": "Transforme animais em cálices de água.",
+        "mention": "Ensinado por Minerva McGonagall em sua aula de Transfiguração. Também usado por Ronald Weasley sem sucesso em uma de suas aulas do segundo ano graças a sua varinha danificada.",
+        "etimologia": "Do latim vera, que significa \"certo\" ou \"adequado\", e verto, que significa “eu viro”.",
+        "nota": null
+      },
+      {
+        "id": 296,
+        "name": "Verdillious",
+        "outro_nome": null,
+        "pronunciation": "ver-DILL-ee-us",
+        "spell_type": "Charme",
+        "description": "Um feitiço usado para atirar faíscas verdes da ponta da varinha.",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 297,
+        "name": "Verdimilious",
+        "other_name": "Encanto verdimilioso",
+        "pronunciation": "vur-duh-MILL-ee-us",
+        "spell_type": "Charme",
+        "description": "Produz um jato de faíscas verdes que podem ser usadas em duelos, ou para revelar coisas escondidas pela magia negra.",
+        "mention": "Dou aulas na classe de escritório do professor de Defesa Contra as Artes das Trevas do primeiro ano.",
+        "etimologia": null,
+        "note": "Este feitiço é quase certamente o encantamento para Green Sparks."
+      },
+      {
+        "id": 298,
+        "name": "Dupla Verdimiliosa",
+        "outro_nome": null,
+        "pronunciation": "VERD-dee-MILL-lee-us",
+        "spell_type": "Charme",
+        "description": "Uma versão mais poderosa de Verdimillious.",
+        "mention": "Aprendi no primeiro ano de Defesa Contra as Artes das Trevas.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 299,
+        "name": "Vermículo",
+        "other_name": "Vermiculus Jinx",
+        "pronunciation": "vur-MICK-yoo-luhs",
+        "spell_type": "Transfiguração",
+        "description": "Transforma coisas em vermes.",
+        "mention": "Apareceu em Harry Potter e o Cálice de Fogo (vídeo game).",
+        "etimologia": null,
+        "note": "Este feitiço pode ter alguma conexão com Squiggle Quill."
+      },
+      {
+        "id": 300,
+        "name": "Vermilioso",
+        "other_name": "Faíscas Vermelhas",
+        "pronunciation": "vur-MILL-ee-us",
+        "spell_type": "Charme",
+        "description": "Jato de faíscas vermelhas que pode ser usado para sinalizar uma emergência ou como um pequeno feitiço de duelo.",
+        "mention": null,
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 301,
+        "name": "Vipera Evanesca",
+        "other_name": "Feitiço de desaparecimento de cobra",
+        "pronunciation": "vee-PAIR-uh eh-vuh-NES-kuh",
+        "spell_type": "Desaparecimento",
+        "description": "Desaparece cobras. Posteriormente, é o contra-feitiço para o Feitiço de Invocação de Cobra.",
+        "mention": "Severus Snape lançou este feitiço em 1992 no Clube de Duelos para fazer desaparecer uma cobra que Draco Malfoy havia conjurado enquanto duelava com Harry Potter.",
+        "etimologia": "Vipera é um gênero de víboras venenosas, um tipo de cobra. Evanesca provavelmente compartilha sua origem com Evanesco, que significa \"desaparecer\" em latim.",
+        "nota": null
+      },
+      {
+        "id": 302,
+        "name": "Vulnera Sanentur",
+        "outro_nome": null,
+        "pronunciation": "VUL-ner-ah sah-NEN-tour",
+        "spell_type": "Feitiço de Cura",
+        "description": "Feitiço de cura que retarda o fluxo sanguíneo, limpa resíduos e cicatriza feridas. É a contra-maldição para Sectumsempra.",
+        "mention": "Usado por Severus Snape para curar as feridas de Draco Malfoy causadas pela maldição Sectumsempra lançada por Harry Potter em 1997.",
+        "etimologia": "Vulnera Sanentur deriva do latim vulnus, \"ferida,\"",
+        "nota": null
+      },
+      {
+        "id": 303,
+        "name": "Waddiwasi",
+        "outro_nome": null,
+        "pronunciation": "wah-deh-WAH-ver",
+        "spell_type": "Charme",
+        "description": "Usado para disparar massas pequenas e macias de qualquer coisa que o lançador desejar no alvo",
+        "mention": "Elenco de Remus Lupin em 1993, em Pirraça, o Poltergeist, mandando um chiclete pelo nariz.",
+        "etimologia": "\"Waddiwasi\" vem de duas palavras. \"Vadd\" e \"vas-y\". \"Vadd\" é uma palavra sueca que pode significar \"wadding\" e \"vas -y\" é um termo francês que significa \"vá em frente\" ou \"Vamos lá!\" Juntos, eles podem significar aproximadamente \"O maço vai em frente\"",
+        "note": "Este feitiço pode estar relacionado ao Oppugno Jinx."
+      },
+      {
+        "id": 304,
+        "name": "Feitiço para lavar a louça",
+        "outro_nome": null,
+        "pronunciation": null,
+        "spell_type": "Charme",
+        "description": "Pratos sujos encantados para se lavar.",
+        "mention": "Foi usado não verbalmente por Molly Weasley depois de preparar o café da manhã para Harry Potter em sua chegada à Toca em 4 de agosto de 1992.",
+        "etimologia": null,
+        "nota": null
+      },
+      {
+        "id": 305,
+        "name": "Wingardium Leviosa",
+        "other_name": "Feitiço de Levitação",
+        "pronunciation": "win-GAR-dee-um lev-ee-OH-sa",
+        "spell_type": "Charme",
+        "description": "Faz os objetos voarem ou levitarem.",
+        "mention": "Este feitiço é ensinado nas aulas de feitiços do primeiro ano; ele passou a ser bem usado mais tarde naquele ano, quando Ron Weasley executou o feitiço para nocautear um troll da montanha; seis anos depois, Harry usa o feitiço para levitar o carro lateral da moto voadora de seu padrinho; Ron o usou novamente este ano para fazer um galho cutucar uma árvore.",
+        "etimologia": "\"Wingardium\" quase certamente contém o inglês wing, que significa \"voar\". \"Leviosa\" provavelmente se origina do latim levis, que significa \"luz\".",
+        "nota": null
+      }
+    ],
   potions: [
     {
       "id": 1,
-      "name": "Ageing Potion",
-      "description": "A potion that, depending on the amount taken, ages the drinker to various ages."
+      "name": "Poção de Envelhecimento",
+      "description": "Uma poção que, dependendo da quantidade ingerida, envelhece o bebedor em várias idades."
     },
     {
       "id": 2,
-      "name": "Alihotsy Draught",
-      "description": "A potion from the Alihotsy plant; causes hysterical laughter."
+      "name": "Rascunho Alihotsy",
+      "description": "Uma poção da planta Alihotsy; provoca risadas histéricas."
     },
     {
       "id": 3,
-      "name": "Amortentia",
-      "description": "The world's strongest Love Potion; does not create real love, just powerful obsession."
+      "name": "Amortencia",
+      "description": "A Poção do Amor mais forte do mundo; não cria amor verdadeiro, apenas obsessão poderosa."
     },
     {
       "id": 4,
-      "name": "Angel's Trumpet Draught",
-      "description": "Effects and usage of this potion are unknown."
+      "name": "Rascunho da Trombeta do Anjo",
+      "description": "Efeitos e uso desta poção são desconhecidos."
     },
     {
       "id": 5,
-      "name": "Anti-Paralysis Potion",
-      "description": "A potion that heals paralysis."
+      "name": "Poção Anti-Paralisia",
+      "description": "Uma poção que cura paralisia."
     },
     {
       "id": 6,
-      "name": "Antidote to Common Poisons",
-      "description": "A potion that reverses the effects of common poisons. Contains Bezoar, Mistletoe Berries, and Unicorn Horns."
+      "name": "Antídoto para Venenos Comuns",
+      "description": "Uma poção que reverte os efeitos de venenos comuns. Contém Bezoar, Bagas de Visco e Chifres de Unicórnio."
     },
     {
       "id": 7,
-      "name": "Antidote to Uncommon Poisons",
-      "description": "A potion that reverses the effects of uncommon poisons."
+      "name": "Antídoto para Venenos Incomuns",
+      "description": "Uma poção que reverte os efeitos de venenos incomuns."
     },
     {
       "id": 8,
-      "name": "Antidote to Veritaserum",
-      "description": "A potion that removes the effects of Veritaserum."
+      "name": "Antídoto para Veritaserum",
+      "description": "Uma poção que remove os efeitos do Veritaserum."
     },
     {
       "id": 9,
-      "name": "Armadillo Bile Mixture",
-      "description": "Unknown"
+      "name": "Mistura Bile de Tatu",
+      "description": "Desconhecido"
     },
     {
       "id": 10,
-      "name": "Babbling Beverage",
-      "description": "A potion that causes uncontrollable speaking of nonsense."
+      "name": "Bebida balbuciante",
+      "description": "Uma poção que causa falação incontrolável de bobagens."
     },
     {
       "id": 11,
-      "name": "Baneberry Potion",
-      "description": "A poisonous brew of unknown exact effect."
+      "name": "Poção Baneberry",
+      "description": "Uma poção venenosa de efeito exato desconhecido."
     },
     {
       "id": 12,
-      "name": "Baruffio's Brain Elixir",
-      "description": "A potion that apparently increases the taker's brain power."
+      "name": "Elixir do Cérebro de Baruffio",
+      "description": "Uma poção que aparentemente aumenta o poder cerebral de quem a toma."
     },
     {
       "id": 13,
-      "name": "Beautification Potion",
-      "description": "A potion that makes the taker very beautiful."
+      "name": "Poção de Embelezamento",
+      "description": "Uma poção que deixa o usuário muito bonito."
     },
     {
       "id": 14,
-      "name": "Befuddlement Draught",
-      "description": "A potion that makes the taker confused and reckless."
+      "name": "Poção de Perplexidade",
+      "description": "Uma poção que deixa o usuário confuso e imprudente."
     },
     {
       "id": 15,
-      "name": "Beguiling Bubbles",
-      "description": "A Love Potion sold at Weasleys' Wizard Wheezes."
+      "name": "Bolhas Sedutoras",
+      "description": "Uma Poção do Amor vendida na Weasleys' Wizard Wheezes."
     },
     {
       "id": 16,
-      "name": "Black Fire Potion",
-      "description": "A potion that makes the taker able to move through black fire uninjured."
+      "name": "Poção de Fogo Negro",
+      "description": "Uma poção que torna o usuário capaz de se mover através do fogo negro ileso."
     },
     {
       "id": 17,
       "name": "Blemish Blitzer",
-      "description": "A potion that most likely gets rid of acne."
+      "description": "Uma poção que provavelmente elimina a acne."
     },
     {
       "id": 18,
-      "name": "Blood-Replenishing Potion",
-      "description": "A potion that replenishes the taker's blood if they have been injured and lost blood."
+      "name": "Poção de Reabastecimento de Sangue",
+      "description": "Uma poção que reabastece o sangue do tomador se ele foi ferido e perdeu sangue."
     },
     {
       "id": 19,
-      "name": "Bloodroot Poison",
-      "description": "A poisonous potion."
+      "name": "Veneno da raiz de sangue",
+      "description": "Uma poção venenosa."
     },
     {
       "id": 20,
-      "name": "Bruise removal paste",
-      "description": "A paste invented by Fred and George Weasley to remove bruises."
+      "name": "Pasta de remoção de hematomas",
+      "description": "Uma pasta inventada por Fred e George Weasley para remover hematomas."
     },
     {
       "id": 21,
-      "name": "Bulgeye Potion",
-      "description": "Presumed to make the taker's eyes swell."
+      "name": "Poção de Olho Protuberante",
+      "description": "Supõe-se que faça os olhos do comprador inchar."
     },
     {
       "id": 22,
-      "name": "Bundimun Pomade",
-      "description": "A potion that is presumably a hair pomade containing Bundimun secretion."
+      "name": "Bundimun Pomada",
+      "description": "Uma poção que é presumivelmente uma pomada de cabelo contendo secreção de Bundimun."
     },
     {
       "id": 23,
-      "name": "Bundimun Secretion",
-      "description": "A magical substance that, when diluted, is known to be used in some magical cleaning products."
+      "name": "Secreção de Bundimun",
+      "description": "Uma substância mágica que, quando diluída, é conhecida por ser usada em alguns produtos de limpeza mágicos."
     },
     {
       "id": 24,
-      "name": "Burn-Healing Paste",
-      "description": "A thick paste used to heal burns."
+      "name": "Pasta de Cura de Queimaduras",
+      "description": "Uma pasta grossa usada para curar queimaduras."
     },
     {
       "id": 25,
-      "name": "Burning Bitterroot Balm",
-      "description": "Presumably a soothing balsam made from the Bitterroot plant."
+      "name": "Bálsamo Ardente Bitterroot",
+      "description": "Presumivelmente um bálsamo calmante feito da planta Bitterroot."
     },
     {
       "id": 26,
-      "name": "Calming Draught",
-      "description": "A potion that calms the user of shock, trauma, etc."
+      "name": "Poção Calmante",
+      "description": "Uma poção que acalma o usuário de choque, trauma, etc."
     },
     {
       "id": 27,
-      "name": "Caxambu Style Borborygmus Potion",
-      "description": "Provokes stomach growling"
+      "name": "Poção Borborigmo Estilo Caxambu",
+      "description": "Provoca roncar no estômago"
     },
     {
       "id": 28,
-      "name": "Cheese-Based Potions",
-      "description": "Potions whose main ingredients are cheese."
+      "name": "Poções à Base de Queijo",
+      "description": "Poções cujos ingredientes principais são queijo."
     },
     {
       "id": 29,
       "name": "Chelidonium Miniscula",
-      "description": "The effects of this potion are unknown."
+      "description": "Os efeitos desta poção são desconhecidos."
     },
     {
       "id": 30,
-      "name": "Confusing Concoction",
-      "description": "A potion that confuses the taker."
+      "name": "Mistura Confusa",
+      "description": "Uma poção que confunde o tomador."
     },
     {
       "id": 31,
-      "name": "Cough Potion",
-      "description": "A potion that soothes and reduces coughs."
+      "name": "Poção para tosse",
+      "description": "Uma poção que acalma e reduz a tosse."
     },
     {
       "id": 32,
-      "name": "Cupid Crystals",
-      "description": "A Love Potion sold at Weasleys' Wizard Wheezes."
+      "name": "Cupido Cristais",
+      "description": "Uma Poção do Amor vendida na Weasleys' Wizard Wheezes."
     },
     {
       "id": 33,
-      "name": "Cure for Boils",
-      "description": "A potion that cures boils. Seen/Mentioned: Taught to first years in Potions class."
+      "name": "Cura para furúnculos",
+      "description": "Uma poção que cura furúnculos. Visto/Mencionado: Ensinado aos primeiros anos na aula de Poções."
     },
     {
       "id": 34,
       "name": "Dawdle Draught",
-      "description": "Helps the drinker deal with traces."
+      "description": "Ajuda o bebedor a lidar com vestígios."
     },
     {
       "id": 35,
-      "name": "Death potion",
-      "description": "Kills those who come into contact with it"
+      "name": "Poção da morte",
+      "description": "Mata aqueles que entram em contato com ele"
     },
     {
       "id": 36,
-      "name": "Death-Cap Draught",
-      "description": "Effects of this potion are unknown, but it is possibly a poison."
+      "name": "De ath-Cap Draft",
+      "description": "Os efeitos desta poção são desconhecidos, mas possivelmente é um veneno."
     },
     {
       "id": 37,
-      "name": "Deflating Draught",
-      "description": "A potion that deflates anything swollen by magical means."
+      "name": "Desinflando Calado",
+      "description": "Uma poção que esvazia qualquer coisa inchada por meios mágicos."
     },
     {
       "id": 38,
-      "name": "Developing Solution",
-      "description": "A potion used in the developing of magical photographs, making them move."
+      "name": "Solução em desenvolvimento",
+      "description": "Uma poção usada na revelação de fotografias mágicas, fazendo-as se mover."
     },
     {
       "id": 39,
-      "name": "Dizziness Draught",
-      "description": "A potion that makes the taker dizzy and lightheaded."
+      "name": "Poção de Tontura",
+      "description": "Uma poção que deixa o usuário tonto e tonto."
     },
     {
       "id": 40,
-      "name": "Dogbane Potion",
-      "description": "The effects of this potion are unknown, but it is possibly poisonous to dogs."
+      "name": "Poção Dogbane",
+      "description": "Os efeitos desta poção são desconhecidos, mas possivelmente é venenosa para cães."
     },
     {
       "id": 41,
-      "name": "Dogbreath Potion",
-      "description": "Gives the drinker a fiery breath. Has a purple hue"
+      "name": "Poção Bafo de Cachorro",
+      "description": "Dá ao bebedor um sopro de fogo. Tem uma tonalidade roxa"
     },
     {
       "id": 42,
-      "name": "Doxycide",
-      "description": "A solution that kills Doxys"
+      "name": "Doxicídio",
+      "description": "Uma solução que mata Doxys"
     },
     {
       "id": 43,
-      "name": "Dr Ubbly's Oblivious Unction",
-      "description": "Heals wounds given by thoughts."
+      "name": "Unção Inconsciente do Dr. Ubbly",
+      "description": "Cura feridas causadas por pensamentos."
     },
     {
       "id": 44,
-      "name": "Dragon Poison",
-      "description": "A poisonous potion most likely taken from dragons."
+      "name": "Veneno do Dragão",
+      "description": "Uma poção venenosa provavelmente retirada de dragões."
     },
     {
       "id": 45,
-      "name": "Dragon Tonic",
-      "description": "A tonic used to heal sickly dragons."
+      "name": "Dragão Tônico",
+      "description": "Um tônico usado para curar dragões doentes."
     },
     {
       "id": 46,
-      "name": "Dragon dung fertiliser",
-      "description": "A solution that helps plants grow."
+      "name": "Fertilizante de estrume de dragão",
+      "description": "Uma solução que ajuda as plantas a crescer."
     },
     {
       "id": 47,
-      "name": "Draught of Living Death",
-      "description": "A potion that places the taker in a state of sleep that makes them seem like they are dead. Seen/Mentioned: Severus Snape asked a question related to this potion to Harry in 1991; Horace Slughorn showed it to 6th years in 1996."
+      "name": "Draft of Living Death",
+      "description": "Uma poção que coloca o usuário em um estado de sono que os faz parecer que estão mortos. Visto/Mencionado: Severus Snape fez uma pergunta relacionada a esta poção para Harry em 1991; Horácio Slughorn mostrou para o 6º ano em 1996.",
     },
     {
       "id": 48,
-      "name": "Draught of Peace",
-      "description": "A potion that relieves anxiety."
+      "name": "Draft of Peace",
+      "description": "Uma poção que alivia a ansiedade."
     },
     {
       "id": 49,
-      "name": "Dreamless Sleep Potion",
-      "description": "A potion that places the taker in a sleep that is dreamless."
+      "name": "Poção do sono sem sonhos",
+      "description": "Uma poção que coloca o usuário em um sono sem sonhos."
     },
     {
       "id": 50,
-      "name": "Drink of Despair",
-      "description": "A potion that puts the taker in extreme pain."
+      "name": "Bebida do Desespero",
+      "description": "Uma poção que coloca o usuário em dor extrema."
     },
     {
       "id": 51,
-      "name": "Drowsiness Draught",
-      "description": "Makes drinker drowsy"
+      "name": "Poção de sonolência",
+      "description": "Deixa o bebedor sonolento"
     },
     {
       "id": 52,
-      "name": "Elixir of Life",
-      "description": "A potion created from the Philosopher's Stone that extend the taker's life. Seen/Mentioned: Hermione Granger told Harry and Ron about this in 1991. Nicolas Flamel and his wife are known to be using it and they lived upto more that 600 years."
+      "name": "Elixir da Vida",
+      "description": "Uma poção criada a partir da Pedra Filosofal que prolonga a vida do usuário. Visto/Mencionado: Hermione Granger contou a Harry e Ron sobre isso em 1991. Nicolas Flamel e sua esposa são conhecidos por usá-la e viveram até mais do que 600 anos."
     },
     {
       "id": 53,
-      "name": "Elixir to Induce Euphoria",
-      "description": "A potion that induces a sense of inexplicable, irrational happiness upon the drinker."
+      "name": "Elixir para Induzir Euforia",
+      "description": "Uma poção que induz uma sensação de felicidade inexplicável e irracional no bebedor."
     },
     {
       "id": 54,
-      "name": "Erumpent Potion",
-      "description": "A potion that is highly explosive when it touches or is touched by an outside source."
+      "name": "Poção Erumpente",
+      "description": "Uma poção que é altamente explosiva quando toca ou é tocada por uma fonte externa."
     },
     {
       "id": 55,
       "name": "Everklena",
-      "description": "A supposed cleaning product that in reality caused grime to spawn."
+      "description": "Um suposto produto de limpeza que, na realidade, causou o surgimento de sujeira."
     },
     {
       "id": 56,
-      "name": "Essence of Insanity",
-      "description": "A potion which presumably causes irrational behaviour, possibly inflicting the condition of insanity. Seen/Mentioned: Ronald Weasley and Hermione Granger thought Harry had accidentally consumed it, due to his strange behaviour after consuming the Felix Felicis."
+      "name": "Essência da Insanidade",
+      "description": "Uma poção que presumivelmente causa um comportamento irracional, possivelmente infligindo a condição de insanidade. Visto/Mencionado: Ronald Weasley e Hermione Granger pensaram que Harry a havia consumido acidentalmente, devido ao seu comportamento estranho após consumir o Felix Felicis."
     },
     {
       "id": 57,
-      "name": "Everlasting Elixirs",
-      "description": "A potion with the effect to either never run out of potion or to work forever."
+      "name": "Elixires Eternos",
+      "description": "Uma poção com o efeito de nunca ficar sem poção ou funcionar para sempre."
     },
     {
       "id": 58,
-      "name": "Exploding Potion",
-      "description": "A very volatile potion, and when completed, can be used to create explosions."
+      "name": "Poção Explosiva",
+      "description": "Uma poção muito volátil e, quando completada, pode ser usada para criar explosões."
     },
     {
       "id": 59,
-      "name": "Exstimulo Potion",
-      "description": "Boosts the spell power of the drinker."
+      "name": "Poção Exstimulo",
+      "description": "Aumenta o poder mágico do bebedor."
     },
     {
       "id": 60,
-      "name": "Fake Protective Potions",
-      "description": "A potion that claimed to protect the taker from Dark magic, but did not."
+      "name": "Poções Protetoras Falsas",
+      "description": "Uma poção que alegava proteger o usuário da magia negra, mas não o fazia."
     },
     {
       "id": 61,
-      "name": "Fatiguing Infusion",
-      "description": "A potion that, when either drank or inhaled, caused fatigue."
+      "name": "Infusão Fatigante",
+      "description": "Uma poção que, quando bebida ou inalada, causava fadiga."
     },
     {
       "id": 62,
-      "name": "Felix Felicis (Also known as Liquid Luck)",
-      "description": "A magical potion that makes the taker successful in all their endeavours."
+      "name": "Felix Felicis (Também conhecido como Liquid Luck)",
+      "description": "Uma poção mágica que torna o usuário bem-sucedido em todos os seus empreendimentos."
     },
     {
       "id": 63,
       "name": "Fergus Fungal Budge",
-      "description": "A fungicidal product that treated ringworm infections on the feet."
+      "description": "Um produto fungicida que trata infecções por micose nos pés."
     },
     {
       "id": 64,
-      "name": "Fire Protection Potion",
-      "description": "A potion that protects the taker from being burnt."
+      "name": "Poção de Proteção contra Fogo",
+      "description": "Uma poção que protege o usuário de ser queimado."
     },
     {
       "id": 65,
-      "name": "Flesh-Eating Slug Repellent",
-      "description": "A pesticide that repels flesh-eating slugs."
+      "name": "Repelente de lesmas comedoras de carne",
+      "description": "Um pesticida que repele lesmas comedoras de carne."
     },
     {
       "id": 66,
-      "name": "Forgetfulness Potion",
-      "description": "A potion that makes the taker forgetful."
+      "name": "Poção do Esquecimento",
+      "description": "Uma poção que faz o usuário esquecer."
     },
     {
       "id": 67,
-      "name": "Frog Parts Mixture",
-      "description": "A packet of potion ingredients that most likely contained frog parts."
+      "name": "Mistura de partes de sapo",
+      "description": "Um pacote de ingredientes de poções que provavelmente continha partes de sapo."
     },
     {
       "id": 68,
-      "name": "Fungiface Potion",
-      "description": "A potion that makes the taker's face break out in fungi."
+      "name": "Poção Fungiface",
+      "description": "Uma poção que faz o rosto do usuário ficar cheio de fungos."
     },
     {
       "id": 69,
-      "name": "Garrotting Gas",
-      "description": "A gas that induces choking and possibly suffocates the taker."
+      "name": "Gás de Garrote",
+      "description": "Um gás que induz sufocamento e possivelmente sufoca o usuário."
     },
     {
       "id": 70,
-      "name": "Girding Potion",
-      "description": "A potion that gives the taker extra endurance."
+      "name": "Poção de Córrego",
+      "description": "Uma poção que dá resistência extra ao usuário."
     },
     {
       "id": 71,
-      "name": "Grand Pepperup Potion",
-      "description": "A stronger version of Pepperup Potion."
+      "name": "Grande Poção de Pimentão",
+      "description": "Uma versão mais forte da Poção Reanimadora."
     },
     {
       "id": 72,
-      "name": "Grand Wiggenweld Potion",
-      "description": "Most likely a stronger version of Wiggenweld Potion."
+      "name": "Grande Poção Wiggenweld",
+      "description": "Provavelmente uma versão mais forte da Poção Wiggenweld."
     },
     {
       "id": 73,
-      "name": "Gregory's Unctuous Unction",
-      "description": "A potion that causes the drinker to believe that whomever gave the potion to them is their best friend."
+      "name": "Unção Untuosa de Gregory",
+      "description": "Uma poção que faz com que o bebedor acredite que quem deu a poção a ele é seu melhor amigo."
     },
     {
       "id": 74,
-      "name": "Hair-Raising Potion",
-      "description": "A potion that causes the taker's hair to stand on end."
+      "name": "Poção de Arrepiar os Cabelos",
+      "description": "Uma poção que faz o cabelo do usuário ficar em pé."
     },
     {
       "id": 75,
-      "name": "Hate Potion",
-      "description": "A potion that shows the taker's worst traits and habits."
+      "name": "Poção do Ódio",
+      "description": "Uma poção que mostra as piores características e hábitos de quem a toma."
     },
     {
       "id": 76,
-      "name": "Heartbreak Teardrops",
-      "description": "A potion sold by Fred and George Weasley at Weasleys' Wizard Wheezes."
+      "name": "Lágrimas de coração partido",
+      "description": "Uma poção vendida por Fred e George Weasley na Weasleys' Wizard Wheezes."
     },
     {
       "id": 77,
-      "name": "Herbicide Potion",
-      "description": "A potion that either kills or damages plants. Contains Flobberworm mucus, Horclump juice, and Spines of lionfish. Seen/Mentioned: Magical Drafts and Potions  by Arsenius Jiggles."
+      "name": "Poção Herbicida",
+      "description": "Uma poção que mata ou danifica as plantas. Contém muco Flobberworm, suco de Horclump e espinhos de peixe-leão. Visto/Mencionado: Poções e Poções Mágicas  de Arsenius Jiggles."
     },
     {
       "id": 78,
-      "name": "Hiccoughing Solution",
-      "description": "A potion that most likely cures hiccups."
+      "name": "Solução para soluços",
+      "description": "Uma poção que provavelmente cura soluços."
     },
     {
       "id": 79,
-      "name": "Invigoration Draught",
-      "description": "A potion that is presumed to give the taker an energy boost."
+      "name": "Poção de Revigoramento",
+      "description": "Uma poção que supostamente dá ao usuário um aumento de energia."
     },
     {
       "id": 80,
-      "name": "Invisibility Potion",
-      "description": "A potion that makes the taker invisible."
+      "name": "Poção de Invisibilidade",
+      "description": "Uma poção que torna o usuário invisível."
     },
     {
       "id": 81,
-      "name": "Jawbind Potion",
-      "description": "A potion that induces lockjaw"
+      "name": "Poção Jawbind",
+      "description": "Uma poção que induz lockjaw"
     },
     {
       "id": 82,
-      "name": "Kissing Concoction",
-      "description": "A potion created by Fred and George Weasley sold at Weasleys' Wizard Wheezes."
+      "name": "Pintura de Beijo",
+      "description": "Uma poção criada por Fred e George Weasley vendida na Weasleys' Wizard Wheezes."
     },
     {
       "id": 83,
-      "name": "Laugh-inducing Potion",
-      "description": "A potion that makes the taker laugh uncontrollably."
+      "name": "Poção Indutora de Risos",
+      "description": "Uma poção que faz o usuário rir incontrolavelmente."
     },
     {
       "id": 84,
-      "name": "Laxative Potion",
-      "description": "A potion that is most likely a laxative."
+      "name": "Poção Laxante",
+      "description": "Uma poção que provavelmente é um laxante."
     },
     {
       "id": 85,
-      "name": "Love Potion",
-      "description": "Any of a large number of potions that make the taker fall in love with the person that has given it to them."
+      "name": "Poção do Amor",
+      "description": "Qualquer um de um grande número de poções que fazem o tomador se apaixonar pela pessoa que a deu a ele."
     },
     {
       "id": 86,
-      "name": "Love Potion Antidote",
-      "description": "Antidote to love potions."
+      "name": "Antídoto da Poção do Amor",
+      "description": "Antídoto para poções do amor."
     },
     {
       "id": 87,
-      "name": "Lung Clearing Potion",
-      "description": "A potion whose effects are unknown; most likely cures the taker of lung infections."
+      "name": "Poção de Limpeza do Pulmão",
+      "description": "Uma poção cujos efeitos são desconhecidos; provavelmente cura o portador de infecções pulmonares."
     },
     {
       "id": 88,
-      "name": "Magi-Me-More",
-      "description": "Magical pills that allegedly allow the regaining power and concentration that some elderly wizards lose over the years."
+      "name": "Magi-Me-Mais",
+      "description": "Pílulas mágicas que supostamente permitem recuperar o poder e a concentração que alguns bruxos idosos perdem com o passar dos anos."
     },
     {
       "id": 89,
-      "name": "Madame Glossy's Silver Polish",
-      "description": "A magical cleaning solution."
+      "name": "Verniz prateado Madame Glossy",
+      "description": "Uma solução de limpeza mágica."
     },
     {
       "id": 90,
-      "name": "Malevolent Mixture",
-      "description": "A potion that is most likely a poison or produces other bad effects."
+      "name": "Mistura Malévola",
+      "description": "Uma poção que provavelmente é um veneno ou produz outros efeitos ruins."
     },
     {
       "id": 91,
-      "name": "Mandrake Restorative Draught",
-      "description": "A potion made from Mandrakes that restores a person that has been petrified to their original state."
+      "name": "Postura Restauradora de Mandrágora",
+      "description": "Uma poção feita de Mandrágoras que restaura uma pessoa que foi petrificada ao seu estado original."
     },
     {
       "id": 92,
-      "name": "Manegro Potion",
-      "description": "Causes hair on drinker's head to grow out rapidly"
+      "name": "Poção Manegro",
+      "description": "Faz com que o cabelo na cabeça do bebedor cresça rapidamente"
     },
     {
       "id": 93,
-      "name": "Maximum Turbo Farts Potion",
-      "description": "resumably causes the drinker to rapidly develop flatulence"
+      "name": "Poção Turbo Máxima de Peidos",
+      "description": "resumivelmente faz com que o bebedor desenvolva flatulência rapidamente"
     },
     {
       "id": 94,
-      "name": "Memory Potion",
-      "description": "Enhances the drinker's memory"
+      "name": "Poção de Memória",
+      "description": "Melhora a memória do bebedor"
     },
     {
       "id": 95,
-      "name": "Moonseed Poison",
-      "description": "A poison made with moonseed"
+      "name": "Veneno da Semente Lunar",
+      "description": "Um veneno feito com semente da lua"
     },
     {
       "id": 96,
-      "name": "Mopsus Potion",
-      "description": "presumably gives one Seer-like power possibly the ability to manipulate objects telekinetically."
+      "name": "Poção Mopsus",
+      "description": "presumivelmente dá a um poder semelhante ao do Vidente, possivelmente a habilidade de manipular objetos telecineticamente."
     },
     {
       "id": 97,
-      "name": "Mouth Itching Antidote",
-      "description": "Cures Mouth Itching (possibly)"
+      "name": "Antídoto para Coceira na Boca",
+      "description": "Cura coceira na boca (possivelmente)"
     },
     {
       "id": 98,
-      "name": "Muffling Draught",
-      "description": "A potion most likely used to silence people and/or various objects"
+      "name": "Poção abafadora",
+      "description": "Uma poção provavelmente usada para silenciar pessoas e/ou vários objetos"
     },
     {
       "id": 99,
-      "name": "Mrs Scower's All-Purpose Magical Mess Remover",
-      "description": "Removes stains"
+      "name": "Removedor Mágico de Sujeira Multifuncional da Sra. Scower",
+      "description": "Remove manchas"
     },
     {
       "id": 100,
-      "name": "Murtlap Essence",
-      "description": "Soothes and heals painful cuts and abrasions"
+      "name": "Essência de murtlap",
+      "description": "Acalma e cura cortes dolorosos e abrasões"
     },
     {
       "id": 101,
-      "name": "Noxious Potion",
-      "description": "Releases green clouds of smoke when completed. Exact effects are unknown, but it is possibly used as a poison."
+      "name": "Poção Nociva",
+      "description": "Libera nuvens verdes de fumaça quando concluído. Os efeitos exatos são desconhecidos, mas possivelmente é usado como veneno."
     },
     {
       "id": 102,
-      "name": "Oculus Potion",
-      "description": "Restores the drinker's sight Counteracts the Conjunctivitis Curse"
+      "name": "Poção Oculus",
+      "description": "Restaura a visão do bebedor Neutraliza a Maldição da Conjuntivite"
     },
     {
       "id": 103,
-      "name": "Pepperup Potion",
-      "description": "Relieves and/or cures cold symptoms. Seen/Mentioned: Madam Pomfrey uses it on students in 1992."
+      "name": "Poção de pimenta",
+      "description": "Alivia e/ou cura sintomas de resfriado. Visto/Mencionado: Madame Pomfrey usa em estudantes em 1992."
     },
     {
       "id": 104,
-      "name": "Poison Antidote",
+      "name": "Antídoto de Veneno",
       "description": ""
     },
     {
       "id": 105,
-      "name": "Polyjuice Potion",
-      "description": "Temporarily transforms the drinker into another person. The drinker will take on the appearance of the person whose hair, fingernails, etc., are added to the potion. Not to be used for transforming into an animal. Seen/Mentioned: In 1992 used by Harry and Ron to enter Slytherin common Room; Severus Snape thought Harry was stealing his ingredients to make a polyjuice potion; Used multiple times in 1997 and 1998."
+      "name": "Poção Polissuco",
+      "description": "Transforma temporariamente o bebedor em outra pessoa. O bebedor assumirá a aparência da pessoa cujo cabelo, unhas, etc. foram adicionados à poção. Não deve ser usado para se transformar em um animal. Visto/Mencionado : Em 1992, usado por Harry e Ron para entrar na Sala Comunal da Sonserina; Severus Snape pensou que Harry estava roubando seus ingredientes para fazer uma poção polissuco; Usado várias vezes em 1997 e 1998."
     },
     {
       "id": 106,
-      "name": "Pompion Potion",
-      "description": "Temporarily turns the drinker's head into a pumpkin"
+      "name": "Poção de Pompião",
+      "description": "Temporariamente transforma a cabeça do bebedor em uma abóbora"
     },
     {
       "id": 107,
-      "name": "Potion N. 220",
+      "name": "Poção N. 220",
       "description": ""
     },
     {
       "id": 108,
-      "name": "Potion No. 07",
-      "description": "Experimental mix Poisonous"
+      "name": "Poção No. 07",
+      "description": "Mistura experimental venenosa"
     },
     {
       "id": 109,
-      "name": "Potion No. 113",
-      "description": "Most likely an experimental mix"
+      "name": "Poção nº 113",
+      "description": "Provavelmente uma mistura experimental"
     },
     {
       "id": 110,
-      "name": "Potion No. 86",
-      "description": "Highly poisonous"
+      "name": "Poção nº 86",
+      "description": "Altamente venenoso"
     },
     {
       "id": 111,
-      "name": "Potion No. 329",
+      "name": "Poção nº 329",
       "description": ""
     },
     {
       "id": 112,
-      "name": "Quodpot solution",
-      "description": "Prevents the Quod from exploding."
+      "name": "Solução Quodpot",
+      "description": "Evita que o Quod exploda."
     },
     {
       "id": 113,
-      "name": "Rano Potion",
+      "name": "Poção Rano",
       "description": ""
     },
     {
       "id": 114,
-      "name": "Rat Spleen Mixture",
+      "name": "Mistura de Baço de Rato",
       "description": ""
     },
     {
       "id": 115,
-      "name": "Rat tonic",
-      "description": "Healing potion for rats."
+      "name": "Tônico para ratos",
+      "description": "Poção de cura para ratos."
     },
     {
       "id": 116,
-      "name": "Regeneration Potion",
-      "description": "Helps restore non-corporeal wizards to their bodies."
+      "name": "Poção de Regeneração",
+      "description": "Ajuda a restaurar os corpos dos magos incorpóreos."
     },
     {
       "id": 117,
-      "name": "Regerminating Potion",
-      "description": "Forces the germination of a plant"
+      "name": "Poção de Regerminação",
+      "description": "Força a germinação de uma planta"
     },
     {
       "id": 118,
-      "name": "Replenishing Potion",
-      "description": "A potion used to replenish"
+      "name": "Poção de Reabastecimento",
+      "description": "Uma poção usada para reabastecer"
     },
     {
       "id": 119,
-      "name": "Restoration Potion",
-      "description": "Reverts spell effects."
+      "name": "Poção de Restauração",
+      "description": "Reverte efeitos de feitiço."
     },
     {
       "id": 120,
-      "name": "Revive Potion",
-      "description": "Awakens an unconscious person"
+      "name": "Poção de Revivificação",
+      "description": "Desperta uma pessoa inconsciente"
     },
     {
       "id": 121,
-      "name": "Rudimentary Body Potion",
-      "description": "Helps restore non-corporeal wizards to a rudimentary bodies/sustains rudimentary bodies"
+      "name": "Poção Corporal Rudimentar",
+      "description": "Ajuda a restaurar magos incorpóreos a corpos rudimentares/sustenta corpos rudimentares"
     },
     {
       "id": 122,
-      "name": "Scintillation Solution",
-      "description": "Unknown effect"
+      "name": "Solução de Cintilação",
+      "description": "Efeito desconhecido"
     },
     {
       "id": 123,
-      "name": "Screaming Snakes Hair Potion",
-      "description": "A kind of hair potion, the exact effects of which are unknown"
+      "name": "Poção de Pêlo de Cobra Gritando",
+      "description": "Uma espécie de poção para o cabelo, cujos efeitos exatos são desconhecidos"
     },
     {
       "id": 124,
-      "name": "Shrinking Solution",
-      "description": "Causes the drinker to shrink"
+      "name": "Solução de Encolhimento",
+      "description": "Faz com que o bebedor encolha"
     },
     {
       "id": 125,
-      "name": "Skele-Gro",
-      "description": "Regrows missing bones"
+      "name": "Esqueleto-Gro",
+      "description": "Cresce novamente os ossos perdidos"
     },
     {
       "id": 126,
-      "name": "Sleekeazy's Hair Potion",
-      "description": "Makes hair more manageable"
+      "name": "Poção de cabelo de Sleekeazy",
+      "description": "Deixa o cabelo mais maleável"
     },
     {
       "id": 127,
-      "name": "Sleeping Draught",
-      "description": "Made the drinker quickly fall into a deep but temporary sleep"
+      "name": "Poção do sono",
+      "description": "Fez o bebedor cair rapidamente em um sono profundo, mas temporário"
     },
     {
       "id": 128,
-      "name": "Snuffling Potion",
-      "description": "Causes the drinker to sniff (possibly)"
+      "name": "Poção de Fungar",
+      "description": "Faz o bebedor cheirar (possivelmente)"
     },
     {
       "id": 129,
-      "name": "Solution 078",
+      "name": "Solução 078",
       "description": ""
     },
     {
       "id": 130,
-      "name": "Solution 125",
+      "name": "Solução 125",
       "description": ""
     },
     {
       "id": 131,
-      "name": "Star Grass Salve",
-      "description": "Healing potion for soothing injuries"
+      "name": "Salve Erva Estelar",
+      "description": "Poção de cura para acalmar ferimentos"
     },
     {
       "id": 132,
-      "name": "Strength Potion",
-      "description": "Gives drinker increased strength It may be related to the Strengthening Solution]."
+      "name": "Poção de Força",
+      "description": "Dá ao bebedor maior força. Pode estar relacionado à Solução Fortalecedora]."
     },
     {
       "id": 133,
-      "name": "Strengthening Solution",
-      "description": "Presumably increases the strength of the one who drinks it It may be related to the Strength Potion."
+      "name": "Solução de Fortalecimento",
+      "description": "Presumivelmente aumenta a força de quem o bebe. Pode estar relacionado à Poção de Força."
     },
     {
       "id": 134,
-      "name": "Strong Exstimulo Potion",
-      "description": "More powerful version of the Exstimulo Potion, which significantly boosts the spell power of the drinker."
+      "name": "Poção Exstimulo Forte",
+      "description": "Versão mais poderosa da Poção Exstimulo, que aumenta significativamente o poder mágico do bebedor."
     },
     {
       "id": 135,
-      "name": "Strong Invigoration Draught",
-      "description": "More powerful version of the Invigoration Draught."
+      "name": "Forte Poção Revigorante",
+      "description": "Versão mais poderosa da Poção de Revigoramento."
     },
     {
       "id": 136,
-      "name": "Swelling Solution",
-      "description": "Causes enlargement on contact"
+      "name": "Solução de Inchaço",
+      "description": "Causa alargamento ao contato"
     },
     {
       "id": 137,
-      "name": "Ten-Second Pimple Vanisher",
-      "description": "Treats acne"
+      "name": "Eliminador de Espinhas em Dez Segundos",
+      "description": "Trata acne"
     },
     {
       "id": 138,
-      "name": "Thick golden potion",
-      "description": "Healing, curse quarantining. Was used by Professor Severus Snape in the summer of 1996 to treat the effects that the curse on the Ring Horcrux had on Albus Dumbledore."
+      "name": "Poção dourada espessa",
+      "description": "Cura, quarentena de maldição. Foi usado pelo Professor Severus Snape no verão de 1996 para tratar os efeitos que a maldição do Anel Horcrux teve sobre Albus Dumbledore."
     },
     {
       "id": 139,
-      "name": "Truth Serum",
-      "description": "Makes the drinker tell the truth"
+      "name": "Soro da Verdade",
+      "description": "Faz o bebedor dizer a verdade"
     },
     {
       "id": 140,
-      "name": "Twilight Moonbeams",
-      "description": "Causes the drinker to become infatuated with the giver of the potion"
+      "name": "Crepúsculo Moonbeams",
+      "description": "Faz com que o bebedor se apaixone pelo doador da poção"
     },
     {
       "id": 141,
-      "name": "Venomous Tentacula Juice",
-      "description": "Acts like a (non-fatal) poison."
+      "name": "Suco de Tentáculo Venenoso",
+      "description": "Age como um veneno (não fatal)."
     },
     {
       "id": 142,
       "name": "Veritaserum",
-      "description": "Forces the taker to tell the truth."
+      "description": "Obriga o tomador a dizer a verdade."
     },
     {
       "id": 143,
-      "name": "Vitamix Potion",
-      "description": "Gives energy to the drinker"
+      "name": "Poção Vitamix",
+      "description": "Dá energia a quem bebe"
     },
     {
       "id": 144,
-      "name": "Volubilis Potion",
-      "description": "Alters the drinker's voice"
+      "name": "Poção Volubilis",
+      "description": "Altera a voz do bebedor"
     },
     {
       "id": 145,
-      "name": "Weakness Potion",
-      "description": "Weakens the drinker"
+      "name": "Poção de Fraqueza",
+      "description": "Enfraquece o bebedor"
     },
     {
       "id": 146,
       "name": "Weedosoros",
-      "description": "Poison"
+      "description": "Veneno"
     },
     {
       "id": 147,
-      "name": "Wideye Potion",
-      "description": "Prevents the drinker from falling asleep. Also awakens from drugging or concussion."
+      "name": "Poção Olhos Arregalados",
+      "description": "Evita que o bebedor adormeça. Também desperta de drogas ou concussão."
     },
     {
       "id": 148,
-      "name": "Wiggenweld Potion",
-      "description": "Cures minor damage Awakens a person from magically-induced sleep (and hence can cure Draught of Living Death)."
+      "name": "Poção Wiggenweld",
+      "description": "Cura danos menores Desperta uma pessoa de um sono induzido por magia (e, portanto, pode curar a Poção da Morte Viva)."
     },
     {
       "id": 149,
-      "name": "Wit-Sharpening Potion",
-      "description": "Presumably enhances the clarity of thought of the drinker"
+      "name": "Poção para aguçar o raciocínio",
+      "description": "Presumivelmente aumenta a clareza de pensamento do bebedor"
     },
     {
       "id": 150,
-      "name": "Wolfsbane Potion",
-      "description": "Eases the symptoms of lycanthropy; prevents werewolves from losing their minds post-transformation."
+      "name": "Poção de Acônito",
+      "description": "Alivia os sintomas da licantropia; evita que os lobisomens enlouqueçam após a transformação."
     }
   ],
+   
+   
   books: [
     {
       "id": 1,
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "releaseDay": "June 26, 1997",
+      "title": "Harry Potter e a Pedra Filosofal",
+      "releaseDay": "26 de junho de 1997",
       "author": "J. K. Rowling",
-      "description": "On his birthday, Harry Potter discovers that he is the son of two well-known wizards, from whom he has inherited magical powers. He must attend a famous school of magic and sorcery, where he establishes a friendship with two young men who will become his companions on his adventure. During his first year at Hogwarts, he discovers that a malevolent and powerful wizard named Voldemort is in search of a philosopher's stone that prolongs the life of its owner."
+      "description": "Em seu aniversário, Harry Potter descobre que é filho de dois conhecidos bruxos, de quem herdou poderes mágicos. Ele deve frequentar uma famosa escola de magia e feitiçaria, onde estabelece uma amizade com dois jovens que se tornarão seus companheiros em sua aventura. Durante seu primeiro ano em Hogwarts, ele descobre que um bruxo malévolo e poderoso chamado Voldemort está em busca de uma pedra filosofal que prolongue a vida de seu dono."
     },
     {
       "id": 2,
-      "title": "Harry Potter and the chamber of secrets",
-      "releaseDay": "July 2, 1998",
+      "title": "Harry Potter e a câmara secreta",
+      "releaseDay": "2 de julho de 1998",
       "author": "J. K. Rowling",
-      "description": "Harry Potter and the sophomores investigate a malevolent threat to their Hogwarts classmates, a menacing beast that hides within the castle."
+      "description": "Harry Potter e os alunos do segundo ano investigam uma ameaça malévola aos seus colegas de Hogwarts, uma fera ameaçadora que se esconde dentro do castelo."
     },
     {
       "id": 3,
-      "title": "Harry Potter and the Prisoner of Azkaban",
-      "releseDay": "July 8, 1999",
+      "title": "Harry Potter e o Prisioneiro de Azkaban",
+      "releseDay": "8 de julho de 1999",
       "author": "J. K. Rowling",
-      "description": "Harry's third year of studies at Hogwarts is threatened by Sirius Black's escape from Azkaban prison. Apparently, it is a dangerous wizard who was an accomplice of Lord Voldemort and who will try to take revenge on Harry Potter."
+      "description": "O terceiro ano de estudos de Harry em Hogwarts está ameaçado pela fuga de Sirius Black da prisão de Azkaban. Aparentemente, é um bruxo perigoso que foi cúmplice de Lord Voldemort e que tentará se vingar de Harry Potter."
     },
     {
       "id": 4,
-      "title": "Harry Potter and the Goblet of Fire",
-      "releaseDay": "July 8, 2000",
+      "title": "Harry Potter e o Cálice de Fogo",
+      "releaseDay": "8 de julho de 2000",
       "author": "J. K. Rowling",
-      "description": "Hogwarts prepares for the Triwizard Tournament, in which three schools of wizardry will compete. To everyone's surprise, Harry Potter is chosen to participate in the competition, in which he must fight dragons, enter the water and face his greatest fears."
+      "description": "Hogwarts se prepara para o Torneio Tribruxo, no qual competirão três escolas de magia. Para surpresa de todos, Harry Potter é escolhido para participar da competição, na qual deve lutar contra dragões, entrar na água e enfrentar seus maiores medos ."
     },
     {
       "id": 5,
-      "title": "Harry Potter and the Order of the Phoenix",
-      "releaseDay": "June 21, 2003",
+      "title": "Harry Potter e a Ordem da Fênix",
+      "releaseDay": "21 de junho de 2003",
       "author": "J. K. Rowling",
-      "description": "In his fifth year at Hogwarts, Harry discovers that many members of the wizarding community do not know the truth about his encounter with Lord Voldemort. Cornelius Fudge, Minister of Magic, appoints Dolores Umbridge as Defense Against the Dark Arts teacher because he believes that Professor Dumbledore plans to take over her job. But his teachings are inadequate, so Harry prepares the students to defend the school against evil."
+      "description": "Em seu quinto ano em Hogwarts, Harry descobre que muitos membros da comunidade bruxa não sabem a verdade sobre seu encontro com Lord Voldemort. Cornelius Fudge, Ministro da Magia, nomeia Dolores Umbridge como professora de Defesa Contra as Artes das Trevas porque ele acredita que o professor Dumbledore planeja assumir o cargo dela. Mas seus ensinamentos são inadequados, então Harry prepara os alunos para defender a escola contra o mal."
     },
     {
       "id": 6,
-      "title": "Harry Potter and the Half-Blood Prince",
-      "releaseDay": "July 16, 2005",
+      "title": "Harry Potter e o Enigma do Príncipe",
+      "releaseDay": "16 de julho de 2005",
       "author": "J. K. Rowling",
-      "description": "Harry discovers a powerful book and, while trying to discover its origins, collaborates with Dumbledore in the search for a series of magical objects that will aid in the destruction of Lord Voldemort."
+      "description": "Harry descobre um livro poderoso e, enquanto tenta descobrir suas origens, colabora com Dumbledore na busca por uma série de objetos mágicos que ajudarão na destruição de Lord Voldemort."
     },
     {
       "id": 7,
-      "title": "Harry Potter and the Deathly Hallows",
-      "releaseDay": "July 21, 2007",
+      "title": "Harry Potter e as Relíquias da Morte",
+      "releaseDay": "21 de julho de 2007",
       "author": "J. K. Rowling",
-      "description": "Harry, Ron and Hermione go on a dangerous mission to locate and destroy the secret of Voldemort's immortality and destruction - the Horcruces. Alone, without the guidance of their teachers or the protection of Professor Dumbledore, the three friends must lean on each other more than ever. But there are Dark Forces in between that threaten to tear them apart. Harry Potter is getting closer and closer to the task for which he has been preparing since the first day he set foot in Hogwarts: the last battle with Voldemort."
+      "description": "Harry, Ron e Hermione partem em uma missão perigosa para localizar e destruir o segredo da imortalidade e destruição de Voldemort - as Horcruces. Sozinhos, sem a orientação de seus professores ou a proteção do Professor Dumbledore, os três amigos devem se apoiar um contra o outro mais do que nunca. Mas há forças das trevas no meio que ameaçam separá-los. Harry Potter está cada vez mais perto da tarefa para a qual vem se preparando desde o primeiro dia em que pisou em Hogwarts: a última batalha com Voldemort."
     },
     {
       "id": 8,
-      "title": "Harry Potter and the Cursed Child",
-      "releaseDay": "July 30, 2016",
+      "title": "Harry Potter e a Criança Amaldiçoada",
+      "releaseDay": "30 de julho de 2016",
       "author": "J. K. Rowling",
-      "description": "Harry's second son entered Hogwarts, but in Slytherin. His relationship with Harry is getting worse and he became close friends with Draco's son, Scorpius Malfoy who is said to be Lord Voldemort's son."
+      "description": "O segundo filho de Harry entrou em Hogwarts, mas na Sonserina. Seu relacionamento com Harry está piorando e ele se tornou amigo íntimo do filho de Draco, Scorpius Malfoy, que dizem ser filho de Lord Voldemort."
     }
   ]
 }

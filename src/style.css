@@ -45,8 +45,9 @@ p{
        1px 0px 0px rgb(39, 16, 75)
 }
 .paragrafo{
-    width: 400px;
+    max-width: 600px;
     margin: 0 auto;
+    padding: 13px;
 
 }
 h3{
@@ -149,33 +150,29 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     p{
      width: 100%;
     }
-    .paragrafo{
-        width: 100%;
+    main{
+      min-height: 850px;
     }
 }
 
 footer {
   line-height: 0.3px;
-  /* background-color: rgb(0, 37, 68); */
+  background-color: rgb(0, 37, 68);
   font-family: Arial, sans-serif;
-  padding: 2px;
+  padding: 0.3px;
   text-align: center;
-  /* position: fixed; */
+  position: fixed;
   bottom: 0;
-  /* margin-top: 16px; */
   width: 100%;
   box-sizing: border-box; /* inclui o preenchimento no cálculo da largura */
-  text-shadow:
-  -1px -1px 0px rgb(25, 12, 48),
-  -1px 1px 0px rgb(47, 21, 77),
-   1px -1px 0px rgb(36, 19, 77),
-   1px 0px 0px rgb(39, 16, 75);
 }
 
 footer h4 {

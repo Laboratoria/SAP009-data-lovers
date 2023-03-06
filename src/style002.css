@@ -31,8 +31,6 @@ h1 {
     height: 30px;
     font-size: 16px;
     margin: 0 auto;
-    display: block;
-    text-align: center;
     border-radius: 5px;
     border: none;
     width: 300px;
@@ -45,17 +43,12 @@ h1 {
   font-size: 16px;
   margin: 0 auto;
   display: block;
-  padding: 10px 20px;
+  padding: 7px 17px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 
 }
-
-#nomePersonagem {
-  color: white;
-}
-
 .card-container {
   display: flex;
   flex-wrap: wrap;

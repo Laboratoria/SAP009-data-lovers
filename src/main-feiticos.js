@@ -9,6 +9,11 @@ document.querySelector('#botao-feiticos').onclick = () => {
     //do último elemento.
     //O método push() adiciona um ou mais elementos ao final de um array e
     //retorna o novo comprimento desse array.
+  // var linguagem = "pt-br";
+  // function mudarLinguagem() {
+  // linguagem = linguagem == "pt-br" ? "en" : "pt-br";
+  // }
+  
     elementosDaListaFeiticos.push(`
     <div class="card">
         <div class="card-info">

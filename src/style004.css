@@ -30,8 +30,6 @@ h1 {
     height: 30px;
     font-size: 16px;
     margin: 0 auto;
-    display: block;
-    text-align: center;
     border-radius: 5px;
     border: none;
     width: 100px;
@@ -88,7 +86,7 @@ h1 {
   letter-spacing: 2px;
 }
 .card-info p {
-  text-align: center;
+  text-align: justify;
   font-size: 14px;
   margin-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;

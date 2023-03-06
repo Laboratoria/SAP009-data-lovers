@@ -60,7 +60,8 @@ h1 {
 
 .card {
   width: 200px;
-  height: 200px;
+  min-height: 200px;
+  padding: 10px;
   perspective: 1000px; /* Define a perspectiva para a animação 3D */
   position: relative;
   border: 1px solid #ddd;
@@ -91,7 +92,7 @@ h1 {
 }
 
 .card-info p {
-  text-align: center;
+  text-align: justify;
   word-wrap: break-word;
   font-size: 15px;
   margin-bottom: 20px;
