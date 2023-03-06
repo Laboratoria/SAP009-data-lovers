@@ -1,18 +1,24 @@
-import {filtrarNome} from './data.js';
-// import data from './data/lol/lol.js';
+import {filtrarNome, filtrarTipo, filtrarRegiao, calcPorcentagem} from './data.js';
+
 import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
 
 
 const pokemons = data.pokemon;
 const mostrarPokemonTela = document.getElementById("inserirCards");
 const filtrarNomesPokemons = document.getElementById("buscarPokemon");
+const selecionarTipo = document.getElementById("selecionarTipo");
+const selecionarRegiao = document.getElementById("regiaoPokemon");
+const porcentagemTipo = document.getElementById("porcentagem-tipo");
 
-filtrarNomesPokemons.addEventListener("keyup", () => {
-  const text = filtrarNomesPokemons.value;
-  const procurarPokemon = filtrarNome (pokemons, text);
-  mostrarPokemon.innerHTML = mostrarPokemon (procurarPokemon);
-});
+
+const iconesTiposPokemons = (listaTipo) => {
+  let tipoIcone = "";
+  listaTipo.map((tipoElemento) => {
+    tipoIcone += `<img class = "tipospoke" src = "./img/tipospokemons/${tipoElemento}.png" alt="tipo de pokemons"/>`;
+  });
+  return tipoIcone
+}
+
 
 
 function mostrarPokemon(data) {
@@ -27,26 +33,56 @@ function mostrarPokemon(data) {
             <div class = "extra-info1"> 
               <h2 class = "nome-pokemons">${item.num} - ${item.name}</h2> 
               <img class ="img-estilo" src=${item.img}>
-              <p class = "tipos-pokemons"> ${item.type.join(" / ")} </p>                   
+              <div class = "tipos-pokemons"> ${iconesTiposPokemons(item.type)}</div>        
             </div>
           </div>
           <div class = "cards-container-posterior">
             <div class = "extra-info2"> <p class="letras"> <span>Altura </span>${item.size.height}</p></div>
             <div class = "extra-info2"> <p class="letras"> <span>Peso </span>${item.size.weight}</p></div>
+            <div class = "extra-info2"> <p class="letras"> <span>Região </span>${item.generation.name}</p></div>
             <div class = "extra-info2"> <p class="letras">${evolution}</div>
-            <div class = "extra-info2"> <p class="letras"> <span>Resistências </span>${item.resistant.join(", ")}</p></div>
-            <div class = "extra-info2"> <p class="letras"> <span>Fraquezas </span>${item.weaknesses.join(", ")}</p></div>
+            <div class = "extra-info2" > <p class="letras"> <span> Resistências </span> <div class = "icones-card"> ${iconesTiposPokemons(item.resistant)} </div> </p></div>
+            <div class = "extra-info2"> <p class="letras"> <span>Fraquezas </span> <div class = "icones-card">${iconesTiposPokemons(item.weaknesses)}</div></p></div>
           </div> 
         </div>  
       </div>  
  `
-}).join("")
+  }).join("")
 
 }
 mostrarPokemon (pokemons)
 
+
+filtrarNomesPokemons.addEventListener("keyup", () => {
+  const nome = filtrarNomesPokemons.value;
+  const procurarPokemon = filtrarNome (pokemons, nome);
+  mostrarPokemon.innerHTML = mostrarPokemon (procurarPokemon);
+});
+
+selecionarTipo.addEventListener("change", () => {
+  const tipo = selecionarTipo.value;
+  const tipoPokemon = filtrarTipo (pokemons, tipo);
+  mostrarPokemon.innerHTML = mostrarPokemon(tipoPokemon);
+  const tipoPorcentagem = calcPorcentagem(
+    pokemons.length, tipoPokemon.length
+  );
+  
+  porcentagemTipo.innerHTML = 
+    Math.round(tipoPorcentagem) + "% dos Pokémons são desse tipo"
+    //  Math.round é uma função que retorna o valor de um número arredondado para o inteiro mais proximo
+});
+
+
+selecionarRegiao.addEventListener("change", () => {
+  const regiao = selecionarRegiao.value;
+  const regiaoPokemon = filtrarRegiao (pokemons, regiao);
+  mostrarPokemon.innerHTML = mostrarPokemon(regiaoPokemon);
+});
+
+
 // Pegar o botão
-const meuBotao = document.getElementById("myBtn");
+const meuBotao = document.getElementById("myBtn")
+meuBotao.addEventListener('click', topFuncao);
 
 // Quando usuário desce 20px do topo do documento, mostraro botão
 window.onscroll = function() {scrollFuncao()};
@@ -64,6 +100,6 @@ function scrollFuncao() {
 function topFuncao() {
   document.body.scrollTop = 0; // Safari
   document.documentElement.scrollTop = 0; // Chrome, Firefox, IE e Opera
-}
+} 
 
 

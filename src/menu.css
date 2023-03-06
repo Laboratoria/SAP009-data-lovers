@@ -49,7 +49,8 @@ li {
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: #FBD743; /* Set a background color */
-    color: white; /* Text color */
+    color: #051759; /* Text color */
+    font-weight: bolder;
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -68,11 +69,10 @@ li {
 }
 
 .cards-texto-central{
-    position: absolute;
-    width: 800px;
-    height: 60px;
-    left: 450px;
-    top: 80px;
+    align-items: center;
+    margin: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     background-color:#3D5CC7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -86,6 +86,24 @@ li {
     padding-top: 8px;   
 }
 
+.texto-porcentagem {
+    display:flex;
+    width: 350px;
+    align-items: center;
+    margin:auto;
+    background-color:#FBD743;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.texto-porcentagem p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 25px;
+    text-align: center;
+    color:#051759;
+    font-weight: bolder;
+}
+
 .box-descrição {
  margin: 0%;
  height: 0;
@@ -97,8 +115,7 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
-  margin: 10px;
-  margin-top: 8%;
+  
 }
 
 .flip-cards{  
@@ -149,8 +166,7 @@ li {
     display:flex;
     flex-direction: column;
     margin: auto;
-    
-
+    break-after: always;
 }
 
 .letras >span{
@@ -176,17 +192,21 @@ li {
    width: 140px;
 }
 
-.tipos-pokemons{
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color:#051759;
+.tipos-pokemons img{
+    
+    width: 2.5em;
+}
+
+.icones-card {
+    display: flex;
+    width: 5px;
+    height: 20px;
+
 }
 
 .cards-menu-lateral{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #051759;
     width: 342px;
      
@@ -198,15 +218,10 @@ li {
     justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     color: #FBD743;
-    text-align: center;
-    position:absolute;
     width: 293px;
     height: 480px;
-    left: 24px;
-    top: 293px;
-        
+    padding-left: 45px;          
 }
 
 .buscar-pokemon{
@@ -219,13 +234,18 @@ li {
     top: 592px;
     border: 5px solid #FBD743;
     border-radius: 15px;
+    padding-left: 5%;
+    color:#051759;
+    font-weight: bold;
 }
 
 #buscarPokemon::placeholder{
     color:#051759;
     font-weight: bold;
-    padding-left: 10%; 
+    
+ 
 }
+
 
 .cards-menu-lateral-filtro select{
     background-color: #FFFFFF;

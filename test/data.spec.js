@@ -1,23 +1,19 @@
-import { example, anotherExample } from '../src/data.js';
+import {filtrarNome} from '../src/data.js';
 
+const pokeNomes =  [
+  {
+    name: "pikachu",
+  },
+];
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+describe('Filtrar nomes Pokémons', () => {
+  it('e uma funcao', () => {
+    expect(typeof filtrarNome).toBe('function');
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
 
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
+  it('deve retornar um pokemon', () => {
+    const resultname = filtrarNome (pokeNomes, "pikachu");
+    expect(resultname).toEqual(pokeNomes)
+  })
 });
