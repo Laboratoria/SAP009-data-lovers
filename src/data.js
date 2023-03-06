@@ -31,8 +31,8 @@ export const ordemCompletaNumero = (pokemon) => {
     } else if (a.num > b.num) {
       return 1;
     }
-    return ordenarNum;
   })
+  return ordenarNum;
 };
 /* 
   export const ordenarNumDecresc = pokemons.sort((a, b) =>{
