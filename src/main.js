@@ -1,10 +1,6 @@
-import {filtrarNome} from './data.js';
-import {filtrarTipo} from './data.js';
-import {filtrarRegiao} from './data.js';
-import {calcPorcentagem} from './data.js';
+import {filtrarNome, filtrarTipo, filtrarRegiao, calcPorcentagem} from './data.js';
 
 import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
 
 
 const pokemons = data.pokemon;
@@ -15,6 +11,13 @@ const selecionarRegiao = document.getElementById("regiaoPokemon");
 const porcentagemTipo = document.getElementById("porcentagem-tipo");
 
 
+const iconesTiposPokemons = (listaTipo) => {
+  let tipoIcone = "";
+  listaTipo.map((tipoElemento) => {
+    tipoIcone += `<img class = "tipospoke" src = "./img/tipospokemons/${tipoElemento}.png" alt="tipo de pokemons"/>`;
+  });
+  return tipoIcone
+}
 
 function mostrarPokemon(data) {
   mostrarPokemonTela.innerHTML = data.map((item) =>{
@@ -28,7 +31,7 @@ function mostrarPokemon(data) {
             <div class = "extra-info1"> 
               <h2 class = "nome-pokemons">${item.num} - ${item.name}</h2> 
               <img class ="img-estilo" src=${item.img}>
-              <p class = "tipos-pokemons"> ${item.type.join(" / ")} </p>                   
+              <div class = "tipos-pokemons"> ${iconesTiposPokemons(item.type)}</div>        
             </div>
           </div>
           <div class = "cards-container-posterior">
