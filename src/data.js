@@ -1,10 +1,18 @@
 // estas funciones son de ejemplo
-export const filtrarNome = (pokemon, name) => {
-  const nomeFiltrado = pokemon.filter(item =>
+export const filtrarNome = (pokemons, name) => {
+  const nomeFiltrado = pokemons.filter(item =>
     item.name.toLowerCase().includes(name));
   return nomeFiltrado;
 };
 
+export const filtrarTipo = (pokemons, type) => {
+  const tipoFiltrado = pokemons.filter (item =>
+    item.type.includes(type));
+  return tipoFiltrado;
+};
+
+export const calcPorcentagem = (pokemonsLength, typeLength) =>
+  (typeLength / pokemonsLength) * 100 
 
 // códigos para ordenaçao alfabética e numérica crescente e decrescente. localeCompare usado para String
 /* export const ordemCompleta = (pokemon) => { */
@@ -19,10 +27,6 @@ export const ordemCompletaNome = (pokemon) => {
   })
   return ordenarAZ;
 };
-/*   export const ordenarZA = pokemons.sort((a, b) => {
-    b.name.localeCompare(a.name);
-    return ordenarZA;
-  }); */
 
 export const ordemCompletaNumero = (pokemon) => {
   const ordenarNum = pokemon.sort((a, b) =>{
@@ -34,9 +38,11 @@ export const ordemCompletaNumero = (pokemon) => {
   })
   return ordenarNum;
 };
-/* 
-  export const ordenarNumDecresc = pokemons.sort((a, b) =>{
-    b.num - a.num;
-    return ordenarNumDecresc;
-  }); */
-/* }; */
+
+
+export const filtrarRegiao = (pokemons, regiao) => {
+  const regiaoFiltrado = pokemons.filter(item =>
+    item.generation.name === regiao);
+  return regiaoFiltrado;
+}
+
