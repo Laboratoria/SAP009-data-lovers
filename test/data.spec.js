@@ -1,4 +1,4 @@
-import { ordenar } from '../src/data.js';
+import { ordenar  } from '../src/data.js';
 
 const castle = {
   title: 'Castle in the Sky',
@@ -30,3 +30,5 @@ it('deve ordenar data de maior para menor',() =>{
   const resultado = ordenar(filmes,'deZA')
   expect(resultado).toEqual([spirited, totoro, castle])
 })
+
+
