@@ -166,8 +166,7 @@ li {
     display:flex;
     flex-direction: column;
     margin: auto;
-    
-
+    break-after: always;
 }
 
 .letras >span{
@@ -194,9 +193,16 @@ li {
 }
 
 .tipos-pokemons img{
+    
     width: 2.5em;
 }
 
+.icones-card {
+    display: flex;
+    width: 5px;
+    height: 20px;
+
+}
 
 .cards-menu-lateral{
     display: flex;

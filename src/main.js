@@ -19,6 +19,8 @@ const iconesTiposPokemons = (listaTipo) => {
   return tipoIcone
 }
 
+
+
 function mostrarPokemon(data) {
   mostrarPokemonTela.innerHTML = data.map((item) =>{
     let evolution = "";
@@ -39,8 +41,8 @@ function mostrarPokemon(data) {
             <div class = "extra-info2"> <p class="letras"> <span>Peso </span>${item.size.weight}</p></div>
             <div class = "extra-info2"> <p class="letras"> <span>Região </span>${item.generation.name}</p></div>
             <div class = "extra-info2"> <p class="letras">${evolution}</div>
-            <div class = "extra-info2"> <p class="letras"> <span>Resistências </span>${item.resistant.join(", ")}</p></div>
-            <div class = "extra-info2"> <p class="letras"> <span>Fraquezas </span>${item.weaknesses.join(", ")}</p></div>
+            <div class = "extra-info2" > <p class="letras"> <span> Resistências </span> <div class = "icones-card"> ${iconesTiposPokemons(item.resistant)} </div> </p></div>
+            <div class = "extra-info2"> <p class="letras"> <span>Fraquezas </span> <div class = "icones-card">${iconesTiposPokemons(item.weaknesses)}</div></p></div>
           </div> 
         </div>  
       </div>  
@@ -62,8 +64,7 @@ selecionarTipo.addEventListener("change", () => {
   const tipoPokemon = filtrarTipo (pokemons, tipo);
   mostrarPokemon.innerHTML = mostrarPokemon(tipoPokemon);
   const tipoPorcentagem = calcPorcentagem(
-    pokemons.length,
-    tipoPokemon.length
+    pokemons.length, tipoPokemon.length
   );
   
   porcentagemTipo.innerHTML = 

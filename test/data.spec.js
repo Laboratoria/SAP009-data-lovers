@@ -13,7 +13,7 @@ describe('Filtrar nomes Pokémons', () => {
 
 
   it('deve retornar um pokemon', () => {
-    const result = filtrarNome (pokeNomes, "pikachu");
-    expect(result).toEqual(pokeNomes)
+    const resultname = filtrarNome (pokeNomes, "pikachu");
+    expect(resultname).toEqual(pokeNomes)
   })
 });
