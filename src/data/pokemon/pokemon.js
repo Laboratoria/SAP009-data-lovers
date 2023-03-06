@@ -4045,7 +4045,8 @@ export default {
       "candy": "zubat candy",
       "nextevolution": [{
         "num": "169",
-        "name": "crobat"
+        "name": "crobat",
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "041",

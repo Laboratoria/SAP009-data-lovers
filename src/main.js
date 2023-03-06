@@ -1,8 +1,10 @@
+import {ordemCompletaNome, ordemCompletaNumero} from './data.js';
 import {filtrarNome, filtrarTipo, filtrarRegiao, calcPorcentagem} from './data.js';
+
 
 import data from './data/pokemon/pokemon.js';
 
-
+//declarar as const que poderão ser utilizadas mais de uma vez
 const pokemons = data.pokemon;
 const mostrarPokemonTela = document.getElementById("inserirCards");
 const filtrarNomesPokemons = document.getElementById("buscarPokemon");
@@ -19,8 +21,38 @@ const iconesTiposPokemons = (listaTipo) => {
   return tipoIcone
 }
 
+// código para mostrar na tela os pokemons filtrados por nome
+filtrarNomesPokemons.addEventListener("keyup", () => {
+  const text = filtrarNomesPokemons.value;
+  const procurarPokemon = filtrarNome (pokemons, text);
+  mostrarPokemon.innerHTML = mostrarPokemon (procurarPokemon);
+});
 
 
+//código para mostrar na tela os pokemons ordenados de forma alfabética ou numérica
+const pegarOrdemPokemon = document.getElementById("ordenacao");
+pegarOrdemPokemon.addEventListener("change", () => {
+  const ordem = pegarOrdemPokemon.value;
+
+  if (ordem === "az") {
+    const ordenarPokemon = ordemCompletaNome(pokemons, ordem);
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+  else if (ordem === "za") {
+    const ordenarPokemon = ordemCompletaNome(pokemons, ordem).reverse();
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+  else if (ordem === "001") {
+    const ordenarPokemon = ordemCompletaNumero(pokemons, ordem);
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+  else if (ordem === "251") {
+    const ordenarPokemon = ordemCompletaNumero(pokemons, ordem).reverse();
+    mostrarPokemon.innerHTML = mostrarPokemon (ordenarPokemon); 
+  }
+});
+
+// código para mostrar pokemons nos cards com flip
 function mostrarPokemon(data) {
   mostrarPokemonTela.innerHTML = data.map((item) =>{
     let evolution = "";
@@ -52,6 +84,10 @@ function mostrarPokemon(data) {
 }
 mostrarPokemon (pokemons)
 
+
+// Pegar o botão para scroll to top
+const meuBotao = document.getElementById("myBtn")
+meuBotao.addEventListener("click",topFuncao);
 
 filtrarNomesPokemons.addEventListener("keyup", () => {
   const nome = filtrarNomesPokemons.value;
