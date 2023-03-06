@@ -7,12 +7,11 @@
     <title>Ghiblers</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
-    <script defer src="responsive.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header class="header">
-    <a href="/" class="logo"> <img id="logo" src="logoheart.png" alt=""></a>
+    <a href="" class="logo"> <img id="logo" src="logoheart.png" alt=""></a>
     <nav class="nav">
       <button
         class="btn-menu"
@@ -21,7 +20,7 @@
         aria-controls="menu"
         aria-expanded="false"
       >
-        Menu<span class="hamburger"></span>
+        <span class="hamburger"></span>
       </button>
       <ul class="menu" id="menu" role="menu">
         <li><a href="index.html">Início</a></li>
@@ -30,29 +29,29 @@
       </ul>
     </nav>
   </header>
-    <h1>Inventário de Personagens</h1>
-    <main id="caracteristicas">
-        <section>
-        <form>
-            <div class="posicao">
-                <label for="nome"><strong>Personagem:</strong></label>
-                <input id= "nome" type="text" required placeholder="Digite o nome">
+    <main>
+        <section id="pesquisa">
+          <h1>Inventário de Personagens</h1>
+        <form id="form">
+            <section class="esquerda">
+                <label  for="nome"><strong>Personagem:</strong></label>
+                <input  id= "nome" type="text" required placeholder="Digite o nome">
                 <button id= "ok" type="submit">OK</button>
-            </div>
+            </section>
          
         
-            <div class="posicao">
+            <section class="meio">
                <label for="genero"><strong>Gênero:</strong></strong></label>
                <select name="genero" id="genero">
                  <option selected disabled value="">Selecione</option>
-                 <option value="fem">Feminino</option>
-                 <option value="masc">Masculino</option>
+                 <option id="fem" value="fem">Feminino</option>
+                 <option id="masc" value="masc">Masculino</option>
                </select>
-            </div> 
+            </section> 
 
-            <div class="posicao">
+            <section class="direita">
                <label for="especie"><strong>Espécie:</strong></label>
-               <select name="especie" >
+               <select id="especie" >
                    <option selected disabled value="">Selecione</option>
                    <option value="human">Human</option>
                    <option value="Totoro">Totoro</option>
@@ -76,19 +75,23 @@
                    <option value="wizard">Wizard</option>
                    <option value="demon">Demon</option>
            </select>
-        </div>
-           
-        </form>
-
         </section>
-
+        </form>
+        </section>
     </main>
+
+    <section class="cards">
+
+    </section>
 
     <footer id="end">
        <h5>
         Desenvolvido por Flora e Edimara, 2023
        </h5>
     </footer>
+
+    <script defer src="responsive.js"></script>
+    <script type="module" src="main.js"></script>
   
     
 </body>

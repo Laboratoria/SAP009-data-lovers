@@ -15,33 +15,33 @@
 	--azul-meioroxo:  #989cf7;
 	--yellow: #f6e3a3;
 	--rosa-claro: #f8b3c6;
-	--verde: #c9feeb;
 }
   
 body {
-    background-image: linear-gradient(to bottom, #e1f0fb, #d2d3fd, #f9f1d6, #f9ccd8, #d4fdee);
+    background-image: linear-gradient(to bottom, #c0c1fe, #f7edd1, #fac9d5);
     height: 100%;
     background-attachment: fixed;
 	font-family: 'quicksand', sans-serif;
 }
 
 main{
-    background-color: #f9f6e7;
+    background-color: #faf9f2;
     border-radius: 8px;
     max-width: 750px;
     min-width: 300px;
     padding: 15px;
     margin: auto;
-
+	margin-top: 50px;
 }
 
 h1 {
     font-family:  'Berkshire Swash', cursive;
     font-size: 45px;
-    color: #f8265e;
+    color: #fb4f7d;
     text-align: center;
-    text-shadow: 0.5px 0.5px 1px #00000086;
-    margin: 30px;
+    text-shadow: 0.4px 0.4px 0.9px #00000086;
+    margin: 50px;
+	
 }
 
 h5 {
@@ -52,7 +52,6 @@ h5 {
     justify-content: center;
 	text-shadow: 0.5 0.5 10 black;
 	text-align: center;
-    
 }
 
 p {
@@ -66,8 +65,15 @@ p {
 	text-shadow: 0.1 0.1 0.2 black;
 }
 
+#form {
+	display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
 #end {
-	position: absolute;
     bottom: 0;
     width: 100%;
     height: 100px;    
@@ -76,15 +82,21 @@ p {
 
 }
 
-#carcteristicas {
-	display: flex;
-
+#imagem-principal {
+	border-radius: 190px;
+	width: 400px;
+	display: block;
+	margin: auto;
+	
 }
+
 
 input, select {
 	border-radius: 5px;
 	padding: 2px;
-  }
+	display: flex;
+	gap: 0.5rem;
+  } 
 
  /* destaque em negrito */
 #plus {
@@ -92,10 +104,6 @@ input, select {
 	color: #f6295f;
   }
 
-#imagem-principal {
-	display: flex;
-	justify-content: center;
-}
 
  /* imgs com os links do github */
 
@@ -162,7 +170,7 @@ input, select {
   }
   
   .menu a:hover {
-	background: var(--rosa-claro);
+	background: var(--yellow);
 	color: var(--azul-meioroxo);
   }
   
@@ -237,17 +245,17 @@ input, select {
   /* scrol personalizado */ 
 
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 12px;
   }
 
   ::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background: linear-gradient(to bottom, #dceffd, #cbcdff, #fcf0ca, #fbbccd, #c9feeb);
+    
+    background: linear-gradient(to bottom, #8c8ffa, #d8ebf9, #fcf0ca, #fbbccd);
   }
 
   ::-webkit-scrollbar-thumb {
     background: #acaff9;
-    border-radius: 5px;
+    border-radius: 7px;
   }
 
 ::-webkit-scrollbar-thumb:hover {
