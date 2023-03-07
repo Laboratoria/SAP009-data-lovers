@@ -89,9 +89,7 @@ export const filterGenero = (characters, gender) => {
 //   return ordenarAZ  
 
 // console.log(ordenarAZ)
-
-
-
-
-
-
+ 
+export function qtdePersonByHouse (characters, house){
+  return characters.filter((character) => character.house === house).length
+}

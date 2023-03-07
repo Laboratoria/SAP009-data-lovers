@@ -1,9 +1,14 @@
-import {searchBar, orderFilterA, orderFilterZ, filterAncestry, filterHouse, filterSpecie, filterGenero, } from './data.js';
+import {searchBar, orderFilterA, orderFilterZ, filterAncestry, filterHouse, filterSpecie, filterGenero,} from './data.js';
 import harryData from './data/harrypotter/harry.js';
 
 const characters = [
   harryData.characters[323],
+  harryData.characters[542],
+  harryData.characters[434],
   harryData.characters[122],
+  harryData.characters[202],  
+  harryData.characters[347],
+  harryData.characters[364],
   harryData.characters[583],
   harryData.characters[324],
   harryData.characters[0],
@@ -13,8 +18,7 @@ const characters = [
   harryData.characters[300],
   harryData.characters[146],
   harryData.characters[154],
-  harryData.characters[159],
-  harryData.characters[364],
+  harryData.characters[159],  
   harryData.characters[374],
   harryData.characters[23],
   harryData.characters[2],
@@ -33,6 +37,7 @@ const oacanedro = document.getElementById("oacanedro");
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
 const navigationHeader = document.getElementById('navigation_header');
+
 const content = document.getElementById('content');
 let showSidebar = false;
 
@@ -149,32 +154,12 @@ generoFilter.addEventListener("change", (e) => {
   cardPrinting(genderCharacters)
 });
 
-console.log(generoFilter)
-
+//Ordenação de A-Z/Z-A
 ordenacaoFilter.addEventListener("click", () => {
- 
   const orderCharacters = orderFilterA(characters);
   cardPrinting(orderCharacters)
 });
-
 oacanedro.addEventListener("click", () => {
- 
   const orderCharacters = orderFilterZ(characters);
   cardPrinting(orderCharacters)
 });
-
-
-// characters.sort (function (a,b){
-//   if (a.name > b.name) {
-//     return 1;
-//   }
-//   if (a.name < b.name) {
-//     return -1;
-//   }
-//   return 0;
-  
-// });
-
-// cardPrinting(characters);
-// console.log(characters)
-

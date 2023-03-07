@@ -17,7 +17,7 @@ body{
     background-color: rgb(23, 1, 64);
     color: var(--color-white);    
     background-image:url("fundo4.jpg");
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     text-shadow: 2px -2px 10px var(--color-dark1), 2px -2px 10px var(--color-dark1); 
   
@@ -29,7 +29,7 @@ body{
 #logoMenor{
     width: 80px;
     display: flex;
-    padding: 16px;
+    padding: 0px 35px;
 }
 
 #header,
@@ -50,7 +50,7 @@ body{
     box-shadow: 1px 1px 4px var(--color-yellow);
     height: 3.5em;
     justify-content: space-between;
-    padding: 0 10%;
+    /* padding: 0 10%; */
     z-index: 2;
 
 }
@@ -235,3 +235,52 @@ h5{
     color: var(--color-yellow);
     text-decoration: none;
 }
+
+.casas{
+    margin: 10%;
+    margin-top: 10%;
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.casas h3{
+    background-color: white;
+    padding: 7px 5px 0px 10px;
+}
+
+.font-casa, .casas h1{
+    font-family: 'Harry Potter', sans-serif;
+    color:var(--color-yellow);
+    font-size: 70px;
+}
+.font-casa, .casas h2{
+    font-family: 'Harry Potter', sans-serif;
+    color:var(--color-yellow);
+    font-size: 40px;
+}
+#grifinoria{
+    color: #AE0001;
+    text-shadow: 1px 0px 0px var(--color-yellow);
+}
+#lufa{
+    color: #ecb939;
+    text-shadow: 1px 0px 0px var(--color-dark1);
+}
+#corvinal{
+    color: #0000a0;
+    text-shadow: 1px 0px 0px #946b2d;
+}
+#sonserina{
+    color: #1a472a;
+    text-shadow: 1px 0px 0px #5d5d5d;
+}
+
+.casas img{
+    width: 140px;
+    height: 170px;
+}
+
