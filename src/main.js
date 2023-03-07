@@ -2,11 +2,11 @@ import {sortByOrderFilms, sortByRelease} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 // Função dos cards na tela
-function sectionMovies(items){
-  document.getElementById('infoMovies').innerHTML = items.map((studio) => `
+function sectionMovies(movies){
+  document.getElementById('infoMovies').innerHTML = movies.map((movie) => `
   <div class="cardFront">
-  <p class="name">${studio.title}</p>
-  <img src="${studio.poster}" alt="Poster do filme">
+  <p class="name">${movie.title}</p>
+  <img data-id="${movie.id}" data-melancia="melancia" src="${movie.poster}" alt="Poster do filme">
   `).join("") 
 }
 sectionMovies(data.films)
@@ -23,31 +23,28 @@ function modalFilmes(modalID, filmeID){
     }
   })
   
-  let filmes = []
-  data.films.map(filme => {
-    const filmesFiltrados = filme.map((filmeAtual) => {
-      return filmeAtual.id == filmeID
-    })
-    
-    filmes = [...filmes, ... filmesFiltrados]
+  const filmes = data.films.filter(filme => {
+    return filme.id == filmeID
   })
 
-  const movies = filmes[0]
+  const movie = filmes[0]
 
   const modalContent = modal.querySelector('.modal-content')
-  console.log(movies)
+  console.log(movie)
 
   modalContent.innerHTML = `
-    <h1>${movies.title}</h1>
-          <h3>Description:${movies.description}</h3>
-          <h3>Director: ${movies.director}</h3>
-          <h3>Producer: ${movies.producer}</h3>
-          <h3>Date: ${movies.release_date}</h3>
+    <h1>${movie.title}</h1>
+          <h3>Description:${movie.description}</h3>
+          <h3>Director: ${movie.director}</h3>
+          <h3>Producer: ${movie.producer}</h3>
+          <h3>Date: ${movie.release_date}</h3>
   `;
 }
 
 const image = document.querySelector('.cardFront');
 image.addEventListener('click', function(e) {
+  console.log(e.target.dataset);
+  console.log(e.target.dataset.melancia);
   modalFilmes('modalChar', e.target.dataset.id);
 })
 
