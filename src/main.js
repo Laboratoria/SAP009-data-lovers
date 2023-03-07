@@ -25,26 +25,24 @@ function modalFilmes(modalID, filmeID){
   
   const filmes = data.films.filter(filme => {
     return filme.id == filmeID
-  })
-
-  const movie = filmes[0]
+    })
+    
+  const movies = filmes[0]
 
   const modalContent = modal.querySelector('.modal-content')
-  console.log(movie)
+  console.log(movies)
 
   modalContent.innerHTML = `
-    <h1>${movie.title}</h1>
-          <h3>Description:${movie.description}</h3>
-          <h3>Director: ${movie.director}</h3>
-          <h3>Producer: ${movie.producer}</h3>
-          <h3>Date: ${movie.release_date}</h3>
+    <h1>${movies.title}</h1>
+          <h3>Description:${movies.description}</h3>
+          <h3>Director: ${movies.director}</h3>
+          <h3>Producer: ${movies.producer}</h3>
+          <h3>Date: ${movies.release_date}</h3>
   `;
 }
 
 const image = document.querySelector('.cardFront');
 image.addEventListener('click', function(e) {
-  console.log(e.target.dataset);
-  console.log(e.target.dataset.melancia);
   modalFilmes('modalChar', e.target.dataset.id);
 })
 
