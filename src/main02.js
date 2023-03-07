@@ -1,30 +1,30 @@
 import {qtdePersonByHouse } from './data.js';
 import harryData from './data/harrypotter/harry.js';
 
-const characters = [
-  harryData.characters[323],
-  harryData.characters[542],
-  harryData.characters[434],
-  harryData.characters[122],
-  harryData.characters[202],  
-  harryData.characters[347],
-  harryData.characters[364],
-  harryData.characters[583],
-  harryData.characters[324],
-  harryData.characters[0],
-  harryData.characters[208],
-  harryData.characters[138],
-  harryData.characters[97],
-  harryData.characters[300],
-  harryData.characters[146],
-  harryData.characters[154],
-  harryData.characters[159],  
-  harryData.characters[374],
-  harryData.characters[23],
-  harryData.characters[2],
-  harryData.characters[42],
-  harryData.characters[658],
-];
+// const characters = [
+//   harryData.characters[323],
+//   harryData.characters[542],
+//   harryData.characters[434],
+//   harryData.characters[122],
+//   harryData.characters[202],  
+//   harryData.characters[347],
+//   harryData.characters[364],
+//   harryData.characters[583],
+//   harryData.characters[324],
+//   harryData.characters[0],
+//   harryData.characters[208],
+//   harryData.characters[138],
+//   harryData.characters[97],
+//   harryData.characters[300],
+//   harryData.characters[146],
+//   harryData.characters[154],
+//   harryData.characters[159],  
+//   harryData.characters[374],
+//   harryData.characters[23],
+//   harryData.characters[2],
+//   harryData.characters[42],
+//   harryData.characters[658],
+// ];
 const btnMenu = document.getElementById('toggleSidebar'); 
 const btnFechar = document.getElementById('closeSidebar');
 const navigationHeader = document.getElementById('navigation_header');
@@ -61,14 +61,14 @@ window.addEventListener('resize', function() {
   }  
 });
 
-qtdePersonByHouse(characters, "Gryffindor")
-document.getElementById("grifinoria").textContent = `Esta casa tem um total de ${qtdePersonByHouse(characters, "Gryffindor")} personagens.`;
+qtdePersonByHouse(harryData.characters, "Gryffindor")
+document.getElementById("grifinoria").textContent = `Esta casa tem um total de ${qtdePersonByHouse(harryData.characters, "Gryffindor")} personagens.`;
 
-qtdePersonByHouse(characters, "Hufflepuff")
-document.getElementById("lufa").textContent = `Esta casa tem um total de ${qtdePersonByHouse(characters, "Hufflepuff")} personagens.`;
+qtdePersonByHouse(harryData.characters, "Hufflepuff")
+document.getElementById("lufa").textContent = `Esta casa tem um total de ${qtdePersonByHouse(harryData.characters, "Hufflepuff")} personagens.`;
 
-qtdePersonByHouse(characters, "Ravenclaw")
-document.getElementById("corvinal").textContent = `Esta casa tem um total de ${qtdePersonByHouse(characters, "Ravenclaw")} personagens.`;
+qtdePersonByHouse(harryData.characters, "Ravenclaw")
+document.getElementById("corvinal").textContent = `Esta casa tem um total de ${qtdePersonByHouse(harryData.characters, "Ravenclaw")} personagens.`;
 
-qtdePersonByHouse(characters, "Slytherin")
-document.getElementById("sonserina").textContent = `Esta casa tem um total de ${qtdePersonByHouse(characters, "Slytherin")} personagens.`;
+qtdePersonByHouse(harryData.characters, "Slytherin")
+document.getElementById("sonserina").textContent = `Esta casa tem um total de ${qtdePersonByHouse(harryData.characters, "Slytherin")} personagens.`;

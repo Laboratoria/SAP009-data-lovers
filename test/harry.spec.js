@@ -117,7 +117,7 @@ describe('filterHouse', () => {
   });
 
   it('deveria retornar "Myrtle Warren" para "Ravenclaw"', () => {
-    expect(filterHouse(characters, "Ravenclaw")).toEqual([characters[2]]);
+    expect(filterHouse(characters, "Ravenclaw")).toEqual([characters[3]]);
   });
 });
 
