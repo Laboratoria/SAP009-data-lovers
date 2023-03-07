@@ -1,4 +1,4 @@
-/* import {films} from './data.js'; */
+import {filmPeople} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 // Função para imprimir os cards na tela
@@ -55,4 +55,3 @@ image.addEventListener('click', function(e) {
 })
 
 /*const modalData = document.querySelector(".modal")*/
-
