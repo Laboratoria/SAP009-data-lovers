@@ -10,5 +10,5 @@ const cards = data
 
 
 for (let  i = 0; i < 251; i ++){
-   console.log(data.pokemon[i].name,"Name")
+   console.log(data.pokemon[i].name)
 }
