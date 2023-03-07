@@ -153,7 +153,6 @@ li {
 }
 
 .extra-info2{
-    display: flex;
     justify-content: center;
     margin: 5%;
     font-family: Arial, Helvetica, sans-serif;
@@ -166,7 +165,6 @@ li {
     display:flex;
     flex-direction: column;
     margin: auto;
-    break-after: always;
 }
 
 .letras >span{
@@ -188,20 +186,25 @@ li {
     color:#051759;
 }
 
+
 .img-estilo {
    width: 140px;
 }
 
 .tipos-pokemons img{
-    
     width: 2.5em;
 }
 
-.icones-card {
+.icones-card{
     display: flex;
-    width: 5px;
-    height: 20px;
+    flex-wrap: wrap;
+    gap: 3px;
+       
+}
 
+.icones-card img{
+    height: 25px;
+    margin-top: 5px
 }
 
 .cards-menu-lateral{
@@ -209,7 +212,6 @@ li {
     flex-direction: column;
     background-color: #051759;
     width: 342px;
-     
 }
 
 .cards-menu-lateral-filtro {

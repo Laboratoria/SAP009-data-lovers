@@ -73,8 +73,8 @@ function mostrarPokemon(data) {
             <div class = "extra-info2"> <p class="letras"> <span>Peso </span>${item.size.weight}</p></div>
             <div class = "extra-info2"> <p class="letras"> <span>Região </span>${item.generation.name}</p></div>
             <div class = "extra-info2"> <p class="letras">${evolution}</div>
-            <div class = "extra-info2" > <p class="letras"> <span> Resistências </span> <div class = "icones-card"> ${iconesTiposPokemons(item.resistant)} </div> </p></div>
-            <div class = "extra-info2"> <p class="letras"> <span>Fraquezas </span> <div class = "icones-card">${iconesTiposPokemons(item.weaknesses)}</div></p></div>
+            <div class = "extra-info2" > <p class="letras">  <span> Resistências </span> <div class = "icones-card"> ${iconesTiposPokemons(item.resistant)} </div> </p></div>
+            <div class = "extra-info2"> <p class="letras">  <span>Fraquezas </span> <div class = "icones-card">${iconesTiposPokemons(item.weaknesses)}</div></p></div>
           </div> 
         </div>  
       </div>  
@@ -83,11 +83,6 @@ function mostrarPokemon(data) {
 
 }
 mostrarPokemon (pokemons)
-
-
-// Pegar o botão para scroll to top
-const meuBotao = document.getElementById("myBtn")
-meuBotao.addEventListener("click",topFuncao);
 
 filtrarNomesPokemons.addEventListener("keyup", () => {
   const nome = filtrarNomesPokemons.value;
