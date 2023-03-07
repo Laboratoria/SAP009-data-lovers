@@ -6,7 +6,7 @@ function sectionMovies(movies){
   document.getElementById('infoMovies').innerHTML = movies.map((movie) => `
   <div class="cardFront">
   <p class="name">${movie.title}</p>
-  <img data-id="${movie.id}" data-melancia="melancia" src="${movie.poster}" alt="Poster do filme">
+  <img data-id="${movie.id}" src="${movie.poster}" alt="Poster do filme">
   `).join("") 
 }
 sectionMovies(data.films)
