@@ -1,27 +1,27 @@
 import {searchBar, filterAncestry, filterHouse, filterSpecie, filterGenero} from './data.js';
 import harryData from './data/harrypotter/harry.js';
 
-const characters = [
-  harryData.characters[323],
-  harryData.characters[122],
-  harryData.characters[583],
-  harryData.characters[324],
-  harryData.characters[0],
-  harryData.characters[208],
-  harryData.characters[138],
-  harryData.characters[97],
-  harryData.characters[300],
-  harryData.characters[146],
-  harryData.characters[154],
-  harryData.characters[159],
-  harryData.characters[364],
-  harryData.characters[374],
-  harryData.characters[23],
-  harryData.characters[2],
-  harryData.characters[42],
-  harryData.characters[658],
-  harryData.characters[323]
-];
+// const characters = [
+//   harryData.characters[323],
+//   harryData.characters[122],
+//   harryData.characters[583],
+//   harryData.characters[324],
+//   harryData.characters[0],
+//   harryData.characters[208],
+//   harryData.characters[138],
+//   harryData.characters[97],
+//   harryData.characters[300],
+//   harryData.characters[146],
+//   harryData.characters[154],
+//   harryData.characters[159],
+//   harryData.characters[364],
+//   harryData.characters[374],
+//   harryData.characters[23],
+//   harryData.characters[2],
+//   harryData.characters[42],
+//   harryData.characters[658],
+//   harryData.characters[323]
+// ];
 const ancestralidadeFilter = document.getElementById("ancestralidade-filter"); //id do html
 const casasFilter = document.getElementById("casas-filter");
 const especieFilter = document.getElementById("especie-filter");
@@ -36,7 +36,7 @@ let showSidebar = false;
 function toggleSidebar (){
   showSidebar = !showSidebar;
   if(showSidebar) {
-    navigationHeader.style.marginLeft = '-10vw'; 
+    navigationHeader.style.marginLeft = '-15vw'; 
     navigationHeader.style.animationName = 'ShowSidebar'; 
     content.style.filter = 'blur(2px)'; 
   }
@@ -62,7 +62,7 @@ window.addEventListener('resize', function() {
   }  
 });
 
-characters.forEach(function(character) {//forEach para percorrer todo array de character
+harryData.characters.forEach(function(character) {//forEach para percorrer todo array de character
   cardDrawing(character)
 });
 
@@ -113,14 +113,14 @@ function cardPrinting(array){
 //barra de pesquisa
 const inputSearch = document.getElementById("searchBar")
 inputSearch.addEventListener('keyup', () => {
-  const returnCharacters = searchBar(characters, inputSearch.value)
+  const returnCharacters = searchBar(harryData.characters, inputSearch.value)
   cardPrinting(returnCharacters)
 })
 
 //Filtro Ancestralidade
 ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, quando seleciona a opção filtro desejado
   const value = e.target.value;	 
-  const ancestryCharacters = filterAncestry(characters, value);	//busca Ancestry
+  const ancestryCharacters = filterAncestry(harryData.characters, value);	//busca Ancestry
   //console.log(filterAncestry);
   cardPrinting(ancestryCharacters)
 });
@@ -128,21 +128,21 @@ ancestralidadeFilter.addEventListener("change", (e) => { //evento de mudança, q
 // Fitro Casa
 casasFilter.addEventListener("change", (e) => {
   const value = e.target.value;	 
-  const casaCharacters = filterHouse(characters, value);
+  const casaCharacters = filterHouse(harryData.characters, value);
   cardPrinting(casaCharacters)
 });
 
 // Fitro Espécie
 especieFilter.addEventListener("change", (e) => { 
   const value = e.target.value;	 
-  const specieCharacters = filterSpecie(characters, value);
+  const specieCharacters = filterSpecie(harryData.characters, value);
   cardPrinting(specieCharacters)
 });
 
 // Filtro Gênero
 generoFilter.addEventListener("change", (e) => { 
   const value = e.target.value;	 
-  const genderCharacters = filterGenero(characters, value);
+  const genderCharacters = filterGenero(harryData.characters, value);
   cardPrinting(genderCharacters)
 });
 
