@@ -2,11 +2,11 @@ import {sortByOrderFilms, sortByRelease} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 // Função dos cards na tela
-function sectionMovies(items){
-  document.getElementById('infoMovies').innerHTML = items.map((studio) => `
+function sectionMovies(movies){
+  document.getElementById('infoMovies').innerHTML = movies.map((movie) => `
   <div class="cardFront">
-  <p class="name">${studio.title}</p>
-  <img src="${studio.poster}" alt="Poster do filme">
+  <p class="name">${movie.title}</p>
+  <img data-id="${movie.id}" src="${movie.poster}" alt="Poster do filme">
   `).join("") 
 }
 sectionMovies(data.films)
@@ -23,15 +23,10 @@ function modalFilmes(modalID, filmeID){
     }
   })
   
-  let filmes = []
-  data.films.map(filme => {
-    const filmesFiltrados = filme.map((filmeAtual) => {
-      return filmeAtual.id == filmeID
+  const filmes = data.films.filter(filme => {
+    return filme.id == filmeID
     })
     
-    filmes = [...filmes, ... filmesFiltrados]
-  })
-
   const movies = filmes[0]
 
   const modalContent = modal.querySelector('.modal-content')
