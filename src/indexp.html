@@ -36,13 +36,13 @@
             <section class="esquerda">
                 <label  for="nome"><strong>Personagem:</strong></label>
                 <input  id= "nome" type="text" required placeholder="Digite o nome">
-                <button id= "ok" type="submit">OK</button>
+                <button id= "btn-ok" type="submit"> OK </button>
             </section>
          
         
             <section class="meio">
                <label for="genero"><strong>Gênero:</strong></strong></label>
-               <select name="genero" id="genero">
+               <select name="genero" id="genero" class="estilo-do-input">
                  <option selected disabled value="">Selecione</option>
                  <option id="fem" value="fem">Feminino</option>
                  <option id="masc" value="masc">Masculino</option>
@@ -51,7 +51,7 @@
 
             <section class="direita">
                <label for="especie"><strong>Espécie:</strong></label>
-               <select id="especie" >
+               <select class="estilo-do-input" >
                    <option selected disabled value="">Selecione</option>
                    <option value="human">Human</option>
                    <option value="Totoro">Totoro</option>
@@ -80,7 +80,7 @@
         </section>
     </main>
 
-    <section class="cards">
+    <section class="mostrar-card-pai">
 
     </section>
 
