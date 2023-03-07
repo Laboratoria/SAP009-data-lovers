@@ -5,21 +5,32 @@ const tableCreated = document.querySelector('#tableFilter');
 const genderSelector = document.querySelector('#selectGender');
 const ageSelector = document.querySelector('#selectAge');
 const orderSelector = document.querySelector('#selectOrder'); 
+const endButton = document.getElementById("okButton2"); // manipulação de DOM, pegando o id do HTML do botão.
+const selectAllOptions = document.getElementById("selectTheOptions2"); // manipulação de DOM, pegando o id do HTML da mensagem para selecionar tudo.
 
 const arrayAthletes = data.athletes;
 
-orderSelector.onchange = () => {
-  const gender = filterGender(arrayAthletes, "gender", genderSelector.value);
-  const filterOne = filterAge(gender, ageSelector.value);
-  const filtered = filterData(filterOne, "gender", genderSelector.value);
-  let sortedAthletes;
-  if (orderSelector.value === 'a-z') {
-    sortedAthletes = ascendingOrder(filtered);
-  } else {
-    sortedAthletes = descendingOrder(filtered);
+endButton.onclick = () => {
+
+  if (genderSelector.value === "" || ageSelector.value === "" || orderSelector.value === "") {
+    selectAllOptions.innerHTML = "⚠️ Por favor, selecione todas as opções antes de clicar em OK";
   }
-  
-  tableCreated.innerHTML =  `
+  else  if (genderSelector.value === "" || ageSelector.value !== "" || orderSelector.value !== "") {
+    selectAllOptions.innerHTML = "⚠️ Por favor, selecione todas as opções antes de clicar em OK";
+ 
+  } else {
+    const gender = filterGender(arrayAthletes, "gender", genderSelector.value);
+    const filterOne = filterAge(gender, ageSelector.value);
+    const filtered = filterData(filterOne, "gender", genderSelector.value);
+
+    let sortedAthletes;
+    if (orderSelector.value === 'a-z') {
+      sortedAthletes = ascendingOrder(filtered);
+    } else {
+      sortedAthletes = descendingOrder(filtered);
+    }  
+
+    tableCreated.innerHTML =  `
     <table>
       <thead>
         <tr>
@@ -54,5 +65,6 @@ orderSelector.onchange = () => {
       </tbody>
     </table>
   `;
+  }
 }
 
