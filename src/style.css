@@ -1,3 +1,11 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+
 body {
     background-color: #785782;
     background-image: url(https://i.pinimg.com/originals/12/81/bf/1281bfcd33300e98beb01d60bd3f3556.png);
@@ -6,7 +14,8 @@ body {
     background-attachment: fixed, scroll;
     background-origin: content-box;
     font-size: 15px;;
-    color:aqua;
-   
+    color:rgb(255, 255, 255);
+   font-family: 'Lato', sans-serif;
+
 }
 
