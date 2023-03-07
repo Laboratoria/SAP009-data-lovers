@@ -8,12 +8,9 @@ const endButton = document.getElementById("okButton"); // manipulação de DOM, 
 const selectAllOptions = document.getElementById("selectTheOptions1"); // manipulação de DOM, pegando o id do HTML da msg para selecionar tudo.
 const calculationOfBrazilianMedalists = document.querySelector("#aggregateCalculation"); // manipulação de DOM, pegando o id do HTML do cálculo agregado.
 
-const dataArray = [...data.athletes];
-const key = 'year';
-const value = 2016;
-const percentageBrazil = brazilMedals(dataArray, key, value);
-
-calculationOfBrazilianMedalists.innerHTML = `“Em 2016, A porcentagem total de atletas <br> medalhistas brasileiros foi de ${percentageBrazil} % ” `
+const percentageBrazil = (brazilMedals(data.athletes , "team" , "Brazil"));
+ 
+calculationOfBrazilianMedalists.innerHTML = ` “Em 2016, A porcentagem total de atletas medalhistas brasileiros foi de ${percentageBrazil} % ” `
 
 // para cada elemento "team" do banco de dados, foi criado um elemento <option> e que foi adicionado ao elemento <select> :
 const countrySet = new Set(); // Cria uma variável para receber o objeto Set. 

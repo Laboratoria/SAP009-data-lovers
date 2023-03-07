@@ -34,7 +34,6 @@ export const descendingOrder = (data) => {
 }
 
 
-
 export function sortDataByAthleteName(athletes , order) {
   const sorted = [...athletes];
   sorted.sort((a, b) => a.name.localeCompare(b.name))
@@ -53,11 +52,19 @@ export function filterMedal(dataArray, key, value) {
 export function filterSport(dataArray, key, value) {
   return dataArray.filter(item => item[key] === value);
 }
-export const brazilMedals = (dataArray, key, value) => { // ******VER O .REDUCE*****
 
+export function brazilMedals (dataArray, key, value) { // Função que calcula a porcentagem de medalhas olímpicas que o Brasil ganhou em relação ao total.
 
-  const brazilMedals = dataArray.filter(medal => medal[key] === value && medal.country === 'BRA'); // Filtra o array para manter apenas as medalhas do Brasil com a chave e o valor fornecidos.
-  const totalMedals = dataArray.filter(medal => medal[key] === value).length; // Calcula o total de medalhas do Brasil. O length é usado para obter o tamanho do novo array, que representa o total de medalhas do Brasil. Essa quantidade é armazenada na variável totalMedals.
-  const percentage = brazilMedals.length / totalMedals * 100;  // Calcula a porcentagem de medalhas do Brasil em relação ao total.
-  return percentage.toFixed(2);  // Retorna a porcentagem formatada com 2 casas decimais
+  const totalMedals = dataArray.length;   // Variável que pega o comprimento do número total de medalhas.
+
+  const medalsOnlyFromBrazil = dataArray.reduce((acc, item) => {  // Conta o número de medalhas ganhas pelo Brasil. Aqui estamos filtrando os dados utilizando o reduce, que executa uma função reducer para cada elemento do array, resultando num único valor de retorno. O valor de retorno da da função reducer é atribuída ao acumulador (acc). 
+
+    if (item[key] === value) { // SE, o o item da chave for exatamente igual ao valor, ou seja, se o país for exatamente igual a "Brazil".
+
+      return acc + 1; // retorne acc + 1. O parâmetro acc é uma variável de acumulador que é usada na função reduce. Essa variável é atualizada a cada iteração da função, com o objetivo de armazenar o resultado intermediário da operação realizada pelo reduce.
+    }
+    return acc;  
+  }, 0);
+
+return Number((medalsOnlyFromBrazil * 100 / totalMedals).toFixed(2)); // Retorna a porcentagem formatada com 2 casas decimais. Calcula a porcentagem de medalhas ganhas pelo Brasil em relação ao total, dividindo as medalhas somente do Brasil, multiplicando por 100 e dividindo pelo total de medalhas.
 }
