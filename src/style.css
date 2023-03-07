@@ -78,7 +78,6 @@ p {
     height: 100px;    
     text-align: center;
     line-height: 100px;
-
 }
 
 #imagem-principal {
@@ -276,7 +275,7 @@ input, select {
     border-radius: 7px;
   }
 
-::-webkit-scrollbar-thumb:hover {
+ ::-webkit-scrollbar-thumb:hover {
     background: #f68da9; 
   }
 
@@ -303,7 +302,7 @@ input, select {
 	margin-bottom: 5px;
   }
   
-  .card_nome, .card_idade, .card_genero, .card_especie {
+  .card_nome {
 	font-size: 18px;
 	font-family: 'quicksand', sans-serif;
 	font-weight: bold;

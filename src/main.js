@@ -17,30 +17,13 @@ function showPeople() {
       const nome = document.createTextNode(data.films[i].people[j].name);
       nomePersonagem.appendChild(nome);
 
-      const idadePersonagem = document.createElement("h4");
-      idadePersonagem.classList.add("card_idade");
-      const idade = document.createTextNode(data.films[i].people[j].age);
-      idadePersonagem.appendChild(idade);
-
-      const generoPersonagem = document.createElement("h4");
-      generoPersonagem.classList.add("card_genero");
-      const genero = document.createTextNode(data.films[i].people[j].gender);
-      generoPersonagem.appendChild(genero);
-
-      const especiePersonagem = document.createElement("h4");
-      especiePersonagem.classList.add("card_especie");
-      const especie = document.createTextNode(data.films[i].people[j].specie);
-      especiePersonagem.appendChild(especie);
-
-      
 
       div.appendChild(img);
       div.appendChild(nomePersonagem);
-      div.appendChild(idadePersonagem);
-      div.appendChild(generoPersonagem);
-      div.appendChild(especiePersonagem);
 
       mostrarCardPai.appendChild(div);
+
+    
     }
   }
 }
