@@ -85,9 +85,6 @@ function mostrarPokemon(data) {
 mostrarPokemon (pokemons)
 
 
-// Pegar o botão para scroll to top
-const meuBotao = document.getElementById("myBtn")
-meuBotao.addEventListener("click",topFuncao);
 
 filtrarNomesPokemons.addEventListener("keyup", () => {
   const nome = filtrarNomesPokemons.value;
