@@ -34,8 +34,8 @@
 
         <div class="headerSpace" id="headerSpace">
         <a href="#content" id="homeBtn">Home</a>
-        <a href="#cardSection" id="charactersBtn">Personagens</a>
-        <a href="#" id="housesBtn">Casas</a>
+        <a href="#Personagens" id="charactersBtn">Personagens</a>
+        <a href="pag02.html" id="housesBtn">Casas</a>
         </div>
       </div></div>
     
@@ -49,14 +49,17 @@
         </section>
 
       <section class="cardCharacters" id="cardCharacters">
-        <p>Personagens</p>
+        <div id="Personagens"><p>Personagens</p></div>
 
         <div id="filters">
         <div class="divSearch">
-          <input type="search" id="searchBar" placeholder="Digite o nome">
+          <input type="search" id="searchBar" placeholder="Digite o nome"> 
           
         <div class="filter-menu">
-
+           
+            <button id="ordenacao">Todos os Personagens de A-Z</button>
+            <button id="oacanedro">Todos os Personagens de Z-A</button>
+                 
           <select id="ancestralidade-filter">
             <option selected="true" disabled="disabled">Ancestralidade </option>
             <option value="Half-blood">Mestico</option> 
@@ -87,10 +90,12 @@
             <option value="Male">Masculino</option>                        
           </select>
         </div>
+       
 
       <div class="cardSection" id="cardSection"></div>
         </div>
         </div>
+        
         </section>
       </div>
       </div>
@@ -98,7 +103,7 @@
   <footer>    
     <div class="imagem">    
     <a href="https://github.com/talitamsx" target="_blank">
-      <img src="githubAmarelo.png"> </a>
+      <img src="githubAmarelo.png"></a>
       <a href="https://github.com/silvertapecoder" target="_blank">
       <img src="githubAmarelo.png" alt="github"></a>
       <br>      
