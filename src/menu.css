@@ -204,14 +204,14 @@ li {
 
 .icones-card img{
     height: 25px;
-    margin-top: 5px;
+    margin-top: 5px
 }
+
 .cards-menu-lateral{
     display: flex;
     flex-direction: column;
     background-color: #051759;
     width: 342px;
-     
 }
 
 .cards-menu-lateral-filtro {
