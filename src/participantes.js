@@ -13,10 +13,13 @@ const arrayAthletes = data.athletes;
 endButton.onclick = () => {
 
   if (genderSelector.value === "" || ageSelector.value === "" || orderSelector.value === "") {
-  selectAllOptions.innerHTML = "⚠️ Por favor, selecione todas as opções antes de clicar em OK";
+  selectAllOptions.innerHTML = "⚠️ Por favor, selecione todas as opções antes de clicar em OK"
+  }
+  else  if (genderSelector.value === "" || ageSelector.value !== "" || orderSelector.value !== "") {
+    selectAllOptions.innerHTML = "⚠️ Por favor, selecione todas as opções antes de clicar em OK";
  
-  
-} else {
+  } else {
+
     const gender = filterGender(arrayAthletes, "gender", genderSelector.value);
     const filterOne = filterAge(gender, ageSelector.value);
     const filtered = filterData(filterOne, "gender", genderSelector.value);
@@ -26,7 +29,7 @@ endButton.onclick = () => {
       sortedAthletes = ascendingOrder(filtered);
     } else {
       sortedAthletes = descendingOrder(filtered);
-    }
+      }  
 
     tableCreated.innerHTML =  `
       <table>
@@ -44,6 +47,7 @@ endButton.onclick = () => {
             <th>Medalha</th>
           </tr>
         </thead>
+        
         <tbody>
           ${sortedAthletes.map(element => `
             <tr>
@@ -64,3 +68,4 @@ endButton.onclick = () => {
     `;
   }
 }
+

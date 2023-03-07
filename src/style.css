@@ -349,7 +349,7 @@ a {
 
 .dataButtons3 {
   position: absolute;
-  bottom: 55%;
+  bottom: 54%;
   left: 26%;
   background: #48C26E;
   width: 360px;
@@ -361,7 +361,7 @@ a {
 
 .dataButtons4 {
   position: absolute;
-  bottom: 48%;
+  bottom: 47%;
   left: 26%;
   background: #48C26E;
   width: 360px;
@@ -373,7 +373,7 @@ a {
 
 .dataButtons5 {
   position: absolute;
-  bottom: 41%;
+  bottom: 40%;
   left: 26%;
   background: #48C26E;
   width: 360px;
@@ -385,7 +385,7 @@ a {
 
 #okButton2 {
   position: absolute;
-  bottom: 33%;
+  bottom: 32%;
   left: 33%;
   background: #48C26E;
   width: 90px;
@@ -404,7 +404,7 @@ a {
   color: #000000;
   margin-left: 2%;
   font-size: 30px;
-  bottom: 53%;
+  bottom: 61%;
 }
 
 /* CONFIGURAÇÃO PÁGINA MODALIDADES */
@@ -495,6 +495,7 @@ a {
   bottom: 58%;
 }
 
+
 /* CONFIGURAÇÃO PÁGINA CURIOSIDADES */
 
 h4 {
@@ -554,6 +555,73 @@ border-radius: 20px;
   bottom: 10%;
   width: 450px;
   height: 700px;
+}
+
+
+/* CONFIGURAÇÃO PÁGINA TORNE-SE UM ATLETA */
+
+#yellowBackground11 {
+  position: absolute;
+  top: 14%;
+  left: 10%;
+  background-color: #FEFC89;
+  width: 1100px;
+  height: 180px;
+  border-radius: 20px;
+}
+
+#medalhas {
+  position: absolute;
+  top: 14%;
+  right: 7%;
+  width: 600px;
+  height: 300px;
+}
+
+#yellowBackground12 {
+  position: absolute;
+  top: 30%;
+  left: 18%;
+}
+
+.lista-informacao {
+  width: 150%;
+  display: inline-block;
+  list-style: none; 
+  vertical-align: top;
+}
+
+.itens {
+  line-height: 2.0;
+  font-size: 15pt;
+}
+
+.itens:before {
+  content: "🟊";
+}
+
+
+#yellowBackground13 {
+  position: absolute;
+  bottom: 13%;
+  left: 10%;
+  background-color: #FEFC89;
+  width: 1100px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+#yellowBackground14 {
+  position: absolute;
+  top: 48%;
+  right: 10%;
+  width: 450px;
+  height: 600px;
+}
+
+.paragraphs1 {
+  font-size: 18pt;
+  text-align: center;
 }
 
 
@@ -724,6 +792,7 @@ h2 {
 }
 
 .dataButtons5, .dataButtons8 { /*Configuração - Participantes e Modalidades*/
+  bottom: 33%;
   left: 15%;
   width: 250px;
   height: 60px;
@@ -744,6 +813,7 @@ h2 {
   font-size: 15px;
   bottom: 62%;
 }
+
 }
 
 /*------------------------xxxxxxxxxxxxxxxxxxxx--------------*/
@@ -866,6 +936,7 @@ h2 {
     height: auto;
    }
 
+
   #yellowBackground3 { /*Configuração - Olimpíadas 2016, Participantes e Modalidades*/
     top: 72%;
   }
@@ -905,11 +976,12 @@ h2 {
     left: 24%;
   }
 
+
   #selectTheOptions1, #selectTheOptions2, #selectTheOptions3 { /*Configuração -  Olimpíadas 2016, Participantes e Modalidades*/
     bottom: 60%;
     font-size: 20px;
   }
-  
+
   .copyright { /*CONFIGURAÇÃO GERAL*/
     font-size: 8pt;
   }
@@ -1011,8 +1083,7 @@ h2 {
  #okButton2, #okButton3 { /*Configuração - Participantes e Modalidades*/
       bottom: 24%;
       left: 35%;
-  }
-
+  
   #selectTheOptions1 { /*Configuração - Olimpíadas 2016, Participantes e Modalidades*/
     font-size: 12px;
     bottom: 48%;
