@@ -30,3 +30,48 @@ h1 { color: #D9DD1B;
     top: 70px;
     right: 330px;
 }
+
+#btn1{
+    background-color: #fcfcfc;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    color: #000000;
+    font-size:-5px;
+    font-weight: 50px;    
+    margin: 10px;
+    padding: 0.8em 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#btn2{
+    background-color: #fcfcfc;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    color: #000000;
+    font-size:-5px;
+    font-weight: 50px;    
+    margin: 10px;
+    padding: 0.8em 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Filtrar{
+    background-color: #ffffff;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3em 0.5em;
+}
+
+#Ordenar{
+    background-color: #ffffff;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3em 0.5em;
+
+}

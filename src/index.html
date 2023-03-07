@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>POKEMON</title>
     <link rel="stylesheet" href="style.css" />
+    
     <style>
       @font-face {
         font-family:pokemon;
@@ -17,13 +18,31 @@
     </style>
   </head>
   <body>
-       <h1>POKEMON</h1>
+       <h1>POKÉMON</h1>
+                       
        <div class= "pikachu">
         <img src="Pikachu-Pokemon-No-Background-Clip-Art.png" width="120" height="120" />
        </div>
        <div class= "pokebola">
         <img src="kawax-pokeball-3097.png" width="120" height="120" />
        </div>
+              
+        <select name="categorias" id="Filtrar">
+        <option value="tipo">Tipo</option>
+        <option value="geração">Geração</option>
+        </select>
+        <button id="btn1">Filtrar</button>
+       
+      
+      <select name="Ordenar" id="Ordenar">
+       <option value="A-Z" >A-Z</option>
+       <option value="Z-A">Z-A</option>
+      </select>
+      <button id="btn2">Ordenar</button>
+
+      
+     
+
         <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
