@@ -1,0 +1,295 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: #130202;
+    --color-dark2: #2d2ded;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-yellow:#d29d21;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Harry Potter', sans-serif;
+    background-color: rgb(23, 1, 64);
+    color: var(--color-white);    
+    background-image:url("fundo4.jpg");
+    background-size: cover; 
+    background-position: center;
+    text-shadow: 2px -2px 10px var(--color-dark1), 2px -2px 10px var(--color-dark1); 
+  
+}
+.content{
+    margin-top: 100px;
+}
+
+#logoMenor{
+    width: 80px;
+    display: flex;
+    padding: 0px 35px;
+}
+
+#header,
+.navigation_header {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'HarryPotter7', sans-serif; 
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-dark1);
+    box-shadow: 1px 1px 4px var(--color-yellow);
+    height: 3.5em;
+    justify-content: space-between;
+    /* padding: 0 10%; */
+    z-index: 2;
+
+}
+.navigation_header{
+    gap: 1em;
+    z-index: 3;
+    height: 100%;
+}
+.navigation_header a{
+    text-decoration: none;
+    color: var(--color-yellow);
+    transition: 1s;
+    margin-right: 150px;
+    padding: 15px;  
+}
+.navigation_header a:hover{
+    background-color: #414141;
+    border-radius: 25px;
+}
+.headerSpace{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+section{   
+    font-family: 'Harry Potter', sans-serif;
+    color: aliceblue;
+    font-size: 40px; 
+    margin-top: 2%;
+    text-align: center; 
+    transition: 1s;
+}
+.btn_icon_header{
+    background-color: transparent;
+    border: none;
+    color: var(--color-yellow);
+    cursor: pointer;
+    display:none;
+}
+@media screen and (max-width: 768px) {
+    .btn_icon_header{
+        display: block;
+    }
+    .navigation_header{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--color-dark5);
+        height: 50vh;
+        min-width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }  
+    .navigation_header a{
+        margin-right: 0;
+    }  
+    .headerSpace{
+        flex-direction: column;
+    }
+}
+@keyframes ShowSidebar{
+    from {margin-left: -100vw;}
+    top {margin-left: -50vw;}
+}
+
+#logoMaior{
+    max-width: 300px;
+    max-height: 300px;  
+    display: block;
+    margin-right: auto;
+    margin-left: auto;      
+}
+
+footer{
+    width: 100%;
+    background-color:var(--color-dark1);
+    box-shadow: 1px 1px 6px var(--color-yellow);    
+    padding: 10px 0px;
+    display: block;      
+    flex-direction: row;
+    align-items: center;  
+    height: 2hv;
+    gap: 10px;
+    /*position: fixed;*/
+    bottom: 0;
+                
+}
+.imagem{
+    
+    width: 100%;
+    margin-right: 46%;
+    margin-left: 46%; 
+}
+
+.imagem img{
+    height: 2.5rem;
+    width: 2.5rem;        
+}
+
+h5{
+    text-align: center;  
+    font-family: 'HarryPotter7', sans-serif; 
+}
+
+.cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    /*justify-content: space-between;
+    padding: 200px;*/
+}
+
+.card{/*id da div q contém os cards*/
+   /* display: inline-flex; ou flex??*/
+    justify-content: center;/*alinha os cards no centro da página*/
+    transform-style: preserve-3d;
+    transition: all .5s;
+    width: 350px;
+    height: 350px;
+}
+.cardsDiv{/*as faces do card*/
+    display: flex;
+    position: absolute; /*deixa os cards um em cima do outro*/
+    align-items: center; /*alinha o card e as palavras*/
+}
+.cardImg, .cardBackImg{/*imagens do card front e back*/
+    width: 350px;
+    height: 350px;
+}
+.cardsDiv h2{/*palavras dentro dos cards*/
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: 13px; 
+    color: #d29d21;
+    width: 44%; /*tamanho da linha, ajuda a centralizar*/    
+}
+.front h2{
+    position: absolute;
+    text-align: center;
+}
+.back h2{
+    position: absolute;   /*centraliza e posiciona as letras sobre o card*/ 
+    bottom: 9em;
+    text-align: center;
+}
+.cardCharacters p{ /*palavra "personagens"*/
+    color:var(--color-yellow);
+    text-shadow: 2px -2px 10px var(--color-dark1), 2px -2px 10px var(--color-dark1); 
+}
+
+
+.back {/*faz o card de trás ficar invertido*/
+    transform: rotateY(180deg);
+}
+
+.front, .back{
+    backface-visibility: hidden;
+    justify-content: space-around;
+}
+
+
+.flipCard{/*faz o card virar*/
+    transform: rotateY(180deg);
+}
+#searchBar{
+    width: 23em;
+    height: 30px;
+    font-family: 'HarryPotter7', sans-serif;
+    margin-bottom: 2em;
+}
+
+/*CONFIGURAR A POSIÇÃO DE TODOS OS FILTROS COM A DIV FILTERS*/
+
+#ancestralidade-filter, #casas-filter, #especie-filter, #genero-filter, #ordenacao, #oacanedro{
+    font-family: 'HarryPotter7', sans-serif;
+    padding: 5px;
+    background-color: #1e1e1e;
+    color: #d29d21;
+    border: none;
+}
+
+#filters {
+    padding: 0;
+    width: 150px;
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: 13px; 
+    background-color: var(--color-dark4);
+    margin-left: 3%;
+    display: inline;
+    position: relative;
+    color: var(--color-yellow);
+    text-decoration: none;
+}
+.casas{
+    margin: 10%;
+    margin-top: 10%;
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.casas h3{
+    background-color: white;
+    padding: 7px 5px 0px 10px;
+}
+
+.font-casa, .casas h1{
+    font-family: 'Harry Potter', sans-serif;
+    color:var(--color-yellow);
+    font-size: 70px;
+}
+.font-casa, .casas h2{
+    font-family: 'Harry Potter', sans-serif;
+    color:var(--color-yellow);
+    font-size: 40px;
+}
+#grifinoria{
+    color: #AE0001;
+    text-shadow: 1px 0px 0px var(--color-yellow);
+}
+#lufa{
+    color: #ecb939;
+    text-shadow: 1px 0px 0px var(--color-dark1);
+}
+#corvinal{
+    color: #0000a0;
+    text-shadow: 1px 0px 0px #946b2d;
+}
+#sonserina{
+    color: #1a472a;
+    text-shadow: 1px 0px 0px #5d5d5d;
+}
+
+.casas img{
+    width: 140px;
+    height: 170px;
+}
+
