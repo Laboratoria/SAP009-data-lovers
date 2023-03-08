@@ -8,7 +8,7 @@ console.log(data.pokemon[0].name)
 
 const cards = data 
 
-const pok=2
+
 
 
 for (let  i = 0; i < 251; i ++){
