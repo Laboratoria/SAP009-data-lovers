@@ -1,43 +1,36 @@
-// estas funciones son de ejemplo
-function filterData(data, condition) {
-  return data.filter(item => item.name.toLowerCase().includes(condition.toLowerCase()));
-}
+export const sortData = (data, condition) => {
+  const filteredData = [...data.characters]; // é feita uma cópia do array, para não modificar o original
+  if (condition === 'az') {
+    filteredData.sort((a, b) => (a.name > b.name) ? 1 : -1); // Ordenamos de A - Z
+  } else if (condition === 'za') {
+    filteredData.sort((a, b) => (a.name < b.name) ? 1 : -1);
+  }
+  return filteredData
+};
 
-function sortData(data, sortBy, sortOrder) {
-  return data.sort((a, b) => {
-    let x = a[sortBy];
-    let y = b[sortBy];
-    if (typeof x === "string") {
-      x = x.toLowerCase();
-      y = y.toLowerCase();
-    }
-    if (sortOrder === "desc") {
-      return y > x ? 1 : -1;
+export function filterData(characters, selection) {
+  return characters.filter(character => {
+    if (selection === 'male') {
+      return character.gender === 'Male';
+    } else if (selection === 'female') {
+      return character.gender === 'Female';
     } else {
-      return x > y ? 1 : -1;
+      return true;
     }
   });
 }
 
-// Definir la función computeStats
-function computeStats(data) {
-  // Calcular las estadísticas y devolverlas
-  const stats = {};
-  const ages = data.map(item => item.age);
-  const totalAges = ages.reduce((accumulator, currentValue) => accumulator + currentValue);
-  stats.averageAge = totalAges / ages.length;
-  stats.numCharacters = data.length;
-  return stats;
+export function filterHouse(characters, house) {
+  if (house === 'todas') {
+    return characters;
+  } else {
+    return characters.filter(character => character.house === house);
+  }
 }
 
-
-// Exportar las funciones
-export { filterData, sortData, computeStats };
-
-//export const example = () => {
-//  return 'example';
-//};
 
 //export const anotherExample = () => {
 //  return 'OMG';
 //};
+
+

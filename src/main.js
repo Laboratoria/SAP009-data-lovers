@@ -1,35 +1,50 @@
-import { example } from './data.js';
 import data from './data/harrypotter/data.js';
-// import data from './data/lol/lol.js';
-// import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+import { sortData, filterData, filterHouse } from './data.js'
 
-const filterHouse = document.getElementById("filter-house")
 
-filterHouse.addEventListener("change", () => {
-  const houseSelect = filterHouse.value;
-  // Llamar a la función correspondiente para filtrar los datos
-  if (houseSelect === 'todas') {
-    // Mostrar todos los datos
-    showData(data);
-  } else if (houseSelect === 'gryffindor') {
-    // Filtrar por casa Gryffindor
-    const filteredData = filterData(data, 'Gryffindor');
-    showData(filteredData);
-  } else if (houseSelect === 'slytherin') {
-    // Filtrar por casa Slytherin
-    const filteredData = filterData(data, 'Slytherin');
-    showData(filteredData);
-  } else if (houseSelect === 'ravenclaw') {
-    // Filtrar por casa Ravenclaw
-    const filteredData = filterData(data, 'Ravenclaw');
-    showData(filteredData);
-  } else if (houseSelect === 'hufflepuff') {
-    // Filtrar por casa Hufflepuff
-    const filteredData = filterData(data, 'Hufflepuff');
-    showData(filteredData);
+const select = document.getElementById("ordenalfa");
+select.addEventListener('change', () => {
+  const selectedOption = select.options[select.selectedIndex].value;
+  const filteredData = sortData(data, selectedOption);
+  showNames(filteredData);
+})
+
+function showNames(characters) {
+  const list = document.getElementById('list');
+  list.innerHTML = "";  // esvaziamos a lista antes de adicionar os novos elementos
+
+  for (const character of characters) {
+    const li = document.createElement("li");
+    li.textContent = character.name;
+    list.appendChild(li);
+  }
+}
+
+const filterGenero = document.getElementById('filter-genero');
+const personajesList = document.querySelector('ul');
+
+function showPeople(characters) {
+  personajesList.innerHTML = '';
+  characters.forEach(character => {
+    const li = document.createElement('li');
+    li.textContent = character.name;
+    personajesList.appendChild(li);
+  });
+}
+
+filterGenero.addEventListener('change', () => {
+  const selection = filterGenero.value;
+  if (selection === 'genero') {
+    showPeople(data.characters);
+  } else {
+    const personsFilter = filterData(data.characters, selection);
+    showPeople(personsFilter);
   }
 });
 
 
-// console.log(example, data);
+
+
+// console.log(data.characters);
+
+
