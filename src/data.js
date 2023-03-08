@@ -11,8 +11,10 @@ export const filtrarTipo = (pokemons, type) => {
   return tipoFiltrado;
 };
 
-export const calcPorcentagem = (pokemonsLength, typeLength) =>
-  (typeLength / pokemonsLength) * 100 
+export const calcPorcentagem = (pokemonsLength, typeLength) => {
+  (typeLength / pokemonsLength) * 100
+  if (pokemonsLength || typeLength !== typeof number) throw TypeError ("parameters should be numbers")
+};
 
 // códigos para ordenaçao alfabética e numérica crescente e decrescente. localeCompare usado para String
 /* export const ordemCompleta = (pokemon) => { */
