@@ -84,6 +84,7 @@ function mostrarPokemon(data) {
 }
 mostrarPokemon (pokemons)
 
+
 filtrarNomesPokemons.addEventListener("keyup", () => {
   const nome = filtrarNomesPokemons.value;
   const procurarPokemon = filtrarNome (pokemons, nome);
