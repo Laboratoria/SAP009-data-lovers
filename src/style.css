@@ -40,7 +40,7 @@ h1 {
     color: #fb4f7d;
     text-align: center;
     text-shadow: 0.4px 0.4px 0.9px #00000086;
-    margin: 50px;
+    margin: 25px;
 	
 }
 
@@ -60,7 +60,7 @@ p {
     text-indent: 30px;
     color: #070600;
     line-height: 1.5em;
-    padding: 3px;
+    padding: 5px;
     font-weight: 450;
 	text-shadow: 0.1 0.1 0.2 black;
 }
@@ -81,13 +81,13 @@ p {
 }
 
 #imagem-principal {
-	border-radius: 190px;
+	border-radius: 195px;
 	width: 400px;
 	display: block;
 	margin: auto;
+	margin-bottom: 30px;
 	
 }
-
 
 input, select {
 	border-radius: 5px;
@@ -262,7 +262,7 @@ input, select {
   /* scrol personalizado */ 
 
   ::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
   }
 
   ::-webkit-scrollbar-track {
@@ -284,8 +284,6 @@ input, select {
 .cards {
 	display: inline-block;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
 	background-color: #faf9f2;
 	border-radius: 10px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
@@ -293,6 +291,13 @@ input, select {
 	padding: 10px;
 	object-fit: contain;
 	text-align: center;
+	margin-left: 80px;
+	margin-right: 15px;
+	
+	position: relative;
+	perspective: 1000px;
+  
+
   }
   
   .card_image {
@@ -300,6 +305,8 @@ input, select {
 	height: 130px;
 	border-radius: 10%;
 	margin-bottom: 5px;
+	margin-top: 5px;
+	
   }
   
   .card_nome {
