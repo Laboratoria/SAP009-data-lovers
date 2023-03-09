@@ -1,4 +1,20 @@
-import  getNamesAndImages  from "./data.js";
+import  {filterByGender, getPeople}  from './data.js';
+import data from './data/ghibli/ghibli.js';
+
+const people = getPeople(data.films)
+console.log(people)
+console.log(filterByGender(people, "Male"))
+
+
+function getNamesAndImages() {
+  const NameAndImages = []
+  for (let i = 0; i < data.films.length; i++) {
+    for (let j = 0; j < data.films[i].people.length; j++) {
+      NameAndImages.push({name: `${data.films[i].people[j].name}`, image: `${data.films[i].people[j].img}`})
+    }
+  }
+  return NameAndImages
+}
 
 const mostrarCardPai = document.querySelector(".mostrar-card-pai");
 
@@ -17,22 +33,26 @@ function showPeople(NamesAndImg) {
     const nomePersonagem = document.createElement("p");
     nomePersonagem.classList.add("card_nome");
     const nome = document.createTextNode(NamesAndImg[i].name);
-    nomePersonagem.appendChild(nome);
+
 
     div.appendChild(img);
     //div.appendChild(nomePersonagem);
-
     mostrarCardPai.appendChild(div);
 
   }
     
 }
-showPeople(NamesAndImg);
 
-const flipcard = document.querySelector('.mostrar-card-pai');
-flipcard.addEventListener('click', function() {
-  flipcard.classList.toggle('flip');
-});
+showPeople(NamesAndImg)
+
+//váriavel que guarda todos os personagens 
+
+//const personagens = data.films.map((filme) => filme.people)
+//const mapPersonagens = personagens.map((personagem) => personagem.map((pessoa) => pessoa))
+
+//const arr = [] 
+//arr.push(mapPersonagens)
+//console.log(arr)
 
 
 //const generos = function showGender()
@@ -43,16 +63,28 @@ flipcard.addEventListener('click', function() {
 //   //return listaPersonagens.filter(personagem => personagem.gender === genero);
 // }
 
-// const generoEscolhido = document.getElementById("genero")
-// const nomePersonagem = document.getElementById("nome")
-// const especieEscolhida = document.getElementById("especie")
+const generoEscolhido = document.getElementById("genero")
+adiconar evento generoEscolhido.value 
+
+const nomePersonagem = document.getElementById("nome")
+const especieEscolhida = document.getElementById("especie")
 
 // //Apenas chamar a função e passar o parâmetro.
 
 // generoEscolhido.addEventListener('change', filtrarPorGenero)
-// //Primeira Função
-// //Criar nossos cards
-// //1 - Nome e Imagem
+
+//Como separar Male de Female
+//Usar um filter dentro do gender.push()
+//function getGender() {
+//const gender = []
+//for (let i = 0; i < data.films.length; i++) {
+//for (let j = 0; j < data.films[i].people.length; j++) {
+//if (data.films[i].people[j].gender == "male") {
+//gender.push({name: data.films[i].people[j].name})
+//}
+      
+//}
+//}
 
 
 

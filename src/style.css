@@ -292,11 +292,7 @@ input, select {
 	object-fit: contain;
 	text-align: center;
 	margin-left: 80px;
-	margin-right: 15px;
-	
-	position: relative;
-	perspective: 1000px;
-  
+	margin-right: 20px;  
 
   }
   
