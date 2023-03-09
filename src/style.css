@@ -4,161 +4,50 @@
   box-sizing: border-box;
 }
 
-.logo{
-  display: flex;
-  width: 100%;
-  height: 100%;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-}
-
-
-.indexIcons{
-  min-width: 300px;
-  max-width: 1200px;
-  margin: 1rem auto;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.filters{
-  min-width: 300px;
-  max-width: 1200px;
-  margin: 2rem auto;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.conteinerHome{
-  background: linear-gradient(to right, #b4d27c, #fff, #b4d27c);
-}
-
-footer{
-  text-align: center;
-}
-
-.conteinerMovies{
- /* background: gray; */
-background: linear-gradient(to right, #965365, #fff, #965365);
-}
-
-#yearsOption{
-  width: 100%;
-  background: linear-gradient(to right, #965365, #fff, #965365);
-  border-radius: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  cursor: pointer;
-}
-
-#assessmentOption{
-  width: 100%;
-  background: linear-gradient(to right, #965365, #fff, #965365);
-  border-radius: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-align: center;
-  cursor: pointer;
-}
-
-#orderBy{
-  width: 100%;
-  background: linear-gradient(to right, #965365, #fff, #965365);
-  border-radius: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-align: center;
-  cursor: pointer;
-}
-main{
-  width: 100%;
-  height: 100%;
-}
-
-.cardMovies{
-  border: 1px solid red; 
-  min-width: 300px;
-  max-width: 1200px;
-  margin: 0 auto; 
-  display:flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  -webkit-user-drag: none;
-}
-
-#infoMovies{
-  width: 200px;
-  display: flex;
-  align-items: center;
-  /* border: 5px solid #222; */
-  /* border-radius: 20px; */
+body {
   position: relative;
+  max-width: 1200px;
+  min-width: 300px;
+  background: black;
 }
 
-#infoMovies img{
-  width: 100%;
-  border-radius: 20px;
-
-}
-.name{
-  width: 100%;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  background: #f4e8eb99;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; 
-
- position: absolute;
-}
-
-.conteinerCharacters{
-  background: linear-gradient(to right, #f08366, #fff, #f08366);
+#home {
+  position: absolute;
+  max-width: 1200px;
+  min-width: 300px;
+  height: 1219px;
+  left: 200px;
+  top: 80px;
+  /*margin: 1rem auto;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(180deg, #B4D27C 0%, rgba(217, 217, 217, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 45px rgba(0, 0, 0, 0.25));
+  border-radius: 60px;
 }
 
-#speciesOption{
-  width: 100px;
-  background: linear-gradient(to right, #f08366, #fff, #f08366);
-  border-radius: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-align: center;
-  cursor: pointer;
+#logo{
+  position: absolute;
+width: 500px;
+height: 232.5px;
+left: 284px;
+top: 94px;
+
+background: url(1000px-Studio_Ghibli_Logo);
+background-blend-mode: darken;
+
 }
 
-#genderOption{
-  width: 100px;
-  background: linear-gradient(to right, #f08366, #fff, #f08366);
-  border-radius: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-align: center;
-  cursor: pointer;
+.image {
+  position: absolute;
+width: 100%;
+height: 100%;
+left: 400px;
+top: 100px;
 }
 
-#movies{
-  width:100px;
-  background: linear-gradient(to right, #f08366, #fff, #f08366);
-  border-radius: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 2px;
-  text-align: center;
-  cursor: pointer;
-}
+
 
 
 
