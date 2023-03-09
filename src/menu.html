@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Lovers</title>
+    <link rel = "stylesheet"
+    href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+
+    <!--página de abertura -->
+
+   <!--menu principal -->
+    <div id="root">
+      <header>
+        <nav class="menu-superior">
+          <ul class="menu-superior-paginas">
+            <li><a href="menu.html">Pokémon</a></li>
+            <li><a href="https://pokemongolive.com/?hl=pt_BR">O Jogo</a></li>
+          </ul>
+        </nav>
+      </header>
+     <main class="cards">
+      <!--menu lateral -->
+      
+       <section class = "cards-menu-lateral">
+        <img class = "cards-menu-lateral-logo" src="img/logo-pokedex-final.png" alt="Logo Pokédex Go"> 
+        <div class = "cards-menu-lateral-filtro">
+          <li>151 pokémons</li>
+          <input id = "buscarPokemon" type="search" class = "buscar-pokemon" placeholder="Pesquise seu pokémon">
+          <li>Tipo</li>
+          <select name = "tipo"  class = "selecionar-tipo" id = "selecionarTipo"> Selecione 
+              <option value disable selected>Selecione</option>
+              <option value = "water">Água</option>
+              <option value = "bug">Inseto</option>
+              <option value = "dragon">Dragão</option>
+              <option value = "electric">Elétrico</option>
+              <option value = "ghost">Fantasma</option>
+              <option value = "fire">Fogo</option>
+              <option value = "ice">Gelo</option>
+              <option value = "fighting">Lutador</option>
+              <option value = "normal">Normal</option>
+              <option value = "grass">Grama</option>
+              <option value = "psychic">Psiquíco</option>
+              <option value = "rock">Pedra</option>
+              <option value = "ground">Terra</option>
+              <option value = "poison">Venenoso</option>
+              <option value = "flying">Voador</option>
+          </select> 
+          <li>Ordernar por</li>
+          <select name = "Ordernar" id="ordenacao">
+            <option value disable selected>Selecione</option>
+            <option value = "az">A-Z</option>
+            <option value = "za">Z-A</option>
+            <option value = "001">Núm. 1-251</option>
+            <option value = "251">Núm. 251-1</option>
+          </select>
+          <li>Região</li>
+          <select name = "Região" id = "regiaoPokemon">
+            <option value disable selected>Selecione</option>
+            <option value = "Kanto">Kanto</option>
+            <option value = "Johto">Johto</option>
+          </select>
+
+        </div>
+      </section>
+      <section class = "secao-texto-central">
+        <div class = "cards-texto-central"> 
+          <p id="texto-menu"> Aqui, você encontra todos os 151 Pokémons da região de Kanto. <br>
+            Use o menu da lateral esquerda para filtrar de acordo com as suas necessidades.</p>
+        </div> 
+        <div class = "texto-porcentagem">
+          <p id = "porcentagem-tipo"></p>
+        </div>
+       <div class = "cards-pokemons" id ="inserirCards">
+       </div>
+      <button id="myBtn" title="Subir para o topo">Topo</button>
+     </section>
+     
+      <footer></footer>
+    </main>
+  </div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
