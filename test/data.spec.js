@@ -92,8 +92,8 @@ describe ('Calcular a porcentagem de um tipo de pokémon', () => {
   })
 
   it ('Deve retornar a porcentagem de um tipo de pokémon', () => {
-    const resultadoCalculo = calcPorcentagem(pokeNomes, "electric");
+    const resultadoCalculo = calcPorcentagem(pokeNomes.length, 2);
     const porcentagemEletrico = 40;
     expect(resultadoCalculo).toBe(porcentagemEletrico)  
   })
-})
+});
