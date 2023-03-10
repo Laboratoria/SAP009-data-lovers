@@ -56,24 +56,24 @@ const director = document.getElementById('director')
 orderBy.addEventListener ('change', () => {
   const pressed = (orderBy).value;
   const sortedOrder = sortByOrderFilms(films, pressed)
-  const cards = sectionMovies(sortedOrder)
-  movies.innerHTML = cards
+  sectionMovies(sortedOrder)
+
 })
 
 // Função para filtrar por diretor
 director.addEventListener('change', (event) => {
   const selectedDirector = event.target.value
   const filtered = filters(films, 'director', selectedDirector)
-  const cards = sectionMovies(filtered)
-  movies.innerHTML = cards
+  sectionMovies(filtered)
+ 
 })
 
 // Função filtrar mais/menos avaliados
 assessmentOption.addEventListener ('change', () => {
   const selected = (assessmentOption).value;
   const sorted = sortByScore(films, selected)
-  const card = sectionMovies(sorted)
-  movies.innerHTML = card
+  sectionMovies(sorted)
+  
 })
 
 
