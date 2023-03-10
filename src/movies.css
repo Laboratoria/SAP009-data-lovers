@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #9ed9ff;
+}
+
 main{
   width: 100%;
   height: 100%;
@@ -32,14 +36,9 @@ main{
   justify-content: center;
 }
 
-.conteinerMovies{
-  /* background: gray; */
- background: linear-gradient(to right, #965365, #fff, #965365);
- }
- 
  #yearsOption{
    width: 100%;
-   background: linear-gradient(to right, #965365, #fff, #965365);
+   background: #fff;
    border-radius: 20px;
    font-family: 'Bebas Neue', sans-serif;
    font-size: 1rem;
@@ -49,7 +48,7 @@ main{
  
  #assessmentOption{
    width: 100%;
-   background: linear-gradient(to right, #965365, #fff, #965365);
+   background: #fff;
    border-radius: 20px;
    font-family: 'Bebas Neue', sans-serif;
    font-size: 1rem;
@@ -60,7 +59,7 @@ main{
  
  #orderBy{
    width: 100%;
-   background: linear-gradient(to right, #965365, #fff, #965365);
+   background: #fff;
    border-radius: 20px;
    font-family: 'Bebas Neue', sans-serif;
    font-size: 1rem;
@@ -126,12 +125,12 @@ main{
 }
 
 .modal-content {
-  background: #965365;
+  background: #9ed9ff;
   width: 60%;
   height: 90%;
   min-width: 300px;
   padding: 40px;
-  border: 10px solid #965365;
+  border: 10px solid #9ed9ff;
   position: relative;
   border-radius: 20px;
 }
@@ -158,9 +157,9 @@ main{
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 4px solid #965365;
+  border: 4px solid #9ed9ff;
   background: black;
-  color: #965365;
+  color: #9ed9ff;
   cursor: pointer;
 }
 
