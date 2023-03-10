@@ -13,24 +13,38 @@
 <!--criar menu navegação superior responsivo
 1º quais informações vão aparecer no menu, cabeçalho header (tag semantica html recebe o cabeçalho do site)-->
 
-<body>
+<body class="continer">
   <header>
-    <nav class="logo1">
+
+
+    <nav class="menuWeb">
+      <!--<nav class="navegadores">-->
       <ul class="itens">
-        <li><a class="item1" id="listaPerso">Personagens </a></li>
-        <li><a class="item2" id="listaLivros">Coleção de livros</a></li>
-        <li><a class="item4" id="listaFeitiços"> Feitiços </a></li>
-        <li><a class="item3" id="listaCuriosidades">Curiosidades</a></li>
+        <li><a class="item" id="listaPerso">Personagens </a></li>
+        <li><a class="item" id="listaLivros">Coleção de livros</a></li>
+        <li><a class="item" id="listaFeitiços"> Feitiços </a></li>
+        <li><a class="item" id="listaCuriosidades">Curiosidades</a></li>
       </ul>
     </nav>
+    <div>
+
+      <div class=" botaoLateral">
+        <button onclick="menuShow()" class="btn" id="btn-mobile">
+
+        </button>
+      </div>
+
     </div>
+
+
     <div>
       <img class="imgLogo" src="img/harryharry.png.png">
     </div>
     <section class="sessaoInput">
       <input type="text" nome="" id="exibir1" placeholder="Pesquisar">
+
       <select class="select" id="selectFiltros">
-        <option value="VerTodos">Personagens</option>
+        <option value="VerTodos" disabled selected>Personagens</option>
         <option value="Gryffindor">Gryffindor</option>
         <option value="Ravenclaw">Ravenclaw</option>
         <option value="Slytherin">Slytherin</option>
@@ -40,15 +54,21 @@
       <button id="az">Ordem A-Z</button>
       <button id="za">Ordem Z-A</button>
     </section>
+
+    <section class="msgCalc">
+      <p id="mensagemCalculo">
+      </p>
+    </section>
+
   </header>
   <main class="principal">
 
 
     <section>
-      <div class="animation-cards" id="exibir1">
+      <div class="animation-cards" id="exibir3">
         <div class="feitiços" id="exibir2">
-
         </div>
+      </div>
     </section>
 
 
@@ -61,13 +81,17 @@
       <a href="https://github.com/" target="_blank">
       </a>
     </div>
-    <p id="dev">Desenvolvido por: Erika Santos & Thalita Nascimento</p>
+    <p id="dev">Projeto desenvolvido durante o Bootcamp pelas alunas: Erika Santos &amp; Thalita Nascimento</p>
 
     <p class="dev">
-      <Laboratória> Projeto Data Lovers
+      &lt;Laboratória&gt;Projeto Data Lovers
     </p>
 
   </footer>
+
+
+
+
   <script src="main.js" type="module"></script>
 </body>
 

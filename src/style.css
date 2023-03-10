@@ -7,10 +7,6 @@
   
 }
 
-html {
- 
-}
-
 body{
   background-image: url(img/ceunoite.jpeg);
   font-family: "Harry Potter";
@@ -45,8 +41,9 @@ a:hover {
   opacity: 0.9;
   color: rgb(137, 18, 18);
 }
+  
 
-nav {
+.menuWeb {
   display: flex;
   flex-direction:initial;
   align-items: center;
@@ -63,8 +60,6 @@ li {
   list-style: none;
   display: flex;
   margin-left: 160px;
- 
-
 }
 
 .itens li {
@@ -90,9 +85,7 @@ li {
   display: flex;
   gap: 40px;
   padding: 20px;
-  margin-left: 340px;
-  
-  
+  margin-left: 340px;  
 }
 
 H1 {
@@ -106,12 +99,24 @@ H1 {
  color: yellow;
   
 }
+.msgCalc{
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:25px;
+  margin-left: 290px;
+  
+
+}
+
 #listaPerso:hover {
   opacity: 0.9;
   color: rgb(137, 18, 18);
 }
 #exibir1{
   text-align: center;
+  border-radius: 10px;
+  background-color:  yellow;
+  border:rgb(137, 18, 18);
 
 }
 .animation-cards{
@@ -181,4 +186,36 @@ H1 {
 .feitiços{
   background-color: beige;
   word-wrap: break-word;
+}
+
+.menuMobile{
+  display: none;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 730px) {
+    .menuWeb {
+      padding: 1.5rem 4rem;
+    }
+    .item {
+      display: none;
+    }
+    .menuMobile ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    .menuMobile .item{
+      display: block;
+      padding: 1rem 2rem;
+    }
+    #btn-mobile {
+      color:red;
+      border: nome;
+      cursor: pointer;
+      justify-content: end;
+    }
+    .open {
+      display: block;
 }
