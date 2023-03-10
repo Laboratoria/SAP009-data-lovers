@@ -18,46 +18,42 @@
       </div>
     </nav>
   </header>
-  <section class="filters">
+  <section class="">
     <div>
-      <select class="" id="yearsOption">
-        <option disabled selected hidden>linha do tempo</option>
-        <option>1985-1990</option>
-        <option>1990-1995</option>
-        <option>1995-2000</option>
-        <option>2000-2005</option>
-        <option>2005-2010</option>
-        <option>2010-2015</option>
-        <option>2015-2020</option>
-        <option>2020-2025</option>
+      <select class="filters" id="orderBy">
+        <option disabled selected hidden>ordenar por</option>
+        <option value="az" id="az">A-Z</option>
+        <option value="za" id="za">Z-A</option>
       </select>
     </div>
     <div>
-      <select class="" id="assessmentOption">
+      <select class="filters" id="assessmentOption">
         <option disabled selected hidden>avaliação</option>
         <option value="highScore" id="highScore">mais avaliados</option>
         <option value="lowScore" id="lowScore">menos avaliados</option>
       </select>
     </div>
     <div>
-      <select class="" id="orderBy">
-        <option disabled selected hidden>ordenar por</option>
-        <option value="az" id="az">A-Z</option>
-        <option value="za" id="za">Z-A</option>
+      <select class="filters" id="director">
+        <option disabled selected hidden>diretor</option>
+        <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+        <option value="Isao Takahata">Isao Takahata</option>
+        <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+        <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+        <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+        <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
       </select>
     </div>
   </section>
-      <main>
-        <section class="cardMovies">
-          <div class="" id="infoMovies"></div>
-        </section>
-      </main>
-      
-      <div id="modalChar" class="modalContainer">
-          <button class="closeModal">X</button>
-          <div class="modal-content"></div>
-        </div>
-
+  <main>
+    <section class="cardMovies">
+      <div class="" id="infoMovies"></div>
+    </section>
+  </main>     
+  <div id="modalChar" class="modalContainer">
+    <button class="closeModal">X</button>
+    <div class="modal-content"></div>
+  </div>
   <footer>
     <p>Desenvolvido por</p>
     <p>Erika Oliveira &copy;</p>
@@ -67,8 +63,6 @@
     <img src="" alt=""> <!--inserir logo do github e linkedin-->
     <img src="" alt="">
   </footer>
-
-
   <script src="main.js" type="module"></script>
 </body>
 </html>
