@@ -48,7 +48,6 @@ image.addEventListener('click', function(e) {
 
 const films = data.films
 const orderBy = document.getElementById('orderBy')
-const movies = document.querySelector('infoMovies')
 const assessmentOption = document.getElementById('assessmentOption')
 const director = document.getElementById('director')
 
@@ -57,7 +56,6 @@ orderBy.addEventListener ('change', () => {
   const pressed = (orderBy).value;
   const sortedOrder = sortByOrderFilms(films, pressed)
   sectionMovies(sortedOrder)
-
 })
 
 // Função para filtrar por diretor
@@ -65,15 +63,13 @@ director.addEventListener('change', (event) => {
   const selectedDirector = event.target.value
   const filtered = filters(films, 'director', selectedDirector)
   sectionMovies(filtered)
- 
 })
 
 // Função filtrar mais/menos avaliados
 assessmentOption.addEventListener ('change', () => {
   const selected = (assessmentOption).value;
   const sorted = sortByScore(films, selected)
-  sectionMovies(sorted)
-  
+  sectionMovies(sorted) 
 })
 
 
