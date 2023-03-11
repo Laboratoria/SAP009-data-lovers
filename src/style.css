@@ -1,221 +1,281 @@
+/*reset de todas as configurações iniciais*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   font-size: 100%;
-  
 }
 
-body{
+/*class container, armazena header com nav,ul,img section, input,select,section, p , main,section,footer*/
+body {
   background-image: url(img/ceunoite.jpeg);
   font-family: "Harry Potter";
   font-size: 1.5rem;
-  width: 100%;
-  height: 100px;
-  padding:0;
-  margin: 0;
-}
-main{
- display: flex;
- margin-top: 130px;
- margin-left: 60px;
- justify-content: center;
- width: 90%;
- height: 20vh; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.imgLogo {
-  margin-top: 100px;
-  margin-left: 350px; 
-  width: 50%;
- 
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-a {
-  color: yellow;
-}
+/*uma div dentro do header para exibição ampla*/
 
-a:hover {
-  opacity: 0.9;
-  color: rgb(137, 18, 18);
-}
-  
-
+/*nav dentro do header para navegação do campo busca*/
 .menuWeb {
   display: flex;
-  flex-direction:initial;
+  justify-content: center;
   align-items: center;
-  height: 7vh;
-  color: yellow;
   margin-top: 30px;
 }
 
-li {
-  list-style: none;
-}
+/*personalização individual da lista poderia usar flax box?*/
 
 .itens {
   list-style: none;
   display: flex;
-  margin-left: 160px;
-}
-
-.itens li {
-  letter-spacing: 2px;
- margin-left: 100px;
-}
-
-.menu div {
-  width: 20px;
-  height: 3px;
-  background: yellow;
+  justify-content: center;
+  gap: 60%;
+  align-items: center;
   margin: 5px;
 }
-
-.imgMenu {
-  width: 90%; /200vh/
-  height: 98vh; /110vh/
-  opacity: 0.6;
-  margin-top: -50px;
-  /-10px/
-}
-.sessaoInput {
-  display: flex;
-  gap: 40px;
-  padding: 20px;
-  margin-left: 340px;  
-}
-
-H1 {
-  font-size: 110px;
-  margin-top: -190px;
+a {
   color: yellow;
-  text-align: center;
 }
-
-#listaPerso{
- color: yellow;
-  
-}
-.msgCalc{
-  color: aliceblue;
-  font-family: 'Courier New', Courier, monospace;
-  font-size:25px;
-  margin-left: 290px;
-  
-
-}
-
-#listaPerso:hover {
+a:hover {
   opacity: 0.9;
   color: rgb(137, 18, 18);
 }
-#exibir1{
-  text-align: center;
-  border-radius: 10px;
-  background-color:  yellow;
-  border:rgb(137, 18, 18);
-
+.imgLogo {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
 }
-.animation-cards{
-  background:rgb(137, 18, 18);
-  margin-top: -50px;
-  display:flex;
+
+/*campo de imput e select e botões para navegação*/
+.sessaoInput {
+  display: flex;
+  gap: 50px;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+#az {
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellow;
+  color: rgb(137, 18, 18);
+  font-size: 80%;
+  padding: 3px;
+}
+
+#za {
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellow;
+  color: rgb(137, 18, 18);
+  font-size: 80%;
+  padding: 3px;
+}
+
+/*é um input para busca na section class sessaoinput que armazena a navegação de pesqui selec casa e ordenação*/
+#exibir1 {
+  text-align: center;
+  border-radius: 8px;
+  background-color: yellow;
+  color: rgb(137, 18, 18);
+  font-size: 80%;
+  padding: 3px;
+  cursor: pointer;
+  justify-content: end;
+}
+
+.select {
+  color: rgb(137, 18, 18);
+  border-radius: 5%;
+  cursor: pointer;
+  background-color: rgb(227, 224, 224);
+  font-size: smaller;
+}
+
+.select :hover {
+}
+
+/* section que armazena p vazio para apresentar resultado de tamplat JS de função de claculo*/
+.msgCalc {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+/*essa classe faz a estilização no tamplete clriado no JS-   é uma div, dentro de uma section unica no main com classe principal*/
+.animation-cards {
+  background: rgb(137, 18, 18);
+  margin-top: 20px;
+  display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
-  font-family: 'Courier New', Courier, monospace;
+  justify-content: space-around;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
 
-.cards{
+/* classe criada na função JS para exibição de cards na tela*/
+.cards {
+  /*display: flex;
+  /*justify-content: space-between;
+  align-items: center;
+  /*flex-direction: column;*/
   margin: 10px -50px 10px 10px;
-  background-image: url(img/CartaHogwartas.jpg) ;  
+  background-image: url(img/CartaHogwartas.jpg);
   background-repeat: no-repeat;
   width: 18rem;
   height: 20rem;
   position: relative;
-  margin-left: 10px;  
 }
 
-#nomePersonagens{ 
+/*id criada na função JS para exibição de cards na tela*/
+#nomePersonagens {
   word-wrap: break-word;
-  padding-top: 110px;
+  padding-top: 100px;
   font-size: 18px;
-  font-family:'Courier New', Courier, monospace;
-  text-align:center;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
   color: rgb(137, 18, 18);
   font-weight: bold;
   line-height: 2rem;
-  width: 16rem; 
+  width: 16rem;
 }
 
-.infoPersonagens{    
-  font-family: 'Courier New', Courier, monospace;
+/* classe criada na função JS para exibição de cards na tela*/
+.infoPersonagens {
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   font-size: 15px;
- }
-
-.busca{
-  background-color: aqua;
 }
 
-#dev { 
-  margin-top: 250px;
-  color: rgb(137, 18, 18);
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 1px;
 }
 
 .dev {
-  color:rgb(137, 18, 18);
+  color: rgb(243, 241, 241);
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
 }
 
-.listaFeitiços{ 
-  background-color: aliceblue;
-  align-items: center;
-  list-style-type:lower-alpha;
-  font-family: 'Courier New', Courier, monospace;
-
-}
-
-.feitiços{
-  background-color: beige;
-  word-wrap: break-word;
-}
-
-.menuMobile{
+.menuMobile {
   display: none;
   flex-direction: column;
 }
 
 @media screen and (max-width: 730px) {
-    .menuWeb {
-      padding: 1.5rem 4rem;
-    }
-    .item {
-      display: none;
-    }
-    .menuMobile ul {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      padding-bottom: 1rem;
-    }
-    .menuMobile .item{
-      display: block;
-      padding: 1rem 2rem;
-    }
-    #btn-mobile {
-      color:red;
-      border: nome;
-      cursor: pointer;
-      justify-content: end;
-    }
-    .open {
-      display: block;
+  /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;*/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .menuWeb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 0;
+  }
+
+  .itens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 60%;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .imgLogo {
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
+  }
+
+  .sessaoInput {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .select {
+    color: rgb(247, 246, 246);
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(69, 69, 69);
+    font-size: smaller;
+  }
+
+  .select :hover {
+  }
+
+  .botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #dev {
+    color: rgb(253, 253, 250);
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10px;
+  }
+
+  .dev {
+    display: none;
+  }
+
+  .menuMobile ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: smaller;
+  }
+  .menuMobile .item {
+    display: block;
+    padding: 1rem 2rem;
+  }
+  #btn-mobile {
+    color: red;
+    border: nome;
+    cursor: pointer;
+    justify-content: end;
+  }
+  .open {
+    display: block;
+  }
 }

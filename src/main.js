@@ -1,23 +1,23 @@
 import data from "./data/harrypotter/harry.js";
 import {
   harryFunçoes,
-  filtroCasa,
-  selectNameAz,
-  selectNameZa,
-  calcPercentage,
-  filterHouse,
+  selecionaNomeAz,
+  selecionaNomeZa,
+  calcPorcentagem,
+  filtrarCasa,
+  filtrarPersonagemCasa,
 } from "./data.js";
 
 const animationCards = document.querySelector(".animation-cards");
 
 const linkPersonagens = document.getElementById("listaPerso");
-linkPersonagens.addEventListener("click", todosPersonagens);
-const allPersonagens = data.characters;
+linkPersonagens.addEventListener("click", exibirPersonagens);
+const todosPersonagens = data.characters;
 
 const campoBusca = document.getElementById("exibir1");
 
-function todosPersonagens() {
-  const animationCardsHTML = allPersonagens
+function exibirPersonagens() {
+  const animationCardsHTML = todosPersonagens
     .map((element) => {
       return `      
         <div class="cards"> 
@@ -36,7 +36,7 @@ function todosPersonagens() {
 //CAMPO BUSCAR POR DIGITAÇÃO = OK
 campoBusca.addEventListener("keyup", function (event) {
   const personagemBuscado = event.target.value;
-  const filtrarPersonagem = harryFunçoes(personagemBuscado, allPersonagens);
+  const filtrarPersonagem = harryFunçoes(personagemBuscado, todosPersonagens);
   animationCards.innerHTML = filtrarPersonagem
     .map(
       (element) =>
@@ -56,8 +56,8 @@ campoBusca.addEventListener("keyup", function (event) {
 //FILTRO A - Z
 const buttonAz = document.getElementById("az");
 buttonAz.addEventListener("click", () => {
-  const ordenado = selectNameAz(data.characters);
-  const animationCardsHTML = ordenado
+  const ordenadoAz = selecionaNomeAz(data.characters);
+  const animationCardsHTML = ordenadoAz
     .map((element) => {
       return `      
       <div class="cards"> 
@@ -76,49 +76,52 @@ buttonAz.addEventListener("click", () => {
 //FILTRO Z - A
 const buttonZa = document.getElementById("za");
 buttonZa.addEventListener("click", () => {
-  const ordenado = selectNameZa(data.characters);
-  const animationCardsHTML = ordenado
+  const ordenadoZa = selecionaNomeZa(data.characters);
+  const animationCardsHTML = ordenadoZa
     .map((element) => {
       return `      
-      <div class="cards"> 
-        <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
-        <p class="infoPersonagens"><b>Espécie:</b>${element.species}</p>
-        <p class="infoPersonagens"><b>Livro:</b>${element.books_featured_in}</p>
-        <p class="infoPersonagens"><b>Idade:</b>${element.death}</p>
-        <p class="infoPersonagens"><b>Casa:</b>${element.house}</p>
-      </div>
-    `;
+  <div class="cards"> 
+    <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
+    <p class="infoPersonagens"><b>Espécie:</b>${element.species}</p>
+    <p class="infoPersonagens"><b>Livro:</b>${element.books_featured_in}</p>
+    <p class="infoPersonagens"><b>Idade:</b>${element.death}</p>
+    <p class="infoPersonagens"><b>Casa:</b>${element.house}</p>
+  </div>
+`;
     })
     .join("");
   animationCards.innerHTML = animationCardsHTML;
 });
 
 //VER TODAS AS CASAS
-const selectCharacters = document.getElementById("selectFiltros");
-selectCharacters.addEventListener("change", function (event) {
+const selecionarPersonagemPorCasa = document.getElementById("selectFiltros");
+selecionarPersonagemPorCasa.addEventListener("change", function (event) {
   const valor = event.target.value;
-  const listCharacterHouseFilter = filtroCasa(allPersonagens, valor);
-  animationCards.innerHTML = listCharacterHouseFilter
+  const listaPersonagensFiltradosPorCasa = filtrarPersonagemCasa(
+    todosPersonagens,
+    valor
+  );
+  animationCards.innerHTML = listaPersonagensFiltradosPorCasa
     .map((element) => {
       `      
-      <div class="cards"> 
-      <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</p>
-      <p class="infoPersonagens"><b>Espécie:</b>${element.species}</p>
-      <p class="infoPersonagens"><b>Livro:</b>${element.books_featured_in}</p>
-      <p class="infoPersonagens"><b>Idade:</b>${element.death}</p>
-      <p class="infoPersonagens"><b>Casa:</b>${element.house}</p>
-    </div>
+  <div class="cards"> 
+  <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
+  <p class="infoPersonagens"><b>Espécie:</b>${element.species}</p>
+  <p class="infoPersonagens"><b>Livro:</b>${element.books_featured_in}</p>
+  <p class="infoPersonagens"><b>Idade:</b>${element.death}</p>
+  <p class="infoPersonagens"><b>Casa:</b>${element.house}</p>
+</div>
 `;
     })
     .join("");
 });
 
 const printar = document.getElementById("mensagemCalculo");
-selectCharacters.addEventListener("change", function (event) {
-  const listaNome = filterHouse(event.target.value, allPersonagens);
-  const percentPersonagens = calcPercentage(
+selecionarPersonagemPorCasa.addEventListener("change", function (event) {
+  const listaNome = filtrarCasa(event.target.value, todosPersonagens);
+  const percentPersonagens = calcPorcentagem(
     listaNome.length,
-    allPersonagens.length
+    todosPersonagens.length
   );
   printar.innerHTML =
     percentPersonagens +
@@ -128,14 +131,14 @@ selectCharacters.addEventListener("change", function (event) {
   animationCards.innerHTML = listaNome
     .map((element) => {
       return `         
-    <div class="cards">  
-    <p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
-    <p class="infoPersonagens"><b>Espécie:</b>${element.species}</p>
-    <p class="infoPersonagens"><b>Livro:</b>${element.books_featured_in}</p>
-    <p class="infoPersonagens"><b>Idade:</b>${element.death}</p>
-    <p class="infoPersonagens"><b>Casa:</b>${element.house}</p>
-  </div>
-        `;
+<div class="cards">  
+<p id="nomePersonagens" class="infoPersonagens"><b>${element.name}</b></p>
+<p class="infoPersonagens"><b>Espécie:</b>${element.species}</p>
+<p class="infoPersonagens"><b>Livro:</b>${element.books_featured_in}</p>
+<p class="infoPersonagens"><b>Idade:</b>${element.death}</p>
+<p class="infoPersonagens"><b>Casa:</b>${element.house}</p>
+</div>
+    `;
     })
     .join("");
   // animationCards.innerHTML = listaNome;

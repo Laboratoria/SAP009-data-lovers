@@ -1,12 +1,13 @@
-export function harryFunçoes(name, listCharacterHouseFilter) {
-  return listCharacterHouseFilter.filter((user) => user.name.includes(name));
+//FILTRO VER TODOS personagens
+export function harryFunçoes(nome, listaPersonagensFiltrados) {
+  return listaPersonagensFiltrados.filter((harry) => harry.name.includes(nome));
 }
 //FILTRO VER TODOS
-export function filterHouse(house, characters) {
-  return characters.filter((user) => user.house === house); //retorna array
+export function filtrarCasa(casa, personagens) {
+  return personagens.filter((harry) => harry.house === casa);
 }
 //ORDENAÇÃO
-export const orderName = (a, b) => {
+export const ordemNome = (a, b) => {
   if (a.name > b.name) {
     return 1;
   }
@@ -14,24 +15,24 @@ export const orderName = (a, b) => {
     return -1;
   }
 };
-export const selectNameAz = (characters) => {
-  return characters.sort(orderName);
+export const selecionaNomeAz = (personagens) => {
+  return personagens.sort(ordemNome);
 };
-export const selectNameZa = (characters) => {
-  return characters.sort(orderName).reverse();
+export const selecionaNomeZa = (personagens) => {
+  return personagens.sort(ordemNome).reverse();
 };
 //FILTRO POR CASAS
-export const filtroCasa = (characters, house) => {
-  const resultadoCasas = characters.filter(function (character) {
-    if (character.house === null) {
+export const filtrarPersonagemCasa = (personagens, casa) => {
+  const resultadoCasas = personagens.filter(function (personagem) {
+    if (personagem.house === null) {
       return false;
     }
-    const casaFiltro = character.house.includes(house); //determina se a condição pode ser encontrado dentro da string
+    const casaFiltro = personagem.house.includes(casa); //determina se a condição pode ser encontrado dentro da string
     return casaFiltro;
   });
   return resultadoCasas;
 };
 //CÁLCULO AGREGADO
-export const calcPercentage = (todos, parte) => {
+export const calcPorcentagem = (todos, parte) => {
   return (parte / todos).toFixed(2);
 };
