@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter data-lovers </title>
+  <link href=" https://fonts.cdnfonts.com/css/harry-potter " rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<!--criar menu navegação superior responsivo
+1º quais informações vão aparecer no menu, cabeçalho header (tag semantica html recebe o cabeçalho do site)-->
+
+<body>
+  <header>
+    <nav class="menuWeb">
+      <ul class="itens">
+        <li><a class="item" id="listaPerso">Personagens </a></li>
+        <li><a class="item" id="listaLivros">Livros</a></li>
+        <li><a class="item" id="listaFeitiços"> Feitiços </a></li>
+        <li><a class="item" id="listaCuriosidades">Curiosidades</a></li>
+      </ul>
+    </nav>
+
+
+    <img class="imgLogo" src="img/harryharry.png.png">
+
+
+    <section class="sessaoInput">
+      <input type="text" nome="" id="exibir1" placeholder="Pesquisar">
+      <select class="select" id="selectFiltros">
+        <option value="VerTodos" disabled selected>Personagens</option>
+        <option value="Gryffindor">Gryffindor</option>
+        <option value="Ravenclaw">Ravenclaw</option>
+        <option value="Slytherin">Slytherin</option>
+        <option value="Hufflepuff">Hufflepuff</option>
+      </select>
+      <div class="botao">
+        <button id="az">A-Z</button>
+        <button id="za">Z-A</button>
+      </div>
+    </section>
+    <div class="msgCalc">
+      <p id="mensagemCalculo"> </p>
+    </div>
+  </header>
+  <!--class="menuMobile"-->
+  <main class="principal">
+
+    <div class="animation-cards">
+
+    </div>
+
+  </main>
+
+  <footer class="dev">
+    <a href="https://www.linkedin.com/" target="_blank">
+    </a>
+    <a href="https://github.com/" target="_blank">
+    </a>
+    <p class="dev" id="dev">Projeto desenvolvido durante o Bootcamp pelas alunas: Erika Santos &amp; Thalita Nascimento</p>
+    <p class="dev"> &lt;Laboratória&gt; Data Lovers</p>
+  </footer>
+
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>

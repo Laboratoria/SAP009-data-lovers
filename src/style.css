@@ -1,0 +1,281 @@
+/*reset de todas as configurações iniciais*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+/*class container, armazena header com nav,ul,img section, input,select,section, p , main,section,footer*/
+body {
+  background-image: url(img/ceunoite.jpeg);
+  font-family: "Harry Potter";
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*uma div dentro do header para exibição ampla*/
+
+/*nav dentro do header para navegação do campo busca*/
+.menuWeb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/*personalização individual da lista poderia usar flax box?*/
+
+.itens {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 60%;
+  align-items: center;
+  margin: 5px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  opacity: 0.9;
+  color: rgb(137, 18, 18);
+}
+.imgLogo {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+
+/*campo de imput e select e botões para navegação*/
+.sessaoInput {
+  display: flex;
+  gap: 50px;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+#az {
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellow;
+  color: rgb(137, 18, 18);
+  font-size: 80%;
+  padding: 3px;
+}
+
+#za {
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellow;
+  color: rgb(137, 18, 18);
+  font-size: 80%;
+  padding: 3px;
+}
+
+/*é um input para busca na section class sessaoinput que armazena a navegação de pesqui selec casa e ordenação*/
+#exibir1 {
+  text-align: center;
+  border-radius: 8px;
+  background-color: yellow;
+  color: rgb(137, 18, 18);
+  font-size: 80%;
+  padding: 3px;
+  cursor: pointer;
+  justify-content: end;
+}
+
+.select {
+  color: rgb(137, 18, 18);
+  border-radius: 5%;
+  cursor: pointer;
+  background-color: rgb(227, 224, 224);
+  font-size: smaller;
+}
+
+.select :hover {
+}
+
+/* section que armazena p vazio para apresentar resultado de tamplat JS de função de claculo*/
+.msgCalc {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+/*essa classe faz a estilização no tamplete clriado no JS-   é uma div, dentro de uma section unica no main com classe principal*/
+.animation-cards {
+  background: rgb(137, 18, 18);
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+/* classe criada na função JS para exibição de cards na tela*/
+.cards {
+  /*display: flex;
+  /*justify-content: space-between;
+  align-items: center;
+  /*flex-direction: column;*/
+  margin: 10px -50px 10px 10px;
+  background-image: url(img/CartaHogwartas.jpg);
+  background-repeat: no-repeat;
+  width: 18rem;
+  height: 20rem;
+  position: relative;
+}
+
+/*id criada na função JS para exibição de cards na tela*/
+#nomePersonagens {
+  word-wrap: break-word;
+  padding-top: 100px;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: rgb(137, 18, 18);
+  font-weight: bold;
+  line-height: 2rem;
+  width: 16rem;
+}
+
+/* classe criada na função JS para exibição de cards na tela*/
+.infoPersonagens {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 1px;
+}
+
+.dev {
+  color: rgb(243, 241, 241);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.menuMobile {
+  display: none;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 730px) {
+  /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;*/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .menuWeb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 0;
+  }
+
+  .itens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 60%;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .imgLogo {
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
+  }
+
+  .sessaoInput {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .select {
+    color: rgb(247, 246, 246);
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(69, 69, 69);
+    font-size: smaller;
+  }
+
+  .select :hover {
+  }
+
+  .botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #dev {
+    color: rgb(253, 253, 250);
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10px;
+  }
+
+  .dev {
+    display: none;
+  }
+
+  .menuMobile ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: smaller;
+  }
+  .menuMobile .item {
+    display: block;
+    padding: 1rem 2rem;
+  }
+  #btn-mobile {
+    color: red;
+    border: nome;
+    cursor: pointer;
+    justify-content: end;
+  }
+  .open {
+    display: block;
+  }
+}
