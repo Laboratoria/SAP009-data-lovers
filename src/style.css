@@ -104,17 +104,6 @@ input, select {
 	border-width: 2px;
   }
 
-#btn-ok {
-	border-radius: 5px;
-	border-color: #f6295f;
-	padding: 2px 5px;
-	margin: 5px;
-	font-family: 'quicksand', sans-serif;
-	font-weight: bold;
-	color: #f6295f;
-	background-color: transparent;
-}
-
  /* destaque em negrito */
 #plus {
 	text-align: center;
