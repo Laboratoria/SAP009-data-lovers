@@ -3,7 +3,7 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Movie</title>
   <link rel="stylesheet" href="movies.css" />
@@ -15,44 +15,44 @@
         <a href="index.html"><img src="img/Studio_Ghibli_logo.png" alt="Logo Studio Ghibli" /></a>
       </div>
       <div class="indexIcons">
-        <a href="index.html">home</a>
-        <a href="movies.html">filmes</a> 
-        <a href="characters.html">personagens</a> 
+        <a href="index.html">Home</a>
+        <a href="movies.html">Filmes</a> 
+        <a href="characters.html">Personagens</a> 
       </div>
     </nav>
   </header>
   <section class="filters">
     <div>
-      <select class="" id="yearsOption">
-        <option disabled selected hidden>linha do tempo</option>
-        <option>1985-1990</option>
-        <option>1990-1995</option>
-        <option>1995-2000</option>
-        <option>2000-2005</option>
-        <option>2005-2010</option>
-        <option>2010-2015</option>
-        <option>2015-2020</option>
-        <option>2020-2025</option>
+      <select class="" id="orderBy">
+        <option disabled selected hidden>Ordenar</option>
+        <option value="az" id="az">A-Z</option>
+        <option value="za" id="za">Z-A</option>
       </select>
     </div>
     <div>
       <select class="" id="assessmentOption">
-        <option disabled selected hidden>avaliação</option>
+        <option disabled selected hidden>Avaliação</option>
         <option value="highScore" id="highScore">mais avaliados</option>
         <option value="lowScore" id="lowScore">menos avaliados</option>
       </select>
     </div>
     <div>
-      <select class="" id="orderBy">
-        <option disabled selected hidden>ordenar por</option>
-        <option value="az" id="az">A-Z</option>
-        <option value="za" id="za">Z-A</option>
+      <select class="" id="directorOptions">
+        <option disabled selected hidden>Diretor</option>
+        <option value="Hayao Miyazaki">Hayao Miyazaki</option>
+        <option value="Isao Takahata">Isao Takahata</option>
+        <option value="Yoshifumi Kondō">Yoshifumi Kondō</option>
+        <option value="Hiroyuki Morita">Hiroyuki Morita</option>
+        <option value="Gorō Miyazaki">Gorō Miyazaki</option>
+        <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
       </select>
     </div>
+
+
   </section>
       <main>
         <section class="cardMovies">
-          <div class="" id="infoMovies"></div>
+          <div id="infoMovies"></div>
         </section>
       </main>
       
@@ -60,18 +60,17 @@
           <button class="closeModal">X</button>
           <div class="modal-content"></div>
         </div>
-
-  <footer>
-    <p>Desenvolvido por</p>
-    <p>Erika Oliveira &copy;</p>
-    <img src="img/git.png" alt="github"> <!--inserir logo do github e linkedin--> 
-    <img src="" alt="">
-    <p>Izadora Nascimento &copy; 2023</p>
-    <img src="img/git.png" alt="github"> <!--inserir logo do github e linkedin-->
-    <img src="" alt="">
-  </footer>
-
-
+        <footer class="footerHome">
+          <div class="lineDev">
+            <p>Desenvolvido por</p>
+          </div>
+          <div class="pairCreators">
+            <a href="https://github.com/andraderika"><img src="img/git.png" alt="github"></a>
+            <p>Erika Oliveira &copy;</p>          
+            <a href="https://github.com/IzadoraNascimento"><img src="img/git.png" alt="github"></a> <!--inserir logo do github e linkedin--> 
+            <p>Izadora Nascimento &copy; 2023</p>            
+          </div>
+        </footer>
   <script src="main.js" type="module"></script>
 </body>
 </html>

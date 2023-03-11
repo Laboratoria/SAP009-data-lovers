@@ -6,6 +6,61 @@
 
 body {
   background: #fee397;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 3px;
+}
+
+#logo img {
+  margin: 15px;
+  width: 250px;
+  /*background: red;*/
+}
+
+nav {
+  /*background: palegreen;*/
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 25px;
+}
+
+#menu a {
+  /*background: white;*/
+}
+
+.posterGhibli{
+  display: flex;
+  justify-content: center;
+}
+
+.posterGhibli img {
+  width: 500px;
+}
+
+.textHome {
+  font-size: 20px;
+  margin: 10px 40px;
+  text-align: justify;
+}
+
+.footerHome img {
+  display: flex;
+  width: 50px;
+}
+
+.lineDev {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pairCreators {
+  display: flex;
+  justify-content: center;
 }
 
 
