@@ -18,7 +18,7 @@ export function sortByOrderFilms(films, orderBy){
   return newArray;
 }
 
-// Função filtrar mais/menos avaliados
+// Função filtrar mais/menos avaliados -- rever 
 export function sortByScore(films, orderBy){
   const newArray = [...films]
 

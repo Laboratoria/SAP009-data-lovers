@@ -13,8 +13,6 @@ sectionMovies(data.films)
 
 // Função da janela modal
 function modalFilmes(modalID, filmeID){
-  /*console.log(personagemID)
-  console.log(modalID)*/
   const modal = document.getElementById(modalID);
   modal.classList.add('showModal')
   modal.addEventListener('click', (evento) => {
@@ -25,7 +23,7 @@ function modalFilmes(modalID, filmeID){
   
   const filmes = data.films.filter(filme => {
     return filme.id == filmeID
-    })
+  })
     
   const movies = filmes[0]
 
@@ -45,6 +43,8 @@ const image = document.querySelector('.cardFront');
 image.addEventListener('click', function(e) {
   modalFilmes('modalChar', e.target.dataset.id);
 })
+
+// Ordenação e Filtros
 
 const films = data.films
 const orderBy = document.getElementById('orderBy')
