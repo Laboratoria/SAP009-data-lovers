@@ -3,46 +3,32 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>Characters</title>
   <link rel="stylesheet" href="characters.css" />
 </head>
-<body class="conteinerCharacters">
+<body>
   <header>
     <nav>
+      <div id="logo">
+        <a href="index.html"><img src="img/Studio_Ghibli_logo.png" alt="Logo Studio Ghibli" /></a>
+      </div>
       <div class="indexIcons">
-        <a href="index.html"><img src="img/home-icon.png" alt="Home" /></a>
-        <a href="movies.html"><img src="img/movie-icon.png" alt="Filmes"/></a> 
-        <a href="characters.html"><img src="img/masks-icon.png" alt="Personagens"/></a> 
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movies.html">Filmes</a></li>
+          <li><a href="characters.html">Personagens</a></li>
+        </ul>
       </div>
     </nav>
   </header>
   <section class="filters">
     <div>
-      <select class="" id="speciesOption">
-        <option disabled selected hidden>espécie</option>
-        <option>Human</option>
-        <option>Cat</option>
-        <option>Toroto</option>
-        <option>Witch</option>
-        <option>Raccoon Dog</option>
-        <option>Red Elk</option>
-        <option>Spirit</option>
-        <option>Wolf</option>
-        <option>Deity Dragon</option>
-        <option>Spirit of the White Fox</option>
-        <option>Unknown</option>
-        <option>Bird</option>
-        <option>Wizard</option>
-        <option>Witch/Human</option>
-        <option>Demon</option>
-        <option>Human/Scarecrow</option>
-        <option>Dog</option>
-        <option>Arch-Mage/Human</option>
-        <option>Fish/Human</option>
-        <option>Deity</option>
-        <option>Borrower</option>
+      <select class="" id="orderBy">
+        <option disabled selected hidden>ordenar</option>
+        <option value="az" id="az">A-Z</option>
+        <option value="za" id="za">Z-A</option>
       </select>
     </div>
     <div>
@@ -92,15 +78,16 @@
       <button class="closeModal">X</button>
       <div class="modal-content"></div>
   </div>
-
-  <footer>
-    <p>Desenvolvido por</p>
-    <p>Erika Oliveira &copy;</p>
-    <img src="" alt=""> <!--inserir logo do github e linkedin--> 
-    <img src="" alt="">
-    <p>Izadora Nascimento &copy; 2023</p>
-    <img src="" alt=""> <!--inserir logo do github e linkedin-->
-    <img src="" alt="">
+  <footer class="footerHome">
+    <div class="lineDev">
+      <p>Desenvolvido por</p>
+    </div>
+    <div class="pairCreators">
+      <a href="https://github.com/andraderika"><img src="img/git.png" alt="github"></a>
+      <p>Erika Oliveira &copy;</p>          
+      <a href="https://github.com/IzadoraNascimento"><img src="img/git.png" alt="github"></a> <!--inserir logo do github e linkedin--> 
+      <p>Izadora Nascimento &copy; 2023</p>      
+    </div>
   </footer>
   <script src="characters.js" type="module"></script>
 </body>
