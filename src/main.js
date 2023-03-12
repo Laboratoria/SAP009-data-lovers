@@ -1,4 +1,4 @@
-import  {filterByGender, filterBySpecies, filterByName, getPeople, getSpecies, getNames}  from './data.js';
+import  {filterByGender, filterBySpecies, filterByName, getPeople}  from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 //mostrando cards na tela
@@ -31,13 +31,15 @@ function showPeople(NamesAndImg) {
     img.setAttribute("src", NamesAndImg[i].img);
 
     const nomePersonagem = document.createElement("h1");
-    nomePersonagem.classList.add("card_nome");
+    nomePersonagem.classList.add("card_name");
     const nome = document.createTextNode(NamesAndImg[i].name);
 
 
     div.appendChild(img);
     //div.appendChild(nome);
     mostrarCardPai.appendChild(div);
+
+    
 
   }
     
@@ -72,10 +74,10 @@ especieEscolhida.addEventListener("change", (event) => {
 
 //pegando os valores do select
 const nomeEscolhido = document.getElementById("form")
-nomeEscolhido.addEventListener("submit", (event) => {
+nomeEscolhido.addEventListener("input", (event) => {
   event.preventDefault();
-//Pego o valor do evento change do select
-const nameEscolhido = document.getElementById("nome").value;
+  //Pego o valor do evento change do select
+  const nameEscolhido = document.getElementById("nome").value;
   //Coloca o valor do evento do alvo e mostra passando pela função filter
   const filterByNamePeople = filterByName(people, nameEscolhido);
   showPeople(filterByNamePeople)
