@@ -8,16 +8,18 @@
   <title>Movie</title>
   <link rel="stylesheet" href="movies.css" />
 </head>
-<body class="conteinerMovies">
+<body>
   <header>
     <nav>
       <div id="logo">
         <a href="index.html"><img src="img/Studio_Ghibli_logo.png" alt="Logo Studio Ghibli" /></a>
       </div>
       <div class="indexIcons">
-        <a href="index.html">Home</a>
-        <a href="movies.html">Filmes</a> 
-        <a href="characters.html">Personagens</a> 
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movies.html">Filmes</a></li>
+          <li><a href="characters.html">Personagens</a></li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -47,15 +49,10 @@
         <option value="Hiromasa Yonebayashi">Hiromasa Yonebayashi</option>
       </select>
     </div>
-
-
   </section>
       <main>
-        <section class="cardMovies">
           <div id="infoMovies"></div>
-        </section>
-      </main>
-      
+      </main>      
       <div id="modalChar" class="modalContainer">
           <button class="closeModal">X</button>
           <div class="modal-content"></div>

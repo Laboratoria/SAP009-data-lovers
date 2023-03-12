@@ -39,13 +39,11 @@ function modalPersona(modalID, personagemID){
   console.log(personagem)
 
   modalContent.innerHTML = `
-    <h1>${personagem.name}</h1>
-      <img class="poster" src="${personagem.img}">
-          <h3>Age:${personagem.age}</h3>
-          <h3>Gender: ${personagem.gender}</h3>
-          <h3> Specie: ${personagem.specie}</h3>
-          <h3>Hair Color: ${personagem.hair_color}</h3>
-          <h3>Eye Color: ${personagem.eye_color}</h3>
+    <h1>${personagem.name}</h1><br>
+      <img class="poster" src="${personagem.img}"><br>
+      <p><strong>Age</strong>:${personagem.age}</p><br>
+          <p><strong>Gender</strong>: ${personagem.gender}</p><br>
+          <p><strong>Specie</strong>: ${personagem.specie}</p><br>
   `;
 }
 

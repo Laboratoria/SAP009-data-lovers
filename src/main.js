@@ -13,8 +13,6 @@ sectionMovies(data.films)
 
 // Função da janela modal
 function modalFilmes(modalID, filmeID){
-  /*console.log(personagemID)
-  console.log(modalID)*/
   const modal = document.getElementById(modalID);
   modal.classList.add('showModal')
   modal.addEventListener('click', (evento) => {
@@ -33,11 +31,11 @@ function modalFilmes(modalID, filmeID){
   console.log(movies)
 
   modalContent.innerHTML = `
-    <h1>${movies.title}</h1>
-          <h3>Description:${movies.description}</h3>
-          <h3>Director: ${movies.director}</h3>
-          <h3>Producer: ${movies.producer}</h3>
-          <h3>Date: ${movies.release_date}</h3>
+    <h1>${movies.title}</h1><br>
+          <p><strong>Description</strong>: ${movies.description}</p><br>
+          <p><strong>Director</strong>: ${movies.director}</p><br>
+          <p><strong>Producer</strong>: ${movies.producer}</p><br>
+          <p><strong>Date</strong>: ${movies.release_date}</p><br> 
   `;
 }
 
