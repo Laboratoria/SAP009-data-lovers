@@ -7,11 +7,10 @@
     <title>Ghiblers</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header class="header">
-    <a href="" class="logo"> <img id="logo" src="logoheart.png" alt=""></a>
+     <img id="logo" src="logoheart.png" alt="">
     <nav class="nav">
       <button
         class="btn-menu"
@@ -32,11 +31,11 @@
     <main>
         <section id="pesquisa">
           <h1>Inventário de Personagens</h1>
+          
         <form id="form">
             <section class="esquerda">
                 <label  for="nome"><strong>Personagem:</strong></label>
                 <input  id= "nome" type="text" required placeholder="Digite o nome">
-                <button id= "btn-ok" type="submit"> OK </button>
             </section>
          
         
@@ -44,36 +43,36 @@
                <label for="genero"><strong>Gênero:</strong></strong></label>
                <select name="genero" id="genero" class="estilo-do-input">
                  <option selected disabled value="">Selecione</option>
-                 <option id="fem" value="fem">Feminino</option>
-                 <option id="masc" value="masc">Masculino</option>
+                 <option id="fem" value="Female">Feminino</option>
+                 <option id="masc" value="Male">Masculino</option>
                </select>
             </section> 
 
             <section class="direita">
                <label for="especie"><strong>Espécie:</strong></label>
-               <select class="estilo-do-input" >
+               <select id= "especie"class="estilo-do-input" >
                    <option selected disabled value="">Selecione</option>
-                   <option value="human">Human</option>
+                   <option value="Human">Human</option>
                    <option value="Totoro">Totoro</option>
-                   <option value="cat">Cat</option>
-                   <option value="dog">Dog</option>
-                   <option value="bird">Bird</option>
-                   <option value="wolf">Wolf</option>
-                   <option value="raccon">Raccon Dog</option>
-                   <option value="witch">Witch</option>
-                   <option value="witch/human">Witch/Human</option>
-                   <option value="human/scarecrow">Human Scarecrow</option>
-                   <option value="arch-mage/human">Arch-mage/Human</option>
-                   <option value="fish/human">Fish/Human</option>
-                   <option value="red elk">Red Elk</option>
-                   <option value="spirit">Spirit</option>
-                   <option value="spirit of the White fox">Spirit of the White Fox</option>
-                   <option value="deity">Deity</option>
-                   <option value="deity,dragon">Deity, Dragon</option>
-                   <option value="borrower">Borrower</option>
-                   <option value="unknown">Unknown</option>
-                   <option value="wizard">Wizard</option>
-                   <option value="demon">Demon</option>
+                   <option value="Cat">Cat</option>
+                   <option value="Dog">Dog</option>
+                   <option value="Bird">Bird</option>
+                   <option value="Wolf">Wolf</option>
+                   <option value="Raccon">Raccon Dog</option>
+                   <option value="Witch">Witch</option>
+                   <option value="Witch/human">Witch/Human</option>
+                   <option value="Human/scarecrow">Human Scarecrow</option>
+                   <option value="Arch-mage/human">Arch-mage/Human</option>
+                   <option value="Fish/human">Fish/Human</option>
+                   <option value="Red elk">Red Elk</option>
+                   <option value="Spirit">Spirit</option>
+                   <option value="Spirit of the White fox">Spirit of the White Fox</option>
+                   <option value="Deity">Deity</option>
+                   <option value="Deity,dragon">Deity, Dragon</option>
+                   <option value="Borrower">Borrower</option>
+                   <option value="Unknown">Unknown</option>
+                   <option value="Wizard">Wizard</option>
+                   <option value="Demon">Demon</option>
            </select>
         </section>
         </form>
@@ -81,20 +80,12 @@
     </main>
 
     <section class="mostrar-card-pai">
-      <div class="card-front"> 
-
-      </div>
-      <div class="card-back">
-
-      </div>
 
     </section>
 
 
     <footer id="end">
-       <h5>
-        Desenvolvido por Flora e Edimara, 2023
-       </h5>
+       
     </footer>
 
     <script defer src="responsive.js"></script>

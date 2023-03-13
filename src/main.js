@@ -1,16 +1,13 @@
-import  {filterByGender, getPeople}  from './data.js';
+import  {filterByGender, filterBySpecies, filterByName, getPeople}  from './data.js';
 import data from './data/ghibli/ghibli.js';
 
-const people = getPeople(data.films)
-console.log(people)
-console.log(filterByGender(people, "Male"))
-
+//mostrando cards na tela
 
 function getNamesAndImages() {
   const NameAndImages = []
   for (let i = 0; i < data.films.length; i++) {
     for (let j = 0; j < data.films[i].people.length; j++) {
-      NameAndImages.push({name: `${data.films[i].people[j].name}`, image: `${data.films[i].people[j].img}`})
+      NameAndImages.push({name: `${data.films[i].people[j].name}`, img: `${data.films[i].people[j].img}`, specie:`${data.films[i].people[j].specie}`})
     }
   }
   return NameAndImages
@@ -21,23 +18,28 @@ const mostrarCardPai = document.querySelector(".mostrar-card-pai");
 const NamesAndImg = getNamesAndImages()
 
 function showPeople(NamesAndImg) {
+  while (mostrarCardPai.firstChild) {
+    mostrarCardPai.removeChild(mostrarCardPai.firstChild);
+  }
   for (let i = 0; i < NamesAndImg.length; i++) {
-    
+
     const div = document.createElement("div");
     div.classList.add("cards");
 
     const img = document.createElement("img");
     img.classList.add("card_image");
-    img.setAttribute("src", NamesAndImg[i].image);
+    img.setAttribute("src", NamesAndImg[i].img);
 
-    const nomePersonagem = document.createElement("p");
-    nomePersonagem.classList.add("card_nome");
+    const nomePersonagem = document.createElement("h1");
+    nomePersonagem.classList.add("card_name");
     const nome = document.createTextNode(NamesAndImg[i].name);
 
 
     div.appendChild(img);
-    //div.appendChild(nomePersonagem);
+    //div.appendChild(nome);
     mostrarCardPai.appendChild(div);
+
+    
 
   }
     
@@ -45,46 +47,43 @@ function showPeople(NamesAndImg) {
 
 showPeople(NamesAndImg)
 
-//váriavel que guarda todos os personagens 
-
-//const personagens = data.films.map((filme) => filme.people)
-//const mapPersonagens = personagens.map((personagem) => personagem.map((pessoa) => pessoa))
-
-//const arr = [] 
-//arr.push(mapPersonagens)
-//console.log(arr)
-
-
-//const generos = function showGender()
-
-// //Fazer as funções = Filtrar e criar
-// export default function filtrarPorGenero() {
-//   console.log("deu certo")
-//   //return listaPersonagens.filter(personagem => personagem.gender === genero);
-// }
-
+//Guarda o valor de todos os nomes e personagens
+const people = getPeople(data.films)
+//pegando os valores do select
 const generoEscolhido = document.getElementById("genero")
-adiconar evento generoEscolhido.value 
+generoEscolhido.addEventListener("change", (event) => {
+  //Pego o valor do evento change do select
+  const gender = event.target.value;
+  //Coloca o valor do evento do alvo e mostra passando pela função filter
+  const filterByGenderPeople = filterByGender(people, gender);
+  showPeople(filterByGenderPeople)
+})
 
-const nomePersonagem = document.getElementById("nome")
+
+
+//pegando os valores do select
 const especieEscolhida = document.getElementById("especie")
+especieEscolhida.addEventListener("change", (event) => {
+//Pego o valor do evento change do select
+  const specieEscolhida = event.target.value;
+  //Coloca o valor do evento do alvo e mostra passando pela função filter
+  const filterBySpeciesPeople = filterBySpecies(people, specieEscolhida);
+  showPeople(filterBySpeciesPeople)
+})
 
-// //Apenas chamar a função e passar o parâmetro.
 
-// generoEscolhido.addEventListener('change', filtrarPorGenero)
+//pegando os valores do select
+const nomeEscolhido = document.getElementById("form")
+nomeEscolhido.addEventListener("input", (event) => {
+  event.preventDefault();
+  //Pego o valor do evento change do select
+  const nameEscolhido = document.getElementById("nome").value;
+  //Coloca o valor do evento do alvo e mostra passando pela função filter
+  const filterByNamePeople = filterByName(people, nameEscolhido);
+  showPeople(filterByNamePeople)
+})
 
-//Como separar Male de Female
-//Usar um filter dentro do gender.push()
-//function getGender() {
-//const gender = []
-//for (let i = 0; i < data.films.length; i++) {
-//for (let j = 0; j < data.films[i].people.length; j++) {
-//if (data.films[i].people[j].gender == "male") {
-//gender.push({name: data.films[i].people[j].name})
-//}
-      
-//}
-//}
+
 
 
 
