@@ -15,20 +15,37 @@
 <header>
   <img src="imagem/ghibli_logo_white-1.png" width="200px" height="100px"/>
   <img id="imagem"/>
-  <div>
-    <nav>
-      <a href="#">Sobre</a>
-      <a href="#">Filmes</a>
-      <a href="#">Contato</a>
+   <div class="filter-options">
+      <select class="position" name="select" id="position">
 
-
-    </nav>
-  </div>
-
+        <option value="anime">Animações:</option>
+        <option value="diretorprodutor">Direção e Produção</option>
+        <option value="descrição">Descrição</option>
+        <option value="data">Data de lançamento</option>
+        <option value="personagens">Personagens</option>
+        <option value="nome">nome:</option>
+        <option value="idade">Idade</option>
+        <option value="sexo:">Sexo</option>
+        <option value="especie">Especie</option>
+        <option value="veiculos">Veiculos</option>
+        <option value="locais">Locais</option>
+        
+      </select>
+     
+    </div>
+    <select class="order" name="select" id="order">
+      <option value="none">Ordernar:</option>
+      <option value="recente">Mais recentes</option>
+      <option value="antigos">Mais antigos</option>
+      <option value="famosos">Mais famosos</option>
+    </select>
 </header>
 
 <body>
   <h1>GHIBLI FANS</h1>
+
+
+
   <form>
 
 
