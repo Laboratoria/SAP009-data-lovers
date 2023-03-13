@@ -97,9 +97,130 @@ a:hover {
   justify-content: center;
 }
 
+.conteinerHome{
+  background: linear-gradient(to right, #b4d27c, #fff, #b4d27c);
+}
 
+footer{
+  text-align: center;
+}
 
+.conteinerMovies{
+ /* background: gray; */
+background: linear-gradient(to right, #965365, #fff, #965365);
+}
 
+#director{
+  width: 100%;
+  background: linear-gradient(to right, #965365, #fff, #965365);
+  border-radius: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#assessmentOption{
+  width: 100%;
+  background: linear-gradient(to right, #965365, #fff, #965365);
+  border-radius: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#orderBy{
+  width: 100%;
+  background: linear-gradient(to right, #965365, #fff, #965365);
+  border-radius: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+main{
+  width: 100%;
+  height: 100%;
+}
+
+.cardMovies{
+  border: 1px solid red; 
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 0 auto; 
+  display:flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-drag: none;
+}
+
+#infoMovies{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  /* border: 5px solid #222; */
+  /* border-radius: 20px; */
+  position: relative;
+}
+
+#infoMovies img{
+  width: 100%;
+  border-radius: 20px;
+
+}
+.name{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: #f4e8eb99;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; 
+
+ position: absolute;
+}
+
+.conteinerCharacters{
+  background: linear-gradient(to right, #f08366, #fff, #f08366);
+}
+
+#speciesOption{
+  width: 100px;
+  background: linear-gradient(to right, #f08366, #fff, #f08366);
+  border-radius: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#genderOption{
+  width: 100px;
+  background: linear-gradient(to right, #f08366, #fff, #f08366);
+  border-radius: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#movies{
+  width:100px;
+  background: linear-gradient(to right, #f08366, #fff, #f08366);
+  border-radius: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
 
 
 
