@@ -6,6 +6,13 @@
     padding: 0;
 }
 
+.menu {
+    position: relative;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
 .title {
     color: white;
     font-size: 58px;
