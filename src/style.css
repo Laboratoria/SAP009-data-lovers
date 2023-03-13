@@ -99,6 +99,7 @@ input, select {
 	background-color: transparent;
 	font-family: 'quicksand', sans-serif;
 	border-width: 0.01rem;
+	margin: auto;
   } 
 
   input:hover, select:hover {
