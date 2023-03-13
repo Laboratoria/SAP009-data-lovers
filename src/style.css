@@ -1,10 +1,11 @@
+header {
+    padding: 50px;
+    text-align: center;
+    background: #cd7de6;
+    color: white;
+    font-size: large;
+  }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: blueviolet;
-}
 
 body {
     background-color: #785782;
@@ -29,6 +30,7 @@ header{
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .position{
     background-color:aquamarine;
 }
@@ -40,3 +42,10 @@ header{
 h1{
     text-align:center;
 }
+=======
+#back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+>>>>>>> d1fe6723120cf987b108a26142118b34b10fe3c0
