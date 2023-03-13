@@ -4,9 +4,10 @@ import data from './data/ghibli/ghibli.js';
 // Função dos cards na tela
 function sectionMovies(movies){
   document.getElementById('infoMovies').innerHTML = movies.map((movie) => `
-  <div class="cardFront">
+  <div class="cardFront">  
+  <img class="imgFront" data-id="${movie.id}" src="${movie.poster}" alt="Poster do filme">
   <p class="name">${movie.title}</p>
-  <img data-id="${movie.id}" src="${movie.poster}" alt="Poster do filme">
+  </div>
   `).join("") 
 }
 sectionMovies(data.films)
@@ -39,7 +40,7 @@ function modalFilmes(modalID, filmeID){
   `;
 }
 
-const image = document.querySelector('.cardFront');
+const image = document.getElementById('infoMovies');
 image.addEventListener('click', function(e) {
   modalFilmes('modalChar', e.target.dataset.id);
 })

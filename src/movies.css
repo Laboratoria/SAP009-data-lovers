@@ -41,6 +41,7 @@ a:hover {
   justify-content: flex-end;
   gap: 2rem;
   font-size: 25px;
+  margin-right: 20px;
 }
 
 .filters{
@@ -101,29 +102,39 @@ a:hover {
   box-shadow: 0 5px 5px #a6a4a4;
  }
 
- /*.name {
-  width: 100%;
-  height: 45px;
-  line-height: 45px;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
- }*/
+ #infoMovies {
+  display: flex;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
+ }
 
- /*.name{
+ .cardFront{
+  width: 20%;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 0 11px 5px #0000005c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.imgFront {
   width: 100%;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  background: #f4e8eb99;
-  color: #000;
-  font-size: 1rem;
-  text-shadow: #222;
-  bottom: 0;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  position: absolute;
-}*/
+  height: 300px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 .modalContainer {
   width: 90vw;
@@ -153,17 +164,6 @@ a:hover {
   border-color: #fff;
 }
 
-@keyframes modal {
-  from {
-    opacity: 0;
-    transform: translate(0, -60px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0, 0, 0);
-  }
-}
-
 .showModal .modal {
   animation: modal .3s;
 }
@@ -190,6 +190,26 @@ p {
   color: #000;
   cursor: pointer;
 }
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  box-shadow: 0 5px 5px #222;
+  }
+  
+  .btnTopo {
+  background-color: #d01c1c;
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  }
 
 .footerHome img {
   display: flex;
