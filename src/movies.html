@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="movies.css" />
 </head>
 <body>
+  <span id="topo"></span> <!--ancora interna do btnTopo -->
   <header>
     <nav>
       <div id="logo">
@@ -50,24 +51,27 @@
       </select>
     </div>
   </section>
-  <main>
-    <section class="cardMovies">
-      <div class="" id="infoMovies"></div>
-    </section>
-  </main>     
-  <div id="modalChar" class="modalContainer">
-    <button class="closeModal">X</button>
-    <div class="modal-content"></div>
-  </div>
-  <footer>
-    <p>Desenvolvido por</p>
-    <p>Erika Oliveira &copy;</p>
-    <img src="" alt=""> <!--inserir logo do github e linkedin--> 
-    <img src="" alt="">
-    <p>Izadora Nascimento &copy; 2023</p>
-    <img src="" alt=""> <!--inserir logo do github e linkedin-->
-    <img src="" alt="">
-  </footer>
+      <main>
+          <div id="infoMovies"></div>
+          <div>
+            <a class="btn btnTopo" href="#topo">↑</a>
+          </div>
+      </main>
+      <div id="modalChar" class="modalContainer">
+          <button class="closeModal">X</button>
+          <div class="modal-content"></div>
+      </div>
+        <footer class="footerHome">
+          <div class="lineDev">
+            <p>Desenvolvido por</p>
+          </div>
+          <div class="pairCreators">
+            <a href="https://github.com/andraderika"><img src="img/git.png" alt="github"></a>
+            <p>Erika Oliveira &copy;</p>          
+            <a href="https://github.com/IzadoraNascimento"><img src="img/git.png" alt="github"></a> <!--inserir logo do github e linkedin--> 
+            <p>Izadora Nascimento &copy; 2023</p>            
+          </div>
+        </footer>
   <script src="main.js" type="module"></script>
 </body>
 </html>

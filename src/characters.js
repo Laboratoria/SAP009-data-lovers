@@ -6,8 +6,9 @@ function sectionCharacters(persona){
   document.getElementById('infoCharacters').innerHTML = persona.map((studio) => 
   studio.people.map(personagem =>`
   <div class="cardFront">
+  <img class="imgFront" data-id="${personagem.id}" class="foto" src="${personagem.img}" alt="Poster do Personagem">
   <p class="name">${personagem.name}</p>
-  <img data-id="${personagem.id}" class="foto" src="${personagem.img}" alt="Poster do Personagem">
+  </div>
   `).join("") 
 )}
 sectionCharacters(data.films)
@@ -47,7 +48,7 @@ function modalPersona(modalID, personagemID){
   `;
 }
 
-const image = document.querySelector('.cardFront');
+const image = document.getElementById('infoCharacters');
 image.addEventListener('click', function(e) {
   modalPersona('modalChar', e.target.dataset.id);
 })

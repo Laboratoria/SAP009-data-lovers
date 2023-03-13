@@ -42,6 +42,7 @@ a:hover {
   justify-content: flex-end;
   gap: 2rem;
   font-size: 25px;
+  margin-right: 20px;
 }
 
 .posterGhibli{
@@ -58,6 +59,26 @@ a:hover {
   margin: 10px 40px;
   text-align: justify;
 }
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  box-shadow: 0 5px 5px #222;
+  }
+  
+  .btnTopo {
+  background-color: #d01c1c;
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  }
 
 .footerHome img {
   display: flex;
