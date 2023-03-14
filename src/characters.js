@@ -25,9 +25,7 @@ function modalPersona(modalID, personagemID){
   })
   
   const personagens = getCharacters(data.films) 
-
   const personagem = getCharacterByID(personagens, personagemID)
-
   const modalContent = modal.querySelector('.modal-content')
 
   modalContent.innerHTML = `
@@ -56,7 +54,6 @@ genderOption.addEventListener ('change', () =>{
 })
 
 // Filtro por filme
-
 const movies = document.getElementById('movies')
 
 movies.addEventListener ('change', () =>{

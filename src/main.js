@@ -58,6 +58,14 @@ orderBy.addEventListener ('change', () => {
   sectionMovies(sortedOrder)
 })
 
+// Função filtrar mais/menos avaliados
+assessmentOption.addEventListener ('change', () => {
+  const selected = (assessmentOption).value;
+  const sorted = sortByScore(films, selected)
+  console.log(sorted)
+  /* sectionMovies(sorted) */ 
+})
+
 // Função para filtrar por diretor
 director.addEventListener('change', (event) => {
   const selectedDirector = event.target.value
@@ -65,11 +73,5 @@ director.addEventListener('change', (event) => {
   sectionMovies(filtered)
 })
 
-// Função filtrar mais/menos avaliados
-assessmentOption.addEventListener ('change', () => {
-  const selected = (assessmentOption).value;
-  const sorted = sortByScore(films, selected)
-  sectionMovies(sorted) 
-})
 
 
