@@ -6,6 +6,49 @@
     padding: 0;
 }
 
+#characters-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-basis: 300px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .status {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .birthdate {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .gender {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+
 .menu {
     position: relative;
     margin: 20px;

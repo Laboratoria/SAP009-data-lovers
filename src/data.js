@@ -8,6 +8,15 @@ export const sortData = (data, condition) => {
   return filteredData
 };
 
+
+export function filterHouse(characters, house) {
+  if (house === "todas") {
+    return characters;
+  } else {
+    return characters.filter((character) => character.house === house);
+  }
+}
+
 export function filterData(characters, selection) {
   return characters.filter(character => {
     if (selection === 'male') {
@@ -20,13 +29,7 @@ export function filterData(characters, selection) {
   });
 }
 
-export function filterHouse(characters, house) {
-  if (house === 'todas') {
-    return characters;
-  } else {
-    return characters.filter(character => character.house === house);
-  }
-}
+
 
 
 //export const anotherExample = () => {
