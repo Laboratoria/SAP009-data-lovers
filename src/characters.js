@@ -1,16 +1,17 @@
-import {filmPeople} from './data.js';
+//import {filmPeople} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 // Função para imprimir os cards na tela
 function sectionCharacters(persona){
   document.getElementById('infoCharacters').innerHTML = persona.map((studio) => 
-  studio.people.map(personagem =>`
-  <div class="cardFront">
-  <img class="imgFront" data-id="${personagem.id}" class="foto" src="${personagem.img}" alt="Poster do Personagem">
-  <p class="name">${personagem.name}</p>
-  </div>
-  `).join("") 
-)}
+    studio.people.map(personagem =>`
+    <div class="cardFront">
+    <img class="imgFront" data-id="${personagem.id}" class="foto" src="${personagem.img}" alt="Poster do Personagem">
+    <p class="name">${personagem.name}</p>
+    </div>
+    `).join("") 
+  ).join("")
+}
 sectionCharacters(data.films)
 
 
