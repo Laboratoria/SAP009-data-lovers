@@ -1,4 +1,4 @@
-import {sortByOrderFilms, sortByScore, filters} from './data.js';
+import {sortByOrderFilms, filters} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 // Função dos cards na tela
