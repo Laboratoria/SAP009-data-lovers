@@ -1,4 +1,4 @@
-import {getCharacterByID, getCharacters, filterGender, filterFilm} from './data.js';
+import {getCharacterByID, getCharacters, sortByOrderCharacters, filterGender, filterFilm} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 // Função para imprimir os cards na tela
@@ -42,6 +42,15 @@ image.addEventListener('click', function(e) {
   modalPersona('modalChar', e.target.dataset.id);
 })
 
+// Ordenação
+const orderBy = document.getElementById('orderBy')
+const films = data.films
+orderBy.addEventListener ('change', () => {
+  const pressed = (orderBy).value;
+  const sortedOrder = sortByOrderCharacters(films, pressed)
+  sectionCharacters(sortedOrder.people)
+  console.log(sectionCharacters)
+})
 
 // Filtro Genero 
 const genderOption = document.getElementById('genderOption')
