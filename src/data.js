@@ -42,3 +42,33 @@ export function sortByScore(films, orderBy){
 export const filters = (array, key, condition) =>
   array.filter((item) => item[key] === condition);
 
+// Função para filtro de Genero
+export const filterGender = (characters, gender) =>{
+  return characters.filter((character) =>{
+    return character.gender === gender
+  })
+} 
+
+export const getCharacters = (films) =>{
+  let characters = []
+  films.forEach(filme => {
+    characters = [...characters, ... filme.people]
+  })
+  return characters
+}
+
+export const getCharacterByID = (characters, characterID) =>{
+  return characters.filter((character) => {
+    return character.id == characterID
+  })[0]
+}
+
+// Função personagens por filmes
+
+export const filterFilm = (names, title) =>{
+  return names.filter((name) => {
+    return name.title === title
+  })[0]
+}
+
+
