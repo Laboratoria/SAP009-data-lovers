@@ -30,7 +30,6 @@ header{
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 .position{
     background-color:aquamarine;
 }
@@ -42,10 +41,28 @@ header{
 h1{
     text-align:center;
 }
-=======
-#back-to-top {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-}
->>>>>>> d1fe6723120cf987b108a26142118b34b10fe3c0
+
+.div-btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3vw 0 0 -1.5vw;
+    padding: 0 2vw;
+    column-gap: 1vw;
+  }
+
+  .btn {
+    background-color: var(--background-items);
+    margin: 0;
+    padding: 0.5vw 1vw;
+    border-radius: 0.3vw;
+    cursor: pointer;
+    color: var(--color-font);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #f1faee;
+    color: #e26c7a;
+  }
