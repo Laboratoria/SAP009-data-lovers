@@ -1,4 +1,4 @@
-import {sortByOrderFilms, sortByScore, filters} from './data.js';
+import {sortByOrderFilms, filters} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 // Função dos cards na tela
@@ -65,11 +65,5 @@ director.addEventListener('change', (event) => {
   sectionMovies(filtered)
 })
 
-// Função filtrar mais/menos avaliados
-assessmentOption.addEventListener ('change', () => {
-  const selected = (assessmentOption).value;
-  const sorted = sortByScore(films, selected)
-  sectionMovies(sorted) 
-})
 
 

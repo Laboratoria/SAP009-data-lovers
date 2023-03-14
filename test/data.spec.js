@@ -1,4 +1,4 @@
-import { sortByOrderFilms} from '../src/data.js';
+import { sortByOrderFilms, filters} from '../src/data.js';
 
 const castle = { 
   title: "Castle in the Sky", 
@@ -20,14 +20,14 @@ const whisper = {
 
 const testMovies = [castle, whisper]
 
-// testar se a const testMovies realmente é um objeto -- ok
+// testar se a const testMovies é um objeto 
 describe('testMovies', () => {
   it('should be an object', () => {
     expect(typeof testMovies).toBe('object')
   })
 });
 
-//testar se a função sortByOrder realmente é uma função
+//testar se a função sortByOrder é uma função
 describe('sort by order', () => {
   it('should be a function', () => {
     expect(typeof sortByOrderFilms).toBe('function')
@@ -45,4 +45,16 @@ describe('sort by order', () => {
     expect(order[0].title).toEqual("Whisper of the Heart")
   });
 });
+
+//testar se a função filters é uma função
+describe('filter', () => {
+  it('should be a function', () => {
+    expect(typeof filters).toBe('function')
+  });
+
+  //testar se a função filtra por diretor
+  it('should filter by director', () => {
+    expect(filters(testMovies, 'director', 'Hayao Miyazaki')).toStrictEqual([castle])
+  })
+})
 

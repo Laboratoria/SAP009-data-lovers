@@ -18,26 +18,6 @@ export function sortByOrderFilms(films, orderBy){
   return newArray;
 }
 
-// Função filtrar mais/menos avaliados -- rever 
-export function sortByScore(films, orderBy){
-  const newArray = [...films]
-
-  if(orderBy === "highScore") {
-    newArray.sort(function(highScore, lowScore){
-      if(highScore.release_date < lowScore.release_date){
-        return -1;
-      }
-    })
-  } else{
-    newArray.sort(function(highScore, lowScore){
-      if(highScore.release_date > lowScore.release_date){
-        return -1;
-      }
-    })
-  }
-  return newArray;
-}
-
 // Função filtrar por diretor
 export const filters = (array, key, condition) =>
   array.filter((item) => item[key] === condition);
@@ -64,7 +44,6 @@ export const getCharacterByID = (characters, characterID) =>{
 }
 
 // Função personagens por filmes
-
 export const filterFilm = (names, title) =>{
   return names.filter((name) => {
     return name.title === title
