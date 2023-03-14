@@ -4,11 +4,11 @@ import data from './data/ghibli/ghibli.js';
 // Função para imprimir os cards na tela
 function sectionCharacters(characters){
   document.getElementById('infoCharacters').innerHTML = characters.map((personagem) => 
-  `
-  <div class="cardFront">
-  <img class="imgFront" data-id="${personagem.id}" class="foto" src="${personagem.img}" alt="Poster do Personagem">
-  <p class="name">${personagem.name}</p>
-  </div>`
+    `
+    <div class="cardFront">
+    <img class="imgFront" data-id="${personagem.id}" class="foto" src="${personagem.img}" alt="Poster do Personagem">
+    <p class="name">${personagem.name}</p>
+    </div>`
   ).join("")
 }
 sectionCharacters(getCharacters(data.films))
@@ -19,7 +19,7 @@ function modalPersona(modalID, personagemID){
   const modal = document.getElementById(modalID);
   modal.classList.add('showModal')
   modal.addEventListener('click', (evento) => {
-    if(evento.target.id == modalID || evento.target.className == 'closeModal') {
+    if(evento.target.id === modalID || evento.target.className ==='closeModal') {
       modal.classList.remove('showModal');
     }
   })
@@ -29,7 +29,6 @@ function modalPersona(modalID, personagemID){
   const personagem = getCharacterByID(personagens, personagemID)
 
   const modalContent = modal.querySelector('.modal-content')
-  console.log(personagem)
 
   modalContent.innerHTML = `
     <h1>${personagem.name}</h1>
@@ -54,7 +53,7 @@ genderOption.addEventListener ('change', () =>{
   const characters = getCharacters(data.films)
   const filtro = filterGender(characters, gender)
   sectionCharacters(filtro)  
-  })
+})
 
 // Filtro por filme
 

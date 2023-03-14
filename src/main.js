@@ -17,19 +17,18 @@ function modalFilmes(modalID, filmeID){
   const modal = document.getElementById(modalID);
   modal.classList.add('showModal')
   modal.addEventListener('click', (evento) => {
-    if(evento.target.id == modalID || evento.target.className == 'closeModal') {
+    if(evento.target.id === modalID || evento.target.className === 'closeModal') {
       modal.classList.remove('showModal');
     }
   })
   
   const filmes = data.films.filter(filme => {
-    return filme.id == filmeID
+    return filme.id === filmeID
   })
     
   const movies = filmes[0]
 
   const modalContent = modal.querySelector('.modal-content')
-  console.log(movies)
 
   modalContent.innerHTML = `
     <h1>${movies.title}</h1><br>
