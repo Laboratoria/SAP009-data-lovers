@@ -20,7 +20,7 @@ const whisper = {
 
 const testMovies = [castle, whisper]
 
-// testar se a const testMovies realmente é um objeto -- ok
+// testar se a const testMovies realmente é um objeto
 describe('testMovies', () => {
   it('should be an object', () => {
     expect(typeof testMovies).toBe('object')
