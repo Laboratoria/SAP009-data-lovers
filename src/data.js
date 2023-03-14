@@ -18,20 +18,6 @@ export function sortByOrderFilms(films, orderBy){
   return newArray;
 }
 
-// Função filtrar mais/menos avaliados -- rever 
-export function sortByScore(films){
-  const newArray = [...films]
-  
-  const highScore = newArray.slice().sort(function(a, b) {
-    return b.rt_score - a.rt_score;
-  });
-  
-  const lowScore = newArray.slice().sort(function(a, b) {
-    return a.rt_score - b.rt_score;
-  });
-  return {highScore, lowScore};
-} 
-
 // Função filtrar por diretor
 export const filters = (array, key, condition) =>
   array.filter((item) => item[key] === condition);
