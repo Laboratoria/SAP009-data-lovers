@@ -59,7 +59,7 @@ export const getCharacters = (films) =>{
 
 export const getCharacterByID = (characters, characterID) =>{
   return characters.filter((character) => {
-    return character.id == characterID
+    return character.id === characterID
   })[0]
 }
 
