@@ -62,8 +62,7 @@ orderBy.addEventListener ('change', () => {
 assessmentOption.addEventListener ('change', () => {
   const selected = (assessmentOption).value;
   const sorted = sortByScore(films, selected)
-  console.log(sorted)
-  /* sectionMovies(sorted) */ 
+  sectionMovies(sorted) 
 })
 
 // Função para filtrar por diretor
