@@ -23,16 +23,12 @@ export const filters = (array, key, condition) =>
   array.filter((item) => item[key] === condition);
 
 // Ordenação
-export function sortByOrderCharacters(characters) {
-  const newArray = [];
-  for (const character of characters) {
-    const newCharacter = { ...character };
-    newCharacter.people.sort(function(a, b) {
-      console.log(newCharacter)
-      return a.name.localeCompare(b.name);
-    });
-    newArray.push(newCharacter);
-  }[0]
+export function sortByOrderCharacters(characters, pressed) {
+  console.log(pressed)
+  const newArray = [...characters];
+  newArray.sort(function(a, b) {
+    return a.name.localeCompare(b.name);
+  });
   return newArray;
 }
 
