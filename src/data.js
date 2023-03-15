@@ -1,3 +1,5 @@
+// --- FILTROS PÁGINA - FILMES ----
+
 //Função para ordenar por A-Z/Z-A
 export function sortByOrderFilms(films, orderBy){
   const newArray = [...films]
@@ -18,13 +20,16 @@ export function sortByOrderFilms(films, orderBy){
   return newArray;
 }
 
-// Função filtrar por diretor
+// Função filtrar por Diretor
 export const filters = (array, key, condition) =>
   array.filter((item) => item[key] === condition);
 
-// Ordenação
+
+// --- FILTROS PÁGINA - PERSONAGENS ---
+
+
+// Ordenação Personagens 
 export function sortByOrderCharacters(characters, pressed) {
-  console.log(pressed)
   const newArray = [...characters];
   newArray.sort(function(a, b) {
     return a.name.localeCompare(b.name);
@@ -32,7 +37,7 @@ export function sortByOrderCharacters(characters, pressed) {
   return newArray;
 }
 
-// Função para filtro de Genero
+// Função para filtro de Gênero
 export const filterGender = (characters, gender) =>{
   return characters.filter((character) =>{
     return character.gender === gender
