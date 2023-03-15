@@ -27,13 +27,23 @@ export const filters = (array, key, condition) =>
 
 // --- FILTROS PÁGINA - PERSONAGENS ---
 
-
 // Ordenação Personagens 
-export function sortByOrderCharacters(characters, pressed) {
+export function sortByOrderCharacters(characters, pressed){
   const newArray = [...characters];
-  newArray.sort(function(a, b) {
-    return a.name.localeCompare(b.name);
-  });
+
+  if(pressed === "az") {
+    newArray.sort(function(a,b){
+      if(a.name < b.name){
+        return -1;
+      }
+    })
+  } else {
+    newArray.sort(function(a,b){
+      if(a.name > b.name){
+        return -1;
+      }
+    })
+  }
   return newArray;
 }
 
@@ -58,7 +68,7 @@ export const getCharacterByID = (characters, characterID) =>{
   })[0]
 }
 
-// Função personagens por filmes
+// Função personagens por Filmes
 export const filterFilm = (names, title) =>{
   return names.filter((name) => {
     return name.title === title

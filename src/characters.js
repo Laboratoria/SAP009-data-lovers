@@ -1,6 +1,8 @@
 import {getCharacterByID, getCharacters, sortByOrderCharacters, filterGender, filterFilm} from './data.js';
 import data from './data/ghibli/ghibli.js';
 
+// --- FUNÇÕES GERAIS DA TELA ---
+
 const allCharacters = getCharacters(data.films)
 
 // Função para imprimir os cards na tela
@@ -14,7 +16,6 @@ function sectionCharacters(characters){
   ).join("")
 }
 sectionCharacters(allCharacters)
-
 
 // Função para janela modal
 function modalPersona(modalID, personagemID){
@@ -43,6 +44,8 @@ image.addEventListener('click', function(e) {
   modalPersona('modalChar', e.target.dataset.id);
 })
 
+// --- FUNÇÕES DE ORDENAÇÃO/FILTROS --- 
+
 // Ordenação
 const orderBy = document.getElementById('orderBy')
 
@@ -52,7 +55,7 @@ orderBy.addEventListener ('change', () => {
   sectionCharacters(sortedOrder)
 })
 
-// Filtro Genero 
+// Filtro Gênero 
 const genderOption = document.getElementById('genderOption')
 
 genderOption.addEventListener ('change', () =>{
@@ -61,7 +64,7 @@ genderOption.addEventListener ('change', () =>{
   sectionCharacters(filtro)  
 })
 
-// Filtro por filme
+// Filtro  personagem por Filme
 const movies = document.getElementById('movies')
 
 movies.addEventListener ('change', () =>{
