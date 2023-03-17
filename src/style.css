@@ -72,6 +72,7 @@ p {
 	text-shadow: 0.1 0.1 0.2 black;
 }
 
+
 #form {
 	display: flex;
     width: 100%;
@@ -192,7 +193,7 @@ input, select {
 	display: none;
   }
   
-  @media (max-width: 600px ){
+  @media (max-width: 600px){
 	.menu {
 	  display: block;
 	  position: absolute;
@@ -344,7 +345,6 @@ input, select {
 
 .cards {
 	display: inline-block;
-	flex-wrap: wrap;
 	background-color: #faf9f2;
 	border-radius: 10%;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.507);
@@ -353,7 +353,7 @@ input, select {
 	text-align: center;
 	margin-left: 5rem;
 	margin-right: 1rem; 
-	width: 10%;
+	width: 150px;
 
   }
 
@@ -385,8 +385,19 @@ input, select {
 	visibility:visible;
   }
 
-  @media () {
-	display: ;
+  @media (max-width: 600px) {
+	form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cards {
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
 
   }
   

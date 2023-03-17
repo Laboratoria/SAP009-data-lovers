@@ -1,4 +1,4 @@
-import  {filterByGender, filterBySpecies, filterByName, getPeople}  from './data.js';
+import  {filterByGender, filterBySpecies, filterByName, getPeople, calculo}  from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 //mostrando cards na tela
@@ -32,17 +32,14 @@ function showPeople(NamesAndImg) {
 
     const nomePersonagem = document.createElement("h1");
     nomePersonagem.classList.add("card_name");
-    const nome = document.createTextNode(NamesAndImg[i].name);
+    //const nome = document.createTextNode(NamesAndImg[i].name);
 
 
     div.appendChild(img);
     //div.appendChild(nome);
     mostrarCardPai.appendChild(div);
 
-    
-
   }
-    
 }
 
 showPeople(NamesAndImg)
@@ -57,6 +54,22 @@ generoEscolhido.addEventListener("change", (event) => {
   //Coloca o valor do evento do alvo e mostra passando pela função filter
   const filterByGenderPeople = filterByGender(people, gender);
   showPeople(filterByGenderPeople)
+
+  // usando calculo
+  const calculoAgregado = calculo(filterByGenderPeople.length, people.length);
+  const resultado = document.getElementById("paragrafoCalculo");
+
+  resultado.style.color =  "#fb4f7d";  
+  resultado.style.fontSize = "1rem";
+  resultado.style.background = "#faf9f2";
+  resultado.style.borderRadius = "5px";
+  resultado.style.paddingBottom = "5px";
+  resultado.style.paddingTop = "5px";
+  resultado.style.marginTop = "20px"
+  resultado.style.marginBottom = "20px"
+  resultado.style.textAlign = "center";
+
+  resultado.innerHTML = (`A porcentagem desse tipo de personagens é ${calculoAgregado} %`);
 })
 
 
@@ -69,6 +82,22 @@ especieEscolhida.addEventListener("change", (event) => {
   //Coloca o valor do evento do alvo e mostra passando pela função filter
   const filterBySpeciesPeople = filterBySpecies(people, specieEscolhida);
   showPeople(filterBySpeciesPeople)
+
+  // usando calculo
+  const calculoAgregado = calculo(filterBySpeciesPeople.length, people.length);
+  const resultado = document.getElementById("paragrafoCalculo");
+
+  resultado.style.color =  "#fb4f7d";  
+  resultado.style.fontSize = "1rem";
+  resultado.style.background = "#faf9f2";
+  resultado.style.borderRadius = "5px";
+  resultado.style.paddingBottom = "5px";
+  resultado.style.paddingTop = "5px";
+  resultado.style.marginTop = "20px"
+  resultado.style.marginBottom = "20px"
+  resultado.style.textAlign = "center";
+
+  resultado.innerHTML = (`A porcentagem <br> desse tipo de personagens <br> em relação ao total é de ${calculoAgregado} %`);
 })
 
 
@@ -82,6 +111,13 @@ nomeEscolhido.addEventListener("input", (event) => {
   const filterByNamePeople = filterByName(people, nameEscolhido);
   showPeople(filterByNamePeople)
 })
+
+
+
+
+
+
+
 
 
 
