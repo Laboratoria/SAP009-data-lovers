@@ -1,4 +1,4 @@
-import  {filterByGender, filterBySpecies, filterByName, getPeople, calculo}  from './data.js';
+import  {filterByGender, filterBySpecies, filterByName, getPeople, calculo, filterByFilms, getFilms}  from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 //mostrando cards na tela
@@ -32,11 +32,10 @@ function showPeople(NamesAndImg) {
 
     const nomePersonagem = document.createElement("h1");
     nomePersonagem.classList.add("card_name");
-    //const nome = document.createTextNode(NamesAndImg[i].name);
-
-
+    const nome = document.createTextNode(NamesAndImg[i].name);
+  
     div.appendChild(img);
-    //div.appendChild(nome);
+    div.appendChild(nome);
     mostrarCardPai.appendChild(div);
 
   }
@@ -44,18 +43,21 @@ function showPeople(NamesAndImg) {
 
 showPeople(NamesAndImg)
 
-//Guarda o valor de todos os nomes e personagens
+
+
+
+//Guarda o valor de todos os nomes e personagens dentro de um array
 const people = getPeople(data.films)
 //pegando os valores do select
 const generoEscolhido = document.getElementById("genero")
 generoEscolhido.addEventListener("change", (event) => {
-  //Pego o valor do evento change do select
+  //Pegou o valor do evento change do select
   const gender = event.target.value;
   //Coloca o valor do evento do alvo e mostra passando pela função filter
   const filterByGenderPeople = filterByGender(people, gender);
   showPeople(filterByGenderPeople)
 
-  // usando calculo
+  // usando calculo agregado
   const calculoAgregado = calculo(filterByGenderPeople.length, people.length);
   const resultado = document.getElementById("paragrafoCalculo");
 
@@ -69,7 +71,7 @@ generoEscolhido.addEventListener("change", (event) => {
   resultado.style.marginBottom = "20px"
   resultado.style.textAlign = "center";
 
-  resultado.innerHTML = (`A porcentagem desse tipo de personagens é ${calculoAgregado} %`);
+  resultado.innerHTML = (`A porcentagem desse tipo de personagens é ${calculoAgregado}% em relação ao total de persongans.`);
 })
 
 
@@ -97,19 +99,30 @@ especieEscolhida.addEventListener("change", (event) => {
   resultado.style.marginBottom = "20px"
   resultado.style.textAlign = "center";
 
-  resultado.innerHTML = (`A porcentagem <br> desse tipo de personagens <br> em relação ao total é de ${calculoAgregado} %`);
+  resultado.innerHTML = (`A porcentagem desse tipo de personagem é de ${calculoAgregado}% em relação ao total de personagens.`);
 })
 
 
-//pegando os valores do select
-const nomeEscolhido = document.getElementById("form")
+//pegando os valores do input
+const nomeEscolhido = document.getElementById("inputNome")
 nomeEscolhido.addEventListener("input", (event) => {
   event.preventDefault();
-  //Pego o valor do evento change do select
+  //Pegou o valor do evento change do select
   const nameEscolhido = document.getElementById("nome").value;
   //Coloca o valor do evento do alvo e mostra passando pela função filter
   const filterByNamePeople = filterByName(people, nameEscolhido);
   showPeople(filterByNamePeople)
+})
+
+//pegando os valores do select
+const filmeEscolhido = document.getElementById("filme")
+filmeEscolhido.addEventListener("change", (event) => {
+//Pego o valor do evento change do select
+  const filmeEscolhido = event.target.value;
+  //Coloca o valor do evento do alvo e mostra passando pela função filter
+  const filterByFilmsPeople = filterByFilms(people, filmeEscolhido);
+  showPeople(filterByFilmsPeople)
+
 })
 
 

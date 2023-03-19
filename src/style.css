@@ -354,6 +354,10 @@ input, select {
 	margin-left: 5rem;
 	margin-right: 1rem; 
 	width: 150px;
+	color: #f6295f;
+	font-weight: bold;
+	font-size: 0.9rem;
+	font-family: 'quicksand', sans-serif;
 
   }
 
@@ -371,20 +375,7 @@ input, select {
 	object-fit: fill;
   }
   
-  .card_name {
-	font-size: 18px;
-	font-family: 'quicksand', sans-serif;
-	font-weight: bold;
-	color:#f6295f;
-	margin: 5px;
-	text-align: center;
-	visibility: hidden;
-  }
-
-  .card_nome:hover {
-	visibility:visible;
-  }
-
+  /* muda o formato dos inputs e cards */
   @media (max-width: 600px) {
 	form {
 		display: flex;
@@ -397,8 +388,6 @@ input, select {
 		margin-right: auto;
 		display: block;
 	}
-
-
   }
   
 
