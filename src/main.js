@@ -1,4 +1,4 @@
-import  {filterByGender, filterBySpecies, filterByName, getPeople, calculo, filterByFilms, getFilms}  from './data.js';
+import  {filterByGender, filterBySpecies, filterByName, getPeople, calculo, getFilmsWithPeople, filterByFilms}  from './data.js';
 import data from './data/ghibli/ghibli.js';
 
 //mostrando cards na tela
@@ -6,12 +6,14 @@ import data from './data/ghibli/ghibli.js';
 function getNamesAndImages() {
   const NameAndImages = []
   for (let i = 0; i < data.films.length; i++) {
-    for (let j = 0; j < data.films[i].people.length; j++) {
-      NameAndImages.push({name: `${data.films[i].people[j].name}`, img: `${data.films[i].people[j].img}`, specie:`${data.films[i].people[j].specie}`})
-    }
+    for (let k = 0; k < data.films[i].title.length; k++)
+      for (let j = 0; j < data.films[i].people.length; j++) {
+        NameAndImages.push({name: `${data.films[i].people[j].name}`, img: `${data.films[i].people[j].img}`, specie:`${data.films[i].people[j].specie}`, title: `${data.films[i].title}`})
+      }
   }
   return NameAndImages
 }
+
 
 const mostrarCardPai = document.querySelector(".mostrar-card-pai");
 
@@ -47,7 +49,7 @@ showPeople(NamesAndImg)
 
 
 //Guarda o valor de todos os nomes e personagens dentro de um array
-const people = getPeople(data.films)
+const people = getPeople(data.films);
 //pegando os valores do select
 const generoEscolhido = document.getElementById("genero")
 generoEscolhido.addEventListener("change", (event) => {
@@ -114,16 +116,21 @@ nomeEscolhido.addEventListener("input", (event) => {
   showPeople(filterByNamePeople)
 })
 
-//pegando os valores do select
-const filmeEscolhido = document.getElementById("filme")
-filmeEscolhido.addEventListener("change", (event) => {
-//Pego o valor do evento change do select
-  const filmeEscolhido = event.target.value;
-  //Coloca o valor do evento do alvo e mostra passando pela função filter
-  const filterByFilmsPeople = filterByFilms(people, filmeEscolhido);
-  showPeople(filterByFilmsPeople)
 
-})
+
+const filmeEscolhido = document.getElementById("filme");
+const filmes = getFilmsWithPeople(data.films)
+
+function handleFilmeEscolhido(event) {
+  const filmeSelecionado = event.target.value;
+  const pessoasFiltradas = filterByFilms(filmes, filmeSelecionado);
+  showPeople(pessoasFiltradas);
+}
+
+filmeEscolhido.addEventListener("change", handleFilmeEscolhido);
+
+
+
 
 
 

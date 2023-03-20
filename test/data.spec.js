@@ -1,4 +1,4 @@
-import { calculo, getPeople, filterByGender, filterBySpecies, filterByName } from '../src/data.js';
+import { calculo, getPeople, filterByGender, filterBySpecies, filterByName, filterByFilms, getFilmsWithPeople } from '../src/data.js';
 
 
 // função getPeople
@@ -50,6 +50,43 @@ describe('filterBySpecies', () => {
   });
 });
 
+
+//função filterByFilms
+describe('filterByFilms', () => {
+  it('is a function', () => {
+    expect(typeof filterByFilms).toBe('function');
+  });
+
+  it('should return an array with the people in the movie', () => {
+    const people = [
+      { name: 'Gina', film: 'Porco Rosso' }, 
+      { name: 'Rie', film: 'Only Yesterday' }, 
+    ];
+    const film = 'Porco Rosso';
+    expect(filterByFilms(people, film)).toEqual([{ name: 'Gina', film: 'Porco Rosso' }]);
+  });
+});
+
+
+
+// função getFilmsWithPeople
+describe('getFilmsWithPeople', () => {
+  it('is a function', () => {
+    expect(typeof getFilmsWithPeople).toBe('function');
+  });
+
+  it('should return an array with all people from the given movie', () => {
+    const films = [
+      { people: ['Castorp', 'Caproni'], film: ['The Wind Rises'] },
+      { people: ['Oroku', 'Gonta'], film: ['Pom Poko'] },
+    ];
+    const filmTitle = 'Pom Poko';
+    const people = getFilmsWithPeople(films, filmTitle);
+    expect(getFilmsWithPeople(films)).toEqual(people);
+  });
+});
+  
+
 //função filterByName
 describe('filterByName', () => {
   it('is a function', () => {
@@ -78,5 +115,4 @@ describe('calculo', () => {
     expect(calculo(tipo, total)).toEqual('10.0');
   });
 });
-
 

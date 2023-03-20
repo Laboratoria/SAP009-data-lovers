@@ -22,8 +22,15 @@ export const calculo = (tipo, total) => {
   return ((tipo / total) * 100).toFixed(1);
 }
 
-export const getFilms = (films) =>  films.reduce((total, film) => total.concat(film.films), []);
-
+//filtro por título do filme
 export const filterByFilms = (data, title) => {
-  return data.filter((films) => films.title === title)
+  return data.filter((films) => films.film === title)
 }
+
+
+// criando um array com os personagens e o título de seu filme
+export const getFilmsWithPeople = (films) => films.reduce((total, film) => {
+  const people = film.people.map(person => ({ ...person, film: film.title }));
+  return total.concat(people);
+}, []);
+
