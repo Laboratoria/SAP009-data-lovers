@@ -1,16 +1,73 @@
+@font-face {
+    font-family: "Friz Quadrata";
+    font-weight: normal;
+    src: url("./fonts/Friz Quadrata Regular.ttf");
+}
+
+@font-face {
+    font-family: "Friz Quadrata";
+    font-weight: bold;
+    src: url("./fonts/Friz Quadrata Bold.otf");
+}
+
+@font-face {
+    font-family: "Friz Quadrata";
+    font-style: italic;
+    src: url("./fonts/Friz Quadrata Italic.ttf");
+}
+
+* {
+    font-family: "Friz Quadrata";
+}
 
 body {
-    text-align:center;
-    width: 50px;;
-    height: 100%;
     background-image: url(./card-imgs/BackGround.png);
     background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+header {
+    color: antiquewhite;
+    text-align: center;
     display: flex;
-    color: lightgray;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 60px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    position: absolute;
+    bottom: 15px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+main {
+    display: flex;
+    font-size: 54px;
+    text-align: center;
+    padding: 1% 15.625%;
 }
 
 .champions-cards {
-    flex-direction: row;
-    gap: 45px;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff98;
+    flex-wrap: wrap;
+}
+
+section {
+    width: calc(33.3% - 150px);
+    position:relative;
+}
+
+section img {
+    width: 75%;
 }
