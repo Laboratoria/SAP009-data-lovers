@@ -72,6 +72,7 @@ p {
 	text-shadow: 0.1 0.1 0.2 black;
 }
 
+
 #form {
 	display: flex;
     width: 100%;
@@ -118,9 +119,7 @@ input, select {
 	color: #f6295f;
   }
 
-
  /* imgs com os links do github */
-
 .imgid {
 	display: flex;
 	justify-content: center;
@@ -192,7 +191,7 @@ input, select {
 	display: none;
   }
   
-  @media (max-width: 600px ){
+  @media (max-width: 600px){
 	.menu {
 	  display: block;
 	  position: absolute;
@@ -344,7 +343,6 @@ input, select {
 
 .cards {
 	display: inline-block;
-	flex-wrap: wrap;
 	background-color: #faf9f2;
 	border-radius: 10%;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.507);
@@ -353,7 +351,11 @@ input, select {
 	text-align: center;
 	margin-left: 5rem;
 	margin-right: 1rem; 
-	width: 10%;
+	width: 150px;
+	color: #f6295f;
+	font-weight: bold;
+	font-size: 0.9rem;
+	font-family: 'quicksand', sans-serif;
 
   }
 
@@ -371,23 +373,19 @@ input, select {
 	object-fit: fill;
   }
   
-  .card_name {
-	font-size: 18px;
-	font-family: 'quicksand', sans-serif;
-	font-weight: bold;
-	color:#f6295f;
-	margin: 5px;
-	text-align: center;
-	visibility: hidden;
-  }
+  /* muda o formato dos inputs e cards */
+  @media (max-width: 600px) {
+	form {
+		display: flex;
+		flex-direction: column;
+	}
 
-  .card_nome:hover {
-	visibility:visible;
-  }
-
-  @media () {
-	display: ;
-
+	.cards {
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
   }
   
 

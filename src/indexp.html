@@ -23,24 +23,51 @@
       </button>
       <ul class="menu" id="menu" role="menu">
         <li><a href="index.html">Início</a></li>
-        <li><a href="indexp.html">Personagens</a></li>
+        <li><a href="indexp.html">Inventário</a></li>
         <li><a href="indexs.html">Sobre nós</a></li>
       </ul>
     </nav>
   </header>
     <main>
         <section id="pesquisa">
-          <h1>Inventário de Personagens</h1>
-          
+          <h1>Encontrando os personagens por:</h1>
+
         <form id="form">
-            <section class="esquerda">
-                <label  for="nome"><strong>Personagem:</strong></label>
-                <input  id= "nome" type="text" required placeholder="Digite o nome">
+
+          <section id="sectionFilme">
+            <label for="filme"><strong>Filme:</strong></label>
+            <select id= "filme">
+                <option selected disabled value="">Selecione</option>
+                <option value="Castle in the Sky">Castle in the Sky</option>
+                <option value="My Neighbor Totoro">My Neighbor Totoro</option>
+                <option value="Kiki's Delivery Service">Kiki's Delivery Service</option>
+                <option value="Grave of the Fireflies">Grave of the Fireflies</option>
+                <option value="Only Yesterday">Only Yesterday</option>
+                <option value="Porco Rosso">Porco Rosso</option>
+                <option value="Pom Poko">Pom Poko</option>
+                <option value="Whisper of the Heart">Whisper of the Heart</option>
+                <option value="Princess Mononoke">Princess Mononoke</option>
+                <option value="My Neighbors the Yamadas">My Neighbors the Yamadas</option>
+                <option value="Spirited Away">Spirited Away</option>
+                <option value="The Cat Returns">The Cat Returns</option>
+                <option value="Howl's Moving Castle">Howl's Moving Castle</option>
+                <option value="Tales from Earthsea">Tales from Earthsea</option>
+                <option value="Ponyo on the Cliff by the Sea">Ponyo on the Cliff by the Sea</option>
+                <option value="The Secret World of Arrietty">The Secret World of Arrietty</option>
+                <option value="From Up on Poppy Hill">From Up on Poppy Hill</option>
+                <option value="The Wind Rises">The Wind Rises</option>
+                <option value="The Tale of the Princess Kaguya">The Tale of the Princess Kaguya</option>
+                <option value="When Marnie Was There">When Marnie Was There</option>
+        </select>
+         </section>
+
+            <section id="inputNome">
+                <label  for="nome"><strong>Nome:</strong></label>
+                <input  id= "nome" type="text" required placeholder="Digite o personagem">
             </section>
          
-        
             <section class="meio">
-               <label for="genero"><strong>Gênero:</strong></strong></label>
+               <label for="genero"><strong>Gênero:</strong></label>
                <select name="genero" id="genero" class="estilo-do-input">
                  <option selected disabled value="">Selecione</option>
                  <option id="fem" value="Female">Feminino</option>
@@ -50,7 +77,7 @@
 
             <section class="direita">
                <label for="especie"><strong>Espécie:</strong></label>
-               <select id= "especie"class="estilo-do-input" >
+               <select id= "especie">
                    <option selected disabled value="">Selecione</option>
                    <option value="Human">Human</option>
                    <option value="Totoro">Totoro</option>
@@ -58,26 +85,33 @@
                    <option value="Dog">Dog</option>
                    <option value="Bird">Bird</option>
                    <option value="Wolf">Wolf</option>
-                   <option value="Raccon">Raccon Dog</option>
+                   <option value="Raccoon Dog">Raccon Dog</option>
                    <option value="Witch">Witch</option>
-                   <option value="Witch/human">Witch/Human</option>
-                   <option value="Human/scarecrow">Human Scarecrow</option>
-                   <option value="Arch-mage/human">Arch-mage/Human</option>
-                   <option value="Fish/human">Fish/Human</option>
+                   <option value="Witch/Human">Witch/Human</option>
+                   <option value="Human/Scarecrow">Human Scarecrow</option>
+                   <option value="Arch-mage/Human">Arch-mage/Human</option>
+                   <option value="Fish/Human">Fish/Human</option>
                    <option value="Red elk">Red Elk</option>
                    <option value="Spirit">Spirit</option>
-                   <option value="Spirit of the White fox">Spirit of the White Fox</option>
+                   <option value="Spirit of The White Fox">Spirit of the White Fox</option>
                    <option value="Deity">Deity</option>
-                   <option value="Deity,dragon">Deity, Dragon</option>
+                   <option value="Deity, Dragon">Deity, Dragon</option>
                    <option value="Borrower">Borrower</option>
-                   <option value="Unknown">Unknown</option>
+                   <option value="unknown">Unknown</option>
                    <option value="Wizard">Wizard</option>
                    <option value="Demon">Demon</option>
            </select>
-        </section>
+            </section>
         </form>
         </section>
     </main>
+
+    <section>
+      <p class="mostrandoCalculo" id="paragrafoCalculo">
+
+      </p>
+
+    </section>
 
     <section class="mostrar-card-pai">
 
