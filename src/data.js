@@ -16,7 +16,6 @@ export const filterByName = (data, name) => {
   return data.filter((personagem) => personagem.name === name)
 }
 
-
 // calculo agregado 
 export const calculo = (tipo, total) => {
   return ((tipo / total) * 100).toFixed(1);
@@ -26,7 +25,6 @@ export const calculo = (tipo, total) => {
 export const filterByFilms = (data, title) => {
   return data.filter((films) => films.film === title)
 }
-
 
 // criando um array com os personagens e o título de seu filme
 export const getFilmsWithPeople = (films) => films.reduce((total, film) => {
