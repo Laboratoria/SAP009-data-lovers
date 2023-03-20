@@ -6,10 +6,9 @@ import data from './data/ghibli/ghibli.js';
 function getNamesAndImages() {
   const NameAndImages = []
   for (let i = 0; i < data.films.length; i++) {
-    for (let k = 0; k < data.films[i].title.length; k++)
-      for (let j = 0; j < data.films[i].people.length; j++) {
-        NameAndImages.push({name: `${data.films[i].people[j].name}`, img: `${data.films[i].people[j].img}`, specie:`${data.films[i].people[j].specie}`, title: `${data.films[i].title}`})
-      }
+    for (let j = 0; j < data.films[i].people.length; j++) {
+      NameAndImages.push({name: `${data.films[i].people[j].name}`, img: `${data.films[i].people[j].img}`, specie:`${data.films[i].people[j].specie}`, title: `${data.films[i].title}`})
+    }
   }
   return NameAndImages
 }
@@ -18,6 +17,7 @@ function getNamesAndImages() {
 const mostrarCardPai = document.querySelector(".mostrar-card-pai");
 
 const NamesAndImg = getNamesAndImages()
+console.log(NamesAndImg);
 
 function showPeople(NamesAndImg) {
   while (mostrarCardPai.firstChild) {
@@ -45,9 +45,6 @@ function showPeople(NamesAndImg) {
 
 showPeople(NamesAndImg)
 
-
-
-
 //Guarda o valor de todos os nomes e personagens dentro de um array
 const people = getPeople(data.films);
 //pegando os valores do select
@@ -58,6 +55,7 @@ generoEscolhido.addEventListener("change", (event) => {
   //Coloca o valor do evento do alvo e mostra passando pela função filter
   const filterByGenderPeople = filterByGender(people, gender);
   showPeople(filterByGenderPeople)
+  console.log(filterByGenderPeople)
 
   // usando calculo agregado
   const calculoAgregado = calculo(filterByGenderPeople.length, people.length);
@@ -105,13 +103,11 @@ especieEscolhida.addEventListener("change", (event) => {
 })
 
 
-//pegando os valores do input
+
 const nomeEscolhido = document.getElementById("inputNome")
 nomeEscolhido.addEventListener("input", (event) => {
   event.preventDefault();
-  //Pegou o valor do evento change do select
   const nameEscolhido = document.getElementById("nome").value;
-  //Coloca o valor do evento do alvo e mostra passando pela função filter
   const filterByNamePeople = filterByName(people, nameEscolhido);
   showPeople(filterByNamePeople)
 })
