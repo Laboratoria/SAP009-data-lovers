@@ -42,10 +42,9 @@ h1 {
 }
 
 h3 {
+    font-size: 50px;
     position: absolute;
-    bottom: 15px;
-    right: 50%;
-    transform: translateX(50%);
+    bottom: -5%;
 }
 
 main {
@@ -53,21 +52,24 @@ main {
     font-size: 54px;
     text-align: center;
     padding: 1% 15.625%;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
 }
 
 .champions-cards {
     gap: 75px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff98;
-    flex-wrap: wrap;
+    justify-content: right;
+    color: #ffffff;
 }
 
 section {
-    width: calc(33.3% - 150px);
-    position:relative;
+    width: 2%;
+    position: relative;
 }
 
-section img {
-    width: 75%;
+section .champions-img {
+    width: 300%;
+    flex-direction: column;
+
 }

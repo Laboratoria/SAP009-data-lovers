@@ -10,7 +10,11 @@
     <h1>Conhecendo os campeões</h1>
     <h2>Introdução</h2>
     </header>
-  <main class="champions-cards">
+  <main>
+    <h2>Lista de Campeões</h2>
+    <div id="list" class="show-champions"></div>
+  </main>
+  <span class="champions-cards">
     <section class="champions-img">
       <img src="./card-imgs/Assassinos.png" alt="assassin-img">
       <h3>Assassinos</h3>
@@ -35,8 +39,15 @@
       <img src="./card-imgs/Tanques.png" alt="tank-img">
       <h3>Tanques</h3>
     </section>
-  </main>
+  </span>
     <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
+
+  <div id = "modal" class="modal-container">
+    <div id="modal-box" class="modal-box">
+      <div id = "box-content"></div>
+      <button class="close">X</button>
+    </div>
+  </div>
 </html>
