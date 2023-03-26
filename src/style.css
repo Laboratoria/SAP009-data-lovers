@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Friz Quadrata";
+    font-weight: normal;
+    src: url("./fonts/Friz Quadrata Regular.ttf");
+}
+
+body {
+    height: 100vh; /*ocupar 100% da tela (viewport)*/
+    box-sizing: border-box; /*pro elemento filho se adequar ao tamanho do conteúdo do elemento pai*/
+    background-image: url(./card-imgs/BackGround.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1,h2 {
+    font-weight:bold;
+    text-align:center;
+    color: aliceblue;
+}
+h2{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+img{
+    width: 450px;
+    margin-left: 400px;
+   
+}
+
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+

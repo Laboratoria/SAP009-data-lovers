@@ -4,9 +4,39 @@
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
+    <header>
+    <img src="card-imgs/kisspng-league-of-legends-logo-video-games-brand-those-crazy-south-africans-7-15-14-5b7c8de557a9c0.3669266615348894453591.png" alt="logolol">
+    <h1>Conhecendo os campeões</h1>
+    <h2>É importante que você saiba quem são os mais poderosos ou os mais defensivos, para ser capaz de escolher o melhor grupo de campeões para uma partida que estará no seu time e lutar contra o inimigo. Escolha seu campeão e comece a jogar <a href="https://www.leagueoflegends.com/pt-br/how-to-play/" target="_blank">aqui</a>.</h2>
+    </header>
+    <main>
+    
+    <select class="dataButtons" id="selectChampion" >            
+      <option disabled selected value=""> Escolha seu campeão </option>
+      <option value="allchampions">Todos </option> 
+      <option value="Assassin">Assassinos </option>            
+      <option value="Mage"> Magos </option>            
+      <option value="Fighter">Lutadores</option> 
+      <option value="Marksman">Atiradores</option> 
+      <option value="Support">Suporte </option> 
+      <option value="Tank"> Tanque</option>
+    </select>
+
+    <select class="dataButtons" id="selectOrder">                  
+      <option disabled selected value=""> Escolha a ordem </option>              
+      <option value="a-z">A - Z</option>              
+      <option value="z-a">Z - A</option>            
+    </select>
+    
+
+    <footer></footer>
+    </main>
+
+  
   </body>
+
+ 
 </html>
