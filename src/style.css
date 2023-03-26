@@ -4,72 +4,34 @@
     src: url("./fonts/Friz Quadrata Regular.ttf");
 }
 
-@font-face {
-    font-family: "Friz Quadrata";
-    font-weight: bold;
-    src: url("./fonts/Friz Quadrata Bold.otf");
-}
-
-@font-face {
-    font-family: "Friz Quadrata";
-    font-style: italic;
-    src: url("./fonts/Friz Quadrata Italic.ttf");
-}
-
-* {
-    font-family: "Friz Quadrata";
-}
-
 body {
+    height: 100vh; /*ocupar 100% da tela (viewport)*/
+    box-sizing: border-box; /*pro elemento filho se adequar ao tamanho do conteúdo do elemento pai*/
     background-image: url(./card-imgs/BackGround.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-header {
-    color: antiquewhite;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    font-size: 60px;
+h1,h2 {
+    font-weight:bold;
+    text-align:center;
+    color: aliceblue;
+}
+h2{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+img{
+    width: 450px;
+    margin-left: 400px;
+   
 }
 
-h1 {
-    font-weight: bold;
+a{
+    text-decoration: none;
+    color:antiquewhite;
 }
 
-h3 {
-    font-size: 50px;
-    position: absolute;
-    bottom: -5%;
-}
 
-main {
-    display: flex;
-    font-size: 54px;
-    text-align: center;
-    padding: 1% 15.625%;
-    justify-content: center;
-    align-items: center;
-    color: antiquewhite;
-}
-
-.champions-cards {
-    gap: 75px;
-    justify-content: right;
-    color: #ffffff;
-}
-
-section {
-    width: 2%;
-    position: relative;
-}
-
-section .champions-img {
-    width: 300%;
-    flex-direction: column;
-
-}
