@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amatic+SC:wght@700&family=Berkshire+Swash&display=swap');
+
+.header-container {
+	display: flex;
+	background-color: #4B5A90;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.icone-header{
+	height: 100px;
+}
+
+  .titulo {
+font-family:'Amatic SC', cursive;
+font-size: 60px;
+color: #EABBDA;
+}
+  
+  body{
+	margin: 0;
+	padding: 0;
+}
