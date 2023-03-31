@@ -2,10 +2,13 @@
 
 .header-container {
 	display: flex;
-	background-color: #4B5A90;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4B5A90;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .icone-header{
 	height: 100px;
@@ -20,4 +23,7 @@ color: #EABBDA;
   body{
 	margin: 0;
 	padding: 0;
+}
+.background-body{
+background-image: url(backgound.png);
 }
