@@ -67,3 +67,39 @@ left: 0;
 right: 0;
 z-index: 3;
 }
+.selecao-genero{
+position: absolute;
+top: 500px;
+left: 250px;
+z-index: 2;
+}
+#genero{
+background-color: #E5E5E5;
+border-radius: 10px;
+font-family: 'Libre Baskerville', serif;
+}
+.selecao-coluna{
+	column-count: auto;
+}
+.selecao-especie{
+position: absolute;
+top: 500px;
+left: 500px;
+z-index: 2;
+}
+#especie{
+background-color: #E5E5E5;
+border-radius: 10px;
+font-family: 'Libre Baskerville', serif;
+}
+.selecao-filmes{
+position: absolute;
+top: 500px;
+left: 750px;
+z-index: 2;
+}
+#filmes{
+background-color: #E5E5E5;
+border-radius: 10px;
+font-family: 'Libre Baskerville', serif;
+}
