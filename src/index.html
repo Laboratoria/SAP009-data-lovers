@@ -15,74 +15,84 @@
       <img class="icone-header" src="icone-header.png" alt="Ícone">
       <h1 class="titulo"> Studio Ghibli </h1>
     </header>
-<div class="nuvem-body">
-  <img class="fundo" src="backgound.png" alt="Imagem de Fundo">
-  <img class="nuvem" src="imagem-paragrafo.png" alt="Nuvem">
-  <p class="texto"> Inventário de Personagens </p>
-</div>
+ <div class="nuvem-body">
+   <div class="flex-nuvem"><img class="fundo" src="backgound.png" alt="Imagem de Fundo">
+  <img class="nuvem" src="nuvem.png" alt="Nuvem">
+  <p class="texto"> Inventário de Personagens </p></div>
+ </div>
 <main>
-  <div class="selecao-genero">
-    <label for="genero" class="label-genero"> </label>
-    <select class="selecao-coluna" id="genero" name="genero">
+  <div class="opcoes">
+  <div class="flex-container">
+    <label for="genero"> </label>
+    <select class="selecao-genero" id="genero" name="genero">
       <option value="selecione"> Escolha uma opção </option>
       <option value="feminino"> Feminino </option>
       <option value="masculino"> Masculino </option>
     </select>
     </div>   
-    <div class="selecao-especie">
-      <label for="especie" class="label-especie"> </label>
-      <select class="selecao-coluna" id="especie" name="especie">
-        <option value="selecione"> Escolha uma opção </option>
-        <option value="Human"> Humano </option>
-        <option value="Totoro"> Totoro </option>
-        <option value="Cat"> Gato </option>
-        <option value="Witch"> Bruxa </option>
-        <option value="Raccoon Dog"> Guaxinim </option>
-        <option value="Red Elk"> Alce Vermelho </option>
-        <option value="Spirit"> Espírito </option>
-        <option value="Wolf"> Lobo </option>
-        <option value="Deity, Dragon"> Divindade, Dragão </option>
-        <option value="Spirit of The White Fox"> Espírito da Raposa Branca </option>
-        <option value="unknown"> Desconhecido </option>
-        <option value="Bird"> Pássaro </option>
-        <option value="Wizard"> Mago(a) </option>
-        <option value="Witch/Human"> Bruxo/Humano </option>
-        <option value="Demon"> Demônio </option>
-        <option value="Human/Scarecrow"> Humano/Espantalho </option>
-        <option value="Dog"> Cachorro </option>
-        <option value="Arch-mage/Human"> Arquimago/Humano </option>
-        <option value="Fish/Human"> Peixe/Humano </option>
-        <option value="Deity"> Divindade </option>
-        <option value="Borrower"> Mutuário </option>
+   <div class="flex-container">
+    <label for="especie"> </label>
+    <select class="selecao-especie" id="especie" name="especie">
+      <option value="selecione"> Escolha uma opção </option>
+      <option value="Human"> Humano </option>
+      <option value="Totoro"> Totoro </option>
+      <option value="Cat"> Gato </option>
+      <option value="Witch"> Bruxa </option>
+      <option value="Raccoon Dog"> Guaxinim </option>
+      <option value="Red Elk"> Alce Vermelho </option>
+      <option value="Spirit"> Espírito </option>
+      <option value="Wolf"> Lobo </option>
+      <option value="Deity, Dragon"> Divindade, Dragão </option>
+      <option value="Spirit of The White Fox"> Espírito da Raposa Branca </option>
+      <option value="unknown"> Desconhecido </option>
+      <option value="Bird"> Pássaro </option>
+      <option value="Wizard"> Mago(a) </option>
+      <option value="Witch/Human"> Bruxo/Humano </option>
+      <option value="Demon"> Demônio </option>
+      <option value="Human/Scarecrow"> Humano/Espantalho </option>
+      <option value="Dog"> Cachorro </option>
+      <option value="Arch-mage/Human"> Arquimago/Humano </option>
+      <option value="Fish/Human"> Peixe/Humano </option>
+      <option value="Deity"> Divindade </option>
+      <option value="Borrower"> Mutuário </option>
       </select>
-      </div>  
-      <div class="selecao-filmes">
-        <label for="filmes" class="label-filmes"> </label>
-        <select class="selecao-coluna" id="filmes" name="filmes">
-          <option value="selecione"> Escolha uma opção </option>
-          <option value="Castle in the Sky"> O Castelo no Céu </option>
-          <option value="My Neighbor Totoro"> Meu Amigo Totoro </option>
-          <option value="Kiki's Delivery Service"> O Serviço de Entregas da Kiki </option>
-          <option value="Grave of the Fireflies"> O Túmulo dos Vagalumes </option>
-          <option value="Only Yesterday"> Mémorias de Ontem </option>
-          <option value="Porco Rosso"> Porco Rosso </option>
-          <option value="Pom Poko"> Pom Poko </option>
-          <option value="Whisper of the Heart"> Sussuros do Coração </option>
-          <option value="Princess Mononoke"> Mononoke Hime </option>
-          <option value="My Neighbors the Yamadas"> Meus vizinhos, Os Yamadas </option>
-          <option value="Spirited Away"> A Viagem de Chihiro </option>
-          <option value="The Cat Returns"> O Reino dos Gatos </option>
-          <option value="Howl's Moving Castle"> O Castelo Animado </option>
-          <option value="Tales from Earthsea"> Contos de Terramar </option>
-          <option value="Ponyo on the Cliff by the Sea"> Ponyo: Uma Amizade que Veio do Mar </option>
-          <option value="Human/Scarecrow"> Humano/Espantalho </option>
-          <option value="The Secret World of Arrietty"> O Mundo dos Pequeninos </option>
-          <option value="From Up on Poppy Hill"> Da Colina Kokuriko </option>
-          <option value="The Wind Rises"> Vidas ao Vento </option>
-          <option value="The Tale of the Princess Kaguya"> O Conto da Princesa Kaguya </option>
-          <option value="When Marnie Was There"> As Mémorias de Marnie </option>
-        </select>
-        </div>  
+    </div>  
+    <div class="flex-container">
+    <label for="filmes" > </label>
+    <select class="selecao-filmes" id="filmes" name="filmes">
+      <option value="selecione"> Escolha uma opção </option>
+      <option value="Castle in the Sky"> O Castelo no Céu </option>
+      <option value="My Neighbor Totoro"> Meu Amigo Totoro </option>
+      <option value="Kiki's Delivery Service"> O Serviço de Entregas da Kiki </option>
+      <option value="Grave of the Fireflies"> O Túmulo dos Vagalumes </option>
+      <option value="Only Yesterday"> Mémorias de Ontem </option>
+      <option value="Porco Rosso"> Porco Rosso </option>
+      <option value="Pom Poko"> Pom Poko </option>
+      <option value="Whisper of the Heart"> Sussuros do Coração </option>
+      <option value="Princess Mononoke"> Mononoke Hime </option>
+      <option value="My Neighbors the Yamadas"> Meus vizinhos, Os Yamadas </option>
+      <option value="Spirited Away"> A Viagem de Chihiro </option>
+      <option value="The Cat Returns"> O Reino dos Gatos </option>
+      <option value="Howl's Moving Castle"> O Castelo Animado </option>
+      <option value="Tales from Earthsea"> Contos de Terramar </option>
+      <option value="Ponyo on the Cliff by the Sea"> Ponyo: Uma Amizade que Veio do Mar </option>
+      <option value="Human/Scarecrow"> Humano/Espantalho </option>
+      <option value="The Secret World of Arrietty"> O Mundo dos Pequeninos </option>
+      <option value="From Up on Poppy Hill"> Da Colina Kokuriko </option>
+      <option value="The Wind Rises"> Vidas ao Vento </option>
+      <option value="The Tale of the Princess Kaguya"> O Conto da Princesa Kaguya </option>
+      <option value="When Marnie Was There"> As Mémorias de Marnie </option>
+    </select>
+    </div>  
+    <div class="flex-container">
+    <label for="ordem"> </label>
+    <select class="selecao-ordenacao" id="ordem" name="ordem">
+      <option value="selecione"> Escolha uma opção </option>
+      <option value="A-Z"> A-Z </option>
+      <option value="Z-A"> Z-A </option>
+    </select>
+    </div>   
+  </div>
 </main>
 
   <footer>
