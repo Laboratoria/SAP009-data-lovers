@@ -44,61 +44,59 @@ background-position: center;
 position: relative;
 }
 .nuvem {
-background-image: url(imagem-paragrafo.png);
+background-image: url(nuvem.png);
 background-repeat: no-repeat;
 background-size: contain;
 position: absolute;
-top: -300px;
+top: -200px;
 left: 5px;
 right: 0;
 bottom: 0;
 margin: auto;
 object-fit: cover;
 z-index: 2;
+width: 70%;
+height: auto;
 }
-.nuvem-body .texto {
+.texto {
 font-family: 'Inconsolata', monospace;
 color: #8FADE7;
 font-size: 30px;
 text-align: center;
-position: absolute;
-margin-top: -280px;
-left: 0;
-right: 0;
+position:fixed;
 z-index: 3;
 }
-.selecao-genero{
-position: absolute;
-top: 500px;
-left: 250px;
+.opcoes{
+padding: 50px;
+max-width: 90%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+}
+.flex-container{
 z-index: 2;
+padding: 20px;
+height: 500px;
+margin-top: 600px;
 }
 #genero{
 background-color: #E5E5E5;
 border-radius: 10px;
 font-family: 'Libre Baskerville', serif;
 }
-.selecao-coluna{
-	column-count: auto;
-}
-.selecao-especie{
-position: absolute;
-top: 500px;
-left: 500px;
-z-index: 2;
-}
 #especie{
 background-color: #E5E5E5;
 border-radius: 10px;
 font-family: 'Libre Baskerville', serif;
 }
-.selecao-filmes{
-position: absolute;
-top: 500px;
-left: 750px;
-z-index: 2;
-}
 #filmes{
+background-color: #E5E5E5;
+border-radius: 10px;
+font-family: 'Libre Baskerville', serif;
+}
+#ordem{
 background-color: #E5E5E5;
 border-radius: 10px;
 font-family: 'Libre Baskerville', serif;
