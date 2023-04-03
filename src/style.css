@@ -1,73 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Julius+Sans+One&family=Libre+Baskerville&display=swap');
-
 .header-container {
 display: flex;
- position: fixed;
-top: 0;
-left: 0;
+position: fixed;
 background-color: #4B5A90;
 width: 100%;
 justify-content:center;
 align-items: center;
-z-index: 1;
+height: 100px;
 }
 .icone-header {
 height: 100px;
 }
-
 .titulo {
 font-family:'Julius Sans One', sans-serif;
 font-size: 50px;
 color: #EABBDA;
 border-left: 10px;
-}
-  
+} 
+/* .fundo{
+min-height: 100vh;
+max-height: 100vh;
+width: 100%;
+background-image: url(backgound.png);
+background-size:cover;
+background-position: center center;
+padding-top: 100px;
+background-repeat: no-repeat; */
+
 body{
+min-height: 100vh;
 margin: 0;
 padding: 0;
 }
 .nuvem-body{
 display: flex;
-flex-direction: column;
 justify-content: center;
-align-items: center;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-}
-.fundo {
-background-image: url(backgound.png);
-background-size: cover;
-background-position: center;
-position: relative;
 }
 .nuvem {
 background-image: url(nuvem.png);
-background-repeat: no-repeat;
 background-size: contain;
-position: absolute;
-top: -200px;
-left: 5px;
-right: 0;
-bottom: 0;
-margin: auto;
-object-fit: cover;
-z-index: 2;
-width: 70%;
+width: 700px;
 height: auto;
+align-content: center;
+position: absolute;
 }
 .texto {
 font-family: 'Inconsolata', monospace;
 color: #8FADE7;
 font-size: 30px;
 text-align: center;
-position:fixed;
-z-index: 3;
+margin-top: 215px;
+margin-left: 770px;
+position:absolute;
+}
+.flex-body{
+position:absolute;
+flex-direction: row;
+margin-top: 400px;
+padding: 10px;
+margin-left: 450px;
+background-color: rgba(255, 228, 196, 0.388);
+border-radius: 80px;
+border-style: double;
+border-color:rgb(255, 224, 185);
 }
 .opcoes{
-padding: 50px;
+padding: 25px;
 max-width: 90%;
 display: flex;
 flex-direction: row;
@@ -76,10 +74,9 @@ align-items: center;
 gap: 20px;
 }
 .flex-container{
-z-index: 2;
-padding: 20px;
-height: 500px;
-margin-top: 600px;
+display: flex;
+z-index: 3;
+
 }
 #genero{
 background-color: #E5E5E5;
@@ -100,4 +97,21 @@ font-family: 'Libre Baskerville', serif;
 background-color: #E5E5E5;
 border-radius: 10px;
 font-family: 'Libre Baskerville', serif;
+}
+.flex-cards{
+display: flex;
+justify-content: space-around;
+position: absolute;
+}
+.card{
+width: 200px;
+height: 300px;
+margin-top: 670px;
+margin-left: 200px;
+margin-bottom: 20px;
+background-color: rgba(250, 237, 222, 0.334);
+border-radius: 30px;
+border-style: double;
+border-color: rgb(255, 224, 185);
+justify-content: space-around;
 }
