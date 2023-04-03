@@ -10,17 +10,20 @@
     <script src="data.js"></script>
   </head>
 
-  <body>
-    <header class="header-container">
+  <body style="background: url(backgound.png);">
+    <header><div class="header-container">
       <img class="icone-header" src="icone-header.png" alt="Ícone">
       <h1 class="titulo"> Studio Ghibli </h1>
+      </div>
     </header>
- <div class="nuvem-body">
-   <div class="flex-nuvem"><img class="fundo" src="backgound.png" alt="Imagem de Fundo">
-  <img class="nuvem" src="nuvem.png" alt="Nuvem">
-  <p class="texto"> Inventário de Personagens </p></div>
- </div>
-<main>
+    
+<div class="fundo">
+<div class="nuvem-body">
+<img class="nuvem" src="nuvem.png" alt="Nuvem">
+</div>
+<div class="texto"> Inventário de Personagens</div>
+
+<main class="flex-body">
   <div class="opcoes">
   <div class="flex-container">
     <label for="genero"> </label>
@@ -92,12 +95,17 @@
       <option value="Z-A"> Z-A </option>
     </select>
     </div>   
-  </div>
 </main>
-
+<div class="flex-cards">
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+</div>
   <footer>
   </footer>
-
+</div>
+</div>
    </body>
 </html>
 
