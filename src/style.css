@@ -1,0 +1,128 @@
+body { background-color: #F6861E;
+       }
+
+h1 { color: #D9DD1B;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4789C7;
+     position: relative;
+     font-size: 110px;
+     margin-top: 0px;
+     padding: 0px;
+     line-height:1.6;
+     }
+
+h2 {font-size: 30px;
+    margin-top: 0px;
+    padding: 0px;
+    line-height:1.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}    
+
+a{ text-decoration: none;
+    color:#4789C7;
+    background-color: #D9DD1B;
+    text-decoration: none;
+      
+
+}
+
+.pikachu{
+    max-width:200%;
+    max-height:150%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}     
+
+.pokebola{
+    max-width:200%;
+    max-height:150%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 75px;
+    right: 320px;
+}
+
+#btn1{
+    background-color: #fcfcfc;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    color: #000000;
+    font-size:-5px;
+    font-weight: 50px;    
+    margin: 10px;
+    padding: 0.8em 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#btn2{
+    background-color: #fcfcfc;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    color: #000000;
+    font-size:-5px;
+    font-weight: 50px;    
+    margin: 10px;
+    padding: 0.8em 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Name{ 
+    background-color: #ffffff;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    
+    padding: 0.3em 0.5em;
+    margin: 30px;
+    width: 300px;
+
+}
+
+#Filtrar{
+    background-color: #ffffff;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3em 0.5em;
+}
+
+#Ordenar{
+    background-color: #ffffff;
+    border: 2px solid #f70606;
+    border-radius: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3em 0.5em;
+
+}
+
+#cards{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    
+}
+
+.card { 
+    
+    background-color: #4789C7;
+    border: 2px solid #D9DD1B;
+    border-radius: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    flex-direction:column;
+    display: inline-block;
+    height: 310px;
+    margin: 30px;
+    width: 200px;
+
+}
+
+
+
