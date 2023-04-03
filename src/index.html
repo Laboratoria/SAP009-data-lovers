@@ -19,6 +19,12 @@
   </head>
   <body>
        <h1>POKÉMON</h1>
+       <h2>Sobre o jogo:</h2>
+
+       <h3>Pokémon GO é um popular jogo de realidade aumentada com o objetivo de os jogadores usarem configurações baseadas em localização GPS para capturar e treinar personagens Pokémon. 
+        Conforme você se move, diferentes tipos de Pokémon aparecem, dependendo de onde você está e que horas são.</h3>
+        <h4>Para acessar ao site 
+        <a href="https://pokemongolive.com/?hl=pt_BR">CLIQUE AQUI.</a></h4>
                        
        <div class= "pikachu">
         <img src="Pikachu-Pokemon-No-Background-Clip-Art.png" width="120" height="120" />
@@ -30,22 +36,35 @@
       
               
         <select name="categorias" id="Filtrar">
-        <option value="tipo">Tipo</option>
-        <option value="geração">Geração</option>
+        <option value="grass">Grass</option>
+        <option value="fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="bug">Bug</option>
+        <option value="normal">Normal</option>
+        <option value="poison">Poison</option>
+        <option value="electric">Electric</option>
+        <option value="ground">Ground</option>
+        <option value="fighting">Fighting</option>
+        <option value="psychic">Psychic</option>
+        <option value="rock">Rock</option>
+        <option value="ice">Ice</option>
+        <option value="dragon">Dragon</option>
+        <option value="fairy">Fairy</option>
+        <option value="dark">Dark</option>
+        <option value="ghost">Ghost</option>
         </select>
-        <button id="btn1">Filtrar</button>
        
+        <input id="Name" class="Name" placeholder="Ex: Pikachu">
       
       <select name="Ordenar" id="Ordenar">
        <option value="A-Z" >A-Z</option>
        <option value="Z-A">Z-A</option>
       </select>
-      <button id="btn2">Ordenar</button>
+   
 
-      
+      <div id="cards"></div>
+
      
-
-        <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
 </html>
