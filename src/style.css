@@ -1,117 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Julius+Sans+One&family=Libre+Baskerville&display=swap');
+
+
 .header-container {
-display: flex;
-position: fixed;
-background-color: #4B5A90;
-width: 100%;
-justify-content:center;
-align-items: center;
-height: 100px;
+    display: flex;
+    position: fixed;
+    background-color: #4B5A90;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
+
 .icone-header {
-height: 100px;
+    height: 100px;
 }
+
 .titulo {
-font-family:'Julius Sans One', sans-serif;
-font-size: 50px;
-color: #EABBDA;
-border-left: 10px;
-} 
-/* .fundo{
-min-height: 100vh;
-max-height: 100vh;
-width: 100%;
-background-image: url(backgound.png);
-background-size:cover;
-background-position: center center;
-padding-top: 100px;
-background-repeat: no-repeat; */
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    color: #EABBDA;
+    border-left: 10px;
+}
 
-body{
-min-height: 100vh;
-margin: 0;
-padding: 0;
+.fundo {
+
+    background: rgb(75,90,144);
+    background-image: linear-gradient(to bottom,rgba(75,90,144,1) 9%, rgba(96,114,176,0.9041667692467612) 26%, rgba(111,131,203,0.8761555647649685) 36%, rgb(118 139 213 / 88%) 40%, rgba(131,152,226,0.758508505941439) 44%, rgb(138 163 242 / 74%) 50%, rgb(138 134 224) 52%, rgb(163 151 255 / 72%) 54%, rgb(138 134 224) 56%, rgb(191 161 241 / 76%) 59%, rgb(194 158 240 / 90%) 62%, rgb(194 158 240 / 94%) 64%, rgb(194 158 240) 66%, rgb(194 158 240) 70%, rgb(194 158 240) 73%, rgb(221 169 234) 82%, rgba(225,170,239,1) 94%, rgba(229,169,235,1) 98%, rgba(231,169,234,1) 100%, rgba(236,168,229,1) 100%);
+    height: 100vh;
+	width: 100%;
+    background-attachment: fixed; 
 }
-.nuvem-body{
-display: flex;
-justify-content: center;
+
+.nuvem-body {
+    display: flex;
+    justify-content: center;
 }
+
 .nuvem {
-background-image: url(nuvem.png);
-background-size: contain;
-width: 700px;
-height: auto;
-align-content: center;
-position: absolute;
+    background-image: url(nuvem.png);
+    background-size: contain;
+    width: 700px;
+    height: auto;
+    align-content: center;
+    position: fixed;
 }
-.texto {
-font-family: 'Inconsolata', monospace;
-color: #8FADE7;
-font-size: 30px;
-text-align: center;
-margin-top: 215px;
-margin-left: 770px;
-position:absolute;
-}
-.flex-body{
-position:absolute;
-flex-direction: row;
-margin-top: 400px;
-padding: 10px;
-margin-left: 450px;
-background-color: rgba(255, 228, 196, 0.388);
-border-radius: 80px;
-border-style: double;
-border-color:rgb(255, 224, 185);
-}
-.opcoes{
-padding: 25px;
-max-width: 90%;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-gap: 20px;
-}
-.flex-container{
-display: flex;
-z-index: 3;
 
+.texto {
+    font-family: 'Inconsolata', monospace;
+    color: #8FADE7;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 215px;
+    margin-left: 770px;
+    position: fixed;
 }
-#genero{
-background-color: #E5E5E5;
-border-radius: 10px;
-font-family: 'Libre Baskerville', serif;
+
+.flex-body {
+    position: absolute;
+    margin-top: 400px;
+    padding: 10px;
+    margin-left: 520px;
+    background-color: rgba(255, 228, 196, 0.388);
+    border-radius: 80px;
+    border-style: double;
+    border-color: rgb(255, 224, 185);
 }
-#especie{
-background-color: #E5E5E5;
-border-radius: 10px;
-font-family: 'Libre Baskerville', serif;
+
+.opcoes {
+    padding: 25px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
-#filmes{
-background-color: #E5E5E5;
-border-radius: 10px;
-font-family: 'Libre Baskerville', serif;
+
+.flex-selects {
+    display: flex;
+    z-index: 3;
 }
-#ordem{
-background-color: #E5E5E5;
-border-radius: 10px;
-font-family: 'Libre Baskerville', serif;
+
+#genero {
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
 }
-.flex-cards{
-display: flex;
-justify-content: space-around;
-position: absolute;
+
+#especie {
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
 }
-.card{
-width: 200px;
-height: 300px;
-margin-top: 670px;
-margin-left: 200px;
-margin-bottom: 20px;
-background-color: rgba(250, 237, 222, 0.334);
-border-radius: 30px;
-border-style: double;
-border-color: rgb(255, 224, 185);
-justify-content: space-around;
+
+#filmes {
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#ordem {
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.background-cards {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    margin-top: 670px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    background-color: rgba(250, 237, 222, 0.334);
+    border-radius: 30px;
+    border-style: double;
+    border-color: rgb(255, 224, 185);
+    justify-content: space-around;
 }
