@@ -1,33 +1,42 @@
 
-import { filtrarPorNome } from './data.js';
+import { filtrarPorFuncao } from './data.js';
 import data from './data/lol/lol.js';
 
 const printarCards = document.getElementById('printarCards')
 const selectChampion = document.getElementById('selectChampion'); //pegar o select do HTML pelo id 
+const allChampions = data.data;
+const arrayAllChampions = Object.values(allChampions)
 //const selectOrder = document.getElementById('selectOrder');
 
 console.log(printarCards)
 
-criarCards()
+criarCards(arrayAllChampions)
 selectChampion.addEventListener("change", ()=> {  
-  const selecionar = selectChampion.value //pegou o valor que o usuario selecionou 
-  criarCards(); //criar uma função que pegue esse valor e print na tela
-  return selecionar
+  const funcao = selectChampion.value //pegou o valor que o usuario selecionou 
+  console.log(filtrarPorFuncao(arrayAllChampions,funcao))
+  const arrayFiltrado = filtrarPorFuncao(arrayAllChampions,funcao)
+  criarCards(arrayFiltrado); //criar uma função que pegue esse valor e print na tela
+  return funcao
 });
 
-function criarCards(){  //função que pega os dados e cria o card quando o usuario seleciona
-  const allChampions = data.data 
-
-  for (const champion in allChampions) {
-    const photo = allChampions[champion].splash;
-    const name = allChampions[champion].name;
-    const attack = allChampions[champion].info.attack;
+function criarCards(array){  //função que pega os dados e cria o card quando o usuario seleciona
+  printarCards.innerHTML = "" //limpar todo conteudo antes de aparecer os itens filtrados
+  for (const champion in array) {
+    const photo = array[champion].splash;
+    const name = array[champion].name;
+    const attack = array[champion].info.attack;
+    const defense = array[champion].info.defense;
     const template=(`<section class="cards">
-    <div class='imagem'><img src = '${photo}'></div>
-    <div class='texto'><p>${name}</p><p>Ataque: ${attack}</p>
+    <img src = '${photo}'>
+    <div class='texto'><p>${name}</p><details><summary>info:</summary><p>Ataque:${attack}</p><p>Defesa:${defense}</p></details>
     </div></section>`)
     printarCards.innerHTML += template;
   }
   
 }
 
+/* Adicionar o evento de change no select de ordenação 
+puxar o valor selecionado 
+passar o array e o tipo de ordenação pra função de ordenação 
+criar a função de ordenação no data.js com os paramentros de array e tipos de ordenação 
+usar o sort pra fazer a ordenação */
