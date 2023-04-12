@@ -1,23 +1,27 @@
-import { example, anotherExample } from '../src/data.js';
+import { filtrarPorFuncao } from "../src/data.js";
 
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
+const exampleChampions = [
+  {
+    name: "Aatrox",
+    tags: "Fighter",
+  },
+  {
+    name: "Fiora",
+    tags:"Assassin",
+  },
+  {
+    name: "Rumble",
+    tags:  "Mage",
+  }
+]
+
+describe("filtrarPorFuncao", () => {
+  it("is a function", () => {
+    expect(typeof filtrarPorFuncao).toBe("function");
   });
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
-
-
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it("must filter by role of champion", () => {
+    expect(filtrarPorFuncao(exampleChampions,"Mage")).toStrictEqual([exampleChampions[2]]);
   });
 });
