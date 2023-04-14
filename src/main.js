@@ -1,5 +1,5 @@
 
-import { filtrarPorFuncao, ordenacao, ordenacaoZa } from './data.js';
+import { filtrarPorFuncao, ordenacaoAz, ordenacaoZa } from './data.js';
 import data from './data/lol/lol.js';
 
 const printarCards = document.getElementById('printarCards');
@@ -20,7 +20,7 @@ selectOrder.addEventListener("change", ()=> {
   const ordenar = selectOrder.value 
   let arrayFiltrado;
   if (selectOrder.value === 'a-z') { 
-    arrayFiltrado = ordenacao(arrayAllChampions,ordenar);
+    arrayFiltrado = ordenacaoAz(arrayAllChampions,ordenar);
   } else {
     arrayFiltrado = ordenacaoZa(arrayAllChampions,ordenar); 
   }

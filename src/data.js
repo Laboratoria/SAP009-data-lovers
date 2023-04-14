@@ -4,13 +4,15 @@ export const filtrarPorFuncao = (arrayAllChampions,funcao) => {
 };
 
 
-export const ordenacao = (arrayAllChampions) => {
-  return arrayAllChampions.sort((a, b) => {
+export const ordenacaoAz = (arrayAllChampions) => {
+  return [
+    ...arrayAllChampions.map( x => ({...x}))].sort((a, b) => { //recriar um array pra ser ordenado 
     return a.name < b.name ? -1 : 1; 
   });
 };
 
+
 export const ordenacaoZa = (arrayAllChampions) => {
-  return ordenacao(arrayAllChampions).reverse()
+  return ordenacaoAz(arrayAllChampions).reverse()
 }
 
