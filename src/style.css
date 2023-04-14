@@ -3,25 +3,39 @@
 
 .header-container {
     display: flex;
-    position: fixed;
+    position:fixed;
     background-color: #4B5A90;
     width: 100%;
-    justify-content: center;
-    align-items: center;
     height: 100px;
+    justify-content:space-around;
+    z-index: 4;
+    margin-top: -2vh;
 }
 
 .icone-header {
-    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    height: 10vh;
+    margin-top: 0.75vh;
 }
 
 .titulo {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 50px;
     color: #EABBDA;
-    border-left: 10px;
 }
 
+.link-netflix{
+    width: 20vh;
+    height: 5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(69, 116, 174);
+    font-size: 2vh;
+    background-color: #EABBDA;
+    border: none;
+    border-radius: 15px;
+    margin-top: 3vh;
+}
 .fundo {
 
     background: rgb(75,90,144);
@@ -39,20 +53,22 @@
 .nuvem {
     background-image: url(nuvem.png);
     background-size: contain;
-    width: 700px;
-    height: auto;
+    width: 110vh;
     align-content: center;
     position: fixed;
 }
 
 .texto {
-    font-family: 'Inconsolata', monospace;
-    color: #8FADE7;
-    font-size: 30px;
+    font-family:cursive;
+    color:rgb(179, 108, 171);
+    font-size: 4vh;
     text-align: center;
-    margin-top: 215px;
-    margin-left: 770px;
-    position: fixed;
+    margin-top: 15vh;
+    margin-left: 75vh; 
+    position: absolute;
+    background-color: rgba(255, 228, 196, 0.563);
+    border-radius: 25px;
+    border-style: double;
 }
 
 .flex-body {
@@ -108,19 +124,19 @@
 .background-cards {
     display: flex;
     justify-content: space-around;
-    position: absolute;
+    position: relative;
     flex-wrap: wrap;
+    margin-top: 60vh;
+     
 }
 
 .card {
     width: 200px;
     height: 300px;
-    margin-top: 670px;
-    margin-left: 200px;
-    margin-bottom: 20px;
     background-color: rgba(250, 237, 222, 0.334);
     border-radius: 30px;
     border-style: double;
     border-color: rgb(255, 224, 185);
-    justify-content: space-around;
+    margin: 2vh;
+
 }
