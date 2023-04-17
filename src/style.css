@@ -45,10 +45,10 @@
     background-attachment: fixed; 
 }
 
-.nuvem-body {
+/* .nuvem-body {
     display: flex;
     justify-content: center;
-}
+} */
 
 .nuvem {
     background-image: url(nuvem.png);
@@ -75,11 +75,13 @@
     position: absolute;
     margin-top: 400px;
     padding: 10px;
-    margin-left: 520px;
+    margin-right: 50px;
     background-color: rgba(255, 228, 196, 0.388);
     border-radius: 80px;
     border-style: double;
     border-color: rgb(255, 224, 185);
+    justify-content: center;
+   
 }
 
 .opcoes {
@@ -90,11 +92,12 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+
 }
 
 .flex-selects {
     display: flex;
-    z-index: 3;
+   
 }
 
 #genero {
@@ -121,13 +124,10 @@
     font-family: 'Libre Baskerville', serif;
 }
 
-.background-cards {
+#listaPersonagem {
     display: flex;
-    justify-content: space-around;
-    position: relative;
-    flex-wrap: wrap;
-    margin-top: 60vh;
-     
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .card {
@@ -138,5 +138,9 @@
     border-style: double;
     border-color: rgb(255, 224, 185);
     margin: 2vh;
-
 }
+.imgPers{
+   width: 180px;
+   height: 280px;
+}
+
