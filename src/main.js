@@ -1,8 +1,16 @@
 
-// import data from './data/ghibli/ghibli.js';
+import data from './ghibli.js';
 
-const title = document.getElementsByTagName('h1');
-console.log(title);
+const listaPersonagem = document.getElementById('listaPersonagem');
 
-const css = document.querySelector('.nuvem-body');
-console.log(css);
+const filmes = data.films;
+const personagens = [];
+
+filmes.forEach(filmes => {
+  filmes.people.forEach(personagem => {
+    personagens.push(personagem);
+    const imagemCard = personagem.img;
+    const template = `<div class="card"> <img class="imgPers" src= "${imagemCard}"></div>`;
+    listaPersonagem.innerHTML += template;
+  })
+})
