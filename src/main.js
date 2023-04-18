@@ -1,4 +1,3 @@
-
 import data from './ghibli.js';
 
 const listaPersonagem = document.getElementById('listaPersonagem');
@@ -14,3 +13,4 @@ filmes.forEach(filmes => {
     listaPersonagem.innerHTML += template;
   })
 })
+

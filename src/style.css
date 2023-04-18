@@ -1,146 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Julius+Sans+One&family=Libre+Baskerville&display=swap');
 
+.fundo {
+    background: hsla(175, 32%, 40%, 1);
+    background: linear-gradient(180deg, hsla(175, 32%, 40%, 1) 0%, hsla(175, 30%, 47%, 1) 17%, hsla(175, 30%, 47%, 1) 32%, hsla(128, 15%, 70%, 1) 55%, hsla(38, 60%, 77%, 1) 100%);
+    height: 100vh; 
+}
 
 .header-container {
     display: flex;
-    position:fixed;
-    background-color: #4B5A90;
+    position: fixed;
+    top: 0;
+    right: 0rem;
+    background-color: rgb(76, 140, 135);
     width: 100%;
     height: 100px;
-    justify-content:space-around;
-    z-index: 4;
-    margin-top: -2vh;
-}
+    justify-content: space-around;
+    z-index: 999; /* valor alto para garantir que esteja sempre sobreposto */
+  }
+  
 
-.icone-header {
+  .icone-header {
     display: flex;
-    align-items: flex-start;
-    height: 10vh;
-    margin-top: 0.75vh;
-}
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    align-items: flex-start; 
+  }
+  
 
 .titulo {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 50px;
-    color: #EABBDA;
+    font-size: 3rem;
+    color: #f3e9d8;
+    align-self: center;
 }
 
-.link-netflix{
-    width: 20vh;
-    height: 5vh;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(69, 116, 174);
-    font-size: 2vh;
-    background-color: #EABBDA;
+.link-netflix {
+    width: 13rem; 
+    height: 4rem; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#386858;
+    font-size: 1.6rem;
+    background-color: #f3e9d8;
     border: none;
-    border-radius: 15px;
-    margin-top: 3vh;
-}
-.fundo {
+    border-radius: 1.5rem; 
+    margin-top: 2vh;
+    transition: background-color 0.3s ease; 
+  }
+  a{
+    color: #386858;
+  }
+  
+.link-netflix:hover {
+    background-color:#E0C18A; 
+  }
 
-    background: rgb(75,90,144);
-    background-image: linear-gradient(to bottom,rgba(75,90,144,1) 9%, rgba(96,114,176,0.9041667692467612) 26%, rgba(111,131,203,0.8761555647649685) 36%, rgb(118 139 213 / 88%) 40%, rgba(131,152,226,0.758508505941439) 44%, rgb(138 163 242 / 74%) 50%, rgb(138 134 224) 52%, rgb(163 151 255 / 72%) 54%, rgb(138 134 224) 56%, rgb(191 161 241 / 76%) 59%, rgb(194 158 240 / 90%) 62%, rgb(194 158 240 / 94%) 64%, rgb(194 158 240) 66%, rgb(194 158 240) 70%, rgb(194 158 240) 73%, rgb(221 169 234) 82%, rgba(225,170,239,1) 94%, rgba(229,169,235,1) 98%, rgba(231,169,234,1) 100%, rgba(236,168,229,1) 100%);
-    height: 100vh;
-	width: 100%;
-    background-attachment: fixed; 
+body{
+    margin: 0;
+    padding: 0;
 }
 
-/* .nuvem-body {
+main {
     display: flex;
-    justify-content: center;
-} */
-
-.nuvem {
-    background-image: url(nuvem.png);
-    background-size: contain;
-    width: 110vh;
-    align-content: center;
-    position: fixed;
-}
-
-.texto {
-    font-family:cursive;
-    color:rgb(179, 108, 171);
-    font-size: 4vh;
-    text-align: center;
-    margin-top: 15vh;
-    margin-left: 75vh; 
-    position: absolute;
-    background-color: rgba(255, 228, 196, 0.563);
-    border-radius: 25px;
-    border-style: double;
-}
-
-.flex-body {
-    position: absolute;
-    margin-top: 400px;
-    padding: 10px;
-    margin-right: 50px;
-    background-color: rgba(255, 228, 196, 0.388);
-    border-radius: 80px;
-    border-style: double;
-    border-color: rgb(255, 224, 185);
-    justify-content: center;
-   
-}
-
-.opcoes {
-    padding: 25px;
-    max-width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
-
+    height: 100vh;
+    width: 85rem;
+    margin: 0 auto; 
+    background-color:rgba(76, 140, 135, 0.019);
 }
 
-.flex-selects {
+.texto{
+    margin-top: 12rem;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 5rem;
+    color: #f3e9d8;
+    text-align: center;
+}
+.flex-select{
     display: flex;
-   
+    align-items: center;
+    align-content: center;  
+    width: -10rem;
 }
-
-#genero {
-    background-color: #E5E5E5;
-    border-radius: 10px;
-    font-family: 'Libre Baskerville', serif;
-}
-
-#especie {
-    background-color: #E5E5E5;
-    border-radius: 10px;
-    font-family: 'Libre Baskerville', serif;
-}
-
-#filmes {
-    background-color: #E5E5E5;
-    border-radius: 10px;
-    font-family: 'Libre Baskerville', serif;
-}
-
-#ordem {
-    background-color: #E5E5E5;
-    border-radius: 10px;
-    font-family: 'Libre Baskerville', serif;
-}
-
-#listaPersonagem {
+.select-wrapper{
     display: flex;
-    flex-flow: row wrap;
+    width: 35rem;
+}
+
+.selecao-genero, .selecao-especie, .selecao-filmes {
+    background-color: #f3e9d8;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    margin: 2rem;
+
+}
+.selecao-ordenacao{
+    background-color: #f3e9d8;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    margin: -15rem;
+    margin-bottom: -9.5rem;
+}
+ 
+#listaPersonagem { 
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-}
+    overflow-y: auto;
+} 
 
 .card {
+    display: flex;
     width: 200px;
     height: 300px;
-    background-color: rgba(250, 237, 222, 0.334);
+    background-color: #f3e9d821;
     border-radius: 30px;
     border-style: double;
-    border-color: rgb(255, 224, 185);
+    border-color: #f3e9d8;
     margin: 2vh;
 }
 .imgPers{
-   width: 180px;
-   height: 280px;
+   align-items: center;
+   padding: 0.8rem;
+   width: 170px;
+   height: 270px;
 }
 
