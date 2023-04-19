@@ -26,21 +26,21 @@
   <!-- ----------- selects-------  -->
 
 
-  <main class="flex-body">
+  <main>
     <p class="texto"> Inventário de Personagens</p>
-    <div class="flex-select">
-      <div class="select-wrapper"
+    
+    <section class="forms">
       <label for="genero"></label>
       <select placeholder="Selecione o gênero" class="selecao-genero" id="genero">
-        <option value="selecione"> Selecione o gênero </option>
-        <option value="feminino"> Feminino </option>
-        <option value="masculino"> Masculino </option>
+        <option selected disabled value=""> Selecione o gênero </option>
+        <option value="Female"> ♀️ Feminino </option>
+        <option value="Male"> ♂️ Masculino </option>
       </select>
-    </div>
-    <div class="flex-select">
+    
+    
       <label for="especie"> </label>
-      <select placeholder="Selecione a especie" class="selecao-especie" id="especie">
-        <option value="selecione"> Selecione a especie </option>
+      <select placeholder="Selecione a espécie" class="selecao-especie" id="especie">
+        <option selected disabled value=""> Selecione a espécie </option>
         <option value="Human"> Humano </option>
         <option value="Totoro"> Totoro </option>
         <option value="Cat"> Gato </option>
@@ -63,48 +63,13 @@
         <option value="Deity"> Divindade </option>
         <option value="Borrower"> Mutuário </option>
       </select>
-    </div>
-    <div class="flex-select">
-      <label for="filmes"> </label>
-      <select placeholder="Selecione o filme" class="selecao-filmes" id="filmes" name="filmes">
-        <option value="selecione"> Selecione o filme </option>
-        <option value="Castle in the Sky"> O Castelo no Céu </option>
-        <option value="My Neighbor Totoro"> Meu Amigo Totoro </option>
-        <option value="Kiki's Delivery Service"> O Serviço de Entregas da Kiki </option>
-        <option value="Grave of the Fireflies"> O Túmulo dos Vagalumes </option>
-        <option value="Only Yesterday"> Mémorias de Ontem </option>
-        <option value="Porco Rosso"> Porco Rosso </option>
-        <option value="Pom Poko"> Pom Poko </option>
-        <option value="Whisper of the Heart"> Sussuros do Coração </option>
-        <option value="Princess Mononoke"> Mononoke Hime </option>
-        <option value="My Neighbors the Yamadas"> Meus vizinhos, Os Yamadas </option>
-        <option value="Spirited Away"> A Viagem de Chihiro </option>
-        <option value="The Cat Returns"> O Reino dos Gatos </option>
-        <option value="Howl's Moving Castle"> O Castelo Animado </option>
-        <option value="Tales from Earthsea"> Contos de Terramar </option>
-        <option value="Ponyo on the Cliff by the Sea"> Ponyo: Uma Amizade que Veio do Mar </option>
-        <option value="Human/Scarecrow"> Humano/Espantalho </option>
-        <option value="The Secret World of Arrietty"> O Mundo dos Pequeninos </option>
-        <option value="From Up on Poppy Hill"> Da Colina Kokuriko </option>
-        <option value="The Wind Rises"> Vidas ao Vento </option>
-        <option value="The Tale of the Princess Kaguya"> O Conto da Princesa Kaguya </option>
-        <option value="When Marnie Was There"> As Mémorias de Marnie </option>
-      </select>
-      </div>
-    </div>
-    <div class="flex-select">
-      <label for="ordem"> </label>
-      <select placeholder="Ordenação" class="selecao-ordenacao" id="ordem" name="ordem">
-        <option value="selecione"> Ordenação </option>
-        <option value="A-Z"> A-Z </option>
-        <option value="Z-A"> Z-A </option>
-      </select>
-    </div>
-
+    
+    </section>
 
     <!-- -----------cards com imagem------------ -->
 
     <section class="listaPersonagem" id="listaPersonagem"></section>
+  
   </main>
 
   <footer>
