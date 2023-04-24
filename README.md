@@ -1,5 +1,8 @@
 # 💖 Inventário de personagens do Studio Ghibli 💟
 
+
+link do GitHub Pages https://florahaus.github.io/SAP009-data-lovers/
+
 ## Índice 🧵
 
 * [1. Resumo do projeto 📑](#1-resumo-do-projeto📑)
