@@ -40,8 +40,8 @@
 }
 
 .link-netflix {
-    width: 13rem; 
-    height: 4rem; 
+    width: 10vw; 
+    height: 6vh; 
     background-color: #f3e9d8;
     border: double;
     border-color: #e7d8bf;
@@ -52,13 +52,47 @@
   a{
     color: #386858;
     font-family: 'Libre Baskerville', serif;
-    font-size: 1rem;
+    font-size: 1vw;
+    overflow-wrap: break-word;
+    text-align: center;
   }
   
 .link-netflix:hover {
     background-color:#E0C18A; 
   }
-
+@media screen and (max-width: 700px){
+  /* MAX WIDTH = TELA MENORES QUE ALGUMA RESOLUÇÃO */
+  .icone-header{
+    display: none;
+  }
+  .header-container{
+    display: flex;
+  
+}
+  .titulo{
+    margin-left: 1.5rem;
+    font-size: 2rem;
+ }
+  .link-netflix{
+    display: flex;
+    margin-right: 2rem;
+    width: 100%;
+    max-width: 9rem;
+    height: 4rem;
+    margin-left: 1rem;
+ }
+  a{
+     font-size: 1.5rem;
+     text-align: center;
+     align-self: center;
+     width: 100%;
+ }
+  .forms{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 body{
     margin: 0;
     padding: 0;
@@ -70,30 +104,37 @@ main {
     align-items: center;
     align-content: center;
     height: 100vh;
-    width: 85rem;
+    width: 85vw;
     margin: 0 auto; 
     background-color:rgba(76, 140, 135, 0.019);
 }
 
 .texto{
-    margin-top: 12rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 5rem;
+    font-size: 5vw;
     color: #f3e9d8;
     text-align: center;
+    overflow-wrap: break-word;
 }
-
+.forms{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -2rem;
+}
 .selecao-genero{
     background-color: #f3e9d8;
     border-radius: 10px;
     font-family: 'Libre Baskerville', serif;
-    margin: 2rem;
+    margin: 1rem;
 } 
 .selecao-especie {
     background-color: #f3e9d8;
     border-radius: 10px;
     font-family: 'Libre Baskerville', serif;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .listaPersonagem { 

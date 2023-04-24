@@ -1,118 +1,80 @@
-import { calculo, getPeople, filterByGender, filterBySpecies, filterByName, filterByFilms, getFilmsWithPeople } from '../src/data.js';
+import {filtroGenero, filtroEspecie} from '../src/data.js';
+const Pazu = {
+  "name": "Pazu",
+  "gender": "Male",
+  "specie": "Human"
+}
 
+const Catbus  = {
+  "name": "Catbus",
+  "gender": "Male",
+  "specie": "Cat"
+}
 
-// função getPeople
-describe('getPeople', () => {
-  it('is a function', () => {
-    expect(typeof getPeople).toBe('function');
-  });
+const Kiki = {
+  "name": "Kiki",
+  "gender": "Female",
+  "specie": "Witch"
+}
 
-  it('should return an array with all people', () => {
-    const films = [
-      { people: ['Pazu', 'Kiki'] },
-      { people: ['Toto', 'Totoro'] },
-    ];
-    const allPeople = ['Pazu', 'Kiki', 'Toto', 'Totoro'];
-    expect(getPeople(films)).toEqual(allPeople);
-  });
+const personagensGhibli = [Pazu,Catbus,Kiki]
+it ("Deve filtrar personagens por gênero", ( ) => {
+  const resultFiltrado = filtroGenero(personagensGhibli, "Female")
+  expect(resultFiltrado).toEqual([Kiki])
 });
-
-
-//função filterByGender
-describe('filterByGender', () => {
-  it('is a function', () => {
-    expect(typeof filterByGender).toBe('function');
-  });
-
-  it('should return an array with the gender female', () => {
-    const people = [
-      { name: 'Kiki', gender: 'female' }, 
-      { name: 'Pazu', gender: 'male' }, 
-    ];
-    const gender = 'female';
-    expect(filterByGender(people, gender)).toEqual([{ name: 'Kiki', gender: 'female' }]);
-  });
-});
-
-//função filterBySpecies
-describe('filterBySpecies', () => {
-  it('is a function', () => {
-    expect(typeof filterBySpecies).toBe('function');
-  });
-
-  it('should return an array with the species', () => {
-    const people = [
-      { name: 'Kiki', specie: 'human' }, 
-      { name: 'Catbus', specie: 'cat' }, 
-    ];
-    const specie = 'cat';
-    expect(filterBySpecies(people, specie)).toEqual([{ name: 'Catbus', specie: 'cat' }]);
-  });
-});
-
-
-//função filterByFilms
-describe('filterByFilms', () => {
-  it('is a function', () => {
-    expect(typeof filterByFilms).toBe('function');
-  });
-
-  it('should return an array with the people in the movie', () => {
-    const people = [
-      { name: 'Gina', film: 'Porco Rosso' }, 
-      { name: 'Rie', film: 'Only Yesterday' }, 
-    ];
-    const film = 'Porco Rosso';
-    expect(filterByFilms(people, film)).toEqual([{ name: 'Gina', film: 'Porco Rosso' }]);
-  });
+it ("Deve filtrar personagens por espécie", ( ) => {
+  const resultadoFiltrado = filtroEspecie(personagensGhibli, "Cat")
+  expect(resultadoFiltrado).toEqual([Catbus])
 });
 
 
 
-// função getFilmsWithPeople
-describe('getFilmsWithPeople', () => {
-  it('is a function', () => {
-    expect(typeof getFilmsWithPeople).toBe('function');
-  });
 
-  it('should return an array with all people from the given movie', () => {
-    const films = [
-      { people: ['Castorp', 'Caproni'], film: ['The Wind Rises'] },
-      { people: ['Oroku', 'Gonta'], film: ['Pom Poko'] },
-    ];
-    const filmTitle = 'Pom Poko';
-    const people = getFilmsWithPeople(films, filmTitle);
-    expect(getFilmsWithPeople(films)).toEqual(people);
-  });
-});
-  
 
-//função filterByName
-describe('filterByName', () => {
-  it('is a function', () => {
-    expect(typeof filterByName).toBe('function');
-  });
 
-  it('should return an array with the name', () => {
-    const people = [
-      { name: 'Kiki' }, 
-      { name: 'Pazu' }, 
-    ];
-    const name = 'Kiki';
-    expect(filterByName(people, name)).toEqual([{ name: 'Kiki'}]);
-  });
-});
 
-//calculo agregado
-describe('calculo', () => {
-  it('is a function', () => {
-    expect(typeof calculo).toBe('function');
-  });
 
-  it('should return a string with the percentage', () => {
-    const tipo = 10;
-    const total = 100;
-    expect(calculo(tipo, total)).toEqual('10.0');
-  });
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //describe recebe um título e uma função;
+// describe('exemplo', () => {
+//   it('is a function', () => {
+//     expect(typeof exemplo).toBe('function');
+//   });
+
+//   it('return `exemplo`', () => {
+//     expect(exemplo()).toBe("exemplo");
+//   });
+// });
+
+// describe('outroExemplo', () => {
+//   it('is a function', () => {
+//     expect(typeof outroExemplo).toBe('function');
+//   });
+
+//   it('return `outroExemplo`', () => {
+//     expect(outroExemplo()).toBe("OMG");
+//   });
+// });
 
