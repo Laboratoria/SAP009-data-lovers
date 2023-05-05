@@ -32,7 +32,7 @@
 
 ## 1. Resumo do projeto
 <div align="justify">
-Neste projeto, contruimos uma página web para visualizar um conjunto (set) de dados que se adeque às necessidades de seu usuário.
+Neste projeto, construimos uma página web para visualizar um conjunto (set) de dados que se adeque às necessidades de seu usuário.
 
 Temos uma página web que permite visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado. Por cálculo agregado nos referimos aos diversos cálculos que podem ser feitos com os dados para mostrar a informação mais relevante para os usuários (médias, valores máximos e mínimos, etc).
 
