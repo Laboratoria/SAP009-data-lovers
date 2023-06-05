@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Julius+Sans+One&family=Libre+Baskerville&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+.fundo {
+    background: hsla(175, 32%, 40%, 1);
+    background: linear-gradient(180deg, hsla(175, 32%, 40%, 1) 0%, hsla(175, 30%, 47%, 1) 17%, hsla(175, 30%, 47%, 1) 32%, hsla(128, 15%, 70%, 1) 55%, hsla(38, 60%, 77%, 1) 100%);
+    height: 100vh; 
+    background-attachment: fixed;
+}
+
+.header-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0rem;
+    background-color: rgb(76, 140, 135);
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    z-index: 999; /* valor alto para garantir que esteja sempre sobreposto */
+  }
+  
+
+  .icone-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    align-items: flex-start; 
+  }
+  
+
+.titulo {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3rem;
+    color: #f3e9d8;
+    align-self: center;
+}
+
+.link-netflix {
+    width: 10vw; 
+    height: 6vh; 
+    background-color: #f3e9d8;
+    border: double;
+    border-color: #e7d8bf;
+    border-radius: 1.5rem; 
+    margin-top: 2vh;
+    transition: background-color 0.3s ease; 
+  }
+  a{
+    color: #386858;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1vw;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  
+.link-netflix:hover {
+    background-color:#E0C18A; 
+  }
+@media screen and (max-width: 700px){
+  /* MAX WIDTH = TELA MENORES QUE ALGUMA RESOLUÇÃO */
+  .icone-header{
+    display: none;
+  }
+  .header-container{
+    display: flex;
+  
+}
+  .titulo{
+    margin-left: 1.5rem;
+    font-size: 2rem;
+ }
+  .link-netflix{
+    display: flex;
+    margin-right: 2rem;
+    width: 100%;
+    max-width: 9rem;
+    height: 4rem;
+    margin-left: 1rem;
+ }
+  a{
+     font-size: 1.5rem;
+     text-align: center;
+     align-self: center;
+     width: 100%;
+ }
+  .forms{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 85vw;
+    margin: 0 auto; 
+    background-color:rgba(76, 140, 135, 0.019);
+}
+
+.texto{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 5vw;
+    color: #f3e9d8;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.forms{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -2rem;
+}
+.selecao-genero{
+    background-color: #f3e9d8;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    margin: 1rem;
+} 
+.selecao-especie {
+    background-color: #f3e9d8;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    margin: 1rem;
+}
+
+.listaPersonagem { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+} 
+
+.card {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background-color: #f3e9d821;
+    border-radius: 1rem;
+    border-style: double;
+    border-color: #f3e9d8;
+    margin: 1rem;
+}
+.imgPers{
+   align-self: center;
+   margin-left: 0.7rem;
+   width: 170px;
+   height: 270px;
+   border-radius: 1rem;
+}
+

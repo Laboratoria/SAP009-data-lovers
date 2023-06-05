@@ -1,12 +1,82 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Ghibli</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- ------cabeçalho----- -->
+
+<body class="fundo">
+  <header>
+    <nav class="header-container">
+      <img class="icone-header" src="icone-header.png" alt="Ícone">
+      <h1 class="titulo"> Studio Ghibli </h1>
+      <button class="link-netflix">
+        <a href="https://www.netflix.com/browse/genre/81227213"> Quero Assistir!</a>
+      </button>
+    </nav>
+  </header>
+
+
+  <!-- ----------- selects-------  -->
+
+
+  <main>
+    <p class="texto"> Inventário de Personagens</p>
+    
+    <section class="forms">
+      <label for="genero"></label>
+      <select placeholder="Selecione o gênero" class="selecao-genero" id="genero">
+        <option selected disabled value=""> Selecione o gênero </option>
+        <option value="Female"> ♀️ Feminino </option>
+        <option value="Male"> ♂️ Masculino </option>
+      </select>
+    
+    
+      <label for="especie"> </label>
+      <select placeholder="Selecione a espécie" class="selecao-especie" id="especie">
+        <option selected disabled value=""> Selecione a espécie </option>
+        <option value="Human"> Humano </option>
+        <option value="Totoro"> Totoro </option>
+        <option value="Cat"> Gato </option>
+        <option value="Witch"> Bruxa </option>
+        <option value="Raccoon Dog"> Guaxinim </option>
+        <option value="Red Elk"> Alce Vermelho </option>
+        <option value="Spirit"> Espírito </option>
+        <option value="Wolf"> Lobo </option>
+        <option value="Deity, Dragon"> Divindade, Dragão </option>
+        <option value="Spirit of The White Fox"> Espírito da Raposa Branca </option>
+        <option value="unknown"> Desconhecido </option>
+        <option value="Bird"> Pássaro </option>
+        <option value="Wizard"> Mago(a) </option>
+        <option value="Witch/Human"> Bruxo/Humano </option>
+        <option value="Demon"> Demônio </option>
+        <option value="Human/Scarecrow"> Humano/Espantalho </option>
+        <option value="Dog"> Cachorro </option>
+        <option value="Arch-mage/Human"> Arquimago/Humano </option>
+        <option value="Fish/Human"> Peixe/Humano </option>
+        <option value="Deity"> Divindade </option>
+        <option value="Borrower"> Mutuário </option>
+      </select>
+    
+    </section>
+
+    <!-- -----------cards com imagem------------ -->
+
+    <section class="listaPersonagem" id="listaPersonagem"></section>
+  
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="main.js" type="module"></script>
+  <script src="data.js"></script>
+</body>
+
 </html>

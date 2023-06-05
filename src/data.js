@@ -1,9 +1,12 @@
-// estas funciones son de ejemplo
+export {filtroGenero, filtroEspecie};
+function filtroGenero(personagens, generoEscolhido) {
+  return personagens.filter((personagem) => {
+    return personagem.gender === generoEscolhido
+  })
+}
 
-export const example = () => {
-  return 'example';
-};
-
-export const anotherExample = () => {
-  return 'OMG';
-};
+function filtroEspecie(personagens, especieEscolhida) {
+  return personagens.filter((personagem) => {
+    return personagem.specie === especieEscolhida
+  })
+}

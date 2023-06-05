@@ -1,23 +1,80 @@
-import { example, anotherExample } from '../src/data.js';
+import {filtroGenero, filtroEspecie} from '../src/data.js';
+const Pazu = {
+  "name": "Pazu",
+  "gender": "Male",
+  "specie": "Human"
+}
 
+const Catbus  = {
+  "name": "Catbus",
+  "gender": "Male",
+  "specie": "Cat"
+}
 
-describe('example', () => {
-  it('is a function', () => {
-    expect(typeof example).toBe('function');
-  });
+const Kiki = {
+  "name": "Kiki",
+  "gender": "Female",
+  "specie": "Witch"
+}
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
+const personagensGhibli = [Pazu,Catbus,Kiki]
+it ("Deve filtrar personagens por gênero", ( ) => {
+  const resultFiltrado = filtroGenero(personagensGhibli, "Female")
+  expect(resultFiltrado).toEqual([Kiki])
+});
+it ("Deve filtrar personagens por espécie", ( ) => {
+  const resultadoFiltrado = filtroEspecie(personagensGhibli, "Cat")
+  expect(resultadoFiltrado).toEqual([Catbus])
 });
 
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
-  });
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
-  });
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //describe recebe um título e uma função;
+// describe('exemplo', () => {
+//   it('is a function', () => {
+//     expect(typeof exemplo).toBe('function');
+//   });
+
+//   it('return `exemplo`', () => {
+//     expect(exemplo()).toBe("exemplo");
+//   });
+// });
+
+// describe('outroExemplo', () => {
+//   it('is a function', () => {
+//     expect(typeof outroExemplo).toBe('function');
+//   });
+
+//   it('return `outroExemplo`', () => {
+//     expect(outroExemplo()).toBe("OMG");
+//   });
+// });
+
